@@ -1,7 +1,7 @@
 site_name: NHS Data Science
-site_url: https://nhsdigital.github.io/data_science
-repo_url: https://github.com/NHSDigital/data_science_site
-repo_name: NHS Data Science
+site_url: https://nhsengland.github.io/datascience
+repo_url: https://github.com/NHSEngland/datascience
+repo_name: NHS England Data Science
 edit_uri: edit/main/docs/
 plugins:
   - git-revision-date-localized:
