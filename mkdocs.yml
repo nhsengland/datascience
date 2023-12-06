@@ -1,0 +1,94 @@
+site_name: NHS Data Science
+site_url: https://nhsdigital.github.io/data_science
+repo_url: https://github.com/NHSDigital/data_science_site
+repo_name: NHS Data Science
+edit_uri: edit/main/docs/
+plugins:
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  - search
+  - awesome-pages
+  - mkdocs-jupyter:
+      include_source: True
+      theme: dark
+nav:
+  - Home: index.md
+  - What is Data Science?:
+      - ... | what_is_data_science/*.md
+  - Articles:
+      - ... | articles/*.md
+  - Case Studies / Projects:
+      - ... | our_work/*.md
+  - Tools: 
+      - ... | tools/*.md
+  - Playbooks: playbooks.md
+  - Codebases: codebases.md
+  - About the team: about.md
+  - Meta Page: meta_page.md
+  - Useful links: useful_links.md
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    scheme: default
+    primary: indigo
+  font:
+    text: Arial
+  logo: images/logo/nhs-blue-on-white.jpg
+  favicon: images/favicon/favicon.ico
+  features:
+    - search.share
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+  icon:
+    admonition:
+      <type>: material/alert
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - pymdownx.tasklist:
+      # clickable_checkbox: true
+      custom_checkbox: true
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/NHSDigital/data_science_site
+      name: NHS Digital Analytical Services
+  generator: false
+copyright: Copyright &copy; 2023 Crown Copyright (NHS England)
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+watch:
+  - overrides
