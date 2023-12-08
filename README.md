@@ -1,6 +1,6 @@
 # [NHS England Data Science](https://NHSDigital.github.io/data-science/)
-![CI](https://github.com/NHSDigital/data_science_site/actions/workflows/pages-build-deployment.yml/badge.svg "CI badge indicating passing or failing status")
-[![Release Version](https://img.shields.io/github/v/release/nhsdigital/data_science_site "Release version")](https://github.com/NHSDigital/data_science_site/releases)
+![CI](https://github.com/nhsengland/datascience/actions/workflows/pages-build-deployment.yml/badge.svg "CI badge indicating passing or failing status")
+[![Release Version](https://img.shields.io/github/v/release/nhsengland/datascience "Release version")](https://github.com/nhsengland/datascience/releases)
 [![MkDocs Material](https://img.shields.io/badge/style-MkDocs%20Material-darkblue "Markdown Style: MkDocs")](https://squidfunk.github.io/mkdocs-material/reference/)
 [![licence: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://opensource.org/licenses/MIT "MIT License")
 [![licence: OGL3](https://img.shields.io/badge/Licence-OGL3-darkgrey "licence: Open Government Licence 3")](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
@@ -14,7 +14,9 @@
 
 **Welcome to the landing page for the NHS England Data Science Team.**
 
-Visit our [website](https://NHSDigital.github.io/data-science/) for more information about our work!
+Visit our [website](https://nhsengland.github.io/datascience/) for more information about our work!
+
+[<kbd> <br> Data Science team website <br> </kbd>](https://nhsengland.github.io/datascience/)
 
 
 ## Licence
