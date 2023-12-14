@@ -4,7 +4,6 @@ title: Creating a Generic Adversarial Attack for any Synthetic Dataset
 permalink: c339_sas.html
 ---
 
-# {{page.title}}
 > | "Can the privacy of a generated dataset be assessed through downstream adversarial attacks to highlight the risk of reidentificiation "   
 
 <p align="center">

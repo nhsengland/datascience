@@ -4,7 +4,6 @@ title: Adding a Clinical Focus to Evaulating Multi-Modal Data Representations
 permalink: p31_txtrayalign2.html
 ---
 
-# {{page.title}}
 > | "How to validate synthetic text generated from images for healthcare applications."   
 
 <p align="center">

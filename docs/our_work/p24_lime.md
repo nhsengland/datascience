@@ -4,7 +4,6 @@ title: Investigating Superpixels in LIME for Explaining Predictions of Facial Im
 permalink: p24_lime.html
 ---
 
-# {{page.title}}
 > | "Investigating explainability algorithms for granular healthcare images"   
 
 <p align="center">

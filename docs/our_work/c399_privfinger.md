@@ -4,7 +4,6 @@ title: Building a Tool to Assess the Privacy Risk of Text Data
 permalink: c399_privfinger.html
 ---
 
-# {{page.title}}
 > | "Can we generate usable privacy scores for text data to support understanding of privacy concerns and the anonymisation process "   
 
 <p align="center">
