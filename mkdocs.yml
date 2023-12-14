@@ -11,6 +11,7 @@ plugins:
   - mkdocs-jupyter:
       include_source: True
       theme: dark
+  - macros
 nav:
   - Home: index.md
   - What is Data Science?:

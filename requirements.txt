@@ -15,6 +15,7 @@ mkdocs-material
 mkdocs-material-extensions
 mkdocs-jupyter
 mkdocs-awesome-pages-plugin
+mkdocs-macros-plugin
 packaging
 pyparsing
 Pygments
