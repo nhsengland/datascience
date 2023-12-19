@@ -2,10 +2,9 @@
 title: 'Using machine learning to identify patients at risk of long term hospital stays'
 summary: 'Machine learning using historical data from Gloucestershire Hospitals NHS Foundation Trust to predict how long a patient will stay in hospital upon admission.'
 category: 'CaseStudies'
+origin: 'Skunkworks'
+tags: ['synthetic staining','classification','deep learning', 'pathology', 'neural networks']
 ---
-
-<Tags title="" tags={['synthetic staining','classification','deep learning', 'pathology', 'neural networks']} />
-
 
 ## Info
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-machine-learning-to-identify-patients-at-risk-of-long-term-hospital-stays/) on the NHS England Transformation Directorate website.
@@ -91,3 +90,6 @@ Accelerated Capability Environment (ACE) is part of the Homeland Security Group 
 ACE is designed to bring innovation at pace, accelerating the process from defining a problem to developing a solution and delivering practical impact to just 10 to 12 weeks.
 
 Polygeist, a software company specialising in state-scale analytics, builds world-leading AI technology for defence, national security, law enforcement, and healthcare customers. The team for this project was able to produce a live system, producing insights, from a standing start, in 12 weeks.
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

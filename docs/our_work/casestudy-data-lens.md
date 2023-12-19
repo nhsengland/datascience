@@ -2,10 +2,9 @@
 title: 'Data Lens: a fast-access data search in multiple languages'
 summary: 'Data Lens brings together information about multiple databases, providing a fast-access search in multiple languages.'
 category: 'CaseStudies'
+origin: 'Skunkworks'
+tags: ['natural language processing','semantic search','scraping']
 ---
-
-<Tags title="" tags={['natural language processing','semantic search','scraping']} />
-
 
 ## Info
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/data-lens-a-fast-access-data-search-in-multiple-languages/) on the NHS England Transformation Directorate website.
@@ -71,3 +70,5 @@ The team brought in metadata from NHS Digital, NHS England and Improvement, Publ
 – Simon Christoforato, CEO of ACE’s Vivace supplier community.
 
 
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

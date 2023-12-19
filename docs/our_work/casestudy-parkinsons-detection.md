@@ -2,10 +2,9 @@
 title: 'Identifying and quantifying Parkinson’s Disease using AI on brain slices'
 summary: 'This project developed an approach to enhance the identification of biomarkers which are indicative of Parkinson’s Disease, and explored whether automated identification of Parkinson’s Disease in these slices is possible'
 category: 'CaseStudies'
+origin: 'Skunkworks'
+tags: ['synthetic staining','classification','deep learning', 'pathology', 'neural networks']
 ---
-
-<Tags title="" tags={['synthetic staining','classification','deep learning', 'pathology', 'neural networks']} />
-
 
 ## Info
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/identifying-and-quantifying-parkinsons-disease-using-ai-on-brain-slices/) on the NHS England Transformation Directorate website.
@@ -42,14 +41,8 @@ Synthetic staining of the brain slice image refers to taking the original images
 
 The chosen algorithm was a pre-trained type of neural network which had been specifically designed to understand colour, texture and spatial elements of an image. The neural network is provided with hints as to the colours of certain elements in an image. Using this information, and the algorithm’s own understanding of colour, texture and space within images, the algorithm attempts to colour the entire image. The results produced were successful in highlighting α-syn proteins very clearly. Additionally, it was seen that in brain slices without any α-syn proteins, the synthetic staining tended to not incorrectly stain these images. More details on the approach used can be found in the technical report ([here](https://www.biorxiv.org/content/10.1101/2022.08.30.505459v1)).
 
-
-
-<figure>
-
-![Bed allocation screenshot](images/Parkinsons_synthetic_brain_slices.width-800.png)
-
-<figcaption align = "center">Figure 1: An example of the synthetic staining process. a) the original slide, containing the α-syn proteins stained in a brownish colour b) a processed version of the original slide, filtered for the brownish colour c) the synthetically stained image after the algorithm has been applied to it. The α-syn proteins are now highlighted in a greenish colour.</figcaption>
-</figure>
+![Bed allocation screenshot](../images/Parkinsons_synthetic_brain_slices.width-800.png)
+> **Figure 1**: An example of the synthetic staining process. a) the original slide, containing the α-syn proteins stained in a brownish colour b) a processed version of the original slide, filtered for the brownish colour c) the synthetically stained image after the algorithm has been applied to it. The α-syn proteins are now highlighted in a greenish colour.
 
 ### Identifying presence of Parkinson’s Disease
 With the ability to synthetically stain images, the next stage of the project could be attempted. This step aimed to classify images of brain slices into whether or not evidence of Parkinson’s Disease was present in the image. For this, a particular type of Neural Network which had previously been demonstrated to work quickly on large datasets. This was important, as while powerful computers were used, the selection of an inappropriate algorithm might have meant that no useful results could be obtained within the 12 week time frame.
@@ -80,3 +73,5 @@ ACE is designed to bring innovation at pace, accelerating the process from defin
 Polygeist, a software company specialising in state-scale analytics, builds world-leading AI technology for defence, national security, law enforcement, and healthcare customers. The team for this project was able to produce a live system, producing insights, from a standing start, in 12 weeks.
 
 
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

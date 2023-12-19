@@ -2,10 +2,9 @@
 title: 'Using deep learning to detect adrenal lesions in CT scans'
 summary: 'Augmenting the detection of adrenal incidentalomas in patients’ CT scans.'
 category: 'CaseStudies'
+origin: 'Skunkworks'
+tags: ['vision AI','classification','deep learning', 'pathology', 'neural networks']
 ---
-
-<Tags title="" tags={['vision AI','classification','deep learning', 'pathology', 'neural networks']} />
-
 
 ## Info
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-deep-learning-to-detect-adrenal-lesions-in-ct-scans/) on the NHS England Transformation Directorate website.
@@ -38,10 +37,7 @@ Due to the intrinsic nature of CT scans (e.g., a high operating cost, limited nu
 
 To overcome some of the disadvantage of training a 3D deep learning model, we took a 2.5D deep learning model approach in this case study. Training the model using 2.5D images enables our deep learning model to still learn from the 3D features of the CT scans, while increasing the number of training and testing data points in this study. Moreover, we can apply 2D deep learning models to the set of 2.5D images, which allow us to apply transfer learning to train our own model further based on the knowledge learned by other deep learning applications (e.g., ImageNet, and the NHS AI Lab’s National COVID-19 Chest Imaging Database).
 
-<figure>
-![Adrenal flow of transfer](images/Flow_of_transfer.width-800.png)
-</figure>
-
+![Adrenal flow of transfer](../images/Flow_of_transfer.width-800.png)
 
 #### Classification of 3D CT scans
 To perform the binary classification on the overal CT scans (instead of a single 2.5D image), the classification results from each individual 2.5D image that make up a CT scan are considered.
@@ -52,11 +48,7 @@ To connect the classification prediction results from the 2.5D images to the CT 
 
 To prepare the CT scans for this case study (region of interest focus on the adrenal grands), we also developed a manual 3D cropping tool for CT scans. This cropping applied to all three dimensions, including a 1D cropping to select the appropriate axial slices and a 2D cropping on each axial slice. The final cropped 3D image covered the whole adrenal gland on both sides with some extra margin on each side.
 
-
-<figure>
-![Adrenal cropping](images/Cropping_process.width-800.png)
-</figure>
-
+![Adrenal cropping](../images/Cropping_process.width-800.png)
 
 ### Outcomes and lessons learned
 
@@ -77,3 +69,5 @@ This proof-of-concept model demonstrates the ability and potential of applying s
 
 This project was a collaboration between the NHS AI Lab Skunkworks, within the Transformation Directorate at NHS England and NHS Improvement, and University Hospitals of North Midlands NHS Trust.
 
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

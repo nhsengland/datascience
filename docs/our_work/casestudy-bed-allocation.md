@@ -2,10 +2,9 @@
 title: 'Improving hospital bed allocation using AI'
 summary: 'An investigation of AI techniques that could be used to generate options for moving patients in a way that supports the human team to make the best decisions. '
 category: 'CaseStudies'
+origin: 'Skunkworks'
+tags: ['bed management','bayesian forecasting','monte carlo tree search','greedy allocation']
 ---
-
-<Tags title="" tags={['bed management','bayesian forecasting','monte carlo tree search','greedy allocation']} />
-
 
 ## Info
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/improving-hospital-bed-allocation-using-ai/) on the NHS England Transformation Directorate website.
@@ -99,3 +98,6 @@ Accelerated Capability Environment (ACE) is part of the Homeland Security Group 
 ACE is designed to bring innovation at pace, accelerating the process from defining a problem to developing a solution and delivering practical impact to just 10 to 12 weeks.
 
 Faculty is an applied AI company that helps build and accelerate an organisation's AI capability. They offer a range of software and services solutions. Faculty works with a number of high-profile brands globally as well as government departments and agencies.
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

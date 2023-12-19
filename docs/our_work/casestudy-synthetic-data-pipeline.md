@@ -2,10 +2,9 @@
 title: 'Exploring how to create mock patient data (synthetic data) from real patient data'
 summary: 'The generation of safe and effective synthetic data to be used in technologies that improve health and social care.'
 category: 'CaseStudies'
+origin: 'Skunkworks'
+tags: ['synthetic data','variational autoencoder','privacy','quality','utility','kedro']
 ---
-
-<Tags title="" tags={['synthetic data','variational autoencoder','privacy','quality','utility','kedro']} />
-
 
 ## Info
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/exploring-how-to-create-mock-patient-data-synthetic-data-from-real-patient-data/) on the NHS England Transformation Directorate website.
@@ -96,3 +95,6 @@ This project was a collaboration between the NHS AI Lab Skunkworks and the Analy
 The NHS AI Lab Skunkworks is a team of data scientists, engineers and project leaders who support the health and social care community to rapidly progress ideas from the conceptual stage to a proof of concept.
 
 The Analytics Unit consists of a team of analysts, economists, data scientists and data engineers who provide leadership to other analysts who are working in the system and raise data analysis up the health and care system agenda.
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

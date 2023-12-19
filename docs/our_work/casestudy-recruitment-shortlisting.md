@@ -2,10 +2,9 @@
 title: 'Examining whether recruitment data can, and should, be used to train AI models for shortlisting interview candidates'
 summary: 'Identify where bias has potential to occur when using machine learning for shortlisting interview candidates and mitigate it'
 category: 'CaseStudies'
+origin: 'Skunkworks'
+tags: ['nlp', 'neural networks']
 ---
-
-<Tags title="" tags={['nlp', 'neural networks']} />
-
 
 ## Info
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/examining-whether-recruitment-data-can-and-should-be-used-to-train-ai-models-for-shortlisting-interview-candidates/) on the NHS England Transformation Directorate website.
@@ -30,12 +29,11 @@ When talking about bias by the predictive model, the model was determined to hav
 
 Bias can also be identified by looking at integrity of the source data (looking at factors such as the way it was collected) or sufficiency (see [here](https://en.wikipedia.org/wiki/Fairness_(machine_learning)#:~:text=of%20a%20model.%22-,Sufficiency,-%5Bedit%5D)) of the data
 
-
-
-<figure>
-![Bed allocation screenshot](images/Recruitment_graph.width-800.png)
-<figcaption align = "center">Figure 1: An example of the synthetic staining process. a) the original slide, containing the α-syn proteins stained in a brownish colour b) a processed version of the original slide, filtered for the brownish colour c) the synthetically stained image after the algorithm has been applied to it. The α-syn proteins are now highlighted in a greenish colour.</figcaption>
-</figure>
+![Bed allocation screenshot](../images/Recruitment_graph.width-800.png)
+> **Figure 1**: An example of the synthetic staining process. a) the original slide, containing the α-syn proteins stained in a brownish colour b) a processed version of the original slide, filtered for the brownish colour c) the synthetically stained image after the algorithm has been applied to it. The α-syn proteins are now highlighted in a greenish colour.
 
 > I regularly hear that a bed is a bed and I know it’s not ... But when you have those front door pressures, you can’t get ambulances offloaded and I have beds in the wrong place - this is the time I need the real support, real time data, an automatic risk assessment that is generated for each patient.  
 – Member of bed management staff, Kettering General Hospital
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

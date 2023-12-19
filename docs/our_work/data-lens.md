@@ -2,11 +2,11 @@
 title: 'Data Lens'
 summary: 'Data Lens brings together information about multiple databases, providing a fast-access search in multiple languages.'
 category: 'Projects'
+origin: 'Skunkworks'
+tags: ['natural language processing', 'semantic search', 'scraping']
 ---
 
-<Tags title="" tags={['natural language processing', 'semantic search', 'scraping']} />
-
-![Data Lens screenshot](images/data-lens.png)
+![Data Lens screenshot](../images/data-lens.png)
 
 As the successful candidate from a Dragons’ Den-style project pitch, Data Lens was first picked as a pilot project for the NHS AI (Artificial Intelligence) Lab Skunkworks team in September 2020.
 
@@ -20,3 +20,6 @@ Output|Link
 ---|---
 Open Source Code & Documentation|[Github](https://github.com/nhsx/skunkworks-data-lens)
 Case Study|[Case Study](https://www.nhsx.nhs.uk/ai-lab/explore-all-resources/develop-ai/data-lens-a-fast-access-data-search-in-multiple-languages/)
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

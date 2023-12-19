@@ -2,10 +2,9 @@
 title: 'Sharing AI skills and experience through deep dive workshops with University Hospital Southampton'
 summary: 'What we learned running our AI Deep Dives at University Hospital Southampton'
 category: 'CaseStudies'
+origin: 'Skunkworks'
+tags: ['ai','education','workshops']
 ---
-
-<Tags title="" tags={['ai','education','workshops']} />
-
 
 ## Info
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/understand-ai/sharing-ai-skills-and-experience-through-deep-dive-workshops/) on the NHS England Transformation Directorate website.
@@ -91,3 +90,5 @@ The team at University Hospital Southampton also reported:
 - a need for additional support when identifying and launching AI experiments
 - the importance of diverse groups who represent different roles and teams in order to help the group explore the problem from different perspectives.
 
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

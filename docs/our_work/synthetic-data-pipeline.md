@@ -2,11 +2,12 @@
 title: 'Synthetic Data Generation Pipeline'
 summary: 'Exploring how to create mock patient data from real patient data.'
 category: 'Playbook'
+origin: 'Skunkworks'
+tags: ['synthetic data','variational autoencoder','privacy','quality','utility','kedro']
 ---
 
-<Tags title="" tags={['synthetic data','variational autoencoder','privacy','quality','utility','kedro']} />
 
-![Kedro Pipeline Structure](images/synthetic-data-pipeline.png)
+![Kedro Pipeline Structure](../images/synthetic-data-pipeline.png)
 
 The NHS AI Lab Skunkworks team has been releasing [open-source code](https://www.gov.uk/guidance/be-open-and-use-open-source) from their artificial intelligence (AI) projects since 2021. One of the challenges faced with releasing code is that without suitable test data it is not possible to properly demonstrate AI tools, preventing users without data access from being able to see the tool in action.
 
@@ -113,3 +114,7 @@ Output|Link
 ---|---
 Open Source Code & Documentation|[Github](https://github.com/nhsx/skunkworks-synthetic-data)
 Case Study|[Case Study](https://www.nhsx.nhs.uk/ai-lab/explore-all-resources/develop-ai/exploring-how-to-create-mock-patient-data-synthetic-data-from-real-patient-data/)
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+
+#

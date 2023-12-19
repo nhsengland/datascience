@@ -2,10 +2,9 @@
 title: 'Working with a Trusted Research Environment (TRE) '
 summary: 'An exploration of OpenSafely'
 category: 'CaseStudies'
+origin: 'Skunkworks'
+tags: ['opensafely','TRE']
 ---
-
-<Tags title="" tags={['opensafely','TRE']} />
-
 
 ## Info
 This is a backup of the case study published [here]() on the NHS England Transformation Directorate website.
@@ -156,3 +155,5 @@ Once all the required results have been obtained, the next steps are to analyse 
 The level of access to a vast amount of primary care data makes this platform worth using for future studies. However, the significant time investment required and the need for a certain level of technical skill within the research team should be factored into the decision to undertake a project through OpenSAFELY. Good planning and preparation, such as having the correct software in place prior to starting the study, are essential to ensure smooth running of the project. The co-piloting scheme is extremely helpful, and it is advisable to make best use of the initial co-piloting period to become familiar with OpenSAFELY ways of working.
 
 
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

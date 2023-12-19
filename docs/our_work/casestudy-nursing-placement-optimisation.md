@@ -2,10 +2,9 @@
 title: 'Using AI to find optimal placement schedules for nursing students'
 summary: 'Assessing the development of a genetic algorithm and tool that automatically generates student nurse placement schedules'
 category: 'CaseStudies'
+origin: 'Skunkworks'
+tags: ['genetic algorithm', 'optimisation', 'nursing']
 ---
-
-<Tags title="" tags={['genetic algorithm', 'optimisation', 'nursing']} />
-
 
 ## Info
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-ai-to-find-optimal-placement-schedules-for-nursing-students/) on the NHS England Transformation Directorate website.
@@ -48,10 +47,8 @@ The task posed here is one of optimisation, of which there are many different ap
 
 - Repeat the process hundreds of times until you have found a schedule which meets all your needs.
 
-<figure>
-![Genetic Algorithm Illustration](images/Genetic_algorithm.width-1534.png)
-<figcaption align = "center">A diagram showing how the genetic algorithm works.</figcaption>
-</figure>
+![Genetic Algorithm Illustration](../images/Genetic_algorithm.width-1534.png)
+> A diagram showing how the genetic algorithm works.
 
 Genetic Algorithms will not produce a perfect, optimal solution as the way the problem space is explored is random. This means, while all your requirements will be met, the most varied selection of placements might not be found because it would take too long for the Genetic Algorithm to find that solution. However, a more varied selection of placements will be allocated than at the beginning, or if the process was carried out with the current, manual process.
 
@@ -85,10 +82,8 @@ A simple user interface was produced using Streamlit, an interactive interface f
 
 Once all schedules are produced, a comparison table is both displayed and saved down, summarising the various scoring components and helping the user begin to understand which schedule of those produced might be the best.
 
-<figure>
-![Genetic Algorithm Illustration](images/User_interface.width-1534.png)
-<figcaption align = "center">The User Interface that is seen upon launching the tool.</figcaption>
-</figure>
+![Genetic Algorithm Illustration](../images/User_interface.width-1534.png)
+> The User Interface that is seen upon launching the tool.
 
 
 #### Automating the report
@@ -104,10 +99,8 @@ As part of the tool, the final schedule produced is reported in several differen
 - From a placement hours perspective, providing various summaries of hours across wards, university cohorts and both weekly and quarterly summaries for the mandatory reporting required of the Trust.
 
 
-<figure>
-![Genetic Algorithm Illustration](images/Example_using_fake_data.width-1534.png)
-<figcaption align = "center">An example schedule produced using fake data.</figcaption>
-</figure>
+![Genetic Algorithm Illustration](../images/Example_using_fake_data.width-1534.png)
+> An example schedule produced using fake data.
 
 
 ### Outcomes and lessons learned
@@ -142,3 +135,5 @@ This project was a collaboration between the NHS AI Lab Skunkworks, within the T
 
 NHS AI Lab Skunkworks is a team of data scientists, engineers and project leaders who support the health and social care community to rapidly progress ideas from the conceptual stage to a proof of concept.
 
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

@@ -2,10 +2,9 @@
 title: 'Using AI to support NHS Resolution with negligence claims prediction'
 summary: 'Exploring how AI might help the NHS to understand and identify risk, preventing harm and saving valuable resources.'
 category: 'CaseStudies'
+origin: 'Skunkworks'
+tags: ['classification']]
 ---
-
-<Tags title="" tags={['classification']} />
-
 
 ## Info
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/understand-ai/using-ai-to-support-nhs-resolution-with-negligence-claims-prediction/) on the NHS England Transformation Directorate website.
@@ -88,3 +87,6 @@ In order to demonstrate a reduction in patient harm, more work will need to be d
 Ideally, improving the consistency of the claim reporting methodology across trusts would significantly improve the predictive power of the negligence claims data.
 
 Future improvements to both the data and the model would provide a more accurate forecasting model and more insightful explanations.
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

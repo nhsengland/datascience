@@ -2,10 +2,9 @@
 title: 'Using AI to identify tissue growth from CT scans'
 summary: 'A range of classical and machine learning computer vision techniques to align and detect lesions in anomyised CT scans over time from George Eliot Hospital NHS Trust.'
 category: 'CaseStudies'
+origin: 'Skunkworks'
+tags: ['ct','computer vision','image registration', 'lesion detection']
 ---
-
-<Tags title="" tags={['ct','computer vision','image registration', 'lesion detection']} />
-
 
 ## Info
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-ai-to-identify-tissue-growth-from-ct-scans/) on the NHS England Transformation Directorate website.
@@ -89,3 +88,6 @@ Accelerated Capability Environment (ACE) is part of the Homeland Security Group 
 ACE is designed to bring innovation at pace, accelerating the process from defining a problem to developing a solution and delivering practical impact to just 10 to 12 weeks.
 
 Roke is a long-established science and engineering organisation, providing AI and machine learning expertise and lending technical capabilities to projects with NHS AI Lab Skunkworks.
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#
