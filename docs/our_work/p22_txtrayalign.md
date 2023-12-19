@@ -4,7 +4,6 @@ title: TxtRayAlign
 permalink: p22_txtrayalign.html
 ---
 
-# {{page.title}}
 > | "Generating descriptive text from X-Ray images using contrastive learning on multi-modal data"   
 
 <p align="center">

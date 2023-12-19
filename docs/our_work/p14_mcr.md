@@ -4,7 +4,6 @@ title: Using Model Class Reliance to Understnad the Impact of Commerical Data on
 permalink: p14_mcr.html
 ---
 
-# {{page.title}}
 > | "How to asses the value that commercial sales data of over-the-counter prescriptions has on respiratory death predictions"   
 
 <p align="center">

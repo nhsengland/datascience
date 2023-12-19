@@ -4,7 +4,6 @@ title: Investigating Applying and Evaulating a Language Model to Patient Safety 
 permalink: p33_patientsafetylms.html
 ---
 
-# {{page.title}}
 > | "What's the most suitable models and workflows for represneting an NHS text dataset?"   
 
 <p align="center">

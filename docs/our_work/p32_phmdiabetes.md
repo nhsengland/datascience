@@ -4,7 +4,6 @@ title: Inequalities in Diabetes from PHM Data
 permalink: p32_phmdiabetes.html
 ---
 
-# {{page.title}}
 > | "How to extract inequalities information from linked population health management data"   
 
 <p align="center">

@@ -4,7 +4,6 @@ title: NHS Reproducible Analytical Pipelines (RAP) Champion Squad
 permalink: ds218_rap_community_of_practice.html
 ---
 
-# {{page.title}}
 > | "Our roving squad of RAP champions have helped a number of teams not only transform their pipelines, but also tought them how to train others and produced guidance which is used by many other organisations."   
 
 <p align="center">

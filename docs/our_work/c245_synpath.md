@@ -4,9 +4,6 @@ title: Building the Foundations for a Generic Patient Simulator
 permalink: c245_synpath.html
 ---
 
-
-# {{page.title}}
-
 > | "Developing an agent-based simulation for generating synthetic patient pathways and scenario modelling for healthcare specific implementations."   
 
 <p align="center">

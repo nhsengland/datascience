@@ -4,7 +4,6 @@ title: Investigating Differential Privacy in a Variational AutoEncoder for Synth
 permalink: p12_synthvae.html
 ---
 
-# {{page.title}}
 > | "The initial creation of a variational autoencoder with differential privacy for generating single table tabular gaussian data.  This work demonstrated the feasibility of this approach for healthcare and fed into further interactions of the code base."   
 
 <p align="center">

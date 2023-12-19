@@ -4,7 +4,6 @@ title: Developing our SynthVAE code
 permalink: p21_synthvae2.html
 ---
 
-# {{page.title}}
 > | "Improving our variational autoencoder to consider fairness and to run on non-gaussian distributions"   
 
 <p align="center">

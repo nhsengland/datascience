@@ -4,7 +4,6 @@ title: Text Analysis using Structural Topic Modelling
 permalink: p23_stm.html
 ---
 
-# {{page.title}}
 > | "Using metadata to support better topic modelling of free text responses"   
 
 <p align="center">
