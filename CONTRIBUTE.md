@@ -33,20 +33,7 @@ To increase the likelihood of your pull request being accepted:
 Run the commands (or follow the MkDocs documentation to locally pip install MkDocs):
 
 ```bash
-    # environment.yml
-
-    conda env create -f environment.yml
-    conda activate rap-cop-pages
-
-    ---
-
-    # requirements.txt
-
-    ## using pip
     pip install -r requirements.txt
-
-    ## using Conda
-    conda create --name <env_name> --file requirements.txt
 ```
 
 ### Hosting
@@ -65,6 +52,32 @@ All of the files accessed via the website are nested within the 'docs' folder.
 
 The website currently uses the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/) theme. This sets the layout, colour, font, search bar, header, footer, navigation bar and contents. You can follow the documentation to make any changes (e.g. change the [colour scheme](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/)) as it is simple to use and also easy to overwrite. There is a separate stylesheet, [extra.css](./docs/stylesheets/extra.css), which is used to overwrite the colours, fonts and some of the sizing for some elements.
 Here is a good [cheat sheet](https://yakworks.github.io/docmark/cheat-sheet/) for what features can be used in MkDocs and also interesting features in [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/).
+
+#### Blog / Article
+
+Creating new articles / blog posts is easy:
+* add a markdown file under the [`docs/articles/posts`](./docs/articles/posts) folder.
+    * Note, you do not have to add the blog pages to the `mkdocs.yml` - it gets added to the nav bar automatically.
+* add yourself to the [`docs/articles/posts/.authors.yml`], so your face and info appears next to the article.
+* The markdown file should have some metadata at the start, like the below. For more info on these parameters, see the [mkdocs material blog plugin guidance](https://squidfunk.github.io/mkdocs-material/plugins/blog/).
+
+```
+---
+title: Why we’re getting our data teams to RAP
+authors: [SamHollings]
+date: 2023-01-05
+categories: 
+    - RAP
+    - Python
+links:
+    - https://digital.nhs.uk/blog/data-points-blog/2023/why-were-getting-our-data-teams-to-rap#:~:text=Reproducible%20analytical%20pipelines%20(RAP)%20help,standards%20of%20transparency%20and%20reproducibility.
+slug: rap-in-NHSE
+description: >
+    Reproducible analytical pipelines (RAP) help ensure all published statistics meet the highest standards of transparency and reproducibility. Sam Hollings and Alistair Bullward share their insights on adopting RAP and give advice to those starting out.
+---
+```
+
+
 
 ## Resources
 
