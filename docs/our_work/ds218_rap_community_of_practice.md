@@ -6,12 +6,12 @@ permalink: ds218_rap_community_of_practice.html
 
 > | "Our roving squad of RAP champions have helped a number of teams not only transform their pipelines, but also tought them how to train others and produced guidance which is used by many other organisations."   
 
-<p align="center">
-    <a href="https://nhsdigital.github.io/rap-community-of-practice/"><img src="assets/img/ds218_rap_community_of_practice.png" alt="An image displaying the front page of the NHS RAP Community of Practice website."  width="100%"/></a>
-</p>
-<p align="left">
-    <em>Figure 1: The front page of the RAP Community of Practice website. </em>
-</p>
+<a href = "https://nhsdigital.github.io/rap-community-of-practice/">
+<figure markdown >
+![An image displaying the front page of the NHS RAP Community of Practice website.](../images/ds218_rap_community_of_practice.png) </a>
+<figcaption>Figure 1: The front page of the RAP Community of Practice website.</figcaption>
+</figure>
+
 
 Our Squad of RAP Champions has supported the rollout of RAP across the Analytics area within NHE England. This has involved taking existing guidance on RAP found elsewhere, and interpreting it in the local context of NHSE, making guidance specific to our systems and the problems faced by our analysts. We also put together a program for how to learn RAP, transform pipelines (through the "[thin slice approach](https://nhsdigital.github.io/rap-community-of-practice/our_RAP_service/thin-slice-strategy/)") and [become a RAP champion yourself](https://nhsdigital.github.io/rap-community-of-practice/our_RAP_service/building_team_capability/). 
 
