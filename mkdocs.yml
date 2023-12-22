@@ -19,7 +19,7 @@ nav:
   - What is Data Science?:
       - ... | what_is_data_science/*.md
   - Articles:
-      - ... | articles/**.md
+      - ... | articles/*.md
   - Case Studies / Projects:
       - ... | our_work/*.md
   - Tools: 
