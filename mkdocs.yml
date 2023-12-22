@@ -11,6 +11,9 @@ plugins:
   - mkdocs-jupyter:
       include_source: True
       theme: dark
+  - blog:
+      blog_dir: ./articles
+      authors_file: "{blog}/.authors.yml"
 nav:
   - Home: index.md
   - What is Data Science?:
