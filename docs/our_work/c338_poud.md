@@ -6,12 +6,10 @@ permalink: c338_poud.html
 
 > | "What are the privacy considerations that need to be addressed when dealing with unstructured healthcare text data "   
 
-<p align="center">
-    <img src="assets/img/c338fig1.png" alt=""  width="100%"/>
-</p>
-<p align="left">
-    <em>Figure 1: Figure 4 from Al-Fedaghi, Sabah. (2012). Experimentation with Personal Identifiable Information. Showing an example PII sphere from different perspectives (compund, singleton and multitude personal identifiable information) </em>
-</p>
+<figure markdown>
+![](../images/c338fig1.png)
+<figcaption>Figure 1: Figure 4 from Al-Fedaghi, Sabah. (2012). Experimentation with Personal Identifiable Information. Showing an example PII sphere from different perspectives (compund, singleton and multitude personal identifiable information)</figcaption>
+</figure>
 
 Unstructured data (e.g. text, image, audio) makes up a significant quantity of NHS data but is comparatively underused as an evidence source for analysis. This is often due to the privacy concerns restricting the sharing and use of these data.  
 
@@ -57,8 +55,3 @@ The main output specified was for a list of key qualities that could feed a tool
 | Open Source Code & Documentation | n/a |
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/PrivacyFingerprint/blob/main/reports/PrivacyOfUnstructuredDataReport_Nov2022.pdf) |
-
-|:-|:-|:-|
-|<img src="assets/img/machine_learning_badge_S.png" alt  width="80"/>|<img src="assets/img/data_science_badge_S.png" alt  width="80"/>|
-
-

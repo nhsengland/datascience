@@ -6,11 +6,9 @@ permalink: p31_txtrayalign2.html
 
 > | "How to validate synthetic text generated from images for healthcare applications."   
 
-<p align="center">
-    <img src="assets/img/p31fig1.png" alt=""  width="100%"/>
-</p>
+![](../images/p31fig1.png)
 <p align="left">
-    <em>Figure 1: Proposed clinical workflow applications of ML to radiology - using the CXR workflow as an exmaple.  [CDSS = clinical decision support system, CXR = Chect x-ray, EHR = Electronnic health record, PACS = Picture archiving and communication system] </em>
+    <em>Figure 1: Proposed clinical workflow applications of ML to radiology - using the CXR workflow as an exmaple.  [CDSS = clinical decision support system, CXR = Chect x-ray, EHR = Electronnic health record, PACS = Picture archiving and communication system]</em>
 </p>
 
 The use of Natural Laguage Generation (NLG) for the auto generation of radiology reports has the potential to provide multiple radiology workflow applications. Free text reports pose a challenging task from which to compare NLG outputs due to the "ambiguity, syntax, synonymy, medical abbreviations", use of negation, reference to "out of reach" information, linking of associated findings, and overall individual variation in reporting style seen between different
@@ -36,6 +34,3 @@ report communicating critical findings,
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/txt-ray-align) |
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/txt-ray-align/blob/main/report/TxtRayAlign_Report2_SH.pdf) |
-
-|:-|:-|:-|
-|<img src="assets/img/machine_learning_badge_S.png" alt  width="80"/>|<img src="assets/img/data_science_badge_S.png" alt  width="80"/>|

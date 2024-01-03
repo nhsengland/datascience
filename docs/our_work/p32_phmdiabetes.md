@@ -6,9 +6,7 @@ permalink: p32_phmdiabetes.html
 
 > | "How to extract inequalities information from linked population health management data"   
 
-<p align="center">
-    <img src="assets/img/p32fig1.png" alt=""  width="100%"/>
-</p>
+![](../images/p32fig1.png)
 <p align="left">
     <em>Figure 1: Workflow in ESNEFT tools to process the data into Lower Super Output Area granularity for mapping and analysis</em>
 </p>
@@ -28,6 +26,3 @@ The project was able to both deliver new insights around drivers for inequalitie
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/ESNEFT_diabetes_StephenRicher/blob/main/stephen-richer-report.pdf) |
 | Project Slides | [Here](https://github.com/nhsx/ESNEFT_diabetes_StephenRicher/blob/main/stephen-richer-slides.pdf) |
-
-|:-|:-|:-|
-|<img src="assets/img/data_science_badge_S.png" alt  width="80"/>|<img src="assets/img/forecasting_badge_S.png" alt  width="80"/>|<img src="assets/img/statistics_badge_S.png" alt  width="80"/>|

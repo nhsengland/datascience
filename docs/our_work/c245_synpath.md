@@ -6,12 +6,8 @@ permalink: c245_synpath.html
 
 > | "Developing an agent-based simulation for generating synthetic patient pathways and scenario modelling for healthcare specific implementations."   
 
-<p align="center">
-    <img src="assets/img/c245fig1.png" alt="Overview of data model"  width="100%"/>
-</p>
-<p align="left">
-    <em>Figure 1: Overview of the Synpath data model</em>
-</p>
+![Overview of data model](../images/c245fig1.png)
+<figcaption>Figure 1: Overview of the Synpath data model</figcaption>
 
 A data model (“Patient Agent”) was developed for fake patients to be defined in the simulation.  The patient is then assigned a health record (conditions, medications,  ..) with optional additional attributes. 
 
@@ -30,6 +26,3 @@ Efficient object communication and concurrency were also highlighted needing sig
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/SynPath) |
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/SynPath/blob/master/reports/REDACTED_C245%20ABM%20Patient%20Pathways_Final%20Report_V3_28042021.cleaned.pdf) |
-
-|:-|:-|:-|
-|<img src="assets/img/simulation_badge_S.png" alt  width="80"/>|<img src="assets/img/Synthetic.png" alt  width="80"/>|<img src="assets/img/data_science_badge_S.png" alt  width="80"/>|
