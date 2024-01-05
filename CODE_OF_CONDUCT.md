@@ -1,6 +1,6 @@
-# Code of Conduct for NHS Digital
+# Code of Conduct for NHS England
 
-Contributors to repositories hosted in NHS Digital are expected to
+Contributors to repositories hosted in NHS England are expected to
 follow the Contributor Covenant Code of
 Conduct, and those working within Government are also expected to follow the Civil Service Code.
 
