@@ -1,4 +1,4 @@
-site_name: NHS Data Science
+site_name: NHS England Data Science
 site_url: https://nhsengland.github.io/datascience
 repo_url: https://github.com/NHSEngland/datascience
 repo_name: NHS England Data Science
@@ -86,8 +86,8 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/NHSDigital/data_science_site
-      name: NHS Digital Analytical Services
+      link: https://github.com/nhsengland/datascience
+      name: NHS England Analytical Services
   generator: false
 copyright: Copyright &copy; 2023 Crown Copyright (NHS England)
 extra_javascript:
