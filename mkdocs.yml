@@ -87,7 +87,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/nhsengland/datascience
-      name: NHS England Analytical Services
+      name: NHS England Data Science
   generator: false
 copyright: Copyright &copy; 2023 Crown Copyright (NHS England)
 extra_javascript:
