@@ -1,4 +1,4 @@
-# [NHS England Data Science](https://NHSDigital.github.io/data-science/)
+# [NHS England Data Science](https://nhsengland.github.io/datascience/)
 ![CI](https://github.com/nhsengland/datascience/actions/workflows/pages-build-deployment.yml/badge.svg "CI badge indicating passing or failing status")
 [![Release Version](https://img.shields.io/github/v/release/nhsengland/datascience "Release version")](https://github.com/nhsengland/datascience/releases)
 [![MkDocs Material](https://img.shields.io/badge/style-MkDocs%20Material-darkblue "Markdown Style: MkDocs")](https://squidfunk.github.io/mkdocs-material/reference/)
