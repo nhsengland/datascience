@@ -14,7 +14,8 @@ Some examples of the kinds of problems data science can help with are:
 - **enriching and transforming data**, such as through linkage, feature engineering, artificial and synthetic data generation
 - **classification and regression** - that is saying what something is, or if something will or won't happen, and/or quantifying something unknown.
 
-**Artficial Intelligence** and **Machine Learning** are techniques which are widely associated with Data Science and Data Scientists, and which can be applied to basically any of the problems listed above.
+**Artificial Intelligence** and **Machine Learning** are techniques which are widely associated with Data Science and Data Scientists, and which can be applied to basically any of the problems listed above. See also this article on the ["Seven Patterns of AI"](https://www.forbes.com/sites/cognitiveworld/2019/09/17/the-seven-patterns-of-ai/?sh=448cf51812d0).
+
 
 ??? info "How does Data Scientists differ from Analysts and Data engineers?"
     Data Science can be quite hard to pin down, as it covers a lot of different techniques, and problems, and data scientists themselves often have a lot of overlap with Analysts and Data Engineers. Analysts and Engineers might well use data science techniques in their work!
