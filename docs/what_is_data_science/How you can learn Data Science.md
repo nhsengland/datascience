@@ -8,7 +8,7 @@ You can also learn lot about data science by simply getting to know the wider cr
 
 - [Govt Data Science Community](https://www.gov.uk/service-manual/communities/data-science-community)
 - [NHS R Community](https://nhsrcommunity.com/)
-- [NHS.Pycom](https://analystx.uk/)
+- [NHS.Pycom](https://nhs-pycom.net/)
 - [AnalystX](https://analystx.uk/)
 
 These have some overlap, but each has it's own niche, depending if you want to focus more on Python, R, etc.
