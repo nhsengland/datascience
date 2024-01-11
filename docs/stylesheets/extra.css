@@ -124,9 +124,10 @@ html {
 .slide img {
   width: 280px;
   height: 175px;
-  border: 3px;
+  border: 5px solid #005eb8;
+  border-radius: 10px;
 }
- 
+
 .slide.one {
   transform: rotateY(0deg) translateZ(412px);
 }
