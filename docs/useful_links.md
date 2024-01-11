@@ -28,10 +28,12 @@ The Turing Way)[https://the-turing-way.netlify.app/index.html#] have also produc
 ### Causal Inference
 (The Causal Inference Interest Group (CIIG))[https://www.turing.ac.uk/research/interest-groups/causal-inference] hosts monthly seminars which discuss recent advances in the field of causal inference, from both empirical and formal perspectives. Everyone with an interest in discussing causal inference is very welcome to come along. Causal inference applies robust methodology in order to answer thequestions "How can we distinguish causation from correlation, and in turn find out how one thing influences another?"
 
-## Tools
+## Tools and NHS England Shared Code
 ### The NHS England Secure Data Environment (NHSE SDE)
 - The (NHSE SDE)[https://digital.nhs.uk/services/secure-data-environment-service] is the prefered platform and associated service through which researchers get access to English national level data to preform health research. It is part of the (NHS Research SDE Network)[https://transform.england.nhs.uk/key-tools-and-info/data-saves-lives/accessing-data-for-research-and-analysis/work-in-progress/].
 - Some NHSE Data Scientists function as Data Wranglers for the NHSE SDE service creating research ready datasets, resources, tools and visualisations to allow users to understand the data more easily and facilitate their research.
+### NHS England / Digital Github
+- The (NHS Digital Github)[https://github.com/NHSDigital/data-analytics-services] contains code shared from NHS Digital (and NHS England) projects. Well worth a look.
 
 ## Community spaces
 There are several slack channels that discuss RAP and related topics: the govdatascience.slack.com RAP channel, the NHS-R community, and the NHS-pycom community
