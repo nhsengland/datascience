@@ -7,10 +7,7 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true
   - search
-  - awesome-pages:
-        order: asc
-        sort_type: natural
-        order_by: title
+  - awesome-pages
   - mkdocs-jupyter:
       include_source: True
       theme: dark
