@@ -1,9 +1,10 @@
 ---
-title: 'Parkinson''s Disease Pathology Prediction'
-summary: 'Automatic segmentation and detection of Parkinson’s disease pathology using synthetic staining and deep neural networks'
-category: 'Projects'
-origin: 'Skunkworks'
-tags: ['parkinson\'s disease','synthetic staining','classification','deep learning', 'pathology', 'neural networks']
+layout: base 
+title: Parkinson's Disease Pathology Prediction
+# summary: Automatic segmentation and detection of Parkinson’s disease pathology using synthetic staining and deep neural networks
+# category: Projects
+# origin: Skunkworks
+# tags: ['parkinson\'s disease','synthetic staining','classification','deep learning', 'pathology', 'neural networks']
 ---
 
 ![Parkinson's prediction diagram](../images/parkinsons-detection.png)
@@ -19,6 +20,3 @@ Output|Link
 Open Source Code & Documentation|[Github](https://github.com/nhsx/skunkworks-parkinsons-detection/)
 Technical report|[biorxiv.org](https://www.biorxiv.org/content/10.1101/2022.08.30.505459v1)
 Case Study|[Case Study](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/identifying-and-quantifying-parkinsons-disease-using-ai-on-brain-slices/)
-
-[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
-#
