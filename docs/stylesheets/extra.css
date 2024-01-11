@@ -160,6 +160,166 @@ h1 {
   text-align: center;
 }
 
+.md-main {
+  max-height: 0px;
+}
+
+.container {
+  background: #425563;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+
+  color: var(--md-primary-bg-color);
+}
+
+.hero-image {
+  flex: 3;
+  order: 1;
+}
+
+#hero-img {
+  float: right;
+  object-fit: cover;
+  min-height: 600px;
+}
+
+.hero-content {
+  flex: 2;
+  margin: 1.6rem 0.8rem;
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+
+  color: currentColor;
+  font-weight: 700;
+}
+
+.hero .md-button--primary {
+  background-color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+}
+
+.hero .md-button {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+
+  color: var(--md-primary-bg-color);
+}
+
+.hero .md-button:focus,
+.hero .md-button:hover {
+  color: var(--md-default-bg-color);
+  background-color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+}
+
+.top-hr {
+  margin: 10px;
+  padding: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  flex: 1;
+  flex-basis: 0%;
+  min-width: 300px;
+
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 0 15px;
+
+  background-color: var(--md-primary-fg-color);
+  border: 2px solid var(--md-primary-fg-color);
+  border-radius: 2px;
+
+  font-family: "Arial", sans-serif;
+  font-weight: 300;
+  word-break: break-word;
+}
+
+.feature-item:hover {
+  background-color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+  border-radius: 2px;
+}
+
+.feature-item h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  color: var(--md-default-bg-color);
+  font-weight: 300;
+  font-size: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: normal;
+  font-family: inherit;
+}
+
+.feature-item h2 svg {
+  float: left;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.feature-item p {
+  margin: 0 0 10px;
+
+  font-size: 16px;
+  line-height: 1.8em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: var(--md-default-bg-color);
+
+  display: block;
+}
+
+/* medium screen */
+@media screen and (max-width: 1360px) {
+  .feature-item {
+    flex-basis: 40%;
+  }
+
+  .hero-content {
+    flex: 1;
+  }
+
+  .hero-image {
+    flex: 2;
+  }
+
+  #hero-img {
+    min-height: 400px;
+  }
+}
+
+/* small screen */
+@media screen and (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 1.4rem;
+  }
+
+  .hero-image {
+    flex: 1;
+    order: 0;
+  }
+
+  #hero-img {
+    min-height: 250px;
+  }
+}
+
 /*
 CSS3 ANIMATION
 -------------------
