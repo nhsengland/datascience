@@ -16,14 +16,14 @@ plugins:
       authors_file: "{blog}/.authors.yml"
 nav:
   - Home: index.md
-  - What is Data Science?:
-      - ... | what_is_data_science/*.md
-  - Articles:
-      - ... | articles/*.md
-  - Case Studies / Projects:
-      - ... | our_work/*.md
+  - What is Data Science?: 
+    - ... | flat | what_is_data_science/*.md
+  - Articles:  
+    - ... | flat | articles/*.md
+  - Case Studies / Projects: 
+    - ... | flat | our_work/*.md
   - Tools: 
-      - ... | tools/*.md
+    - ... | flat | tools/*.md
   - Playbooks: playbooks.md
   - Codebases: codebases.md
   - About the team: about.md
