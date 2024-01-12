@@ -1,6 +1,6 @@
 # What is Data Science?
 
-Quoting the [DDaT Capability Framework](https://ddat-capability-framework.service.gov.uk/data-scientist.html):
+Quoting the [Digital, Data and Technology (DDaT) Capability Framework](https://ddat-capability-framework.service.gov.uk/data-scientist.html):
 
 > Data science is a broad and fast-moving field spanning maths, statistics, software engineering and communications. Data scientists will often work as part of a multidisciplinary team, using data and analytics to inform and achieve organisational goals. 
 
@@ -8,7 +8,7 @@ Specifically, this means that often data scientists use programming languages li
 
 Some examples of the kinds of problems data science can help with are:
 
-- **getting more value out of unstructured data** (e.g. text, images, audio) through "Natural Language Processing", Neural Networks and recently "Large Language Models" (e.g. ChatGPT).
+- **getting more value out of unstructured data** (e.g. text, images, audio) through "Natural Language Processing", "Neural Networks" and recently "Large Language Models" (e.g. ChatGPT).
 - **modelling systems and forecasting** (though compared with statisticians and economists, this tends to be more empirical, requiring more focus on evaluation)
 - **explaining existing models and their performance** - communication is a key pillar of data science: making the complex understandable to everyone else.
 - **enriching and transforming data**, such as through linkage, feature engineering, artificial and synthetic data generation
