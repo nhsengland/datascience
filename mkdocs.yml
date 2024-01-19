@@ -22,8 +22,8 @@ nav:
     - ... | flat | articles/*.md
   - Case Studies / Projects: 
     - ... | flat | our_work/*.md
-  - Tools: 
-    - ... | flat | tools/*.md
+  # - Tools: 
+  #   - ... | flat | tools/*.md
   - Playbooks: playbooks.md
   - Codebases: codebases.md
   - About the team: about.md
