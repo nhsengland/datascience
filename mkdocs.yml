@@ -21,12 +21,12 @@ nav:
   - About the team: about.md
   - Articles:  
     - ... | flat | articles/*.md
-  - Case Studies / Projects: 
+  - Projects: 
     - ... | flat | our_work/*.md
   # - Tools: 
   #   - ... | flat | tools/*.md
   - Playbooks: playbooks.md
-  - Codebases: codebases.md
+  # - Codebases: codebases.md
   - Meta Page: meta_page.md
   - Useful links: useful_links.md
 theme:
