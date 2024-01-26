@@ -5,12 +5,15 @@ hide:
 
 # Data Science in NHS England
 
+![Image title](../images/DS_team_photo.jpeg){ width="450" alt-tex="Picture of the Data Science team stood on some steps in London."  align=right }
+
+
 We are the NHS England Data Science Team with a vision: 
 
 > For NHS England to lead on embracing data science in the NHS for the betterment of all our patients and all our staff​. 
 
-<img src=../images/DS_team_photo.jpeg alt-tex="Picture of the Data Science team stood on some steps in London." width="600" >
-</img>
+[Contact Us](mailto:datascience@nhs.net){ .md-button .md-button--primary }
+[See our work](./our_work/){ .md-button}
 
 ## How are we different from analytical teams?
 **Do** – We develop and deploy data science products to make a positive impact on NHS patients and workforce. ​​
