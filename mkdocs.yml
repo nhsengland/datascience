@@ -22,7 +22,7 @@ nav:
   - Articles:  
     - ... | flat | articles/*.md
   - Projects: 
-    - ... | flat | our_work/*.md
+    - ... | flat | regex=our_work/(?!template-project\.md).*\.md
   # - Tools: 
   #   - ... | flat | tools/*.md
   - Playbooks: playbooks.md
