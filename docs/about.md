@@ -65,6 +65,38 @@ We are the NHS England Data Science Team with a vision:
 |Sean Aller | Senior Data Scientist | Central Data Science Team | [seanaller](https://github.com/seanaller) |
 |Hadi Modarres | Senior Data Scientist | Central Data Science Team | [hadimodarres1](https://github.com/hadimodarres1) |
 |Michael Spence | Senior Data Scientist | Central Data Science Team | [mspence-nhs](https://github.com/mspence-nhs) |
+|Harriet Sands | Senior Data Scientist | Central Data Science Team | [harrietrs](https://github.com/harrietrs) |
+|Alice Tapper | Senior Data Scientist | Central Data Science Team | |
+|Ben Wallace | Senior Data Scientist | Central Data Science Team | |
+| Jane Kirkpatrick | Senior Data Scientist | Central Data Science Team ||
+| Kenneth Quan | Senior Data Scientist | Central Data Science Team | [quan14](https://github.com/quan14) |
+| Daniel Goldwater | Senior Data Scientist | Central Data Science Team | [DanGoldwater1](https://github.com/DanGoldwater1) |
+| Shoaib Ali Ajaib | Senior Data Scientist | National SDE Team | |
+| Marek Salamon | Senior Data Scientist | National SDE Team | |
+| Adam Hollings | Senior Data Scientist | National SDE Team | [AdamHollings](https://github.com/AdamHollings) |
+| Oluwadamiloju Makinde | Senior Data Scientist | National SDE Team | |
+| Joseph Wilson | Senior Data Scientist | National SDE Team |[josephwilson8-nhs](https://github.com/josephwilson8-nhs) |
+| Alistair Jones | Senior Data Scientist | National SDE Team | [alistair-jones](https://github.com/alistair-jones) |
+| Nickie Wareing | Senior Data Scientist | National SDE Team | [nickiewareing](https://github.com/nickiewareing) |
+| Helen Richardson | Senior Data Scientist | National SDE Team | [helrich](https://github.com/helrich) |
+| Humaira Hussein | Senior Data Scientist | National SDE Team | [humairahussein1](https://github.com/humairahussein1) |
+| Jake Kasan | Senior Data Wrangler (contract) | National SDE Team | |
+| Josh Day | Senior Data Wrangler (contract) | National SDE Team | |
+| Lucy Harris | Senior Data Scientist | Meds Team | |
+| Vithursan Vijayachandrah | Senior Data Scientist| Workforce, Training & Education Team |  [VithurshanVijayachandranNHSE](https://github.com/VithurshanVijayachandranNHSE) |
+| Warren Davies | Data Scientist | Central Data Science Team | [warren-davies4](https://github.com/warren-davies4) |
+| Sami Sultan | Data Scientist | Workforce, Training & Education Team | [SamiSultanNHSE](https://github.com/SamiSultanNHSE) |
+| Chaeyoon Kim | Data Scientist | Workforce, Training & Education Team | [ChaeyoonKimNHSE](https://github.com/ChaeyoonKimNHSE) |
+|Ilja Lomkov | Data Scientist | Workforce, Training & Education Team | [IljaLomkovNHSE](https://github.com/IljaLomkovNHSE) |
+| Thomas Bouchard | Data Science Officer | Central Data Science Team | [tom-bouchard](https://github.com/tom-bouchard) |
+| Catherine Sadler | Data Science Officer | Central Data Science Team | [CatherineSadler](https://github.com/CatherineSadler) |
+| William Poulett | Data Science Officer | Central Data Science Team | [willpoulett](https://github.com/willpoulett) |
+| Amaia Imaz Blanco | Data Science Officer | Central Data Science Team | [amaiaita](https://github.com/amaiaita) |
+| Xiyao Zhuang | Data Science Officer | Central Data Science Team | [xiyaozhuang](https://github.com/xiyaozhuang) |
+| Scarlett Kynoch | Data Science Officer | Central Data Science Team | [scarlett-k-nhs](https://github.com/scarlett-k-nhs) |
+| Jennifer Struthers | Data Science Officer | Central Data Science Team | [jenniferstruthers1-nhs](https://github.com/jenniferstruthers1-nhs) |
+| Matthew Taylor | Data Science Officer | Central Data Science Team | |
+| Elizabeth Kelly | Data Science Officer | National SDE Team | [ejkcode](https://github.com/ejkcode) |
 
 ## Contact Us
 Email us at: datascience@nhs.net
