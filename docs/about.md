@@ -19,7 +19,7 @@ We are the **[NHS England](https://www.england.nhs.uk/) Data Science Team**.
 
 [Contact Us](mailto:datascience@nhs.net){ .md-button .md-button--primary }
 
-[See our work](./our_work/){ .md-button}
+[See our work](./our_work/index.md){ .md-button}
 
 
 </div>
