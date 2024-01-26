@@ -10,7 +10,7 @@ hide:
 ![Image title](../images/DS_team_photo_smaller.jpeg){ width="450" alt-tex="Picture of the Data Science team stood on some steps in London."  align=right }
 
 
-We are the **[NHS England](https://www.england.nhs.uk/) Data Science Team**. 
+We are the [NHS England](https://www.england.nhs.uk/) Data Science Team. 
 
 **Our vision is**: 
 
