@@ -38,6 +38,9 @@ We are the NHS England Data Science Team with a vision:
 === "Devise"
     <h3 style="text-align: center;"> **Devise a great place to work where group work solves great problems.​**</h3>
 
+# Our work 
+If you want to find out more about what we do, make sure to check out <a src=./our_work>our projects</a>!
+
 ## Our Members
 | Name | Role |Team | Github |
 | -------- | ------- | ------ | ------ |
