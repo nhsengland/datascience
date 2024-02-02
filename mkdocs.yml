@@ -24,6 +24,7 @@ nav:
   - Articles:  
     - ... | flat | articles/*.md
   - Projects: 
+    - Project Tags: our_work/tags.md
     - ... | flat | regex=our_work/(?!template-project\.md).*\.md
   # - Tools: 
   #   - ... | flat | tools/*.md
