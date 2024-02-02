@@ -14,6 +14,8 @@ plugins:
   - blog:
       blog_dir: ./articles
       authors_file: "{blog}/.authors.yml"
+  - tags:
+      tags_file: our_work/tags.md  
 nav:
   - Home: index.md
   - What is Data Science?: 
