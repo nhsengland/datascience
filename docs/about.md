@@ -18,7 +18,7 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
 
 <br/>
 
-[Contact Us](mailto:datascience@nhs.net){ .md-button .md-button--primary }
+[Contact Us (datascience@nhs.net)](mailto:datascience@nhs.net){ .md-button .md-button--primary }
 [See our work](./our_work/index.md){ .md-button}
 
 <br/>
