@@ -4,8 +4,6 @@ summary: 'ONE LINE SUMMARY GOES HERE'
 category: 'Projects'
 ---
 
-<Tags title="" tags={['DELETE THIS AND ADD A LIST OF TAGS, SOME EXAMPLES FOLLOW','synthetic staining','classification','deep learning', 'pathology', 'neural networks']} />
-
 
 Text and images go here in Markdown or HTML
 

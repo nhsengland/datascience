@@ -6,8 +6,6 @@ origin: 'Skunkworks'
 tags: ['LoS','length of stay','neural network','risk model']
 ---
 
-<Tags title="" tags={[]} />
-
 ![Long Stayer Risk Stratification screenshot](../images/long-stay.png)
 
 As the successful candidate from the AI Skunkworks problem-sourcing programme, Long Stayer Risk Stratification was first picked as a pilot project for the AI Skunkworks team in April 2021.

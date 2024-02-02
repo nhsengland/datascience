@@ -6,8 +6,6 @@ origin: 'Skunkworks'
 tags: ['aki','renal health','rnn','deep learning', 'time series', 'neural networks']
 ---
 
-<Tags title="" tags={[]} />
-
 ![Renal Health Prediction diagram](../images/renal-health-prediction.png)
 
 Renal Health Predition was selected as a project in Spring 2022 following a succesful pitch to the AI Skunkworks problem-sourcing programme.
