@@ -5,21 +5,56 @@ hide:
 
 # Data Science in NHS England
 
-We are the NHS England Data Science Team with a vision: 
+<div markdown>
+
+![Image title](../images/DS_team_photo_smaller.jpeg){ width="450" alt-tex="Picture of the Data Science team stood on some steps in London."  align=right }
+
+
+We are the [NHS England](https://www.england.nhs.uk/) Data Science Team. 
+
+**Our vision is**: 
 
 > For NHS England to lead on embracing data science in the NHS for the betterment of all our patients and all our staff​. 
 
-<img src=../images/DS_team_photo.jpeg alt-tex="Picture of the Data Science team stood on some steps in London." width="600" >
-</img>
+<br/>
+
+[Contact Us (datascience@nhs.net)](mailto:datascience@nhs.net){ .md-button .md-button--primary }
+[See our work](./our_work/index.md){ .md-button}
+
+<br/>
+
+
+</div>
 
 ## How are we different from analytical teams?
-**Do** – We develop and deploy data science products to make a positive impact on NHS patients and workforce. ​​
 
-**Delve** - We investigate applying novel techniques that increase the insight we get from health-related data.​
+<div class="grid cards" markdown>
 
-**Distinguish** – We prioritise code-first ways of working, transparency and promoting best practice.  We champion quality, safety and ethics in the application of methods and use of data.  ​
+-   :material-clock-fast:{ .lg .middle } __Do__
 
-**Distribute** – We have the remit to be open and collaborative and have the aim of sharing products with the wider healthcare community.  
+    ---
+
+    We develop and deploy data science products to make a positive impact on NHS patients and workforce.
+
+-   :material-magnify:{ .lg .middle } __Delve__
+
+    ---
+
+    We investigate applying novel techniques that increase the insight we get from health-related data.​
+
+-   :material-trophy-award:{ .lg .middle } __Distinguish__
+
+    ---
+
+    We prioritise code-first ways of working, transparency and promoting best practice.  We champion quality, safety and ethics in the application of methods and use of data.  ​
+
+-   :material-lightbulb-on-10:{ .lg .middle } __Discover__
+
+    ---
+
+    We have the remit to be open and collaborative and have the aim of sharing products with the wider healthcare community.  
+
+</div>
 
 ## Our missions
 
@@ -37,9 +72,6 @@ We are the NHS England Data Science Team with a vision:
 
 === "Devise"
     <h3 style="text-align: center;"> **Devise a great place to work where group work solves great problems.​**</h3>
-
-# Our work 
-If you want to find out more about what we do, make sure to check out [our projects](../our_work)!
 
 ## Our Members
 | Name | Role |Team | Github |
@@ -100,6 +132,3 @@ If you want to find out more about what we do, make sure to check out [our proje
 |Jennifer Struthers | Data Science Officer | Central Data Science Team | [jenniferstruthers1-nhs](https://github.com/jenniferstruthers1-nhs) |
 |Matthew Taylor | Data Science Officer | Central Data Science Team | [mtaylor57](https://github.com/mtaylor57) |
 |Elizabeth Kelly | Data Science Officer | National SDE Team | [ejkcode](https://github.com/ejkcode) |
-
-## Contact Us
-Email us at: datascience@nhs.net
