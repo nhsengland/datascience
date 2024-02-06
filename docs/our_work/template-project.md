@@ -1,17 +1,26 @@
 ---
 title: 'TITLE GOES HERE'
 summary: 'ONE LINE SUMMARY GOES HERE'
-category: 'Projects'
+origin: 'Skunkworks  (this is for legacy pages mainly, so we know where the work came from)'
+tags: ['add your tags in here as a list (there is no limit)','tag 2','tag 3']
 ---
+[comment]: <> The metadata block above is used to make the title, the tags, and the first block of "quote text" just beneath the title
 
+[comment]: <> Make a nice visual abstract for your project, or show some key result, which makes the impact of your work clear - imagine your audience is an educated observer from the health system
+[![Alt text for the image](../images/<add your age to the image folder and put the file name here>)](<add a relevant URL if you have one - people like to click images!>)
 
-Text and images go here in Markdown or HTML
+[comment]: <> Add some description about your project - keep it punchy, focussing on the benefits, anything new, and only the most important parts of the methods, particularly anything which might interest people.
+
+People often have this problem - we used data science to make the solution. We worked with patient groups / clinicians /  senior decision makers to come up with a solution which use AI, etc., we were able to automate this task.
 
 ## Results
 
-e.g. A proof-of-concept demonstrator written in Python (machine learning models, command line interface (CLI), Jupyter Notebooks).
+[comment]: <> Add some description of the key results - again keep them punchy, and in real units that people can understand if possible. This is where we get across the impact. It might be that the image describes this, in which case reference that.
+by automating the problem area described above, we were able to save £xxx / so many hours of doctor / patient / staff time. The diagram above shows how impactful this was.
 
 Output|Link
+
+[comment]: <> below you can put any relevant links through to outputs, and published code, published papers, live tools, websites, blog articles, anything which is relevant to the project.
 ---|---
 Open Source Code & Documentation|[Github](#add URL)
 Case Study|
