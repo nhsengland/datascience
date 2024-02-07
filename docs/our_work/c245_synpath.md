@@ -1,10 +1,11 @@
 ---
-layout: base
 title: Building the Foundations for a Generic Patient Simulator 
+summary: Developing an agent-based simulation for generating synthetic patient pathways and scenario modelling for healthcare specific implementations.
+category: Projects
 permalink: c245_synpath.html
+tags: ['SYNTHETIC DATA', 'PATHWAYS','SIMULATION']
 ---
 
-> | "Developing an agent-based simulation for generating synthetic patient pathways and scenario modelling for healthcare specific implementations."   
 
 ![Overview of data model](../images/c245fig1.png)
 <figcaption>Figure 1: Overview of the Synpath data model</figcaption>
@@ -26,3 +27,6 @@ Efficient object communication and concurrency were also highlighted needing sig
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/SynPath) |
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/SynPath/blob/master/reports/REDACTED_C245%20ABM%20Patient%20Pathways_Final%20Report_V3_28042021.cleaned.pdf) |
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

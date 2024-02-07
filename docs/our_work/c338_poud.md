@@ -1,10 +1,8 @@
 ---
-layout: base
 title: How to Assess the Privacy of Unstructured Data
+summary: What are the privacy considerations that need to be addressed when dealing with unstructured healthcare text data 
 permalink: c338_poud.html
 ---
-
-> | "What are the privacy considerations that need to be addressed when dealing with unstructured healthcare text data "   
 
 <figure markdown>
 ![](../images/c338fig1.png)
@@ -55,3 +53,6 @@ The main output specified was for a list of key qualities that could feed a tool
 | Open Source Code & Documentation | n/a |
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/PrivacyFingerprint/blob/main/reports/PrivacyOfUnstructuredDataReport_Nov2022.pdf) |
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

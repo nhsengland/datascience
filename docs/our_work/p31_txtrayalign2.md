@@ -34,3 +34,6 @@ report communicating critical findings,
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/txt-ray-align) |
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/txt-ray-align/blob/main/report/TxtRayAlign_Report2_SH.pdf) |
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

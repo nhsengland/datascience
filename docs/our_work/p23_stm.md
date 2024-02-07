@@ -15,3 +15,6 @@ The code base has been developed as an open reusable code and being used interna
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/stm-survey-text) |
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/stm-survey-text/blob/main/reports/report_stm.pdf) |
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

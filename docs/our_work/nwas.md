@@ -3,7 +3,7 @@ title: 'NWAS – Ambulance data exploration'
 summary: 'Data exploration of ambulance service'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['eda']
+tags: ['EDA']
 ---
 
 The aim of this proof-of-concept project was to develop a machine learning model that could predict the triage outcome of emergency calls based on the information provided by the caller. The model was trained on a large dataset of emergency call data and triage outcomes to identify patterns and relationships between the information provided and the resulting triage classification.

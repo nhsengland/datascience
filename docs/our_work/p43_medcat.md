@@ -13,3 +13,6 @@ permalink: p43_medcat.html
 | Open Source Code & Documentation | Coming Soon |
 | Case Study | Awaiting Sign-Off |
 | Technical report | Coming Soon |
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

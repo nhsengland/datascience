@@ -18,3 +18,6 @@ Results showed that the models trained on the patient safety incident reports us
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/ELM4PSIR) |
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/ELM4PSIR/blob/main/reports/ELM4PSIR_NT_v1.1.pdf) |
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

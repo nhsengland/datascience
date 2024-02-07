@@ -30,3 +30,6 @@ The addition of commercial data show a significant increase in predictive power.
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/commercial-data-healthcare-predictions) |
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/commercial-data-healthcare-predictions/blob/main/report/NHSX%20Report_ValueofCommercialProductSalesDatainHealthcarePrediction_V2.pdf) |
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

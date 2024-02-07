@@ -24,3 +24,6 @@ Future collaboration around validation and how to apply learning algorithms are 
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/SynPath_Diabetes) |
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/SynPath_Diabetes/blob/main/t2dm/reports/Technical%20Report%20(SynPath%20Diabetes)%20v1.pdf) |
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#
