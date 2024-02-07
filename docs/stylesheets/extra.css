@@ -160,6 +160,10 @@ h1 {
   text-align: center;
 }
 
+.hero-content > h1 {
+  text-align: left;
+}
+
 /* small screen */
 @media screen and (max-width: 800px) {
   .hero {
