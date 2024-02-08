@@ -3,12 +3,10 @@ title: 'Bed allocation'
 summary: 'Machine learning to effectively aid bed management in Kettering General Hospital.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['HOSPITAL','BAYESIAN FORECASTING','MONTE CARLO','GREEDY ALLOCATION']
+tags: ['HOSPITAL','BAYESIAN FORECASTING','MONTE CARLO','GREEDY ALLOCATION', PYTHON']
 ---
 
 ![Bed allocation screenshot](../images/bed-allocation.png)
-
-# Project
 
 Bed allocation was identified as a suitable opportunity for the AI Skunkworks programme in May 2021.
 

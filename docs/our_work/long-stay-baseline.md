@@ -3,7 +3,7 @@ title: 'Long Stayer Risk Stratification Baseline Models'
 summary: 'Baseline machine learning models using historical data from Gloucestershire Hospitals NHS Foundation Trust to predict how long a patient will stay in hospital upon admission.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['LOS','RISK MODEL', 'REGRESSION', 'CLASSIFICATION']
+tags: ['LOS','RISK MODEL', 'REGRESSION', 'CLASSIFICATION','PYTHON']
 ---
 
 Long Stayer risk stratification baseline models was selected as a project to run in tandem with the [Long Stayer Risk Stratification](long-stay) project, and started in March 2022.

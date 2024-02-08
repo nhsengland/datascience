@@ -2,9 +2,9 @@
 layout: base
 title: Using Model Class Reliance to Understnad the Impact of Commerical Data on Predictions
 permalink: p14_mcr.html
----
-
-> | "How to asses the value that commercial sales data of over-the-counter prescriptions has on respiratory death predictions"   
+summary: How to asses the value that commercial sales data of over-the-counter prescriptions has on respiratory death predictions
+tags: ['MCR', 'PYTHON', 'MORTALITY', 'RESPIRATORY']
+---   
 
 The primary aim of the project was to apply the novel variable importance technique, [model class reliance](https://papers.nips.cc/paper/2020/hash/fd512441a1a791770a6fa573d688bff5-Abstract.html), to machine learning models which could predict registered respiratory deaths in the UK. The objective was to assess the value of commercial health data in healthcare predictions compared to other available datasets.
 ## Results 

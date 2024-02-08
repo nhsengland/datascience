@@ -2,9 +2,9 @@
 layout: base
 title: Adding a Clinical Focus to Evaulating Multi-Modal Data Representations
 permalink: p31_txtrayalign2.html
----
-
-> | "How to validate synthetic text generated from images for healthcare applications."   
+summary: How to validate synthetic text generated from images for healthcare applications.
+tags: ['GENERATION', 'NLP', 'MULTI-MODAL', 'PYTHON']
+---   
 
 ![](../images/p31fig1.png)
 <p align="left">

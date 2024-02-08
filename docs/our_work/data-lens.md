@@ -3,12 +3,10 @@ title: 'Data Lens'
 summary: 'Data Lens brings together information about multiple databases, providing a fast-access search in multiple languages.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['NLP', 'SEMANTIC SEARCH', 'SCRAPING']
+tags: ['NLP', 'SEMANTIC SEARCH', 'SCRAPING','JAVASCRIPT','PYTHON']
 ---
 
 ![Data Lens screenshot](../images/data-lens.png)
-
-# Project
 
 As the successful candidate from a Dragons’ Den-style project pitch, Data Lens was first picked as a pilot project for the NHS AI (Artificial Intelligence) Lab Skunkworks team in September 2020.
 

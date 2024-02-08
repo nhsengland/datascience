@@ -6,7 +6,6 @@ permalink: c245_synpath.html
 tags: ['SYNTHETIC DATA', 'PATHWAYS','SIMULATION']
 ---
 
-
 ![Overview of data model](../images/c245fig1.png)
 <figcaption>Figure 1: Overview of the Synpath data model</figcaption>
 

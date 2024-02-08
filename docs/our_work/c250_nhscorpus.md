@@ -2,6 +2,7 @@
 title: Considerations for Building a Language Corpus with a Focus on the NHS 
 summary: What are the available tools that could be used to build an NHS-focussed collection of texts which could help developers build better NLP tools for the healthcare system.
 permalink: c250_nhscorpus.html
+tags: ['NLP']
 ---
 
 ![Ingest, Enrich, Share](../images/c250fig1.png)

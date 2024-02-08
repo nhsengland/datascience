@@ -4,12 +4,10 @@ title: Parkinson's Disease Pathology Prediction
 summary: Automatic segmentation and detection of Parkinson’s disease pathology using synthetic staining and deep neural networks
 category: Projects
 origin: Skunkworks
-tags: ['PARKINSONS','SYNTHETIC DATA','CLASSIFICATION','DEEP LEARNING', 'PATHOLOGY', 'NEURAL NETWORKS']
+tags: ['PARKINSONS','SYNTHETIC DATA','CLASSIFICATION','DEEP LEARNING', 'PATHOLOGY', 'NEURAL NETWORKS', 'PYTHON']
 ---
 
 ![Parkinson's prediction diagram](../images/parkinsons-detection.png)
-
-# Project
 
 "Parkinson's Disease Pathology Prediction" was selected as a project in 2022 following a successful pitch to the AI Skunkworks problem-sourcing programme.
 

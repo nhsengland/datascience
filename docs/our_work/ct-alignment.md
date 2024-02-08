@@ -3,12 +3,10 @@ title: 'CT Alignment and Lesion Detection'
 summary: 'A range of classical and machine learning computer vision techniques to align and detect lesions in anomyised CT scans over time from George Eliot Hospital NHS Trust.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['CT','COMPUTER VISION','IMAGE REGISTRATION']
+tags: ['CT','COMPUTER VISION','IMAGE REGISTRATION','PYTHON']
 ---
 
-![CT Alignment and Lesion Detection screenshot](images/ct-alignment.png)
-
-# Project
+![CT Alignment and Lesion Detection screenshot](../images/ct-alignment.png)
 
 As the successful candidate from the AI Skunkworks problem-sourcing programme, CT Alignment and Lesion Detection was first picked as a pilot project for the AI Skunkworks team in April 2021.
 

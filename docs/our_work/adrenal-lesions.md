@@ -3,17 +3,17 @@ title: 'Using deep learning to detect adrenal lesions in CT scans'
 summary: 'This project explored whether applying AI and deep learning augment the detection of adrenal incidentalomas in patients’ CT scans.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['CLASSIFICATION','LESION DETECTION','AI']
+tags: ['CLASSIFICATION','LESION DETECTION','COMPUTER VISION','AI']
 ---
 
-# Project
+<figure markdown >
+![Adrenal flow of transfer](../images/Flow_of_transfer.width-800.png) </a>
+</figure>
+
 
 Many cases of adrenal lesions, known as adrenal incidentalomas, are discovered incidentally on CT scans performed for other medical conditions. These lesions can be malignant, and so early detection is crucial for patients to receive the correct treatment and allow the public health system to target resources efficiently. Traditionally, the detection of adrenal lesions on CT scans relies on manual analysis by radiologists, which can be time-consuming and unsystematic.
 
 The main aim of this study was to examine whether or not using AI can improve the detection of adrenal incidentalomas in CT scans. Previous studies have suggested that AI has the potential in distinguishing different types of adrenal lesions. In this study, we specifically focused on detecting the presence of any type of adrenal lesion in CT scans. To demonstrate this proof-of-concept, we investigated the potential of applying deep learning techniques to predict the likelihood of a CT abdominal scan presenting as ‘normal’ or ‘abnormal’, the latter implying the presence of an adrenal lesion.
-## Results
-
-Output|Link
 
 # Case Study
 
@@ -78,6 +78,9 @@ This proof-of-concept model demonstrates the ability and potential of applying s
 
 This project was a collaboration between the NHS AI Lab Skunkworks, within the Transformation Directorate at NHS England and NHS Improvement, and University Hospitals of North Midlands NHS Trust.
 
+## Links
+
+Output|Link
 ---|---
 Open Source Code & Documentation|[Github](https://github.com/nhsx/skunkworks-adrenal-lesions-detection)
 Case Study|[Case Study](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-deep-learning-to-detect-adrenal-lesions-in-ct-scans/)

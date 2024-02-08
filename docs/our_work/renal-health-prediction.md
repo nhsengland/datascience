@@ -3,12 +3,12 @@ title: 'Renal Health Prediction'
 summary: 'Identifying acute kidney injury (AKI) patients at higher risk of requiring ITU, needing renal support (dialysis), or likely to have a higher potential for mortality.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['AKI','RNN','DEEP LEARNING', 'TIME SERIES', 'NEURAL NETWORKS']
+tags: ['AKI','RNN','DEEP LEARNING', 'TIME SERIES', 'NEURAL NETWORKS', 'PYTHON']
 ---
 
 ![Renal Health Prediction diagram](../images/renal-health-prediction.png)
 
-Renal Health Predition was selected as a project in Spring 2022 following a succesful pitch to the AI Skunkworks problem-sourcing programme.
+Renal Health Predition was selected as a project in Spring 2022 following a successful pitch to the AI Skunkworks problem-sourcing programme.
 
 ## Results
 

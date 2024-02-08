@@ -2,6 +2,7 @@
 title: How to Assess the Privacy of Unstructured Data
 summary: What are the privacy considerations that need to be addressed when dealing with unstructured healthcare text data 
 permalink: c338_poud.html
+tags: ['UNSTRUCTURED DATA', 'PRIVACY', 'PII', 'BEST PRACTICE']
 ---
 
 <figure markdown>

@@ -3,9 +3,8 @@ title: 'Nursing Placement Schedule Optimisation Tool'
 summary: 'Optimisation problem developed with Imperial College Healthcare Trust to produce optimised schedules for student nurses going on placement within the trust.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['OPTIMISATION','GENETIC ALGORITHM']
+tags: ['OPTIMISATION','GENETIC ALGORITHM', 'PYTHON']
 ---
-# Project 
 
 This project is an example of the AI Skunkworks team offering capability resources to produce proof-of-concepts which could be applicable to the NHS at large. The project ran from January 2022 to May 2022.
 
@@ -139,7 +138,7 @@ It should be noted this tool aims to support placement coordinators, as the proc
 > We can't fix the nursing shortage without training more nurses and for that, we need to have (the right) clinical placements available. This tool will not only help us to allocate placements more efficiently and effectively, but it will also free up valuable time for the practice learning facilitators to focus on teaching and professional development for students. Ultimately more students will be able to get the placements and training they need.  
 – Hai Lin Leung, Programme Manager, North West London CCG
 
-### Finally, a successful element of this project has been the knowledge sharing and mutual upskilling between the two parties. AI Lab Skunkworks helped Imperial College Healthcare Trust identify and implement a novel AI-led approach which provided a solution they may otherwise not have been able to explore. Meanwhile, Imperial College Healthcare Trust shared their expertise in how the placement allocation process works, particularly what does and does not work well. This was useful underlying information the AI Lab Skunkworks team hopes to share more broadly across the range of projects we work on.
+Finally, a successful element of this project has been the knowledge sharing and mutual upskilling between the two parties. AI Lab Skunkworks helped Imperial College Healthcare Trust identify and implement a novel AI-led approach which provided a solution they may otherwise not have been able to explore. Meanwhile, Imperial College Healthcare Trust shared their expertise in how the placement allocation process works, particularly what does and does not work well. This was useful underlying information the AI Lab Skunkworks team hopes to share more broadly across the range of projects we work on.
 
 ### What’s next?
 The NHS AI Lab Skunkworks team has released the code from the project on GitHub to demonstrate how the tool might work, using generated fake data.

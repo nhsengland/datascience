@@ -2,9 +2,9 @@
 layout: base
 title: Investigating Superpixels in LIME for Explaining Predictions of Facial Images 
 permalink: p24_lime.html
----
-
-> | "Investigating explainability algorithms for granular healthcare images"   
+summary: Investigating explainability algorithms for granular healthcare images
+tags: ['EXPLAINABILITY', 'LIME', 'PYTHON']
+---   
 
 A work experience project investigating the application of a [Local Interpretable Model-agnostic Explanations (LIME)](https://arxiv.org/abs/1602.04938) technique to an image classification task around identifying Rosacea.  A binary classification model was trained on the normal and Rosacea faces to generate the LIME explanation for Rosacea faces. Secondly, the fine-tuned model was integrated into the LIME pipeline to generate explanations based on the crucial features on which predictions were made in the classification model. Hence the experimentations helped in understanding the features the classification model took.
 

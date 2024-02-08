@@ -6,8 +6,6 @@ origin: 'Skunkworks'
 tags: ['CLASSIFICATION','PREDICTION', 'AI']
 ---
 
-# Project
-
 NHS Resolution provides expertise to the NHS on resolving concerns and disputes. The organisation holds a wealth of historic data around claims, giving insight and valuable data around the causes and impacts of harm.
 
 The NHS Resolution team wanted to understand whether AI methods could be applied to their data to better understand and identify risk, preventing harm and saving valuable resources.
