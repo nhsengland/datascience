@@ -2,11 +2,11 @@
 layout: base
 title: Developing our SynthVAE code
 permalink: p21_synthvae2.html
+summary: Improving our variational autoencoder to consider fairness and to run on non-gaussian distributions
+tags: ['VAE', 'PYTHON', 'GAUSSIAN MIXTURE MODEL', 'DAG']
 ---
 
-> | "Improving our variational autoencoder to consider fairness and to run on non-gaussian distributions"   
-
-Continuation of the previous development of our variational autoencoder (VAE) to correct for an error discovered since the last project finished.  This error appears when trying to generate data for continuous variables which follow non-Gaussian distributions.  Previously, standard scaling had been used to normalise these variables which was causing the non-gaussian variables to be synthesised poorly.  This was replaced with a Guassian mixture model from the RDT python library to scale and transform these variables into ones with a Gaussian distribution. 
+Continuation of the previous development of our variational autoencoder (VAE) to correct for an error discovered since the last project finished.  This error appears when trying to generate data for continuous variables which follow non-Gaussian distributions.  Previously, standard scaling had been used to normalise these variables which was causing the non-gaussian variables to be synthesised poorly.  This was replaced with a Gaussian mixture model from the RDT python library to scale and transform these variables into ones with a Gaussian distribution. 
 
 The second phase of this worked focussed on understanding the different ways of measuring and implementing fairness within the synthetic data.  
 ## Results 
@@ -22,3 +22,6 @@ Further work will expore the adaption of direct acylic graphs to control for fai
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/SynthVAE) |
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/SynthVAE/blob/main/reports/NHSXSynthVAE%20(2).pdf) |
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

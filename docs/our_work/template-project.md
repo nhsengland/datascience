@@ -26,3 +26,6 @@ Open Source Code & Documentation|[Github](#add URL)
 Case Study|
 Technical report|[e.g. biorxiv.org]()
 Algorithmic Impact Assessment|e.g. N/A
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

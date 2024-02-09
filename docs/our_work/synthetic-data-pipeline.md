@@ -3,7 +3,7 @@ title: 'Synthetic Data Generation Pipeline'
 summary: 'Exploring how to create mock patient data from real patient data.'
 category: 'Playbook'
 origin: 'Skunkworks'
-tags: ['synthetic data','variational autoencoder','privacy','quality','utility','kedro']
+tags: ['SYNTHETIC DATA','VAE','PRIVACY','KEDRO', 'MIMIC', 'PYTHON']
 ---
 
 
@@ -15,7 +15,6 @@ One avenue for enabling this is to provide “synthetic data”, where new “fa
 Utility - is the synthetic data fit for its defined use?
 Quality - is the synthetic data a sufficient representation of the real data?
 Privacy - does the synthetic data ‘leak’ or expose any sensitive information from the real data?
-
 
 ### The challenge…
 > This project aimed to provide others with a simple, re-usable way of generating safe and effective synthetic data to be used in technologies that improve health and social care.

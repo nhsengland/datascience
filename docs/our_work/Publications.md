@@ -2,6 +2,8 @@
 layout: base
 title: Connected Publications
 permalink: publications.html
+summary: Our work has produced a number of publications
+tags: ['PUBLICATIONS']
 ---
 
 List of pre-releases and publications connected to our work
