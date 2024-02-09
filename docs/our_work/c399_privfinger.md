@@ -1,10 +1,9 @@
 ---
-layout: base
 title: Building a Tool to Assess the Privacy Risk of Text Data  
+summary: Can we generate usable privacy scores for text data to support understanding of privacy concerns and the anonymisation process 
 permalink: c399_privfinger.html
+tags: ['TEXT DATA', 'LLM','PYTHON', 'PRIVACY']
 ---
-
-> | "Can we generate usable privacy scores for text data to support understanding of privacy concerns and the anonymisation process "   
 
 This work was undertaken as an external commission aiming to build a pipeline of components which firstly generated unstructured medical notes using a structured output from [Synthea:tm:](https://github.com/synthetichealth/synthea) and then running these through [GPT-3.5](https://platform.openai.com/docs/models/gpt-3-5) models to transform these into human readable notes.
 
@@ -28,3 +27,6 @@ This is an ongoing piece of work.
 | Open Source Code & Documentation | Coming Soon |
 | Case Study | Coming |
 | Technical report | Coming Soon |
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

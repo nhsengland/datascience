@@ -2,9 +2,9 @@
 layout: base
 title: Inequalities in Diabetes from PHM Data 
 permalink: p32_phmdiabetes.html
+summary: How to extract inequalities information from linked population health management data
+tags: ['LOGISTIC REGRESSION', 'CATBOOST', 'PYTHON']
 ---
-
-> | "How to extract inequalities information from linked population health management data"   
 
 ![](../images/p32fig1.png)
 <p align="left">
@@ -26,3 +26,6 @@ The project was able to both deliver new insights around drivers for inequalitie
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/ESNEFT_diabetes_StephenRicher/blob/main/stephen-richer-report.pdf) |
 | Project Slides | [Here](https://github.com/nhsx/ESNEFT_diabetes_StephenRicher/blob/main/stephen-richer-slides.pdf) |
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

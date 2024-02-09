@@ -3,7 +3,7 @@ title: 'Exploring how to create mock patient data (synthetic data) from real pat
 summary: 'The generation of safe and effective synthetic data to be used in technologies that improve health and social care.'
 category: 'CaseStudies'
 origin: 'Skunkworks'
-tags: ['synthetic data','variational autoencoder','privacy','quality','utility','kedro']
+tags: ['SYNTHETIC DATA','VAE','PRIVACY','QUALITY','UTILITY','AI', 'PYTHON']
 ---
 
 ## Info

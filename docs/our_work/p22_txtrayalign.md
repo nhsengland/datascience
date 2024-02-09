@@ -2,9 +2,9 @@
 layout: base
 title: TxtRayAlign
 permalink: p22_txtrayalign.html
+summary: Generating descriptive text from X-Ray images using contrastive learning on multi-modal data
+tags: ['NLP', 'MULTI-MODAL', 'RETRIEVAL', 'CONTRASTIVE-LEARNING', 'PYTHON']
 ---
-
-> | "Generating descriptive text from X-Ray images using contrastive learning on multi-modal data"   
 
 ![](../images/p22fig1.png)
 <p align="left">
@@ -26,3 +26,6 @@ performance, future work could develop other applications of TxtRayAlign for oth
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/txt-ray-align) |
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/txt-ray-align/blob/main/report/TxtRayAlign_Report_DZ.pdf) |
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

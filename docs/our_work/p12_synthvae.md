@@ -1,10 +1,10 @@
 ---
 layout: base
+summary: The initial creation of a variational autoencoder with differential privacy for generating single table tabular gaussian data.  This work demonstrated the feasibility of this approach for healthcare and fed into further interactions of the code base.
 title: Investigating Differential Privacy in a Variational AutoEncoder for Synthetic Data Generation 
 permalink: p12_synthvae.html
+tags: ['VAE', 'SYNTHETIC DATA', 'PYTHON']
 ---
-
-> | "The initial creation of a variational autoencoder with differential privacy for generating single table tabular gaussian data.  This work demonstrated the feasibility of this approach for healthcare and fed into further interactions of the code base."   
 
 This project investigates the potential suitability of Variational Autoencoders (VAEs) as a synthetic data generation tool in the context of the NHS. To effectively address this direction, this work focussed on four key aspects: quality, privacy, ease of use, and interpretability. 
 
@@ -23,3 +23,5 @@ As the privacy budget increases, we see the quality decrease as expected.  Howev
 | Case Study | Awaiting Sign-Off |
 | Technical report | [Here](https://github.com/nhsx/SynthVAE/blob/main/reports/report.pdf) |
 
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#
