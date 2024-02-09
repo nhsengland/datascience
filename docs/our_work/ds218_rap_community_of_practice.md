@@ -3,15 +3,20 @@ layout: base
 title: NHS Reproducible Analytical Pipelines (RAP) Champion Squad
 summary: Our roving squad of RAP champions have helped a number of teams not only transform their pipelines, but also taught them how to train others and produced guidance which is used by many other organisations.
 origin: 'NHS Digital'
-tags: ['RAP','Best Practice','Python', 'R']
+tags: ['RAP','BEST PRACTICE','PYTHON','R']
 ---
 
-<a href="https://www.linkedin.com/feed/hashtag/reproducibleanalyticalpipelines/">
+<a href="https://nhsdigital.github.io/rap-community-of-practice/">
 <figure markdown>
 ![Multiple examples of how the team has marketed Reproducible Analytical Pipelines as a way of working, on LinkedIn, Teams, through drop-in sessions, seminars and conference talks.](../images/RAP - marketing examples.png) </a>
-<figcaption>Figure 1: Multiple examples of how the team has marketed Reproducible Analytical Pipelines as a way of working. Clicking on the image will take you through to our feed of Linkedin posts: #ReproducibleAnalyticalPipelines.</figcaption>
+<figcaption>Figure 1: Multiple examples of how the team has marketed Reproducible Analytical Pipelines as a way of working. Click the image to visit our website.</figcaption>
 </figure>
 
+Reproducible Analytical Pipelines (RAP) is a way of working [promoted across the Civil Service](https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/), which promises **faster**, more **efficient**, more **robust** and **transparent** analysis and data pipelines.
+<figure markdown>
+[Find out more about RAP on our guide](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/){ .md-button .md-button--primary  }
+[See our helpful LinkedIn posts](https://www.linkedin.com/feed/hashtag/?keywords=reproducibleanalyticalpipelines){ .md-button } 
+</figure>
 
 Our Squad of RAP Champions has supported the rollout of RAP across the Analytics area within NHS England. We've approached through three main pillars of work:
 
