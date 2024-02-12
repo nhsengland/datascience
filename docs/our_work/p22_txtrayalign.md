@@ -20,7 +20,6 @@ We observe that even the best performing model (ResNet50-DeCLUTR) only retrieves
 The results of our investigation indicate that this approach can help generate reasonably grammatical and clinically meaningful sentences, yet falls short in achieving this with sufficient accuracy. While improvements to the model could be made, our findings are corroborated by others in literature. Besides improving
 performance, future work could develop other applications of TxtRayAlign for other downstream tasks, such as image-to-image or text-to-image retrieval.
 
-
 | Output | Link |
 | ---- | ---- |
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/txt-ray-align) |

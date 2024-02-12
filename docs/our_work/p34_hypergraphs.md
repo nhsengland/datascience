@@ -8,8 +8,6 @@ tags: ['HYPERGRAPHS', 'SAIL']
 
 ## Results
 
-
-
 | Output | Link |
 | ---- | ---- |
 | Open Source Code & Documentation | Coming Soon |

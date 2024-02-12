@@ -23,6 +23,7 @@ Kettering General Hospital approached the NHS AI Lab Skunkworks team with a requ
 This 14-week project investigated the AI techniques that could be used to generate options for moving patients in a way that supports the human team to make the best decisions. The project aimed to provide a proof of concept tool that uses historic data to predict demand and make bed allocation suggestions to the bed management team - providing the open source code for further experimentation at the end of the project.
 
 ### Overview
+
 Admitting patients into hospital is like a game of Tetris, or chess, where the allocation of each patient and bed can have a huge knock-on effect to the smooth-running of admissions and the welfare of patients. This scheduling of beds is managed by a human team who rely on individual expertise to deliver a system not unlike air traffic control, calculating the best arrangement with a continually changing set of demands and numbers of patients.
 
 The main challenges for managing hospital admissions were reported to be:
@@ -42,16 +43,18 @@ The work looked at whether AI could support better, faster decision-making, usin
 - reductions in inpatient length of stay
 - improved problem solving capability within the team.
 
-
 ### What we did
+
 We ran a discovery phase in which the project team sought to understand the problem, the existing process and the constraints. We talked to others who are trying similar projects. The team also researched existing attempts to use AI for demand management and scheduling.
 
 #### Creating a virtual hospital
+
 Following a robust information governance process, the team had access to 5 years’ worth of historic pseudonymised data from the patient admission system (PAS) and 1 to 2 years of patient flow data. Pseudonymisation is a technique that separates data from direct identifiers (for example name, surname, NHS number) and replaces them with a pseudonym (for example, a reference number), so that identifying an individual from that data is not possible without additional information.
 
 Having assessed the data quality and analysed pre- and post COVID changes, they engineered training and test sets for modelling. This provided a virtual hospital environment with which to explore the use of AI.
 
 #### Choosing a technical approach
+
 For the forecasting component of the project, the team used a Bayesian modelling approach which used historical data to predict how many patients with specific characteristics would present at the hospital over time.
 
 The team then compared three approaches to allocating a bed: greedy allocation, Monte Carlo Tree Search (MCTS) and reinforcement learning.
@@ -63,6 +66,7 @@ The MCTS model operates by considering future events such as the number and natu
 Finally, a reinforcement learning approach was considered, which uses “agents” to maximise a reward over time, but this was not developed within the constraints of this 14 week project.
 
 #### Building a user interface
+
 In order to provide staff with a usable and understandable front end, the team developed and tested a web-based user interface (UI) and integrated the allocation models.
 
 The team implemented the greedy allocation method in the user interface as it was the least resource intensive approach and able to provide an explainable allocation suggestion.
@@ -70,6 +74,7 @@ The team implemented the greedy allocation method in the user interface as it wa
 The resulting proof of concept was then tested and reviewed by Kettering General Hospital.
 
 ### Outcomes and lessons learned
+
 The result is a proof of concept, created in 14 weeks, with a user interface that provides staff with the following:
 
 - The ability to visualise a virtual hospital, showing current occupancy rates and forecasted demand for beds.
@@ -85,18 +90,23 @@ The result is a proof of concept, created in 14 weeks, with a user interface tha
 There have been significant challenges with this project.
 
 #### Data quality
+
 Attempting to get a total view of the trust’s capacity and demand is complicated. In this example with Kettering General Hospital, there is no centralised patient flow information. Admission data would be needed for all specialties across the trust for the allocation algorithm to produce the best results.
 
 #### Complexity of patient needs
+
 The unique nature of patients’ needs means taking into consideration a large number of complex combinations in order to achieve the best allocation decision.
 
 #### Adapting quickly to change
+
 In a real-world setting, the technology would need to be easily reconfigured by staff with new information about increased beds, changed ward layouts or flu admission peaks. There is currently limited ability to see the impact of changes like these.
 
 ### What next?
+
 Kettering General Hospital will be working with Faculty to bid for further funding to develop and operationalise the bed allocation system. This will aim to build connections to patient data in real-time, refining the algorithm, and understanding how the allocation tool can be integrated into site management practises.
 
 ### Who was involved?
+
 This project is a collaboration between NHSX, [Kettering General Hospital NHS Trust](https://www.kgh.nhs.uk/), [Faculty](https://faculty.ai/) and the [Home Office’s Accelerated Capability Environment](https://www.gov.uk/government/groups/accelerated-capability-environment-ace) (ACE). The AI Lab Skunkworks exists within the NHS AI Lab to support the health and care community to rapidly progress ideas from the conceptual stage to a proof of concept.
 
 The NHS AI Lab is working with the Home Office programme: Accelerated Capability Environment (ACE) to develop some of its skunkworks projects, providing access to a large pool of talented and experienced suppliers who pitch their own vision for the project.
@@ -106,8 +116,6 @@ Accelerated Capability Environment (ACE) is part of the Homeland Security Group 
 ACE is designed to bring innovation at pace, accelerating the process from defining a problem to developing a solution and delivering practical impact to just 10 to 12 weeks.
 
 Faculty is an applied AI company that helps build and accelerate an organisation's AI capability. They offer a range of software and services solutions. Faculty works with a number of high-profile brands globally as well as government departments and agencies.
-
-
 
 Output|Link
 ---|---

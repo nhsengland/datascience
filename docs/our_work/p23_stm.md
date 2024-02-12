@@ -2,7 +2,7 @@
 layout: base
 title: Text Analysis using Structural Topic Modelling
 permalink: p23_stm.html
-summary: An open resuable tool for topic modelling of survey responses
+summary: An open reusable tool for topic modelling of survey responses
 tags: ['NLP', 'STRUCTURAL TOPIC MODELLING', 'R']
 ---
 

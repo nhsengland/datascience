@@ -7,7 +7,7 @@ tags: ['UNSTRUCTURED DATA', 'PRIVACY', 'PII', 'BEST PRACTICE']
 
 <figure markdown>
 ![](../images/c338fig1.png)
-<figcaption>Figure 1: Figure 4 from Al-Fedaghi, Sabah. (2012). Experimentation with Personal Identifiable Information. Showing an example PII sphere from different perspectives (compund, singleton and multitude personal identifiable information)</figcaption>
+<figcaption>Figure 1: Figure 4 from Al-Fedaghi, Sabah. (2012). Experimentation with Personal Identifiable Information. Showing an example PII sphere from different perspectives (compound, singleton and multitude personal identifiable information)</figcaption>
 </figure>
 
 Unstructured data (e.g. text, image, audio) makes up a significant quantity of NHS data but is comparatively underused as an evidence source for analysis. This is often due to the privacy concerns restricting the sharing and use of these data.
@@ -22,7 +22,7 @@ The main output specified was for a list of key qualities that could feed a tool
 
 **Structuring and data handling**
 
-* Ability to flag and identify with the range of possible data issues prior to deidentification (misspellings, medical terms, acronyms)
+* Ability to flag and identify with the range of possible data issues prior to de-identification (misspellings, medical terms, acronyms)
 * Connection with a clinical vocabulary in order to match and assist word identification to assist structuring of the data.
 * Ability to flag the data variables required for anonymisation to assist in the risk analysis and disclosure control process
 * Ability to deal with unstructured, semi-structured and structured data
@@ -47,7 +47,6 @@ The main output specified was for a list of key qualities that could feed a tool
 * Ability to adapt the anonymisation functionality to the risk level assessed
 * Flexibility within the tool programming to adapt to the utility required and hence the purpose of the output data aligning the appropriate level of de-identification
 * Incorporated regular updating and reaction to current “threats”
-
 
 | Output | Link |
 | ---- | ---- |

@@ -5,7 +5,7 @@
   <img src="../images/ourwork.jpeg" width=700></img>
 </p>
 
-From **predictive modeling** to **data-driven decision support**, we work on a number of dynamic challenges in healthcare.
+From **predictive modelling** to **data-driven decision support**, we work on a number of dynamic challenges in healthcare.
 
 Explore our project pages to:
 

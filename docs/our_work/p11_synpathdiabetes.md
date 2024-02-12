@@ -8,7 +8,7 @@ tags: ['SIMULATION']
 
 <figure markdown>
 ![](../images/p11fig1.png)
-<figcaption>Figure 1: Table of learning algorithms considered for the simulation inteligence layer </figcaption>
+<figcaption>Figure 1: Table of learning algorithms considered for the simulation intelligence layer </figcaption>
 </figure>
 
 Using the SynPath framework we created a diabetes simulation for 800 patients.  These patients could interact within a fictional local area with hospitals providing outpatient and inpatient services, GP practices and community healthcare services.

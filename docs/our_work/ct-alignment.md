@@ -1,6 +1,6 @@
 ---
 title: 'CT Alignment and Lesion Detection'
-summary: 'A range of classical and machine learning computer vision techniques to align and detect lesions in anomyised CT scans over time from George Eliot Hospital NHS Trust.'
+summary: 'A range of classical and machine learning computer vision techniques to align and detect lesions in anonymised CT scans over time from George Eliot Hospital NHS Trust.'
 category: 'Projects'
 origin: 'Skunkworks'
 tags: ['CT','COMPUTER VISION','IMAGE REGISTRATION','PYTHON']
@@ -25,6 +25,7 @@ CT scans are used in the detection and understanding of disease. Radiologists cu
 This 12-week project investigated the AI techniques that could be applied to the problem and sought to provide a proof of concept (a feasibility study) about whether it was possible to identify organs and growths, report on any changes and highlight areas of concern to the radiologist.
 
 ### Overview
+
 There are a number of challenges for radiologists reviewing cancer patients by comparing CT scans:
 
 - Review is time-consuming. It typically takes 30 to 40 minutes to assess scans for each patient.
@@ -43,35 +44,43 @@ The work looked at whether AI could be used to identify features in a CT scan an
 - detect anomalies (new growths or changes not present in previous scans)
 
 ### What we did
+
 #### Tissue sectioning
+
 Before detecting anomalies, the tool needs to separate the various types of tissue present in a scan (bone, fat, organs). The team first tried the recently released Facebook self-supervised learning method “DINO”, but found that this method was less accurate on CT scans than other approaches and required large amounts of memory to process. Instead, the team proceeded with a texton approach. Textons are micro-structures in images, or ‘groups’ of pixels, that can be recognised visually before the whole image is.
 
 The process involved applying machine learning (where an algorithm gradually improves its accuracy through repeated exposure to new data like scans and images) to the use of textons. This method was able to identify and differentiate between different tissue types accurately and rapidly.
 
 #### Anomaly detection
+
 Much like the process humans take in distinguishing between objects, classifying them and sorting them by size, computer vision takes an image input and gives output in the form of information, for example on size or colour. To detect anomalies, the team tried two methods: ellipsoid detection and infill prediction.
 
 Ellipsoid detection aims to isolate rounded 3D volumes of tissue, which were expected to correlate with lesions more strongly than other geometric shapes and identify those which differ from their surroundings. Infill prediction aims to learn what the parts of an image should look like in order to recognise anomalies that shouldn’t be there. A combination of the two methods was found to be the most accurate at detecting lesions, while manually ignoring anomalies that aren’t of concern, for example pockets of air inside the body.
 
 #### Scan alignment
+
 As well as automatically detecting lesions, the project was designed to keep a ‘human in the loop’ and act as a support for radiologists conducting examinations. To do this, three methods were tested for aligning two scans from the same patient, usually taken months apart, in 2D and 3D: keypoint alignment, phase correlation and coherent point drift. Phase correlation was found to be the most robust but did not deal with body shape changes, while coherent point drift was most effective for aligning scans while taking into account any body shape changes.
 
 The tool allows the user to choose which of the three adjustment options provides the best alignment for each case.
 
-
 ### Outcomes and lessons learned
+
 The hoped-for benefits of the project have had some partial successes:
 
 #### Scan alignment
+
 The team achieved both rigid and non-rigid 3D alignment that were an improvement on manual alignment but not perfect. The methods used to deal with difficulties caused by patients inhaling or exhaling during scanning were observed to work in most cases.
 
 #### Overlay
+
 Precise overlay of scans was achieved in the tool created both for 3D and 2D images, including when zooming, rotating or panning the image.
 
 #### New tissue growth detection
+
 Anomaly sizes were measured in 3D but more work is needed for robust correspondence between existing lesions to measure change.3D to successfully aid the identification of new growths.
 
 #### Time saving
+
 Further development and testing is required to establish a reduction in radiologists’ time, but the tool provides a process that is less manual for radiologists.
 
 George Eliot Hospital provided anonymised CT scans from 100 patients with tissue growths, and a number of marked-up scans to be used as “ground truth” data. In order to progress this work further, greater numbers of scans are needed to provide quantitative metrics of success.
@@ -80,13 +89,14 @@ Integration of novel image processing techniques with existing scanner software 
 
 Further exploration is also needed to identify and compare techniques and approaches that have already been tried by the medical imaging community.
 
-
 ### What next?
+
 George Eliot Hospital and Roke have submitted a joint application for further funding through the AI Award to further test the tool and establish a rigorous evaluation ahead of any regulatory work that will be required to use the software in clinical workflow.
 
 The team are testing these techniques against the latest techniques demonstrated as part of the Medical Image Computing and Computer Assisted Intervention ([MICCAI](http://www.miccai.org/)) conferences.
 
 ### Who was involved?
+
 This project is a collaboration between NHSX, [George Eliot Hospital](http://www.geh.nhs.uk/), and [Roke](https://www.roke.co.uk/) who were selected through the Home Office’s [Accelerated Capability Environment](https://www.gov.uk/government/groups/accelerated-capability-environment-ace) (ACE). The AI Lab Skunkworks exists within the NHS AI Lab to support the health and care community to rapidly progress ideas from the conceptual stage to a proof of concept.
 
 The NHS AI Lab is working with the Home Office programme: Accelerated Capability Environment (ACE) to develop some of its skunkworks projects, providing access to a large pool of talented and experienced suppliers who pitch their own vision for the project.
@@ -102,7 +112,7 @@ Output|Link
 Open Source Code & Documentation|[Github](https://github.com/nhsx/skunkworks-ct-alignment-lesion-detection)
 Case Study|[Case Study](https://www.nhsx.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-ai-to-identify-tissue-growth-from-ct-scans/)
 Technical report|[PDF](https://github.com/nhsx/skunkworks-ct-alignment-lesion-detection/blob/main/docs/NHS_AI_Lab_Skunkworks_CT_Alignment_Lesion_Detection_Technical_Report.pdf)
-Video walkthrough|[Youtube](http://www.youtube.com/watch?v=QygOnGLcszk)
+Video walkthrough|[YouTube](http://www.youtube.com/watch?v=QygOnGLcszk)
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #

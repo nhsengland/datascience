@@ -19,7 +19,6 @@ A small collection of code bases have been created to support the analysis of in
 
 The project was able to both deliver new insights around drivers for inequalities as well as reproducible analytical pipelines in the code-bases.  This means the code and approach can be reused for other disease or could be adapted for different localities.
 
-
 | Output | Link |
 | ---- | ---- |
 | Open Source Code & Documentation | [DNA Risk Predict](https://github.com/nhsx/dna-risk-predict) & [Diabetes Inequalities](https://github.com/nhsx/p24-pvt-diabetes-inequal) & [Morbidity Network](https://github.com/nhsx/morbidity_network_analysis)|

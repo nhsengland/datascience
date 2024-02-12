@@ -10,7 +10,7 @@ List of pre-releases and publications connected to our work
 
 [4] [https://doi.org/10.1101/2023.08.31.23294903](https://doi.org/10.1101/2023.08.31.23294903) - (Pre-Print)
 
-**Represneting Multimorbid Disease Progressions using directed hypergraphs**
+**Representing Multimorbid Disease Progressions using directed hypergraphs**
 
 **Jamie Burke**, Ashley Akbari, Rowena Bailey, **Kevin Fasusi**, Ronan A.Lyons, **Jonathan Pearson**, James Rafferty, and **Daniel Schofield**
 

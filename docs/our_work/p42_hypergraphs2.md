@@ -8,8 +8,6 @@ tags: ['HYPERGRAPHS', 'MORTALITY']
 
 ## Results
 
-
-
 | Output | Link |
 | ---- | ---- |
 | Open Source Code & Documentation | Coming Soon |

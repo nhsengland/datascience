@@ -7,17 +7,18 @@ tags: ['NLP', 'NEURAL NETWORKS']
 ---
 
 ## Info
+
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/examining-whether-recruitment-data-can-and-should-be-used-to-train-ai-models-for-shortlisting-interview-candidates/) on the NHS England Transformation Directorate website.
 
 ## Case Study
-Recruitment is a complex process where many factors need to be considered and understood so that the right candidates can be shortlisted for an interview. As well as that, it is a time-consuming process. However, the information provided in a job application has the potential to lead to bias if not handled correctly. This can happen with human shortlisters, but extra care must be taken if a machine (e.g. AI) is involved that is entirely unaware of what is and is not sensitive.
 
+Recruitment is a complex process where many factors need to be considered and understood so that the right candidates can be shortlisted for an interview. As well as that, it is a time-consuming process. However, the information provided in a job application has the potential to lead to bias if not handled correctly. This can happen with human shortlisters, but extra care must be taken if a machine (e.g. AI) is involved that is entirely unaware of what is and is not sensitive.
 
 **The challenge**
 Can we identify where bias has potential to occur when using machine learning for shortlisting interview candidates as part of the NHS England recruitment process? How does this manifest, and how can it be mitigated?
 
-
 ### Overview
+
 Recruitment in the NHS involves identifying the best candidates for a wide array of jobs, where the skills typically vary significantly between roles. The process is very time consuming, with applications, CVs and other supporting documents reviewed to identify the best candidates. These candidates are then ‘shortlisted’ for an interview, which is the next step in the process. This shortlisting is done by often highly experienced hiring managers, who have a nuanced understanding of what makes a good candidate. However, the fact that humans are involved in this review process means decisions taken at this stage can vary, from person to person as well as between hiring rounds.
 
 One way to gain some consistency might be to leverage artificial intelligence (AI), specifically machine learning, to undertake this process. The purpose of this project was to review the feasibility and consistency of this in the context of the NHS.

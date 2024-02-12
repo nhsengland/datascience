@@ -1,8 +1,8 @@
 ---
 layout: base
-title: Investigating Applying and Evaulating a Language Model to Patient Safety Data
+title: Investigating Applying and Evaluating a Language Model to Patient Safety Data
 permalink: p33_patientsafetylms.html
-summary: What's the most suitable models and workflows for represneting an NHS text dataset?
+summary: What's the most suitable models and workflows for representing an NHS text dataset?
 tags: ['PYTHON', 'NLP', 'LLM', 'PYTORCH']
 ---
 
@@ -11,7 +11,6 @@ In collaboration with the NHS England patient safety data team, we present an ex
 ## Results
 
 Results showed that the models trained on the patient safety incident reports using either the Masked Language Model (MLM) objective, or the MLM plus contrastive loss objective, appeared to have a superior performance on the presented pseudo-tasks when compared to their general domain equivalent. Whilst the performance in the frozen setting did not match that of the full fine-tuned setting, we have not performed a thorough investigation, for instance we could look to utilising larger base models. Further there are other examples of promising approaches which can better utilise frozen language models at scale, such as prompt learning and parameter efficient fine-tuning.
-
 
 | Output | Link |
 | ---- | ---- |

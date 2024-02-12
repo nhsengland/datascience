@@ -10,7 +10,7 @@ A work experience project investigating the application of a [Local Interpretabl
 
 ## Results
 
-Image pre-processing (through contrast enhancement) improved the LIME by increasing the number of superpixels for the given input image so that some broad features usch as discolouration and rashes were identified.   However, the coarseness of the superpixels generated through the pipeline was not sufficient to pick up the  features which would disceren between different types of Rosacea.  It may require domain/ imaging modality-specific pre-processing tasks to enhance the quality of explanation by improving the distinctiveness of the features that may help pick the right number of superpixels.
+Image pre-processing (through contrast enhancement) improved the LIME by increasing the number of superpixels for the given input image so that some broad features such as discolouration and rashes were identified.   However, the coarseness of the superpixels generated through the pipeline was not sufficient to pick up the  features which would discern between different types of Rosacea.  It may require domain/ imaging modality-specific pre-processing tasks to enhance the quality of explanation by improving the distinctiveness of the features that may help pick the right number of superpixels.
 
 | Output | Link |
 | ---- | ---- |

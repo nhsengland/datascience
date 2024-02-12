@@ -25,14 +25,13 @@ The Skunkworks' vision is that organisations in the health and care system will 
 
 Utilising our internal team of data scientists and data / technology leads, we are able to run small agile projects that may involve one-to-one coaching in the use of python and machine learning frameworks, through to data discoveries to help assess whether the data your organisation possesses is suitable for an AI approach.
 
-
 ### 2. Short term resource
 
-We are able to sponsor individual contractors provided through the [Public Sector Resourcing framework](https://www.publicsectorresourcing.co.uk/) to assist in the conception or implemention of AI solutions for your organisation.
+We are able to sponsor individual contractors provided through the [Public Sector Resourcing framework](https://www.publicsectorresourcing.co.uk/) to assist in the conception or implementation of AI solutions for your organisation.
 
 ### 3. With a supplier
 
-Parterning with the Home Office's [Accelerated Capability Environment (ACE)](https://www.gov.uk/government/groups/accelerated-capability-environment-ace), we are able to sponsor 12 week agile projects using a pool of cutting edge AI suppliers.
+Partnering with the Home Office's [Accelerated Capability Environment (ACE)](https://www.gov.uk/government/groups/accelerated-capability-environment-ace), we are able to sponsor 12 week agile projects using a pool of cutting edge AI suppliers.
 
 Health and care organisations can submit their proposed AI problem, and we will work with ACE to select and manage a supplier to deliver an AI proof of concept.
 
@@ -41,7 +40,7 @@ These projects culminate with:
 * Working code, published under an Open Source license on Github
 * A technical report, detailing methodology and findings
 
-**Co-production** means that regardless of the project and the presence or absence of external contractors and partners, we would always work in a collaborative way, by bringing everyone involved around the table: data scientists, data engineers, experts of ML techinques, ethicists, regulation advisers, clinical and non-clinical NHS colleagues, and so on. The in-house AI Skunkworks team would always provide the steering and technical scrutiny to the project.
+**Co-production** means that regardless of the project and the presence or absence of external contractors and partners, we would always work in a collaborative way, by bringing everyone involved around the table: data scientists, data engineers, experts of ML techniques, ethicists, regulation advisers, clinical and non-clinical NHS colleagues, and so on. The in-house AI Skunkworks team would always provide the steering and technical scrutiny to the project.
 
 ### Capability building
 

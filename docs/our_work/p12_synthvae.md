@@ -11,6 +11,7 @@ This project investigates the potential suitability of Variational Autoencoders 
 We evaluate the performance of the VAE approach alongside five alternative methods available in July/August 2021, namely Gaussian Copula, CTGAN, CopulaGAN, SDV’s TVAE and Independent (a model which assumes independence across variables).  Evaluating this set of models provides context to the performance of the VAE with respect to both basic (e.g. Independent) and complex (e.g. CTGAN) approaches.
 
 We then tested how the metrics and visualisations changed when differential privacy was incorporated into the variational autoencoder as a function of differential levels of privacy (increased privacy budget).
+
 ## Results
 
 We found that a variational autoencoder could indeed generate medium to high fidelity synthetic data for a single tabular table with numerical and categorical gaussian variables.
