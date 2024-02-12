@@ -8,7 +8,7 @@ tags: ['AMBULANCE','PREDICTOR','RANDOM FOREST', 'CLASSIFICATION', 'TIME SERIES',
 
 ![Ambulance Handover Delay Predictor screenshot](../images/ambulance-delay-predictor.png)
 
-Ambulance Handover Delay Predictor was selected as a project in Q2 2022 following a succesful pitch to the AI Skunkworks problem-sourcing programme.
+Ambulance Handover Delay Predictor was selected as a project in Q2 2022 following a successful pitch to the AI Skunkworks problem-sourcing programme.
 
 ## Results
 
