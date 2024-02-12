@@ -9,13 +9,13 @@ tags: ['CLASSIFICATION','LESION DETECTION','AI', 'PYTHON']
 !!! info
     Welcome to the technical website of the NHS AI Lab Skunkworks team. For our general public-facing website, please visit the ['https://www.nhsx.nhs.uk/ai-lab/ai-lab-programmes/skunkworks/'](AI Skunkworks programme)
 
-The [AI Skunkworks programme](https://www.nhsx.nhs.uk/ai-lab/ai-lab-programmes/skunkworks/) is part of the [NHS AI Lab](https://www.nhsx.nhs.uk/ai-lab/). It finds new ways to use AI for driving forward the early adoption of technology to support health, in both clinical and business contexts. The team provides free short-term expertise and resources to public sector health and social care organisations to support AI projects and develop capability. 
+The [AI Skunkworks programme](https://www.nhsx.nhs.uk/ai-lab/ai-lab-programmes/skunkworks/) is part of the [NHS AI Lab](https://www.nhsx.nhs.uk/ai-lab/). It finds new ways to use AI for driving forward the early adoption of technology to support health, in both clinical and business contexts. The team provides free short-term expertise and resources to public sector health and social care organisations to support AI projects and develop capability.
 
 The programme was closed to new projects at the end of 2022. This website captures the findings, source code, and lessons of its activities.
 
 ## How we work
 
-The NHS AI Lab Skunkworks team was built around the idea of short-term, rapid projects, aiming to investigate the use of AI for improving efficiency and accuracy in health and care. 
+The NHS AI Lab Skunkworks team was built around the idea of short-term, rapid projects, aiming to investigate the use of AI for improving efficiency and accuracy in health and care.
 
 The programme aimed to facilitate a robust conversation around uses of AI in health and care, encouraging the community of healthcare AI practitioners share and discuss their experiences, documenting the findings and releasing any open source code produced.
 
@@ -41,7 +41,7 @@ These projects culminate with:
 * Working code, published under an Open Source license on Github
 * A technical report, detailing methodology and findings
 
-**Co-production** means that regardless of the project and the presence or absence of external contractors and partners, we would always work in a collaborative way, by bringing everyone involved around the table: data scientists, data engineers, experts of ML techinques, ethicists, regulation advisers, clinical and non-clinical NHS colleagues, and so on. The in-house AI Skunkworks team would always provide the steering and technical scrutiny to the project. 
+**Co-production** means that regardless of the project and the presence or absence of external contractors and partners, we would always work in a collaborative way, by bringing everyone involved around the table: data scientists, data engineers, experts of ML techinques, ethicists, regulation advisers, clinical and non-clinical NHS colleagues, and so on. The in-house AI Skunkworks team would always provide the steering and technical scrutiny to the project.
 
 ### Capability building
 

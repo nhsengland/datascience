@@ -13,7 +13,7 @@ This is a backup of the case study published [here](https://transform.england.nh
 Recruitment is a complex process where many factors need to be considered and understood so that the right candidates can be shortlisted for an interview. As well as that, it is a time-consuming process. However, the information provided in a job application has the potential to lead to bias if not handled correctly. This can happen with human shortlisters, but extra care must be taken if a machine (e.g. AI) is involved that is entirely unaware of what is and is not sensitive.
 
 
-**The challenge**  
+**The challenge**
 Can we identify where bias has potential to occur when using machine learning for shortlisting interview candidates as part of the NHS England recruitment process? How does this manifest, and how can it be mitigated?
 
 
@@ -32,7 +32,7 @@ Bias can also be identified by looking at integrity of the source data (looking 
 ![Bed allocation screenshot](../images/Recruitment_graph.width-800.png)
 > **Figure 1**: An example of the synthetic staining process. a) the original slide, containing the α-syn proteins stained in a brownish colour b) a processed version of the original slide, filtered for the brownish colour c) the synthetically stained image after the algorithm has been applied to it. The α-syn proteins are now highlighted in a greenish colour.
 
-> I regularly hear that a bed is a bed and I know it’s not ... But when you have those front door pressures, you can’t get ambulances offloaded and I have beds in the wrong place - this is the time I need the real support, real time data, an automatic risk assessment that is generated for each patient.  
+> I regularly hear that a bed is a bed and I know it’s not ... But when you have those front door pressures, you can’t get ambulances offloaded and I have beds in the wrong place - this is the time I need the real support, real time data, an automatic risk assessment that is generated for each patient.
 – Member of bed management staff, Kettering General Hospital
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)

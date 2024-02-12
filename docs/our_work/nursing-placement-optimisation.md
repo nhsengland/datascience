@@ -30,7 +30,7 @@ This is a backup of the case study published [here](https://transform.england.nh
 
 Students training to become nurses undertake placements at teaching hospitals as part of their studies. These placements endeavour to help students experience and learn practical skills they can apply in their roles once they are qualified. In general, these placement schedules are produced by hand and what may seem to be a relatively simple task, quickly becomes complex once you consider the different constraints involved.
 
-**The challenge**  
+**The challenge**
 Can a tool or approach be developed which automatically generates student nurse placement schedules that adhere to the requirements and constraints of the different stakeholders, while additionally providing a more diverse range of placements for the students?
 
 
@@ -135,7 +135,7 @@ The tool is estimated to save hundreds of hours constructing and analysing sched
 
 It should be noted this tool aims to support placement coordinators, as the process of producing placement schedules isn’t just fitting together all the pieces. Bespoke requests will come in from students, requiring tweaking of placement schedules to accommodate a wide range of circumstances. This tool aims to provide a high-quality baseline from which placement coordinators can construct schedules which meet every requirement, from all over the Trust.
 
-> We can't fix the nursing shortage without training more nurses and for that, we need to have (the right) clinical placements available. This tool will not only help us to allocate placements more efficiently and effectively, but it will also free up valuable time for the practice learning facilitators to focus on teaching and professional development for students. Ultimately more students will be able to get the placements and training they need.  
+> We can't fix the nursing shortage without training more nurses and for that, we need to have (the right) clinical placements available. This tool will not only help us to allocate placements more efficiently and effectively, but it will also free up valuable time for the practice learning facilitators to focus on teaching and professional development for students. Ultimately more students will be able to get the placements and training they need.
 – Hai Lin Leung, Programme Manager, North West London CCG
 
 Finally, a successful element of this project has been the knowledge sharing and mutual upskilling between the two parties. AI Lab Skunkworks helped Imperial College Healthcare Trust identify and implement a novel AI-led approach which provided a solution they may otherwise not have been able to explore. Meanwhile, Imperial College Healthcare Trust shared their expertise in how the placement allocation process works, particularly what does and does not work well. This was useful underlying information the AI Lab Skunkworks team hopes to share more broadly across the range of projects we work on.

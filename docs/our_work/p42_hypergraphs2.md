@@ -6,11 +6,11 @@ summary: A continuation of the previous work on hypergraphs than can extract the
 tags: ['HYPERGRAPHS', 'MORTALITY']
 ---
 
-## Results 
+## Results
 
 
 
-| Output | Link | 
+| Output | Link |
 | ---- | ---- |
 | Open Source Code & Documentation | Coming Soon |
 | Case Study | Awaiting Sign-Off |

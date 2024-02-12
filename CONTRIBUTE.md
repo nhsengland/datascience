@@ -17,7 +17,7 @@ If you want to contribute to our resources:
 5. Check how your change looks on our website by hosting the website locally (follow [the steps below](#contribute-to-nhs-england-data-science-website) on how to do this)
 6. Push to your fork and [submit a pull request][pr]
 
-Your pull request will then be reviewed. You may receive some feedback and suggested changes before it can be approved and your pull request merged. 
+Your pull request will then be reviewed. You may receive some feedback and suggested changes before it can be approved and your pull request merged.
 
 To increase the likelihood of your pull request being accepted:
 
@@ -49,7 +49,7 @@ To host the website locally to view the live changes, run the command:
 To add a new file to the repository and website:
 
 * Add any files for new pages to the relevant folder in [`docs`](./docs/).
-* Add any images you'll use in the [`docs/images`](./docs/images/) folder. 
+* Add any images you'll use in the [`docs/images`](./docs/images/) folder.
 * Because this website uses the `awesome-pages` mkdocs addon, we don't need to update the 'nav' in mkdocs.yml - it will happen automatically when the website is built.
 * Don't forget to check that the links, images, headings, and contents are all working correctly on both the website and in the GitHub repo.
 
@@ -69,7 +69,7 @@ Creating new articles / blog posts is easy:
 title: Why we’re getting our data teams to RAP
 authors: [SamHollings]
 date: 2023-01-05
-categories: 
+categories:
     - RAP
     - Python
 links:

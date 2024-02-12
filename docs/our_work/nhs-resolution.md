@@ -74,10 +74,10 @@ As a result of the work, it is possible to gain the following insights into what
 
 The results are an indication that prediction of claims is possible but that large volumes of quality data are required to take the challenge further.
 
-> NHSX Skunkworks was a perfect way for us to kickstart our AI journey. We were able to work with experts who guided us through the process and help us every step of the way. We’ve learned so much and are keen to take this forward for further investigation.  
+> NHSX Skunkworks was a perfect way for us to kickstart our AI journey. We were able to work with experts who guided us through the process and help us every step of the way. We’ve learned so much and are keen to take this forward for further investigation.
 – Niamh McKenna, Chief Information Officer, NHS Resolution
 
-> This project highlighted not just that the data could broadly be used for better-than-baseline forecasts, but it also suggested a number of actionable ideas on how to improve data quality, something we really care about because without good data there cannot be good AI.  
+> This project highlighted not just that the data could broadly be used for better-than-baseline forecasts, but it also suggested a number of actionable ideas on how to improve data quality, something we really care about because without good data there cannot be good AI.
 – Giuseppe Sollazzo, Head of Skunkworks, NHS AI Lab, NHSX
 
 ### What next?

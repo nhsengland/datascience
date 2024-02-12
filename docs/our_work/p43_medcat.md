@@ -6,9 +6,9 @@ summary: In collaboration with Lancaster teaching hospital and the University of
 tags: ['MEDCAT', 'SNOMED CT', 'NAMED ENTITY RECOGNITION', 'LINKAGE']
 ---
 
-## Results 
+## Results
 
-| Output | Link | 
+| Output | Link |
 | ---- | ---- |
 | Open Source Code & Documentation | Coming Soon |
 | Case Study | Awaiting Sign-Off |

@@ -1,5 +1,5 @@
 ---
-layout: base 
+layout: base
 title: Parkinson's Disease Pathology Prediction
 summary: Automatic segmentation and detection of Parkinson’s disease pathology using synthetic staining and deep neural networks
 category: Projects
@@ -20,7 +20,7 @@ This is a backup of the case study published [here](https://transform.england.nh
 
 Identification of Parkinson’s Disease is carried out by neuropathologists who analyse post-mortem brain slices. This process is highly time intensive, and the neuropathologists are highly trained in their field. Being able to look at introducing automation to this process has potential to increase the speed at which Parkinson’s Disease can be diagnosed in a brain, as well as freeing up neuropathologists who are otherwise required to spend hours looking at the brain slices themselves.
 
-**The challenge**  
+**The challenge**
 Develop an approach to enhance the identification of biomarkers which are indicative of Parkinson’s Disease, and explore whether automated identification of Parkinson’s Disease in these slices is possible.
 
 

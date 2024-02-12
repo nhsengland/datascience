@@ -2,9 +2,9 @@
 
 Quoting the [Digital, Data and Technology (DDaT) Capability Framework](https://ddat-capability-framework.service.gov.uk/data-scientist.html):
 
-> Data science is a broad and fast-moving field spanning maths, statistics, software engineering and communications. Data scientists will often work as part of a multidisciplinary team, using data and analytics to inform and achieve organisational goals. 
+> Data science is a broad and fast-moving field spanning maths, statistics, software engineering and communications. Data scientists will often work as part of a multidisciplinary team, using data and analytics to inform and achieve organisational goals.
 
-Specifically, this means that often data scientists use programming languages like Python and R (though there are others too!) to solve problems within the business, or inform about courses of action, working with other colleagues such as analysts and data engineers, in particular. 
+Specifically, this means that often data scientists use programming languages like Python and R (though there are others too!) to solve problems within the business, or inform about courses of action, working with other colleagues such as analysts and data engineers, in particular.
 
 Some examples of the kinds of problems data science can help with are:
 

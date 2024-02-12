@@ -170,7 +170,7 @@ Variation inflation factors (VIF) confirmed the presence of multi-colinearity be
 
 #### Homoescadisticity
 
-A basic ordinary least squares (OLS) regression model was fitted to the full feature set, then residuals calculated. 
+A basic ordinary least squares (OLS) regression model was fitted to the full feature set, then residuals calculated.
 
 Residuals failed Shapiro-Wilk, Kolmogorov-Smirnov and Anderson-Darling tests for normality, as well as visual inspection:
 
@@ -262,7 +262,7 @@ A single metric (e.g. RMSE) does not capture the behaviour of each model, so we 
 
 ![Plots of predicted vs actual and corresponding errors on the training dataset](../images/long-stay-baseline/regression-predicted-actuals-training.png)
 
-> Figure 11. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the training dataset. 
+> Figure 11. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the training dataset.
 
 The RandomForest model appears to fit the training data well, but when compared with the performance on the validation set below, we can see this is due to overfitting on the training data set:
 
@@ -270,7 +270,7 @@ The RandomForest model appears to fit the training data well, but when compared 
 
 ![Plots of predicted vs actual and corresponding errors on the validation dataset](../images/long-stay-baseline/regression-predicted-actuals-validation.jpeg)
 
-> Figure 12. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the validation dataset. 
+> Figure 12. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the validation dataset.
 
 In all cases, the poor predictive power at higher length of stays is evident - there appears to be a linear increase in error caused by the models' inability to predict higher length of stays.
 
@@ -284,7 +284,7 @@ Parameter|Optimal value
 `l2_leaf_reg`|9
 `learning_rate`|0.1
 
-with 
+with
 
 Model|Training RMSE (days)|Validation RMSE (days)|Test RMSE (days)|Test MAE (days)
 ---|---|---|---|---
@@ -295,7 +295,7 @@ The test MAE of 4.12 days compares reasonably well to the previous work using a 
 However, a plot of predicted vs actual using the test dataset shows again the model's inability to capture long stayers:
 
 ![Plots of predicted vs actual and corresponding errors for the final model - test set](../images/long-stay-baseline/regression-predicted-actuals-final-model-test.jpeg)
-> Figure 13. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the test dataset for the final model. 
+> Figure 13. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the test dataset for the final model.
 
 We can still explore the most important features that make up the prediction by plotting feature importances of the final model:
 
@@ -453,7 +453,7 @@ We also see that none of the models are able to capture the nature of the highes
 
 The RandomForest model has an anomaly in its predictions for risk category 4 where it is missing any of the highest risk category 5 compared to other predictions. This is likely due to the overfitting observed in the previous plot.
 
-Both CatBoost and XGBoost have similar levels of predictive power, defined by the lower proportion of very low risk in the predictions for high risk, although at ~50% these are still too high. 
+Both CatBoost and XGBoost have similar levels of predictive power, defined by the lower proportion of very low risk in the predictions for high risk, although at ~50% these are still too high.
 
 Both CatBoost and XGBoost overpredict higher risk categories, while underpredicting the lowest risk category. This will lead both to false positives where very low risk cases are shown as high risk, and false negatives where high risk cases are shown as lower risk.
 
@@ -465,7 +465,7 @@ Parameter|Optimal value
 `l2_leaf_reg`|1
 `learning_rate`|0.1
 
-with 
+with
 
 Model|Training weighted F1 score|Validation weighted F1 score|Test weighted F1 score|Test balanced accuracy|Test AUC (OVR, weighted)
 ---|---|---|---|---|---
@@ -514,7 +514,7 @@ Simpler baseline models benefit from enhanced explainability and less compute re
 
 The overall performance of the best regression model was still poor - despite an MAE of 4.1 days, the model failed to capture long stayers and requires further work before use.
 
-The best performing classification model achieved a weighted F1 score of 0.6. 
+The best performing classification model achieved a weighted F1 score of 0.6.
 
 The overall performance of the best classification model was poor - the model failed to capture high risk and assigned a high proportion (&gt;50%) of very low risk patients to higher risk groups.
 
@@ -545,7 +545,7 @@ There is opportunity for much future work, which should be balanced with the uti
 
 ### Technical improvements
 
-1. Move from Notebooks to python scripts. Jupyter Notebooks are an excellent exploratory tool, but do not work well with version control or automated testing. 
+1. Move from Notebooks to python scripts. Jupyter Notebooks are an excellent exploratory tool, but do not work well with version control or automated testing.
 2. Implement a [Reproducible Analytical Pipeline](https://github.com/NHSDigital/rap-community-of-practice). This will allow reuse of the approaches here and improve overall code quality.
 3. Abstract visualisation code into functions. This will improve readability of the code.
 

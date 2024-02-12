@@ -76,10 +76,10 @@ The result is a proof of concept, created in 14 weeks, with a user interface tha
 - A demonstration of what a fully developed allocation model could provide, making suggestions to the user along with an explanation.
 - The ability to test the model on a wide range of patients with different attributes and associated constraints and validate the performance.
 
-> This tool will help the likes of myself and others by supporting decision making. Support is the key word here, machine learning will support us to make these difficult bed allocation and patient decisions.  
+> This tool will help the likes of myself and others by supporting decision making. Support is the key word here, machine learning will support us to make these difficult bed allocation and patient decisions.
 – Digital Director, Kettering General Hospital NHS Foundation Trust
 
-> I regularly hear that a bed is a bed and I know it’s not ... But when you have those front door pressures, you can’t get ambulances offloaded and I have beds in the wrong place - this is the time I need the real support, real time data, an automatic risk assessment that is generated for each patient.  
+> I regularly hear that a bed is a bed and I know it’s not ... But when you have those front door pressures, you can’t get ambulances offloaded and I have beds in the wrong place - this is the time I need the real support, real time data, an automatic risk assessment that is generated for each patient.
 – Member of bed management staff, Kettering General Hospital
 
 There have been significant challenges with this project.

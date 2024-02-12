@@ -14,7 +14,7 @@ List of pre-releases and publications connected to our work
 
 **Jamie Burke**, Ashley Akbari, Rowena Bailey, **Kevin Fasusi**, Ronan A.Lyons, **Jonathan Pearson**, James Rafferty, and **Daniel Schofield**
 
-*To introduce directed hypergraphs as a novel tool for assessing the temporal relationships between coincident diseases,addressing the need for a more accurate 
+*To introduce directed hypergraphs as a novel tool for assessing the temporal relationships between coincident diseases,addressing the need for a more accurate
 representation of multimorbidity and leveraging the growing availability of electronic healthcare databases and improved computational resources.*
 
 ---

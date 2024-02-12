@@ -22,7 +22,7 @@ This is a backup of the case study published [here](https://transform.england.nh
 Many cases of adrenal lesions, known as adrenal incidentalomas, are discovered incidentally on CT scans performed for other medical conditions. These lesions can be malignant, and so early detection is crucial for patients to receive the correct treatment and allow the public health system to target resources efficiently. Traditionally, the detection of adrenal lesions on CT scans relies on manual analysis by radiologists, which can be time-consuming and unsystematic.
 
 
-**The challenge**  
+**The challenge**
 Can applying AI and deep learning augment the detection of adrenal incidentalomas in patients’ CT scans?
 
 

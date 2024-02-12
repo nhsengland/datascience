@@ -69,13 +69,13 @@ With thanks to colleagues at NHSX Analytics Unit, Accelerated Capability Environ
 
 The team brought in metadata from NHS Digital, NHS England and Improvement, Public Health England, Office for National Statistics and Health Data Research UK in order to prove that Data lens could onboard from different organisations in different ways: APIs, scraping, even manual metadata files.
 
-> Working with the AI Lab Skunkworks on this project was Agile in the truest sense of the word. We pitched an idea, had funding approved and were up and running in a very short amount of time. I sincerely hope it can be taken forward into production to help its users get value from the wealth of data and information that is produced by the Health and Social Care sector.  
+> Working with the AI Lab Skunkworks on this project was Agile in the truest sense of the word. We pitched an idea, had funding approved and were up and running in a very short amount of time. I sincerely hope it can be taken forward into production to help its users get value from the wealth of data and information that is produced by the Health and Social Care sector.
 – Paul Ross, Data Engineer, NHSX Analytics Unit.
 
-> This project has shown the value of better data access using intelligent, domain specific search. The approach of creating a proof of concept and the freedom it's given us to apply advanced technology has really added value.  
+> This project has shown the value of better data access using intelligent, domain specific search. The approach of creating a proof of concept and the freedom it's given us to apply advanced technology has really added value.
 – Kieran Moran, Naimuri.
 
-> At ACE our overriding mission is to keep the public safe, so we welcomed the opportunity to work with NHSX, and help them tackle the challenges they and the wider healthcare sector face.  
+> At ACE our overriding mission is to keep the public safe, so we welcomed the opportunity to work with NHSX, and help them tackle the challenges they and the wider healthcare sector face.
 – Simon Christoforato, CEO of ACE’s Vivace supplier community.
 
 

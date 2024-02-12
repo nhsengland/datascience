@@ -18,7 +18,7 @@ One avenue for enabling this is to provide “synthetic data”, where new “fa
 - Quality - it must be a sufficient representation of the real data.
 - Privacy - it mustn’t ‘leak’ or expose any sensitive information from the real data.
 
-**The challenge**  
+**The challenge**
 This project aimed to provide others with a simple, re-usable way of generating safe and effective synthetic data to be used in technologies that improve health and social care.
 
 ### The challenge

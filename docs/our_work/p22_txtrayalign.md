@@ -13,15 +13,15 @@ tags: ['NLP', 'MULTI-MODAL', 'RETRIEVAL', 'CONTRASTIVE-LEARNING', 'PYTHON']
 
 TxtRayAlign exploits contrastive training to learn similarities between text and images, allowing a retrieval-based mechanism to find reports that are “similar” to an image.
 
-## Results 
+## Results
 
-We observe that even the best performing model (ResNet50-DeCLUTR) only retrieves anything of relevance for 62% of queries. The retrieved sentences tend to contain findings that are not relevant for the query, as indicated by the relatively poor precision. Further, the query image contains findings that are only poorly covered by the retrieved sentences, as indicated by the low recall. 
+We observe that even the best performing model (ResNet50-DeCLUTR) only retrieves anything of relevance for 62% of queries. The retrieved sentences tend to contain findings that are not relevant for the query, as indicated by the relatively poor precision. Further, the query image contains findings that are only poorly covered by the retrieved sentences, as indicated by the low recall.
 
 The results of our investigation indicate that this approach can help generate reasonably grammatical and clinically meaningful sentences, yet falls short in achieving this with sufficient accuracy. While improvements to the model could be made, our findings are corroborated by others in literature. Besides improving
 performance, future work could develop other applications of TxtRayAlign for other downstream tasks, such as image-to-image or text-to-image retrieval.
 
 
-| Output | Link | 
+| Output | Link |
 | ---- | ---- |
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/txt-ray-align) |
 | Case Study | Awaiting Sign-Off |

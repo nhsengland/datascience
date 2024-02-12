@@ -21,11 +21,11 @@ Clinicians, technology teams, operations teams, and other stakeholders from orga
 * I understand there is great potential for AI in Health and Care
 * I want to increase my understanding about the practical application of AI in Health and Care
 * I understand the variety and quantity of data in my organisation
-* I'm willing to embrace being experimental and open to learning from experience 
+* I'm willing to embrace being experimental and open to learning from experience
 
 ### Attendees
 
-10 or 12 attendees max 
+10 or 12 attendees max
 
 ### Your presenters
 
@@ -37,12 +37,12 @@ A series of weekly 75 minute workshops, delivered online through Google Meet or 
 
 ### By the end of the workshop series, learners will be able to
 
-* Be confident in having more conversations about AI in Health and Care 
+* Be confident in having more conversations about AI in Health and Care
 * Embrace an experimental approach to AI in Health and Care
 * Understand practical steps required for experimenting with AI in Health and Care
 * Create a detailed plan for an AI project
 
-## Workshop 1: AI fundamentals 
+## Workshop 1: AI fundamentals
 
 ### Aim
 
@@ -54,7 +54,7 @@ Establish baseline understanding of AI and what is possible
 * Understand the two AI families (Narrow and General)
 * What's possible with ML
 * Ethics considerations
-* The AI Life Cycle 
+* The AI Life Cycle
 * Examples of AI in Health and Care
 * Examples of projects we’ve worked on
 
@@ -70,12 +70,12 @@ Establish baseline understanding of AI and what is possible
 
 Develop skills to identify and communicate problems
 
-### Key topics: 
+### Key topics:
 
 * Problem identification
 * Identifying stakeholders
-* Understanding user needs 
-* Writing a user story 
+* Understanding user needs
+* Writing a user story
 * Capturing the user journey
 
 ### By the end of this workshop, learners will
@@ -126,7 +126,7 @@ To understand the practical aspects of every AI project.
 
 ### Aim
 
-To understand the next steps in launching your AI Experiment 
+To understand the next steps in launching your AI Experiment
 
 ### Key Topics
 
@@ -166,7 +166,7 @@ UHS Digital has been exploring different applications of AI in healthcare for so
 
 The Skunkworks programme aims to test the development and, when appropriate, adopt AI technologies into all areas of health and care. In addition to supporting the development of proof-of concept AI solutions, and providing [open source code on Github](https://nhsx.github.io/skunkworks) for others to re-purpose, we are also providing teams like UHS with a series of AI deep dive workshops.
 
-> This was a great opportunity to get a frontline NHS IT team thinking about applied AI inside the system. It has certainly served to inspire the team to try new things.  
+> This was a great opportunity to get a frontline NHS IT team thinking about applied AI inside the system. It has certainly served to inspire the team to try new things.
 – Matt Stammers, Clinical Lead, University Hospital Southampton Data Science
 
 ### AI deep dive workshops

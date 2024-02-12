@@ -14,7 +14,7 @@ As the successful candidate from the AI Skunkworks problem-sourcing programme, C
 
 A proof-of-concept demonstrator written in Python (user interface, classical computer vision models, notebooks with machine learning models).
 
-# Case Study 
+# Case Study
 
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-ai-to-identify-tissue-growth-from-ct-scans/) on the NHS England Transformation Directorate website.
 

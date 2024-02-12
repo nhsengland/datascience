@@ -80,7 +80,7 @@ This proof-of-concept risk identifier will enable hospital staff to look closely
 
 The team at Gloucestershire Hospitals is keen to heed the lessons learned by working together, and taking the next steps to understand what technical, compliance, and logistical requirements are necessary to adopt it.
 
-> Our aim was to develop a proof of concept for a “long stay risk” score algorithm. Would it be possible to predict a patient’s length of stay the minute they arrive at the front door? The initial “long stay risk” model successfully detects two-thirds of long stayers at time of arrival, or very soon after.  
+> Our aim was to develop a proof of concept for a “long stay risk” score algorithm. Would it be possible to predict a patient’s length of stay the minute they arrive at the front door? The initial “long stay risk” model successfully detects two-thirds of long stayers at time of arrival, or very soon after.
 – Joe Green, Deputy Head of Business Intelligence, Gloucestershire Hospitals Trust
 
 The results have been very positive. It is hoped the information will allow trust staff to carefully tailor a patient’s care pathway accordingly. Based on a well-established evidence base showing the negative impacts of unnecessary long stays, the AI tool has the potential to lead to decrease in the length of hospital stays overall, with corresponding reductions in patient deterioration and mortality during admission, and also lead to reduced readmission rates.
