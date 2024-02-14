@@ -193,7 +193,7 @@ then resetting.
  
 @keyframes swirl {   
   from {
-    transform: rotateY(-360deg);
+    transform: rotateY(360deg);
   }
   to {
     transform: rotateY(0deg);
