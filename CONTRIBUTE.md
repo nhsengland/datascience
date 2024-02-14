@@ -17,7 +17,7 @@ If you want to contribute to our resources:
 5. Check how your change looks on our website by hosting the website locally (follow [the steps below](#contribute-to-nhs-england-data-science-website) on how to do this)
 6. Push to your fork and [submit a pull request][pr]
 
-Your pull request will then be reviewed. You may receive some feedback and suggested changes before it can be approved and your pull request merged. 
+Your pull request will then be reviewed. You may receive some feedback and suggested changes before it can be approved and your pull request merged.
 
 To increase the likelihood of your pull request being accepted:
 
@@ -48,10 +48,10 @@ To host the website locally to view the live changes, run the command:
 
 To add a new file to the repository and website:
 
-* Add any files for new pages to the relevant folder in [`docs`](./docs/).
-* Add any images you'll use in the [`docs/images`](./docs/images/) folder. 
-* Because this website uses the `awesome-pages` mkdocs addon, we don't need to update the 'nav' in mkdocs.yml - it will happen automatically when the website is built.
-* Don't forget to check that the links, images, headings, and contents are all working correctly on both the website and in the GitHub repo.
+- Add any files for new pages to the relevant folder in [`docs`](./docs/).
+- Add any images you'll use in the [`docs/images`](./docs/images/) folder.
+- Because this website uses the `awesome-pages` mkdocs addon, we don't need to update the 'nav' in mkdocs.yml - it will happen automatically when the website is built.
+- Don't forget to check that the links, images, headings, and contents are all working correctly on both the website and in the GitHub repo.
 
 The website currently uses the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/) theme. This sets the layout, colour, font, search bar, header, footer, navigation bar and contents. You can follow the documentation to make any changes (e.g. change the [colour scheme](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/)) as it is simple to use and also easy to overwrite. There is a separate stylesheet, [extra.css](./docs/stylesheets/extra.css), which is used to overwrite the colours, fonts and some of the sizing for some elements.
 Here is a good [cheat sheet](https://yakworks.github.io/docmark/cheat-sheet/) for what features can be used in MkDocs and also interesting features in [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/).
@@ -59,17 +59,18 @@ Here is a good [cheat sheet](https://yakworks.github.io/docmark/cheat-sheet/) fo
 #### Blog / Article
 
 Creating new articles / blog posts is easy:
-* add a markdown file under the [`docs/articles/posts`](./docs/articles/posts) folder.
-    * Note, you do not have to add the blog pages to the `mkdocs.yml` - it gets added to the nav bar automatically.
-* add yourself to the [`docs/articles/posts/.authors.yml`], so your face and info appears next to the article.
-* The markdown file should have some metadata at the start, like the below. For more info on these parameters, see the [mkdocs material blog plugin guidance](https://squidfunk.github.io/mkdocs-material/plugins/blog/).
 
-```
+- add a markdown file under the [`docs/articles/posts`](./docs/articles/posts) folder.
+  - Note, you do not have to add the blog pages to the `mkdocs.yml` - it gets added to the nav bar automatically.
+- add yourself to the [`docs/articles/posts/.authors.yml`], so your face and info appears next to the article.
+- The markdown file should have some metadata at the start, like the below. For more info on these parameters, see the [mkdocs material blog plugin guidance](https://squidfunk.github.io/mkdocs-material/plugins/blog/).
+
+```markdown
 ---
 title: Why we’re getting our data teams to RAP
 authors: [SamHollings]
 date: 2023-01-05
-categories: 
+categories:
     - RAP
     - Python
 links:

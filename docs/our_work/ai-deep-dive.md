@@ -21,11 +21,11 @@ Clinicians, technology teams, operations teams, and other stakeholders from orga
 * I understand there is great potential for AI in Health and Care
 * I want to increase my understanding about the practical application of AI in Health and Care
 * I understand the variety and quantity of data in my organisation
-* I'm willing to embrace being experimental and open to learning from experience 
+* I'm willing to embrace being experimental and open to learning from experience
 
 ### Attendees
 
-10 or 12 attendees max 
+10 or 12 attendees max
 
 ### Your presenters
 
@@ -37,12 +37,12 @@ A series of weekly 75 minute workshops, delivered online through Google Meet or 
 
 ### By the end of the workshop series, learners will be able to
 
-* Be confident in having more conversations about AI in Health and Care 
+* Be confident in having more conversations about AI in Health and Care
 * Embrace an experimental approach to AI in Health and Care
 * Understand practical steps required for experimenting with AI in Health and Care
 * Create a detailed plan for an AI project
 
-## Workshop 1: AI fundamentals 
+## Workshop 1: AI fundamentals
 
 ### Aim
 
@@ -54,7 +54,7 @@ Establish baseline understanding of AI and what is possible
 * Understand the two AI families (Narrow and General)
 * What's possible with ML
 * Ethics considerations
-* The AI Life Cycle 
+* The AI Life Cycle
 * Examples of AI in Health and Care
 * Examples of projects we’ve worked on
 
@@ -70,12 +70,12 @@ Establish baseline understanding of AI and what is possible
 
 Develop skills to identify and communicate problems
 
-### Key topics: 
+### Key topics
 
 * Problem identification
 * Identifying stakeholders
-* Understanding user needs 
-* Writing a user story 
+* Understanding user needs
+* Writing a user story
 * Capturing the user journey
 
 ### By the end of this workshop, learners will
@@ -126,7 +126,7 @@ To understand the practical aspects of every AI project.
 
 ### Aim
 
-To understand the next steps in launching your AI Experiment 
+To understand the next steps in launching your AI Experiment
 
 ### Key Topics
 
@@ -150,14 +150,17 @@ If you'd like to arrange an AI Deep Dive with your team, please [get in touch](m
 # Case Study
 
 ## Info
+
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/understand-ai/sharing-ai-skills-and-experience-through-deep-dive-workshops/) on the NHS England Transformation Directorate website.
 
 ### Case Study Overview
+
 The NHS AI Lab Skunkworks team provides public sector health and social care organisations with artificial intelligence (AI) support and technical expertise. The team of data scientists and AI project specialists has been helping others with their explorations with AI solutions for a range of problems, [from supporting hospital bed allocation to detecting CT scan anomalies](https://transform.england.nhs.uk/ai-lab/ai-lab-programmes/skunkworks/ai-skunkworks-projects/).
 
 It became clear from engaging with organisations in these projects that the NHS AI Lab has an important role to play in increasing the trust and confidence of healthcare staff with AI tools. Both in their creation and in their everyday use. By exploring the possibilities for AI together with the organisations who will use them, the AI Skunkworks team aims to bring some clarity to the potential of AI and diminish some of the hype.
 
 ### The challenge
+
 Despite increasing interest in the use of AI technologies within the NHS, it is difficult for busy teams to develop the skills and experience necessary to start new experimentation with AI or manage a successful AI project. Even when a potential use for AI is identified, ideas are often thwarted by the complexity of using AI technologies, lack of suitable data, concerns about patient data security or the burden of achieving regulatory approvals of AI as a medical device.
 
 The Digital team at University Hospital Southampton (UHS) approached us with a request to explore the ethical and safety considerations of applying AI in their work. It is especially critical with AI in health and care that the people affected by its use are confident the tools are robust, and any support for decisions is fair for all patients.
@@ -166,43 +169,45 @@ UHS Digital has been exploring different applications of AI in healthcare for so
 
 The Skunkworks programme aims to test the development and, when appropriate, adopt AI technologies into all areas of health and care. In addition to supporting the development of proof-of concept AI solutions, and providing [open source code on Github](https://nhsx.github.io/skunkworks) for others to re-purpose, we are also providing teams like UHS with a series of AI deep dive workshops.
 
-> This was a great opportunity to get a frontline NHS IT team thinking about applied AI inside the system. It has certainly served to inspire the team to try new things.  
+> This was a great opportunity to get a frontline NHS IT team thinking about applied AI inside the system. It has certainly served to inspire the team to try new things.
 – Matt Stammers, Clinical Lead, University Hospital Southampton Data Science
 
 ### AI deep dive workshops
+
 The workshops provide organisations with the relevant knowledge and tools to understand how to safely launch an AI experiment in healthcare. We provide guidance on identifying a potential real application of AI and use this idea to create a problem statement and identify AI solutions. We also consider the practicalities of running the experiment and the ethical and information governance considerations that are so vital for producing safe and effective technologies.
 
 No previous experience or knowledge of AI is necessary as the series of workshops provide an introduction to the key terms, types and applications of AI in healthcare. Hence, this workshop series is open to anyone who is interested in how AI can support their organisation, and this can include clinicians, technology teams, operations teams and senior stakeholders.
 
 The 5-part series of virtual and interactive workshops covers:
 
-- an introduction to AI and healthcare case studies
-- how to identify potential applications of AI and write up a patient and user focused problem statement
-- practicalities when starting and running an AI experiment, including who needs to be involved in an AI experiment for example ethics, information governance and medical device regulation
-- agile ways of working to ensure the problem and the solution is always patient and user focused.
-- innovation methodologies, for example the Amazon ‘working backward’ press release.
+* an introduction to AI and healthcare case studies
+* how to identify potential applications of AI and write up a patient and user focused problem statement
+* practicalities when starting and running an AI experiment, including who needs to be involved in an AI experiment for example ethics, information governance and medical device regulation
+* agile ways of working to ensure the problem and the solution is always patient and user focused.
+* innovation methodologies, for example the Amazon ‘working backward’ press release.
 
 ### What we did
+
 Having piloted the deep dive process with colleagues across the NHS Transformation Directorate, we arranged calls with the Southampton team to understand their needs.
 
 We began by establishing a workshop group of up to 12 participants who would reflect the likely members of staff to be involved in running a data-driven digital transformation initiative. UHS provided a diverse group of participants from teams including electronic patient record (EPR), business intelligence, database/IT, APEX development, clinicians and research data science.
 
 In particular, the group wanted support with ….
 
-- being more confident in discussion about AI in healthcare
-- embracing the idea of experimentation with AI in healthcare
-- understanding the practical steps required to start experimenting
-- creating a detailed plan for an AI project.
+* being more confident in discussion about AI in healthcare
+* embracing the idea of experimentation with AI in healthcare
+* understanding the practical steps required to start experimenting
+* creating a detailed plan for an AI project.
 
 We set up weekly workshops, delivered online over a period of 5 weeks. The workshops looked to identify one problem that was worked on through the series.
 
 The running order for this weekly series was:
 
-- Workshop 1: AI fundamentals - establish a baseline understanding of AI and the art of the possible.
-- Workshop 2: Problem Discovery - develop skills to identify and communicate problems.
-- Workshop 3: Solution Discovery - identify solutions and potential AI technologies to solve problems.
-- Workshop 4: Practicalities - understand the practical aspects of AI projects.
-- Workshop 5: Launching your AI experiment - understand the next steps in launching an AI project.
+* Workshop 1: AI fundamentals - establish a baseline understanding of AI and the art of the possible.
+* Workshop 2: Problem Discovery - develop skills to identify and communicate problems.
+* Workshop 3: Solution Discovery - identify solutions and potential AI technologies to solve problems.
+* Workshop 4: Practicalities - understand the practical aspects of AI projects.
+* Workshop 5: Launching your AI experiment - understand the next steps in launching an AI project.
 
 You can read more about the [deep dive workshop agenda on our Github website](https://nhsx.github.io/skunkworks/ai-deep-dive).
 
@@ -210,8 +215,8 @@ We involved the group in interactive elements using tools such as Mentimeter and
 
 We included a number of innovation approaches such as the Amazon ‘working backward’ press release product development approach, which helps to imagine what the desired end result will look like. We also introduced the [lean canvas method](https://leanstack.com/lean-canvas) to clearly capture what the problem and potential solution could be, including identifying alternative solutions that may already exist.
 
-
 ### Outcomes and lessons learned
+
 The workshops provided valuable insights to the NHS AI Lab Skunkworks team about the importance of group engagement. Having a diverse AI project team that includes people from technical, governance and frontline backgrounds is important to ensure you fully understand the problem you’re trying to solve.
 
 The experience also demonstrated the value of discussing topics such as “build or buy?” The team at UHS were keen to invest wisely in any AI developments and to learn how to find out about existing tools. With so many AI applications already in existence, there may be tools you can use “off the shelf” or valuable lessons to learn from previous investigations into similar issues.
@@ -220,15 +225,15 @@ The workshops gave us a good opportunity to stress the importance of using AI sa
 
 As a result of the deep dive sessions:
 
-- 67% of participants felt more confident in their baseline understanding of AI and Machine Learning.
-- 71% of participants felt more confident in identifying potential solutions.
-- 60% of participants felt more confident in identifying the data needs of an AI project.
-- 75% of participants felt more confident conducting business and technical due diligence.
+* 67% of participants felt more confident in their baseline understanding of AI and Machine Learning.
+* 71% of participants felt more confident in identifying potential solutions.
+* 60% of participants felt more confident in identifying the data needs of an AI project.
+* 75% of participants felt more confident conducting business and technical due diligence.
 
 The team at University Hospital Southampton also reported:
 
-- a need for additional support when identifying and launching AI experiments
-- the importance of diverse groups who represent different roles and teams in order to help the group explore the problem from different perspectives.
+* a need for additional support when identifying and launching AI experiments
+* the importance of diverse groups who represent different roles and teams in order to help the group explore the problem from different perspectives.
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #

@@ -8,7 +8,7 @@ tags: ['AKI','RNN','DEEP LEARNING', 'TIME SERIES', 'NEURAL NETWORKS', 'PYTHON']
 
 ![Renal Health Prediction diagram](../images/renal-health-prediction.png)
 
-Renal Health Predition was selected as a project in Spring 2022 following a successful pitch to the AI Skunkworks problem-sourcing programme.
+Renal Health Prediction was selected as a project in Spring 2022 following a successful pitch to the AI Skunkworks problem-sourcing programme.
 
 ## Results
 

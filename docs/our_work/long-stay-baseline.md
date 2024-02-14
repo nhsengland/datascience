@@ -23,10 +23,10 @@ A series of Jupyter Notebooks used to generate this report are available on [Git
 * 4. [Feature engineering](#featureengineering)
 * 5. [Statistical analysis](#statisticalanalysis)
 * 6. [Modelling](#modelling)
-    * 6.1 [Regression models](#regressionmodels)
-    * 6.2 [Demographic analysis](#demographicanalysis)
-    * 6.3 [Classification models](#classificationmodels)
-    * 6.4 [Model comparison](#modelcomparison)
+  * 6.1 [Regression models](#regressionmodels)
+  * 6.2 [Demographic analysis](#demographicanalysis)
+  * 6.3 [Classification models](#classificationmodels)
+  * 6.4 [Model comparison](#modelcomparison)
 * 7. [Conclusions](#conclusions)
 * 8. [Future work](#futurework)
 
@@ -77,9 +77,9 @@ Data was processed by:
 3. Removing fields not available at admission
 4. Removing empty and redundant (e.g. `LENGTH_OF_STAY_IN_MINUTES` duplicates `LENGTH_OF_STAY`) columns
 5. Removing duplicate rows
-4. Removing local identifiers
-5. Imputing `stroke_ward_stay` as `N` if not specified
-6. Binary encoding `stroke_ward_stay`, `IS_care_home_on_admission`, `IS_care_home_on_discharge` and `IS_illness_not_injury`
+6. Removing local identifiers
+7. Imputing `stroke_ward_stay` as `N` if not specified
+8. Binary encoding `stroke_ward_stay`, `IS_care_home_on_admission`, `IS_care_home_on_discharge` and `IS_illness_not_injury`
 
 This resulted in ~170,000 rows across ~50 columns as visualised in the below image:
 
@@ -106,7 +106,8 @@ The resulting distribution of length of stays shows a ~bimodal distribution caus
 After discussion with GHNHSFT, the following decisions were made in feature selection:
 
 1. Select the following features for inclusion in the model, which are available on admission:
-```python
+
+    ```python
     "ae_arrival_mode",
     "AGE_ON_ADMISSION",
     "EL CountLast12m",
@@ -130,9 +131,11 @@ After discussion with GHNHSFT, the following decisions were made in feature sele
     "LENGTH_OF_STAY",
     "arrival_day_of_week",
     "arrival_month_name"
-```
+    ```
+
 2. Exclude the following features, but retain for later analysis of model fairness:
-```python
+
+    ```python
     "ETHNIC_CATEGORY_CODE_DESCRIPTION",
     "IMD county decile",
     "OAC Group Name",
@@ -141,7 +144,8 @@ After discussion with GHNHSFT, the following decisions were made in feature sele
     "PATIENT_GENDER_CURRENT_DESCRIPTION",
     "POST_CODE_AT_ADMISSION_DATE_DISTRICT",
     "Rural urban classification"
-```
+    ```
+
 3. Generate `arrival_day_of_week` and `arrival_month_name` recalculated from `START_DATE_TIME_HOSPITAL_PROVIDER_SPELL`
 
 This resulted in a dataset of **~170,000 rows across 30 columns**.
@@ -170,7 +174,7 @@ Variation inflation factors (VIF) confirmed the presence of multi-colinearity be
 
 #### Homoescadisticity
 
-A basic ordinary least squares (OLS) regression model was fitted to the full feature set, then residuals calculated. 
+A basic ordinary least squares (OLS) regression model was fitted to the full feature set, then residuals calculated.
 
 Residuals failed Shapiro-Wilk, Kolmogorov-Smirnov and Anderson-Darling tests for normality, as well as visual inspection:
 
@@ -214,7 +218,7 @@ Training, validation and test splits were representative of the population and d
 
 Proportion of `male`, `female` patients in each split:
 
-```
+```yaml
 train: [0.53, 0.47]
 validate: [0.51, 0.49]
 test: [0.53, 0.47]
@@ -224,7 +228,7 @@ test: [0.53, 0.47]
 
 Proportions of each ethnicity for each split:
 
-```
+```yaml
 train: [0.87, 0.05, 0.02, 0.02, 0.01, 0.01, 0.01, 0.0, ...]
 validate: [0.88, 0.05, 0.03, 0.02, 0.01, 0.01, 0.01, 0.0, ...]
 test: [0.87, 0.05, 0.02, 0.02, 0.01, 0.01, 0.0, 0.0, ...]
@@ -262,7 +266,7 @@ A single metric (e.g. RMSE) does not capture the behaviour of each model, so we 
 
 ![Plots of predicted vs actual and corresponding errors on the training dataset](../images/long-stay-baseline/regression-predicted-actuals-training.png)
 
-> Figure 11. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the training dataset. 
+> Figure 11. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the training dataset.
 
 The RandomForest model appears to fit the training data well, but when compared with the performance on the validation set below, we can see this is due to overfitting on the training data set:
 
@@ -270,7 +274,7 @@ The RandomForest model appears to fit the training data well, but when compared 
 
 ![Plots of predicted vs actual and corresponding errors on the validation dataset](../images/long-stay-baseline/regression-predicted-actuals-validation.jpeg)
 
-> Figure 12. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the validation dataset. 
+> Figure 12. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the validation dataset.
 
 In all cases, the poor predictive power at higher length of stays is evident - there appears to be a linear increase in error caused by the models' inability to predict higher length of stays.
 
@@ -284,7 +288,7 @@ Parameter|Optimal value
 `l2_leaf_reg`|9
 `learning_rate`|0.1
 
-with 
+with
 
 Model|Training RMSE (days)|Validation RMSE (days)|Test RMSE (days)|Test MAE (days)
 ---|---|---|---|---
@@ -295,7 +299,7 @@ The test MAE of 4.12 days compares reasonably well to the previous work using a 
 However, a plot of predicted vs actual using the test dataset shows again the model's inability to capture long stayers:
 
 ![Plots of predicted vs actual and corresponding errors for the final model - test set](../images/long-stay-baseline/regression-predicted-actuals-final-model-test.jpeg)
-> Figure 13. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the test dataset for the final model. 
+> Figure 13. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the test dataset for the final model.
 
 We can still explore the most important features that make up the prediction by plotting feature importances of the final model:
 
@@ -308,7 +312,7 @@ Because the final model, using CatBoost, does not include one-hot encoding of th
 
 ### 6.2 Demographic analysis<a name='demographicanalysis'></a>
 
-While the model is not peformant enough to deploy into production, it is still important to understand whether or not the model incorporates bias into its predictions.
+While the model is not performant enough to deploy into production, it is still important to understand whether or not the model incorporates bias into its predictions.
 
 There are many kinds of bias in machine learning projects, and here we are looking at representation bias:
 
@@ -316,7 +320,7 @@ There are many kinds of bias in machine learning projects, and here we are looki
 
 The specific categories are:
 
-```
+```python
 "ETHNIC_CATEGORY_CODE_DESCRIPTION", "IMD county decile", "OAC Group Name", "OAC Subgroup Name", "OAC Supergroup Name", "PATIENT_GENDER_CURRENT_DESCRIPTION", "POST_CODE_AT_ADMISSION_DATE_DISTRICT", "Rural urban classification"
 ```
 
@@ -342,7 +346,7 @@ Now we can look at the distribution of length of stay for the above categories:
 ![Underlying length of stay by ethnicity - all data](../images/long-stay-baseline/los-mean-los-ethnicity.png)
 > Figure 18. Underlying length of stay by ethnicity - all data.
 
-There is significant variation of length of stay for different ethnic groups, for example with White and black Carribean patients having a length of stay of 2.6 days on average, versus 6.0 days for Irish patients. However, as discussed previously, the count of these groups is 560 and 892 individuals respectively so further statistical hypothesis tests need to be conducted to understand if the distributions are truly different (e.g. a two-sided Kolmogorov-Smirnov test).
+There is significant variation of length of stay for different ethnic groups, for example with White and black Caribbean patients having a length of stay of 2.6 days on average, versus 6.0 days for Irish patients. However, as discussed previously, the count of these groups is 560 and 892 individuals respectively so further statistical hypothesis tests need to be conducted to understand if the distributions are truly different (e.g. a two-sided Kolmogorov-Smirnov test).
 
 ![Underlying length of stay by sex - all data](../images/long-stay-baseline/los-mean-los-sex.png)
 > Figure 19. Underlying length of stay by sex - all data.
@@ -359,7 +363,7 @@ Because we are interested in if the model performs differently by category, we w
 ![Relative error in length of stay predictions for different ethnic groups - test data](../images/long-stay-baseline/los-rel-error-ethnicity.png)
 > Figure 21. Relative error in length of stay predictions for different ethnic groups - test data.
 
-The model appears to perform significantly worse for Carribean (overestimating length of stay by 2.7 days compared to the mean error) and Any other mixed background (underestimating length of stay by 1.8 days compared to the mean error). Sample sizes are 719 and 536 patients respectively. As discussed the small sample sizes need further investigation and/or additional data collection to establish the statistical significance of this performance difference.
+The model appears to perform significantly worse for Caribbean (overestimating length of stay by 2.7 days compared to the mean error) and Any other mixed background (underestimating length of stay by 1.8 days compared to the mean error). Sample sizes are 719 and 536 patients respectively. As discussed the small sample sizes need further investigation and/or additional data collection to establish the statistical significance of this performance difference.
 
 ![Relative error in length of stay predictions for different sex - test data](../images/long-stay-baseline/los-rel-error-sex.png)
 > Figure 22. Relative error in length of stay predictions for different sex - test data.
@@ -367,7 +371,7 @@ The model appears to perform significantly worse for Carribean (overestimating l
 Sex has almost no (0.002 days) error from the average.
 
 ![Relative error in length of stay predictions for different index of multiple deprivations deciles - test data](../images/long-stay-baseline/los-rel-error-imd.png)
-> igure 23. Relative error in length of stay predictions for different index of multiple deprivations deciles - test data.
+> Figure 23. Relative error in length of stay predictions for different index of multiple deprivations deciles - test data.
 
 The lowest IMD county decile (1) has an error of 0.5 days underestimating from the mean error, which at under a day may not lead to any difference in treatment if this prediction is used in clinical practice (ie. a length of stay of 1.5 days is the same as a length of stay of 2.0 days - both would count as 2 whole days).
 
@@ -391,7 +395,7 @@ Risk Category|Day Range for Risk Category
 
 We keep the training features the same as in the regression models, and encode risk from the actual length of stay as the target feature.
 
-> Postcript: classification models based on increasing risk (1-5) are ordinal in nature, and an appropriate model should be used where different classes are not treated as independent as per the examples in this implementation.
+> Postscript: classification models based on increasing risk (1-5) are ordinal in nature, and an appropriate model should be used where different classes are not treated as independent as per the examples in this implementation.
 
 The classification equivalents of the regression models were selected:
 
@@ -446,18 +450,18 @@ We can see that both the DecisionTree and RandomForest models severely overfit t
 
 We also see that none of the models are able to capture the nature of the highest risk categories, with every risk category containing a large (>50%) proportion of the lowest risk level (level 1). This is despite weighting the models to account for class imbalance.
 
-**Validation peformance:**
+**Validation performance:**
 
 ![Plots of predicted vs actual risks on the validation dataset](../images/long-stay-baseline/clf-predicted-actuals-validation.png)
 > Figure 25. Plots of predicted vs actual risks on the validation dataset. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.
 
 The RandomForest model has an anomaly in its predictions for risk category 4 where it is missing any of the highest risk category 5 compared to other predictions. This is likely due to the overfitting observed in the previous plot.
 
-Both CatBoost and XGBoost have similar levels of predictive power, defined by the lower proportion of very low risk in the predictions for high risk, although at ~50% these are still too high. 
+Both CatBoost and XGBoost have similar levels of predictive power, defined by the lower proportion of very low risk in the predictions for high risk, although at ~50% these are still too high.
 
-Both CatBoost and XGBoost overpredict higher risk categories, while underpredicting the lowest risk category. This will lead both to false positives where very low risk cases are shown as high risk, and false negatives where high risk cases are shown as lower risk.
+Both CatBoost and XGBoost over-predict higher risk categories, while under-predicting the lowest risk category. This will lead both to false positives where very low risk cases are shown as high risk, and false negatives where high risk cases are shown as lower risk.
 
-CatBoost was selected as the final model due to the lack of significant difference in performance with XGBoost, and for consistency with the final regression model. Further tuning of the CatBoost model using GridSearch (with a smaller paramater space than with regression due to compute time) and cross-validation led to the following results:
+CatBoost was selected as the final model due to the lack of significant difference in performance with XGBoost, and for consistency with the final regression model. Further tuning of the CatBoost model using GridSearch (with a smaller parameter space than with regression due to compute time) and cross-validation led to the following results:
 
 Parameter|Optimal value
 ---|---
@@ -465,13 +469,13 @@ Parameter|Optimal value
 `l2_leaf_reg`|1
 `learning_rate`|0.1
 
-with 
+with
 
 Model|Training weighted F1 score|Validation weighted F1 score|Test weighted F1 score|Test balanced accuracy|Test AUC (OVR, weighted)
 ---|---|---|---|---|---
 CatBoost (tuned)|0.61|0.75|0.60|0.27|0.70
 
-Balanced accuracy was determined as 0.27, a poor result for accurately predicting the correct class. The overall Area Under the receiving operator characterstic Curve (AUC), which was calculated as a weighted one-versus-rest metric, was 0.70.
+Balanced accuracy was determined as 0.27, a poor result for accurately predicting the correct class. The overall Area Under the receiving operator characteristic Curve (AUC), which was calculated as a weighted one-versus-rest metric, was 0.70.
 
 ![Plots of predicted vs actual for the final model - test set](../images/long-stay-baseline/clf-predicted-actuals-final-model-test.png)
 > Figure 26. Plots of predicted vs actual risks on the test dataset for the final model. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.
@@ -514,7 +518,7 @@ Simpler baseline models benefit from enhanced explainability and less compute re
 
 The overall performance of the best regression model was still poor - despite an MAE of 4.1 days, the model failed to capture long stayers and requires further work before use.
 
-The best performing classification model achieved a weighted F1 score of 0.6. 
+The best performing classification model achieved a weighted F1 score of 0.6.
 
 The overall performance of the best classification model was poor - the model failed to capture high risk and assigned a high proportion (&gt;50%) of very low risk patients to higher risk groups.
 
@@ -545,7 +549,7 @@ There is opportunity for much future work, which should be balanced with the uti
 
 ### Technical improvements
 
-1. Move from Notebooks to python scripts. Jupyter Notebooks are an excellent exploratory tool, but do not work well with version control or automated testing. 
+1. Move from Notebooks to python scripts. Jupyter Notebooks are an excellent exploratory tool, but do not work well with version control or automated testing.
 2. Implement a [Reproducible Analytical Pipeline](https://github.com/NHSDigital/rap-community-of-practice). This will allow reuse of the approaches here and improve overall code quality.
 3. Abstract visualisation code into functions. This will improve readability of the code.
 

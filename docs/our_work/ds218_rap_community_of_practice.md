@@ -15,18 +15,18 @@ tags: ['RAP','BEST PRACTICE','PYTHON','R']
 Reproducible Analytical Pipelines (RAP) is a way of working [promoted across the Civil Service](https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/), which promises **faster**, more **efficient**, more **robust** and **transparent** analysis and data pipelines.
 <figure markdown>
 [Find out more about RAP on our guide](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/what_is_RAP/){ .md-button .md-button--primary  }
-[See our helpful LinkedIn posts](https://www.linkedin.com/feed/hashtag/?keywords=reproducibleanalyticalpipelines){ .md-button } 
+[See our helpful LinkedIn posts](https://www.linkedin.com/feed/hashtag/?keywords=reproducibleanalyticalpipelines){ .md-button }
 </figure>
 
 Our Squad of RAP Champions has supported the rollout of RAP across the Analytics area within NHS England. We've approached through three main pillars of work:
 
-* **Making RAP guidance specific to our analysts needs**: We took existing RAP guidance (such as the [Government RAP strategy](https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/)) and interpreted it in the local context of NHS England, making guidance specific to our systems and the problems faced by our analysts. 
-* **Helping colleagues start their RAP journey**: We put together a program for how to learn RAP, transform pipelines (through the "[thin slice approach](https://nhsdigital.github.io/rap-community-of-practice/our_RAP_service/thin-slice-strategy/)") and [become a RAP champion yourself](https://nhsdigital.github.io/rap-community-of-practice/our_RAP_service/building_team_capability/). 
+* **Making RAP guidance specific to our analysts needs**: We took existing RAP guidance (such as the [Government RAP strategy](https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/)) and interpreted it in the local context of NHS England, making guidance specific to our systems and the problems faced by our analysts.
+* **Helping colleagues start their RAP journey**: We put together a program for how to learn RAP, transform pipelines (through the "[thin slice approach](https://nhsdigital.github.io/rap-community-of-practice/our_RAP_service/thin-slice-strategy/)") and [become a RAP champion yourself](https://nhsdigital.github.io/rap-community-of-practice/our_RAP_service/building_team_capability/).
 * **Building a RAP community**: RAP is about sharing and re-use, so we've been actively engaging with the [NHS R](https://nhsrcommunity.com/) and [Python communities](https://nhs-pycom.net/), [AnalystX](https://analystx.uk/) , the [Govt Data Science community](https://datasciencecampus.ons.gov.uk/capability/cross-government-and-public-sector-data-science-community/), and consolidating this learning in our own [NHS RAP Community of Practice](https://nhsdigital.github.io/rap-community-of-practice/), and [Health RAP Playbook](https://nhsengland.github.io/Health-RAP-Playbook-Alpha/) (made with colleagues from other organisations in the industry).
 
 We've also been active in promoting RAP up and down the business (as grassroots level, to managers and also to directors), and across the industry, making it something people want to be involved in, and ensuring they knew the value it offered.
 
-## Results 
+## Results
 
 In the past two years we've:
 
@@ -38,7 +38,7 @@ In the past two years we've:
 
 Our guidance is widely used by other organisations within the sector, and we've had great success rolling out RAP within NHS England.
 
-| Output | Link | 
+| Output | Link |
 | ---- | ---- |
 | NHS RAP Community of Practice Website | [Website](https://nhsdigital.github.io/rap-community-of-practice/) |
 | NHS Digital Data Services - Analytics Service Repo | [Github Repo](https://github.com/NHSDigital/data-analytics-services) |

@@ -9,12 +9,11 @@ hide:
 
 ![Image title](../images/DS_team_photo_smaller.jpeg){ width="450" alt-tex="Picture of the Data Science team stood on some steps in London."  align=right }
 
+We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
 
-We are the [NHS England](https://www.england.nhs.uk/) Data Science Team. 
+**Our vision is**:
 
-**Our vision is**: 
-
-> For NHS England to lead on embracing data science in the NHS for the betterment of all our patients and all our staff​. 
+> For NHS England to lead on embracing data science in the NHS for the betterment of all our patients and all our staff​.
 
 <br/>
 
@@ -22,7 +21,6 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
 [See our work](./our_work/index.md){ .md-button}
 
 <br/>
-
 
 </div>
 
@@ -52,7 +50,7 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
 
     ---
 
-    We have the remit to be open and collaborative and have the aim of sharing products with the wider healthcare community.  
+    We have the remit to be open and collaborative and have the aim of sharing products with the wider healthcare community.
 
 </div>
 
@@ -74,6 +72,7 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
     <h3 style="text-align: center;"> **Devise a great place to work where group work solves great problems.​**</h3>
 
 ## Our Members
+
 | Name | Role |Team | Github |
 | -------- | ------- | ------ | ------ |
 |Sarah Culkin | Deputy Director |Central Data Science Team|[SCulkin-code](https://github.com/SCulkin-code)|

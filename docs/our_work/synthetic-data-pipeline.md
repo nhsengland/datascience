@@ -23,13 +23,12 @@ Using real patient data for research and development carries with it safety and 
 
 Using a synthetic data generation model called [SynthVAE](https://nhsx.github.io/nhsx-internship-projects/synthetic-data-exploration-vae/), produced by the NHS Transformation Directorate’s Analytics Unit,the Skunkworks team embarked on a joint project to produce a framework for generating synthetic data. The teams explored how SynthVAE could be used to generate synthetic data, how that data would be evaluated and how the whole process could be documented for others to re-use.
 
-
 ### AI Dictionary
+
 > We have tried to explain the technical terms used in this case study. If you would like to explore the language of AI and data science, please [visit our AI Dictionary](https://nhsx.github.io/ai-dictionary).
 
-
-
 ## Overview
+
 There are many ways to generate synthetic data, with SynthVAE being just one approach. One common challenge with synthetic data approaches is that they are usually configured specifically for a dataset. This is a problem because it means a significant amount of work is needed to update them for use with a different data source.  Additionally, once an approach has successfully produced data, it can be difficult to know whether what was generated using the approach is actually useful. Using approaches like SynthVAE currently requires rework of the source code each time a new dataset is used, and there is no standard set of checks that can be used for every dataset.
 
 The work carried out jointly by NHS AI Lab Skunkworks and the Analytics Unit sought to:
@@ -38,17 +37,18 @@ Create a standard series of checks that can be carried out on the data produced,
 Implement a structure to allow users to run the full functionality with a single piece of code.
 
 ## What we did
+
 The two teams worked together to:
-- identify a suitable open source dataset for the project. 
-- use this data source to generate an “input dataset” that looks like real patient data 
+
+- identify a suitable open source dataset for the project.
+- use this data source to generate an “input dataset” that looks like real patient data
 - adapt an existing synthetic code generator model (SynthVAE) and use it to produce synthetic patient data from the input dataset
 - outline the checks that would need to be done to the synthetic data to confirm its quality and suitability
 - pull these steps into a single user-friendly workflow process for anyone to use.
 
-
 ### Creating an input dataset
 
-In order to further develop the capabilities of SynthVAE since it was first produced, an input dataset containing a number of different data types was required in order to broaden the range of the data produced. The teams chose one already in the public domain. This meant people wishing to use the code after release could access and use the same dataset with which the project was developed. [MIMIC-III](https://physionet.org/content/mimiciii/1.4/) was selected because the size and variety of its data would enable us to produce an input file that would closely match the broad range of typical hospital data. 
+In order to further develop the capabilities of SynthVAE since it was first produced, an input dataset containing a number of different data types was required in order to broaden the range of the data produced. The teams chose one already in the public domain. This meant people wishing to use the code after release could access and use the same dataset with which the project was developed. [MIMIC-III](https://physionet.org/content/mimiciii/1.4/) was selected because the size and variety of its data would enable us to produce an input file that would closely match the broad range of typical hospital data.
 
 We processed the raw MIMIC-III files to produce a single dataset which described treatment provided by a hypothetical set of patients. The resulting input file contained columns with numbers, categories and dates, as well as multiple entries for some patients. It looked similar to datasets that might be encountered in a real hospital setting, helping to keep this project as relevant as possible to potential stakeholders such as NHS data analysts and data scientists, as well as research teams within trusts who are interested in exploring the use of synthetic data.
 
@@ -63,9 +63,11 @@ Once this was done, it was possible to use the input file to train a SynthVAE mo
 This wasn’t without challenges, as SynthVAE hadn’t been substantially tested using dates or large volumes of data. However, through close collaboration with the Analytics Unit, SynthVAE was successfully adapted to produce a synthetic version of the input data from MIMIC-III.
 
 ### Creating a checking process
-In order to evaluate the privacy, quality and utility of the synthetic data produced, a set of checks were needed. There is not currently an industry standard, so we chose to use an evaluation capability from [Synthetic Data Vault](https://sdv.dev/) (SDV), alongside other approaches which provide a broader range of assessments of the data. SDV’s evaluation capability provides a wide range of metrics which are already implemented, giving a starting point for building a more complete evaluation approach. SDV’s evaluation uses metrics to check whether your synthetic data would be a good substitute for the real data, without causing a change in performance (also known as the utility). The additional checks that were added aimed to make the evaluation of utility more robust, for example by checking there are no identical records in the synthetic and real datasets, but also to provide visual aids to allow the user to see what differences are present in the data. 
+
+In order to evaluate the privacy, quality and utility of the synthetic data produced, a set of checks were needed. There is not currently an industry standard, so we chose to use an evaluation capability from [Synthetic Data Vault](https://sdv.dev/) (SDV), alongside other approaches which provide a broader range of assessments of the data. SDV’s evaluation capability provides a wide range of metrics which are already implemented, giving a starting point for building a more complete evaluation approach. SDV’s evaluation uses metrics to check whether your synthetic data would be a good substitute for the real data, without causing a change in performance (also known as the utility). The additional checks that were added aimed to make the evaluation of utility more robust, for example by checking there are no identical records in the synthetic and real datasets, but also to provide visual aids to allow the user to see what differences are present in the data.
 
 The checks included:
+
 - **Collision analysis** - checking that no two  records are exactly the same in the input and synthetic datasets
 - **Correlation analysis** - compares the relationship between the two datasets to see if patterns have been accurately preserved in the synthetic dataset
 - **Evaluating the Gower distance** - looking at the closeness of similarity between the input and synthetic datasets to make sure they are not too similar
@@ -83,20 +85,21 @@ To make the end-to-end process as user-friendly as possible, [QuantumBlack’s K
 The input data generation, SynthVAE training, synthetic data production and output checking processes were chained together, creating a single flow to train a model, produce synthetic data and then evaluate the final output.
 
 ## Outcomes and lessons learned
+
 The resulting code, to be released as open source (available to anyone to re-use), enables users to see how:
 
 - an input dataset can be constructed from an open-source dataset, MIMIC-III
 - SynthVAE can be adapted to be trained on a new input dataset with mixed data-types
 - SynthVAE can be used to produce synthetic data
-- synthetic data can be evaluated to assess it’s privacy, quality and utility 
+- synthetic data can be evaluated to assess it’s privacy, quality and utility
 - a pipeline can be used to tie together steps in a process for a simpler user experience.
 
 By using the set of evaluation techniques, concerns around the quality of the synthetic data can be directly addressed and measured using the variety of metrics produced as part of the report. The approach outlined here is not intended to demonstrate a perfectly performing synthetic data generation model, but instead to outline a pipeline that enables the generation and evaluation of synthetic data. Things like overfitting to the training data, and the potential for bias will be highlighted by the evaluation metrics but will not be remedied.
 
 Concerns around re-identification are reduced by using synthetic data, however they are not absolutely removed.To better understand the privacy of any patient data used to train a synthetic data generating model, the Analytics Unit have undertaken a project exploring the use of ‘adversarial attacks’ to prove what information about the training data can be ascertained from a model alone. The project focussed on a particular type of adversarial attack, a ‘membership attack’, and explored how different levels of information would influence what the attacker could learn about the underlying dataset, and therefore the implications to any individuals whose information was used to train a model.
 
-
 ## What next?
+
 AI Lab Skunkworks will be releasing the code from the project on our Github site to demonstrate how SynthVAE can be used in a practical, end-to-end configuration.
 
 The Analytics Unit is continuing to develop and improve SynthVAE, with a focus on improving the model’s ability to produce high quality synthetic data.
@@ -107,7 +110,7 @@ This project was a collaboration between the NHS AI Lab Skunkworks  and the Anal
 
 The NHS AI Lab Skunkworks is a team of data scientists, engineers and project leaders who support the health and social care community to rapidly progress ideas from the conceptual stage to a proof of concept.
 
-The Analytics Unit consists of a team of analysts, economists, data scientists and data engineers who provide leadership to other analysts who are working in the system and raise data analysis up the health and care system agenda. 
+The Analytics Unit consists of a team of analysts, economists, data scientists and data engineers who provide leadership to other analysts who are working in the system and raise data analysis up the health and care system agenda.
 
 Output|Link
 ---|---
