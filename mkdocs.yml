@@ -33,6 +33,7 @@ nav:
   # - Codebases: codebases.md
   - Meta Page: meta_page.md
   - Useful links: useful_links.md
+  - PD Newsletter Archive: pd_newsletter_archive.md
 theme:
   name: material
   custom_dir: overrides
