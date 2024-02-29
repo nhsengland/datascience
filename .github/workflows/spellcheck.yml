@@ -10,3 +10,23 @@ jobs:
     - uses: actions/checkout@master
     - uses: ludeeus/action-shellcheck@2.0.0
       name: Shellcheck
+    matrix:
+    - name: Markdown
+      aspell:
+        lang: en
+      dictionary:
+        encoding: utf-8
+      pipeline:
+      - pyspelling.filters.markdown:
+      - pyspelling.filters.html:
+        comments: false
+        ignores:
+        - code
+        - pre
+          comments: false
+          ignores:
+          - code
+          - pre
+      sources:
+      - '**/*.md'
+      default_encoding: utf-8
