@@ -1,26 +1,14 @@
-name: Spellcheck Action
-on: push
+name: spellcheck
+
+on:
+  push:
 
 jobs:
-  build:
-    name: Spellcheck
+  spellcheck:
+    name: runner / spellcheck
     runs-on: ubuntu-latest
     steps:
-    # The checkout step
-    - uses: actions/checkout@v3
-    - uses: rojopolis/spellcheck-github-actions@0.36.0
-      name: Spellcheck
-    sources:
-    - '**/*.md'
-    aspell:
-      lang: en
-    dictionary:
-      encoding: utf-8
-    pipeline:
-    - pyspelling.filters.markdown:
-    - pyspelling.filters.html:
-        comments: false
-        ignores:
-        - code
-        - pre
-    default_encoding: utf-8
+    - name: Check out code.
+      uses: actions/checkout@v2
+    - name: Run PySpelling as a GitHub action
+      uses: sbates130272/spellcheck-github-actions@v0.6.0
