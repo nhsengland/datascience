@@ -10,6 +10,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: ludeeus/action-shellcheck@2.0.0
       name: Shellcheck
-    sources:
-    - '**/*.md'
-    default_encoding: utf-8
+      with:
+        config_path: config/.spellcheck.yml # put path to configuration file here
+        source_files: source/scanning.md source/triggers.md
+        task_name: Markdown
