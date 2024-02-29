@@ -23,10 +23,6 @@ jobs:
         ignores:
         - code
         - pre
-          comments: false
-          ignores:
-          - code
-          - pre
       sources:
       - '**/*.md'
       default_encoding: utf-8
