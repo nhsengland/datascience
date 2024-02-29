@@ -87,6 +87,8 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - md_in_html
+  - pyspelling.filters.html:
+    comments: false
 extra:
   social:
     - icon: fontawesome/brands/github
