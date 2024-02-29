@@ -11,7 +11,7 @@ This project automates much of that work. We use machine learning models - some 
 
 When compared to expert moderators, our models match or out-perform the moderation accuracy of the people who used to do the moderation[^1]. If a user disagrees with a decision our AI makes, there's still a human-in-the-loop who can make a final moderation decision.
 
-[^1]: Prior to this project, the moderation work was done manually by a third-party company, hired on a fixed-term contract. No NHS employee lost work as a result of this project. For more information on our ethical review, see !!!!INSERT LINK!!!!
+[^1]: Prior to this project, the moderation work was done manually by a third-party company, hired on a fixed-term contract. No NHS employee lost work as a result of this project.
 
 ![Flow of reviews in automoderation](../images/ratings_reviews/reviews_uk_website_query_diagram_flowchart.excalidraw.png)
 
@@ -41,5 +41,5 @@ If the review doesn't violate any of these, the app will tell NHS.UK that the re
 | Published Repo for Flask app       | [Github Repo](PUT LINK HEREhttps://github.com/nhsengland/nhsuk.moderation-api)   |
 | Published repo for creating models | [Github Repo](PUT LINK HERE) |
 
-!NOTE! The second link in this table isn't filled in yet because we haven't published the amls repo yet
+!NOTE! The second link in this table isn't filled in yet because we haven't published the AMLS repo yet
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
