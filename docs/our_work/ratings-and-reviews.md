@@ -24,7 +24,7 @@ The flow follows four stages:
 
 4. The Flask app now has an answer for each of the rules which are to be applied, and can send a final response to the NHS.UK website.
 
-I think this might be clearer "If there's anything amiss, the website will produce a response informing the user (the person leaving the review) which rule has been broken. This ranges from asking the reviewer to remove something (such as a name) from a review, to directing them to resources specific to the content of their review.
+If there's anything amiss, the website will produce a response informing the user (the person leaving the review) which rule has been broken. This ranges from asking the reviewer to remove something (such as a name) from a review, to directing them to resources specific to the content of their review.
 [The reviews policy is here.](https://www.nhs.uk/our-policies/comments-policy/)
 
 ## Results
