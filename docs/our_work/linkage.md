@@ -16,7 +16,8 @@ If we want to achieve a consistent and high quality approach to linking data, wh
 We're currently working on implementing a [probabilistic linkage model](https://www.bristol.ac.uk/media-library/sites/cmm/migrated/documents/problinkage.pdf) using [Splink](https://moj-analytical-services.github.io/splink/index.html), in order to improve linkage outcomes, and by extension, patient outcomes. 
 
 ### Data Linkage as a service
-This is the covering everything else we do. This stream of work encompasses:
+This is the umbrella covering everything else we do. This stream of work encompasses:
+
 - identifying points of collaboration with other government departments 
 - mapping the stakeholders involved in data linkage - both internal and external
 - feeding user needs into an overall Data Linkage vision
