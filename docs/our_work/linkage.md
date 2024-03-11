@@ -16,10 +16,11 @@ If we want to achieve a consistent and high quality approach to linking data, wh
 We're currently working on implementing a [probabilistic linkage model](https://www.bristol.ac.uk/media-library/sites/cmm/migrated/documents/problinkage.pdf) using [Splink](https://moj-analytical-services.github.io/splink/index.html), in order to improve linkage outcomes, and by extension, patient outcomes. 
 
 ### Data Linkage as a service
-This is the umbrella to everything else we do. This stream of work encompasses:
+This is the covering everything else we do. This stream of work encompasses:
 - identifying points of collaboration with other government departments 
 - mapping the stakeholders involved in data linkage - both internal and external
 - feeding user needs into an overall Data Linkage vision
+
 Part of this stream of work was also [documenting how the Person_ID is generated via the Master Person Service](https://digital.nhs.uk/services/personal-demographics-service/master-person-service/the-person_id-handbook), to make the current process of linking data in the NHS more transparent and easy to understand. 
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
