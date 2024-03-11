@@ -1,6 +1,6 @@
 ---
 title: 'Data Linkage Enhancement'
-summary: 'The data linkage enhancement project encompasses all things data linkage, from documenting the existing state of linkage in NHS England in the MPS handbook, to exploring better matching algorithms using Splink, to creating a quality assurance framework for data linkage.'
+summary: 'The data linkage enhancement project encompasses all things data linkage, from documenting the existing state of linkage in NHS England in the Person_ID handbook, to exploring better matching algorithms using probabilistic models and Splink, to creating a Quality Assurance Framework for Data Linkage.'
 origin: 'NHS Digital'
 tags: ['BEST PRACTICE', 'LINKAGE', 'PYTHON', 'QUALITY']
 ---
