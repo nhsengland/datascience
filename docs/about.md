@@ -95,7 +95,7 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
     <tr><td>Efrosini Serakis</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/efrosini-s">efrosini-s</a></td> </tr>
     <tr><td>Sam Hollings</td><td>Principal Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/SamHollings">SamHollings</a></td> </tr>
     <tr><td>Daniel Schofield</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/danjscho">danjscho</a></td> </tr>
-    <tr><td>Eladia Valles Carrera</td><td>Principal Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/lilianavalles">lilianavalles</a></td> </tr>
+    <tr><td>Liliana Valles Carrera</td><td>Principal Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/lilianavalles">lilianavalles</a></td> </tr>
     <tr><td>Paul Carroll</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/pauldcarroll">pauldcarroll</a></td> </tr>
     <tr><td>Elizabeth Johnstone</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/LiziJohnstone">LiziJohnstone</a></td> </tr>
     <tr><td>Nicholas Groves-Kirkby</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/ngk009">ngk009</a></td> </tr>
@@ -110,8 +110,8 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
     <tr><td>Michael Spence</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/mspence-nhs">mspence-nhs</a></td> </tr>
     <tr><td>Harriet Sands</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/harrietrs">harrietrs</a></td> </tr>
     <tr><td>Alice Tapper</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/alicetapper1">alicetapper1</a></td> </tr>
-    <tr><td>Ben Wallace</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td></td> </tr>
-    <tr><td>Jane Kirkpatrick</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td></td> </tr>
+    <tr><td>Ben Wallace</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/benwallace57">benwallace57</a></td> </tr> 
+    <tr><td>Jane Kirkpatrick</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/jkirkpatrick073">jkirkpatrick073</a></td> </tr> 
     <tr><td>Kenneth Quan</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/quan14">quan14</a></td> </tr>
     <tr><td>Daniel Goldwater</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/DanGoldwater1">DanGoldwater1</a></td> </tr>
     <tr><td>Shoaib Ali Ajaib</td><td>Senior Data Scientist</td><td>National SDE Team</td> <td></td></tr>
@@ -125,11 +125,10 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
     <tr><td>Humaira Hussein</td><td>Senior Data Scientist</td><td>National SDE Team</td><td><a href="https://github.com/humairahussein1">humairahussein1</a></td> </tr>
     <tr><td>Jake Kasan</td><td>Senior Data Wrangler (contract)</td><td>National SDE Team</td> <td></td></tr>
     <tr><td>Lucy Harris</td><td>Senior Data Scientist</td><td>Meds Team</td> <td></td></tr>
-    <tr><td>Vithursan Vijayachandrah</td><td>Senior Data Scientist</td><td>Workforce, Training & Education Team</td><td><a href="https://github.com/VithurshanVijayachandranNHSE">VithurshanVijayachandranNHSE</a></td> </tr>
     <tr><td>Warren Davies</td><td>Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/warren-davies4">warren-davies4</a></td> </tr>
-    <tr><td>Sami Sultan</td><td>Data Scientist</td><td>Workforce, Training & Education Team</td><td><a href="https://github.com/SamiSultanNHSE">SamiSultanNHSE</a></td> </tr>
-    <tr><td>Chaeyoon Kim</td><td>Data Scientist</td><td>Workforce, Training & Education Team</td><td><a href="https://github.com/ChaeyoonKimNHSE">ChaeyoonKimNHSE</a></td> </tr>
-    <tr><td>Ilja Lomkov</td><td>Data Scientist</td><td>Workforce, Training & Education Team</td><td><a href="https://github.com/IljaLomkovNHSE">IljaLomkovNHSE</a></td> </tr>
+    <tr><td>Sami Sultan</td><td>Data Scientist</td><td>Workforce, Training and Education Data Science Team</td><td><a href="https://github.com/SamiSultanNHSE">SamiSultanNHSE</a></td> </tr>
+    <tr><td>Chaeyoon Kim</td><td>Data Scientist</td><td>Workforce, Training and Education Data Science Team</td><td><a href="https://github.com/ChaeyoonKimNHSE">ChaeyoonKimNHSE</a></td> </tr>
+    <tr><td>Ilja Lomkov</td><td>Data Scientist</td><td>Workforce, Training and Education Data Science Team</td><td><a href="https://github.com/IljaLomkovNHSE">IljaLomkovNHSE</a></td> </tr>
     <tr><td>Thomas Bouchard</td><td>Data Science Officer</td><td>Central Data Science Team</td><td><a href="https://github.com/tom-bouchard">tom-bouchard</a></td> </tr>
     <tr><td>Catherine Sadler</td><td>Data Science Officer</td><td>Central Data Science Team</td><td><a href="https://github.com/CatherineSadler">CatherineSadler</a</td> </tr>
     <tr><td>William Poulett</td><td>Data Science Officer</td><td>Central Data Science Team</td><td><a href="https://github.com/willpoulett">willpoulett</a></td> </tr>
