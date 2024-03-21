@@ -13,7 +13,7 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
 
 **Our vision is**:
 
-> For NHS England to lead on embracing data science in the NHS for the betterment of all our patients and all our staff​.
+> Embed ambitious yet accessible data science in health and care to help people live healthier longer lives​
 
 <br/>
 
@@ -57,19 +57,19 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
 ## Our missions
 
 === "Deliver"
-    <h3 style="text-align: center;"> **Deliver problem led data science products to NHSE commissioner.** </h3>
+    <h3 style="text-align: center;"> **Deliver problem led data science products to commissioners.** </h3>
 
 === "Drive"
     <h3 style="text-align: center;"> **Drive research into getting more value from our data.** ​</h3>
 
 === "Develop"
-    <h3 style="text-align: center;"> **Develop the maturity of data science in NHSE.​**</h3>
+    <h3 style="text-align: center;"> **Develop the maturity of data science in health and care.​**</h3>
 
 === "Demonstrate"
-    <h3 style="text-align: center;"> **Demonstrate, create and promote best practice for data science in the NHS, prioritizing quality, safety, and ethics.​**</h3>
+    <h3 style="text-align: center;"> **Demonstrate, create and promote best practice for data science in the health and care, prioritising transparency, safety and ethics.​**</h3>
 
 === "Devise"
-    <h3 style="text-align: center;"> **Devise a great place to work where group work solves great problems.​**</h3>
+    <h3 style="text-align: center;"> **Devise a great place to work where group work solves great problems​​​​.​**</h3>
 
 ## Our Members
 ??? "Our members"
@@ -91,20 +91,19 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
     <tr><td>Jonathan Pearson</td><td>Data Science Lead</td><td>Central Data Science Team</td><td><a href="https://github.com/JRPearson500">JRPearson500</a<</td> </tr>
     <tr><td>Achut Manandhar</td><td>Data Science Lead</td><td>Central Data Science Team</td><td><a href="https://github.com/achutman">achutman</a></td> </tr>
     <tr><td>Jennifer Hall</td><td>Data Science Lead</td><td>Data Linking Hub</td><td></td> </tr>
-    <tr><td>Suethar Chung</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/simonechung">simonechung</a></td> </tr>
+    <tr><td>Simone Chung</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/simonechung">simonechung</a></td> </tr>
     <tr><td>Efrosini Serakis</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/efrosini-s">efrosini-s</a></td> </tr>
     <tr><td>Sam Hollings</td><td>Principal Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/SamHollings">SamHollings</a></td> </tr>
     <tr><td>Daniel Schofield</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/danjscho">danjscho</a></td> </tr>
-    <tr><td>Martina Fonseca</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/mbfons">mbfons</a></td> </tr>
     <tr><td>Eladia Valles Carrera</td><td>Principal Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/lilianavalles">lilianavalles</a></td> </tr>
     <tr><td>Paul Carroll</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/pauldcarroll">pauldcarroll</a></td> </tr>
-    <tr><td>Elizabeth Johnstone</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="(https://github.com/LiziJohnstone">LiziJohnstone</a></td> </tr>
-    <tr><td>Nicholas Groves-Kirkby</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td></td> </tr>
+    <tr><td>Elizabeth Johnstone</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/LiziJohnstone">LiziJohnstone</a></td> </tr>
+    <tr><td>Nicholas Groves-Kirkby</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/ngk009">ngk009</a></td> </tr>
     <tr><td>Divya Balasubramanian</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/divyabala09">divyabala09</a></td> </tr>
     <tr><td>Giulia Mantovani</td><td>Principal Data Scientist (Section Head)</td><td>Data Linking Hub</td><td><a href="https://github.com/GiuliaMantovani1">GiuliaMantovani1</a></td> </tr>
     <tr><td>Angeliki Antonarou</td><td>Principal Data Scientist</td><td>National SDE Data Science Team</td><td><a href="https://github.com/AngelikiA">AnelikiA</a></td> </tr>
     <tr><td>Kevin Fasusi</td><td>Principal Data Scientist</td><td>National SDE Data Science Team</td><td><a href="https://github.com/KevinFasusi">KevinFasusi</a></td> </tr>
-    <tr><td>Jonathan Laidler</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/JonathanLaidler">JonathanLaidler</a></td> </tr>
+    <tr><td>Jonny Laidler</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/JonathanLaidler">JonathanLaidler</a></td> </tr>
     <tr><td>Mia Noonan</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/amelianoonan1-nhs">amelianoonan1-nhs</a></td> </tr>
     <tr><td>Sean Aller</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/seanaller">seanaller</a></td> </tr>
     <tr><td>Hadi Modarres</td><td>Senior Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/hadimodarres1">hadimodarres1</a></td> </tr>
