@@ -124,7 +124,6 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
     <tr><td>Helen Richardson</td><td>Senior Data Scientist</td><td>National SDE Team</td><td><a href="https://github.com/helrich">helrich</a></td> </tr>
     <tr><td>Humaira Hussein</td><td>Senior Data Scientist</td><td>National SDE Team</td><td><a href="https://github.com/humairahussein1">humairahussein1</a></td> </tr>
     <tr><td>Jake Kasan</td><td>Senior Data Wrangler (contract)</td><td>National SDE Team</td> <td></td></tr>
-    <tr><td>Josh Day</td><td>Senior Data Wrangler (contract)</td><td>National SDE Team</td> <td></td></tr>
     <tr><td>Lucy Harris</td><td>Senior Data Scientist</td><td>Meds Team</td> <td></td></tr>
     <tr><td>Vithursan Vijayachandrah</td><td>Senior Data Scientist</td><td>Workforce, Training & Education Team</td><td><a href="https://github.com/VithurshanVijayachandranNHSE">VithurshanVijayachandranNHSE</a></td> </tr>
     <tr><td>Warren Davies</td><td>Data Scientist</td><td>Central Data Science Team</td><td><a href="https://github.com/warren-davies4">warren-davies4</a></td> </tr>
