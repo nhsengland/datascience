@@ -88,7 +88,6 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
     <tr><td>Sarah Culkin</td><td>Deputy Director</td><td>Central Data Science Team</td><td><a href="https://github.com/SCulkin-code">SCulkin-code</a></td> </tr>
     <tr><td>Rupert Chaplin</td><td>Assistant Director</td><td>Central Data Science Team</td><td><a href="https://github.com/rupchap">rupchap</a></td> </tr>
     <tr><td>Achut Manandhar</td><td>Data Science Lead</td><td>Central Data Science Team</td><td><a href="https://github.com/achutman">achutman</a></td> </tr>
-    <tr><td>Jennifer Hall</td><td>Data Science Lead</td><td>Data Linking Hub</td><td></td> </tr>
     <tr><td>Jonathan Hope</td><td>Data Science Lead</td><td>Central Data Science Team</td><td><a href="https://github.com/JonathanHope42">JonathanHope42</a></td> </tr>
     <tr><td>Jonathan Pearson</td><td>Data Science Lead</td><td>Central Data Science Team</td><td><a href="https://github.com/JRPearson500">JRPearson500</a></td> </tr>
     <tr><td>Daniel Schofield</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/danjscho">danjscho</a></td> </tr>
