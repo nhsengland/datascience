@@ -2,7 +2,7 @@
 title: 'TITLE GOES HERE'
 summary: 'ONE LINE SUMMARY GOES HERE'
 origin: 'Skunkworks  (this is for legacy pages mainly, so we know where the work came from)'
-tags: ['add your tags in here as a list (there is no limit)','tag 2','tag 3']
+# tags: ['add your tags in here as a list (there is no limit) and remove the comment #','tag 2','tag 3']
 ---
 [comment]: <> When making your tags, it might be handy to see a list of the tags that have already been defined. Run `python utils/list-tags.py` from the terminal to print the existing tags (assuming you are in the root directory - update the path if not). You can also run it from VS Code by opening the file and clicking the "Run" button in the top right (but you'll need to have the Python extension installed to do it this way).
 

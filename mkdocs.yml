@@ -11,6 +11,9 @@ plugins:
       authors_file: "{blog}/.authors.yml"
   - tags:
       tags_file: our_work/tags.md  
+  - exclude-search:
+      exclude:
+        - our_work/template-project.md
 nav:
   - Home: index.md
   - What is Data Science?: 

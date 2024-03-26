@@ -10,6 +10,7 @@ Markdown
 MarkupSafe
 mergedeep
 mkdocs
+mkdocs-exclude-search
 mkdocs-git-revision-date-localized-plugin
 mkdocs-material
 mkdocs-material-extensions
