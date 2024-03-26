@@ -11,10 +11,6 @@ plugins:
       authors_file: "{blog}/.authors.yml"
   - tags:
       tags_file: our_work/tags.md  
-      # shadow_tags:
-      #   - 'add your tags in here as a list (there is no limit)'
-      #   - tag 2
-      #   - tag 3
   - exclude-search:
       exclude:
         - our_work/template-project.md
