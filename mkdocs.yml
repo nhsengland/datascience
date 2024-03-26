@@ -27,7 +27,7 @@ nav:
   - Playbooks: playbooks.md
   # - Codebases: codebases.md
   - Useful links: useful_links.md
-  - Meta Page: meta_page.md
+  - Site Info: meta_page.md
 theme:
   name: material
   custom_dir: overrides
