@@ -1,6 +1,6 @@
 ---
 title: "NHS.UK: Automatic Moderation of Ratings & Reviews"
-summary: "Automated moderation of reviews submitted to NHS.UK. "
+summary: "Using NLP to reduce the average moderation time on the NHS.UK website from days to seconds "
 origin: ""
 tags: ["NLP", "AI", "ML", "NHS.UK"]
 ---
