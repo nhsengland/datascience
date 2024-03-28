@@ -87,6 +87,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - md_in_html
+  - footnotes
 extra:
   social:
     - icon: fontawesome/brands/github
