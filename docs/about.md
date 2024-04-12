@@ -74,21 +74,20 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
 ## Our Members
 ??? "Our members"
     <table id="myTable" style="width:100%;">
-    <div class="flex flex-basis">
-    <select id="columnToSearch">
-    <option value="Name">Name</option>
-    <option value="Role">Role</option>
-    <option value="Team">Team</option>
-    <option value="Github">Github</option>
-    </select>
-    <input type="text" id="myInput" onkeyup="tableFilter('myTable','myInput')" placeholder="Search..."> 
-    </div>
-
+        <div class="flex flex-basis">
+        <select id="columnToSearch">
+        <option value="Name">Name</option>
+        <option value="Role">Role</option>
+        <option value="Team">Team</option>
+        <option value="Github">Github</option>
+        </select>
+        <input type="text" id="myInput" onkeyup="tableFilter('myTable','myInput')" placeholder="Search..."> 
+        </div>
     <tr><th style="width: 30%;">Name</th><th>Role</th><th>Team</th><th>Github</th></tr>
     <tr><td>Sarah Culkin</td><td>Deputy Director</td><td>Central Data Science Team</td><td><a href="https://github.com/SCulkin-code">SCulkin-code</a></td> </tr>
     <tr><td>Rupert Chaplin</td><td>Assistant Director</td><td>Central Data Science Team</td><td><a href="https://github.com/rupchap">rupchap</a></td> </tr>
     <tr><td>Jonathan Hope</td><td>Data Science Lead</td><td>Central Data Science Team</td><td><a href="https://github.com/JonathanHope42">JonathanHope42</a></td> </tr>
-    <tr><td>Jonathan Pearson</td><td>Data Science Lead</td><td>Central Data Science Team</td><td><a href="https://github.com/JRPearson500">JRPearson500</a<</td> </tr>
+    <tr><td>Jonathan Pearson</td><td>Data Science Lead</td><td>Central Data Science Team</td><td><a href="https://github.com/JRPearson500">JRPearson500</a></td> </tr>
     <tr><td>Achut Manandhar</td><td>Data Science Lead</td><td>Central Data Science Team</td><td><a href="https://github.com/achutman">achutman</a></td> </tr>
     <tr><td>Jennifer Hall</td><td>Data Science Lead</td><td>Data Linking Hub</td><td></td> </tr>
     <tr><td>Simone Chung</td><td>Principal Data Scientist (Section Head)</td><td>Central Data Science Team</td><td><a href="https://github.com/simonechung">simonechung</a></td> </tr>
@@ -140,4 +139,4 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
     <tr><td>Matthew Taylor</td><td>Data Science Officer</td><td>Central Data Science Team</td><td><a href="https://github.com/mtaylor57">mtaylor57</a></td> </tr>
     <tr><td>Elizabeth Kelly</td><td>Data Science Officer</td><td>National SDE Team</td><td><a href="https://github.com/ejkcode">ejkcode</a></td> </tr>
     <tr></tr>
-    </table>
+</table>
