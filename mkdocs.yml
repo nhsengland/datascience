@@ -24,7 +24,49 @@ nav:
   - Projects: 
     - Our Work: our_work/index.md
     - Project Tags: our_work/tags.md
-    - ... | flat | regex=our_work/(?!template-project\.md).*\.md
+    - Our Team's Publications: our_work/Publications.md
+    - Problems Solved:
+      - Healthcare Efficiency: 
+        - Bed allocation: our_work/bed-allocation.md
+      - Ease of Diagnosis: 
+        - Using deep learning to detect adrenal lesions in CT scans: our_work/adrenal-lesions.md
+    - Coding Languages:
+      - Python:
+        - NHS AI Lab Skunkworks: our_work/ai-skunkworks.md
+      - Javascript:
+        - AI Dictionary: our_work/ai-dictionary.md
+        - Data Lens: our_work/data-lens.md
+      - R:
+        - NHS Reproducible Analytical Pipelines (RAP) Champion Squad: our_work/ds218_rap_community_of_practice.md
+        - Text Analysis using Structural Topic Modelling: our_work/p23_stm.md
+    - Type of Work:
+      - Technical:
+        - Text Analysis using Structural Topic Modelling: our_work/p23_stm.md
+      - Best Practice Guidance:
+        - NHS Reproducible Analytical Pipelines (RAP) Champion Squad: our_work/ds218_rap_community_of_practice.md
+      - Documentation: 
+        - AI Dictionary: our_work/ai-dictionary.md
+    - Model Types:
+      - Bayesian Forecasting: 
+        - Bed allocation: our_work/bed-allocation.md
+      - Computer Vision:
+        - Using deep learning to detect adrenal lesions in CT scans: our_work/adrenal-lesions.md
+        - CT Alignment and Lesion Detection: our_work/ct-alignment.md
+      - Deep Learning:
+        - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
+        - Renal Health Prediction: our_work/renal-health-prediction.md
+    - Healthcare Area: 
+      - Secondary Care:
+        - Bed Allocation: our_work/bed-allocation.md
+        - Ambulance Handover Delay Predictor: our_work/ambulance-delay-predictor.md
+      - Specific Diseases: 
+        - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
+        - Renal Health Prediction: our_work/renal-health-prediction.md
+      - Primary Care: 
+        - Working with a Trusted Research Environment - the NHS @Home programme: our_work/open-safely.md
+
+    - Not Categorized:
+      - ... | flat | regex=our_work/(?!template-project\.md).*\.md
   # - Tools: 
   #   - ... | flat | tools/*.md
   - Playbooks: playbooks.md
