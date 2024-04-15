@@ -64,7 +64,11 @@ nav:
         - Renal Health Prediction: our_work/renal-health-prediction.md
       - Primary Care: 
         - Working with a Trusted Research Environment - the NHS @Home programme: our_work/open-safely.md
-
+    - Past/Current Projects:
+      - Current Projects:
+        - NHS Reproducible Analytical Pipelines (RAP) Champion Squad: our_work/ds218_rap_community_of_practice.md
+      - Past Projects: 
+        - Renal Health Prediction: our_work/renal-health-prediction.md
     - Not Categorized:
       - ... | flat | regex=our_work/(?!template-project\.md).*\.md
   # - Tools: 
