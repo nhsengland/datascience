@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Meeting 1",
+    "start": "2024-04-18 10:00:00",
+    "end": "2024-04-18 12:00:00",
+    "color": "#3788D8",
+    "description": "This is the description for Meeting 1",
+    "teamsLink": "https://teams.microsoft.com/l/meetup-join/..."
+  },
+  {
+    "title": "Conference Call",
+    "start": "2024-04-20 14:00:00",
+    "end": "2024-04-20 15:30:00",
+    "color": "#76B041",
+    "description": "This is the description for the Conference Call",
+    "teamsLink": "https://teams.microsoft.com/l/meetup-join/..."
+  },
+  {
+    "title": "Presentation",
+    "start": "2024-04-22 09:00:00",
+    "end": "2024-04-22 11:00:00",
+    "color": "#E53638",
+    "description": "This is the description for the Presentation",
+    "teamsLink": "https://teams.microsoft.com/l/meetup-join/..."
+  }
+]

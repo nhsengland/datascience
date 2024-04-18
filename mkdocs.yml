@@ -31,6 +31,7 @@ nav:
   # - Codebases: codebases.md
   - Useful links: useful_links.md
   - Site Info: meta_page.md
+  - Calendar: calendar/calendar.md
 theme:
   name: material
   custom_dir: overrides
@@ -86,6 +87,6 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
-  - javascripts/tablefilter.js
+  - javascripts/tablefilter.js 
 watch:
   - overrides
