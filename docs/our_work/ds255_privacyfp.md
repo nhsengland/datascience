@@ -28,11 +28,18 @@ In this project we use open source Large Language Models (LLMs) for generating s
 
 The current pipeline has been broken down into 6 components:
 
+GeneratinSynthea International is an expansion of Synthea, an open-source synthetic patient generator that produces de-identified health records for synthetic patients.
+Generating Synthetic Patient Medical Notes: Utilizes LLama2 to generate synthetic medical notes.
+Re-extracting Entities from the Patient Medical Notes: Utilizes UniversalNER, an open-source generative large language model specifically trained to extract a range of entities when prompted with a list of entities you want to extract.
+Normalizing Entities Extracted for Scoring: This is a standardization process to ensure that outputs can be consistently assessed, i.e., dates are all formatted the same.
+Scores the Uniqueness of Standardized Entities Extracted: (Py)CorrectMatch is used to extract information on the uniqueness of individual records and the global uniqueness across a whole dataset by training a Gaussian Copula model on the data.
+Calculates SHAP Values from Transformed Data generated from a Fitted Gaussian Copula Model: SHAP (SHapley Additive exPlanations) is used to interpret and explain the results produced from (Py)CorrectMatch, which evaluates the uniqueness of data rows across a whole dataframe.
+
 1. **Generating Synthetic Patient Data using Synthea**: Synthea-international is an expansion of [Synthea](https://github.com/synthetichealth/synthea), an open-source synthetic patient generator that produces de-identified health records for **synthetic** patients.
 2. **Generating Synthetic Patient Medical Notes**: Utilizes [LLama2](https://llama.meta.com/) to generate **synthetic** medical notes.
 3. **Re-extracting Entities from the Patient Medical Notes**: Utilizes [UniversalNER](https://universal-ner.github.io/), an open-source generative large language model, specifically trained to extract a range of entities when prompted with a list of entities you want to extract.
 4. **Normalising Entities Extracted for Scoring**: This is a standardisation process to ensure that outputs coming out can be consistently assessed, i.e., dates are all formatted the same.
-5. **Scores the Uniqueness of Standardised Entities Extracted**: [(Py)CorrectMatch](https://github.com/computationalprivacy/CorrectMatch.jl) is used to extract information on the uniqueness of individual records and the global uniqueness across a whole dataset by training a Gaussian Copula model on the data.
+5. **Scores the Uniqueness of Standardised Entities Extracted**: [(Py)CorrectMatch](https://github.com/computationalprivacy/CorrectMatch.jl) is used to extract out information on the uniqueness of individual records, and the global uniquness across a whole dataset, by training a Gaussian Copula model on the data.
 6. **Calculates SHAP Values from Tranformed Data generated from a Fitted Gaussian Copula Model**: SHAP (SHapley Additive exPlanations) is used to interpret and explain the results produced from (Py)CorrectMatch, which evaluates the uniqueness of data rows across a whole dataframe.
 
 
