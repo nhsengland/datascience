@@ -15,21 +15,6 @@ Baseline models provide a mechanism to generate baseline metrics to assess the p
 
 A series of Jupyter Notebooks used to generate this report are available on [Github](https://github.com/nhsx/skunkworks-long-stayer-risk-stratification-baseline/tree/main/notebooks).
 
-## Table of contents
-
-* 1. [Background](#background)
-* 2. [Approach](#approach)
-* 3. [Data ingest and processing](#dataingestandprocessing)
-* 4. [Feature engineering](#featureengineering)
-* 5. [Statistical analysis](#statisticalanalysis)
-* 6. [Modelling](#modelling)
-  * 6.1 [Regression models](#regressionmodels)
-  * 6.2 [Demographic analysis](#demographicanalysis)
-  * 6.3 [Classification models](#classificationmodels)
-  * 6.4 [Model comparison](#modelcomparison)
-* 7. [Conclusions](#conclusions)
-* 8. [Future work](#futurework)
-
 ## 1. Background<a name='background'></a>
 
 Hospital long stayers, those with a <a href='https://www.england.nhs.uk/urgent-emergency-care/reducing-length-of-stay/' target='_blank'>length of stay (LoS) of 21 days or longer</a>, have significantly worse medical and social outcomes than other patients. Long-stayers are often medically optimised (fit for discharge) many days before their actual discharge. Moreover, there are a complex mixture of medical, cultural and socioeconomic factors which contribute to the causes of unnecessary long stays.
