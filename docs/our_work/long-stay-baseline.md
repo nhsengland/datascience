@@ -6,7 +6,7 @@ origin: 'Skunkworks'
 tags: ['LOS','RISK MODEL', 'REGRESSION', 'CLASSIFICATION','PYTHON']
 ---
 
-Long Stayer risk stratification baseline models was selected as a project to run in tandem with the [Long Stayer Risk Stratification](long-stay) project, and started in March 2022.
+Long Stayer risk stratification baseline models was selected as a project to run in tandem with the [Long Stayer Risk Stratification](long-stay.md) project, and started in March 2022.
 
 Baseline models provide a mechanism to generate baseline metrics to assess the performance of more complex models, and establish the effectiveness of simple approaches.
 
@@ -34,7 +34,7 @@ A series of Jupyter Notebooks used to generate this report are available on [Git
 
 Hospital long stayers, those with a <a href='https://www.england.nhs.uk/urgent-emergency-care/reducing-length-of-stay/' target='_blank'>length of stay (LoS) of 21 days or longer</a>, have significantly worse medical and social outcomes than other patients. Long-stayers are often medically optimised (fit for discharge) many days before their actual discharge. Moreover, there are a complex mixture of medical, cultural and socioeconomic factors which contribute to the causes of unnecessary long stays.
 
-This project aims to complement [previous work](long-stay) by generating simple baseline regression and classification models that could be replicated at other hospital trusts, and is divided into two phases:
+This project aims to complement [previous work](long-stay.md) by generating simple baseline regression and classification models that could be replicated at other hospital trusts, and is divided into two phases:
 
 1. Series of Jupyter Notebooks containing baseline model code
 2. [Reproducible Analytical Pipeline](https://github.com/NHSDigital/rap-community-of-practice) including data pipelines
