@@ -25,6 +25,7 @@ List of pre-releases and publications connected to our work
 **Martina Fonseca**, Brian MacKenna, Amir Mehrkar, The OpenSAFELY Collaborative, Caroline E Walters, George Hickman, **Jonathan Pearson**, Louis Fisher, Peter Inglesby, Seb Bacon, Simon Davy, William Hulme, Ben Goldacre, Ofra Koffman, Minal Bakhai
 
 *We aimed to explore general practice coding activity associated with the use of online consultation systems in terms of trends, COVID-19 effect, variation and quality.*
+
 ---
 
 [3] [https://doi.org/10.1016/j.epidem.2022.100662](https://doi.org/10.1016/j.epidem.2022.100662)
