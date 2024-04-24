@@ -34,9 +34,11 @@ nav:
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Enhancement: our_work/linkage.md
       - Natural Language Processing Products:
+        - Applying & Evaluating a Language Model to Patient Safety Data: our_work/p33_patientsafetylms.md
         - Automating Clinical Coding: our_work/clinical-coding.md
         - Data Lens: our_work/data-lens.md
         - NHS Language Corpus: our_work/c250_nhscorpus.md
+        - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Emergency Call Triage: our_work/nwas.md
         - Text Analysis using Structural Topic Modelling: our_work/p23_stm.md
         - Tool to Asses Privacy Risk of Text Data: /our_work/c399_privfinger.md
@@ -52,15 +54,20 @@ nav:
         - CT Alignment & Lesion Detection: our_work/ct-alignment.md
         - Deep Learning to Detect Adrenal Lesions in CT Scans: our_work/adrenal-lesions.md
         - Differential Privacy in a VAE for Synthetic Data Generation: our_work/p12_synthvae.md
+        - Enriching Clinical Coding for Neurology Pathways using MedCAT: our_work/p43_medcat.md
         - Generic Patient Simulator: our_work/c245_synpath.md
         - Impact of Commercial Data on Predictions: our_work/p14_mcr.md
         - Investigating Superpixels in LIME for Explaining Predictions of Facial Images: our_work/p24_lime.md
         - Nursing Placement Scheduled Optimisation: our_work/nursing-placement-optimisation.md
+        - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
         - Predicting Negligence Claims: our_work/nhs-resolution.md
         - Privacy of Unstructured Data: our_work/c338_poud.md
+        - Renal Health Prediction: our_work/renal-health-prediction.md
         - SynPath Simulator on Diabetes Pathway: our_work/p11_synpathdiabetes.md
         - Synthetic Data From Real Data: our_work/casestudy-synthetic-data-pipeline.md
+        - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
         - TxtRayAlign: our_work/p22_txtrayalign.md
+        - Understanding the Impact of Co-Morbidities: our_work/p34_hypergraphs.md
     - Problems Solved:
       - Healthcare Efficiency: 
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
@@ -70,21 +77,28 @@ nav:
       - Ease of Diagnosis: 
         - CT Alignment & Lesion Detection: our_work/ct-alignment.md
         - Deep Learning to Detect Adrenal Lesions in CT Scans: our_work/adrenal-lesions.md
+        - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
+        - Renal Health Prediction: our_work/renal-health-prediction.md
         - TxtRayAlign: our_work/p22_txtrayalign.md
       - Data Access & Privacy:
+        - Applying & Evaluating a Language Model to Patient Safety Data: our_work/p33_patientsafetylms.md
         - Creating a Generic Adversarial Attack for Synthetic Data: our_work/c339_sas.md
         - Differential Privacy in a VAE for Synthetic Data Generation: our_work/p12_synthvae.md
         - Generic Patient Simulator: our_work/c245_synpath.md
         - NHS @Home Programme: our_work/open-safely.md
         - Privacy of Unstructured Data: our_work/c338_poud.md
         - Synthetic Data From Real Data: our_work/casestudy-synthetic-data-pipeline.md
+        - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
         - SynPath Simulator on Diabetes Pathway: our_work/p11_synpathdiabetes.md
         - Tool to Asses Privacy Risk of Text Data: our_work/c399_privfinger.md
       - Following Patient Pathways:
         - Data Linkage Enhancement: our_work/linkage.md
+        - Understanding the Impact of Co-Morbidities: our_work/p34_hypergraphs.md
       - Resource Usage:
         - Emergency Call Triage: our_work/nwas.md
+        - Enriching Clinical Coding for Neurology Pathways using MedCAT: our_work/p43_medcat.md
         - Length of Hospital Day Prediction: our_work/long-stay.md
+        - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Nursing Placement Scheduled Optimisation: our_work/nursing-placement-optimisation.md
         - Predicting Negligence Claims: our_work/nhs-resolution.md
       - Health Inequality: 
@@ -96,32 +110,38 @@ nav:
       - Bayesian Forecasting: 
         - Bed Allocation: our_work/bed-allocation.md
         - Predicting Negligence Claims: our_work/nhs-resolution.md
-      - Computer Vision:
+      - Deep Learning:
         - CT Alignment & Lesion Detection: our_work/ct-alignment.md
         - Deep Learning to Detect Adrenal Lesions in CT Scans: our_work/adrenal-lesions.md
+        - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
+        - Renal Health Prediction: our_work/renal-health-prediction.md
       - Random Forest:
         - Ambulance Handover Delay Predictor: our_work/ambulance-delay-predictor.md
       - Data Model/Synthetic Data:
         - Differential Privacy in a VAE for Synthetic Data Generation: our_work/p12_synthvae.md
         - Generic Patient Simulator: our_work/c245_synpath.md
         - Synthetic Data From Real Data: our_work/casestudy-synthetic-data-pipeline.md
+        - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
         - SynPath Simulator on Diabetes Pathway: our_work/p11_synpathdiabetes.md
       - Gradient Boosting Decision Tree:
         - Emergency Call Triage: our_work/nwas.md
       - NLP/LLM:
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
+        - Applying & Evaluating a Language Model to Patient Safety Data: our_work/p33_patientsafetylms.md
         - Automating Clinical Coding: our_work/clinical-coding.md
         - Data Lens: our_work/data-lens.md
         - Emergency Call Triage: our_work/nwas.md
         - NHS Language Corpus: our_work/c250_nhscorpus.md
+        - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Text Analysis using Structural Topic Modelling: our_work/p23_stm.md
         - Tool to Asses Privacy Risk of Text Data: our_work/c399_privfinger.md
         - TxtRayAlign: our_work/p22_txtrayalign.md
       - GAN:
         - Creating a Generic Adversarial Attack for Synthetic Data: our_work/c339_sas.md
         - Length of Hospital Day Prediction: our_work/long-stay.md
-      - Probabilistic Data Linkage Algorithm:
+      - Linkage Algorithm:
         - Data Linkage Enhancement: our_work/linkage.md
+        - Enriching Clinical Coding for Neurology Pathways using MedCAT: our_work/p43_medcat.md
       - Genetic Algorithm:
         - Nursing Placement Scheduled Optimisation: our_work/nursing-placement-optimisation.md
       - Model Class Reliance:
@@ -130,6 +150,8 @@ nav:
         - Investigating Superpixels in LIME for Explaining Predictions of Facial Images: our_work/p24_lime.md
       - Logistic Regression:
         - Inequalities in Diabetes from PHM Data: our_work/p32_phmdiabetes.md
+      - Hypergraphs: 
+        - Understanding the Impact of Co-Morbidities: our_work/p34_hypergraphs.md
     - Healthcare Domain:
       - Urgent & Emergency Care:
         - Ambulance Handover Delay Predictor: our_work/ambulance-delay-predictor.md
@@ -137,14 +159,20 @@ nav:
       - Diagnostics:
         - CT Alignment & Lesion Detection: our_work/ct-alignment.md
         - Deep Learning to Detect Adrenal Lesions in CT Scans: our_work/adrenal-lesions.md
+        - Enriching Clinical Coding for Neurology Pathways using MedCAT: our_work/p43_medcat.md
+        - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
+        - Renal Health Prediction: our_work/renal-health-prediction.md
         - SynPath Simulator on Diabetes Pathway: our_work/p11_synpathdiabetes.md
+        - Understanding the Impact of Co-Morbidities: our_work/p34_hypergraphs.md
       - Use of Resources: 
         - Bed Allocation: our_work/bed-allocation.md
+        - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Predicting Negligence Claims: our_work/nhs-resolution.md
         - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
         - Length of Hospital Day Prediction: our_work/long-stay.md
       - Workforce: 
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
+        - Applying & Evaluating a Language Model to Patient Safety Data: our_work/p33_patientsafetylms.md
         - Automating Clinical Coding: our_work/clinical-coding.md
         - Nursing Placement Scheduled Optimisation: our_work/nursing-placement-optimisation.md
         - Text Analysis using Structural Topic Modelling: our_work/p23_stm.md
@@ -156,13 +184,16 @@ nav:
       - Current Projects:
         - AI Dictionary: our_work/ai-dictionary.md
         - Data Linkage Enhancement: our_work/linkage.md
+        - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
         - Tool to Asses Privacy Risk of Text Data: our_work/c399_privfinger.md
       - Past Projects: 
         - 2023:
           - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
           - AI Skunkworks Team: our_work/ai-skunkworks.md
+          - Applying & Evaluating a Language Model to Patient Safety Data: our_work/p33_patientsafetylms.md
           - Deep Learning to Detect Adrenal Lesions in CT Scans: our_work/adrenal-lesions.md
+          - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
         - 2022:
           - Ambulance Handover Delay Predictor: our_work/ambulance-delay-predictor.md
           - Bed Allocation: our_work/bed-allocation.md
@@ -174,7 +205,9 @@ nav:
           - NHS Language Corpus: our_work/c250_nhscorpus.md
           - Nursing Placement Scheduled Optimisation: our_work/nursing-placement-optimisation.md
           - Privacy of Unstructured Data: our_work/c338_poud.md
+          - Renal Health Prediction: our_work/renal-health-prediction.md
           - Synthetic Data From Real Data: our_work/casestudy-synthetic-data-pipeline.md
+          - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
           - Text Analysis using Structural Topic Modelling: our_work/p23_stm.md
           - TxtRayAlign: our_work/p22_txtrayalign.md
         - 2021: 
@@ -189,7 +222,9 @@ nav:
           - Automating Clinical Coding: our_work/clinical-coding.md
           - Creating a Generic Adversarial Attack for Synthetic Data: our_work/c339_sas.md
           - Emergency Call Triage: our_work/nwas.md
+          - Enriching Clinical Coding for Neurology Pathways using MedCAT: our_work/p43_medcat.md
           - NHS @Home Programme: our_work/open-safely.md
+          - Understanding the Impact of Co-Morbidities: our_work/p34_hypergraphs.md
     - Not Categorized:
       - ... | flat | regex=our_work/(?!template-project\.md).*\.md
   # - Tools: 
