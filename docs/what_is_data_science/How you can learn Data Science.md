@@ -10,7 +10,7 @@ For this purpose we've put together a **monthly newsletter** with valuable **ins
 
 !!! note
         
-    The newsletter is targeted towards members of the NHS England Data Science team, so some links may only be accessible to those with the necessary login credentials, however the newsletter and its archive are available for all at the link below.
+    The newsletter is targeted towards members of the NHS England Data Science team, so some links may only be accessible to those with the necessary login credentials, however the newsletter and its archive are available for all at the link above.
 
 Through [AnalystX] we also support the [NHS Data Science community](https://data-science-community.analystx.uk/) which is the home of spreading data science knowledge within the NHS.
 
