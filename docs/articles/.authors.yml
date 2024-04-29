@@ -1,7 +1,14 @@
 authors:
   SamHollings:
     name: Sam Hollings        # Author name
-    description: Principle Data Scientist # Author description
+    description: Principal Data Scientist # Author description
     avatar: https://avatars.githubusercontent.com/u/52575338?v=4         # Author avatar
     slug: SamHollings          # Author profile slug
     url: https://github.com/SamHollings            # Author website URL
+
+  VickySmith:
+    name: Vicky Smith        # Author name
+    description: PhD Data Science Intern # Author description
+    avatar: https://avatars.githubusercontent.com/u/72864814?v=4        # Author avatar
+    slug: VickySmith          # Author profile slug
+    url: https://v-smith.github.io/            # Author website URL
