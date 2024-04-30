@@ -6,6 +6,9 @@ summary: Our work has produced a number of publications
 tags: ['PUBLICATIONS']
 ---
 
+List of pre-releases and publications connected to our work
+
+
 [5] [https://link.springer.com/chapter/10.1007/978-3-031-56107-8_21](https://link.springer.com/chapter/10.1007/978-3-031-56107-8_21) - Conference Paper
 
 **Hypergraphs for Frailty Analysis Research Paper**
@@ -46,8 +49,6 @@ representation of multimorbidity and leveraging the growing availability of elec
 *We aimed to explore general practice coding activity associated with the use of online consultation systems in terms of trends, COVID-19 effect, variation and quality.*
 
 ---
-
-List of pre-releases and publications connected to our work
 
 [1] [https://doi.org/10.21203/rs.3.rs-2226531/v1](https://doi.org/10.21203/rs.3.rs-2226531/v1)
 
