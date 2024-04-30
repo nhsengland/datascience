@@ -12,7 +12,7 @@ tags: ['PUBLICATIONS']
 
 **Zoe Hancox**, Samuel D. Relton, Andrew Clegg, Philip G. Conaghan, and **Daniel Schofield**
 
-*Inclusion of mortality to hypergraphs alongside the most prevalent combinations of frailty condisitons.  This paper demonstrates that this technique enables us to determine the probability of aquiring another condition as well as understanding the connection and sequencing of aquiring comorbidities.*
+*Inclusion of mortality to hypergraphs alongside the most prevalent combinations of frailty conditions.  This paper demonstrates that this technique enables us to determine the probability of acquiring another condition as well as understanding the connection and sequencing of acquiring comorbidities.*
 
 ---
 
