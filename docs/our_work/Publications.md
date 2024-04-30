@@ -6,25 +6,24 @@ summary: Our work has produced a number of publications
 tags: ['PUBLICATIONS']
 ---
 
-List of pre-releases and publications connected to our work
+[5] [https://link.springer.com/chapter/10.1007/978-3-031-56107-8_21](https://link.springer.com/chapter/10.1007/978-3-031-56107-8_21) - Conference Paper
 
-[1] [https://doi.org/10.21203/rs.3.rs-2226531/v1](https://doi.org/10.21203/rs.3.rs-2226531/v1)
+**Hypergraphs for Frailty Analysis Research Paper**
 
-**Assessing the value of integrating national longitudinal shopping data into respiratory disease forecasting models**
+**Zoe Hancox**, Samuel D. Relton, Andrew Clegg, Philip G. Conaghan, and **Daniel Schofield**
 
-**Elizabeth Dolan**, James Goulding, Harry Marshall, Gavin Smith, Gavin Ling, Laila Tata
-
-*... We investigated the value of integrating sales of non-prescription medications commonly bought for managing respiratory symptoms, to improve forecasting of weekly registered deaths from respiratory disease at local levels across England, by using over 2 billion transactions logged by a UK high street retailer from March 2016 to March 2020. We report the results from the novel AI explainability variable importance tool Model Class Reliance implemented on the PADRUS model. ...*
+*Inclusion of mortality to hypergraphs alongside the most prevalent combinations of frailty condisitons.  This paper demonstrates that this technique enables us to determine the probability of aquiring another condition as well as understanding the connection and sequencing of aquiring comorbidities.*
 
 ---
 
-[2] [https://doi.org/10.1101/2023.01.25.23284428](https://doi.org/10.1101/2023.01.25.23284428)
+[4] [https://doi.org/10.1101/2023.08.31.23294903](https://doi.org/10.1101/2023.08.31.23294903) - (Pre-Print)
 
-**Primary care coding activity related to the use of online consultation systems or remote consulting: an analysis of 53 million peoples’ health records using OpenSAFELY**
+**Representing Multimorbid Disease Progressions using directed hypergraphs**
 
-**Martina Fonseca**, Brian MacKenna, Amir Mehrkar, The OpenSAFELY Collaborative, Caroline E Walters, George Hickman, **Jonathan Pearson**, Louis Fisher, Peter Inglesby, Seb Bacon, Simon Davy, William Hulme, Ben Goldacre, Ofra Koffman, Minal Bakhai
+**Jamie Burke**, Ashley Akbari, Rowena Bailey, **Kevin Fasusi**, Ronan A.Lyons, **Jonathan Pearson**, James Rafferty, and **Daniel Schofield**
 
-*We aimed to explore general practice coding activity associated with the use of online consultation systems in terms of trends, COVID-19 effect, variation and quality.*
+*To introduce directed hypergraphs as a novel tool for assessing the temporal relationships between coincident diseases,addressing the need for a more accurate
+representation of multimorbidity and leveraging the growing availability of electronic healthcare databases and improved computational resources.*
 
 ---
 
@@ -38,18 +37,27 @@ List of pre-releases and publications connected to our work
 
 ---
 
-[4] [https://doi.org/10.1101/2023.08.31.23294903](https://doi.org/10.1101/2023.08.31.23294903) - (Pre-Print)
+[2] [https://doi.org/10.1101/2023.01.25.23284428](https://doi.org/10.1101/2023.01.25.23284428)
 
-**Representing Multimorbid Disease Progressions using directed hypergraphs**
+**Primary care coding activity related to the use of online consultation systems or remote consulting: an analysis of 53 million peoples’ health records using OpenSAFELY**
 
-**Jamie Burke**, Ashley Akbari, Rowena Bailey, **Kevin Fasusi**, Ronan A.Lyons, **Jonathan Pearson**, James Rafferty, and **Daniel Schofield**
+**Martina Fonseca**, Brian MacKenna, Amir Mehrkar, The OpenSAFELY Collaborative, Caroline E Walters, George Hickman, **Jonathan Pearson**, Louis Fisher, Peter Inglesby, Seb Bacon, Simon Davy, William Hulme, Ben Goldacre, Ofra Koffman, Minal Bakhai
 
-*To introduce directed hypergraphs as a novel tool for assessing the temporal relationships between coincident diseases,addressing the need for a more accurate
-representation of multimorbidity and leveraging the growing availability of electronic healthcare databases and improved computational resources.*
-
+*We aimed to explore general practice coding activity associated with the use of online consultation systems in terms of trends, COVID-19 effect, variation and quality.*
 
 ---
 
+List of pre-releases and publications connected to our work
+
+[1] [https://doi.org/10.21203/rs.3.rs-2226531/v1](https://doi.org/10.21203/rs.3.rs-2226531/v1)
+
+**Assessing the value of integrating national longitudinal shopping data into respiratory disease forecasting models**
+
+**Elizabeth Dolan**, James Goulding, Harry Marshall, Gavin Smith, Gavin Ling, Laila Tata
+
+*... We investigated the value of integrating sales of non-prescription medications commonly bought for managing respiratory symptoms, to improve forecasting of weekly registered deaths from respiratory disease at local levels across England, by using over 2 billion transactions logged by a UK high street retailer from March 2016 to March 2020. We report the results from the novel AI explainability variable importance tool Model Class Reliance implemented on the PADRUS model. ...*
+
+---
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
