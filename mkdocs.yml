@@ -35,11 +35,9 @@ nav:
         - Data Linkage Enhancement: our_work/linkage.md
       - Natural Language Processing Products:
         - Applying & Evaluating a Language Model to Patient Safety Data: our_work/p33_patientsafetylms.md
-        - Automating Clinical Coding: our_work/clinical-coding.md
         - Data Lens: our_work/data-lens.md
         - NHS Language Corpus: our_work/c250_nhscorpus.md
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
-        - Emergency Call Triage: our_work/nwas.md
         - Text Analysis using Structural Topic Modelling: our_work/p23_stm.md
         - Tool to Asses Privacy Risk of Text Data: /our_work/c399_privfinger.md
       - Data Science Capability:
@@ -68,11 +66,10 @@ nav:
         - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
         - TxtRayAlign: our_work/p22_txtrayalign.md
         - Understanding the Impact of Co-Morbidities: our_work/p34_hypergraphs.md
-    - Problems Solved:
+    - Problems Explored:
       - Healthcare Efficiency: 
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
         - Ambulance Handover Delay Predictor: our_work/ambulance-delay-predictor.md
-        - Automating Clinical Coding: our_work/clinical-coding.md
         - Bed Allocation: our_work/bed-allocation.md
       - Ease of Diagnosis: 
         - CT Alignment & Lesion Detection: our_work/ct-alignment.md
@@ -95,7 +92,6 @@ nav:
         - Data Linkage Enhancement: our_work/linkage.md
         - Understanding the Impact of Co-Morbidities: our_work/p34_hypergraphs.md
       - Resource Usage:
-        - Emergency Call Triage: our_work/nwas.md
         - Enriching Clinical Coding for Neurology Pathways using MedCAT: our_work/p43_medcat.md
         - Length of Hospital Day Prediction: our_work/long-stay.md
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
@@ -123,14 +119,10 @@ nav:
         - Synthetic Data From Real Data: our_work/casestudy-synthetic-data-pipeline.md
         - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
         - SynPath Simulator on Diabetes Pathway: our_work/p11_synpathdiabetes.md
-      - Gradient Boosting Decision Tree:
-        - Emergency Call Triage: our_work/nwas.md
       - NLP/LLM:
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
         - Applying & Evaluating a Language Model to Patient Safety Data: our_work/p33_patientsafetylms.md
-        - Automating Clinical Coding: our_work/clinical-coding.md
         - Data Lens: our_work/data-lens.md
-        - Emergency Call Triage: our_work/nwas.md
         - NHS Language Corpus: our_work/c250_nhscorpus.md
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Text Analysis using Structural Topic Modelling: our_work/p23_stm.md
@@ -155,7 +147,6 @@ nav:
     - Healthcare Domain:
       - Urgent & Emergency Care:
         - Ambulance Handover Delay Predictor: our_work/ambulance-delay-predictor.md
-        - Emergency Call Triage: our_work/nwas.md
       - Diagnostics:
         - CT Alignment & Lesion Detection: our_work/ct-alignment.md
         - Deep Learning to Detect Adrenal Lesions in CT Scans: our_work/adrenal-lesions.md
@@ -173,7 +164,6 @@ nav:
       - Workforce: 
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
         - Applying & Evaluating a Language Model to Patient Safety Data: our_work/p33_patientsafetylms.md
-        - Automating Clinical Coding: our_work/clinical-coding.md
         - Nursing Placement Scheduled Optimisation: our_work/nursing-placement-optimisation.md
         - Text Analysis using Structural Topic Modelling: our_work/p23_stm.md
       - Primary Care:
@@ -219,9 +209,7 @@ nav:
           - Data Lens: our_work/data-lens.md
         - Unknown Year:
           - AI Deep Dive Workshops: our_work/ai-deep-dive.md
-          - Automating Clinical Coding: our_work/clinical-coding.md
           - Creating a Generic Adversarial Attack for Synthetic Data: our_work/c339_sas.md
-          - Emergency Call Triage: our_work/nwas.md
           - Enriching Clinical Coding for Neurology Pathways using MedCAT: our_work/p43_medcat.md
           - NHS @Home Programme: our_work/open-safely.md
           - Understanding the Impact of Co-Morbidities: our_work/p34_hypergraphs.md
