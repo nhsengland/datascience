@@ -39,7 +39,8 @@ nav:
         - NHS Language Corpus: our_work/c250_nhscorpus.md
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Text Analysis using Structural Topic Modelling: our_work/p23_stm.md
-        - Tool to Asses Privacy Risk of Text Data: /our_work/c399_privfinger.md
+        - Tool to Asses Privacy Risk of Text Data: our_work/c399_privfinger.md
+        - Tool to Asses Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
       - Data Science Capability:
         - AI Deep Dive Workshops: our_work/ai-deep-dive.md
         - AI Dictionary: our_work/ai-dictionary.md
@@ -88,6 +89,7 @@ nav:
         - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
         - SynPath Simulator on Diabetes Pathway: our_work/p11_synpathdiabetes.md
         - Tool to Asses Privacy Risk of Text Data: our_work/c399_privfinger.md
+        - Tool to Asses Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
       - Following Patient Pathways:
         - Data Linkage Enhancement: our_work/linkage.md
         - Understanding the Impact of Co-Morbidities: our_work/p34_hypergraphs.md
@@ -127,6 +129,7 @@ nav:
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Text Analysis using Structural Topic Modelling: our_work/p23_stm.md
         - Tool to Asses Privacy Risk of Text Data: our_work/c399_privfinger.md
+        - Tool to Asses Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
         - TxtRayAlign: our_work/p22_txtrayalign.md
       - GAN:
         - Creating a Generic Adversarial Attack for Synthetic Data: our_work/c339_sas.md
@@ -176,7 +179,7 @@ nav:
         - Data Linkage Enhancement: our_work/linkage.md
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
-        - Tool to Asses Privacy Risk of Text Data: our_work/c399_privfinger.md
+        - Tool to Asses Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
       - Past Projects: 
         - 2023:
           - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
@@ -184,6 +187,7 @@ nav:
           - Applying & Evaluating a Language Model to Patient Safety Data: our_work/p33_patientsafetylms.md
           - Deep Learning to Detect Adrenal Lesions in CT Scans: our_work/adrenal-lesions.md
           - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
+          - Tool to Asses Privacy Risk of Text Data: our_work/c399_privfinger.md
         - 2022:
           - Ambulance Handover Delay Predictor: our_work/ambulance-delay-predictor.md
           - Bed Allocation: our_work/bed-allocation.md
