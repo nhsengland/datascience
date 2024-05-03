@@ -9,6 +9,16 @@ tags: ['PUBLICATIONS']
 List of pre-releases and publications connected to our work
 
 
+[6] [https://arxiv.org/abs/2403.19802](https://arxiv.org/abs/2403.19802)
+
+**Developing Healthcare Language Model Embedding Spaces**
+
+**Niall Taylor**, **Dan Schofield**, Andrey Kormilitzin, Dan W Joyce, Alejo Nevado-Holgado
+
+*...explore specialized pre-training to adapt smaller LLMs to different healthcare datasets. Three methods are assessed: traditional masked language modeling, Deep Contrastive Learning for Unsupervised Textual Representations (DeCLUTR), and a novel pre-training objective utilizing metadata categories from the healthcare settings...*
+
+---
+
 [5] [https://link.springer.com/chapter/10.1007/978-3-031-56107-8_21](https://link.springer.com/chapter/10.1007/978-3-031-56107-8_21) - Conference Paper
 
 **Hypergraphs for Frailty Analysis Research Paper**
