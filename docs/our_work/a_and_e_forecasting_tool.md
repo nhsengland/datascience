@@ -5,10 +5,9 @@ origin: ''
 tags: ['MODELLING', 'HOSPITAL', 'MONTE CARLO', 'MCMC', 'URGENT CARE', 'ACCIDENT AND EMERGENCY']
 ---
 
-The NHS National Data Platform is a single data, modelling and integration platform that provides users with reliable and timely data in order to make informed, effective decisions. The platform contains information from dozens of datasets covering a wide variety of metrics, incorporates modelling and predictions on that data to provide a single source of truth.
+The A&E forecasting tool takes historical data from A&E departments, and uses this as a basis for modelling what admissions levels are likely to look like over the coming days and weeks. This is a probabilistic model, which provides a forecasted window within which a given location's admissions numbers are likely to fall, for each day over a three week period starting on the day of the forecast.
 
-
-Breakdowns are provided at the Country, Region, ICS, Trust, and Site level. Weekly trends are provided. 
+Having this information can help departments, trusts, and ICS' plan and prepare for the demand placed on their services. Breakdowns are provided at the Country, Region, ICS, Trust, and Site level. Weekly trends are provided. 
 
 ![text](../images/a_and_e_forecasting/weekly_trends.png)
 
