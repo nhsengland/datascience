@@ -4,7 +4,7 @@ summary: 'The data linkage hub project all things data linkage, from documenting
 origin: 'NHS Digital'
 tags: ['BEST PRACTICE', 'LINKAGE', 'PYTHON', 'QUALITY']
 ---
-![Diagram representing the three current areas of the data linkage project: Quality Assurance, Better Matching Algorithm, and Data Linkage as a service.](../images/linkage_visual_abstract.png)
+![Diagram representing the three current areas of the data linkage project: Quality Assurance, Better Matching Algorithm, and Data Linkage as a service.](../../images/linkage_visual_abstract.png)
 
 Data Linkage is a business-critical process within many government organisations, including NHS England. Being able to link patients across their care journey, making sure that underrepresented populations are not lost in the cracks, and ensuring compatibility when using several data sets for the same purpose is a pillar of why the Data Linkage Enhancement team exists. 
 
