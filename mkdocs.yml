@@ -83,7 +83,8 @@ nav:
         - Renal Health Prediction: our_work/renal-health-prediction.md
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Hub: 
-          - ... | flat | our_work/data-linkage-hub/*.md
+          - Overview: our_work/data-linkage-hub/linkage.md
+          - Projects: ... | flat | our_work/data-linkage-hub/*.md
         - Inequalities in Diabetes from PHM Data: our_work/p32_phmdiabetes.md
       - Natural Language Processing Products:
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
