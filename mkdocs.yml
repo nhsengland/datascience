@@ -31,8 +31,8 @@ nav:
         - Bed Allocation: our_work/bed-allocation.md
         - Inequalities in Diabetes from PHM Data: our_work/p32_phmdiabetes.md
         - Length of Hospital Day Prediction: our_work/long-stay.md
-      - Data Science for Linked/Longitudinal Data:
-        - Data Linkage Enhancement: our_work/linkage.md
+      - Data Science for Linked/Longitudinal Data: 
+        - ... | flat | our_work/data-linkage-hub/*.md
       - Natural Language Processing Products:
         - Applying & Evaluating a Language Model to Patient Safety Data: our_work/p33_patientsafetylms.md
         - Data Lens: our_work/data-lens.md
@@ -91,7 +91,6 @@ nav:
         - Tool to Asses Privacy Risk of Text Data: our_work/c399_privfinger.md
         - Tool to Asses Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
       - Following Patient Pathways:
-        - Data Linkage Enhancement: our_work/linkage.md
         - Understanding the Impact of Co-Morbidities: our_work/p34_hypergraphs.md
       - Resource Usage:
         - Enriching Clinical Coding for Neurology Pathways using MedCAT: our_work/p43_medcat.md
@@ -135,7 +134,6 @@ nav:
         - Creating a Generic Adversarial Attack for Synthetic Data: our_work/c339_sas.md
         - Length of Hospital Day Prediction: our_work/long-stay.md
       - Linkage Algorithm:
-        - Data Linkage Enhancement: our_work/linkage.md
         - Enriching Clinical Coding for Neurology Pathways using MedCAT: our_work/p43_medcat.md
       - Genetic Algorithm:
         - Nursing Placement Scheduled Optimisation: our_work/nursing-placement-optimisation.md
@@ -176,7 +174,6 @@ nav:
     - Past/Current Projects:
       - Current Projects:
         - AI Dictionary: our_work/ai-dictionary.md
-        - Data Linkage Enhancement: our_work/linkage.md
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
         - Tool to Asses Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
