@@ -19,7 +19,6 @@ nav:
   - What is Data Science?: 
     - ... | flat | what_is_data_science/*.md
   - About the team: about.md
-  - PHDInterns: PhDInterns.md
   - Articles:  
     - ... | flat | articles/*.md
   - Projects: 
@@ -222,6 +221,7 @@ nav:
       - ... | flat | regex=our_work/(?!template-project\.md).*\.md
   # - Tools: 
   #   - ... | flat | tools/*.md
+  - PHDInterns: PhDInterns.md
   - Playbooks: playbooks.md
   # - Codebases: codebases.md
   - Useful links: useful_links.md
