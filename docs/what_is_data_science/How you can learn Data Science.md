@@ -1,4 +1,4 @@
-# How you can learn Data Science
+# How You Can Learn Data Science
 
 Data science isn't just for data scientists! As a profession, we're passionate about sharing these skills and techniques.
 
