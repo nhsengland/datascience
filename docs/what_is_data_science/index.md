@@ -8,11 +8,11 @@ Data scientists will often use programming languages such as Python and R (among
 
 Some examples of the kinds of problems data science can help with are:
 
-- **getting more value out of unstructured data** (e.g. text, images, audio) through "Natural Language Processing", "Neural Networks" and recently "Large Language Models" (e.g. ChatGPT).
-- **modelling systems and forecasting** (though compared with statisticians and economists, this tends to be more empirical, requiring more focus on evaluation)
-- **explaining existing models and their performance** - communication is a key pillar of data science: making the complex understandable to everyone else.
-- **enriching and transforming data**, such as through linkage, feature engineering, artificial and synthetic data generation
-- **classification and regression** - that is saying what something is, or if something will or won't happen, and/or quantifying something unknown.
+- **Getting more value out of unstructured data** (e.g. text, images, audio) through "Natural Language Processing", "Neural Networks" and recently "Large Language Models" (e.g. ChatGPT).
+- **Modelling systems and forecasting** (though compared with statisticians and economists, this tends to be more empirical, requiring more focus on evaluation).
+- **Explaining existing models and their performance** - communication is a key pillar of data science: making the complex understandable to everyone else.
+- **Enriching and transforming data**, such as through linkage, feature engineering, artificial and synthetic data generation.
+- **Classification and regression** - that is saying what something is, or if something will or won't happen, and/or quantifying something unknown.
 
 **Artificial Intelligence** and **Machine Learning** are techniques which are widely associated with data science and data scientists, and which can be applied to basically any of the problems listed above. See also this article on the ["Seven Patterns of AI"](https://www.forbes.com/sites/cognitiveworld/2019/09/17/the-seven-patterns-of-ai/?sh=448cf51812d0).
 
