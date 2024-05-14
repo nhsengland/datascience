@@ -24,7 +24,7 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
 
 </div>
 
-## How are we different from analytical teams?
+## How We Are Different From Analytical Teams
 
 <div class="grid cards" markdown>
 
@@ -54,7 +54,7 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
 
 </div>
 
-## Our missions
+## Our Missions
 
 === "Deliver"
     <h3 style="text-align: center;"> **Deliver problem led data science products to commissioners.** </h3>
