@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# Useful links
+# Useful Links
 
 This is a list, mostly copied from [RAP guidance pages](https://harrietrs.github.io/rap-community-of-practice/useful_links/) and shows a range of resources throughout the Government and other areas. Let us know if you have any links to useful information, resources or guides that could be added to the list.
 
@@ -47,7 +47,7 @@ The [Turing Way](https://the-turing-way.netlify.app/index.html#) have also produ
 
 - The [NHS Digital Github](https://github.com/NHSDigital/data-analytics-services) contains code shared from NHS Digital (and NHS England) projects. Well worth a look.
 
-## Community spaces
+## Community Spaces
 
 There are several slack channels that discuss RAP and related topics: the govdatascience.slack.com RAP channel, the NHS-R community, and the NHS-pycom community
 We have an MS Teams page (internal to NHS Digital)

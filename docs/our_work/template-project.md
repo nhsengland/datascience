@@ -29,5 +29,7 @@ Case Study|
 Technical report|[e.g. biorxiv.org]()
 Algorithmic Impact Assessment|e.g. N/A
 
+When you finish creating your project page, make sure you add it into the appropriate navigation sections in the [mkdocs.yml](https://github.com/nhsengland/datascience/blob/main/mkdocs.yml) for website navigation purposes!
+
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
