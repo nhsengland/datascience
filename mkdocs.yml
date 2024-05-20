@@ -82,6 +82,7 @@ nav:
         - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
         - Predicting Negligence Claims: our_work/nhs-resolution.md
         - Renal Health Prediction: our_work/renal-health-prediction.md
+        - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Enhancement: our_work/linkage.md
         - Inequalities in Diabetes from PHM Data: our_work/p32_phmdiabetes.md
