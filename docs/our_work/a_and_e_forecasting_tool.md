@@ -1,22 +1,21 @@
 ---
 title: 'Accident and Emergency (A&E) Forecasting Tool'
-summary: 'A probabilistic model which gives a three-week forecast for A&E departments, predicting their expected admissions loads'
+summary: 'A probabilistic model which gives a three-week forecast for A&E departments, predicting their expected admissions loads.'
 origin: ''
-tags: ['MODELLING', 'HOSPITAL', 'MONTE CARLO', 'MCMC', 'URGENT CARE', 'ACCIDENT AND EMERGENCY']
+tags: ['MODELLING', 'HOSPITAL', 'MONTE CARLO',  'URGENT CARE', ]
 ---
 
 The A&E forecasting tool models historical data from A&E departments to forecast likely admissions numbers over the coming days up to three weeks in advance. This is a probabilistic model, which provides confidence intervals within which a given location's admissions numbers are likely to fall. Breakdowns are provided at the Country, Region, ICS, Trust, and Site level as well as broad age groups. The tool is intended to be used alongside local information to help trusts and ICSs plan and prepare for the demand placed on their services. 
 
 Having this information can help departments, trusts, and ICS' plan and prepare for the demand placed on their services. Breakdowns are provided at the Country, Region, ICS, Trust, and Site level. Weekly trends are provided. 
 
-![text](../images/a_and_e_forecasting/weekly_trends.png)
+![Image of weekly trends being predicted and compared](../images/a_and_e_forecasting/weekly_trends.png)
 
 Forecasts are created at the chosen level of granularity (site, region, and so on); and these show expected admissions numbers for the following three weeks. These forecasts come with different levels of specificity, and differing levels of confidence. Users can view different forecasts in this way. For example, the 95% confidence interval forecast makes a less specific prediction than the 50% CI forecast, but as such the predictions made here are more likely to be correct. 
-![text](../images/a_and_e_forecasting/forecast.png)
+![Image showing plot of historical and predicted admissions rates. The plot shows the confidence intervals for the model's fit to historical data, and for its predictions.](../images/a_and_e_forecasting/forecast.png)
 
 If looking at a higher level of granularity, such as region, a breakdown of constituent locations is shown comparing their forecast admission rates[^1].
-![text](../images/a_and_e_forecasting/comparative_forecast.png)
-
+![Example plot showing estimated daily admissions for a range of sites.](../images/a_and_e_forecasting/comparative_forecast.png)
 
 [^1]: Here the different lines correspond to different ICBs within a region. We have intentionally omitted the legend from this example, since the we are aiming to illustrate the functionality of the tool, and not to provide information about particular forecasts at particular site. 
 
