@@ -1,6 +1,6 @@
 # Benefits of Data Science in the NHS
 
-Data Science can be helpful in [solving a number of problems](./index.md). Specifically, this could lead to benefits such as:
+Data science can be helpful in [solving a number of problems](./index.md). Specifically, this could lead to benefits such as:
 
 - **better resource planning** (e.g. [improving bed allocation using AI](../our_work/bed-allocation.md))
 - **increased responsiveness to demand and seasonal pressures** (e.g. A&E demand prediction)

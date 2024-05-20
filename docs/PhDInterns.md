@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# PhD Internership Scheme
+# PhD Internship Scheme
 
 Our internships are aimed at current PhD students looking for an industrial placement of around five months with the right to work in the UK. The projects are focussed on innovation, in particular around getting the most value out of NHS data.
 
