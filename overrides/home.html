@@ -162,7 +162,16 @@
     }
   }
 
-
+  .slide {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .carousel_wrapper {
+    display: flex;
+    overflow: hidden;
+  }
 .hero-content {
   flex: 2;
   margin: 1.6rem 0.8rem;
@@ -335,84 +344,85 @@
   <div  class="carousel">
       
      <div class="slide one">
-      <a href="our_work/ai-dictionary">
-         <img src="./images/ai-dictionary.png" width="80px" />
+      <a href="#">
+         <img src="" width="80px" />
          <div class="card-btn-container">
-             <span>AI dictionary → </span>
+             <span></span>
          </div>
         </a>
      </div>
   
-      <div class="slide two">
-        <a href="our_work/ambulance-delay-predictor">
-        <img src="./images/ambulance-delay-predictor.png" width="80px" />
-        <div class="card-btn-container">
-             <span>Ambulance Delay Predictor → </span>
+     <div class="slide two">
+      <a href="#">
+         <img src="" width="80px" />
+         <div class="card-btn-container">
+             <span></span>
          </div>
         </a>
      </div>
   
-       <div class="slide three">
-        <a href="our_work/ds218_rap_community_of_practice">
-          <img src="./images/ds218_rap_community_of_practice.png" width="80px" />
-          <div class="card-btn-container">
-               <span>RAP → </span>
-           </div>
-          </a>
+     <div class="slide three">
+      <a href="#">
+         <img src="" width="80px" />
+         <div class="card-btn-container">
+             <span></span>
+         </div>
+        </a>
      </div>
   
-       <div class="slide four">
-        <a href="our_work/bed-allocation">
-          <img src="./images/bed-allocation.png" width="80px" />
-          <div class="card-btn-container">
-               <span>Bed Allocation → </span>
-           </div>
-          </a>
+     <div class="slide four">
+      <a href="#">
+         <img src="" width="80px" />
+         <div class="card-btn-container">
+             <span></span>
+         </div>
+        </a>
      </div>
      
-      <div class="slide five">
-        <a href="our_work/p22_txtrayalign">
-        <img src="./images/p22fig1.png" width="80px" />
-          <div class="card-btn-container">
-               <span>Txt Ray Align → </span>
-           </div>
-          </a>
-    </div>
+     <div class="slide five">
+      <a href="#">
+         <img src="" width="80px" />
+         <div class="card-btn-container">
+             <span></span>
+         </div>
+        </a>
+     </div>
     
-      <div class="slide six">
-        <a href="our_work/p32_phmdiabetes">
-          <img src="./images/p32fig1.png" width="80px" />
-            <div class="card-btn-container">
-                 <span>Inequalities in Diabetes from PHM Data → </span>
-             </div>
+     <div class="slide six">
+      <a href="#">
+         <img src="" width="80px" />
+         <div class="card-btn-container">
+             <span></span>
+         </div>
         </a>
-    </div>
+     </div>
 
-      <div class="slide seven">
-        <a href="our_work/parkinsons-detection">
-          <img src="./images/parkinsons-detection.png" width="80px" />
-            <div class="card-btn-container">
-                 <span>Parkinson's Detection → </span>
-             </div>
+     <div class="slide seven">
+      <a href="#">
+         <img src="" width="80px" />
+         <div class="card-btn-container">
+             <span></span>
+         </div>
         </a>
-      </div>
+     </div>
+
       <div class="slide eight">
-        <a href="our_work/c250_nhscorpus">
-          <img src="./images/c250fig1.png" width="80px" />
-            <div class="card-btn-container">
-                 <span>Building an NHS Language Corpus → </span>
-             </div>
+      <a href="#">
+         <img src="" width="80px" />
+         <div class="card-btn-container">
+             <span></span>
+         </div>
         </a>
-      </div>
+     </div>
 
-      <div class="slide nine">
-        <a href="our_work/c338_poud">
-          <img src="./images/c338fig1.png" width="80px" />
-            <div class="card-btn-container">
-                 <span>Assessing Privacy of Unstructure Data → </span>
-             </div>
+     <div class="slide nine">
+      <a href="#">
+         <img src="" width="80px" />
+         <div class="card-btn-container">
+             <span></span>
+         </div>
         </a>
-      </div>
+     </div>
     
     </div>
   
@@ -420,22 +430,89 @@
 
  <!-- this code is a starting point for when we decide to make the carousel randomly generate projects to display (if we decide that) -->
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var sections = document.querySelectorAll('.slide');
-    var selectedSections = [];
+  const project_URLs = ['our_work/p23_stm.md', 
+    'our_work/data-lens.md', 
+    'our_work/linkage.md', 
+    'our_work/p32_phmdiabetes.md', 
+    'our_work/p22_txtrayalign.md', 
+    'our_work/c338_poud.md', 
+    'our_work/bed-allocation.md', 
+    'our_work/ratings-and-reviews.md', 
+    'our_work/c250_nhscorpus.md', 
+    'our_work/ambulance-delay-predictor.md', 
+    'our_work/casestudy-recruitment-shortlisting.md', 
+    'our_work/p31_txtrayalign2.md', 
+    'our_work/Publications.md', 
+    'our_work/nursing-placement-optimisation.md', 
+    'our_work/c339_sas.md', 
+    'our_work/ai-dictionary.md', 
+    'our_work/adrenal-lesions.md', 
+    'our_work/ai-deep-dive.md', 
+    'our_work/renal-health-prediction.md', 
+    'our_work/p12_synthvae.md', 
+    'our_work/casestudy-synthetic-data-pipeline.md', 
+    'our_work/p24_lime.md', 
+    'our_work/ct-alignment.md', 
+    'our_work/c399_privfinger.md', 
+    'our_work/p43_medcat.md', 
+    'our_work/p34_hypergraphs.md', 
+    'our_work/p14_mcr.md', 
+    'our_work/synthetic-data-pipeline.md', 
+    'our_work/a_and_e_forecasting_tool.md', 
+    'our_work/p11_synpathdiabetes.md', 
+    'our_work/nhs-resolution.md', 
+    'our_work/long-stay-baseline.md', 
+    'our_work/parkinsons-detection.md', 
+    'our_work/index.md', 
+    'our_work/p42_hypergraphs2.md', 
+    'our_work/long-stay.md', 
+    'our_work/ai-skunkworks.md', 
+    'our_work/c245_synpath.md', 
+    'our_work/p21_synthvae.md', 
+    'our_work/p33_patientsafetylms.md', 
+    'our_work/ds255_privacyfp.md', 
+    'our_work/template-project.md', 
+    'our_work/ds218_rap_community_of_practice.md', 
+    'our_work/open-safely.md']
 
-    // Randomly select 9 sections
-    while (selectedSections.length < 9) {
-      var randomIndex = Math.floor(Math.random() * sections.length);
-      if (!selectedSections.includes(randomIndex)) {
-        selectedSections.push(randomIndex);
-      }
+    document.addEventListener("DOMContentLoaded", function () {
+  const slides = document.querySelectorAll('.slide');
+
+  // Helper function to fetch and parse HTML
+  function fetchHTML(url) {
+    const response = fetch(url);
+    const text = response.text();
+    const parser = new DOMParser();
+    return parser.parseFromString(text, 'text/html');
+  }
+
+  // Randomly select 9 unique URLs
+  const selectedUrls = [];
+  while (selectedUrls.length < 9) {
+    const randomIndex = Math.floor(Math.random() * ourWorkUrls.length);
+    const url = ourWorkUrls[randomIndex];
+    if (!selectedUrls.includes(url)) {
+      selectedUrls.push(url);
     }
-    // Display the selected sections
-    selectedSections.forEach(function (index) {
-      sections[index].style.display = 'inline';
-    });
-  });
+  }
+
+  // Update slides with selected URLs
+  for (let i = 0; i < selectedUrls.length; i++) {
+    const url = selectedUrls[i];
+    const page = fetchHTML(url);
+    const firstImg = page.querySelector('img');
+    
+    if (firstImg) {
+      slides[i].style.display = 'flex';
+      const anchor = slides[i].querySelector('a');
+      anchor.href = url;
+      const img = anchor.querySelector('img');
+      img.src = firstImg.src;
+      const span = anchor.querySelector('span');
+      span.textContent = `${page.title} →`;
+    }
+  }
+});
 </script>
 
 {% endblock %} {% block content %}{% endblock %} {% block footer %} {{ super()
