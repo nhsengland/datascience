@@ -162,16 +162,10 @@
     }
   }
 
-  .slide {
+.slide {
     display: none;
-    /* flex-direction: column;
-    align-items: center;
-    text-align: center; */
   }
-  /* .carousel_wrapper {
-    display: flex;
-    overflow: hidden;
-  } */
+
 .hero-content {
   flex: 2;
   margin: 1.6rem 0.8rem;
@@ -428,7 +422,6 @@
   
  </div>
 
- <!-- this code is a starting point for when we decide to make the carousel randomly generate projects to display (if we decide that) -->
 <script>
   const project_URLs = ['our_work/p23_stm.md', 
     'our_work/data-lens.md', 
@@ -518,13 +511,12 @@ document.addEventListener("DOMContentLoaded", async function () {
         const span = anchor.querySelector('span');
         span.textContent = `${page.title} →`;
       } else {
-        // const secondImg = images[2];
         slides[i].style.display = 'flex';
         const anchor = slides[i].querySelector('a');
         anchor.href = url;
         const img = anchor.querySelector('img');
         img.src = 'images/logo/nhs-blue-on-white.jpg'
-        // img.alt = secondImg.alt || 'Project Image';
+        img.alt = 'NHS Logo';
         const span = anchor.querySelector('span');
         span.textContent = `${page.title} →`;
       }
