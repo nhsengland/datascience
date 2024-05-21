@@ -31,6 +31,7 @@ nav:
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
         - Tool to Asses Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
+        - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
       - Past Projects: 
         - 2023:
           - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
@@ -81,6 +82,7 @@ nav:
         - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
         - Predicting Negligence Claims: our_work/nhs-resolution.md
         - Renal Health Prediction: our_work/renal-health-prediction.md
+        - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Enhancement: our_work/linkage.md
         - Inequalities in Diabetes from PHM Data: our_work/p32_phmdiabetes.md
