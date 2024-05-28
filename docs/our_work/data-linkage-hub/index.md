@@ -6,7 +6,7 @@ tags: ['BEST PRACTICE', 'LINKAGE', 'PYTHON', 'QUALITY']
 ---
 ![Diagram representing the four current areas of the data linkage hub: DL Quality Assurance, Better Matching Algorithm, MPS Documentation, and the DL Community of Practice.](../../images/linkage_visual_abstract.png)
 
-Data Linkage is a business-critical process within many government organisations, including NHS England. Being able to link patients across their care journey, making sure that underrepresented populations are not lost in the cracks, and ensuring compatibility when using several data sets for the same purpose is a pillar of why the Data Linkage Enhancement team exists. 
+Data Linkage is a business-critical process within many government organisations, including NHS England. Being able to link patients across their care journey enables both direct care services and research studies on admin data, which in turn, influence healthcare policies. So taking care of this important service is why the Data Linkage hub was created in the new NHS England.
 
 The role of the Data Linkage hub in NHS England includes:
 
@@ -27,7 +27,7 @@ If we want to achieve a consistent and high quality approach to linking data, wh
 We're currently working on implementing a [probabilistic linkage model](https://www.bristol.ac.uk/media-library/sites/cmm/migrated/documents/problinkage.pdf) using [Splink](https://moj-analytical-services.github.io/splink/index.html), in order to improve linkage outcomes, and by extension, patient outcomes. 
 
 ### [Community of Practice](./linkage-projects/cop.md)
-We are creating and leading a community of practice to help people do the best linkage they can, with support from the data linkage team, but also from fellow analysts who are actively working on data linkage. Any internal staff wanting to join the community of practice can go [here](https://teams.microsoft.com/l/channel/19%3A7AGd-QLqWT3CEPP2MGz_Zf7o4_aWQvIK2DoqjJm6L-01%40thread.tacv2/General?groupId=4fc6024c-60fe-4723-8aff-3d139f37b1ef&tenantId=37c354b2-85b0-47f5-b222-07b48d774ee3).
+We are fostering a community of practice in NHS England to help people do the best linkage they can, and encourage them to be connected with the cross-government Data Linkage Champions network. The community of practice is open to any data linkage stakeholders in NHS England - to join the community of practice go [here](https://teams.microsoft.com/l/channel/19%3A7AGd-QLqWT3CEPP2MGz_Zf7o4_aWQvIK2DoqjJm6L-01%40thread.tacv2/General?groupId=4fc6024c-60fe-4723-8aff-3d139f37b1ef&tenantId=37c354b2-85b0-47f5-b222-07b48d774ee3).
 
 ### [MPS Documentation](./linkage-projects/mps-handbook.md)
 We have been [documenting how the Person_ID is generated via the Master Person Service](https://digital.nhs.uk/services/personal-demographics-service/master-person-service/the-person_id-handbook), to make the current process of linking data in the NHS more transparent and easy to understand. 
