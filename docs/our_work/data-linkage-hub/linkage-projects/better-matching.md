@@ -6,6 +6,9 @@ origin: 'NHSD'
 tags: ['LINKAGE', 'PYTHON', 'PROBABILISTIC MODEL']
 ---
 
+This project aims at developing an alternative data linkage model to [MPS (Master Person Service)](./mps-handbook.md).
+
+
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
