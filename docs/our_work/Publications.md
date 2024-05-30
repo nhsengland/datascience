@@ -8,6 +8,15 @@ tags: ['PUBLICATIONS']
 
 List of pre-releases and publications connected to our work
 
+[6] [https://arxiv.org/abs/2403.19802](https://arxiv.org/abs/2403.19802)
+
+**Developing Healthcare Language Model Embedding Spaces**
+
+**Niall Taylor**, **Dan Schofield**, Andrey Kormilitzin, Dan W Joyce, Alejo Nevado-Holgado
+
+*Pre-trained Large Language Models (LLMs) often struggle on out-of-domain datasets like healthcare focused text. We explore specialized pre-training to adapt smaller LLMs to different healthcare datasets. Three methods are assessed: traditional masked language modeling, Deep Contrastive Learning for Unsupervised Textual Representations (DeCLUTR), and a novel pre-training objective utilizing metadata categories from the healthcare settings. These schemes are evaluated on downstream document classification tasks for each dataset, with additional analysis of the resultant embedding spaces. Contrastively trained models outperform other approaches on the classification tasks, delivering strong performance from limited labeled data and with fewer model parameter updates required. While metadata-based pre-training does not further improve classifications across the datasets, it yields interesting embedding cluster separability. All domain adapted LLMs outperform their publicly available general base LLM, validating the importance of domain-specialization. This research illustrates efficient approaches to instill healthcare competency in compact LLMs even under tight computational budgets, an essential capability for responsible and sustainable deployment in local healthcare settings. We provide pre-training guidelines for specialized healthcare LLMs, motivate continued inquiry into contrastive objectives, and demonstrates adaptation techniques to align small LLMs with privacy-sensitive medical tasks.*
+
+---
 
 [5] [https://link.springer.com/chapter/10.1007/978-3-031-56107-8_21](https://link.springer.com/chapter/10.1007/978-3-031-56107-8_21) - Conference Paper
 
