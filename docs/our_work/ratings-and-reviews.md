@@ -39,7 +39,7 @@ If there's anything amiss, the website will produce a response informing the use
 
 | Output                             | Link                                                                 |
 | ---------------------------------- | -------------------------------------------------------------------- |
-| Published Repo for Flask app       | [Github Repo](https://github.com/nhsengland/nhsuk.moderation-api)  (will be published soon) |
+| Published Repo for Flask app       | [Github Repo](https://github.com/nhsengland/nhsuk.moderation-api-public)|
 | Published Repo for our models       | Coming soon   |
 <!-- | Published repo for creating models | [Github Repo](PUT LINK HERE) | -->
 
