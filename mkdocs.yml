@@ -152,6 +152,7 @@ theme:
     - navigation.indexes
     - navigation.path
     - navigation.top
+    - toc.integrate
   icon:
     admonition:
       <type>: material/alert
