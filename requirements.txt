@@ -12,6 +12,7 @@ mergedeep
 mkdocs
 mkdocs-exclude-search
 mkdocs-git-revision-date-localized-plugin
+mkdocs-open-in-new-tab
 mkdocs-material
 mkdocs-material-extensions
 mkdocs-jupyter
