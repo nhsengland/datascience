@@ -8,7 +8,23 @@ tags: ['LINKAGE', 'PYTHON', 'PROBABILISTIC MODEL']
 
 This project aims at developing an alternative data linkage model to [MPS (Master Person Service)](./mps-handbook.md) by creating a [probabilistic linkage model](https://www.bristol.ac.uk/media-library/sites/cmm/migrated/documents/problinkage.pdf) using the package called  [Splink](https://moj-analytical-services.github.io/splink/index.html), which was developed by Ministry of Justice (MoJ) Data Scientists.
 
+The linkage pipeline consists of a few steps:
+
+- Pre-processing 
+- Distance Metrics
+- Blocking
+- Training
+- Prediction 
+- Evaluation
+
+Each of these steps requires research into linkage best practice, testing on samples of our data, feasibility studies of computational power required, and then thorough evaluation. We are working with an incremental improvement plan and a series of iterative MVPs to ensure that the pipeline has the highest quality we can achieve within our computational limits. 
 
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
+
+|Output | Link|
+|---|---|
+| Splink Linkage Pipeline * | [Github](https://github.com/NHSDigital/splink-linkage-pipeline) |
+
+\* This is currently private and available for internal access only. 
