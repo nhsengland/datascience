@@ -21,8 +21,6 @@ Our Objectives were to:
 - Enabled multiple potential issues that could have hampered research efforts to be addressed earlier.​
 
 Output|Link
-
-[comment]: <> below you can put any relevant links through to outputs, and published code, published papers, live tools, websites, blog articles, anything which is relevant to the project.
 ---|---
 Open Source Code & Documentation| Coming soon!
 Case Study| N/A
