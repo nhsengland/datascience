@@ -34,6 +34,7 @@ nav:
         - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
         - Tool to Asses Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
         - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
+        - Reusable Data Validation Process: our_work/sde_data_validation.md
       - Past Projects: 
         - 2023:
           - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
@@ -125,6 +126,8 @@ nav:
           - Synthetic Data From Real Data: our_work/casestudy-synthetic-data-pipeline.md
           - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
         - Nursing Placement Scheduled Optimisation: our_work/nursing-placement-optimisation.md
+        - SDE Service Data Wranglers:
+          - Reusable Data Validation Process: our_work/sde_data_validation.md
     - Our Team's Publications: our_work/Publications.md
     # This allows any projects that get added to appear in the main page of the navigation, makes it easy to spot when people have forgotten to categorize them. 
     - ... | flat | regex=our_work/(?!template-project\.md).*\.md
