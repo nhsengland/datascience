@@ -8,7 +8,7 @@ tags: ['DATA WRANGLERS', 'NHSE_SDE', 'SDE', 'DATA VALIDATION', 'RAP', 'PYTHON']
 
 All data provisioned into the NHS England Secure Data Environment (SDE) must be validated first. The old data product validation process was manual, time consuming and lengthy to re-run.​
 
-Our Objectives were to:
+Our objectives were to:
 - Boost the efficiency and consistency of the data validation process for the Data Access Request Service (DARS) ​
 - Make it re-usable to save time and uphold best practice​
 - Share the code so others can benefit. ​
