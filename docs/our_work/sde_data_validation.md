@@ -1,5 +1,5 @@
 ---
-title: 'Resuable New Data Product Validation Functions'
+title: 'Reusable New Data Product Validation Functions'
 summary: 'More Efficient, More Consistent Data ​Through Shared Validation Functions'
 origin: 'NHS England Secure Data Environment Service Data Wranglers'
 tags: ['DATA WRANGLERS', 'NHSE_SDE', 'SDE', 'DATA VALIDATION', 'RAP', 'PYTHON']
