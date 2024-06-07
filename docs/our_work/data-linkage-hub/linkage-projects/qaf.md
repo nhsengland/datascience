@@ -9,7 +9,7 @@ tags: ['BEST PRACTICE','EXPLAINABILITY','LINKAGE']
 Data Linkage is a business-critical process within many government organisations, including NHS England. Research publications, official statistics, but also many direct care applications depend on data linkage. Its importance is further amplified when considering privacy preserving principles that require to minimise the use of patients' personal identifiable information. Consequently, data linkage is initiated early in the data lifecycle, establishing a substantial **reliance of downstream applications on the quality of the linkage process**.
 
 However, too often data linkage is seen as an exclusive software development and data engineering exercise instead of a modelling challenge, and there is not an appropriate level of quality assurance applied at the different stages of the process. This is why we have worked on the **Quality Assurance Framework for Data Linkage, which is a tool for data linkage practitioners to determine the needed quality assurance levels at every stage of the data linkage process**:
-![Quality Assurance Framework for Data Linkage screenshot](../../images/QAFDL.png)
+![Quality Assurance Framework for Data Linkage screenshot](../../../images/QAFDL.png)
 
 The required level of quality assurance varies by project and is determined by the data linker and data users. The triage questions in the framework provide a structured approach to deciding the minimum expected levels by type of project.
 
