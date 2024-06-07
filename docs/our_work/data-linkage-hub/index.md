@@ -6,13 +6,13 @@ tags: ['BEST PRACTICE', 'LINKAGE', 'PYTHON', 'QUALITY']
 ---
 ![Diagram representing the four current areas of the data linkage hub: DL Quality Assurance, Better Matching Algorithm, MPS Documentation, and the DL Community of Practice.](../../images/linkage_visual_abstract.png)
 
-Data Linkage is a business-critical process within many government organisations, including NHS England. Being able to link patients across their care journey enables both direct care services and research studies on admin data, which in turn, influence healthcare policies. So taking care of this important service is why the Data Linkage hub was created in the new NHS England.
+Data Linkage is a business-critical process within many government organisations, including NHS England. Being able to link patients across their care journey enables both direct care services and research studies on admin data, which in turn, influences healthcare policies. So taking care of this important service is why the Data Linkage hub was created in the new NHS England.
 
 The role of the Data Linkage hub in NHS England includes:
 
 - identifying points of collaboration with other government departments 
 - mapping the stakeholders involved in data linkage - both internal and external
-- feeding user needs into an overall Data Linkage vision
+- feeding user needs to the Data Linkage vision
 
 ## **Work we do**
 
