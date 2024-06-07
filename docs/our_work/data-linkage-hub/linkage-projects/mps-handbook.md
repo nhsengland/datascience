@@ -10,7 +10,7 @@ The Person_ID is a unique patient identifier used by NHS England with the object
 The Data Linkage team has produced a detailed documentation of the data linkage algorithm used to create the Person_ID, namely the Master Person Service (MPS).
 The figure below is an overview of the process. The full documentation is available in [this NHS England site](https://digital.nhs.uk/services/personal-demographics-service/master-person-service/the-person_id-handbook).
 
-![Creation of Person_ID via the Master Person Service process flow, high-level representation](../../images/MPS_fig1.png)
+![Creation of Person_ID via the Master Person Service process flow, high-level representation](../../../images/MPS_fig1.png)
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
