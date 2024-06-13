@@ -22,11 +22,59 @@ Task 2: Digitizing Clinical Pathways To simulate real-world patient interactions
 
 Task 3: Customizing Synthea for the English NHS Whilst the adaption of [synthea for international](https://github.com/synthetichealth/synthea-international) contexts is well established in their site, this results in records which still have many US elements. Adapting Synthea for the English NHS involves removing obsolete US elements like insurance logic and updating regional specifics such as town names and vaccination schedules. We are progressively modifying demographic, geographic, and societal health determinants to fit the English context.
 
+<details class="nhsuk-details nhsuk-expander">
+    <summary class="nhsuk-details__summary">
+      <span class="nhsuk-details__summary-text">
+        Details of Synthea Adaption
+      </span>
+    </summary>
+    <div class="nhsuk-details__text">
+      <p>Stage 1: Removing non-English NHS functions and simplifying the Java to a MVP</p>
+        <ul>
+            <li>Functions relating to Flexporter (functionality which could be brought back later)</li>
+            <li>Functions relating to Payers and related managers</li>
+            <li>Functions relating to Insurance plans</li>
+            <li>Functions relating to Claims (mostly for medications)</li>
+            <li>Functions relating to income, healthcare expenses and coverage</li>
+            <li>Functions relating to Cost</li>
+            <li>Functions relating to exporting as DSTU2 or STU3</li>
+            <li>Functions relating to the Cardiovascular diseease module (as this is an US-based calculator)</li>
+            <li>Functions relating to the ASCVD, Framingam and C19 Immunizations (as these are all US-based and not applicable)</li>
+            <li>Functions relating to the CMSStateCodeMapper</li>
+        </ul>
+      <p>These funtions have all been commented using a `UKAdp` tag to keep an audit trail.   These adaptions results in 113 sections of code commented out across 16 files (all within then `src/main/java/org/mitre/synthea/`).</p>
+    </div>
+    <div class="nhsuk-details__text">
+      <p>Stage 2: Adapting Resource files for UK South West Region context</p>
+        <ul>
+            <li>Replace demographics.csv with South West towns</li>
+            <li>Replace fipscodes.csv with ??</li>
+            <li>Update social determinants of health (sdoh.csv) file with ??</li>
+            <li>Replace timezones.csv with GMT</li>
+            <li>Replace zipcodes.csv with uk based postcodes</li>
+            <li>Keep birthweights.csv as US version (for the moment)</li>
+            <li>Keep bmi_correlations.json as US version (for the moment)</li>
+            <li>Keep cdc_growth_charts.json as US version (for the moment)</li>
+            <li>Keep gbd_disability_weigths.csv as US version (for the moment)</li>
+            <li>Update immunization_scheldule.json to ??</li>
+            <li>Update synthea.properties to remove unused exporter and payer functionality and ammend inputs for South West Region.   In addition reduce the care settings down to hospitals, priamry_care and urgent_care.</li>
+        </ul>
+      <p>There are still many US-based nuances that need to be dealt with such as payer columns still appearing in the outputs.</p>
+    </div>
+        <div class="nhsuk-details__text">
+      <p>Stage 3: Nunances</p>
+        <ul>
+            Coming
+        </ul>
+      <p>At the end of this stage we aim for a fully UK-base version.</p>
+    </div>
+</details>
+
 Next Steps Our work is ongoing, with updates available on our GitHub repository. Future plans are outlined in Figure 2, showcasing various potential directions for this project.
 
 Stay tuned for progress updates and check out our code development on GitHub.
 
-![](../images/swpc_simple.png)
+![](../images/swpc_complex.png)
 <p align="left">
     <em>Figure 2: Potential to expand the tooling in a vairety of ways to increase fidelity of the generated records and include additional modalitieis.</em>
 </p>

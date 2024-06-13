@@ -36,6 +36,7 @@ nav:
         - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
         - Reusable Data Validation Process: our_work/sde_data_validation.md
         - RAG: our_work/ds251_RAG.md
+        - Primary Care Data Generator: our_work/swpclab.md
       - Past Projects: 
         - 2023:
           - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
@@ -123,6 +124,7 @@ nav:
           - Developing SynthVAE: our_work/p21_synthvae.md 
           - Differential Privacy in a VAE for Synthetic Data Generation: our_work/p12_synthvae.md
           - Generic Patient Simulator: our_work/c245_synpath.md
+          - Primary Care Data Generator: our_work/swpclab.md
           - SynPath Simulator on Diabetes Pathway: our_work/p11_synpathdiabetes.md
           - Synthetic Data From Real Data: our_work/casestudy-synthetic-data-pipeline.md
           - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
