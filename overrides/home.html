@@ -279,6 +279,36 @@
     min-height: 400px;
   }
 }
+
+.tiles-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* gap: 20px; */
+    padding: 20px;
+}
+
+.tile {
+    display: block;
+    width: 250px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+   
+}
+
+.tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+.tile:hover {
+    transform: scale(1.3);
+}
+
   </style>
 
 <body>
@@ -291,7 +321,8 @@
           id="hero-img"
           src="images/cartoon hospital_smaller_compressed.jpeg"
           draggable="false"
-          width="500"
+          width="400"
+          height-="300"
         />
       </div>
 
@@ -333,7 +364,7 @@
 
 <h1>A showcase of some of our projects!</h1>
 
-<div class="carousel_wrapper">
+<!-- <div class="carousel_wrapper">
  
   <div  class="carousel">
       
@@ -421,6 +452,46 @@
     </div>
   
  </div>
+  -->
+ <div class="tiles-container">
+  <div class="tile 1" border-color="black">
+  <a href="#">
+      <img src="" alt="Tile 1">
+      <div class="card-btn-container">
+        <span></span>
+    </div>
+  </a>
+</div>
+
+<div class="tile 2">
+  <a href="#">
+      <img src="" alt="Tile 2">
+      <div class="card-btn-container">
+        <span></span>
+    </div>
+  </a>
+</div>
+
+<div class="tile 3">
+  <a href="#">
+      <img src="" alt="Tile 3">
+      <div class="card-btn-container">
+        <span></span>
+    </div>
+  </a>
+</div>
+
+<div class="tile 4">
+  <a href="#">
+      <img src="" alt="Tile 4">
+      <div class="card-btn-container">
+        <span></span>
+    </div>
+  </a>
+</div>
+
+</div>
+ 
 
 <script>
   const project_URLs = ['our_work/p23_stm.md', 
@@ -467,7 +538,7 @@
 
     
 document.addEventListener("DOMContentLoaded", async function () {
-  const slides = document.querySelectorAll('.slide');
+  const slides = document.querySelectorAll('.tile');
 
   // Helper function to fetch and parse HTML
   async function fetchHTML(url) {
@@ -483,7 +554,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   // Randomly select 9 unique URLs
   const selectedUrls = [];
-  while (selectedUrls.length < 9) {
+  while (selectedUrls.length < 4) {
     const randomIndex = Math.floor(Math.random() * project_URLs.length);
     const url = project_URLs[randomIndex];
     if (!selectedUrls.includes(url.slice(0,-3)+'/')) {
