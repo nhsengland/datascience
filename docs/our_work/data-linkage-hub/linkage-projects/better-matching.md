@@ -5,7 +5,7 @@ category: 'Projects'
 origin: 'NHSD'
 tags: ['LINKAGE', 'PYTHON', 'PROBABILISTIC MODEL']
 ---
-# Crafting a model that suits NHS England data linkage needs
+## Crafting a model that suits NHS England data linkage needs
 This project aims at developing an alternative data linkage model to [MPS (Master Person Service)](./mps-handbook.md) by creating a [probabilistic linkage model](https://www.bristol.ac.uk/media-library/sites/cmm/migrated/documents/problinkage.pdf) using the package called  [Splink](https://moj-analytical-services.github.io/splink/index.html), which was developed by Ministry of Justice (MoJ).
 
 The linkage pipeline consists of a few steps:
@@ -19,10 +19,10 @@ The linkage pipeline consists of a few steps:
 
 Each of these steps requires research into linkage best practice, testing on samples of our data, feasibility studies of computational power required, and then thorough evaluation. We are working with an incremental improvement plan and a series of iterative MVPs to ensure that the pipeline has the highest quality we can achieve within our computational limits. 
 
-Here is an overview of how our pipeline currently looks like.
+Here is an overview of how our pipeline currently looks.
 ![Splink linkage pipeline scheme](../../../images/dl_prob_mod_scheme.png)
 
-# Building a model with transparency in mind
+## Building a model with transparency in mind
 Users of linked data have to rely on the accuracy of the process created by others as often the process of linking data is not under their control. That is why one of the main focus of the model we are building is transparency of the methods and explainability of the results.
 
 
