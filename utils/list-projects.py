@@ -31,7 +31,7 @@ def extract_tags_from_file(file_path):
 md_files = []  
 for root, dirs, files in os.walk('docs/our_work'):  
     for file in files:  
-        if file.endswith('.md') & (file not in ['Publications.md', 'tags.md']):  
+        if file.endswith('.md') & (file not in ['Publications.md', 'tags.md','template-project.md']):  
             md_files.append('our_work/'+file)  
 
 print(md_files)
