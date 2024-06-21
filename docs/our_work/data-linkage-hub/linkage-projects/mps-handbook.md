@@ -12,5 +12,10 @@ The figure below is an overview of the process. The full documentation is availa
 
 ![Creation of Person_ID via the Master Person Service process flow, high-level representation](../../../images/MPS_fig1.png)
 
+|Output | Link|
+|---|---|
+MPS Diagnostics|[Github](https://github.com/NHSDigital/mps_diagnostics)
+Person_ID Handbook | [NHS England Website](https://digital.nhs.uk/services/personal-demographics-service/master-person-service/the-person_id-handbook)
+
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #

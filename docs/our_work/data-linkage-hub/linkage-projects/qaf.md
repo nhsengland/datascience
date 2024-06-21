@@ -16,8 +16,11 @@ The required level of quality assurance varies by project and is determined by t
 
 The Quality Assurance Framework guides stakeholders to make well-informed choices based on a clear understanding of potential risks and benefits. Additionally, it can be used as a detailed record-keeping tool that helps evaluate and manage data linkage project aspects.
 
-Visit the dedicated website and reach out to the Data Linkage Hub if you want to contribute to this project.
-
+Reach out to the Data Linkage Hub if you want to contribute to this project.
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
+
+|Output | Link|
+|---|---|
+Quality Assurance Framework | *link to come soon when website is released*
