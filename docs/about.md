@@ -9,7 +9,9 @@ hide:
 
 ![Image title](images/DS_team_photo_smaller.jpeg){ width="450" alt-tex="Picture of the Data Science team stood on some steps in London."  align=right }
 
-We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
+We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.   
+
+We are passionate about getting the most value out of the data collected by NHS England and the wider NHS through applying innovative techniques in appropraite and well-cosidered ways.
 
 **Our vision is**:
 
@@ -18,58 +20,61 @@ We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.
 <br/>
 
 [Contact Us (datascience@nhs.net)](mailto:datascience@nhs.net){ .md-button .md-button--primary }
-[See our work](./our_work/index.md){ .md-button}
 
 <br/>
 
 </div>
 
-## How We Are Different From Analytical Teams
+## Teams 
+
+In NHSE data scientists are concentrated in the central team but also embedded across a number of other areas.
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Do__
+-   :material-link-variant:{ .lg .middle } __Data Linkage__
 
     ---
 
-    We develop and deploy data science products to make a positive impact on NHS patients and workforce.
+    The Data Linkage Hub aims at providing a unified and quality solution to the data linkage needs in NHS England. Data Science is central to achieving this objective, and it covers many aspects, from the mathematical models of entity resolution and record linkage, to identifying and correcting linkage errors, assessing their impact on downstream applications, and ensuring quality. See <a href="https://nhsengland.github.io/datascience/our_work/linkage/">Data Linkage Enhancements</a>
 
--   :material-magnify:{ .lg .middle } __Delve__
-
-    ---
-
-    We investigate applying novel techniques that increase the insight we get from health-related data.​
-
--   :material-trophy-award:{ .lg .middle } __Distinguish__
+-   :material-vector-circle:{ .lg .middle } __Central Data Science Team__
 
     ---
 
-    We prioritise code-first ways of working, transparency and promoting best practice.  We champion quality, safety and ethics in the application of methods and use of data.  ​
+    We develop and deploy data science products to make a positive impact on NHS patients and workforce.  We investigate applying novel techniques that increase the insight we get from health-related data.​  We prioritise code-first ways of working, transparency and promoting best practice. We champion quality, safety and ethics in the application of methods and use of data. ​ We have the remit to be open and collaborative and have the aim of sharing products with the wider healthcare community. See our <a href="https://nhsengland.github.io/datascience/our_work/">Projects</a>
 
--   :material-lightbulb-on-10:{ .lg .middle } __Discover__
+-   :material-toolbox-outline:{ .lg .middle } __National SDE Team__
 
     ---
 
-    We have the remit to be open and collaborative and have the aim of sharing products with the wider healthcare community.
+    Working with customer researchers and analysts to identify how they can do their research, overcome and rectify data issues and use the platform and data to its fullest. There is also work to create products and tools that facilitate research in the environment such as data quality and completeness visualations, example analysis and machine learning code as well as continuous improvement and increasing automation of the processes to get data both into the SDE and out through output checking. ​ See <a href="https://digital.nhs.uk/services/secure-data-environment-service">SDE website</a>.
+
+    
 
 </div>
 
-## Our Missions
+Across the organisation individual data scientists and other roles working on data sciecne projects support specific team (inclu. Workforce, Training and Education; Medicines; Patient Safety; AI Lab; Digital Channels..).   We come together through the data science assembly to align our proffesional development and standards.
 
-=== "Deliver"
-    <h3 style="text-align: center;"> **Deliver problem led data science products to commissioners.** </h3>
+<br/>
 
-=== "Drive"
-    <h3 style="text-align: center;"> **Drive research into getting more value from our data.** ​</h3>
+## Learn about Data Science in Healthcare
 
-=== "Develop"
-    <h3 style="text-align: center;"> **Develop the maturity of data science in health and care.​**</h3>
+To support knowledge share of data science in healthcare we've put together a **monthly newsletter** with valuable **insights**, **training opportunities** and **events**.
 
-=== "Demonstrate"
-    <h3 style="text-align: center;"> **Demonstrate, create and promote best practice for data science in the health and care, prioritising transparency, safety and ethics.​**</h3>
+<center>
+[NHS England Data Science Professional Development Newsletter](https://nhsengland.github.io/datascience-pd-newsletter/){ .md-button .md-button--primary target="_blank"}
+</center>
 
-=== "Devise"
-    <h3 style="text-align: center;"> **Devise a great place to work where group work solves great problems​​​​.​**</h3>
+!!! note
+        
+    The newsletter is targeted towards members of the NHS England Data Science team, so some links may only be accessible to those with the necessary login credentials, however the newsletter and its archive are available for all at the link above.
+
+We also support the [NHS Data Science Community](https://data-science-community.analystx.uk/) hosted in AnalystX, which is the home of spreading data science knowledge within the NHS.  You can also learn a lot about data science from the other communities we support:
+
+- [Govt Data Science Community](https://www.gov.uk/service-manual/communities/data-science-community)
+- [NHS R Community](https://nhsrcommunity.com/)
+- [NHS Pycom](https://nhs-pycom.net/)
+
 
 ## Our Members
 ??? "Our Members"

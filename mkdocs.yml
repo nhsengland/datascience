@@ -18,8 +18,6 @@ plugins:
 
 nav:
   - Home: index.md
-  - What is Data Science?: 
-    - ... | flat | what_is_data_science/*.md
   - About the team: about.md
   - Articles:  
     - ... | flat | articles/*.md
