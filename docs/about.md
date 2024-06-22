@@ -11,7 +11,7 @@ hide:
 
 We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.   
 
-We are passionate about getting the most value out of the data collected by NHS England and the wider NHS through applying innovative techniques in appropraite and well-cosidered ways.
+We are passionate about getting the most value out of the data collected by NHS England and the wider NHS through applying innovative techniques in appropriate and well-considered ways.
 
 **Our vision is**:
 
@@ -51,7 +51,7 @@ In NHSE data scientists are concentrated in the central team but also embedded a
 
     ---
 
-    Working with customer researchers and analysts to identify how they can do their research, overcome and rectify data issues and use the platform and data to its fullest. There is also work to create products and tools that facilitate research in the environment such as data quality and completeness visualations, example analysis and machine learning code as well as continuous improvement and increasing automation of the processes to get data both into the SDE and out through output checking. ​ 
+    Working with customer researchers and analysts to identify how they can do their research, overcome and rectify data issues and use the platform and data to its fullest. There is also work to create products and tools that facilitate research in the environment such as data quality and completeness visualisations, example analysis and machine learning code as well as continuous improvement and increasing automation of the processes to get data both into the SDE and out through output checking. ​ 
     
     See <a href="https://digital.nhs.uk/services/secure-data-environment-service">SDE website</a>.
 
@@ -59,7 +59,7 @@ In NHSE data scientists are concentrated in the central team but also embedded a
 
 </div>
 
-Across the organisation individual data scientists are embedded within specific team (inclu. Workforce, Training and Education; Medicines; Patient Safety; AI Lab; Digital Channels..).   We come together through the <a href="https://data-science-community.analystx.uk//assembly">data science assembly</a> to align our proffesional development and standards.
+Across the organisation individual data scientists are embedded within specific team (inclu. Workforce, Training and Education; Medicines; Patient Safety; AI Lab; Digital Channels..).   We come together through the <a href="https://data-science-community.analystx.uk//assembly">data science assembly</a> to align our professional development and standards.
 
 <br/>
 
