@@ -35,25 +35,31 @@ In NHSE data scientists are concentrated in the central team but also embedded a
 
     ---
 
-    The Data Linkage Hub aims at providing a unified and quality solution to the data linkage needs in NHS England. Data Science is central to achieving this objective, and it covers many aspects, from the mathematical models of entity resolution and record linkage, to identifying and correcting linkage errors, assessing their impact on downstream applications, and ensuring quality. See <a href="https://nhsengland.github.io/datascience/our_work/linkage/">Data Linkage Enhancements</a>
+    The Data Linkage Hub aims at providing a unified and quality solution to the data linkage needs in NHS England. Data Science is central to achieving this objective, and it covers many aspects, from the mathematical models of entity resolution and record linkage, to identifying and correcting linkage errors, assessing their impact on downstream applications, and ensuring quality. 
+    
+    See <a href="https://nhsengland.github.io/datascience/our_work/linkage/">Data Linkage Enhancements</a>
 
 -   :material-vector-circle:{ .lg .middle } __Central Data Science Team__
 
     ---
 
-    We develop and deploy data science products to make a positive impact on NHS patients and workforce.  We investigate applying novel techniques that increase the insight we get from health-related data.​  We prioritise code-first ways of working, transparency and promoting best practice. We champion quality, safety and ethics in the application of methods and use of data. ​ We have the remit to be open and collaborative and have the aim of sharing products with the wider healthcare community. See our <a href="https://nhsengland.github.io/datascience/our_work/">Projects</a>
+    We develop and deploy data science products to make a positive impact on NHS patients and workforce.  We investigate applying novel techniques that increase the insight we get from health-related data.​  We prioritise code-first ways of working, transparency and promoting best practice. We champion quality, safety and ethics in the application of methods and use of data. ​ We have the remit to be open and collaborative and have the aim of sharing products with the wider healthcare community. 
+    
+    See our <a href="https://nhsengland.github.io/datascience/our_work/">Projects</a>
 
 -   :material-toolbox-outline:{ .lg .middle } __National SDE Team__
 
     ---
 
-    Working with customer researchers and analysts to identify how they can do their research, overcome and rectify data issues and use the platform and data to its fullest. There is also work to create products and tools that facilitate research in the environment such as data quality and completeness visualations, example analysis and machine learning code as well as continuous improvement and increasing automation of the processes to get data both into the SDE and out through output checking. ​ See <a href="https://digital.nhs.uk/services/secure-data-environment-service">SDE website</a>.
+    Working with customer researchers and analysts to identify how they can do their research, overcome and rectify data issues and use the platform and data to its fullest. There is also work to create products and tools that facilitate research in the environment such as data quality and completeness visualations, example analysis and machine learning code as well as continuous improvement and increasing automation of the processes to get data both into the SDE and out through output checking. ​ 
+    
+    See <a href="https://digital.nhs.uk/services/secure-data-environment-service">SDE website</a>.
 
     
 
 </div>
 
-Across the organisation individual data scientists and other roles working on data sciecne projects support specific team (inclu. Workforce, Training and Education; Medicines; Patient Safety; AI Lab; Digital Channels..).   We come together through the data science assembly to align our proffesional development and standards.
+Across the organisation individual data scientists are embedded within specific team (inclu. Workforce, Training and Education; Medicines; Patient Safety; AI Lab; Digital Channels..).   We come together through the <a href="https://data-science-community.analystx.uk//assembly">data science assembly</a> to align our proffesional development and standards.
 
 <br/>
 
