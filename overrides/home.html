@@ -279,6 +279,55 @@
     min-height: 400px;
   }
 }
+
+.tiles-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  /* padding: 20px; */
+  width:80%;
+  margin: 0 auto;
+}
+
+.tile {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.tile img {
+    width: 250px;
+    height: 144px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.tile:hover {
+    transform: scale(1.2);
+}
+
+
+@media (max-width: 1200px) {
+    .tiles-container {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+    }
+}
+
+@media (max-width: 1000px) {
+    .tiles-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for small screens */
+    }
+}
+
+@media (max-width: 650px) {
+    .tiles-container {
+        grid-template-columns: 1fr; /* 1 column for very small screens */
+    }
+}
   </style>
 
 <body>
@@ -291,7 +340,8 @@
           id="hero-img"
           src="images/cartoon hospital_smaller_compressed.jpeg"
           draggable="false"
-          width="500"
+          width="400"
+          height-="300"
         />
       </div>
 
@@ -333,141 +383,52 @@
 
 <h1>A showcase of some of our projects!</h1>
 
-<div class="carousel_wrapper">
- 
-  <div  class="carousel">
-      
-     <div class="slide one">
-      <a href="#">
-         <img src="" width="80px" />
-         <div class="card-btn-container">
-             <span></span>
-         </div>
-        </a>
-     </div>
-  
-     <div class="slide two">
-      <a href="#">
-         <img src="" width="80px" />
-         <div class="card-btn-container">
-             <span></span>
-         </div>
-        </a>
-     </div>
-  
-     <div class="slide three">
-      <a href="#">
-         <img src="" width="80px" />
-         <div class="card-btn-container">
-             <span></span>
-         </div>
-        </a>
-     </div>
-  
-     <div class="slide four">
-      <a href="#">
-         <img src="" width="80px" />
-         <div class="card-btn-container">
-             <span></span>
-         </div>
-        </a>
-     </div>
-     
-     <div class="slide five">
-      <a href="#">
-         <img src="" width="80px" />
-         <div class="card-btn-container">
-             <span></span>
-         </div>
-        </a>
-     </div>
-    
-     <div class="slide six">
-      <a href="#">
-         <img src="" width="80px" />
-         <div class="card-btn-container">
-             <span></span>
-         </div>
-        </a>
-     </div>
-
-     <div class="slide seven">
-      <a href="#">
-         <img src="" width="80px" />
-         <div class="card-btn-container">
-             <span></span>
-         </div>
-        </a>
-     </div>
-
-      <div class="slide eight">
-      <a href="#">
-         <img src="" width="80px" />
-         <div class="card-btn-container">
-             <span></span>
-         </div>
-        </a>
-     </div>
-
-     <div class="slide nine">
-      <a href="#">
-         <img src="" width="80px" />
-         <div class="card-btn-container">
-             <span></span>
-         </div>
-        </a>
-     </div>
-    
+ <div class="tiles-container">
+  <div class="tile 1" border-color="black">
+  <a href="#">
+      <img src="" alt="Tile 1">
+      <div class="card-btn-container">
+        <span></span>
     </div>
-  
- </div>
+  </a>
+</div>
+
+<div class="tile 2">
+  <a href="#">
+      <img src="" alt="Tile 2">
+      <div class="card-btn-container">
+        <span></span>
+    </div>
+  </a>
+</div>
+
+<div class="tile 3">
+  <a href="#">
+      <img src="" alt="Tile 3">
+      <div class="card-btn-container">
+        <span></span>
+    </div>
+  </a>
+</div>
+
+<div class="tile 4">
+  <a href="#">
+      <img src="" alt="Tile 4">
+      <div class="card-btn-container">
+        <span></span>
+    </div>
+  </a>
+</div>
+
+</div>
+ 
 
 <script>
-  const project_URLs = ['our_work/p23_stm.md', 
-    'our_work/data-lens.md', 
-    'our_work/linkage.md', 
-    'our_work/p32_phmdiabetes.md', 
-    'our_work/p22_txtrayalign.md', 
-    'our_work/c338_poud.md', 
-    'our_work/bed-allocation.md', 
-    'our_work/ratings-and-reviews.md', 
-    'our_work/c250_nhscorpus.md', 
-    'our_work/ambulance-delay-predictor.md', 
-    'our_work/casestudy-recruitment-shortlisting.md', 
-    'our_work/p31_txtrayalign2.md', 
-    'our_work/nursing-placement-optimisation.md', 
-    'our_work/c339_sas.md', 
-    'our_work/ai-dictionary.md', 
-    'our_work/adrenal-lesions.md', 
-    'our_work/ai-deep-dive.md', 
-    'our_work/renal-health-prediction.md', 
-    'our_work/p12_synthvae.md', 
-    'our_work/casestudy-synthetic-data-pipeline.md', 
-    'our_work/p24_lime.md', 
-    'our_work/ct-alignment.md', 
-    'our_work/c399_privfinger.md', 
-    'our_work/p43_medcat.md', 
-    'our_work/p34_hypergraphs.md', 
-    'our_work/p14_mcr.md', 
-    'our_work/synthetic-data-pipeline.md', 
-    'our_work/a_and_e_forecasting_tool.md', 
-    'our_work/p11_synpathdiabetes.md', 
-    'our_work/nhs-resolution.md', 
-    'our_work/long-stay-baseline.md', 
-    'our_work/parkinsons-detection.md', 
-    'our_work/p42_hypergraphs2.md', 
-    'our_work/long-stay.md', 
-    'our_work/ai-skunkworks.md', 
-    'our_work/c245_synpath.md', 
-    'our_work/p21_synthvae.md', 
-    'our_work/p33_patientsafetylms.md', 
-    'our_work/ds255_privacyfp.md', 
-    'our_work/ds218_rap_community_of_practice.md', 
-    'our_work/open-safely.md']
+  const project_URLs = ['our_work/casestudy-recruitment-shortlisting.md', 'our_work/p34_hypergraphs.md', 'our_work/ds251_RAG.md', 'our_work/nursing-placement-optimisation.md', 'our_work/p42_hypergraphs2.md', 'our_work/ds218_rap_community_of_practice.md', 'our_work/index.md', 'our_work/bed-allocation.md', 'our_work/p23_stm.md', 'our_work/p43_medcat.md', 'our_work/casestudy-synthetic-data-pipeline.md', 'our_work/linkage.md', 'our_work/sde_data_validation.md', 'our_work/p33_patientsafetylms.md', 'our_work/ambulance-delay-predictor.md', 'our_work/long-stay.md', 'our_work/c399_privfinger.md', 'our_work/c338_poud.md', 'our_work/open-safely.md', 'our_work/data-lens.md', 'our_work/parkinsons-detection.md', 'our_work/p24_lime.md', 'our_work/c339_sas.md', 'our_work/p21_synthvae.md', 'our_work/long-stay-baseline.md', 'our_work/ct-alignment.md', 'our_work/ratings-and-reviews.md', 'our_work/p31_txtrayalign2.md', 'our_work/nhs-resolution.md', 'our_work/p12_synthvae.md', 'our_work/c245_synpath.md', 'our_work/c250_nhscorpus.md', 'our_work/p14_mcr.md', 'our_work/ai-deep-dive.md', 'our_work/p11_synpathdiabetes.md', 'our_work/ds255_privacyfp.md', 'our_work/ai-skunkworks.md', 'our_work/synthetic-data-pipeline.md', 'our_work/ai-dictionary.md', 'our_work/a_and_e_forecasting_tool.md', 'our_work/renal-health-prediction.md', 'our_work/adrenal-lesions.md', 'our_work/p32_phmdiabetes.md', 'our_work/p22_txtrayalign.md']
 
     
 document.addEventListener("DOMContentLoaded", async function () {
-  const slides = document.querySelectorAll('.slide');
+  const slides = document.querySelectorAll('.tile');
 
   // Helper function to fetch and parse HTML
   async function fetchHTML(url) {
@@ -481,9 +442,9 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
   }
 
-  // Randomly select 9 unique URLs
+  // Randomly select unique URLs
   const selectedUrls = [];
-  while (selectedUrls.length < 9) {
+  while (selectedUrls.length < 4) {
     const randomIndex = Math.floor(Math.random() * project_URLs.length);
     const url = project_URLs[randomIndex];
     if (!selectedUrls.includes(url.slice(0,-3)+'/')) {
@@ -509,7 +470,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         img.src = secondImg.src.replace('/images/', '/datascience/images/')
         img.alt = secondImg.alt || 'Project Image';
         const span = anchor.querySelector('span');
-        span.textContent = `${page.title} →`;
+        span.textContent = `${page.title.split('-').shift()} →`;
       } else {
         slides[i].style.display = 'flex';
         const anchor = slides[i].querySelector('a');
@@ -518,7 +479,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         img.src = 'images/logo/nhs-blue-on-white.jpg'
         img.alt = 'NHS Logo';
         const span = anchor.querySelector('span');
-        span.textContent = `${page.title} →`;
+        span.textContent = `${page.title.split(' - ').shift()} →`;
       }
     }
   }
