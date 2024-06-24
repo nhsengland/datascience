@@ -29,7 +29,7 @@ nav:
     - Past/Current Projects:
       - Current Projects:
         - AI Dictionary: our_work/ai-dictionary.md
-        - Data Linkage Enhancement: our_work/linkage.md
+        - Data Linkage Hub: our_work/data-linkage-hub/
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
         - Tool to Asses Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
@@ -88,7 +88,10 @@ nav:
         - Renal Health Prediction: our_work/renal-health-prediction.md
         - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
       - Data Science for Linked/Longitudinal Data:
-        - Data Linkage Enhancement: our_work/linkage.md
+        - Data Linkage Hub: 
+          - our_work/data-linkage-hub/index.md
+          # - ... | flat | our_work/data-linkage-hub/*.md
+          - ... | flat | our_work/data-linkage-hub/linkage-projects/*.md
         - Inequalities in Diabetes from PHM Data: our_work/p32_phmdiabetes.md
       - Natural Language Processing Products:
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
