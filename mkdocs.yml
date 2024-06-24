@@ -18,11 +18,7 @@ plugins:
 
 nav:
   - Home: index.md
-  - What is Data Science?: 
-    - ... | flat | what_is_data_science/*.md
   - About the team: about.md
-  - Articles:  
-    - ... | flat | articles/*.md
   - Projects: 
     - Our Work: our_work/index.md
     - Project Tags: our_work/tags.md
@@ -138,6 +134,8 @@ nav:
   # - Tools: 
   #   - ... | flat | tools/*.md
   - PHDInterns: PhDInterns.md
+  - Articles:  
+    - ... | flat | articles/*.md
   - Playbooks: playbooks.md
   # - Codebases: codebases.md
   - Useful links: useful_links.md
