@@ -1,7 +1,3 @@
----
-hide:
-  - navigation
----
 
 # Data Science in NHS England
 
@@ -17,11 +13,13 @@ We are passionate about getting the most value out of the data collected by NHS 
 
 > Embed ambitious yet accessible data science in health and care to help people live healthier longer lives​
 
-<br/>
+
+[See our work](./our_work/index.md){ .md-button}
 
 [Contact Us (datascience@nhs.net)](mailto:datascience@nhs.net){ .md-button .md-button--primary }
 
-<br/>
+
+
 
 </div>
 
@@ -37,7 +35,7 @@ In NHSE data scientists are concentrated in the central team but also embedded a
 
     The Data Linkage Hub aims at providing a unified and quality solution to the data linkage needs in NHS England. Data Science is central to achieving this objective, and it covers many aspects, from the mathematical models of entity resolution and record linkage, to identifying and correcting linkage errors, assessing their impact on downstream applications, and ensuring quality. 
     
-    See <a href="https://nhsengland.github.io/datascience/our_work/linkage/">Data Linkage Enhancements</a>
+    See <a href="https://nhsengland.github.io/datascience/our_work/data-linkage-hub/">Data Linkage Enhancements</a>
 
 -   :material-vector-circle:{ .lg .middle } __Central Data Science Team__
 
@@ -55,11 +53,17 @@ In NHSE data scientists are concentrated in the central team but also embedded a
     
     See <a href="https://digital.nhs.uk/services/secure-data-environment-service">SDE website</a>.
 
+-   :material-toolbox-outline:{ .lg .middle } __Other Embedded Data Scientists__
+
+    ---
+
+    Across the organisation individual data scientists are embedded within specific team (inclu. Workforce, Training and Education; Medicines; Patient Safety; AI Lab; Digital Channels..).   
     
+    We come together through the <a href="https://data-science-community.analystx.uk//assembly">data science assembly</a> to align our professional development and standards.
 
 </div>
 
-Across the organisation individual data scientists are embedded within specific team (inclu. Workforce, Training and Education; Medicines; Patient Safety; AI Lab; Digital Channels..).   We come together through the <a href="https://data-science-community.analystx.uk//assembly">data science assembly</a> to align our professional development and standards.
+
 
 <br/>
 
@@ -67,13 +71,13 @@ Across the organisation individual data scientists are embedded within specific 
 
 To support knowledge share of data science in healthcare we've put together a **monthly newsletter** with valuable **insights**, **training opportunities** and **events**.
 
-<center>
-[NHS England Data Science Professional Development Newsletter](https://nhsengland.github.io/datascience-pd-newsletter/){ .md-button .md-button--primary target="_blank"}
-</center>
-
 !!! note
         
     The newsletter is targeted towards members of the NHS England Data Science team, so some links may only be accessible to those with the necessary login credentials, however the newsletter and its archive are available for all at the link above.
+
+<center>
+[NHS England Data Science Professional Development Newsletter](https://nhsengland.github.io/datascience-pd-newsletter/){ .md-button .md-button--primary target="_blank"}
+</center>
 
 We also support the [NHS Data Science Community](https://data-science-community.analystx.uk/) hosted in AnalystX, which is the home of spreading data science knowledge within the NHS.  You can also learn a lot about data science from the other communities we support:
 
