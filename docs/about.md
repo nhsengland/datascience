@@ -57,7 +57,7 @@ In NHSE data scientists are concentrated in the central team but also embedded a
 
     ---
 
-    Across the organisation individual data scientists are embedded within specific team (inclu. Workforce, Training and Education; Medicines; Patient Safety; AI Lab; Digital Channels..).   
+    Across the organisation individual data scientists are embedded within specific team (inclu. Workforce, Training and Education (WT&E); Medicines; Patient Safety; AI Lab; Digital Channels..).   
     
     We come together through the <a href="https://data-science-community.analystx.uk//assembly">data science assembly</a> to align our professional development and standards.
 
