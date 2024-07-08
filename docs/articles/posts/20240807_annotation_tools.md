@@ -1,7 +1,7 @@
 ---
 title: Investigating Annotation Tools for Named Entity Recognition
 authors: [willpoulett]
-date: 2024-08-07
+date: 2024-07-08
 categories: 
     - Privacy
     - LLMs
@@ -66,16 +66,16 @@ We want a tool that:
 
 There were two approaches we took to develop an annotation tool.
 
-### DisplaCy + ipyWidgets
+### DisplaCy and ipyWidgets
 
 <figure markdown>
 ![Example annotation gif using ipywidgets](../../images/annotation_tools_blog/ipywidgets_example.gif)
 <figcaption>Figure 2: An example of the ipyWidgets and DisplaCy labelling application. All clinicial notes are synthetic. </figcaption>
 </figure>
 
-First, we used [DisplaCy](https://spacy.io/usage/visualizers/), [ipyWidgets](https://github.com/jupyter-widgets/ipywidgets/blob/main/docs/source/examples/Index.ipynb) and a NER model of choice to generate an interactive tool that works inside Jupyter notebooks. DisplaCy is a visualiser integrated into the SpaCy library which allows you to easily visualise labels. Alongside ipyWidgets, a tool that allows you to create interactive widgets such as buttons, we created an interface which allowed a user to go through reviews and add new entities.
+First, we used [DisplaCy](https://spacy.io/usage/visualizers/), [ipyWidgets](https://github.com/jupyter-widgets/ipywidgets/blob/main/docs/source/examples/Index.ipynb), and a NER model of choice to generate an interactive tool that works inside Jupyter notebooks. DisplaCy is a visualiser integrated into the SpaCy library which allows you to easily visualise labels. Alongside ipyWidgets, a tool that allows you to create interactive widgets such as buttons, we created an interface which allowed a user to go through reviews and add new entities.
 
-One of the main advantages of this method is that everything is inside a jupyter notebook. The entity names you want to extract come straight from the experiment parameters, so if you used this in the same notebook as the rest of your pipeline the entitiy names could be updated automatically from the labelling tool. This would allow easy integration into a user workflow.
+One of the main advantages of this method is that everything is inside a Jupyter notebook. The entity names you want to extract come straight from the experiment parameters, so if you used this in the same notebook as the rest of your pipeline the entitiy names could be updated automatically from the labelling tool. This would allow easy integration into a user workflow.
 
 There is also a button which allows for live feedback from the NER model which is useful given our previous comment on different entitity names having different effects on the NER model.
 
@@ -100,4 +100,4 @@ Both labelling tools we have identified have key advantages. DisplaCy and ipyWid
 
 Following the research and development of these two tools, we believe the ability to interactively annotate, explore and extract entities from your data greatly improves the user experience when using our privacy risk scorer pipeline.
 
-We will publish working examples of annotation using both ipyWidgets and Streamlit, such that a future user can build on them or use them to improve their workflow. The code is available on our [github](https://github.com/nhsengland/privfp-experiments).
+We will publish working examples of annotation using both ipyWidgets and Streamlit, such that a future user can build on them or use them to improve their workflow. The code is available on our [github](https://github.com/nhsengland/privfp-experiments) and you can find out more about the Privacy Fingerprint project [here](https://nhsengland.github.io/datascience/our_work/ds255_privacyfp/).
