@@ -14,6 +14,12 @@ description: >
     There are various tools for annotating and exploring free text data for Named Entity Recognition. The author explores some of these tools and discusses his experiences. 
 ---
 
+> We have been building a proof-of-concept tool that scores the privacy risk of free text healthcare data. To use our tool effectivly, users need a basic understanding of the entities within their dataset which may contribute to privacy risk. 
+
+> There are various tools for annotating and exploring free text data. The author explores some of these tools and discusses his experiences. 
+
+<!-- more -->
+
 ## Introduction
 
 We have been building a proof-of-concept tool that scores the privacy risk of free text healthcare data called [Privacy Fingerprint](https://nhsengland.github.io/datascience/our_work/ds255_privacyfp/).
@@ -27,6 +33,11 @@ As of the time of writing, there are two NER models fully integrated within the 
 
 Both NER models in our pipeline need to be fed a list of entities to extract. This is true for many NER models, although some like [Stanza](https://stanfordnlp.github.io/stanza/) from [Stanford NLP Group](https://stanfordnlp.github.io/) and [BERT](https://huggingface.co/docs/transformers/tasks/token_classification) token classifiers do not need an initial entity list for extraction. For our privacy tool to be effective, we want our list of entities to be representative of the real entities in the data, and not miss any important information.
 
+<figure class="inline end" markdown>
+![Cartoon of man trying to extract entities. He looks confused and frustrated](../../images/annotation_tools_blog/entity_extraction_cartoon.jpg)
+<figcaption>Figure 1: A frustrated user trying to extract entites!. </figcaption>
+</figure>
+
 Let's consider a new user who wants to investigate the privacy risk of a large unstructured dataset. Maybe they want to use this data to train a new generative healthcare model and don’t want any identifiable information to leak into the training data. Or maybe this dataset is a large list of outputs from a similar model and they want to ensure that no identifiable information has found it's way into the data. They may ask:
 
 _What does my data look like?_
@@ -34,8 +45,6 @@ _What does my data look like?_
 _What entities within my data have a high privacy risk?_
 
 _Wait a second, what even is an entity?_
-
-<img src="../../images/annotation_tools_blog/entity_extraction_cartoon.jpg" alt="Cartoon of man trying to extract entities. He looks confused and frustrated." width="400"/>
 
 We want to offer an easy and interactive starting point for new users of our tool, where they can easily explore their data, understand the role of NER and identify what risks lie in their data. If they miss certain entities, this could have large implications on the scoring aspect of our pipeline.
 
@@ -59,9 +68,10 @@ There were two approaches we took to develop an annotation tool.
 
 ### DisplaCy + ipyWidgets
 
-<img src="../../images/annotation_tools_blog/ipywidgets_example.gif" alt="ipywidgets gif" width="800"/>
-
-An example of the ipyWidgets and DisplaCy labelling application. All clinicial notes are synthetic.
+<figure markdown>
+![Example annotation gif using ipywidgets](../../images/annotation_tools_blog/ipywidgets_example.gif)
+<figcaption>Figure 2: An example of the ipyWidgets and DisplaCy labelling application. All clinicial notes are synthetic. </figcaption>
+</figure>
 
 First, we used [DisplaCy](https://spacy.io/usage/visualizers/), [ipyWidgets](https://github.com/jupyter-widgets/ipywidgets/blob/main/docs/source/examples/Index.ipynb) and a NER model of choice to generate an interactive tool that works inside Jupyter notebooks. DisplaCy is a visualiser integrated into the SpaCy library which allows you to easily visualise labels. Alongside ipyWidgets, a tool that allows you to create interactive widgets such as buttons, we created an interface which allowed a user to go through reviews and add new entities.
 
@@ -73,9 +83,10 @@ This approach was simple and resulted in a fully working example. However, highl
 
 ### Streamlit
 
-<img src="../../images/annotation_tools_blog/Streamlit_Recording.gif" alt="Streamlit gif" width="800"/>
-
-An example of the Streamlit labelling application. All clinicial notes are synthetic.
+<figure markdown>
+![Example annotation gif using Streamlit](../../images/annotation_tools_blog/ipywidgets_example.gif)
+<figcaption>Figure 3: An example of the Streamlit labelling application. All clinicial notes are synthetic. </figcaption>
+</figure>
 
 We explored a second option using [Streamlit](https://streamlit.io/). Streamlit is a python framework that allows you to build simple web apps. We can use it alongside a package called [Streamlit Annotation Tools](https://github.com/rmarquet21/streamlit-annotation-tools) to generate a more interactive user interface. As an example, a user can now use their cursor to highlight particular words and assign them an entity type which is more hands-on and engaging. Unlike our ipyWidgets example, users can select different labels to be displayed which makes the tool less cluttered, and you can easily navigate using a slider to separate reviews. Like the previous widget, there is a button which uses a NER model to label the text and give live feedback. Including this, the tool is more synergistic, easier to use and more immersive than the ipyWidgets alternative.
 
