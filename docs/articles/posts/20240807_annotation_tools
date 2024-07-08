@@ -35,7 +35,7 @@ _What entities within my data have a high privacy risk?_
 
 _Wait a second, what even is an entity?_
 
-<img src="Images/entity_extraction_cartoon.jpg" alt="Cartoon of man trying to extract entities. He looks confused and frustrated." width="400"/>
+<img src="../../images/annotation_tools_blog/entity_extraction_cartoon.jpg" alt="Cartoon of man trying to extract entities. He looks confused and frustrated." width="400"/>
 
 We want to offer an easy and interactive starting point for new users of our tool, where they can easily explore their data, understand the role of NER and identify what risks lie in their data. If they miss certain entities, this could have large implications on the scoring aspect of our pipeline.
 
@@ -59,7 +59,7 @@ There were two approaches we took to develop an annotation tool.
 
 ### DisplaCy + ipyWidgets
 
-<img src="Images/ipywidgets_example.gif" alt="ipywidgets gif" width="800"/>
+<img src="../../images/annotation_tools_blog/ipywidgets_example.gif" alt="ipywidgets gif" width="800"/>
 
 An example of the ipyWidgets and DisplaCy labelling application. All clinicial notes are synthetic.
 
@@ -73,7 +73,7 @@ This approach was simple and resulted in a fully working example. However, highl
 
 ### Streamlit
 
-<img src="Images/Streamlit_Recording.gif" alt="Streamlit gif" width="800"/>
+<img src="../../images/annotation_tools_blog/Streamlit_Recording.gif" alt="Streamlit gif" width="800"/>
 
 An example of the Streamlit labelling application. All clinicial notes are synthetic.
 
