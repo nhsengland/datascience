@@ -12,3 +12,10 @@ authors:
     avatar: https://avatars.githubusercontent.com/u/72864814?v=4        # Author avatar
     slug: VickySmith          # Author profile slug
     url: https://v-smith.github.io/            # Author website URL
+
+  willpoulett:
+    name: Will Poulett        # Author name
+    description: Graduate Data Science Officer # Author description
+    avatar: https://avatars.githubusercontent.com/willpoulett      # Author avatar
+    slug: WillPoulett          # Author profile slug
+    url: https://github.com/willpoulett           # Author website URL
