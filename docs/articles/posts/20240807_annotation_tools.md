@@ -100,4 +100,4 @@ Both labelling tools we have identified have key advantages. DisplaCy and ipyWid
 
 Following the research and development of these two tools, we believe the ability to interactively annotate, explore and extract entities from your data greatly improves the user experience when using our privacy risk scorer pipeline.
 
-We will publish working examples of annotation using both ipyWidgets and Streamlit, such that a future user can build on them or use them to improve their workflow. The code is available on our [github](https://github.com/nhsengland/privfp-experiments) and you can find out more about the Privacy Fingerprint project [here](https://nhsengland.github.io/datascience/our_work/ds255_privacyfp/).
+We will publish working examples of annotation using both ipyWidgets and Streamlit, such that a future user can build on them or use them to improve their workflow. The code is available on our [github](https://github.com/nhsengland/privfp-experiments).
