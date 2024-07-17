@@ -4,7 +4,15 @@ summary: 'The data linkage hub encompasses all things data linkage, from documen
 origin: 'NHS Digital'
 tags: ['BEST PRACTICE', 'LINKAGE', 'PYTHON', 'QUALITY']
 ---
-![Diagram representing the four current areas of the data linkage hub: DL Quality Assurance, Better Matching Algorithm, MPS Documentation, and the DL Community of Practice.](../../images/linkage_visual_abstract.png)
+
+<img src="../../images/linkage_visual_abstract.png" usemap="#image-map" alt="Data Linkage Hub" >
+<figcaption style="width=1000px">Diagram representing the four current areas of the data linkage hub: DL Quality Assurance, Better Matching Algorithm, MPS Documentation, and the DL Community of Practice. Click the areas to go to their designated pages.</figcaption>
+<map name="image-map">
+    <area target="" alt="Better Linkage Algorithm" title="Better Linkage Algorithm" href="./linkage-projects/better-matching" coords="170,200,110" shape="circle">
+    <area target="" alt="Community of Practice" title="Community of Practice" href="./linkage-projects/cop" coords="310,500,110" shape="circle">
+    <area target="" alt="MPS Documentation" title="MPS Documentation" href="./linkage-projects/mps-handbook" coords="950,200,110" shape="circle">
+    <area target="" alt="Quality Assurance Framework" title="Quality Assurance Framework" href="./linkage-projects/qaf" coords="810,500,110" shape="circle">
+</map>
 
 Data Linkage is a business-critical process within many government organisations, including NHS England. Being able to link patients across their care journey enables both direct care services and research studies on admin data, which in turn, influences healthcare policies. So taking care of this important service is why the Data Linkage hub was created in the new NHS England.
 
