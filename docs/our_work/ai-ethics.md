@@ -2,11 +2,9 @@
 title: 'Operationalising AI Ethics in NHS England'
 summary: 'ONE LINE SUMMARY GOES HERE'
 origin: 'NHS England'
-tags: ['AI', 'ETHICS', 'TRANSPARENCY', 'DOCUMENTATION', 'RESEARCH', 'GUIDANCE', 'BEST PRACTICE']
+tags: ['AI', 'ETHICS', 'TRANSPARENCY', 'QUALITY', 'DOCUMENTATION', 'RESEARCH', 'GUIDANCE', 'BEST PRACTICE']
 ---
 [comment]: <> When making your tags, it might be handy to see a list of the tags that have already been defined. Run `python utils/list-tags.py` from the terminal to print the existing tags (assuming you are in the root directory - update the path if not). You can also run it from VS Code by opening the file and clicking the "Run" button in the top right (but you'll need to have the Python extension installed to do it this way).
-
-[comment]: <> The metadata block above is used to make the title, the tags, and the first block of "quote text" just beneath the title
 
 [comment]: <> Make a nice visual abstract for your project, or show some key result, which makes the impact of your work clear - imagine your audience is an educated observer from the health system
 [![Alt text for the image](../images/<add your age to the image folder and put the file name here>)](<add a relevant URL if you have one - people like to click images!>)
