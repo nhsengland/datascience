@@ -5,7 +5,7 @@ hide:
 
 # Useful Links
 
-This is a list, mostly copied from [RAP guidance pages](https://harrietrs.github.io/rap-community-of-practice/useful_links/) and shows a range of resources throughout the Government and other areas. Let us know if you have any links to useful information, resources or guides that could be added to the list.
+This is a list, mostly copied from [RAP guidance pages](https://nhsdigital.github.io/rap-community-of-practice/useful_links/) and shows a range of resources throughout the Government and other areas. Let us know if you have any links to useful information, resources or guides that could be added to the list.
 
 ## Strategic
 
@@ -19,9 +19,9 @@ This is a list, mostly copied from [RAP guidance pages](https://harrietrs.github
 
 ### Reproducible Analytical Pipelines (RAP) and Best Practice
 
-- The NHS England Data Science team have [created an in-depth resource](https://harrietrs.github.io/rap-community-of-practice/) in best practice and on how to accomplish Reproducible Analytical Pipelines (RAP) that is well worth a look.
-- [RAP guidance pages useful links page](https://harrietrs.github.io/rap-community-of-practice/useful_links/) which includes links to policy and other documentation that supports the adoption of RAP
-- [How to implement RAP](https://harrietrs.github.io/rap-community-of-practice/implementing_RAP/code-review/) and training resources in [Git, Python and R](https://harrietrs.github.io/rap-community-of-practice/training_resources/git/intro-to-git/).
+- The NHS England Data Science team have [created an in-depth resource](https://nhsdigital.github.io/rap-community-of-practice/) in best practice and on how to accomplish Reproducible Analytical Pipelines (RAP) that is well worth a look.
+- [RAP guidance pages useful links page](https://nhsdigital.github.io/rap-community-of-practice/useful_links/) which includes links to policy and other documentation that supports the adoption of RAP
+- [How to implement RAP](https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/rap-readiness/) and training resources in [Git, Python and R](https://nhsdigital.github.io/rap-community-of-practice/training_resources/git/intro-to-git/).
 
 ### The Turing Way
 
@@ -45,9 +45,10 @@ The [Turing Way](https://the-turing-way.netlify.app/index.html#) have also produ
 
 ### NHS England / Digital Github
 
-- The [NHS Digital Github](https://github.com/NHSDigital/data-analytics-services) contains code shared from NHS Digital (and NHS England) projects. Well worth a look.
+- The [NHS Digital](https://github.com/NHSDigital) and [NHS England](https://github.com/nhsengland) Githubs contain code shared from NHS Digital and NHS England projects. Well worth a look. 
 
 ## Community Spaces
 
-There are several slack channels that discuss RAP and related topics: the govdatascience.slack.com RAP channel, the NHS-R community, and the NHS-pycom community
-We have an MS Teams page (internal to NHS Digital)
+There are several slack channels that discuss RAP and related topics: the [govdatascience.slack.com](https://govdatascience.slack.com) RAP channel, the NHS-R community, and the NHS-pycom community. 
+
+We have an MS Teams page (internal to NHS England).
