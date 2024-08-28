@@ -1,30 +1,28 @@
 ---
-title: 'Operationalising AI Ethics in NHS England'
-summary: 'ONE LINE SUMMARY GOES HERE'
+title: 'AI Ethics in Practice at NHS England'
+summary: 'Defining ethical AI development best practice for data practitioners in the NHS'
 origin: 'NHS England'
 tags: ['AI', 'ETHICS', 'TRANSPARENCY', 'QUALITY', 'DOCUMENTATION', 'RESEARCH', 'GUIDANCE', 'BEST PRACTICE']
 ---
+_This project is currently live, and as such the following is subject to change._
 
-Under construction.
+AI presents transformative opportunities in healthcare, but the technology brings with it risks to people, the natural environment and society at large. NHS England has a responsibility to effectively harness AI to support the provision of better care to all patients.
 
-[comment]: <> Make a nice visual abstract for your project, or show some key result, which makes the impact of your work clear - imagine your audience is an educated observer from the health system
-[![Alt text for the image](../images/<add your age to the image folder and put the file name here>)](<add a relevant URL if you have one - people like to click images!>)
+To do this, data scientists (among others) need to ensure ethical considerations are embedded in the development, evaluation and implementation of AI and data science projects more generally.
 
-[comment]: <> Add some description about your project - keep it punchy, focussing on the benefits, anything new, and only the most important parts of the methods, particularly anything which might interest people.
+However, there are few practical examples of what ethical AI in health looks like for those involved in its design and implementation. This is despite the proliferation of guidance from research institutions and other organisations.
 
-## Results
+## Ongoing work
 
-[comment]: <> Add some description of the key results - again keep them punchy, and in real units that people can understand if possible. This is where we get across the impact. It might be that the image describes this, in which case reference that.
-by automating the problem area described above, we were able to save £xxx / so many hours of doctor / patient / staff time. The diagram above shows how impactful this was.
+We have written a White Paper in which we identify the characteristics of ethical AI that data scientists should be concerned with at the NHS. This takes into account other actors in AI development at the NHS, including cybersecurity, assurance and governance colleagues.
 
-Output|Link
+This paper proposes that data scientists specifically focus on trying to ensure four characteristics of AI: fair, transparent, value-adding and reliable.
 
-[comment]: <> below you can put any relevant links through to outputs, and published code, published papers, live tools, websites, blog articles, anything which is relevant to the project.
----|---
-Open Source Code & Documentation|[Github](#add URL)
-Case Study|
-Technical report|[e.g. biorxiv.org]()
-Algorithmic Impact Assessment|e.g. N/A
+Our practical suggestions of how we can work towards embedding these characteristics in working practices include:
 
-[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+* trialling tools and frameworks on live and emerging projects and to share learnings with the wider community. This will eventually constitute a portfolio of real examples that can inform future projects.
+* coordinating a series of interactive workshops to build awareness of ethical risks, and to create and sustain a shared vocabulary to document and help mitigate these risks effectively along each project’s lifecycle. Initially this will be based on the [Data Hazards project](https://datahazards.com/).
+* developing standardised resources that can be flexible to different types of data science projects, but ensure a minimum level of consideration and proportionate action. This includes a [Model Card](https://github.com/nhsengland/model-card).
+* mapping the development processes and involved actors of AI at the NHS and growing a platform to share knowledge and experiences.
+
 #
