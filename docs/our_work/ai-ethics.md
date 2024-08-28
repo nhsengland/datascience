@@ -20,9 +20,9 @@ This paper proposes that data scientists specifically focus on trying to ensure 
 
 Our practical suggestions of how we can work towards embedding these characteristics in working practices include:
 
-* trialling tools and frameworks on live and emerging projects and to share learnings with the wider community. This will eventually constitute a portfolio of real examples that can inform future projects.
+* trialling tools and frameworks on live and emerging projects and to share learnings with the wider community. This will eventually constitute a portfolio of real examples that can inform future projects, similar to the use cases features in the [OECD's Catalogue of Tools & Metrics for Trustworthy AI](https://oecd.ai/en/catalogue/tool-use-cases).
 * coordinating a series of interactive workshops to build awareness of ethical risks, and to create and sustain a shared vocabulary to document and help mitigate these risks effectively along each project’s lifecycle. Initially this will be based on the [Data Hazards project](https://datahazards.com/).
 * developing standardised resources that can be flexible to different types of data science projects, but ensure a minimum level of consideration and proportionate action. This includes a [Model Card](https://github.com/nhsengland/model-card).
-* mapping the development processes and involved actors of AI at the NHS and growing a platform to share knowledge and experiences.
+* mapping the development processes and involved actors of AI at the NHS and growing a platform to share knowledge and experiences. This will help us to identify how to incorporate ethical considerations into the data science lifecycle.
 
 #
