@@ -16,7 +16,7 @@ If you want to contribute to our resources:
 4. Make your change
 5. Check how your change looks on our website by hosting the website locally (follow [the steps below](#contribute-to-nhs-england-data-science-website) on how to do this)
 6. Content Review (follow the [instructions](#content-review))
-6. Push to your fork and [submit a pull request][pr]
+7. Push to your fork and [submit a pull request][pr]
 
 Your pull request will then be reviewed. You may receive some feedback and suggested changes before it can be approved and your pull request merged.
 
@@ -58,7 +58,8 @@ The website currently uses the [Material for MkDocs](https://squidfunk.github.io
 Here is a good [cheat sheet](https://yakworks.github.io/docmark/cheat-sheet/) for what features can be used in MkDocs and also interesting features in [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/).
 
 ### Content Review
-Prior to making a pull request, ensure that, if the changes involve a change or addition of content (rather than technical or spelling changes) to the site, you have gone through a content review as outlined [here](https://nhsd-confluence.digital.nhs.uk/display/DAT/Website+Gateway). This is to ensure that no sensitive or policy content goes into your PR, as whilst PRs aren't live on the website they are still public (as the repo is public). 
+
+Prior to making a pull request, ensure that, if the changes involve a change or addition of content (rather than technical or spelling changes) to the site, you have gone through a content review as outlined [here](https://nhsd-confluence.digital.nhs.uk/display/DAT/Website+Gateway). This is to ensure that no sensitive or policy content goes into your PR, as whilst PRs aren't live on the website they are still public (as the repo is public).
 
 #### Blog / Article
 
