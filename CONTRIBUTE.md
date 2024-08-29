@@ -59,7 +59,7 @@ Here is a good [cheat sheet](https://yakworks.github.io/docmark/cheat-sheet/) fo
 
 ### Content Review
 
-Prior to making a pull request, ensure that, if the changes involve a change or addition of content (rather than technical or spelling changes) to the site, you have gone through a content review as outlined [here](https://nhsd-confluence.digital.nhs.uk/display/DAT/Website+Gateway). This is to ensure that no sensitive or policy content goes into your PR, as whilst PRs aren't live on the website they are still public (as the repo is public).
+Prior to making a pull request, ensure that, if the changes involve a change or addition of content (rather than technical or spelling changes) to the site, you have gone through a content review as outlined [here](https://nhsd-confluence.digital.nhs.uk/display/DAT/C&M:+Website+Gateway). This is to ensure that no sensitive or policy content goes into your PR, as whilst PRs aren't live on the website they are still public (as the repo is public).
 
 #### Blog / Article
 
