@@ -2,7 +2,7 @@
 layout: base
 title: Using Model Class Reliance to Understand the Impact of Commerical Data on Predictions
 permalink: p14_mcr.html
-summary: How to asses the value that commercial sales data of over-the-counter prescriptions has on respiratory death predictions
+summary: How to assess the value that commercial sales data of over-the-counter prescriptions has on respiratory death predictions
 tags: ['MCR', 'PYTHON', 'MORTALITY', 'RESPIRATORY']
 ---
 
