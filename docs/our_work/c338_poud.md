@@ -7,8 +7,8 @@ tags: ['UNSTRUCTURED DATA', 'PRIVACY', 'PII', 'BEST PRACTICE']
 
 <figure markdown>
 ![](../images/c338fig1.png)
-<figcaption>Figure 1: Figure 4 from Al-Fedaghi, Sabah. (2012). Experimentation with Personal Identifiable Information. Showing an example PII sphere from different perspectives (compound, singleton and multitude personal identifiable information)</figcaption>
 </figure>
+<figcaption>Figure 1: Figure 4 from Al-Fedaghi, Sabah. (2012). Experimentation with Personal Identifiable Information. Showing an example PII sphere from different perspectives (compound, singleton and multitude personal identifiable information).</figcaption>
 
 Unstructured data (e.g. text, image, audio) makes up a significant quantity of NHS data but is comparatively underused as an evidence source for analysis. This is often due to the privacy concerns restricting the sharing and use of these data.
 
