@@ -13,7 +13,7 @@
 <button class="hero md-button md-button--primary" onclick="randomSite()" >Take me to a random project :material-puzzle:</button> [Explore our projects by topic :fontawesome-solid-tags:](./tags.md){ .md-button }
 
 <p align="center">
-  <img src="../images/ourwork.jpeg" width=700></img>
+  <img src="../images/ourwork.jpeg" width=700 alt="AI generated colorful cartoon including graphs and idea symbols to represent data science visually." ></img>
 </p>
 
 From **predictive modelling** to **data-driven decision support**, we work on a number of dynamic challenges in healthcare.
