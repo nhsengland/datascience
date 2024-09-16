@@ -370,7 +370,7 @@ We also know that length of stay varies by group, so further plots of the ratio 
 
 The final model generated did not adequately capture length of stay across the population. Some sample sizes of demographic groups were too small to draw conclusions, but the process of exploring the underlying distribution of the target feature (length of stay), count (n) and model performance were important and should remain part of future work.
 
-### 6.3 Classification models<a name='classificationmodels'></a>
+### 6.3 Classification models
 
 In addition to predicting the length of stay in days, we are also interested in stratifying the risk of a patient becoming a long stayer. This can be inferred from their predicted length of stay (see [model comparison](#modelcomparison)), but we can also train a classification model to do this directly.
 
@@ -434,8 +434,9 @@ A visual inspection of model performance, plotting both total counts of risk cat
 
 **Training performance:**
 
-![Plots of predicted vs actual risks on the training dataset](../images/long-stay-baseline/clf-predicted-actuals-training.png)
-> Figure 24. Plots of predicted vs actual risks on the training dataset. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.
+![](../images/long-stay-baseline/clf-predicted-actuals-training.png)
+
+*Figure 24. Plots of predicted vs actual risks on the training dataset. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.*
 
 We can see that both the DecisionTree and RandomForest models severely overfit the training data.
 
@@ -443,8 +444,9 @@ We also see that none of the models are able to capture the nature of the highes
 
 **Validation performance:**
 
-![Plots of predicted vs actual risks on the validation dataset](../images/long-stay-baseline/clf-predicted-actuals-validation.png)
-> Figure 25. Plots of predicted vs actual risks on the validation dataset. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.
+![](../images/long-stay-baseline/clf-predicted-actuals-validation.png)
+
+*Figure 25. Plots of predicted vs actual risks on the validation dataset. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.*
 
 The RandomForest model has an anomaly in its predictions for risk category 4 where it is missing any of the highest risk category 5 compared to other predictions. This is likely due to the overfitting observed in the previous plot.
 
@@ -468,29 +470,31 @@ CatBoost (tuned)|0.61|0.75|0.60|0.27|0.70
 
 Balanced accuracy was determined as 0.27, a poor result for accurately predicting the correct class. The overall Area Under the receiving operator characteristic Curve (AUC), which was calculated as a weighted one-versus-rest metric, was 0.70.
 
-![Plots of predicted vs actual for the final model - test set](../images/long-stay-baseline/clf-predicted-actuals-final-model-test.png)
-> Figure 26. Plots of predicted vs actual risks on the test dataset for the final model. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.
+![](../images/long-stay-baseline/clf-predicted-actuals-final-model-test.png)
+
+*Figure 26. Plots of predicted vs actual risks on the test dataset for the final model. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.*
 
 The final model still assigns over 50% of the lower risk class (the most populated class) to every predicted class, which would lead to a high number of false positives. It also fails to capture the highest risk class adequately, leading to a high number of false negatives.
 
 Despite the poor performance, we can still explore the most important features that make up the prediction by plotting feature importances of the final model:
 
-![Feature importances the final model](../images/long-stay-baseline/clf-feature-importance.png)
-> Figure 27. Feature importances for the final regression model.
+![](../images/long-stay-baseline/clf-feature-importance.png)
+
+*Figure 27. Feature importances for the final regression model.*
 
 In this case, `arrival_month_name` and `arrival_day_of_week` are the two most important features, which differs from the regression model and correlation analysis. This may be why the false positive and false negative rates for the model are so high, and needs further exploration.
 
 Demographic analysis of the risk stratification model was not conducted as the model performance did not justify exploring whether there was representation bias at this stage.
 
-### 6.4 Model comparison<a name='modelcomparison'></a>
+### 6.4 Model comparison
 
 As a final modelling step, we can compare both the regression models and classification models, by encoding the predicted length of stay from the regression model as a corresponding risk.
 
 This comparison may help us understand whether a classification or regression approach is more suitable for this type of data.
 
-![Comparison of both models](../images/long-stay-baseline/model-comparison.png)
+![](../images/long-stay-baseline/model-comparison.png)
 
-Figure 28. Comparison of both models. Left image shows proportion of actual risk for each predicted risk category for the classification model. Right image shows proportion of actual risk for each equivalent predicted risk category derived from the regression model.
+*Figure 28. Comparison of both models. Left image shows proportion of actual risk for each predicted risk category for the classification model. Right image shows proportion of actual risk for each equivalent predicted risk category derived from the regression model.*
 
 Here we can see that the regression model, encoded as a risk stratification model, performs much better than the classification approach:
 
@@ -499,7 +503,7 @@ Here we can see that the regression model, encoded as a risk stratification mode
 
 If risk stratification is the key desired output, then further refining the regression model may be the better approach to improving the overall performance of the system.
 
-## 7. Conclusions<a name='conclusions'></a>
+## 7. Conclusions
 
 A number of baseline machine learning models were trained on EPR data from GHNHSFT.
 
@@ -519,7 +523,7 @@ Demographic analysis showed that the model performed differently for different e
 
 There is opportunity for much future work, which should be balanced with the utility of these predictions in the clinical context.
 
-## 8. Future work<a name='futurework'></a>
+## 8. Future work
 
 ### Modelling improvements
 
