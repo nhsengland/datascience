@@ -306,8 +306,17 @@
     border: 2px solid black;
 }
 
-.tile:hover {
+.tile:focus,
+.tile a:focus {
+    outline: 2px solid #005eb8;
+    border-radius:5px;
+}
+
+.tile:hover,
+.tile:focus-within {
     transform: scale(1.2);
+    outline: 2px solid #005eb8; /* Increase the outline size */
+    outline-offset: -5px;
 }
 
 
