@@ -9,11 +9,10 @@ tags: ['NLP','LLM','GENAI']
 ![Stop lying to me Chat GPT Haca Poster](https://github.com/user-attachments/assets/89298bcc-370c-473c-b130-29239ac46c74)
 
 
-See our RAG Demos and discussions here 
-https://github.com/nhsengland/ds_251_RAG
+See our RAG Demos and discussions [here](https://github.com/nhsengland/ds_251_RAG)
 
 
-Headlines: 
+## Headlines: 
 - LLMs produce more relevant and accurate content when given key information in the context window. 
 - All RAG techniques seek to utilise this strength of LLMs by maximising the use of the context window. 
 - Modern LLM systems will involve many RAG techniques, often coming as standard in AI development architectures.
