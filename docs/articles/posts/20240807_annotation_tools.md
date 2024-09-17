@@ -34,7 +34,7 @@ As of the time of writing, there are two NER models fully integrated within the 
 Both NER models in our pipeline need to be fed a list of entities to extract. This is true for many NER models, although some like [Stanza](https://stanfordnlp.github.io/stanza/) from [Stanford NLP Group](https://stanfordnlp.github.io/) and [BERT](https://huggingface.co/docs/transformers/tasks/token_classification) token classifiers do not need an initial entity list for extraction. For our privacy tool to be effective, we want our list of entities to be representative of the real entities in the data, and not miss any important information.
 
 <figure class="inline end" markdown>
-![Cartoon of man trying to extract entities. He looks confused and frustrated](../../images/annotation_tools_blog/entity_extraction_cartoon.jpg)
+![Cartoon of man trying to extract entities. He looks confused and frustrated. He has a speech bubble saying "Extract an entity? WHat does that mean?"](../../images/annotation_tools_blog/entity_extraction_cartoon.jpg)
 <figcaption>Figure 1: A frustrated user trying to extract entites!. </figcaption>
 </figure>
 
