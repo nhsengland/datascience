@@ -146,6 +146,7 @@ nav:
   - Site Info: meta_page.md
 theme:
   name: material
+  language: en
   custom_dir: overrides
   palette:
     scheme: default
