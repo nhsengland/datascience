@@ -7,10 +7,8 @@ tags : ['AI', 'GUIDANCE', 'BEST PRACTICE']
 ---
 
 <figure markdown >
-![Image of a computer on a video call with a mug in front of it.](../images/ai-deep-dive.jpg)
+![](../images/ai-deep-dive.jpg)
 </figure>
-
-# Case Study
 
 ## Info
 

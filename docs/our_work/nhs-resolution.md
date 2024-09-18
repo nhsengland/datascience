@@ -7,7 +7,7 @@ tags: ['CLASSIFICATION','PREDICTION', 'AI']
 ---
 
 <figure markdown>
-![Pile of files on a desk](../images/nhs-resolution.jpg)
+![](../images/nhs-resolution.jpg)
 </figure>
 
 NHS Resolution provides expertise to the NHS on resolving concerns and disputes. The organisation holds a wealth of historic data around claims, giving insight and valuable data around the causes and impacts of harm.
