@@ -83,7 +83,7 @@ We also support the [NHS Data Science Community](https://data-science-community.
 
 ## Our Members
 ??? "Our Members"
-    <table id="myTable" style="width:100%;">
+    <table id="myTable" >
         <div class="flex flex-basis">
         <select id="columnToSearch">
         <option value="Name">Name</option>
@@ -93,7 +93,7 @@ We also support the [NHS Data Science Community](https://data-science-community.
         </select>
         <input type="text" id="myInput" onkeyup="tableFilter('myTable','myInput')" placeholder="Search..."> 
         </div>
-    <tr><th style="width: 30%;">Name</th><th>Role</th><th>Team</th><th>Github</th></tr>
+    <tr><th>Name</th><th>Role</th><th>Team</th><th>Github</th></tr>
     <tr><td>Sarah Culkin</td><td>Deputy Director</td><td>Central Data Science Team</td><td><a href="https://github.com/SCulkin-code">SCulkin-code</a></td> </tr>
     <tr><td>Rupert Chaplin</td><td>Assistant Director</td><td>Central Data Science Team</td><td><a href="https://github.com/rupchap">rupchap</a></td> </tr>
     <tr><td>Jonathan Hope</td><td>Data Science Lead</td><td>Central Data Science Team</td><td><a href="https://github.com/JonathanHope42">JonathanHope42</a></td> </tr>

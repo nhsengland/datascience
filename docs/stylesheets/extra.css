@@ -46,6 +46,14 @@ code {
   background: #e5f1fa !important;
 }
 
+#myTable {
+  width:100%;
+}
+
+.about {
+  text-align: center;
+}
+
 .footer {
   margin-top: 50px;
   display: flex;
