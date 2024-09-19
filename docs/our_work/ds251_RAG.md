@@ -6,10 +6,8 @@ tags: ['NLP','LLM','GENAI']
 ---
 
 
-![Stop lying to me Chat GPT Haca Poster](https://github.com/user-attachments/assets/89298bcc-370c-473c-b130-29239ac46c74)
 
-
-See our RAG Demos and discussions [here](https://github.com/nhsengland/ds_251_RAG)
+![Stop lying to me Chat GPT Haca Poster](https://github.com/user-attachments/assets/52cc653c-db42-42de-a4bd-76c0fd42c83f)
 
 
 ## Headlines: 
