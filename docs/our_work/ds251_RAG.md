@@ -9,6 +9,8 @@ tags: ['NLP','LLM','GENAI']
 
 ![Stop lying to me Chat GPT Haca Poster](https://github.com/user-attachments/assets/52cc653c-db42-42de-a4bd-76c0fd42c83f)
 
+See our RAG Demos and discussions [here](https://github.com/nhsengland/ds_251_RAG)
+
 
 ## Headlines: 
 - LLMs produce more relevant and accurate content when given key information in the context window. 
