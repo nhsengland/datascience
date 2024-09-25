@@ -1,8 +1,6 @@
 
 # About the Data Science Team in NHS England
 
-<div markdown>
-
 ![Data science team photo, all stood on some stairs outdoors.](images/DS_team_photo_smaller.jpeg){ width="450" align=right}
 
 We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.   
@@ -17,8 +15,6 @@ We are passionate about getting the most value out of the data collected by NHS 
 [See our work](./our_work/index.md){ .md-button}
 
 [Contact Us (datascience@nhs.net)](mailto:datascience@nhs.net){ .md-button .md-button--primary }
-
-</div>
 
 ## Teams 
 
@@ -59,8 +55,6 @@ In NHSE data scientists are concentrated in the central team but also embedded a
     We come together through the [data science assembly](https://data-science-community.analystx.uk/assembly) to align our professional development and standards.
 
 </div>
-
-<br/>
 
 ## Learn about Data Science in Healthcare
 
