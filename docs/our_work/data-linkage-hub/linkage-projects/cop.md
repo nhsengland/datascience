@@ -11,7 +11,7 @@ In NHS England data linkage occurs at various stages of the data lifecycle, invo
 The Community of Practice wants to support Data Linkage stakeholders in NHS England to share their expertise and best practices with colleagues across the organisation. 
 This is also in response to the Data Linkage Survey in which colleagues expressed a clear interest in cultivating a collaboration space.
 
-![Results from the Data Linkage Survey Community of Practice question](../../../images/copdl.png)
+![Results from the Data Linkage Survey Community of Practice question, 41 people said they want a COP, 21 said no and 53 said maybe. On the right is a bar graph of the different activities wanted in the COP: Consulting experts or peers, Share tools, Professional Development, Cross-government initiatives, Offering my expertise, Showcasing my work, and Other.](../../../images/copdl.png)
 
 ## Data Linkage Community of Practice: Mission
 The mission of our community of practice is to **facilitate collaboration and an exchange of knowledge, tools and innovative solutions** among data linkage stakeholders within NHS England and with and outlook onto other government and research institutions, enabling members to share and adopt effective practices. 

@@ -2,7 +2,7 @@
 <h3 align="center"><i>Explore our comprehensive portfolio of ongoing and completed projects that harness the power of data to drive insight.</i></h3>
 
 <script>
-    var sites = ['long-stay', 'c245_synpath', 'nursing-placement-optimisation', 'ai-dictionary', 'p14_mcr', 'a_and_e_forecasting_tool', 'p21_synthvae', 'p42_hypergraphs2', 'casestudy-recruitment-shortlisting', 'open-safely', 'synthetic-data-pipeline', 'ds218_rap_community_of_practice', 'p31_txtrayalign2', 'p24_lime', 'p11_synpathdiabetes', 'c338_poud', 'swpclab', 'p22_txtrayalign', 'data-lens', 'ambulance-delay-predictor', 'index', 'p12_synthvae', 'ai-deep-dive', 'ratings-and-reviews', 'p43_medcat', 'parkinsons-detection', 'bed-allocation', 'ct-alignment', 'sde_data_validation', 'long-stay-baseline', 'ai-skunkworks', 'adrenal-lesions', 'p23_stm', 'c339_sas', 'p32_phmdiabetes', 'p33_patientsafetylms', 'casestudy-synthetic-data-pipeline', 'c399_privfinger', 'p34_hypergraphs', 'nhs-resolution', 'renal-health-prediction', 'ds255_privacyfp', 'c250_nhscorpus', 'ds251_RAG', 'index', 'qaf', 'better-matching', 'mps-handbook', 'cop'];
+    var sites = ['long-stay', 'c245_synpath', 'nursing-placement-optimisation', 'ai-dictionary', 'p14_mcr', 'a_and_e_forecasting_tool', 'p21_synthvae', 'casestudy-recruitment-shortlisting', 'open-safely', 'synthetic-data-pipeline', 'ds218_rap_community_of_practice', 'p31_txtrayalign2', 'p24_lime', 'p11_synpathdiabetes', 'c338_poud', 'swpclab', 'p22_txtrayalign', 'data-lens', 'ambulance-delay-predictor', 'index', 'p12_synthvae', 'ai-deep-dive', 'ratings-and-reviews', 'parkinsons-detection', 'bed-allocation', 'ct-alignment', 'sde_data_validation', 'long-stay-baseline', 'ai-skunkworks', 'adrenal-lesions', 'p23_stm', 'c339_sas', 'p32_phmdiabetes', 'p33_patientsafetylms', 'casestudy-synthetic-data-pipeline', 'c399_privfinger', 'nhs-resolution', 'renal-health-prediction', 'ds255_privacyfp', 'c250_nhscorpus', 'ds251_RAG', 'index', 'qaf', 'better-matching', 'mps-handbook', 'cop'];
 
     function randomSite() {
         var i = parseInt(Math.random() * sites.length);
@@ -13,7 +13,7 @@
 <button class="hero md-button md-button--primary" onclick="randomSite()" >Take me to a random project :material-puzzle:</button> [Explore our projects by topic :fontawesome-solid-tags:](./tags.md){ .md-button }
 
 <p align="center">
-  <img src="../images/ourwork.jpeg" width=700></img>
+  <img src="../images/ourwork.jpeg" width=700 alt="" ></img>
 </p>
 
 From **predictive modelling** to **data-driven decision support**, we work on a number of dynamic challenges in healthcare.

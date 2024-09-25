@@ -16,8 +16,6 @@ This project had two main aims:
 
 # Case Study
 
-This is a backup of the case study published [here]() on the NHS England Transformation Directorate website.
-
 Trusted research environments (TREs) take the form of a secure data environment that allows analysts and researchers to undertake in-depth analysis on rich, joined-up datasets without them seeing any identifiable information. Data is held within a secure server and does not leave that server. Following a recommendation from the [Goldacre review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis) TREs form a key part of the [Data saves lives: reshaping health and social care with data policy paper](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data/data-saves-lives-reshaping-health-and-social-care-with-data#empowering-researchers-with-the-data-they-need-to-develop-life-changing-treatments-diagnostics-models-of-care-and-insights).
 
 **The challenge**

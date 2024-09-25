@@ -7,7 +7,7 @@ tags: ['CLASSIFICATION','LESION DETECTION','COMPUTER VISION','AI']
 ---
 
 <figure markdown >
-![Adrenal flow of transfer](../images/Flow_of_transfer.width-800.png) </a>
+![Flow of work for the adrenal lesion project. Starts with 2.5D images on the left, with an arrow to "Pre-trained deep learning model", then to "model training". This then flows into "Model for this usecase", which has two arrows to "Normal" and "Abnormal". The core of the diagram is also labelled as "2D neural network".](../images/Flow_of_transfer.width-800.png) </a>
 </figure>
 
 Many cases of adrenal lesions, known as adrenal incidentalomas, are discovered incidentally on CT scans performed for other medical conditions. These lesions can be malignant, and so early detection is crucial for patients to receive the correct treatment and allow the public health system to target resources efficiently. Traditionally, the detection of adrenal lesions on CT scans relies on manual analysis by radiologists, which can be time-consuming and unsystematic.
@@ -47,7 +47,7 @@ Due to the intrinsic nature of CT scans (e.g., a high operating cost, limited nu
 
 To overcome some of the disadvantage of training a 3D deep learning model, we took a 2.5D deep learning model approach in this case study. Training the model using 2.5D images enables our deep learning model to still learn from the 3D features of the CT scans, while increasing the number of training and testing data points in this study. Moreover, we can apply 2D deep learning models to the set of 2.5D images, which allow us to apply transfer learning to train our own model further based on the knowledge learned by other deep learning applications (e.g., ImageNet, and the NHS AI Lab’s National COVID-19 Chest Imaging Database).
 
-![Adrenal flow of transfer](../images/Flow_of_transfer.width-800.png)
+![Same image as at the top of the page: Flow of work for the adrenal lesion project. Starts with 2.5D images on the left, with an arrow to "Pre-trained deep learning model", then to "model training". This then flows into "Model for this usecase", which has two arrows to "Normal" and "Abnormal". The core of the diagram is also labelled as "2D neural network".](../images/Flow_of_transfer.width-800.png)
 
 #### Classification of 3D CT scans
 
@@ -59,7 +59,7 @@ To connect the classification prediction results from the 2.5D images to the CT 
 
 To prepare the CT scans for this case study (region of interest focus on the adrenal grands), we also developed a manual 3D cropping tool for CT scans. This cropping applied to all three dimensions, including a 1D cropping to select the appropriate axial slices and a 2D cropping on each axial slice. The final cropped 3D image covered the whole adrenal gland on both sides with some extra margin on each side.
 
-![Adrenal cropping](../images/Cropping_process.width-800.png)
+![Diagram of how the image cropping to focus on the adrenal glands occurs.](../images/Cropping_process.width-800.png)
 
 ### Outcomes and lessons learned
 

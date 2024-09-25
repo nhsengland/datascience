@@ -6,6 +6,8 @@ origin: 'Skunkworks'
 tags: ['SYNTHETIC DATA','VAE','PRIVACY','QUALITY','UTILITY','AI', 'PYTHON']
 ---
 
+![Example graphs studying the fidelity of the synthetic data to the artificial data.](../images/example_report_output.png)
+
 ## Info
 
 This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/exploring-how-to-create-mock-patient-data-synthetic-data-from-real-patient-data/) on the NHS England Transformation Directorate website.

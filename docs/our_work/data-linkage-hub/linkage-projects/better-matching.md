@@ -20,7 +20,7 @@ The linkage pipeline consists of a few steps:
 Each of these steps requires research into linkage best practice, testing on samples of our data, feasibility studies of computational power required, and then thorough evaluation. We are working with an incremental improvement plan and a series of iterative MVPs to ensure that the pipeline has the highest quality we can achieve within our computational limits. 
 
 Here is an overview of how our pipeline currently looks.
-![Splink linkage pipeline scheme](../../../images/dl_prob_mod_scheme.png)
+![Splink linkage pipeline schema, shows the flow of the file system for the pipeline.](../../../images/dl_prob_mod_scheme.png)
 
 ## Building a model with transparency in mind
 Users of linked data have to rely on the accuracy of the process created by others as often the process of linking data is not under their control. That is why one of the main focus of the model we are building is transparency of the methods and explainability of the results.

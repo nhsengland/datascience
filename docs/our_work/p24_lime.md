@@ -6,6 +6,9 @@ summary: Investigating explainability algorithms for granular healthcare images
 tags: ['EXPLAINABILITY', 'LIME', 'PYTHON']
 ---
 
+![From left to right connected by arrows: 1. Loading a pretrained/fine-tuned DCNN model and an example image. 2. Super pixels. 3. Random Perturbations. 4. Predictions. 5. Weights. 6. Surrogate Model. 7. Top Features and Explanations](../images/LIME-workflow.png)
+*Figure 1: An illustration of LIME workflow*
+
 A work experience project investigating the application of a [Local Interpretable Model-agnostic Explanations (LIME)](https://arxiv.org/abs/1602.04938) technique to an image classification task around identifying Rosacea.  A binary classification model was trained on the normal and Rosacea faces to generate the LIME explanation for Rosacea faces. Secondly, the fine-tuned model was integrated into the LIME pipeline to generate explanations based on the crucial features on which predictions were made in the classification model. Hence the experimentations helped in understanding the features the classification model took.
 
 ## Results

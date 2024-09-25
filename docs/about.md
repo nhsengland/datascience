@@ -1,9 +1,7 @@
 
-# Data Science in NHS England
+# About the Data Science Team in NHS England
 
-<div markdown>
-
-![Image title](images/DS_team_photo_smaller.jpeg){ width="450" alt-tex="Picture of the Data Science team stood on some steps in London."  align=right }
+![Data science team photo, all stood on some stairs outdoors.](images/DS_team_photo_smaller.jpeg){ width="450" align=right}
 
 We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.   
 
@@ -17,8 +15,6 @@ We are passionate about getting the most value out of the data collected by NHS 
 [See our work](./our_work/index.md){ .md-button}
 
 [Contact Us (datascience@nhs.net)](mailto:datascience@nhs.net){ .md-button .md-button--primary }
-
-</div>
 
 ## Teams 
 
@@ -60,8 +56,6 @@ In NHSE data scientists are concentrated in the central team but also embedded a
 
 </div>
 
-<br/>
-
 ## Learn about Data Science in Healthcare
 
 To support knowledge share of data science in healthcare we've put together a **monthly newsletter** with valuable **insights**, **training opportunities** and **events**.
@@ -83,7 +77,7 @@ We also support the [NHS Data Science Community](https://data-science-community.
 
 ## Our Members
 ??? "Our Members"
-    <table id="myTable" style="width:100%;">
+    <table id="myTable" >
         <div class="flex flex-basis">
         <select id="columnToSearch">
         <option value="Name">Name</option>
@@ -93,7 +87,7 @@ We also support the [NHS Data Science Community](https://data-science-community.
         </select>
         <input type="text" id="myInput" onkeyup="tableFilter('myTable','myInput')" placeholder="Search..."> 
         </div>
-    <tr><th style="width: 30%;">Name</th><th>Role</th><th>Team</th><th>Github</th></tr>
+    <tr><th>Name</th><th>Role</th><th>Team</th><th>Github</th></tr>
     <tr><td>Sarah Culkin</td><td>Deputy Director</td><td>Central Data Science Team</td><td><a href="https://github.com/SCulkin-code">SCulkin-code</a></td> </tr>
     <tr><td>Rupert Chaplin</td><td>Assistant Director</td><td>Central Data Science Team</td><td><a href="https://github.com/rupchap">rupchap</a></td> </tr>
     <tr><td>Jonathan Hope</td><td>Data Science Lead</td><td>Central Data Science Team</td><td><a href="https://github.com/JonathanHope42">JonathanHope42</a></td> </tr>

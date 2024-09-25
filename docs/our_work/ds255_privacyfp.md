@@ -9,7 +9,7 @@ tags: ['TEXT DATA', 'LLM','PYTHON', 'PRIVACY', 'NAMED ENTITY RECOGNITION', 'UNST
     This codebase is a proof of concept and is under constant development so should only be used for demonstration purposes within a controlled environment.
 
 <figure markdown>
-![High-level overview of Privacy Fingerprint using open-source models](../images/privfp_diagram.png)
+![](../images/privfp_diagram.png)
 <figcaption>Figure 1: Diagram of the high-level overview of Privacy Fingerprint using open-source models. </figcaption>
 </figure>
 

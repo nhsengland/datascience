@@ -5,6 +5,10 @@ permalink: c339_sas.html
 tags: ['SYNTHETIC DATA', 'GAN','TABULAR DATA']
 ---
 
+![](../images/sas.png)
+
+*Figure 1: Attack diagrams for the currently incorporated scenarios. Scenario 1: Access to the synthetic dataset and a description of the generative model’s architecture and training procedure. Scenario 2: Access to a black box model that can provide unlimited synthetic data, with data realistic of the training distribution gathered by the attacker, which may be an example synthetic dataset released by the researchers.*
+
 An extensible code was developed to apply a suite of adversarial attacks to synthetically generated single table tabular data in order to assess the likely success of attacks and act as a privacy indicator for the dataset.  Using this information then informs the generation and information governance process to ensure the safety of our data.
 
 ## Results

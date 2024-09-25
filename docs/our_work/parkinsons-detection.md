@@ -7,7 +7,7 @@ origin: Skunkworks
 tags: ['PARKINSONS','SYNTHETIC DATA','CLASSIFICATION','DEEP LEARNING', 'PATHOLOGY', 'NEURAL NETWORKS', 'PYTHON']
 ---
 
-![Parkinson's prediction diagram](../images/parkinsons-detection.png)
+![Parkinson's prediction workflow diagram.](../images/parkinsons-detection.png)
 
 "Parkinson's Disease Pathology Prediction" was selected as a project in 2022 following a successful pitch to the AI Skunkworks problem-sourcing programme.
 
@@ -52,8 +52,9 @@ Synthetic staining of the brain slice image refers to taking the original images
 
 The chosen algorithm was a pre-trained type of neural network which had been specifically designed to understand colour, texture and spatial elements of an image. The neural network is provided with hints as to the colours of certain elements in an image. Using this information, and the algorithm’s own understanding of colour, texture and space within images, the algorithm attempts to colour the entire image. The results produced were successful in highlighting α-syn proteins very clearly. Additionally, it was seen that in brain slices without any α-syn proteins, the synthetic staining tended to not incorrectly stain these images. More details on the approach used can be found in the technical report ([here](https://www.biorxiv.org/content/10.1101/2022.08.30.505459v1)).
 
-![Bed allocation screenshot](../images/Parkinsons_synthetic_brain_slices.width-800.png)
-> **Figure 1**: An example of the synthetic staining process. a) the original slide, containing the α-syn proteins stained in a brownish colour b) a processed version of the original slide, filtered for the brownish colour c) the synthetically stained image after the algorithm has been applied to it. The α-syn proteins are now highlighted in a greenish colour.
+![](../images/Parkinsons_synthetic_brain_slices.width-800.png)
+
+***Figure 1**: An example of the synthetic staining process. a) the original slide, containing the α-syn proteins stained in a brownish colour b) a processed version of the original slide, filtered for the brownish colour c) the synthetically stained image after the algorithm has been applied to it. The α-syn proteins are now highlighted in a greenish colour.*
 
 ### Identifying presence of Parkinson’s Disease
 
