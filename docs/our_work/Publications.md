@@ -8,6 +8,16 @@ tags: ['PUBLICATIONS']
 
 List of pre-releases and publications connected to our work
 
+[7] [https://publichealth.jmir.org/2024/1/e46485](https://publichealth.jmir.org/2024/1/e46485)
+
+**The Use of Online Consultation Systems or Remote Consulting in England Characterized Through the Primary Care Health Records of 53 Million People in the OpenSAFELY Platform: Retrospective Cohort Study**
+
+**Martina Fonseca**, Brian MacKenna,  Amir Mehrkar, The OpenSAFELY Collaborative, Caroline E Walters, George Hickman,  **Jonathan Pearson**,  Louis Fisher,  Peter Inglesby,  Seb Bacon,  Simon Davy, William Hulme,  Ben Goldacre,  Ofra Koffman,  Minal Bakhai
+
+*We aimed to explore general practice coding activity associated with the use of Online Consultations (OC) systems in terms of trends, COVID-19 effect, variation, and quality.  The OpenSAFELY platform was used to query and analyze the in situ electronic health records of suppliers The Phoenix Partnership (TPP) and Egton Medical Information Systems, covering >53 million patients in >6400 practices, mainly in 2019-2020.  We successfully queried general practice coding activity relevant to the use of OC systems, showing increased adoption and key areas of variation during the pandemic at both sociodemographic and clinical levels. The work can be expanded to support monitoring of coding quality and underlying activity. This study suggests that large-scale impact evaluation studies can be implemented within the OpenSAFELY platform, namely looking at patient outcomes. *
+
+---
+
 [6] [https://arxiv.org/abs/2403.19802](https://arxiv.org/abs/2403.19802)
 
 **Developing Healthcare Language Model Embedding Spaces**
