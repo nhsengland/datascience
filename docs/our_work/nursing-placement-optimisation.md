@@ -111,7 +111,7 @@ As part of the tool, the final schedule produced is reported in several differen
 - From a ward capacity utilisation perspective, showing the placement coordinator where there is spare capacity if a placement needs to be manually reallocated
 - From a placement hours perspective, providing various summaries of hours across wards, university cohorts and both weekly and quarterly summaries for the mandatory reporting required of the Trust.
 
-![Table with the fake schedule produced, each row ios a different student, then each column is a time, and the different times are filled with the ward names each student is assigned to.](../images/Example_using_fake_data.width-1534.png)
+![Table with the fake schedule produced, each row is a different student, then each column is a time, and the different times are filled with the ward names each student is assigned to.](../images/Example_using_fake_data.width-1534.png)
 > An example schedule produced using fake data.
 
 ### Outcomes and lessons learned

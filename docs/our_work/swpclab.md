@@ -75,7 +75,7 @@ Stay tuned for progress updates and check out our code development on GitHub.
 
 ![](../images/swpc_complex.png)
 
-*Figure 2: Diagram of the potential to expand the tooling in a vairety of ways to increase fidelity of the generated records and include additional modalitieis.*
+*Figure 2: Diagram of the potential to expand the tooling in a vairety of ways to increase fidelity of the generated records and include additional modalities.*
 
 Output|Link
 ---|---
