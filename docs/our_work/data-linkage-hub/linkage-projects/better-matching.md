@@ -23,7 +23,9 @@ Each of these steps requires research into linkage best practice, testing on sam
 We have also added additional configuration to the pipeline to allow for a deduplication task. This is in order to try and identify possible duplicate records in the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service).
 
 Here is an overview of how our pipeline currently looks.
-![Splink linkage pipeline scheme](../../../images/splink_diagram.png)
+
+![Splink linkage pipeline schema, shows the flow of the file system for the pipeline.](../../../images/splink_diagram.png)
+
 
 ## Building a model with transparency in mind
 Users of linked data have to rely on the accuracy of the process created by others as often the process of linking data is not under their control. That is why one of the main focus of the model we are building is transparency of the methods and explainability of the results.

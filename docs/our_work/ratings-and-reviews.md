@@ -13,7 +13,7 @@ Taking a ground truth from expert moderators, our models perform comparably to t
 
 [^1]: Prior to this project, the moderation work was done manually by a third-party company, hired on a fixed-term contract.
 
-![Flow of reviews in automoderation](../images/ratings_reviews/reviews_uk_website_query_diagram_flowchart.excalidraw.png)
+![Flow of reviews in automoderation. From left to right: "review" flows into "NHS.UK" which flows into Rule 1 on Flask, that then flows out into a series of endpoints, a box that says publish and a box that says don't publish. THe end points also have arrows flowing back into the flask app.](../images/ratings_reviews/reviews_uk_website_query_diagram_flowchart.excalidraw.png)
 
 The flow follows four stages:
 

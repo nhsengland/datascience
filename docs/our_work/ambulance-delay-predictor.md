@@ -6,7 +6,7 @@ origin: 'Skunkworks'
 tags: ['AMBULANCE','PREDICTION','RANDOM FOREST', 'CLASSIFICATION', 'TIME SERIES', 'PYTHON']
 ---
 
-![Ambulance Handover Delay Predictor screenshot](../images/ambulance-delay-predictor.png)
+![Ambulance Handover Delay Predictor screenshot showing the handover times expected for different hospitals, with the high times highlighted in orange.](../images/ambulance-delay-predictor.png)
 
 Ambulance Handover Delay Predictor was selected as a project in Q2 2022 following a successful pitch to the AI Skunkworks problem-sourcing programme.
 

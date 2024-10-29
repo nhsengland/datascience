@@ -6,7 +6,7 @@ origin: 'Skunkworks'
 tags: ['AKI','RNN','DEEP LEARNING', 'TIME SERIES', 'NEURAL NETWORKS', 'PYTHON']
 ---
 
-![Renal Health Prediction diagram](../images/renal-health-prediction.png)
+![diagram showing the renal health prediction workflow. At the top there are three boxes that say "electronic observations", "medication data", and "blood test results". All three boxes flow into a box that says "time series data builders (with missing data handling)", which flows into "Machine learning model". This then flows out into a box that says "Time series prediction of: no change, ITU bed, dialysis, Death. At least 24h in advance."](../images/renal-health-prediction.png)
 
 Renal Health Prediction was selected as a project in Spring 2022 following a successful pitch to the AI Skunkworks problem-sourcing programme.
 

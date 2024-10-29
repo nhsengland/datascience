@@ -24,7 +24,8 @@ To increase the likelihood of your pull request being accepted:
 
 - If you are making visual changes, include a screenshot of what the affected element looks like, both before and after.
 - Follow the [style guide][style].
-- Keep your change as focussed as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
+- Follow the [accessibility guidance][https://nhsd-confluence.digital.nhs.uk/pages/viewpage.action?pageId=902212969]. The most important aspects are to include alt text for images that convey meaning, and null alt text for decorative images, colour not being the only way to convey any of the meaning in your content, descriptive heading and labels, and images aren't used as text (if you have images that convey text meaning, they should be SVGs), and any links have a descriptive text, not just "click here" or "link".
+- Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 - Write [good commit messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 
 ## Contribute to NHS England Data Science Website

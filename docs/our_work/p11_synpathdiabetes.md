@@ -1,13 +1,13 @@
 ---
 layout: base
-summary: Exploration work into incorporating learning into a pathway simulator for diabetes.  This work has fed our current SynPathGo project to create synthetic patient pathways and a foundation for agent based modelling in the NHS.
 title: Applying our SynPath Simulator to a Diabetes Pathway
+summary: Exploration work into incorporating learning into a pathway simulator for diabetes.  This work has fed our current SynPathGo project to create synthetic patient pathways and a foundation for agent based modelling in the NHS.
 permalink: p11_synpathdiabetes.html
 tags: ['SIMULATION']
 ---
 
 <figure markdown>
-![](../images/p11fig1.png)
+![Image of a table that compares three types of simulation models. The first type is health economics simulation models in diabetes. Examples include UKPDS (2020), NIHR SPHR Diabetes prevention model (Squires et al., 2016), and the Day model of Diabetic retinopathy (2013). The learnings from these models are the key stages of model building, key elements to include in the pathway, and best practices for conceptualizing a pathway. The second type is simulation models in transport. Examples are bus networks (Xie, Ma et al., 2014) and developments in the field (review) (Kagho, Balac et al., 2020). The learnings include good modeling of timing, such as whether agents optimize their time leaving the house for a commute, and bottleneck and corridor modeling. The third type is evacuation models. An example is modeling evacuation using a neural network (Tkachuk, Song et al., 2018). The main learning is adapting agents to respond to their environment using a neural network.](../images/p11fig1.png)
 <figcaption>Figure 1: Table of learning algorithms considered for the simulation intelligence layer </figcaption>
 </figure>
 

@@ -8,17 +8,15 @@ tags: ['OPTIMISATION','GENETIC ALGORITHM', 'PYTHON']
 
 This project is an example of the AI Skunkworks team offering capability resources to produce proof-of-concepts which could be applicable to the NHS at large. The project ran from January 2022 to May 2022.
 
-![Tool User Interface prior to running](../images/nursing-placement-optimisation/ui-before-running.png)
+**User Interface that is seen upon launching the tool:**
+![Tool User Interface prior to running, shows the different setting boxes you can change before running the tool.](../images/nursing-placement-optimisation/ui-before-running.png)
 
-User Interface that is seen upon launching the tool
+**User Interface while the tool is running:**
+![Tool User Interface during running. Shows last saved schedule details as well as a plot of the distribution of fitness scores for the tested schedules](../images/nursing-placement-optimisation/ui-during-running.png)
 
-![Tool User Interface during running](../images/nursing-placement-optimisation/ui-during-running.png)
+**User Interface after the tool has run:**
+![Tool User Interface after running. Shows last saved schedule details as well as a plot of the distribution of fitness scores for the tested schedules.](../images/nursing-placement-optimisation/ui-after-running.png)
 
-User Interface while the tool is running
-
-![Tool User Interface after running](../images/nursing-placement-optimisation/ui-after-running.png)
-
-User Interface after the tool has run
 
 ## Results
 
@@ -100,9 +98,6 @@ A simple user interface was produced using Streamlit, an interactive interface f
 
 Once all schedules are produced, a comparison table is both displayed and saved down, summarising the various scoring components and helping the user begin to understand which schedule of those produced might be the best.
 
-![Genetic Algorithm Illustration](../images/User_interface.width-1534.png)
-> The User Interface that is seen upon launching the tool.
-
 #### Automating the report
 
 The final benefit of the tool is that insight into the schedules can be easily obtained as the schedules are generated electronically, meaning they can be easily reformatted to provide a different view of the information. As an example, it is straightforward to change a schedule from a format where the placements on each ward are shown, to a format where the placements for each student are shown.
@@ -116,7 +111,7 @@ As part of the tool, the final schedule produced is reported in several differen
 - From a ward capacity utilisation perspective, showing the placement coordinator where there is spare capacity if a placement needs to be manually reallocated
 - From a placement hours perspective, providing various summaries of hours across wards, university cohorts and both weekly and quarterly summaries for the mandatory reporting required of the Trust.
 
-![Genetic Algorithm Illustration](../images/Example_using_fake_data.width-1534.png)
+![Table with the fake schedule produced, each row is a different student, then each column is a time, and the different times are filled with the ward names each student is assigned to.](../images/Example_using_fake_data.width-1534.png)
 > An example schedule produced using fake data.
 
 ### Outcomes and lessons learned

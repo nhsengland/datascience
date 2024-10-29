@@ -6,6 +6,10 @@ origin: 'Skunkworks'
 tags: ['CLASSIFICATION','PREDICTION', 'AI']
 ---
 
+<figure markdown>
+![](../images/nhs-resolution.jpg)
+</figure>
+
 NHS Resolution provides expertise to the NHS on resolving concerns and disputes. The organisation holds a wealth of historic data around claims, giving insight and valuable data around the causes and impacts of harm.
 
 The NHS Resolution team wanted to understand whether AI methods could be applied to their data to better understand and identify risk, preventing harm and saving valuable resources.
@@ -97,7 +101,7 @@ Future improvements to both the data and the model would provide a more accurate
 
 Output|Link
 ---|---
-Case Study|https://transform.england.nhs.uk/ai-lab/explore-all-resources/understand-ai/using-ai-to-support-nhs-resolution-with-negligence-claims-prediction/
+Case Study| [NHSE Transformation Site](https://transform.england.nhs.uk/ai-lab/explore-all-resources/understand-ai/using-ai-to-support-nhs-resolution-with-negligence-claims-prediction/)
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #

@@ -32,6 +32,11 @@
   height: auto;
 }
 
+a {
+  min-height:24px;
+  min-width: 24px;
+}
+
 .md-header__button.md-logo-nhs :is(img, svg) {
   width: 85px !important;
   height: auto !important;
@@ -39,6 +44,14 @@
 
 code {
   background: #e5f1fa !important;
+}
+
+#myTable {
+  width:100%;
+}
+
+.about {
+  text-align: center;
 }
 
 .footer {
@@ -56,6 +69,12 @@ code {
 
 .footer a {
   color: #005eb8;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 1vh;
+  min-width:24px;
+  min-height: 24px;
+  display: inline-block;
 }
 
 .footer_left p {

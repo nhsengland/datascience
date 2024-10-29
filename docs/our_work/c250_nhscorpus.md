@@ -5,7 +5,7 @@ permalink: c250_nhscorpus.html
 tags: ['NLP']
 ---
 
-![Ingest, Enrich, Share](../images/c250fig1.png)
+![Ingest box containing the logo for scrapy and a screenshot of the NHS.uk website, Enrich box including logos for Helin, brat, and doccan, Share box including huggingface, database. Under the boxes there are the docker, SQLPad, elasticsearch and caddy logos.](../images/c250fig1.png)
 <figcaption>Figure 1: Open source tools used in each functional setting</figcaption>
 
 We aimed to explore how to build an Open, Representative, Extensible and Useful set of tools to curate, enrich and share sources of healthcare text data in an appropriate manner.

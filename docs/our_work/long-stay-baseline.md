@@ -15,7 +15,7 @@ Baseline models provide a mechanism to generate baseline metrics to assess the p
 
 A series of Jupyter Notebooks used to generate this report are available on [Github](https://github.com/nhsx/skunkworks-long-stayer-risk-stratification-baseline/tree/main/notebooks).
 
-## 1. Background<a name='background'></a>
+## 1. Background
 
 Hospital long stayers, those with a <a href='https://www.england.nhs.uk/urgent-emergency-care/reducing-length-of-stay/' target='_blank'>length of stay (LoS) of 21 days or longer</a>, have significantly worse medical and social outcomes than other patients. Long-stayers are often medically optimised (fit for discharge) many days before their actual discharge. Moreover, there are a complex mixture of medical, cultural and socioeconomic factors which contribute to the causes of unnecessary long stays.
 
@@ -26,7 +26,7 @@ This project aims to complement [previous work](long-stay.md) by generating simp
 
 Currently, this project has completed **Phase 1**.
 
-## 2. Approach<a name='approach'></a>
+## 2. Approach
 
 The aim of this project is to perform the simplest possible feature engineering and modelling to arrive at a reasonable baseline model, for more advanced feature engineering and modelling to be compared against.
 
@@ -39,13 +39,13 @@ The approach involved:
 5. A comparison of regression-based and classification-based risk stratification models
 6. A set of extensions for future work
 
-## 3. Data ingest and processing<a name='dataingestandprocessing'></a>
+## 3. Data ingest and processing
 
 GHNHSFT performed a SQL export from their EPR system containing ~770,000 records across 99 columns, with significant sparsity across several columns and a section of rows, as visualised by light coloured blocks (null values) in the below image:
 
-![Image of data sparsity](../images/long-stay-baseline/sparsity.png)
+![Plot showing a visual representation of the null values in each of the data columns.](../images/long-stay-baseline/sparsity.png)
 
-> Figure 1. Plot of data sparsity of raw data. Null values are light coloured blocks. (_Note that not all columns are labelled_)
+*Figure 1. Plot of data sparsity of raw data. Null values are light coloured blocks. (_Note that not all columns are labelled_)*
 
 The population for this study was defined as non-elective, major cases as recorded in the `IS_MAJOR` and `elective_or_non_elective` fields.
 
@@ -53,7 +53,7 @@ Filtering the dataset to this definition resulted in a reduction of ~770,000 row
 
 ![Image of data sparsity - major cases](../images/long-stay-baseline/sparsity-major.png)
 
-> Figure 2. Plot of data sparsity of "major" cases. Null values are light coloured blocks. (_Note that not all columns are labelled_)
+*Figure 2. Plot of data sparsity of "major" cases. Null values are light coloured blocks. (_Note that not all columns are labelled_)*
 
 Data was processed by:
 
@@ -70,23 +70,23 @@ This resulted in ~170,000 rows across ~50 columns as visualised in the below ima
 
 ![Image of data sparsity of "clean" data](../images/long-stay-baseline/sparsity-clean.png)
 
-> Figure 3. Plot of data sparsity of clean data. Null values are light coloured blocks. (_Note that not all columns are labelled_)
+*Figure 3. Plot of data sparsity of clean data. Null values are light coloured blocks. (_Note that not all columns are labelled_)*
 
 The resulting data dictionary is available [here](https://github.com/nhsx/skunkworks-long-stayer-risk-stratification-baseline/blob/main/docs/data-dictionary.csv).
 
 Additionally, Length of Stay was capped to 30 days, due to a long tail of long stayers over ~15 days and the definition of long stayer being over 21 days. The effect of capping can be visualised by comparing box plots of the distribution of length of stay on the raw data (left image, y scale up to 300 days) and the capped data (right image, y scale up to 30 days):
 
-<p align="center">![Boxplot of length of stay](../images/long-stay-baseline/los-boxplot.png)</p>
+![Boxplot of length of stay](../images/long-stay-baseline/los-boxplot.png)
 
-> Figure 4. Plot of the distribution of long stayers in the raw (left) data and capped (right) data. Note different y scales.
+*Figure 4. Plot of the distribution of long stayers in the raw (left) data and capped (right) data. Note different y scales.*
 
 The resulting distribution of length of stays shows a ~bimodal distribution caused by the capping - the majority of stays are short (&lt;5 days), which a long tail and population of long stayers:
 
-<p align="center">![Density plot of length of stay](../images/long-stay-baseline/los-density.png)</p>
+![Density plot of length of stay](../images/long-stay-baseline/los-density.png)
 
-> Figure 5. Plot of density of length of stay for capped data.
+*Figure 5. Plot of density of length of stay for capped data.*
 
-## 4. Feature engineering<a name='featureengineering'></a>
+## 4. Feature engineering
 
 After discussion with GHNHSFT, the following decisions were made in feature selection:
 
@@ -137,7 +137,7 @@ This resulted in a dataset of **~170,000 rows across 30 columns**.
 
 One-hot encoding was performed for categorical variables, but non-one-hot encoded features were also kept for models like CatBoost which [manage categorical variables themselves](https://catboost.ai/en/docs/features/categorical-features).
 
-### 5. Statistical analysis<a name='statisticalanalysis'></a>
+### 5. Statistical analysis
 
 In order to select appropriate modelling approaches, some basic statistical analysis was conducted to understand normality and inter-correlation of the selected features.
 
@@ -147,9 +147,9 @@ Correlation analysis confirmed presence of significant **collinearity** between 
 
 Top 20 one-hot encoded features correlated with `LENGTH_OF_STAY`, ranked by absolute correlation, were:
 
-![Plot of correlations with LENGTH_OF_STAY](../images/long-stay-baseline/correlation.png)
+![Plot of correlations of other columns with LENGTH_OF_STAY](../images/long-stay-baseline/correlation.png)
 
-> Figure 6. Plot of top 20 correlated features with `LENGTH_OF_STAY`. Blue columns are positively correlated (ie. increase length of stay) and red columns are negatively correlated (ie. reduce length of stay).
+*Figure 6. Plot of top 20 correlated features with `LENGTH_OF_STAY`. Blue columns are positively correlated (ie. increase length of stay) and red columns are negatively correlated (ie. reduce length of stay).*
 
 These indicate that age and age-related illness, as well as arrival mode are strong factors in determining length of stay.
 
@@ -163,13 +163,13 @@ A basic ordinary least squares (OLS) regression model was fitted to the full fea
 
 Residuals failed Shapiro-Wilk, Kolmogorov-Smirnov and Anderson-Darling tests for normality, as well as visual inspection:
 
-![Plot of residuals for OLS model of length of stay](../images/long-stay-baseline/residuals.jpeg)
+![](../images/long-stay-baseline/residuals.jpeg)
 
-> Figure 7. Plot of residuals (errors) in an OLS model of length of stay for all data.
+*Figure 7. Plot of residuals (errors) in an OLS model of length of stay for all data.*
 
 OLS methods were therefore excluded from modelling.
 
-## 6. Modelling<a name='modelling'></a>
+## 6. Modelling
 
 The machine learning modelling approach was as follows:
 
@@ -181,9 +181,9 @@ The machine learning modelling approach was as follows:
 6. Tune the best performing model using cross-validation on the training and validation set
 7. Report the final performance of the model using the test set
 
-![Summary of machine learning approach](../images/long-stay-baseline/ml-approach.png)
+![Summary of machine learning approach, starts with full dataset, that flows fown into 70% training data, 15% validation data, and 15% test data. Training data box flows into "Train baseline models and "Tune final model". Validation data box flows into "Evaluate best baseline model" and "Tune final model". Test data box flows into "evaluate final model".](../images/long-stay-baseline/ml-approach.png)
 
-> Figure 8. Summary of machine learning approach used in this project.
+*Figure 8. Summary of machine learning approach used in this project.*
 
 Training, validation and test splits were representative of the population and did not introduce selection bias:
 
@@ -191,13 +191,9 @@ Training, validation and test splits were representative of the population and d
 
 ![Distribution of length of stay by data split](../images/long-stay-baseline/split-los.png)
 
-> Figure 9. Distribution of length of stay by data split.
-
 **Age**
 
 ![Distribution of age by data split](../images/long-stay-baseline/split-age.png)
-
-> Figure 10. Distribution of age by data split.
 
 **Sex**
 
@@ -219,7 +215,7 @@ validate: [0.88, 0.05, 0.03, 0.02, 0.01, 0.01, 0.01, 0.0, ...]
 test: [0.87, 0.05, 0.02, 0.02, 0.01, 0.01, 0.0, 0.0, ...]
 ```
 
-### 6.1 Regression models<a name='regressionmodels'></a>
+### 6.1 Regression models
 
 A range of baseline regression models were selected:
 
@@ -251,15 +247,15 @@ A single metric (e.g. RMSE) does not capture the behaviour of each model, so we 
 
 ![Plots of predicted vs actual and corresponding errors on the training dataset](../images/long-stay-baseline/regression-predicted-actuals-training.png)
 
-> Figure 11. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the training dataset.
+*Figure 11. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the training dataset.*
 
 The RandomForest model appears to fit the training data well, but when compared with the performance on the validation set below, we can see this is due to overfitting on the training data set:
 
 **Validation performance:**
 
-![Plots of predicted vs actual and corresponding errors on the validation dataset](../images/long-stay-baseline/regression-predicted-actuals-validation.jpeg)
+![](../images/long-stay-baseline/regression-predicted-actuals-validation.jpeg)
 
-> Figure 12. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the validation dataset.
+*Figure 12. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the validation dataset.*
 
 In all cases, the poor predictive power at higher length of stays is evident - there appears to be a linear increase in error caused by the models' inability to predict higher length of stays.
 
@@ -283,19 +279,21 @@ The test MAE of 4.12 days compares reasonably well to the previous work using a 
 
 However, a plot of predicted vs actual using the test dataset shows again the model's inability to capture long stayers:
 
-![Plots of predicted vs actual and corresponding errors for the final model - test set](../images/long-stay-baseline/regression-predicted-actuals-final-model-test.jpeg)
-> Figure 13. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the test dataset for the final model.
+![](../images/long-stay-baseline/regression-predicted-actuals-final-model-test.jpeg)
+
+*Figure 13. Plots of predicted vs actual (left, red dashed line shows ideal model) and corresponding relative errors (right, red solid line shows mean error with 95% limits of agreement in green dashed lines) on the test dataset for the final model.*
 
 We can still explore the most important features that make up the prediction by plotting feature importances of the final model:
 
-![Feature importances the final model](../images/long-stay-baseline/regression-feature-importance.png)
-> Figure 14. Feature importances for the final regression model.
+![](../images/long-stay-baseline/regression-feature-importance.png)
+
+*Figure 14. Feature importances for the final regression model.*
 
 These broadly align with the correlated features explored earlier on - namely, age, arrival mode, serious illness but also include the number of previous visits, which can be considered a proxy for serious illness itself.
 
 Because the final model, using CatBoost, does not include one-hot encoding of the categorical data as CatBoost deals with this internally, we don't have further granularity on admission mode and arrival mode to compare.
 
-### 6.2 Demographic analysis<a name='demographicanalysis'></a>
+### 6.2 Demographic analysis
 
 While the model is not performant enough to deploy into production, it is still important to understand whether or not the model incorporates bias into its predictions.
 
@@ -311,52 +309,60 @@ The specific categories are:
 
 Before looking at model performance, we need to understand how represented each category is, before drawing conclusions on categories with small sample size (note that for brevity we will only share results from `"ETHNIC_CATEGORY_CODE_DESCRIPTION", "IMD county decile","PATIENT_GENDER_CURRENT_DESCRIPTION"`):
 
-![Underlying counts for ethnicity - all data](../images/long-stay-baseline/los-dist-ethnicity.png)
-> Figure 15. Underlying counts for ethnicity - all data.
+![Counts for ethnicity code, with the largest being British by a large margin, then Not stated, then any other white background.](../images/long-stay-baseline/los-dist-ethnicity.png)
+
+*Figure 15. Underlying counts for ethnicity - all data.*
 
 We can see that for `ETHNIC_CATEGORY_CODE_DESCRIPTION`, the overwhelming majority of patients report `British`. We should be careful what conclusions we draw in further analysis about smaller categories, as the sample size will be very small and likely not statistically representative.
 
-![Underlying counts for sex - all data](../images/long-stay-baseline/los-dist-sex.png)
-> Figure 16. Underlying counts for sex - all data.
+![](../images/long-stay-baseline/los-dist-sex.png)
+
+*Figure 16. Underlying counts for sex - all data.*
 
 Sex is broadly equal, with slightly more female than male patients in this dataset.
 
-![Underlying counts for index of multiple deprivation - all data](../images/long-stay-baseline/los-dist-imd.png)
-> Figure 17. Underlying counts for index of multiple deprivation - all data
+![](../images/long-stay-baseline/los-dist-imd.png)
+
+*Figure 17. Underlying counts for index of multiple deprivation - all data*
 
 Index of Multiple Deprivation (IMD) deciles are skewed to the lower end, ie. there are more deprived patients present in this dataset than not.
 
 Now we can look at the distribution of length of stay for the above categories:
 
-![Underlying length of stay by ethnicity - all data](../images/long-stay-baseline/los-mean-los-ethnicity.png)
-> Figure 18. Underlying length of stay by ethnicity - all data.
+![](../images/long-stay-baseline/los-mean-los-ethnicity.png)
+
+*Figure 18. Underlying length of stay by ethnicity - all data.*
 
 There is significant variation of length of stay for different ethnic groups, for example with White and black Caribbean patients having a length of stay of 2.6 days on average, versus 6.0 days for Irish patients. However, as discussed previously, the count of these groups is 560 and 892 individuals respectively so further statistical hypothesis tests need to be conducted to understand if the distributions are truly different (e.g. a two-sided Kolmogorov-Smirnov test).
 
-![Underlying length of stay by sex - all data](../images/long-stay-baseline/los-mean-los-sex.png)
-> Figure 19. Underlying length of stay by sex - all data.
+![](../images/long-stay-baseline/los-mean-los-sex.png)
+*Figure 19. Underlying length of stay by sex - all data.*
 
 Mean length of stay is almost identical across patient sex.
 
-![Underlying length of stay by index of multiple deprivation - all data](../images/long-stay-baseline/los-mean-los-imd.png)
-> Figure 20. Underlying length of stay by index of multiple deprivation - all data.
+![](../images/long-stay-baseline/los-mean-los-imd.png)
+
+*Figure 20. Underlying length of stay by index of multiple deprivation - all data.*
 
 There are small variations in length of stay across IMD deciles, although more tests need to be conducted to understand if these differences are statistically significant.
 
 Because we are interested in if the model performs differently by category, we will plot the error of the predictions of the test dataset relative to the overall (mean) error for all categories. This will help identify potential discrimination in model performance.
 
-![Relative error in length of stay predictions for different ethnic groups - test data](../images/long-stay-baseline/los-rel-error-ethnicity.png)
-> Figure 21. Relative error in length of stay predictions for different ethnic groups - test data.
+![](../images/long-stay-baseline/los-rel-error-ethnicity.png)
+
+*Figure 21. Relative error in length of stay predictions for different ethnic groups - test data.*
 
 The model appears to perform significantly worse for Caribbean (overestimating length of stay by 2.7 days compared to the mean error) and Any other mixed background (underestimating length of stay by 1.8 days compared to the mean error). Sample sizes are 719 and 536 patients respectively. As discussed the small sample sizes need further investigation and/or additional data collection to establish the statistical significance of this performance difference.
 
-![Relative error in length of stay predictions for different sex - test data](../images/long-stay-baseline/los-rel-error-sex.png)
-> Figure 22. Relative error in length of stay predictions for different sex - test data.
+![](../images/long-stay-baseline/los-rel-error-sex.png)
+
+*Figure 22. Relative error in length of stay predictions for different sex - test data.*
 
 Sex has almost no (0.002 days) error from the average.
 
-![Relative error in length of stay predictions for different index of multiple deprivations deciles - test data](../images/long-stay-baseline/los-rel-error-imd.png)
-> Figure 23. Relative error in length of stay predictions for different index of multiple deprivations deciles - test data.
+![](../images/long-stay-baseline/los-rel-error-imd.png)
+
+*Figure 23. Relative error in length of stay predictions for different index of multiple deprivations deciles - test data.*
 
 The lowest IMD county decile (1) has an error of 0.5 days underestimating from the mean error, which at under a day may not lead to any difference in treatment if this prediction is used in clinical practice (ie. a length of stay of 1.5 days is the same as a length of stay of 2.0 days - both would count as 2 whole days).
 
@@ -364,7 +370,7 @@ We also know that length of stay varies by group, so further plots of the ratio 
 
 The final model generated did not adequately capture length of stay across the population. Some sample sizes of demographic groups were too small to draw conclusions, but the process of exploring the underlying distribution of the target feature (length of stay), count (n) and model performance were important and should remain part of future work.
 
-### 6.3 Classification models<a name='classificationmodels'></a>
+### 6.3 Classification models
 
 In addition to predicting the length of stay in days, we are also interested in stratifying the risk of a patient becoming a long stayer. This can be inferred from their predicted length of stay (see [model comparison](#modelcomparison)), but we can also train a classification model to do this directly.
 
@@ -428,8 +434,9 @@ A visual inspection of model performance, plotting both total counts of risk cat
 
 **Training performance:**
 
-![Plots of predicted vs actual risks on the training dataset](../images/long-stay-baseline/clf-predicted-actuals-training.png)
-> Figure 24. Plots of predicted vs actual risks on the training dataset. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.
+![](../images/long-stay-baseline/clf-predicted-actuals-training.png)
+
+*Figure 24. Plots of predicted vs actual risks on the training dataset. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.*
 
 We can see that both the DecisionTree and RandomForest models severely overfit the training data.
 
@@ -437,8 +444,9 @@ We also see that none of the models are able to capture the nature of the highes
 
 **Validation performance:**
 
-![Plots of predicted vs actual risks on the validation dataset](../images/long-stay-baseline/clf-predicted-actuals-validation.png)
-> Figure 25. Plots of predicted vs actual risks on the validation dataset. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.
+![](../images/long-stay-baseline/clf-predicted-actuals-validation.png)
+
+*Figure 25. Plots of predicted vs actual risks on the validation dataset. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.*
 
 The RandomForest model has an anomaly in its predictions for risk category 4 where it is missing any of the highest risk category 5 compared to other predictions. This is likely due to the overfitting observed in the previous plot.
 
@@ -462,29 +470,31 @@ CatBoost (tuned)|0.61|0.75|0.60|0.27|0.70
 
 Balanced accuracy was determined as 0.27, a poor result for accurately predicting the correct class. The overall Area Under the receiving operator characteristic Curve (AUC), which was calculated as a weighted one-versus-rest metric, was 0.70.
 
-![Plots of predicted vs actual for the final model - test set](../images/long-stay-baseline/clf-predicted-actuals-final-model-test.png)
-> Figure 26. Plots of predicted vs actual risks on the test dataset for the final model. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.
+![](../images/long-stay-baseline/clf-predicted-actuals-final-model-test.png)
+
+*Figure 26. Plots of predicted vs actual risks on the test dataset for the final model. Left image shows count of actual and predicted risks for each category. Right image shows proportion of actual risk that makes up each predicted risk category.*
 
 The final model still assigns over 50% of the lower risk class (the most populated class) to every predicted class, which would lead to a high number of false positives. It also fails to capture the highest risk class adequately, leading to a high number of false negatives.
 
 Despite the poor performance, we can still explore the most important features that make up the prediction by plotting feature importances of the final model:
 
-![Feature importances the final model](../images/long-stay-baseline/clf-feature-importance.png)
-> Figure 27. Feature importances for the final regression model.
+![](../images/long-stay-baseline/clf-feature-importance.png)
+
+*Figure 27. Feature importances for the final regression model.*
 
 In this case, `arrival_month_name` and `arrival_day_of_week` are the two most important features, which differs from the regression model and correlation analysis. This may be why the false positive and false negative rates for the model are so high, and needs further exploration.
 
 Demographic analysis of the risk stratification model was not conducted as the model performance did not justify exploring whether there was representation bias at this stage.
 
-### 6.4 Model comparison<a name='modelcomparison'></a>
+### 6.4 Model comparison
 
 As a final modelling step, we can compare both the regression models and classification models, by encoding the predicted length of stay from the regression model as a corresponding risk.
 
 This comparison may help us understand whether a classification or regression approach is more suitable for this type of data.
 
-![Comparison of both models](../images/long-stay-baseline/model-comparison.png)
+![](../images/long-stay-baseline/model-comparison.png)
 
-Figure 28. Comparison of both models. Left image shows proportion of actual risk for each predicted risk category for the classification model. Right image shows proportion of actual risk for each equivalent predicted risk category derived from the regression model.
+*Figure 28. Comparison of both models. Left image shows proportion of actual risk for each predicted risk category for the classification model. Right image shows proportion of actual risk for each equivalent predicted risk category derived from the regression model.*
 
 Here we can see that the regression model, encoded as a risk stratification model, performs much better than the classification approach:
 
@@ -493,7 +503,7 @@ Here we can see that the regression model, encoded as a risk stratification mode
 
 If risk stratification is the key desired output, then further refining the regression model may be the better approach to improving the overall performance of the system.
 
-## 7. Conclusions<a name='conclusions'></a>
+## 7. Conclusions
 
 A number of baseline machine learning models were trained on EPR data from GHNHSFT.
 
@@ -513,7 +523,7 @@ Demographic analysis showed that the model performed differently for different e
 
 There is opportunity for much future work, which should be balanced with the utility of these predictions in the clinical context.
 
-## 8. Future work<a name='futurework'></a>
+## 8. Future work
 
 ### Modelling improvements
 
