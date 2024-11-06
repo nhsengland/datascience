@@ -3,7 +3,7 @@ title: 'AI Dictionary'
 summary: 'A simple dictionary of common AI terms with a health and care context.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags : ['AI', 'DICTIONARY', 'JAVASCRIPT', 'REACT']
+tags : ['AI', 'DOCUMENTATION', 'JAVASCRIPT', 'REACT', 'HTML', 'CSS']
 ---
 
 [![AI Dictionary](../images/ai-dictionary.png)](https://nhsx.github.io/ai-dictionary)

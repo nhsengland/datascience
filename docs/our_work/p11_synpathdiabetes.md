@@ -3,7 +3,7 @@ layout: base
 summary: Exploration work into incorporating learning into a pathway simulator for diabetes.  This work has fed our current SynPathGo project to create synthetic patient pathways and a foundation for agent based modelling in the NHS.
 title: Applying our SynPath Simulator to a Diabetes Pathway
 permalink: p11_synpathdiabetes.html
-tags: ['SIMULATION']
+tags: ['SIMULATION', 'SYNTHETIC DATA']
 ---
 
 <figure markdown>

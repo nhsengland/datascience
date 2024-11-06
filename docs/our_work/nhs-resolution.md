@@ -3,7 +3,7 @@ title: 'Predicting negligence claims with NHS Resolution'
 summary: 'This project investigated whether it is possible to use machine learning AI to predict the number of claims a trust is likely to receive and learn what drives them in order to improve safety for patients.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['CLASSIFICATION','PREDICTION', 'AI']
+tags: ['CLASSIFICATION','FORECASTING', 'AI']
 ---
 
 NHS Resolution provides expertise to the NHS on resolving concerns and disputes. The organisation holds a wealth of historic data around claims, giving insight and valuable data around the causes and impacts of harm.

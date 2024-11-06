@@ -3,7 +3,7 @@ title: "Developing Artificial Primary Care Records"
 summary: "Creating an artificial longitudinal patient dataset for GPs to trial new technologies in an artificial GP environment."
 category: "Playbook"
 origin: ""
-tags: ["GENERATION","SYNTHETIC DATA","PYTHON","PRIMARY CARE"]
+tags: ["GENERATION","SYNTHETIC DATA","PYTHON","PRIMARY CARE", 'SIMULATION']
 ---
 
 Primary care records are crucial for understanding healthcare interactions at both the population and individual levels. However, these records are difficult to obtain and integrate with other services, hindering innovation due to data unavailability and privacy concerns.

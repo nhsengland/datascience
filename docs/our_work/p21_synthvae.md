@@ -3,7 +3,7 @@ layout: base
 title: Developing our SynthVAE code
 permalink: p21_synthvae2.html
 summary: Improving our variational autoencoder to consider fairness and to run on non-gaussian distributions
-tags: ['VAE', 'PYTHON', 'GAUSSIAN MIXTURE MODEL', 'DAG']
+tags: ['NEURAL NETWORKS', 'PYTHON', 'MIXTURE MODEL', 'DAG', 'SYNTHETIC DATA']
 ---
 
 Continuation of the previous development of our variational autoencoder (VAE) to correct for an error discovered since the last project finished.  This error appears when trying to generate data for continuous variables which follow non-Gaussian distributions.  Previously, standard scaling had been used to normalise these variables which was causing the non-gaussian variables to be synthesised poorly.  This was replaced with a Gaussian mixture model from the RDT python library to scale and transform these variables into ones with a Gaussian distribution.
