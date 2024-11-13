@@ -3,7 +3,7 @@ title: 'CT Alignment and Lesion Detection'
 summary: 'A range of classical and machine learning computer vision techniques to align and detect lesions in anonymised CT scans over time from George Eliot Hospital NHS Trust.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['CT','COMPUTER VISION','IMAGE REGISTRATION','PYTHON', 'ACCURACY]
+tags: ['CT','COMPUTER VISION','PYTHON', 'ACCURACY]
 ---
 
 ![CT Alignment and Lesion Detection screenshot](../images/ct-alignment.png)

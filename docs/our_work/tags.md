@@ -25,13 +25,13 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Codin
     ---
 
     * [MIMIC](#mimic)
-    * [CatBoost](#catboosrt)
+    * [CatBoost](#catboost)
     * [Kedro](#kedro)
     * [Medcat](#medcat)
     * [Secure Data Environment](#SDE)
     * [PyTorch](#pytorch)
     * [React.js](#react)
-    * [Sail](#sail)
+    * [SAIL](#sail)
     * [Trusted Research Environment](#TRE)
 
 -   :material-domain:{ .lg .middle } __Domain Areas__
@@ -42,7 +42,6 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Codin
     * [Ambulances](#ambulance)
     * [CT](#CT)
     * [Hospitals](#hospital)
-    * [Lesion Detection](#lesion-detection)
     * [Length of Stay](#los)
     * [Mortality](#mortality)
     * [Parkinsons](#parkinsons)
@@ -55,31 +54,17 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Codin
 
     ---
 
-    * [AI](#AI)
     * [Forecasting](#forecasting)
-    * [Gradient Boosting](#gradient-boosting)
     * [Classification](#classification)
     * [Computer Vision](#computer-vision)
     * [Deep Learning](#deep-learning)
-    * [Generative Adversarial Network (GAN)](#gan)
-    * [Mixture Model](#mixture-model)
-    * [Genetic Algorithm](#genetic-algorithm)
-    * [Greedy Algorithm](#greedy-algorithm)
-    * [Hypergraphs](#hypergraphs)
-    * [Image Registration](#image-registration)
     * [LLM](#LLM)
     * [Machine Learning](#machine-learning)
-    * [Monte Carlo](#monte-carlo)
     * [Neural Networks](#neural-networks)
     * [Natural Language Processing (NLP)](#NLP)
-    * [Probabilistic Linkage](#probabilistic-linkage)
-    * [Random Forest](#random-forest)
-    * [Regression Models](#regression)
-    * [Web Scraping](#scraping)
+    * [Linkage](#linkage)
     * [Simulation](#simulation)
-    * [Topic Modelling](#topic-modelling)
-    * [Direct Acylic Graph](#DAG)
-   
+
 -   :material-projector-screen:{ .lg .middle } __Project Type (exploratory, modeling, etc.)__
 
     ---

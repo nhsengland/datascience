@@ -3,7 +3,7 @@ title: 'Probabilistic Linkage Model'
 summary: 'This project is creating a probabilistic linkage model using Splink, in order to improve linkage outcomes, and by extension, patient outcomes. The aim is for this to be used to link data in a range of NHS datasets.'
 category: 'Projects'
 origin: 'NHSD'
-tags: ['LINKAGE', 'PYTHON', 'PROBABILISTIC LINKAGE', 'PII']
+tags: ['LINKAGE', 'PYTHON', 'PII']
 ---
 
 ## Crafting a model that suits NHS England data linkage needs

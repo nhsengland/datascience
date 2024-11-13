@@ -3,7 +3,7 @@ title: 'NHS AI Lab Skunkworks'
 summary: 'The NHS AI Lab Skunkworks team demonstrates the potential for AI in health and social care through practical experience'
 category: 'Overview'
 origin: 'Skunkworks'
-tags: ['CLASSIFICATION','LESION DETECTION','AI', 'PYTHON']
+tags: ['CLASSIFICATION', 'PYTHON']
 ---
 
 !!! info

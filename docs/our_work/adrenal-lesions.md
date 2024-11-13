@@ -3,7 +3,7 @@ title: 'Using deep learning to detect adrenal lesions in CT scans'
 summary: 'This project explored whether applying AI and deep learning augment the detection of adrenal incidentalomas in patients’ CT scans.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['CLASSIFICATION','LESION DETECTION','COMPUTER VISION','AI', 'ACCURACY']
+tags: ['CLASSIFICATION','COMPUTER VISION', 'ACCURACY']
 ---
 
 <figure markdown >
