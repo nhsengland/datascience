@@ -10,7 +10,7 @@
     }
 </script>
 
-<button class="hero md-button md-button--primary" onclick="randomSite()" >Take me to a random project :material-puzzle:</button> [Explore our projects by topic :fontawesome-solid-tags:](./tags.md){ .md-button }
+<button class="hero md-button md-button--primary" onclick="randomSite()" >Take me to a random project :material-puzzle:</button> [Explore our projects by categories & tags :fontawesome-solid-tags:](./tags.md){ .md-button }
 
 <p align="center">
   <img src="../images/ourwork.jpeg" width=700></img>

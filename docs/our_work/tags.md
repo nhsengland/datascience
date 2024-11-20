@@ -1,6 +1,6 @@
 # Project Tags
 
-Below the tags are sorted by **categories** (Project Status, Data Sources, Coding Libraries & Platforms, Domain Areas, Techniques, Coding Language, Data Types, Evaluation Metrics, and Project Type), however if you would like an **alphabetical list** of all of the tags it can be found [here](#ai)
+Below the tags are sorted by **categories** (Project Status, Data Sources, Domain Areas, Techniques, Coding Language, Data Types, Evaluation Metrics, and Project Type), however if you would like an **alphabetical list** of all of the tags it can be found [here](#accuracy)
 
 <div class="grid cards" markdown>
 
@@ -12,27 +12,30 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Codin
     * [Complete](#complete)
     * [On Pause](#paused)
 
--   :material-table:{ .lg .middle } __Data Sources__
+
+-   :material-language-python:{ .lg .middle } __Coding Language__
 
     ---
-    
-    * [MIMIC](#mimic)
-    * [OpenSafely](#opensafely)
-    * [Synthetic Data](#synthetic-data)
+    * [Python](#python)
+    * [SQL](#sql)
+    * [R](#r)
+    * [JavaScript](#javascript)
+    * [HTML](#html)
+    * [CSS](#css)
 
--   :fontawesome-solid-computer:{ .lg .middle } __Coding Libraries & Platforms__
+-   :octicons-database-16:{ .lg .middle } __Data Types__
 
     ---
 
-    * [MIMIC](#mimic)
-    * [CatBoost](#catboost)
-    * [Kedro](#kedro)
-    * [Medcat](#medcat)
-    * [Secure Data Environment](#SDE)
-    * [PyTorch](#pytorch)
-    * [React.js](#react)
-    * [SAIL](#sail)
-    * [Trusted Research Environment](#TRE)
+    * [Structured](#structured-data)
+    * [Multi-modal](#multi-modal)
+    * [Patient Identifiable](#pii)
+    * [Synthetic](#synthetic-data)
+    * [Tabular](#tabular-data)
+    * [Text Data](#text-data)
+    * [Time Series](#time-series)
+    * [Unstructured](#unstructured-data)
+
 
 -   :material-domain:{ .lg .middle } __Domain Areas__
 
@@ -40,7 +43,7 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Codin
 
     * [Acute Kidney Injury](#aki)
     * [Ambulances](#ambulance)
-    * [CT](#CT)
+    * [CT](#ct)
     * [Hospitals](#hospital)
     * [Length of Stay](#los)
     * [Mortality](#mortality)
@@ -58,10 +61,10 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Codin
     * [Classification](#classification)
     * [Computer Vision](#computer-vision)
     * [Deep Learning](#deep-learning)
-    * [LLM](#LLM)
+    * [Large Language Models (LLM)](#llm)
     * [Machine Learning](#machine-learning)
     * [Neural Networks](#neural-networks)
-    * [Natural Language Processing (NLP)](#NLP)
+    * [Natural Language Processing (NLP)](#nlp)
     * [Linkage](#linkage)
     * [Simulation](#simulation)
 
@@ -77,31 +80,18 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Codin
     * [Generation](#generation)
     * [Linkage](#linkage)
     * [Modelling](#modelling)
-    * [Reproducible Analytical Pipeline (RAP)](#RAP)
+    * [Reproducible Analytical Pipeline (RAP)](#rap)
     * [Research](#research)
     
--   :material-language-python:{ .lg .middle } __Coding Language__
+
+
+-   :material-table:{ .lg .middle } __Data Sources__
 
     ---
-    * [Python](#python)
-    * [SQL](#sql)
-    * [R](#R)
-    * [JavaScript](#javascript)
-    * [HTML](#HTML)
-    * [CSS](#CSS)
-
--   :octicons-database-16:{ .lg .middle } __Data Types__
-
-    ---
-
-    * [Structured](#structured-data)
-    * [Multi-modal](#multi-modal)
-    * [Patient Identifiable](#pii)
-    * [Synthetic](#synthetic-data)
-    * [Tabular](#tabular-data)
-    * [Text Data](#text-data)
-    * [Time Series](#time-series)
-    * [Unstructured](#unstructured-data)
+    
+    * [MIMIC](#mimic)
+    * [OpenSafely](#opensafely)
+    * [Synthetic Data](#synthetic-data)
 
 -   :simple-ticktick:{ .lg .middle } __Evaluation Metrics__
 
@@ -109,7 +99,7 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Codin
 
     * [F1](#f1)
     * [Accuracy](#accuracy)
-    * [LIME](#LIME)
+    * [LIME](#lime)
     * [Model Class Reliance](#mcr)
 
 </div>

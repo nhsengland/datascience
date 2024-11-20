@@ -3,7 +3,7 @@ layout: base
 title: Inequalities in Diabetes from PHM Data
 permalink: p32_phmdiabetes.html
 summary: How to extract inequalities information from linked population health management data
-tags: ['MACHINE LEARNING', 'CATBOOST', 'PYTHON']
+tags: ['MACHINE LEARNING', 'PYTHON']
 ---
 
 ![](../images/p32fig1.png)
