@@ -82,24 +82,5 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Domai
     * [Modelling](#modelling)
     * [Reproducible Analytical Pipeline (RAP)](#rap)
     * [Research](#research)
-    
-
-
--   :material-table:{ .lg .middle } __Data Sources__
-
-    ---
-    
-    * [MIMIC](#mimic)
-    * [OpenSafely](#opensafely)
-    * [Synthetic Data](#synthetic-data)
-
--   :simple-ticktick:{ .lg .middle } __Evaluation Metrics__
-
-    ---
-
-    * [F1](#f1)
-    * [Accuracy](#accuracy)
-    * [LIME](#lime)
-    * [Model Class Reliance](#mcr)
 
 </div>
