@@ -267,21 +267,21 @@ Additionally, none of the feedback referenced any edge-case (hybrid animal) imag
 
 Let's look back at the key questions identified earlier in this article and assess how well we can answer them following the experiment.
 
-1. Can we use generative AI to turn scenarios into test data?
+**Can we use generative AI to turn scenarios into test data?**
 
 Simply, yes. We were successful in using generative AI to turn a list of scenarios into an image dataset. However, there were lots of manual steps involved in doing so. Ideally, this tool can be turned into a semi-autonomous pipeline where humans check intermediate steps but have less of a need to edit them or clean LLM outputs. 
 
 We don't want users to have to remove random tokens written in another language every time they use the tool!
 
-2. Does an interactive tool make evaluating AI classifiers easier?
+**Does an interactive tool make evaluating AI classifiers easier?**
 
 This again seems to be successful. Assurers without much knowledge of AI systems were able to identify images and risks, whilst suggesting additional images they’d like to generate and evaluate.
 
-3. Do image labels improve the tool?
+**Do image labels improve the tool?**
 
 This is harder to measure. An ideal answer would be no, as this tool could be used without the time-consuming labelling step, whilst still being useful for evaluations. Whilst there are indications of this, we don’t have enough information to come to a strong conclusion.
 
-4. Does knowing the model’s prediction change how evaluators interpret the results?
+**Does knowing the model’s prediction change how evaluators interpret the results?**
 
 Again, this is hard to measure. The differences between seeing the model prediction and not seeing the model prediction when using the labelling tool is small. We likely need to run a larger experiment in order to get more statistically significant results.
 
