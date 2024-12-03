@@ -78,7 +78,7 @@ To train a model, we first needed an image dataset. If you had a keen eye, you m
 4. We wanted the dataset to have some similarities to medical datasets. We see little variation between images in medical datasets (consider chest X-rays), and therefore wanted to replicate this with our dataset. As the Animals Faces Dataset only contained the face of animals in each image, this resulted in similar images across the dataset.
 5. We wanted to easily generate synthetic images. AI image generators are very good at generating images of pets and wildlife. Whilst they may also be good at generating medical images, without experts we cannot be sure of their quality.
 
-<figure class = "incline end" markdown>
+<figure class = "inline end" markdown>
 ![3 Example Images from the Animal Faces Dataset](../../images/RISE_tool/Figure_2.png)
 <figcaption>Figure 2: Images from the Animal Faces Dataset. </figcaption>
 </figure>
@@ -93,7 +93,7 @@ The three images that were incorrectly classified are shown in Figure 3. The lef
 
 There are certainly improvements to the model training process that we could have used when running this experiment, such as screening for label noise and bias within the training dataset. This is something we would undoubtably do as data scientists working on NHS England projects, however for this experiment having a non-perfect model has some advantages. It means we can expect some areas of poor performance in the model, and then ensure end users are able to spot these errors when trialling the tool.
 
-<figure class = "incline end" markdown>
+<figure class = "inline end" markdown>
 ![Diagram showing 3 incorrecly classified images.](../../images/RISE_tool/Figure_3.png)
 <figcaption>Figure 3: Incorrectly classified images in the test dataset. </figcaption>
 </figure>
@@ -291,7 +291,7 @@ Adding an additional comment, we also gained very little evidence of assurers us
 
 So, what next? Whilst working with images of cats and dogs is fun, the entire aim of this work has been to transition to real, clinical datasets, helping assurers, data scientists and testers to evaluate real-world systems. We hope to soon engage with clinicians to find an image dataset that an expert can interpret, and run a similar experiment with them. Figure 9 explains partially why we think this will tool be successful in a clinical dataset, we know that this tool can identify key issues in an animal classifier, so why not a cancer detection model using chest X-rays?
 
-<figure class = "incline end" markdown>
+<figure class = "inline end" markdown>
 ![An image of a cta holding a tennis ball next to a chest X-ray.](../../images/RISE_tool/Figure_9.png)
 <figcaption>Figure 9: A representation of how this work using a dog cat classifier can be mapped onto a medical dataset. </figcaption>
 </figure>
