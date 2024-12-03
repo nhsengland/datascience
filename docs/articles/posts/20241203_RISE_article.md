@@ -93,11 +93,6 @@ The three images that were incorrectly classified are shown in Figure 3. The lef
 
 There are certainly improvements to the model training process that we could have used when running this experiment, such as screening for label noise and bias within the training dataset. This is something we would undoubtably do as data scientists working on NHS England projects, however for this experiment having a non-perfect model has some advantages. It means we can expect some areas of poor performance in the model, and then ensure end users are able to spot these errors when trialling the tool.
 
-<figure class = "inline end" markdown>
-![Diagram showing 3 incorrecly classified images.](../../images/RISE_tool/Figure_3.png)
-<figcaption>Figure 3: Incorrectly classified images in the test dataset. </figcaption>
-</figure>
-
 ### Scenario Generation
 
 Once the model was trained, it was time to develop the first stage of the RISE tool – turning a list of scenarios into a synthetic image dataset. This involved the use of both an LLM and an AI Image Generator.
@@ -109,6 +104,11 @@ Our LLM of choice for this step was [Llama 3.1 8B](https://arxiv.org/abs/2407.21
 An assurance college was given the initial evaluation results alongside a description of the dataset and generated an initial list of 14 scenarios for us to test.  These included 'domestic dogs that look like wild dogs' and 'multiple animals in one picture'. We asked Llama 3.1 8B with a temperature of 0.7 to generate an additional list of scenarios, and it did so generating a list of 44 new scenarios. We then asked it again to consider it's previous risks and generate some more, this time adding 15 new scenarios. Whenever we used an LLM we followed good prompt guidance, this included asking the model to adopt a persona, asking the model if it missed anything on previous passes and giving examples.
 
 Compiling all of these risks together we ended up with 20 high quality scenarios, including new scenarios not considered in our initial list. New scenarios included 'unusual or creative use of colour' and 'dogs and cats with medical injuries'. It was clear that a LLM was helpful for generating and considering new scenarios. 
+
+<figure class = "inline end" markdown>
+![Diagram showing 3 incorrecly classified images.](../../images/RISE_tool/Figure_3.png)
+<figcaption>Figure 3: Incorrectly classified images in the test dataset. </figcaption>
+</figure>
 
 ### Prompt Generation
 
@@ -291,11 +291,11 @@ Adding an additional comment, we also gained very little evidence of assurers us
 
 So, what next? Whilst working with images of cats and dogs is fun, the entire aim of this work has been to transition to real, clinical datasets, helping assurers, data scientists and testers to evaluate real-world systems. We hope to soon engage with clinicians to find an image dataset that an expert can interpret, and run a similar experiment with them. Figure 9 explains partially why we think this will tool be successful in a clinical dataset, we know that this tool can identify key issues in an animal classifier, so why not a cancer detection model using chest X-rays?
 
-<figure class = "inline end" markdown>
-![An image of a cta holding a tennis ball next to a chest X-ray.](../../images/RISE_tool/Figure_9.png)
-<figcaption>Figure 9: A representation of how this work using a dog cat classifier can be mapped onto a medical dataset. </figcaption>
-</figure>
-
 In the meantime, there are plenty of other improvements that can be made to the tool. New and improved open-source models are being released all the time, these can increase the reliability of the tool and possibly allow high quality image generation to be performed locally. We also received plenty of user feedback on the useability of the interactive tool, all of this should be considered for future iterations.
 
 The success of this work means that hopefully this is just the beginning. Keep your eyes peeled for more work, articles and research in this area.
+
+<figure markdown>
+![An image of a cta holding a tennis ball next to a chest X-ray.](../../images/RISE_tool/Figure_9.png)
+<figcaption>Figure 9: A representation of how this work using a dog cat classifier can be mapped onto a medical dataset. </figcaption>
+</figure>
