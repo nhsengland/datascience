@@ -1,7 +1,7 @@
 ---
 title: The RISE Tool – An Easy Way for Testers and Assurers to Evaluate AI Classifiers
 authors: [willpoulett]
-date: 2024-12-02
+date: 2024-12-03
 categories: 
     - Assurance
     - Explainability
@@ -10,7 +10,7 @@ categories:
     - Image Classification
     - LLMs
 links:
-    - TBC
+    - https://github.com/nhsengland/RISE_Tool_V1
 slug: RISE_tool
 description: >
     TBC
@@ -50,8 +50,10 @@ This tool has a lot of moving parts. Whilst one level of success would be to sim
 3. Do image labels improve the tool?
 4. Does knowing the model’s prediction change how evaluators interpret the results?
 
-![Example annotation gif using Streamlit](./RISE_tool/RISE_methodology.png)
+<figure markdown>
+![Diagram explaining our RISE Tool experiment method](../../images/RISE_tool/RISE_methodology.png)
 <figcaption>Figure 1: : Our RISE tool experiment. Split into four sections, this experiment aimed to answer the key questions on the right-hand side. </figcaption>
+</figure>
 
 ## The Experiment
 
@@ -76,6 +78,11 @@ To train a model, we first needed an image dataset. If you had a keen eye, you m
 4. We wanted the dataset to have some similarities to medical datasets. We see little variation between images in medical datasets (consider chest X-rays), and therefore wanted to replicate this with our dataset. As the Animals Faces Dataset only contained the face on animals in each image, this resulted in similar images across the dataset.
 5. We wanted to easily generate synthetic images. AI image generators are very good at generating images of pets and wildlife. Whilst they may also be good at generating medical images, without experts we cannot be sure of their quality.
 
+<figure class = "incline end" markdown>
+![3 Example Images from the Animal Faces Dataset](../../images/RISE_tool/Figure_2.png)
+<figcaption>Figure 2: Images from the Animal Faces Dataset. </figcaption>
+</figure>
+
 It goes without saying that we intend to use this tool on medical datasets in the future, with guidance from clinicians as to how realistic and useful AI generated medical images are. If you want to read ahead, our exact plans on future research can be found at the end of this article.
 
 ### Model Setup
@@ -85,6 +92,11 @@ Once our dataset was selected, it was time to train a model. Our model was train
 The three images that were incorrectly classified are shown in Figure 3. The left-most image stands out most due to a possible instance of label noise. The image is likely a clouded leopard – wildlife, yet has a ground truth label of a cat. If we have identified possible label noise in the test dataset, we can assume there are probably instances of it in the training dataset.
 
 There are certainly improvements to the model training process that we could have used when running this experiment, such as screening for label noise and bias within the training dataset. This is something we would undoubtably do as data scientists working on NHS England projects, however for this experiment having a non-perfect model has some advantages. It means we can expect some areas of poor performance in the model, and then ensure end users are able to spot these errors when trialling the tool.
+
+<figure class = "incline end" markdown>
+![Diagram showing 3 incorrecly classified images.](../../images/RISE_tool/Figure_3.png)
+<figcaption>Figure 3: Incorrectly classified images in the test dataset. </figcaption>
+</figure>
 
 ### Scenario Generation
 
@@ -116,6 +128,11 @@ We used DallE3, accessed via Bing's Copilot to generate our images using the gen
 
 Some example images are shown in Figure 4, including 'edge-case' images.
 
+<figure markdown>
+![Diagram showing three AI generated images](../../images/RISE_tool/Figure_4.png)
+<figcaption> Figure 4: A sample of AI generated images in our dataset. </figcaption>
+</figure>
+
 ### Edge Case Examples
 
 We wanted to pay particular attention to edge-case image examples, as this mirrors boundary analysis in traditional software testing. Some of our scenarios  already included edge-case examples. This included `Crossbreed or hybrid animals`, which we hoped would lie closer to the model’s decision boundary and would help us identify where the model changes its decision, and which features in an image correspond to this.
@@ -131,6 +148,16 @@ To gather labels we put these 148 images into a new dataset where they were resi
 We then created an [image labelling tool](https://github.com/nhsengland/RISE_image_label_tool) using ipywidgets. For each image, users were asked to select whether the image was a domestic cat, domestic dog or of wildlife. There was a 50% chance the user would be told the model’s prediction. As the dataset was randomly split in half, we ensured that for each image there would be 7 occasions when the prediction was given, and 7 without. This allowed us to explore the effect of a user being told a model’s prediction. 
 
 We decided to keep the labelling tool simplistic to ensure that volunteers did not get bored, and thus gave us high quality labels. This meant removing possible features such as an ‘other’ button, or ‘multiple classes’ button. Even with this, we did see button fatigue, when some users got on a roll they made mistakes. If generating a similar label tool in the future, we may wish to consider adding additional features such as a timer which records the how long it takes the user to make a decision, and possible a back button. 
+
+<figure markdown>
+![A screenshot of the image labelling tool](../../images/RISE_tool/Figure_5.png)
+<figcaption> Figure 5: The image labelling tool, this time showing the model’s prediction for an edge-case image. </figcaption>
+</figure>
+
+<figure markdown>
+![5 images that were "edge-case"](../../images/RISE_tool/Figure_6.png)
+<figcaption> Figure 6: Five images that had equal counts of multiple classes. All 5 had 7 votes for either domestic cat or domestic dog, and 7 for wildlife.  </figcaption>
+</figure>
 
 For each image, we assigned a label based on the most common vote. If an image had six votes as a domestic cat, five as a domestic dog and three as wildlife, we would label it as a domestic cat. We defined confidence as the number of votes for that class divided by the total number of votes. For this example, that would be 6 / 14 which is approximately 43%. For each image, we also assigned a label based on if the users were shown a prediction when classifying the image, or if they were not. When all labels are considered, there were five images where the two most common classes had an equal number of votes. These images are shown in Figure 6.
 
@@ -170,6 +197,11 @@ If an assurer were to inspect these clusters, they may find occurrences where a 
 
 We used Bokeh to create our tool that can be accessed within a Jupyter Notebook. The tool is essentially an interactive scatter plot, where you can use a slider to navigate between different dimension reduction techniques.
 
+<figure markdown>
+![A gif displaying the RISE Tool interactive plot](../../images/RISE_tool/RISE_tool_recording.gif)
+<figcaption> Figure 7: A RISE tool gif, this was shown to users as preparation for how they could use the tool.</figcaption>
+</figure>
+
 Points are coloured based on the model's prediction, and there is the ability to change the shape of each point based on the human assigned labels. When you hover over a point the image is shown. If you look at the right had side, you can see a selection of images based on the cluster you have highlighted. 
 
 This tool is available on GitHub, and you can try it out yourself [here](https://github.com/nhsengland/RISE_Tool_V1).
@@ -179,6 +211,11 @@ Once our tool was created, we asked a group of assurers to trial it. Two respond
 ### Did this tool highlight any potential risks with the AI Classifier?
 
 Colleagues using the tool with and without labels were able to identify potential risks. When no labels were included, images of wildlife were misclassified, the image of a cat holding a tennis ball was misclassified, and some users found occasions where images containing no animals were predicted as dogs. One user pointed out the two images seen in Figure 8, which were predicted differently despite looking very similar.
+
+<figure markdown>
+![Two images of lion-like creatures, each predicted differently.](../../images/RISE_tool/Figure_8.png)
+<figcaption>Figure 8: Two images that appear very similar but were classified differently by the model. This example was found by a user using the tool.</figcaption>
+</figure>
 
 When labels were included, users were similarly successful, finding many of the same examples of those mentioned above.
 
@@ -246,6 +283,11 @@ Adding an additional comment, we also gained very little evidence of assurers us
 ### Future Work
 
 So, what next? Whilst working with images of cats and dogs is fun, the entire aim of this work has been to transition to real, clinical datasets, helping assurers, data scientists and testers to evaluate real-world systems. We hope to soon engage with clinicians to find an image dataset that an expert can interpret, and run a similar experiment with them. Figure 9 explains partially why we think this will tool be successful in a clinical dataset, we know that this tool can identify key issues in an animal classifier, so why not a cancer detection model using chest X-rays?
+
+<figure class = "incline end" markdown>
+![An image of a cta holding a tennis ball next to a chest X-ray.](../../images/RISE_tool/Figure_9.png)
+<figcaption>Figure 9: A representation of how this work using a dog cat classifier can be mapped onto a medical dataset. </figcaption>
+</figure>
 
 In the meantime, there are plenty of other improvements that can be made to the tool. New and improved open-source models are being released all the time, these can increase the reliability of the tool and possibly allow high quality image generation to be performed locally. We also received plenty of user feedback on the useability of the interactive tool, all of this should be considered for future iterations.
 
