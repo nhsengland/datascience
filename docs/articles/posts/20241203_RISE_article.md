@@ -13,7 +13,7 @@ links:
     - https://github.com/nhsengland/RISE_Tool_V1
 slug: RISE_tool
 description: >
-    TBC
+    This article discusses a method for evaluating AI classifiers using a new tool called RISE. 
 ---
 
 > We have built a proof-of-concept tool which will help assurers, data scientists and clinicians to evaluate AI classifiers.
