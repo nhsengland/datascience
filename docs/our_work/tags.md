@@ -8,7 +8,7 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Domai
 
     ---
 
-    * [Work in Progress](#WIP)
+    * [Work in Progress](#wip)
     * [Complete](#complete)
     * [On Pause](#paused)
 
