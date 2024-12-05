@@ -19,3 +19,10 @@ authors:
     avatar: https://avatars.githubusercontent.com/willpoulett      # Author avatar
     slug: WillPoulett          # Author profile slug
     url: https://github.com/willpoulett           # Author website URL
+
+  AmaiaImazBlanco:
+    name: Amaia Imaz Blanco    # Author name
+    description: Senior Data Scientist # Author description
+    avatar: https://avatars.githubusercontent.com/amaiaita      # Author avatar
+    slug: AmaiaImazBlanco          # Author profile slug
+    url: https://github.com/amaiaita           # Author website URL
