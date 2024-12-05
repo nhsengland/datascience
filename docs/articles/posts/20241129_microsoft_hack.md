@@ -14,7 +14,7 @@ description: >
     The NHS England Data Science team, as well as a range of other analysts from across the organisation, attended the Hack for Health at Microsoft, organised by the Data Science Team together with Microsoft and Kainos, with the key stakeholders being the NHS Websites Team. 
 ---
 
-> The NHS England Data Science team, as well as a range of other analysts from across the organisation, attended an AI Hackathon at Microsoft, organised by the Data Science Team together with Microsoft and Kainos, with the key stakeholders being the NHS Websites Team. In this article, the author shares her experiences at the event. 
+> The NHS England Data Science team, as well as a range of other analysts from across the organisation, attended an AI Hackathon at Microsoft, organised by the Data Science Team together with Microsoft and Kainos, with the key stakeholders being the NHS Websites Services Team. In this article, the author shares her experiences at the event. 
 
 <!-- more -->
 
@@ -22,11 +22,11 @@ Last week, the long awaited Hack for Health hosted at the beautiful Story Club, 
 
 The use cases were outlined as: 
 
-1. **Search & Summarise**: using an extract of the NHS Corpus developed by one of our PhD interns, Sam Hollands, (we used two websites worth of data, out of 600 NHS websites, and it was already 25GB worth of data!), we had to develop an LLM that used RAG to sift through that data and retrieve answers to queries based on these NHS websites.
+1. **Search & Summarise**: using an extract of the NHS Corpus developed by one of our PhD interns, Sam Hollands, (we used two websites worth of data, out of 600 NHS websites, and it was already 25GB worth of data!), we had to develop an LLM that used RAG (see the Data Science Team's [RAG Project Website Page](https://nhsengland.github.io/datascience/our_work/ds251_RAG/)) to sift through that data and retrieve answers to queries based on these NHS websites.
 2. **Explaining to a 12 year old**: Adapting the search and summarise for different personas, one of which being a 12 year old child
-3. **Duplication & Conflict Detection**: comparing the two sites and identifying duplicate information and conflicting information.
+3. **Duplication & Conflict Detection**: Comparing the two sites and identifying duplicate information and conflicting information.
 
-The aim was for the websites team to have work to improve upon and be able to implement them in their websites. Having use cases meant that it was so much easier to split work up, and get our heads down, with everyone having something to actively work on. It also meant we had a structured approach, making the experience so much more fulfilling. I was delighted by the creativity and range of approaches that the different teams took when it came to presenting at the end of the two days. We ranged from teams that had taken a thin slice approach to all three usecases, to teams that had gone really in depth in just one of them, to teams that had taken use case number 3 and made it into a tool that could be used by the websites team to improve the websites on the backend, removing conflict and duplication. 
+The aim was to develop generative AI solutions for website services, who could adapt and improve them for their own use cases. Having use cases meant that it was so much easier to split work up, and get our heads down, with everyone having something to actively work on. It also meant we had a structured approach, making the experience so much more fulfilling. I was delighted by the creativity and range of approaches that the different teams took when it came to presenting at the end of the two days. We ranged from teams that had taken a thin slice approach to all three usecases, to teams that had gone really in depth in just one of them, to teams that had taken use case number three and made it into a tool that could be used by the websites team to improve the websites on the backend, removing conflict and duplication. 
 
 Overall, I was left in awe by the creativity and technical skills of our team, as well as of all the other attendees. Hopefully the work gets used in the future by the websites team, and I hope that any hackathons I attend in the future are of this high quality! (Of course it did help that my team won)
 
