@@ -11,9 +11,9 @@ Primary care records are crucial for understanding healthcare interactions at bo
 Our project aims to address this by developing a code base to generate primary care electronic health records. We start by creating a synthetic population that mirrors a region in England, and then adapt the US-based tool [Synthea](https://github.com/synthetichealth/synthea) for the English NHS context.
 
 ![](../images/swpc_simple.png)
-<p align="left">
-    <em>Figure 1: High-level schematic of the different components of the project. Population level relationships are derived from the raw data and feed through a simple synthetic data generator to create a population. Clinical knowledge is captured as a clinical reference pathway (CRP) and fed into the engine. This engine takes the synthetic population and processes them through the CRPs. This results in records being created and adapted for the synthetic individuals which can then be viewed at a patient (EHR), service (GP system) or System (regional) levels.</em>
-</p>
+
+*Figure 1: High-level schematic of the different components of the project. Population level relationships are derived from the raw data and feed through a simple synthetic data generator to create a population. Clinical knowledge is captured as a clinical reference pathway (CRP) and fed into the engine. This engine takes the synthetic population and processes them through the CRPs. This results in records being created and adapted for the synthetic individuals which can then be viewed at a patient (EHR), service (GP system) or System (regional) levels.*
+
 
 ## Project Overview 
 
@@ -74,10 +74,8 @@ Our work is ongoing, with updates available on our GitHub repository. Future pla
 Stay tuned for progress updates and check out our code development on GitHub.
 
 ![](../images/swpc_complex.png)
-<p align="left">
-    <em>Figure 2: Potential to expand the tooling in a vairety of ways to increase fidelity of the generated records and include additional modalitieis.</em>
-</p>
 
+*Figure 2: Diagram of the potential to expand the tooling in a vairety of ways to increase fidelity of the generated records and include additional modalities.*
 
 Output|Link
 ---|---

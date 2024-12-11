@@ -6,6 +6,9 @@ summary: Improving our variational autoencoder to consider fairness and to run o
 tags: ['NEURAL NETWORKS', 'PYTHON', 'SYNTHETIC DATA']
 ---
 
+![DAG showing the relationships between variables that may influence job opportunity. Five nodes labeled as Prior Experience, Qualifications, Networking, Gender, and Job Opportunity. Prior Experience, Qualifications, Networking, and Gender all have arrows pointing toward Job Opportunity. Additionally, Networking is influenced by Prior Experience, and Gender influences Networking.](../images/dag_job_opportunity.png)
+*Figure 1: Figure showing the DAG representing the causal relationships between a selection of variables and job opportunity. Not made to truly reflect the causal relationships, purely for example purposes. Created using dagitty.*
+
 Continuation of the previous development of our variational autoencoder (VAE) to correct for an error discovered since the last project finished.  This error appears when trying to generate data for continuous variables which follow non-Gaussian distributions.  Previously, standard scaling had been used to normalise these variables which was causing the non-gaussian variables to be synthesised poorly.  This was replaced with a Gaussian mixture model from the RDT python library to scale and transform these variables into ones with a Gaussian distribution.
 
 The second phase of this worked focussed on understanding the different ways of measuring and implementing fairness within the synthetic data.
@@ -22,7 +25,7 @@ Further work will explore the adaption of directed acyclic graphs to control for
 | ---- | ---- |
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/SynthVAE) |
 | Case Study | Awaiting Sign-Off |
-| Technical report | [Here](https://github.com/nhsx/SynthVAE/blob/main/reports/NHSXSynthVAE%20(2).pdf) |
+| Technical report | [Here](https://github.com/nhsx/SynthVAE/blob/main/reports/NHSX_SynthVAE%20(2).pdf) |
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #

@@ -306,8 +306,17 @@
     border: 2px solid black;
 }
 
-.tile:hover {
+.tile:focus,
+.tile a:focus {
+    outline: 2px solid #005eb8;
+    border-radius:5px;
+}
+
+.tile:hover,
+.tile:focus-within {
     transform: scale(1.2);
+    outline: 2px solid #005eb8; /* Increase the outline size */
+    outline-offset: -5px;
 }
 
 
@@ -339,6 +348,7 @@
         <img
           id="hero-img"
           src="images/cartoon hospital_smaller_compressed.jpeg"
+          alt="AI Generated cartoon hospital."
           draggable="false"
           width="400"
           height-="300"
@@ -355,8 +365,7 @@
         <a
           href="about/"
           title="About Data Science in NHS England"
-          class="md-button md-button--primary"
-          style="text-align: center;"
+          class="md-button md-button--primary about"
         >
          About Data Science in NHS England
         </a>

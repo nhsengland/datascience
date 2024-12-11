@@ -6,7 +6,7 @@ origin: 'Skunkworks'
 tags: ['NLP','JAVASCRIPT','PYTHON', 'WEBDEV']
 ---
 
-![Data Lens screenshot](../images/data-lens.png)
+![Image of a browser showing the data lens search front end.](../images/data-lens.png)
 
 As the successful candidate from a Dragons’ Den-style project pitch, Data Lens was first picked as a pilot project for the NHS AI (Artificial Intelligence) Lab Skunkworks team in September 2020.
 

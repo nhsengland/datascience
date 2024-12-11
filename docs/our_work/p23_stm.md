@@ -6,6 +6,9 @@ summary: An open reusable tool for topic modelling of survey responses
 tags: ['NLP', 'R']
 ---
 
+![Screenshot of the STM Insights dashboard, top left has an interopic distance map, top left includes a graph for most relevant terms, beneath are various other low res graphs.](../images/stminsights_lowquality.png)
+*Figure 1: Example Screenshot from STM insights*
+
 The development of an R code for investigating the topics found in free text survey data using a technique that monitors both the content of the responses but also the metadata (e.g. when the response was made, which organisation the response relates to) in order to support the construction of these topics.
 
 ## Results

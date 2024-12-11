@@ -6,7 +6,7 @@ origin: 'Skunkworks'
 tags : ['DOCUMENTATION', 'WEBDEV']
 ---
 
-[![AI Dictionary](../images/ai-dictionary.png)](https://nhsx.github.io/ai-dictionary)
+[![Image of a browser showing the AI dictionary.](../images/ai-dictionary.png)](https://nhsx.github.io/ai-dictionary)
 
 AI is full of acronyms and a common understanding of technical terms is often lacking.
 

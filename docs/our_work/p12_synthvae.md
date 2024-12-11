@@ -6,6 +6,9 @@ permalink: p12_synthvae.html
 tags: ['NEURAL NETWORKS', 'SYNTHETIC DATA', 'PYTHON']
 ---
 
+![Diagram showing the flow of data in a variational autoencoder. Starts with an input labeled as "x" on the left, which is passed through an NN arrow. This encoder outputs two posterior parameters: μ and variance σ². These are then used to sample a latent variable "z" from a normal distribution z ~ N(μ, σ²). "z" is passed to an NN decoder, which reconstructs the input, producing the reconstruction labeled as "x̂" on the right.](../images/vae.png)
+*Figure 1: Schematic Representation of a Variational Autoencoder*
+
 This project investigates the potential suitability of Variational Autoencoders (VAEs) as a synthetic data generation tool in the context of the NHS. To effectively address this direction, this work focussed on four key aspects: quality, privacy, ease of use, and interpretability.
 
 We evaluate the performance of the VAE approach alongside five alternative methods available in July/August 2021, namely Gaussian Copula, CTGAN, CopulaGAN, SDV’s TVAE and Independent (a model which assumes independence across variables).  Evaluating this set of models provides context to the performance of the VAE with respect to both basic (e.g. Independent) and complex (e.g. CTGAN) approaches.

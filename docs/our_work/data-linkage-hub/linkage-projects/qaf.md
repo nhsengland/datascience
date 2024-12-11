@@ -10,7 +10,7 @@ Data Linkage is a business-critical process within many government organisations
 
 However, too often data linkage is seen as an exclusive software development and data engineering exercise instead of a modelling challenge, and there is not an appropriate level of quality assurance applied at the different stages of the process. This is why we have worked on the [**Quality Assurance Framework for Data Linkage**](https://nhsengland.github.io/quality-assurance-framework-for-data-linkage/), which is a tool for data linkage practitioners **to determine the necessary quality assurance levels at every stage of the data linkage process**:
 
-![Quality Assurance Framework for Data Linkage screenshot](../../../images/qafdl_overview.png)
+![Quality Assurance Framework for Data Linkage screenshot. Consists of two tables. Top table has three columns: Data Preparation (contains profiling, assessment, and enrichment), Implementation (contains techniques and tools, configuration of linkage parameters/settings, and version control), and Evaluation (contains verification and validity, quality of linkage, and speed/Computational resources). The second table has a heading of "Overall Considerations" and contains: Uncertainty management, Communication of changes, Safety, Ethics and fairness, Information Governance, Community Engagement, Knowledge Management, and Continuous improvement and maintenance. ](../../../images/qafdl_overview.png)
 
 The required level of quality assurance varies by project and is determined by the data linker and data users. The triage questions in the framework provide a structured approach to deciding the minimum expected levels by type of project.
 

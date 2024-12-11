@@ -6,7 +6,7 @@ summary: How to validate synthetic text generated from images for healthcare app
 tags: ['GENERATION', 'NLP', 'MULTI-MODAL', 'PYTHON', 'SYNTHETIC DATA']
 ---
 
-![](../images/p31fig1.png)
+![Diagram of the proposed clinical workflow applications of ML to radiology, diagrams connected by arrows.](../images/p31fig1.png)
 <p align="left">
     <em>Figure 1: Proposed clinical workflow applications of ML to radiology - using the CXR workflow as an example.  [CDSS = clinical decision support system, CXR = Chest x-ray, EHR = Electronic health record, PACS = Picture archiving and communication system]</em>
 </p>

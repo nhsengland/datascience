@@ -8,9 +8,9 @@ tags: ['RAP','BEST PRACTICE','PYTHON','R']
 
 <a href="https://nhsdigital.github.io/rap-community-of-practice/">
 <figure markdown>
-![Multiple examples of how the team has marketed Reproducible Analytical Pipelines as a way of working, on LinkedIn, Teams, through drop-in sessions, seminars and conference talks.](../images/RAP - marketing examples.png) </a>
-<figcaption>Figure 1: Multiple examples of how the team has marketed Reproducible Analytical Pipelines as a way of working. Click the image to visit our website.</figcaption>
+![](../images/RAP - marketing examples.png) </a>
 </figure>
+*Figure 1: Multiple examples of how the team has marketed Reproducible Analytical Pipelines as a way of working, on LinkedIn, Teams, through drop-in sessions, seminars and conference talks. Click the image to visit our website.*
 
 Reproducible Analytical Pipelines (RAP) is a way of working [promoted across the Civil Service](https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/), which promises **faster**, more **efficient**, more **robust** and **transparent** analysis and data pipelines.
 <figure markdown>

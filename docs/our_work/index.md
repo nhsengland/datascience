@@ -14,7 +14,7 @@
 
 
 <p align="center">
-  <img src="../images/ourwork.jpeg" width=700></img>
+  <img src="../images/ourwork.jpeg" width=700 alt="" ></img>
 </p>
 
 From **predictive modelling** to **data-driven decision support**, we work on a number of dynamic challenges in healthcare.

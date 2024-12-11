@@ -6,7 +6,7 @@ origin: 'Skunkworks'
 tags: ['LOS','NEURAL NETWORKS','PYTHON', 'SQL', 'WEBDEV', 'STRUCTURED DATA', 'ACCURACY']
 ---
 
-![Long Stayer Risk Stratification screenshot](../images/long-stay.png)
+![browser with the Long Stayer Risk Stratification dashboard showing a zoom in to the current risk stratification score currently at: Level 2](../images/long-stay.png)
 
 As the successful candidate from the AI Skunkworks problem-sourcing programme, Long Stayer Risk Stratification was first picked as a pilot project for the AI Skunkworks team in April 2021.
 
@@ -112,7 +112,7 @@ Output|Link
 ---|---
 Open Source Code & Documentation|[Github](https://github.com/nhsx/skunkworks-long-stayer-risk-stratification)
 Case Study|[Case Study](https://www.nhsx.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-machine-learning-to-identify-patients-at-risk-of-long-term-hospital-stays/)
-Technical report|On request: <a href='mailto:ai-skunkworks@nhsx.nhs.uk?subject=Request%20for%20NHS_AI_Lab_Skunkworks_Long_Stayer_Risk_Stratification_Technical_Report.pdf'>ai-skunkworks@nhsx.nhs.uk</a>
+Technical report|On request: [ai-skunkworks@nhsx.nhs.uk](mailto:ai-skunkworks@nhsx.nhs.uk?subject=Request%20for%20NHS_AI_Lab_Skunkworks_Long_Stayer_Risk_Stratification_Technical_Report.pdf)
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #

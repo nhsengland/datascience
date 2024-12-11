@@ -6,7 +6,7 @@ origin: 'Skunkworks'
 tags: ['CT','COMPUTER VISION','PYTHON', 'ACCURACY']
 ---
 
-![CT Alignment and Lesion Detection screenshot](../images/ct-alignment.png)
+![CT Alignment and Lesion Detection screenshot of the interface for identifying lesions.](../images/ct-alignment.png)
 
 As the successful candidate from the AI Skunkworks problem-sourcing programme, CT Alignment and Lesion Detection was first picked as a pilot project for the AI Skunkworks team in April 2021.
 

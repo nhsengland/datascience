@@ -6,6 +6,8 @@ origin: 'Skunkworks'
 tags: ['CLASSIFICATION', 'PYTHON']
 ---
 
+![AI Skunkworks website homepage](../images/ai-skunkworks.png)
+
 !!! info
     Welcome to the technical website of the NHS AI Lab Skunkworks team. For our general public-facing website, please visit the [AI Skunkworks programme](https://www.nhsx.nhs.uk/ai-lab/ai-lab-programmes/skunkworks/)
 

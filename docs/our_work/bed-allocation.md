@@ -6,7 +6,7 @@ origin: 'Skunkworks'
 tags: ['HOSPITAL','FORECASTING', 'PYTHON', 'WEBDEV']
 ---
 
-![Bed allocation screenshot](../images/bed-allocation.png)
+![Browser showing the dashboard for Kettering General Hospital that shows the forecasting of their bed occupancy.](../images/bed-allocation.png)
 
 Bed allocation was identified as a suitable opportunity for the AI Skunkworks programme in May 2021.
 
