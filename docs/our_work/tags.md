@@ -4,54 +4,21 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Domai
 
 <div class="grid cards" markdown>
 
--   :material-list-status:{ .lg .middle } __Status__
-
-    ---
-
-    * [Work in Progress](#WIP)
-    * [Complete](#complete)
-    * [On Pause](#paused)
-
-
--   :material-language-python:{ .lg .middle } __Coding Language__
-
-    ---
-    * [Python](#python)
-    * [SQL](#sql)
-    * [R](#r)
-    * [JavaScript](#javascript)
-    * [HTML](#html)
-    * [CSS](#css)
-
--   :octicons-database-16:{ .lg .middle } __Data Types__
-
-    ---
-
-    * [Structured](#structured-data)
-    * [Multi-modal](#multi-modal)
-    * [Patient Identifiable](#pii)
-    * [Synthetic](#synthetic-data)
-    * [Tabular](#tabular-data)
-    * [Text Data](#text-data)
-    * [Time Series](#time-series)
-    * [Unstructured](#unstructured-data)
 
 
 -   :material-domain:{ .lg .middle } __Domain Areas__
 
     ---
 
-    * [Acute Kidney Injury](#aki)
-    * [Ambulances](#ambulance)
-    * [CT](#ct)
-    * [Hospitals](#hospital)
-    * [Length of Stay](#los)
-    * [Mortality](#mortality)
-    * [Parkinsons](#parkinsons)
-    * [Pathology](#pathology)
-    * [Primary Care](#primary-care)
-    * [Respiratory](#respiratory)
-    * [Urgent Care](#urgent-care)
+    * [Primary care](#primary-care)
+    * [Secondary care](#secondary-care)
+    * [Social Care](#social-care)
+    * [Emergency care](#emergency-care)
+    * [Diseases](#diseases)
+    * [Public/Population Health](#population-health)
+    * [Workforce & Allocation](#workforce)
+    * [Prescribing](#prescribing)
+    * [Financial](#financial)
     
 -   :octicons-ai-model-16:{ .lg .middle } __Techniques__
 
@@ -82,5 +49,45 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Domai
     * [Modelling](#modelling)
     * [Reproducible Analytical Pipeline (RAP)](#rap)
     * [Research](#research)
+
+-   :octicons-database-16:{ .lg .middle } __Data Types__
+
+    ---
+
+    **Structure** 
+
+    * [Structured](#structured-data)
+    * [Unstructured](#unstructured-data)
+    
+    **Data modality**
+
+    * [Multi-modal](#multi-modal)
+    * [Sound/Audio](#audio-data)
+    * [Genomics](#genomics-data)
+    * [Video/Image](#visual-data)
+    * [Text Data](#text-data)
+    * [Time Series](#time-series)
+
+    **Data Availability**
+
+    * [Patient Identifiable](#pii)
+    * [Synthetic](#synthetic-data)
+    * [Open Data](#open-data)
+
+-   :material-language-python:{ .lg .middle } __Coding Language__
+
+    ---
+    * [Python](#python)
+    * [SQL](#sql)
+    * [R](#r)
+    * [Web Development (e.g. Javascript, HTML, CSS)](#webdev)
+
+-   :material-list-status:{ .lg .middle } __Status__
+
+    ---
+
+    * [Work in Progress](#WIP)
+    * [Complete](#complete)
+    * [On Pause](#paused)
 
 </div>

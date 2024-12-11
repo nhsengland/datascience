@@ -2,7 +2,7 @@
 title: Creating a Generic Adversarial Attack for any Synthetic Dataset
 summary: Can the privacy of a generated dataset be assessed through downstream adversarial attacks to highlight the risk of re-identification
 permalink: c339_sas.html
-tags: ['SYNTHETIC DATA','TABULAR DATA']
+tags: ['SYNTHETIC DATA','STRUCTURED DATA']
 ---
 
 An extensible code was developed to apply a suite of adversarial attacks to synthetically generated single table tabular data in order to assess the likely success of attacks and act as a privacy indicator for the dataset.  Using this information then informs the generation and information governance process to ensure the safety of our data.
