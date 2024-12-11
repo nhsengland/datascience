@@ -1,7 +1,7 @@
 ---
 title: The RISE Tool – An Easy Way for Testers and Assurers to Evaluate AI Classifiers
 authors: [willpoulett]
-date: 2024-12-03
+date: 2024-12-11
 categories: 
     - Assurance
     - Explainability
@@ -79,15 +79,20 @@ To train a model, we first needed an image dataset. If you had a keen eye, you m
 <figcaption>Figure 2: Images from the Animal Faces Dataset. </figcaption>
 </figure>
 
-It goes without saying that we intend to use this tool on medical datasets in the future, with guidance from clinicians as to how realistic and useful AI generated medical images are. If you want to read ahead, our exact plans on future research can be found at the [end of this article](#future-work).
+It goes without saying that we intend to use this tool on medical datasets in the future, with guidance from clinicians as to how realistic and useful AI generated medical images are. If you want to read ahead, our exact plans on future research can be found at the [end of this article](#whats-next?).
 
 ### Model Setup
 
 Once our dataset was selected, it was time to train a model. Our model was trained using transfer learning on top of the [EfficientNetV2S](https://arxiv.org/abs/2104.00298) model, with ImageNet weights. The model performed exceptionally well on a test dataset containing 1467 images (493, 491 and 483 images for cats, dogs and wildlife respectively) with 99.8% accuracy. The precision for the cat and dog class was perfect. The only incorrect classifications were three images, all predicted as a wild animal when their label was either a cat or a dog. 
 
-The three images that were incorrectly classified are shown in Figure 3. The left-most image stands out most due to a possible instance of label noise. The image is likely a clouded leopard – wildlife, yet has a ground truth label of a cat. If we have identified possible label noise in the test dataset, we can assume there are probably instances of it in the training dataset.
+The three images that were incorrectly classified are shown in Figure 3. The left-most image stands out most due to a possible instance of label noise. The image is likely a clouded leopard – wildlife, yet has a ground truth label of a cat. This means the model probably got the prediction right! If we have identified possible label noise in the test dataset, we can assume there are probably instances of it in the training dataset.
 
 There are certainly improvements to the model training process that we could have used when running this experiment, such as screening for label noise and bias within the training dataset. This is something we would undoubtably do as data scientists working on NHS England projects, however for this experiment having a non-perfect model has some advantages. It means we can expect some areas of poor performance in the model, and then ensure end users are able to spot these errors when trialling the tool.
+
+<figure markdown>
+![Diagram showing 3 incorrecly classified images.](../../images/RISE_tool/Figure_3.png)
+<figcaption>Figure 3: Incorrectly classified images in the test dataset. </figcaption>
+</figure>
 
 ### Scenario Generation
 
@@ -100,11 +105,6 @@ Our LLM of choice for this step was [Llama 3.1 8B](https://arxiv.org/abs/2407.21
 An assurance college was given the initial evaluation results alongside a description of the dataset and generated an initial list of 14 scenarios for us to test.  These included 'domestic dogs that look like wild dogs' and 'multiple animals in one picture'. We asked Llama 3.1 8B with a temperature of 0.7 to generate an additional list of scenarios, and it did so generating a list of 44 new scenarios. We then asked it again to consider its previous risks and generate some more, this time adding 15 new scenarios. Whenever we used an LLM we followed [good prompt guidance](https://platform.openai.com/docs/guides/prompt-engineering), this included asking the model to adopt a persona, asking the model if it missed anything on previous passes and giving examples.
 
 Compiling all of these risks together we ended up with 20 high quality scenarios, including new scenarios not considered in our initial list. New scenarios included 'unusual or creative use of colour' and 'dogs and cats with medical injuries'. It was clear that an LLM was helpful for generating and considering new scenarios. 
-
-<figure class = "inline end" markdown>
-![Diagram showing 3 incorrecly classified images.](../../images/RISE_tool/Figure_3.png)
-<figcaption>Figure 3: Incorrectly classified images in the test dataset. </figcaption>
-</figure>
 
 ### Prompt Generation
 
