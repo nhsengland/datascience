@@ -4,8 +4,6 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Domai
 
 <div class="grid cards" markdown>
 
-
-
 -   :material-domain:{ .lg .middle } __Domain Areas__
 
     ---
@@ -86,7 +84,7 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Domai
 
     ---
 
-    * [Work in Progress](#WIP)
+    * [Work in Progress](#wip)
     * [Complete](#complete)
     * [On Pause](#paused)
 
