@@ -1,7 +1,7 @@
 ---
 title: The RISE Tool – An Easy Way for Testers and Assurers to Evaluate AI Classifiers
 authors: [willpoulett]
-date: 2024-12-11
+date: 2024-12-12
 categories: 
     - Assurance
     - Explainability
