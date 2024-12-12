@@ -66,7 +66,7 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Domai
     * [Text Data](#text-data)
     * [Time Series](#time-series)
 
-    **Data Availability**
+    **Data Accessibility/Privacy**
 
     * [Patient Identifiable](#pii)
     * [Synthetic](#synthetic-data)
