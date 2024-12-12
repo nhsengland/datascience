@@ -79,7 +79,7 @@ To train a model, we first needed an image dataset. If you had a keen eye, you m
 <figcaption>Figure 2: Images from the Animal Faces Dataset. </figcaption>
 </figure>
 
-It goes without saying that we intend to use this tool on medical datasets in the future, with guidance from clinicians as to how realistic and useful AI generated medical images are. If you want to read ahead, our exact plans on future research can be found at the [end of this article](#whats-next?).
+It goes without saying that we intend to use this tool on medical datasets in the future, with guidance from clinicians as to how realistic and useful AI generated medical images are. If you want to read ahead, our exact plans on future research can be found at the end of this article.
 
 ### Model Setup
 
