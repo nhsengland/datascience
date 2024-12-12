@@ -3,7 +3,7 @@ title: 'Bed allocation'
 summary: 'Machine learning to effectively aid bed management in Kettering General Hospital.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['HOSPITAL','BAYESIAN FORECASTING','MONTE CARLO','GREEDY ALLOCATION', 'PYTHON']
+tags: ['HOSPITAL','FORECASTING', 'PYTHON', 'WEBDEV']
 ---
 
 ![Browser showing the dashboard for Kettering General Hospital that shows the forecasting of their bed occupancy.](../images/bed-allocation.png)

@@ -3,7 +3,7 @@ title: 'Data Lens'
 summary: 'Data Lens brings together information about multiple databases, providing a fast-access search in multiple languages.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['NLP', 'SEMANTIC SEARCH', 'SCRAPING','JAVASCRIPT','PYTHON']
+tags: ['NLP','JAVASCRIPT','PYTHON', 'WEBDEV']
 ---
 
 ![Image of a browser showing the data lens search front end.](../images/data-lens.png)

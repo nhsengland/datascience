@@ -3,7 +3,7 @@ layout: base
 title: Developing our SynthVAE code
 permalink: p21_synthvae2.html
 summary: Improving our variational autoencoder to consider fairness and to run on non-gaussian distributions
-tags: ['VAE', 'PYTHON', 'GAUSSIAN MIXTURE MODEL', 'DAG']
+tags: ['NEURAL NETWORKS', 'PYTHON', 'SYNTHETIC DATA']
 ---
 
 ![DAG showing the relationships between variables that may influence job opportunity. Five nodes labeled as Prior Experience, Qualifications, Networking, Gender, and Job Opportunity. Prior Experience, Qualifications, Networking, and Gender all have arrows pointing toward Job Opportunity. Additionally, Networking is influenced by Prior Experience, and Gender influences Networking.](../images/dag_job_opportunity.png)

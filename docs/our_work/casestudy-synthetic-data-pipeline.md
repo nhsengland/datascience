@@ -3,7 +3,7 @@ title: 'Exploring how to create mock patient data (synthetic data) from real pat
 summary: 'The generation of safe and effective synthetic data to be used in technologies that improve health and social care.'
 category: 'CaseStudies'
 origin: 'Skunkworks'
-tags: ['SYNTHETIC DATA','VAE','PRIVACY','QUALITY','UTILITY','AI', 'PYTHON']
+tags: ['SYNTHETIC DATA','NEURAL NETWORKS','ETHICS','QUALITY','PYTHON', 'MIMIC']
 ---
 
 ![Example graphs studying the fidelity of the synthetic data to the artificial data.](../images/example_report_output.png)

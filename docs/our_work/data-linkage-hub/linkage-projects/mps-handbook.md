@@ -3,7 +3,7 @@ title: 'MPS Documentation - the Person_ID handbook'
 summary: 'Documenting how the Person_ID is generated via the Master Person Service (MPS), to make the current process of linking data in the NHS more transparent and easy to understand.'
 category: 'Projects'
 origin: 'NHSD'
-tags: ['BEST PRACTICE','EXPLAINABILITY','LINKAGE']
+tags: ['BEST PRACTICE','EXPLAINABILITY','LINKAGE', 'COMPLETE']
 ---
 
 The Person_ID is a unique patient identifier used by NHS England with the objective of standardising the approach to patient-level data linkage across different data sets.

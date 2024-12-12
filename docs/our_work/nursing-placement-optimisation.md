@@ -3,7 +3,7 @@ title: 'Nursing Placement Schedule Optimisation Tool'
 summary: 'Optimisation problem developed with Imperial College Healthcare Trust to produce optimised schedules for student nurses going on placement within the trust.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['OPTIMISATION','GENETIC ALGORITHM', 'PYTHON']
+tags: ['PYTHON']
 ---
 
 This project is an example of the AI Skunkworks team offering capability resources to produce proof-of-concepts which could be applicable to the NHS at large. The project ran from January 2022 to May 2022.

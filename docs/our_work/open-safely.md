@@ -3,7 +3,7 @@ title: 'Working with a Trusted Research Environment - the NHS @Home programme'
 summary: 'An exploration of OpenSafely'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['TRE', 'PYTHON', 'OPENSAFELY']
+tags: ['PYTHON', 'OPENSAFELY']
 ---
 
 OpenSAFELY gives trusted researchers restricted levels of access to the server to run analysis on real data and obtain aggregate results, without having sight of the patient level data. Aggregate results are checked to ensure there are no disclosure risks before being released from the server. This highly secure way of working enables researchers to have access to large and sensitive datasets in a safe manner.

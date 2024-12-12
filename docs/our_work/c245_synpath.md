@@ -3,7 +3,7 @@ title: Building the Foundations for a Generic Patient Simulator (SynPath)
 summary: Developing an agent-based simulation for generating synthetic patient pathways and scenario modelling for healthcare specific implementations.
 category: Projects
 permalink: c245_synpath.html
-tags: ['SYNTHETIC DATA', 'PATHWAYS','SIMULATION']
+tags: ['SYNTHETIC DATA','SIMULATION']
 ---
 
 ![](../images/c245fig1.png)

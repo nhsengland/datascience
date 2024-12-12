@@ -2,7 +2,7 @@
 title: 'Reusable New Data Product Validation Functions'
 summary: 'More Efficient, More Consistent Data ​Through Shared Validation Functions'
 origin: 'NHS England Secure Data Environment Service Data Wranglers'
-tags: ['DATA WRANGLERS', 'NHSE_SDE', 'SDE', 'DATA VALIDATION', 'RAP', 'PYTHON']
+tags: ['DATA VALIDATION', 'RAP', 'PYTHON']
 ---
 ![An image showing a stack of boxes on the left and a single box with robotic legs on the right. The stack of boxes has a label "old validation process" along with titles on boxes such as "code not shared", "inconsistent approach", "unreliable" and "manual process". Above the boxes it says "3 days". Next to the boxes an unhappy man is struggling to move them. To the right is a single box with robotic legs, with a happy looking man stood next to it. The box with robotic legs is labeled "new validation process" and has words nearby such as "reusable code", "consistent process" and "easy to re-run". Above the box is a label stating it takes about 30 minutes.](../images/sde_resuable_data_validation_functions.png)
 

@@ -3,7 +3,7 @@ layout: base
 title: Inequalities in Diabetes from PHM Data
 permalink: p32_phmdiabetes.html
 summary: How to extract inequalities information from linked population health management data
-tags: ['LOGISTIC REGRESSION', 'CATBOOST', 'PYTHON']
+tags: ['MACHINE LEARNING', 'PYTHON']
 ---
 
 ![Diagram with on the left a box containing the texts: "GP Services & Registration", "Deprivation IoD by LSOA", "Open Street Maps", "Postcode to Lat. Long", "Postcode to LSOA", "Population Demographics", and "Quality & Outcomes (QOF), each with a cartoon reflecting it next to it. This box points to "Process from source" which in turns points to "Save to remote host" and "Aggregate by GP and LSOA" which points to "Downstream analysis..." and a colored map. ](../images/p32fig1.png)

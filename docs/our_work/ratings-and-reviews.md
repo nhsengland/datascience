@@ -2,7 +2,7 @@
 title: "NHS.UK: Automatic Moderation of Ratings & Reviews"
 summary: "Using NLP to reduce the average moderation time on the NHS.UK website from days to seconds "
 origin: ""
-tags: ["NLP", "AI", "ML", "NHS.UK"]
+tags: ["NLP", "AI", "MACHINE LEARNING", "NHS.UK"]
 ---
 
 The NHS.UK website receives around a hundred thousand reviews every year. These reviews need moderating -- there's [a set of NHS policies which need to be applied to these](https://www.nhs.uk/our-policies/comments-policy/#:~:text=Users%20should%20only%20post%20one,service%20will%20not%20be%20published.) before they can be published.

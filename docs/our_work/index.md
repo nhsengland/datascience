@@ -2,7 +2,7 @@
 <h3 align="center"><i>Explore our comprehensive portfolio of ongoing and completed projects that harness the power of data to drive insight.</i></h3>
 
 <script>
-    var sites = ['long-stay', 'c245_synpath', 'nursing-placement-optimisation', 'ai-dictionary', 'p14_mcr', 'a_and_e_forecasting_tool', 'p21_synthvae', 'casestudy-recruitment-shortlisting', 'open-safely', 'synthetic-data-pipeline', 'ds218_rap_community_of_practice', 'p31_txtrayalign2', 'p24_lime', 'p11_synpathdiabetes', 'c338_poud', 'swpclab', 'p22_txtrayalign', 'data-lens', 'ambulance-delay-predictor', 'index', 'p12_synthvae', 'ai-deep-dive', 'ratings-and-reviews', 'parkinsons-detection', 'bed-allocation', 'ct-alignment', 'sde_data_validation', 'long-stay-baseline', 'ai-skunkworks', 'adrenal-lesions', 'p23_stm', 'c339_sas', 'p32_phmdiabetes', 'p33_patientsafetylms', 'casestudy-synthetic-data-pipeline', 'c399_privfinger', 'nhs-resolution', 'renal-health-prediction', 'ds255_privacyfp', 'c250_nhscorpus', 'ds251_RAG', 'index', 'qaf', 'better-matching', 'mps-handbook', 'cop'];
+    var sites = ['ai-dictionary', 'ai-skunkworks', 'adrenal-lesions', 'c338_poud', 'data-lens', 'a_and_e_forecasting_tool', 'casestudy-synthetic-data-pipeline', 'p24_lime', 'parkinsons-detection', 'renal-health-prediction', 'ds251_RAG', 'ratings-and-reviews', 'p42_hypergraphs2', 'synthetic-data-pipeline', 'p32_phmdiabetes', 'index', 'p23_stm', 'ct-alignment', 'c245_synpath', 'swpclab', 'casestudy-recruitment-shortlisting', 'p22_txtrayalign', 'nursing-placement-optimisation', 'ds218_rap_community_of_practice', 'ambulance-delay-predictor', 'p12_synthvae', 'ai-deep-dive', 'p31_txtrayalign2', 'ai-ethics', 'c339_sas', 'c399_privfinger', 'p11_synpathdiabetes', 'ds255_privacyfp', 'long-stay-baseline', 'p14_mcr', 'nhs-resolution', 'p34_hypergraphs', 'open-safely', 'c250_nhscorpus', 'bed-allocation', 'p43_medcat', 'sde_data_validation', 'p33_patientsafetylms', 'p21_synthvae', 'long-stay', 'data-linkage-hub/index', 'data-linkage-hub/linkage-projects/mps-handbook', 'data-linkage-hub/linkage-projects/qaf', 'data-linkage-hub/linkage-projects/cop', 'data-linkage-hub/linkage-projects/better-matching'];
 
     function randomSite() {
         var i = parseInt(Math.random() * sites.length);
@@ -10,7 +10,8 @@
     }
 </script>
 
-<button class="hero md-button md-button--primary" onclick="randomSite()" >Take me to a random project :material-puzzle:</button> [Explore our projects by topic :fontawesome-solid-tags:](./tags.md){ .md-button }
+<button class="hero md-button md-button--primary" onclick="randomSite()" >Take me to a random project :material-puzzle:</button> [Explore our projects by categories & tags :fontawesome-solid-tags:](./tags.md){ .md-button }
+
 
 <p align="center">
   <img src="../images/ourwork.jpeg" width=700 alt="" ></img>

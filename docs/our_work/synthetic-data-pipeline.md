@@ -3,7 +3,7 @@ title: 'Synthetic Data Generation Pipeline'
 summary: 'Exploring how to create mock patient data from real patient data.'
 category: 'Playbook'
 origin: 'Skunkworks'
-tags: ['SYNTHETIC DATA','VAE','PRIVACY','KEDRO', 'MIMIC', 'PYTHON']
+tags: ['SYNTHETIC DATA','NEURAL NETWORKS','ETHICS','MIMIC', 'PYTHON']
 ---
 
 

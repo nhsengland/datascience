@@ -2,7 +2,7 @@
 title: 'AI Ethics in Practice at NHS England'
 summary: 'Defining ethical AI development best practice for data practitioners in the NHS'
 origin: 'NHS England'
-tags: ['AI', 'ETHICS', 'TRANSPARENCY', 'QUALITY', 'DOCUMENTATION', 'RESEARCH', 'GUIDANCE', 'BEST PRACTICE']
+tags: ['ETHICS', 'QUALITY', 'DOCUMENTATION', 'RESEARCH', 'BEST PRACTICE']
 ---
 !!! warning
 

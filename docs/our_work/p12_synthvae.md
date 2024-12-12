@@ -3,7 +3,7 @@ layout: base
 summary: The initial creation of a variational autoencoder with differential privacy for generating single table tabular gaussian data.  This work demonstrated the feasibility of this approach for healthcare and fed into further interactions of the code base.
 title: Investigating Differential Privacy in a Variational AutoEncoder for Synthetic Data Generation
 permalink: p12_synthvae.html
-tags: ['VAE', 'SYNTHETIC DATA', 'PYTHON']
+tags: ['NEURAL NETWORKS', 'SYNTHETIC DATA', 'PYTHON']
 ---
 
 ![Diagram showing the flow of data in a variational autoencoder. Starts with an input labeled as "x" on the left, which is passed through an NN arrow. This encoder outputs two posterior parameters: μ and variance σ². These are then used to sample a latent variable "z" from a normal distribution z ~ N(μ, σ²). "z" is passed to an NN decoder, which reconstructs the input, producing the reconstruction labeled as "x̂" on the right.](../images/vae.png)

@@ -3,7 +3,7 @@ title: 'Predicting negligence claims with NHS Resolution'
 summary: 'This project investigated whether it is possible to use machine learning AI to predict the number of claims a trust is likely to receive and learn what drives them in order to improve safety for patients.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['CLASSIFICATION','PREDICTION', 'AI']
+tags: ['CLASSIFICATION','FORECASTING']
 ---
 
 <figure markdown>

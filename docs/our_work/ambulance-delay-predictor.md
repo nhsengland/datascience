@@ -3,7 +3,7 @@ title: 'Ambulance Handover Delay Predictor'
 summary: 'Predict ambulance delays at hospital, with reasons, to allow them to influence hospitals'' behaviour to mitigate against queues before they happen.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['AMBULANCE','PREDICTION','RANDOM FOREST', 'CLASSIFICATION', 'TIME SERIES', 'PYTHON']
+tags: ['AMBULANCE','FORECASTING','MACHINE LEARNING', 'CLASSIFICATION', 'TIME SERIES', 'PYTHON']
 ---
 
 ![Ambulance Handover Delay Predictor screenshot showing the handover times expected for different hospitals, with the high times highlighted in orange.](../images/ambulance-delay-predictor.png)
