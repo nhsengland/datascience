@@ -4,7 +4,7 @@ summary: 'ONE LINE SUMMARY GOES HERE'
 origin: 'Skunkworks  (this is for legacy pages mainly, so we know where the work came from)'
 # tags: ['add your tags in here as a list (there is no limit) and remove the comment #','tag 2','tag 3']
 ---
-[comment]: <> When deciding your tags, check out the [tag ontology](https://nhsengland.github.io/datascience/our_work/tags/) and try and choose a tag per category and not add any new tags. If you think new tags are required because the existing ones don't match your project, let someone in marketing know. 
+[comment]: <> When deciding your tags, look at the [tag ontology](https://nhsengland.github.io/datascience/our_work/tags/) and try and choose a tag per category and not add any new tags. If you think new tags are required because the existing ones don't match your project, let someone in the Comms & Marketing Function Team know. 
 
 [comment]: <> The metadata block above is used to make the title, the tags, and the first block of "quote text" just beneath the title
 
