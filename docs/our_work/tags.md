@@ -71,6 +71,7 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Domai
     * [Patient Identifiable](#pii)
     * [Synthetic](#synthetic-data)
     * [Open Data](#open-data)
+    * [Pseudonymised](#pseudonymised)
 
 -   :material-language-python:{ .lg .middle } __Coding Language__
 
@@ -87,5 +88,12 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Domai
     * [Work in Progress](#wip)
     * [Complete](#complete)
     * [On Pause](#paused)
+
+    **Deployment Level**
+    
+    * [In Development](#in-development)
+    * [Retired](#retired)
+    * [Deployed](#deployed)
+    * [Experimental](#experimental)
 
 </div>

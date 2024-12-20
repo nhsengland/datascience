@@ -3,7 +3,7 @@ title: 'AI Deep Dive Workshops'
 summary: 'The NHS AI Lab Skunkworks team have developed and delivered a series of workshops to improve confidence working with AI.'
 category: 'Playbooks'
 origin: 'Skunkworks'
-tags : ['BEST PRACTICE']
+tags : ['WORKFORCE','BEST PRACTICE', 'OPEN DATA', 'COMPLETE']
 ---
 
 <figure markdown >
