@@ -11,18 +11,18 @@ The AIQCOP conducts cutting-edge research to address real-world challenges in AI
 
 For years now the AIQCOP has relied on embedded Data Scientists from NHS England to help advise on the technical aspects of AI Assurance. 
 
-Mixup Assurance - link to archive. 
-RISE - [link to blog ](https://nhsengland.github.io/datascience/articles/2024/12/12/RISE_tool/)
+Read our Mixup Assurance paper here:  - [Link to paper](https://arxiv.org/abs/2311.13978)
 
-Email: nhsdigital.instant@nhs.net
+RISE is an experimental tool which can help assurers, data scientists and clinicians to evaluate Ai Classifiers, read more here: - [Link to blog ](https://nhsengland.github.io/datascience/articles/2024/12/12/RISE_tool/)  
 
-
+![An image of Will and Ben at the Health and Analytics Conference talking about AI Assurance](../images/will_and_ben_assurance.jpg)
+*Will and Ben at the Health and Care Analytics Conference talking about AI Assurance*
 
 Most information about the work in the Assurance Research Path appears on the AIQCOP sharepoint site, access may need to be requested to view.
 
-[AI Quality Community of Practice Assurance](https://nhs.sharepoint.com/sites/X26_AssuranceCOE/SitePages/AI-&-Quality-Assurance.aspx?csf=1&web=1&e=HTahJY)
+[AI Quality Community of Practice](https://nhs.sharepoint.com/sites/X26_AssuranceCOE/SitePages/AI-&-Quality-Assurance.aspx?csf=1&web=1&e=HTahJY)
 
-## Headlines: 
+Alternatively you can always email us at: nhsdigital.instant@nhs.net
 
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
