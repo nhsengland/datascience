@@ -49,7 +49,7 @@ There are alternative automatic evaluations to human feedback. If you have both 
 This brings us on to the star of the show: **LLM-as-a-Judge**. We want an evaluation method that understands the intricacies of language and is significantly quicker than humans.
 
 <figure markdown>
-![Example schema for a LLM judging the fluency of a piece of text.](./images/prompt.png)
+![Example schema for a LLM judging the fluency of a piece of text.](../../images/LLM_as_a_Judge/prompt.png)
 <figcaption>Figure 2: This is an example schema used for an LLM judge that evaluates the fluency or a review. Fluency can be measured with only the summary; no additional information is needed. This is a shortened example, note that there are gaps where additional context would be, such as the example summary and the list of guidance.  </figcaption>
 </figure>
 
