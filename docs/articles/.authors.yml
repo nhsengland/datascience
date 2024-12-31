@@ -27,7 +27,7 @@ authors:
     slug: AmaiaImazBlanco          # Author profile slug
     url: https://github.com/amaiaita           # Author website URL
 
-jpearson:
+  jpearson:
     name: Jonny Pearson    # Author name
     description: Lead Data Scientist # Author description
     avatar: https://avatars.githubusercontent.com/jrpearson-nhs      # Author avatar
