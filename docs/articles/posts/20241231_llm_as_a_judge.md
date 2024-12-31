@@ -50,7 +50,7 @@ This brings us on to the star of the show: **LLM-as-a-Judge**. We want an evalua
 
 <figure markdown>
 ![Example schema for a LLM judging the fluency of a piece of text.](../../images/LLM_as_a_Judge/prompt.png)
-<figcaption>Figure 2: This is an example schema used for an LLM judge that evaluates the fluency or a review. Fluency can be measured with only the summary; no additional information is needed. This is a shortened example, note that there are gaps where additional context would be, such as the example summary and the list of guidance.  </figcaption>
+<figcaption>Figure 2: This is an example schema used for an LLM judge that evaluates the fluency of a review. Fluency can be measured with only the summary; no additional information is needed. This is a shortened example, note that there are gaps where additional context would be, such as the example summary and the list of guidance.  </figcaption>
 </figure>
 
 An LLM-as-a-Judge uses an LLM to score certain characteristics of a summary. Typically, each characteristic is numerically scored based on instructions set out in a schema, and these characteristics can include groundedness, cohesiveness and relevance – metrics that can also be measured by humans.
