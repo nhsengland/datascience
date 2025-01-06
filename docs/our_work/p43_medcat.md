@@ -17,9 +17,9 @@ We found that all three models produced NER+L results which are not consistent w
 
 | Output | Link |
 | ---- | ---- |
-| Open Source Code & Documentation | [Github](https://github.com/nhsengland)] |
+| Open Source Code & Documentation | [Github](https://github.com/nhsengland) |
 | Case Study | Awaiting Sign-Off |
-| Technical report | [Report](https://github.com/nhsengland/P43_LTHMedCat/blob/main/report/MedCAT_Neurology_Report.pdf)] |
+| Technical report | [Report](https://github.com/nhsengland/P43_LTHMedCat/blob/main/report/MedCAT_Neurology_Report.pdf) |
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
