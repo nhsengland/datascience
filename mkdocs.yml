@@ -63,6 +63,7 @@ nav:
           - Renal Health Prediction: our_work/renal-health-prediction.md
           - Synthetic Data From Real Data: our_work/casestudy-synthetic-data-pipeline.md
           - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
+          - Transforming Healthcare Data With Graph-Based Techniques: our_work/p34_hypergraphs.md
         - 2021:
           - AI Deep Dive Workshops: our_work/ai-deep-dive.md
           - CT Alignment & Lesion Detection: our_work/ct-alignment.md
