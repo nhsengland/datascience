@@ -1,9 +1,9 @@
 ---
 layout: base
-title: Enriching Clinical Coding for Neurology Pathways using MedCAT
-permalink: p43_medcat.html
-summary: In collaboration with Lancaster teaching hospital and the University of Lancaster we aim to apply MedCat (an automated named entity recognition with linkage algorithm) to neurology letters to identify related SNOMED CT coding.
-tags: ['MEDCAT', 'SNOMED CT', 'NAMED ENTITY RECOGNITION', 'LINKAGE']
+title: Process Mining with East Midlands Ambulance Service
+permalink: p52_processmining.html
+summary: In collaboration with East Midlands Ambulance Service, this work explored using Process Mining techniques to better understand the processes within the service.
+tags: ['AMBULANCE', 'PROCESS MINING', 'EVENT LOGS', 'DFGs']
 ---
 
 Process Mining is the term given to a family of techniques that have been developed to analyse process flows through the recording of an event log. Process Mining has three main application areas, these are discovery, conformance checking and enhancement. In process discovery, the output is a fact-based process model based on the recorded events in the database. Discovery is the most common process mining investigation, where the discovered process model is often not expected by the supervisor of the process. In conformance checking we measure how well the recorded processes fit a pre-defined process model. Conformance-checking techniques can therefore be used to check whether certain rules and policies are being abided by within an organisation. Finally, enhancement is focused on improving the existing process models by analysing how additional attributes affect the throughput times and frequencies of activities in the process.
