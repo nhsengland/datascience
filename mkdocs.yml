@@ -142,6 +142,7 @@ nav:
         - Process Mining with East Midlands Ambulance Service: our_work/p52_processmining.md
         - SDE Service Data Wranglers:
           - Reusable Data Validation Process: our_work/sde_data_validation.md
+        - Transforming Healthcare Data With Graph-Based Techniques: our_work/p34_hypergraphs.md
     - Our Team's Publications: our_work/Publications.md
     # This allows any projects that get added to appear in the main page of the navigation, makes it easy to spot when people have forgotten to categorize them.
     - ... | flat | regex=our_work/(?!template-project\.md).*\.md
