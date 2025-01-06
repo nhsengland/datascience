@@ -33,7 +33,7 @@ insights into the relative importance of specific modalities from multimodal mod
 
 ## Results
 
-We found a reassurng consistency in feature importance across different fusion methods.   Both fusion methods produced fairer models with repsect to inusrance type (the most unfair variable in the unimodal case) with concatenation providing the lowest equalised odds.
+We found a reassuring consistency in feature importance across different fusion methods.   Both fusion methods produced fairer models with respect to insurance type (the most unfair variable in the unimodal case) with concatenation providing the lowest equalised odds.
 
 Further work is planned to expand this pipeline to other modalities and datasets to solidify our understanding of the interplay of model choices on fiarness.
 

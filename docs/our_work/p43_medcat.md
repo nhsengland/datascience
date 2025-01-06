@@ -10,7 +10,7 @@ Neurology and other clinical specialities are awash with clinical data. However,
 
 However, evaluation of the MedCAT models which inform the NER+L process has only been performed on labelled data, and the learned numerical representations of concepts (embeddings) has not been assessed before.  The contributions of this project were: 1) evaluation of three separate MedCAT models, 2) comparison of three different clustering techniques as evaluation methods in the absence of labelled data, 3) evaluation of MedCAT’s learned concept embeddings, 4) comparison of intrinsic and extrinsic evaluation metrics and 5) comparison of qualitative and quantitative evaluation approaches. 
 
-![Schamtic representation of the MedCAT worklfow](images/medcat2.png)
+![Schmatic representation of the MedCAT workflow](images/medcat2.png)
 
 ## Results
 We found that all three models produced NER+L results which are not consistent with clinical understanding. Clustering can enable deeper examination of learned embeddings, but further work needs to be done on finding the best input data and clustering approach. Intrinsic evaluation metrics are only meaningful in the presence of extrinsic measures and further research needs to be done to identify the most informative set of metrics. Quantitative assessment must be supplemented by qualitative inspection. The work performed here forms the first phase in evaluation of MedCAT models’ performance. Once optimal evaluation strategies have been identified, the next phase can be focused on improving MedCAT models. This will ultimately enable extraction of clinical terms that can be used for multiple downstream tasks such as automated clinical coding, research, monitoring of interventions, audits as well as service improvements.
