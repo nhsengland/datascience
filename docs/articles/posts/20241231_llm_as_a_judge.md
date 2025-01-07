@@ -17,8 +17,6 @@ description: >
 
 <!-- more -->
 
-## LLM-as-a-Judge
-
 <figure class="inline end" markdown>
 ![AI Generated Cartoon of a robot looking at some text through a magnifying glass.](../../images/LLM_as_a_Judge/LLM-as-a-Judge_cartoon.png)
 <figcaption>Figure 1: An AI Generated cartoon depiction of 'LLM-as-a-Judge'</a></figcaption>
@@ -31,7 +29,7 @@ The rise of Large Language Models (LLMs) has resulted in AI summarisation tools 
 
 Regardless of the use-case, any system using AI needs to be meticulously evaluated, especially when used in a healthcare setting. With free text summaries, this can be quite challenging.
 
-### How would you evaluate a summary?
+## How would you evaluate a summary?
 
 Imagine you were given a list of 1000 AI-generated summaries to evaluate, alongside the documents used to create them. Even without being an expert in the field, you'd probably do quite a good job:
 
@@ -42,7 +40,7 @@ Imagine you were given a list of 1000 AI-generated summaries to evaluate, alongs
 
 Whilst this method of evaluation is very thorough and often considered the gold-standard, it’s also incredibly time consuming.
 
-### Surely there is a quicker way?
+## Surely there is a quicker way?
 
 There are alternative automatic evaluations to human feedback. If you have both human and AI summaries there are some quick similarity metrics you can run. BLUE [[1](https://medium.com/nlplanet/two-minutes-nlp-learn-the-bleu-metric-by-examples-df015ca73a86)] and ROUGE [[2](https://medium.com/nlplanet/two-minutes-nlp-learn-the-rouge-metric-by-examples-f179cc285499)] compare whether words or short phrases overlap in the two summaries. This can be useful, but a lack of language understanding means if the exact same information is written in different ways, these algorithms wouldn’t pick up the summaries are equally valid.
 
@@ -59,7 +57,7 @@ What's great about LLM-as-a-Judge is that you can score on characteristic you’
 
 LLM-as-a-Judge is scientifically grounded. It has been shown that LLM judgements can align to human feedback [[3](https://arxiv.org/abs/2306.05685)], and there are various articles on how to improve your LLM judges [[4](https://huggingface.co/learn/cookbook/llm_judge)].
 
-### Who judges the judges?
+## Who judges the judges?
 
 Whilst LLM judges have been shown to be comparable to humans, we still need to be aware of the mistakes that LLMs can make. First, LLMs are typically non-deterministic, meaning an LLM can vary the score it gives a summary if ran multiple times. Secondly, LLM’s are known to hallucinate, so could give an entirely incorrect score.
 
@@ -84,11 +82,11 @@ Whilst human judges can be self-aware of their limitations and effectively self-
 
 There is no defined or straightforward way to assess the LLM-as-a-judge. Instead, a series of comparisons is required during the development phase to test for identified biases and to create a task specific benchmark.
 
-### Conclusions
+## Conclusions
 
 An LLM-as-a-Judge is an exciting alternative to existing methods of evaluating summaries. It is faster than human evaluations and understands language better than traditional automatic evaluations. Whilst LLM’s are not perfect, there are steps we can take to improve and validate their use for evaluation.
 
-#### References
+### References
 
 [1](https://medium.com/nlplanet/two-minutes-nlp-learn-the-bleu-metric-by-examples-df015ca73a86) - Two minutes NLP — Learn the BLEU metric by examples
 
