@@ -4,7 +4,7 @@ summary: 'ONE LINE SUMMARY GOES HERE'
 origin: 'Skunkworks  (this is for legacy pages mainly, so we know where the work came from)'
 # tags: ['add your tags in here as a list (there is no limit) and remove the comment #','tag 2','tag 3']
 ---
-[comment]: <> When making your tags, it might be handy to see a list of the tags that have already been defined. Run `python utils/list-tags.py` from the terminal to print the existing tags (assuming you are in the root directory - update the path if not). You can also run it from VS Code by opening the file and clicking the "Run" button in the top right (but you'll need to have the Python extension installed to do it this way).
+[comment]: <> When deciding your tags, look at the [tag ontology](https://nhsengland.github.io/datascience/our_work/tags/) and try and choose a tag per category and not add any new tags. If you think new tags are required because the existing ones don't match your project, let someone in the Comms & Marketing Function Team know. 
 
 [comment]: <> The metadata block above is used to make the title, the tags, and the first block of "quote text" just beneath the title
 
@@ -23,6 +23,7 @@ by automating the problem area described above, we were able to save £xxx / so 
 Output|Link
 
 [comment]: <> below you can put any relevant links through to outputs, and published code, published papers, live tools, websites, blog articles, anything which is relevant to the project.
+
 ---|---
 Open Source Code & Documentation|[Github](#add URL)
 Case Study|
