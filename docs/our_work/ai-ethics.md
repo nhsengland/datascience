@@ -43,4 +43,4 @@ We have:
 We are currently working on:
 
 * Completing the [Turing Experts in Residence programme](https://www.turing.ac.uk/turing-way-practitioners-hub/eirs)
-* Continuation of applying data hazards to team projects
+* Continuing to use the data hazards to guide ethical considerations within team projects
