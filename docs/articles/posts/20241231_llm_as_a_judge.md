@@ -42,7 +42,7 @@ Whilst this method of evaluation is very thorough and often considered the gold-
 
 ## Surely there is a quicker way?
 
-There are alternative automatic evaluations to human feedback. If you have both human and AI summaries there are some quick similarity metrics you can run. BLUE [[1](https://medium.com/nlplanet/two-minutes-nlp-learn-the-bleu-metric-by-examples-df015ca73a86)] and ROUGE [[2](https://medium.com/nlplanet/two-minutes-nlp-learn-the-rouge-metric-by-examples-f179cc285499)] compare whether words or short phrases overlap in the two summaries. This can be useful, but a lack of language understanding means if the exact same information is written in different ways, these algorithms wouldn’t pick up the summaries are equally valid.
+There are alternative automatic evaluations to human feedback. If you have both human and AI summaries there are some quick similarity metrics you can run. BLEU [[1](https://medium.com/nlplanet/two-minutes-nlp-learn-the-bleu-metric-by-examples-df015ca73a86)] and ROUGE [[2](https://medium.com/nlplanet/two-minutes-nlp-learn-the-rouge-metric-by-examples-f179cc285499)] compare whether words or short phrases overlap in the two summaries. This can be useful, but a lack of language understanding means if the exact same information is written in different ways, these algorithms wouldn’t pick up the summaries are equally valid.
 
 This brings us on to the star of the show: **LLM-as-a-Judge**. We want an evaluation method that understands the intricacies of language and is significantly quicker than humans.
 
