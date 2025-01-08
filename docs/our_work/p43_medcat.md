@@ -19,7 +19,7 @@ However, evaluation of the MedCAT models which inform the NER+L process has only
 <figure markdown>
 ![](../images/medcat2.png)
 </figure>
-<figcaption>Schmatic representation of the MedCAT workflow</figcaption>
+<figcaption>Schematic representation of the MedCAT workflow</figcaption>
 
 ## Results
 We found that all three models produced NER+L results which are not consistent with clinical understanding. Clustering can enable deeper examination of learned embeddings, but further work needs to be done on finding the best input data and clustering approach. Intrinsic evaluation metrics are only meaningful in the presence of extrinsic measures and further research needs to be done to identify the most informative set of metrics. Quantitative assessment must be supplemented by qualitative inspection. The work performed here forms the first phase in evaluation of MedCAT models’ performance. Once optimal evaluation strategies have been identified, the next phase can be focused on improving MedCAT models. This will ultimately enable extraction of clinical terms that can be used for multiple downstream tasks such as automated clinical coding, research, monitoring of interventions, audits as well as service improvements.
