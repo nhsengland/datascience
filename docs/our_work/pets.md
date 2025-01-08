@@ -18,7 +18,7 @@ To achieve a high confidence in the privacy of data we can either turn to a hard
 The Royal society report *“From privacy to partnership The role of privacy enhancing technologies in data governance and collaborative analysis”* [1](https://royalsociety.org/-/media/policy/projects/privacy-enhancing-technologies/From-Privacy-to-Partnership.pdf?la=en-GB&hash=4769FEB5C984089FAB52FE7E22F379D6) states that
 
 > “Recent advances in medical imaging, audio and AI have led to unprecedented possibilities in healthcare and research. This is especially true of the UK, where the public health system is replete with population-scale electronic patient records. These conditions, coupled with strong academic and research programmes, mean that the UK is well positioned to deliver timely and impactful health research and its translation to offer more effective treatments, track and prevent public health risks, utilising health data to improve and save lives [2](https://www.gov.uk/government/publications/lifesciences-industrial-strategy-update).
-> ….
+
 > Anonymous data is not covered by current data protection law in the UK and EU. However, it is difficult to be certain that health data is anonymous, particularly in biometric and other non-textual data. Health data is subject to specific legal requirements in the UK, as well as the common law duty of confidentiality.”**
 
 There is therefore a large need to investigate different ways of understanding and increasing privacy of data in healthcare in order to be confident of patient privacy and compliant. 
