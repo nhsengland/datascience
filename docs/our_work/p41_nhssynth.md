@@ -3,13 +3,13 @@ layout: base
 title: NHSSynth
 permalink: p41_nhssynth.html
 summary: Continuation from the two previous synthevae projects with the aim to create a full experiment pipeline for production
-tags: ['SYNTHETIC', 'STRUCTURED', 'MACHINE LEARNING']
+tags: ['SYNTHETIC', 'STRUCTURED', 'MACHINE LEARNING', 'GENERATION' ,'RESEARCH']
 ---
 
 <figure markdown>
 ![](../images/nhssynthmodules.png)
 </figure>
-<figcaption>Structure of the workflow incorporating user configuation, data preprocessing, model selection, evaluation, and visualisation</figcaption>
+<figcaption>Structure of the workflow incorporating user configuration, data preprocessing, model selection, evaluation, and visualisation</figcaption>
 
 This project seeked to take the learning from our previous work on variational autoencoders see [SynthVAE](https://nhsengland.github.io/datascience/our_work/p12_synthvae/) with differential privacy for single table tabular data generation, and turn the code into a pipeline where experiments could be rigorously undertaken including comparison with other architectures (e.g. GANs), application to other datasets with comparable metrics, and experiments around constraining the direct acylic graph to deal with biases in the data.  
 
