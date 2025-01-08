@@ -3,7 +3,7 @@ layout: base
 title: Understanding Fariness and Explainability in Multimodal Approaches within Healthcare
 permalink: p61_mmfair.html
 summary: Pipeline to compare the impact on fairness of using a fusion model versus a single modality model
-tags: ['MULTIMODAL', 'FUSION', 'MIMIC IV', 'FAIRNESS']
+tags: ['MULTI-MODAL', 'RESEARCH', 'OPEN DATA']
 ---
 
 Explainability, fairness, and bias identification and mitigation are all essential components for the
@@ -29,11 +29,13 @@ compared to unimodal approaches across various fairness metrics. We also describ
 analysis which can be conducted and developed further to mitigate bias post-hoc, or gain further
 insights into the relative importance of specific modalities from multimodal models.
 
-![Overview of the models: unimodal, multimodal with two fusion methods: concatenation and a multiadaptation gate (MAG)](images/mmfair.png)
-
+<figure markdown>
+![](../images/mmfair.png)
+</figure>
+<figcaption>Overview of the models: unimodal, multimodal with two fusion methods: concatenation and a multiadaptation gate (MAG)</figcaption>
 ## Results
 
-We found a reassuring consistency in feature importance across different fusion methods.   Both fusion methods produced fairer models with respect to insurance type (the most unfair variable in the unimodal case) with concatenation providing the lowest equalised odds.
+We found a reassuring consistency in feature importance across different fusion methods.  Both fusion methods produced fairer models with respect to insurance type (the most unfair variable in the unimodal case) with concatenation providing the lowest equalised odds.
 
 Further work is planned to expand this pipeline to other modalities and datasets to solidify our understanding of the interplay of model choices on fiarness.
 
