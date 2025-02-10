@@ -43,4 +43,4 @@ Users of linked data have to rely on the accuracy of the process created by othe
 
 |Output | Link|
 |---|---|
-| Splink Linkage Pipeline | [Github](https://github.com/NHSEngland/splink-linkage-pipeline) |
+| Splink Linkage Pipeline | [Github](https://github.com/nhsengland/NHSE_probabilistic_linkage) |
