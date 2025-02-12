@@ -2,7 +2,7 @@
 title: 'Overview - Data Linkage Hub'
 summary: 'The data linkage hub encompasses all things data linkage, from documenting the existing state of linkage in NHS England in the Person_ID handbook, to exploring better matching algorithms using probabilistic models and Splink, to creating a Quality Assurance Framework for Data Linkage.'
 origin: 'NHS Digital'
-tags: ['BEST PRACTICE', 'LINKAGE', 'PYTHON', 'QUALITY']
+tags: ['BEST PRACTICE', 'LINKAGE']
 ---
 ![Diagram representing the four current areas of the data linkage hub: DL Quality Assurance, Better Matching Algorithm, MPS Documentation, and the DL Community of Practice.](../../images/linkage_visual_abstract.png)
 
