@@ -31,6 +31,25 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "SamHollings",
+      "name": "Sam Hollings",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52575338?v=4",
+      "profile": "https://www.linkedin.com/in/samhollings/",
+      "contributions": [
+        "bug",
+        "blog",
+        "code",
+        "content",
+        "doc",
+        "design",
+        "ideas",
+        "maintenance",
+        "mentoring",
+        "promotion",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
