@@ -31,6 +31,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "JonathanLaidler",
+      "name": "JonathanLaidler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81759821?v=4",
+      "profile": "https://github.com/JonathanLaidler",
+      "contributions": [
+        "review",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
