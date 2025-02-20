@@ -31,6 +31,17 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "GiuliaMantovani1",
+      "name": "Giulia Mantovani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101339382?v=4",
+      "profile": "https://github.com/GiuliaMantovani1",
+      "contributions": [
+        "review",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
