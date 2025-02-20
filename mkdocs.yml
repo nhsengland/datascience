@@ -150,7 +150,7 @@ nav:
     - ... | flat | regex=our_work/(?!template-project\.md).*\.md
   # - Tools:
   #   - ... | flat | tools/*.md
-  - PHDInterns: PhDInterns.md
+  - PhD Internships: PhDInterns.md
   - Articles:
     - ... | flat | articles/*.md
   - Playbooks: playbooks.md
