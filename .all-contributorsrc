@@ -1,0 +1,10 @@
+{
+  "projectName": "datascience",
+  "projectOwner": "nhsengland",
+  "files": ["docs/meta_page.md"],
+  "contributors": [{
+    "login": "amaiaita",
+    "name": "Amaia Imaz Blanco",
+    "profile": "https://github.com/amaiaita"
+  }]
+}
