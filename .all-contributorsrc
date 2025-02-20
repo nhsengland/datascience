@@ -31,6 +31,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "quan14",
+      "name": "Kin Quan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9269705?v=4",
+      "profile": "http://www.linkedin.com/in/kin-quan/",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
