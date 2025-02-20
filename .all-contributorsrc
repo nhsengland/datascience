@@ -31,6 +31,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "AdamHollings",
+      "name": "Adam Hollings",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119732210?v=4",
+      "profile": "https://github.com/AdamHollings",
+      "contributions": [
+        "review",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
