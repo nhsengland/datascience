@@ -20,7 +20,9 @@
         "design",
         "maintenance",
         "promotion",
-        "review"
+        "review",
+        "mentoring",
+        "a11y"
       ]
     },
     {
@@ -29,6 +31,66 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/114092613?v=4",
       "profile": "https://github.com/jrpearson-nhs",
       "contributions": [
+        "content"
+      ]
+    },
+    {
+
+      "login": "quan14",
+      "name": "Kin Quan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9269705?v=4",
+      "profile": "http://www.linkedin.com/in/kin-quan/",
+      "contributions": [
+        "bug"
+    ]
+},
+{
+      "login": "benwallace2nhs",
+      "name": "benwallace2nhs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/159021379?v=4",
+      "profile": "https://github.com/benwallace2nhs",
+      "contributions": [
+        "content"
+      ]
+},
+{
+      "login": "amelianoonan1-nhs",
+      "name": "amelianoonan1-nhs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110029556?v=4",
+      "profile": "https://github.com/amelianoonan1-nhs",
+      "contributions": [
+        "content",
+        "review"
+      ]
+  },
+{
+      "login": "willpoulett",
+      "name": "Will Poulett",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114357288?v=4",
+      "profile": "https://github.com/willpoulett",
+      "contributions": [
+        "blog",
+        "content",
+        "review"
+      ]
+    },
+    
+    {
+      "login": "ngk009",
+      "name": "ngk009",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10488509?v=4",
+      "profile": "https://github.com/ngk009",
+      "contributions": [
+        "review"
+      ]
+    },
+     {
+      "login": "AdamHollings",
+      "name": "Adam Hollings",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119732210?v=4",
+      "profile": "https://github.com/AdamHollings",
+      "contributions": [
+        "review",
         "content"
       ]
     },
@@ -44,7 +106,7 @@
       ]
     }
   ],
-  "contributorsPerLine": 7,
+  "contributorsPerLine": 4,
   "skipCi": true,
   "repoType": "github",
   "repoHost": "https://github.com",
