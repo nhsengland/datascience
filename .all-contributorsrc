@@ -203,6 +203,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "warren-davies4",
+      "name": "warren-davies4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112185584?v=4",
+      "profile": "https://github.com/warren-davies4",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 4,
