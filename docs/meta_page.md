@@ -12,6 +12,17 @@ The guide for contributing to this website can be be found [here](https://github
 ## Credits & Acknowledgements
 This website exists with the hard work of our contributors so thank you to the following so far: 
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+[![All Contributors](https://img.shields.io/github/all-contributors/nhsengland/datascience?color=ee8449&style=flat-square)](#contributors)
+
 |[Sam Hollings](https://github.com/SamHollings) | [Amaia Imaz Blanco](https://github.com/amaiaita) |
 | :---------------------------------------------| :------------------------------------------------|
 | [Harriet Sands](https://github.com/harrietrs)| [William Poulett](https://github.com/willpoulett) |
