@@ -8,13 +8,13 @@ tags: ['PUBLICATIONS']
 
 List of pre-releases and publications connected to our work
 
-[8] [https://ieeexplore.ieee.org/document/10635870](https://ieeexplore.ieee.org/document/10635870)
+[8] [https://arxiv.org/abs/2311.13978](https://arxiv.org/abs/2311.13978)
 
 **Medisure: Towards Assuring Machine Learning-Based Medical Image Classifiers Using Mixup Boundary Analysis**
 
 Adam Byfield, **William Poulett**, **Ben Wallace**, Anusha Jose, Shatakshi Tyagi, Smita Shembekar, Adnan Qayyum, Junaid Qadir, Muhammad Bilal
 
-*Machine learning (ML) models are becoming integral in healthcare technologies, necessitating formal assurance methods to ensure their safety, fairness, robustness, and trustworthiness. However, these models are inherently error-prone, posing risks to patient health and potentially causing irreparable harm when deployed in clinics. Traditional software assurance techniques, designed for fixed code, are not directly applicable to ML models, which adapt and learn from curated datasets during training. Thus, there is an urgent need to adapt established software assurance principles such as boundary testing with synthetic data. To bridge this gap and enable objective assessment of ML models in real-world clinical settings, we propose Mix-Up Boundary Analysis (MUBA), a novel technique facilitating the evaluation of image classifiers in terms of prediction fairness. We evaluated MUBA using brain tumour and breast cancer classification tasks and achieved promising results. This research underscores the importance of adapting traditional assurance principles to assess ML models, ultimately enhancing the safety and reliability of healthcare technologies. Our code is available at [https: //github.com/willpoulett/MUBA_pipeline](https: //github.com/willpoulett/MUBA_pipeline).*
+*Machine learning (ML) models are becoming integral in healthcare technologies, necessitating formal assurance methods to ensure their safety, fairness, robustness, and trustworthiness. However, these models are inherently error-prone, posing risks to patient health and potentially causing irreparable harm when deployed in clinics. Traditional software assurance techniques, designed for fixed code, are not directly applicable to ML models, which adapt and learn from curated datasets during training. Thus, there is an urgent need to adapt established software assurance principles such as boundary testing with synthetic data. To bridge this gap and enable objective assessment of ML models in real-world clinical settings, we propose Mix-Up Boundary Analysis (MUBA), a novel technique facilitating the evaluation of image classifiers in terms of prediction fairness. We evaluated MUBA using brain tumour and breast cancer classification tasks and achieved promising results. This research underscores the importance of adapting traditional assurance principles to assess ML models, ultimately enhancing the safety and reliability of healthcare technologies. Our code is available at [https://github.com/willpoulett/MUBA_pipeline](https://github.com/willpoulett/MUBA_pipeline).*
 
 ---
 
