@@ -1,0 +1,33 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "amaiaita",
+      "name": "amaiaita",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114224821?v=4",
+      "profile": "https://github.com/amaiaita",
+      "contributions": [
+        "bug",
+        "blog",
+        "code",
+        "content",
+        "design",
+        "maintenance",
+        "promotion",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "datascience",
+  "projectOwner": "nhsengland"
+}
