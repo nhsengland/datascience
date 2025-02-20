@@ -52,15 +52,6 @@ This website exists with the hard work of our contributors so thank you to the f
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
-|[Sam Hollings](https://github.com/SamHollings) | [Amaia Imaz Blanco](https://github.com/amaiaita) |
-| :---------------------------------------------| :------------------------------------------------|
-| [Harriet Sands](https://github.com/harrietrs)| [William Poulett](https://github.com/willpoulett) |
-|[Warren Davies](https://github.com/warren-davies4) | [Daniel Goldwater](https://github.com/DanGoldwater1) |
-| [Adam Hollings](https://github.com/AdamHollings)| [Daniel Schofield](https://github.com/danjscho) |
-| [Giulia Mantovani](https://github.com/GiuliaMantovani1) | [Scarlett Kynoch](https://github.com/scarlett-k-nhs) |
-| [Ben Wallace](https://github.com/benWallace57) | [Jonathan Pearson](https://github.com/jrpearson-nhs) |
-| [Jennifer Struthers](https://github.com/jenniferstruthers1-nhs) | [Chaeyoon Kim](https://github.com/ChaeyoonKimNHSE) |
-
 This site uses:
 
 - mkdocs-material
