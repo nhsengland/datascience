@@ -20,7 +20,9 @@
         "design",
         "maintenance",
         "promotion",
-        "review"
+        "review",
+        "mentoring",
+        "a11y"
       ]
     },
     {
@@ -28,6 +30,45 @@
       "name": "jrpearson-nhs",
       "avatar_url": "https://avatars.githubusercontent.com/u/114092613?v=4",
       "profile": "https://github.com/jrpearson-nhs",
+      "contributions": [
+        "content",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "SamHollings",
+      "name": "Sam Hollings",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52575338?v=4",
+      "profile": "https://www.linkedin.com/in/samhollings/",
+      "contributions": [
+        "bug",
+        "blog",
+        "code",
+        "content",
+        "doc",
+        "design",
+        "ideas",
+        "maintenance",
+        "mentoring",
+        "promotion",
+        "review"
+      ]
+},
+{
+
+      "login": "quan14",
+      "name": "Kin Quan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9269705?v=4",
+      "profile": "http://www.linkedin.com/in/kin-quan/",
+      "contributions": [
+        "bug"
+    ]
+},
+{
+      "login": "benwallace2nhs",
+      "name": "benwallace2nhs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/159021379?v=4",
+      "profile": "https://github.com/benwallace2nhs",
       "contributions": [
         "content"
       ]
@@ -42,9 +83,101 @@
         "code",
         "content"
       ]
+},
+{
+      "login": "amelianoonan1-nhs",
+      "name": "amelianoonan1-nhs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110029556?v=4",
+      "profile": "https://github.com/amelianoonan1-nhs",
+      "contributions": [
+        "content",
+        "review"
+      ]
+  },
+{
+      "login": "willpoulett",
+      "name": "Will Poulett",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114357288?v=4",
+      "profile": "https://github.com/willpoulett",
+      "contributions": [
+        "blog",
+        "content",
+        "review"
+      ]
+    },
+    
+    {
+      "login": "ngk009",
+      "name": "ngk009",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10488509?v=4",
+      "profile": "https://github.com/ngk009",
+      "contributions": [
+        "review"
+      ]
+    },
+     {
+      "login": "AdamHollings",
+      "name": "Adam Hollings",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119732210?v=4",
+      "profile": "https://github.com/AdamHollings",
+      "contributions": [
+        "review",
+        "content"
+      ]
+    },
+    {
+      "login": "GiuliaMantovani1",
+      "name": "Giulia Mantovani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101339382?v=4",
+      "profile": "https://github.com/GiuliaMantovani1",
+      "contributions": [
+        "review",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "JonathanLaidler",
+      "name": "JonathanLaidler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81759821?v=4",
+      "profile": "https://github.com/JonathanLaidler",
+      "contributions": [
+        "review",
+        "content"
+      ]
+    },
+    {
+      "login": "harrietrs",
+      "name": "Harriet Sands",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28767009?v=4",
+      "profile": "https://github.com/harrietrs",
+      "contributions": [
+        "content",
+        "maintenance",
+        "review"
+      ]
+    },
+     {
+      "login": "mtaylor57",
+      "name": "mtaylor57",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114294589?v=4",
+      "profile": "https://github.com/mtaylor57",
+      "contributions": [
+        "maintenance",
+        "content"
+      ]
+    },
+    {
+      "login": "ChaeyoonKimNHSE",
+      "name": "chaeyoon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109806924?v=4",
+      "profile": "https://github.com/ChaeyoonKimNHSE",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
-  "contributorsPerLine": 7,
+  "contributorsPerLine": 4,
   "skipCi": true,
   "repoType": "github",
   "repoHost": "https://github.com",
