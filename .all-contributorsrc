@@ -194,6 +194,15 @@
         "blog",
         "bug"
       ]
+    },
+     {
+      "login": "scarlett-k-nhs",
+      "name": "Scarlett Kynoch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114353573?v=4",
+      "profile": "https://github.com/scarlett-k-nhs",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 4,
