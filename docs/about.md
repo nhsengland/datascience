@@ -19,8 +19,6 @@ We are passionate about getting the most value out of the data collected by NHS 
 ## Teams 
 
 In NHSE data scientists are concentrated in the central team but also embedded across a number of other areas.
-
-<div class="grid cards" markdown>
 ``` mermaid
 graph LR
   A[Start] --> B{Error?};
@@ -29,6 +27,8 @@ graph LR
   D --> B;
   B ---->|No| E[Yay!];
 ```
+<div class="grid cards" markdown>
+
 -   :material-link-variant:{ .lg .middle } __Data Linkage__
 
     ---
