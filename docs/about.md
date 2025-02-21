@@ -1,5 +1,5 @@
 
-# About the Data Science Team in NHS England TEST
+# About the Data Science Team in NHS England
 
 ![Data science team photo, all stood on some stairs outdoors.](images/DS_team_photo_smaller.jpeg){ width="450" align=right}
 
@@ -21,7 +21,14 @@ We are passionate about getting the most value out of the data collected by NHS 
 In NHSE data scientists are concentrated in the central team but also embedded across a number of other areas.
 
 <div class="grid cards" markdown>
-
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
 -   :material-link-variant:{ .lg .middle } __Data Linkage__
 
     ---
