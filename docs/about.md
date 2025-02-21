@@ -1,7 +1,7 @@
 
 # About the Data Science Team in NHS England
 
-![Data science team photo, all stood on some stairs outdoors.](images/DS_team_photo_smaller.jpeg){ width="450" align=right}
+![Data science team photo, all stood on some stairs outdoors.](images/DS_team_photo.jpg){ width="450" align=right}
 
 We are the [NHS England](https://www.england.nhs.uk/) Data Science Team.   
 
