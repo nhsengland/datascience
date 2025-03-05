@@ -1,6 +1,6 @@
 # Project Tags
 
-Below the tags are sorted by **categories** (Project Status, Data Sources, Domain Areas, Techniques, Coding Language, Data Types, Evaluation Metrics, and Project Type), however if you would like an **alphabetical list** of all of the tags it can be found [here](#accuracy)
+Below the tags are sorted by **categories** (Project Status, Data Sources, Domain Areas, Techniques, Coding Language, Data Types, Evaluation Metrics, and Project Type), however if you would like an **alphabetical list** of all of the tags it can be found [here](#tag:accuracy)
 
 <div class="grid cards" markdown>
 
@@ -8,45 +8,45 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Domai
 
     ---
 
-    * [Primary care](#primary-care)
-    * [Secondary care](#secondary-care)
-    * [Social Care](#social-care)
-    * [Emergency care](#emergency-care)
-    * [Diseases](#diseases)
-    * [Public/Population Health](#population-health)
-    * [Workforce & Allocation](#workforce)
-    * [Prescribing](#prescribing)
-    * [Financial](#financial)
+    * [Primary care](#tag:primary-care)
+    * [Secondary care](#tag:secondary-care)
+    * [Social Care](#tag:social-care)
+    * [Emergency care](#tag:emergency-care)
+    * [Diseases](#tag:diseases)
+    * [Public/Population Health](#tag:population-health)
+    * [Workforce & Allocation](#tag:workforce)
+    * [Prescribing](#tag:prescribing)
+    * [Financial](#tag:financial)
     
 -   :octicons-ai-model-16:{ .lg .middle } __Techniques__
 
     ---
 
-    * [Forecasting](#forecasting)
-    * [Classification](#classification)
-    * [Computer Vision](#computer-vision)
-    * [Deep Learning](#deep-learning)
-    * [Large Language Models (LLM)](#llm)
-    * [Machine Learning](#machine-learning)
-    * [Neural Networks](#neural-networks)
-    * [Natural Language Processing (NLP)](#nlp)
-    * [Linkage](#linkage)
-    * [Simulation](#simulation)
+    * [Forecasting](#tag:forecasting)
+    * [Classification](#tag:classification)
+    * [Computer Vision](#tag:computer-vision)
+    * [Deep Learning](#tag:deep-learning)
+    * [Large Language Models (LLM)](#tag:llm)
+    * [Machine Learning](#tag:machine-learning)
+    * [Neural Networks](#tag:neural-networks)
+    * [Natural Language Processing (NLP)](#tag:nlp)
+    * [Linkage](#tag:linkage)
+    * [Simulation](#tag:simulation)
 
 -   :material-projector-screen:{ .lg .middle } __Project Type (exploratory, modeling, etc.)__
 
     ---
 
-    * [Best Practice Guidance](#best-practice)
-    * [Data Validation](#data-validation)
-    * [Documentation](#documentation)
-    * [Ethics](#ethics)
-    * [Explainability](#explainability)
-    * [Generation](#generation)
-    * [Linkage](#linkage)
-    * [Modelling](#modelling)
-    * [Reproducible Analytical Pipeline (RAP)](#rap)
-    * [Research](#research)
+    * [Best Practice Guidance](#tag:best-practice)
+    * [Data Validation](#tag:data-validation)
+    * [Documentation](#tag:documentation)
+    * [Ethics](#tag:ethics)
+    * [Explainability](#tag:explainability)
+    * [Generation](#tag:generation)
+    * [Linkage](#tag:linkage)
+    * [Modelling](#tag:modelling)
+    * [Reproducible Analytical Pipeline (RAP)](#tag:rap)
+    * [Research](#tag:research)
 
 -   :octicons-database-16:{ .lg .middle } __Data Types__
 
@@ -54,38 +54,38 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Domai
 
     **Structure** 
 
-    * [Structured](#structured-data)
-    * [Unstructured](#unstructured-data)
+    * [Structured](#tag:structured-data)
+    * [Unstructured](#tag:unstructured-data)
     
     **Data modality**
 
-    * [Multi-modal](#multi-modal)
-    * [Sound/Audio](#audio-data)
-    * [Genomics](#genomics-data)
-    * [Video/Image](#visual-data)
-    * [Text Data](#text-data)
-    * [Time Series](#time-series)
+    * [Multi-modal](#tag:multi-modal)
+    * [Sound/Audio](#tag:audio-data)
+    * [Genomics](#tag:genomics-data)
+    * [Video/Image](#tag:visual-data)
+    * [Text Data](#tag:text-data)
+    * [Time Series](#tag:time-series)
 
     **Data Accessibility/Privacy**
 
-    * [Patient Identifiable](#pii)
-    * [Synthetic](#synthetic-data)
-    * [Open Data](#open-data)
+    * [Patient Identifiable](#tag:pii)
+    * [Synthetic](#tag:synthetic-data)
+    * [Open Data](#tag:open-data)
 
 -   :material-language-python:{ .lg .middle } __Coding Language__
 
     ---
-    * [Python](#python)
-    * [SQL](#sql)
-    * [R](#r)
-    * [Web Development (e.g. Javascript, HTML, CSS)](#webdev)
+    * [Python](#tag:python)
+    * [SQL](#tag:sql)
+    * [R](#tag:r)
+    * [Web Development (e.g. Javascript, HTML, CSS)](#tag:webdev)
 
 -   :material-list-status:{ .lg .middle } __Status__
 
     ---
 
-    * [Work in Progress](#wip)
-    * [Complete](#complete)
-    * [On Pause](#paused)
+    * [Work in Progress](#tag:wip)
+    * [Complete](#tag:complete)
+    * [On Pause](#tag:paused)
 
 </div>
