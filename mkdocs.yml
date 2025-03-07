@@ -34,6 +34,7 @@ nav:
         - Reusable Data Validation Process: our_work/sde_data_validation.md
         - RAG: our_work/ds251_RAG.md
         - Primary Care Data Generator: our_work/swpclab.md
+        - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
       - Past Projects:
         - 2023:
           - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
