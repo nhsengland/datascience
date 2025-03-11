@@ -1,0 +1,71 @@
+---
+title: 'Comms and Marketing Spotlight – DS_299: GEN AI Search'
+summary: 'Comms and Marketing worked with Will Poulett to market his project effectively.'
+origin: 'NHS England'
+tags: ['Best Practice Guidance', 'Comms and Marketing', 'Generation', 'On Pause']
+---
+
+[comment]: <> The metadata block above is used to make the title, the tags, and the first block of "quote text" just beneath the title
+
+[comment]: <> Make a nice visual abstract for your project, or show some key result, which makes the impact of your work clear - imagine your audience is an educated observer from the health system
+[![Alt text for the image](../images/<add your age to the image folder and put the file name here>)](<add a relevant URL if you have one - people like to click images!>)
+
+[comment]: <> Add some description about your project - keep it punchy, focussing on the benefits, anything new, and only the most important parts of the methods, particularly anything which might interest people.
+
+>*“There is no joy in possession without sharing.”*
+>*— Erasmus*
+
+If we want our work to have the most impact, we need to be communicating it to the right people; and we at the Comms and Marketing team can help you do that! 
+Will Poulett gracefully accepted to take part in an engagement with the comms and marketing team so that he could ensure the GEN AI Search was getting most impact it could in the time he had available. In this article we will run through what was being done well and what was improved.
+
+# GEN AI Search Project – Article on our website
+A reminder on what this project is:
+>“We have been exploring evaluation methods for a Generative AI search tool, which both retrieves 
+>and  summarises relevant information based on a user query. One such method is LLM-as-a-Judge, which 
+>utilises the speed and language understanding of LLMs to score summaries. Excluding human scoring, 
+>we recognise this is the best method for evaluating LLM summaries, but to use it safely we must 
+>understand it’s limitations and alignment to human scoring.”
+
+# What is a comms and marketing engagement?
+It was a series of three 30-minute meetings between Will and at least one member of the comms and marketing team where we discussed both the current comms and marketing activities going on, how those activities could be documented and then we helped fill out a marketing plan for other future activities. 
+
+# What Comms and Marketing work had been done
+Will had been conducting some great comms work:
+-	Regular stakeholder meetings to keep them informed, interested and using their feedback to keep the work relevant.
+-	Code saved to a public github repo including a streamlit labelling app. 
+-	A set of confluence pages detailing stakeholders, risks, a description of the product and a link to the github 
+
+# How we helped
+## *Identify a clear narrative*
+We helped Will to identify a narrative for his work. Although there were clear duplication reduction and cost saving benefits to the original website summarisation work that this project evaluated, this project itself had its own clear benefits. An evaluation methodology would be the only way for the summarisation project to be seen as value adding and trusted; like a jeweller assessing the quality of a stone. If the work could be re-used again, it would not only save time in assuring the quality of other generative work but also help to continue establishing the NHS England Data Science Team as experts in this area. After all, it is experts who do evaluation.
+## *Don’t forget to document it*
+If you are already doing it, why not document it! The quality framework includes comms and marketing. We suggested to Will that he fill in the Comms and Marketing section to create a marketing plan and gave advice on how to do so, and what activities could be reasonable for it; for example Will had been “keeping an eye out for suitable chances to present work” and that is a valid marketing activity. 
+We also suggested Will could write an article on his work (which he went and did!), share it on the website and cross-share on other platforms such as LinkedIn to reach a wider audience by being more discoverable. As of Feb 10th 2025 his post on LinkedIn had a respectable 750 impressions!
+## *Key Exploitable Results*
+We suggested Will add at least one Key Exploitable Result (KER) from his project to the KERs page; this is the place where you ensure that your results are known in the wider team and used beyond the scope of the project, for example by team leadership when scoping the creation of new work.
+The KER added was number 030; “A code base for reproducibly evaluating summaries using LLM-as-a-Judge”
+## *End result – Re-use!*
+The end result of Will’s efforts are that his project is know about in the wider team and beyond. This has even led to it being suggested for re-use in the Synthetic Data Generation project!
+
+# Will’s feedback on the engagement:
+*When we first asked you about filling in the marketing section of the quality framework, how apprehensive were you?* - "I didn't really think I was doing any marketing. I wasn't sure what to put in it; for example, I didn't recognise uploading code to GitHub as a form of marketing/comms".
+How helpful did you find talking to the comms and marketing team? - "incredibly helpful, went from not really knowing to understanding and recognising".
+*How long did it take you to fill in the quality framework pages and keep it up to date?* - "It was quite quick. It helped having spoken to Adam and Amaia. It wasn't arduous".
+
+# Do you need help with Comms and Marketing, or advice on presenting?
+Contact a member of the comms and marketing team (for example [adam.hollings1@nhs.net](adam.hollings1@nhs.net) or Amaia.imazblanco1@nhs.net ) and we can have a chat on how we can help you! 
+
+*Note: Some links in this article link to the NHS England confluence and are not open to the general public.*
+
+Output|Link
+
+---|---
+Open Source Code & Documentation|[Github](#add URL)
+Case Study|
+Technical report|[e.g. biorxiv.org]()
+Algorithmic Impact Assessment|e.g. N/A
+
+When you finish creating your project page, make sure you add it into the appropriate navigation sections in the [mkdocs.yml](https://github.com/nhsengland/datascience/blob/main/mkdocs.yml) for website navigation purposes!
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#
