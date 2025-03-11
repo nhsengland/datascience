@@ -14,16 +14,11 @@ description: >
     'Comms and Marketing worked with Will Poulett to market his project (using LLM as a judge) effectively.'
 
 ---
-
-[comment]: <> The metadata block above is used to make the title, the tags, and the first block of "quote text" just beneath the title
-
-[comment]: <> Make a nice visual abstract for your project, or show some key result, which makes the impact of your work clear - imagine your audience is an educated observer from the health system
-[![Alt text for the image](../images/<add your age to the image folder and put the file name here>)](<add a relevant URL if you have one - people like to click images!>)
-
-[comment]: <> Add some description about your project - keep it punchy, focussing on the benefits, anything new, and only the most important parts of the methods, particularly anything which might interest people.
-
 >*“There is no joy in possession without sharing.”*
 >*— Erasmus*
+
+Comms and Marketing worked with Will Poulett to market his project (using LLM as a judge) effectively.
+<!-- more -->
 
 If we want our work to have the most impact, we need to be communicating it to the right people; and we at the Comms and Marketing team can help you do that! 
 Will Poulett gracefully accepted to take part in an engagement with the comms and marketing team so that he could ensure the GEN AI Search was getting most impact it could in the time he had available. In this article we will run through what was being done well and what was improved.
@@ -77,15 +72,4 @@ Contact a member of the comms and marketing team (for example [adam.hollings1@nh
 
 *Note: Some links in this article link to the NHS England confluence and are not open to the general public.*
 
-Output|Link
-
----|---
-Open Source Code & Documentation|[Github](#add URL)
-Case Study|
-Technical report|[e.g. biorxiv.org]()
-Algorithmic Impact Assessment|e.g. N/A
-
-When you finish creating your project page, make sure you add it into the appropriate navigation sections in the [mkdocs.yml](https://github.com/nhsengland/datascience/blob/main/mkdocs.yml) for website navigation purposes!
-
-[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
