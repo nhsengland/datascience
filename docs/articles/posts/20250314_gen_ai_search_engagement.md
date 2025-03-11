@@ -1,5 +1,5 @@
 ---
-title: 'Comms and Marketing Spotlight – DS_299: GEN AI Search'
+title: Comms and Marketing Spotlight – DS_299; GEN AI Search
 authors: ['AdamHollings']
 date: 2025-03-14
 categories: 
