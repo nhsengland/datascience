@@ -6,6 +6,13 @@ authors:
     slug: SamHollings          # Author profile slug
     url: https://github.com/SamHollings            # Author website URL
 
+  AdamHollings:
+    name: Adam Hollings        # Author name
+    description: Senior Data Scientist # Author description
+    avatar: https://avatars.githubusercontent.com/u/119732210?v=4         # Author avatar
+    slug: AdamHollings          # Author profile slug
+    url: https://github.com/AdamHollings            # Author website URL
+
   VickySmith:
     name: Vicky Smith        # Author name
     description: PhD Data Science Intern # Author description
