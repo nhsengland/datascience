@@ -1,5 +1,5 @@
 ---
-title: Comms and Marketing Spotlight – DS_299: GEN AI Search
+title: Comms and Marketing Spotlight – LLM as a Judge
 authors: ['AdamHollings', 'willpoulett']
 date: 2025-03-14
 categories: 
