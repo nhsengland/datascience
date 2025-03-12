@@ -69,6 +69,6 @@ How helpful did you find talking to the comms and marketing team? - "incredibly 
 *How long did it take you to fill in the quality framework pages and keep it up to date?* - "It was quite quick. It helped having spoken to Adam and Amaia. It wasn't arduous".
 
 ## Do you need help with Comms and Marketing, or advice on presenting?
-Contact a member of the comms and marketing team (for example [adam.hollings1@nhs.net](adam.hollings1@nhs.net) or [Amaia.imazblanco1@nhs.net](Amaia.imazblanco1@nhs.net) ) and we can have a chat on how we can help you! 
+Contact a member of the comms and marketing team (for example [mailto:adam.hollings1@nhs.net](mailto:adam.hollings1@nhs.net) or [Amaia.imazblanco1@nhs.net](mailto:Amaia.imazblanco1@nhs.net) ) and we can have a chat on how we can help you! 
 
 *Note: Some links in this article link to the NHS England confluence and are not open to the general public.*
