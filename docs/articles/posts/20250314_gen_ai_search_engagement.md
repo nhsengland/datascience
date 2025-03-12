@@ -11,14 +11,14 @@ links:
     - LLM as a judge article: https://nhsengland.github.io/datascience/articles/2024/12/31/LLM-as-a-Judge/
 slug: Gen-AI-Search-Engagement
 description: >
-    'Comms and Marketing worked with Will Poulett to market his project (using LLM as a judge) effectively.'
+    "A spotlight on how the project 'using LLM as a judge' was marketed effectively by Will Poulett."
 
 ---
 
 >*“There is no joy in possession without sharing.”*
 >*— Erasmus*
 
-Comms and Marketing worked with Will Poulett to market his project (using LLM as a judge) effectively.
+A spotlight on how the project 'using LLM as a judge' was marketed effectively by Will Poulett.
 <!-- more -->
 
 ## GEN AI Search Project – [Article on our website](https://nhsengland.github.io/datascience/articles/2024/12/31/LLM-as-a-Judge/)
