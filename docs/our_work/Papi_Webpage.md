@@ -4,7 +4,6 @@ summary: 'To improve, and update the risk stratification models used in the Popu
 origin: 'NHS England'
 tags: ['PAPI', 'PUBLIC', 'POPULATION HEALTH', 'MACHINE LEARNING', 'MODELLING', 'STRUCTURED', 'PYTHON']
 ---
-# Risk stratification models for Population and Person Insights (PaPI)
 
 ## About PaPI
 
@@ -33,35 +32,35 @@ This project puts patients at the centre to ensure they receive the best care an
 
 ### Data
 
-The data comes from two datasets, SUS and OBH Segmentation. This is pseudonymised person-level data, covering multiple sources (SUS, APC, outpatient, A&E, ECDS, community services, and mental health) from 2008 to 2023. The segmentation dataset splits the population into eight main groups (e.g., healthy, long-term conditions, serious disability, incurable cancer, organ failure, frailty/dementia, maternal and infant health, and acutely ill).
+The data comes from two datasets, SUS and OBH Segmentation. This is pseudonymised person-level data, covering multiple sources (SUS, APC, outpatient, A&E, ECDS, community services, and mental health) from 2008 to 2023. The segmentation dataset splits the population into eight main groups (i.e., healthy, long-term conditions, serious disability, incurable cancer, organ failure, frailty/dementia, maternal and infant health and acutely ill).
 
 For the modelling, we use features like demographic details (age, gender, ethnicity), membership in the Bridges to Health (B2H) segment, over 50 medical conditions (e.g., Asthma, Atrial Fibrillation, COPD, Diabetes), and previous healthcare activity (e.g., number of A&E attendances).
 
 ### Methods
 
 1. **Baseline Performance (Phase 1):**
-   - Combine all segments with original features.
-   - Test four ML models (Logistic Regression, SVM, Random Forest, XGBoost) with class balancing (1:1, 1:2).
-   - No hyperparameter optimization.
+    - Combine all segments with original features.
+    - Test four ML models (Logistic Regression, SVM, Random Forest, XGBoost) with class balancing (1:1, 1:2).
+    - No hyperparameter optimization.
 
 2. **Segment-level Modelling (Phase 2):**
-   - Model six population segments individually.
-   - Use minimal feature sets and the same four algorithms.
-   - Stratified cross-validation.
+    - Model six population segments individually.
+    - Use minimal feature sets and the same four algorithms.
+    - Stratified cross-validation.
 
 3. **Feature Refinement (Phase 3):**
-   - Tailor features for poorly performing segments.
-   - Remove irrelevant or low-importance features.
-   - Use PCA for dimensionality reduction.
+    - Tailor features for poorly performing segments.
+    - Remove irrelevant or low-importance features.
+    - Use PCA for dimensionality reduction.
 
 4. **Model Optimization (Phase 4):**
-   - Fine-tune top-performing models.
-   - Apply hyperparameter optimization.
-   - Select best class balancing ratio (1:1 or 1:2).
+    - Fine-tune top-performing models.
+    - Apply hyperparameter optimization.
+    - Select best class balancing ratio (1:1 or 1:2).
 
 5. **Interpretability & Explainability (Phase 5):**
-   - Use SHAP values to explain feature importance.
-   - Select best-performing models based on metrics and explainability.
+    - Use SHAP values to explain feature importance.
+    - Select best-performing models based on metrics and explainability.
 
 ## Key Exploitable Results (KERs) & Benefits
 
