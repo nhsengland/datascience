@@ -67,7 +67,7 @@ We have considered ethical requirements and ensured compliance with NHS policies
 
 ## **What’s Next?**
 
-The Papi Project is currently in the phase 4. We have refined the feature set for improved model performance. For poorly performing segments, new features are being added, and irrelevant features identified through segment overlap analysis or low importance rankings (e.g., XGBoost feature importance ‘gains’) are being removed. Data quality insights, such as highly correlated features, were also considered. 
+The Papi Project is currently in the phase 4. We have refined the feature set for improved model performance. For poorly performing segments, new features are being added, and irrelevant features identified through segment overlap analysis or low importance rankings (e.g., XGBoost feature importance ‘gains’) are being removed. Data quality insights, such as highly correlated features, were also considered.
 
 _Project summary last updated 12/02/2025 by Michelle Nwachukwu_ 
 
