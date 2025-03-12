@@ -1,4 +1,9 @@
-
+---
+title: 'Risk stratification models for Population and Person Insights (PaPI)'
+summary: 'To improve, and update the risk stratification models used in the Population and Person Insight (PaPI) dashboards.'
+origin: 'NHS England'
+tags: ['PAPI', 'PUBLIC', 'POPULATION HEALTH', 'MACHINE LEARNING', 'MODELLING', 'STRUCTURED', 'PYTHON']
+---
 # Risk stratification models for Population and Person Insights (PaPI)
 
 ## About PaPI
@@ -72,4 +77,6 @@ We prioritise fairness and transparency, ensuring compliance with NHS policies.
 
 The PaPI Project is currently in **Phase 4**, refining features and optimizing models. New features are added for poorly performing segments, while irrelevant features are removed based on segment overlap or low importance rankings (e.g., XGBoost feature importance ‘gains’). Data quality insights, such as highly correlated features, are also considered.
 
-_Project summary last updated 12/02/2025 by Michelle Nwachukwu_
+_Project summary last updated 12/02/2025 by Michelle Nwachukwu_ 
+
+#
