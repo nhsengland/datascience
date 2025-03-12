@@ -36,13 +36,13 @@ We have:
 * Developed a [Model Card Template](https://github.com/nhsengland/model-card).
 * Coordinated the publication of a record for the [Automatic Moderation of Ratings & Reviews project](./ratings-and-reviews.md) on the government's [Algorithmic Transparency Recording Standard](https://www.gov.uk/algorithmic-transparency-records/nhs-england-nhs-dot-uk-reviews-automoderation-tool).
 * Written a (currently internal) White Paper defining the scope of operationalising AI Ethics in NHS England.
+* Applied the [Data Hazards project](https://datahazards.com/) to multiple internal projects to communicate potential harms of our work.
 
 ## In progress
 
-We are currently exploring:
+We are currently working on:
 
-* Using the [Data Hazards project](https://datahazards.com/) to communicate potential harms of our work.
-* Developing a generic statement detailing how projects have taken ethical considerations into account.
-* Supporting our information governance teams on whether additional instruments (such as model cards) can help inform a Data Protection Impact Assessment for AI use cases.
+* Completing the [Turing Experts in Residence programme](https://www.turing.ac.uk/turing-way-practitioners-hub/eirs)
+* Continuing to use the data hazards to guide ethical considerations within team projects
 
 #
