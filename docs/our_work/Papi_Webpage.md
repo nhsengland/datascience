@@ -15,7 +15,7 @@ The PaPI (Population and Person Insights) project aims to review, improve, and u
 
 The goal is to improve the accuracy and relevance of these risk predictions, which are currently based on pre-COVID data from 2019, by retraining the models and data pipelines following a platform migration (NCDR to UDAL). This will enable national, regional, and local health and care systems to better understand and manage population health risks.
 
-<figure markdown="span">  ![Figure 1: PAPI Dashboard](../../images/papi_dash_1.png) <figcaption>Image caption</figcaption></figure>
+<figure markdown="span">  ![Figure 1: An Image showing The Population and Person Insight Dashboard](../../images/papi_dash_1.png) <figcaption>Papi Dashboard</figcaption></figure>
  
 
 ## Why PaPI?
