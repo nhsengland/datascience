@@ -8,7 +8,7 @@ categories:
     - Generative AI
     - Evaluation
 links:
-    - https://nhsengland.github.io/datascience/articles/2024/12/31/LLM-as-a-Judge/
+    - LLM as a judge article: https://nhsengland.github.io/datascience/articles/2024/12/31/LLM-as-a-Judge/
 slug: Gen-AI-Search-Engagement
 description: >
     'Comms and Marketing worked with Will Poulett to market his project (using LLM as a judge) effectively.'
