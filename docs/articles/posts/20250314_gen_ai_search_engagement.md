@@ -24,7 +24,7 @@ Comms and Marketing worked with Will Poulett to market his project (using LLM as
 ## GEN AI Search Project – [Article on our website](https://nhsengland.github.io/datascience/articles/2024/12/31/LLM-as-a-Judge/)
 
 If we want our work to have the most impact, we need to be communicating it to the right people; and we at the Comms and Marketing function team can help you do that! 
-Will Poulett gracefully accepted to take part in an engagement with the comms and marketing team so that he could ensure the GEN AI Search was getting most impact it could in the time he had available. In this article we will run through what was being done well and what was improved.
+Will Poulett gracefully accepted to take part in an engagement with the comms and marketing team so that he could ensure the GEN AI Search project was getting the most impact it could in the time he had available. In this article we will run through what was being done well and what was improved.
 
 <figure class="inline end" markdown>
 ![AI Generated Cartoon of a robot looking at some text through a magnifying glass.](../../images/LLM_as_a_Judge/LLM-as-a-Judge_cartoon.png)
