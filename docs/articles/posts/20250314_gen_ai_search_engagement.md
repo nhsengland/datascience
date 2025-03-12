@@ -52,14 +52,18 @@ Will had been conducting some great comms work:
 ![A man walking down a road that winds into the distance.](../../images/gen_ai_search_engagement/clear_narrative.png)
 <figcaption>Figure 2: A man walking down a road that winds into the distance.</a></figcaption>
 </figure>
+
 ### *Identify a clear narrative*
 We helped Will to identify a narrative for his work. Although there were clear duplication reduction and cost saving benefits to the original website summarisation work that this project evaluated, this project itself had its own clear benefits. An evaluation methodology would be the only way for the summarisation project to be seen as value adding and trusted; like a jeweller assessing the quality of a stone. If the work could be re-used again, it would not only save time in assuring the quality of other generative work but also help to continue establishing the NHS England Data Science Team as experts in this area. After all, it is experts who do evaluation.
+
 ### *Don’t forget to document it*
 If you are already doing it, why not document it! The quality framework includes comms and marketing. We suggested to Will that he fill in the [Comms and Marketing section](https://nhsd-confluence.digital.nhs.uk/display/DAT/DS_299%3A+Comms+and+Marketing) to create a marketing plan and gave advice on how to do so, and what activities could be reasonable for it; for example Will had been “keeping an eye out for suitable chances to present work” and that is a valid marketing activity. 
 We also suggested Will could write an article on his work ([which he went and did!](https://nhsengland.github.io/datascience/articles/2024/12/31/LLM-as-a-Judge/)), share it on the website and cross-share on other platforms such as LinkedIn to reach a wider audience by being more discoverable. As of Feb 10th 2025 his post on LinkedIn had a respectable 750 impressions!
+
 ### *Key Exploitable Results*
 We suggested Will add at least one Key Exploitable Result (KER) from his project to the KERs page; this is the place where you ensure that your results are known in the wider team and used beyond the scope of the project, for example by team leadership when scoping the creation of new work.
 The KER added was number 030; “A code base for reproducibly evaluating summaries using LLM-as-a-Judge”
+
 ### *End result – Re-use!*
 The end result of Will’s efforts are that his project is know about in the wider team and beyond. This has even led to it being suggested for re-use in the Synthetic Data Generation project!
 
