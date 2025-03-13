@@ -69,7 +69,9 @@ The end result of Will’s efforts are that his project is know about in the wid
 
 ## Will’s feedback on the engagement:
 *When we first asked you about filling in the marketing section of the quality framework, how apprehensive were you?* - "I didn't really think I was doing any marketing. I wasn't sure what to put in it; for example, I didn't recognise uploading code to GitHub as a form of marketing/comms".
-How helpful did you find talking to the comms and marketing team? - "incredibly helpful, went from not really knowing to understanding and recognising".
+
+*How helpful did you find talking to the comms and marketing team?* - "incredibly helpful, went from not really knowing to understanding and recognising".
+
 *How long did it take you to fill in the quality framework pages and keep it up to date?* - "It was quite quick. It helped having spoken to Adam and Amaia. It wasn't arduous".
 
 ## Do you need help with Comms and Marketing, or advice on presenting?
