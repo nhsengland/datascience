@@ -57,7 +57,7 @@ The Key Exploitable results of a project is an identified main interesting resul
 We have identified various KERS which can be useful to other teams, they are listed below:
 
 
-- **PaPI Ways of working:** (agile methods, environment, ethics, quality processes): Demonstrates how applying the QAF and other project management/coding best practices can help organize a project effectively.
+- **PaPI Ways of working:** (agile methods, environment, ethics, quality processes): Demonstrates how applying the Quality Assurance Framework and other project management/coding best practices can help organize a project effectively.
 - **Code Carbon Library Integration:** Tracks CO₂ emissions when training models, serving as a benchmark for monitoring environmental impact. The code is publicly available on GitHub and can be replicated by others. 
 - **Risk Stratification Data Asset:** helps to understand and manage population health risks, contributing to Population Health Management initiatives
 
