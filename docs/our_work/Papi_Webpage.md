@@ -2,7 +2,7 @@
 title: 'Risk stratification models for Population and Person Insights (PaPI)'
 summary: 'To improve, and update the risk stratification models used in the Population and Person Insight (PaPI) dashboards.'
 origin: 'NHS England'
-tags: ['PAPI', 'PUBLIC', 'POPULATION HEALTH', 'MACHINE LEARNING', 'MODELLING', 'STRUCTURED', 'PYTHON']
+tags: ['PUBLIC/POPULATION HEALTH', 'MACHINE LEARNING', 'MODELLING', 'STRUCTURED', 'PYTHON']
 ---
 
 ## **About PaPI**
