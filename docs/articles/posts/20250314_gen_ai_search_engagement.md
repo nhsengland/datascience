@@ -43,6 +43,7 @@ It was a series of three 30-minute meetings between Will and at least one member
 
 ## What Comms and Marketing work had been done
 Will had been conducting some great comms work:
+
 -	Regular stakeholder meetings to keep them informed, interested and using their feedback to keep the work relevant.
 -	Code saved to a public github repo including a streamlit labelling app. 
 -	A set of confluence pages detailing stakeholders, risks, a description of the product and a link to the github 
