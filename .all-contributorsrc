@@ -122,7 +122,8 @@
       "profile": "https://github.com/AdamHollings",
       "contributions": [
         "review",
-        "content"
+        "content",
+        "blog"
       ]
     },
     {
@@ -215,6 +216,17 @@
         "bug",
         "a11y",
         "review"
+      ]
+    },
+    {
+      "login": "hadimodarres1",
+      "name": "hadimodarres1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109468976?v=4",
+      "profile": "https://github.com/hadimodarres1",
+      "contributions": [
+        "code",
+        "content",
+        "doc"
       ]
     }
   ],
