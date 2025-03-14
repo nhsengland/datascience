@@ -35,6 +35,7 @@ nav:
         - RAG: our_work/ds251_RAG.md
         - AI Assurance Research Path: our_work/ds278_Assurance_Research_Path.md
         - Primary Care Data Generator: our_work/swpclab.md
+        - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
         - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
       - Past Projects:
         - 2024:
@@ -95,6 +96,7 @@ nav:
         - Renal Health Prediction: our_work/renal-health-prediction.md
         - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
         - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
+        - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Hub:
           - our_work/data-linkage-hub/index.md
