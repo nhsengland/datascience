@@ -32,7 +32,7 @@ If you instist on doing this locally, follow these steps:
 6. Content Review (follow the [instructions](#content-review))
 7. Push to your fork and [submit a pull request][pr]
 
-Your pull request will then be reviewed. You may receive some feedback and suggested changes before it can be approved and your pull request merged.
+Contact someone from Marketing & Comms Function Team to review your Pull Request. You may receive some feedback and suggested changes before it can be approved and your pull request merged.
 
 **To increase the likelihood of your pull request being accepted:**
 
