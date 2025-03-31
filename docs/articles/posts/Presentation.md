@@ -33,20 +33,30 @@ Great presentations are built on how well you engage your audience. Here’s how
 - 🗣️ **Engage Your Audience**
  
 Involve your audience early by starting with a compelling story or question. Use interactive tools like real-time polls, quizzes (e.g., Menti), or word clouds to capture feedback instantly. Personalizing your content based on audience responses helps keep them engaged throughout. Something you may want to consider, to capture your audience is not starting with “My name is ... and I am here to present about...”. Jump directly into an engaging hook about your content and then go back to introduce yourself later. 
+
 - 🎨 **Clear and Visually Appealing Slides**
  
 Keep your slides visually simple but impactful. Follow the "10-20-30 rule" — no more than 10 slides, keep the presentation under 20 minutes, and use a font size of at least 30. Use high-quality images and icons that support your message and avoid overwhelming your audience with too much text. It is also worth considering if the slides are just punchy images with no text are appropriate for your purpose as they are more memorable. 
+
 - 💪 **Master Body Language and Voice**
  
 Non-verbal communication is key. Maintain eye contact to create a connection and use hand gestures to emphasize key points. Vary your tone and pace to avoid monotony. Moving around the stage and pausing for effect can also keep your audience's attention on you, not just your slides. 
+
 - ⏱️ **Practice, Practice, Practice!**
  
 Rehearse several times, ideally in front of a test audience. This helps you refine your delivery, smooth out transitions, and improve your timing. Anticipate possible technical issues (e.g., microphone failure) and have a backup plan.
+
 - **In Summary:**
+
 To deliver a memorable and impactful presentation:
+
 ✅ Engage your audience from the start
+
 ✅ Keep your slides clear and simple
+
 ✅ Use confident body language
+
+
 ✅ Rehearse thoroughly
  
 I hope you have learnt some skills and would put it in practise when presenting and marketing your work.  To learn more, you could check out the slides from the DS Team's January Away Day Presentation Training [here](https://github.com/user-attachments/files/19533761/presentation-training.1.pptx) and this detailed [blog](https://pickanevent.com/presentation-skills/).
