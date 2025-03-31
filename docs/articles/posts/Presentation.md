@@ -50,5 +50,6 @@ To deliver a memorable and impactful presentation:
 ✅ Rehearse thoroughly
  
 I hope you have learnt some skills and would put it in practise when presenting and marketing your work.  To learn more, you could check out the slides from the DS Team's January Away Day Presentation Training [here](https://github.com/user-attachments/files/19533761/presentation-training.1.pptx) and this detailed [blog](https://pickanevent.com/presentation-skills/).
+
 📢 NHS England Data Science Team Comms and Marketing
 ![Image](https://github.com/user-attachments/assets/10a4aa9e-9321-40bf-a5b6-2a229466e6de)
