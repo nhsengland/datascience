@@ -41,6 +41,7 @@ If there's anything amiss, the website will produce a response informing the use
 | ---------------------------------- | -------------------------------------------------------------------- |
 | Published repo for the Automoderation API       | [Github Repo](https://github.com/nhsengland/nhsuk.moderation-api-public)|
 | Published repo for the models       | [Github Repo](https://github.com/nhsengland/nhsuk.moderation-ml-public)   |
+| Algorithmic Transparency Recording Standard (ATRS)      | [ATRS](https://www.gov.uk/algorithmic-transparency-records/nhs-england-nhs-dot-uk-reviews-automoderation-tool)   |
 <!-- | Published repo for creating models | [Github Repo](PUT LINK HERE) | -->
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
