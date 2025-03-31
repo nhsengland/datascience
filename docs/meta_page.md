@@ -58,4 +58,3 @@ This site uses:
 
 - [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
 - [mkdocs-awesome-pages](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin)
-- [polyfill](https://polyfill.io/v3/polyfill.min.js?features=es6)
