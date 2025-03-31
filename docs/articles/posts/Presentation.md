@@ -14,15 +14,18 @@ slug: presentation-in-NHSE
 ---
 
 
-# **Data Science Marketing Spotlight: Confident Presentation Secrets**
+# Data Science Marketing Spotlight: Confident Presentation Secrets
  
-📢 Our spotlight today will be on **Confident Presenting**!
+>📢 Our spotlight today will be on **Confident Presenting**!
+
+>Do you want to present as speakers like Steve Jobs, Ken Robinson, or Simon Sinek, who are known for their exceptional ability to captivate and engage their audience? Keep reading to discover the techniques they use to deliver impactful and memorable presentations, building on the techniques from our away day workshop. Also make sure to check out some of [our other resources](https://github.com/user-attachments/files/19533717/C.M_.Presentation.Guide-v28-20250331_111607.pdf) for presenting!
+
+<!-- more -->
  
 <p align="center">
 <img src="https://github.com/user-attachments/assets/89ebebb9-8819-441d-8576-1f9ef61a25f0" />
 </p>
  
-Do you want to present as speakers like Steve Jobs, Ken Robinson, or Simon Sinek, who are known for their exceptional ability to captivate and engage their audience? Keep reading to discover the techniques they use to deliver impactful and memorable presentations, building on the techniques from our away day workshop. Also make sure to check out some of [our other resources](https://github.com/user-attachments/files/19533717/C.M_.Presentation.Guide-v28-20250331_111607.pdf) for presenting!
 ## 💡 **Confident Presenting: 4 Simple Presentation Secrets**
 Great presentations are built on how well you engage your audience. Here’s how you can elevate your presentation game:
 
