@@ -4,6 +4,8 @@ title: Presentation Secrets
 authors: [Michelle Nwachukwu]
 date: 2025-03-31
 categories: 
+    - Personal Development
+    - Comms and Marketing
     - Presentation
     - blog
     - Python
