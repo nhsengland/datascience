@@ -240,7 +240,9 @@
       "contributions": [
         "code",
         "content",
-        "doc"
+        "doc",
+        "blog",
+        "talk"
       ]
     }
   ],
