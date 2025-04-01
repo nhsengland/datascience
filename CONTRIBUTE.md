@@ -9,8 +9,8 @@ If you think of something worth including, improving, or you find a bug, please 
 ## Submitting a pull request
 
 If you want to contribute to our resources I would recommend using codespaces directly in github to do this. Guidance is as follows: 
-1. If your change constitutes a significant content contribution, before starting with any actual changes, you must go through a content review follow the [instructions](#content-review)
-2. In the repository [homepage](https://github.com/nhsengland/datascience), click the button on the top right which says 'main', then type the name of the branch you want to create, and press create branch
+1. If your change constitutes a significant content contribution, before starting with any actual changes, you must go through a content review - follow these [instructions](#content-review)
+2. In the repository [homepage](https://github.com/nhsengland/datascience), click the button on the top left which says 'main', then type the name of the branch you want to create, and press create branch
    ![image](https://github.com/user-attachments/assets/f6250b49-d5cf-4a65-8b5f-c02145daab77)
  
 3. Click the green code button, then Codespaces, then the '+' symbol to create a new codespace on your branch.
@@ -22,17 +22,17 @@ If you want to contribute to our resources I would recommend using codespaces di
 7. [Submit a pull request][pr]
 
 
-If you instist on doing this locally, follow these steps:
+If you insist on doing this locally, follow these steps:
 
 1. [Fork][fork] or clone the repository
-2. Configure and install the dependencies if you want to run the page in your machine, otherwise none.
+2. Configure and install the dependencies if you want to run the page in your machine.
 3. Create a new branch: `git checkout -b my-branch-name`
 4. Make your change
 5. Check how your change looks on our website by hosting the website locally (follow [the steps below](#contribute-to-nhs-england-data-science-website) on how to do this)
 6. Content Review (follow the [instructions](#content-review))
 7. Push to your fork and [submit a pull request][pr]
 
-Contact someone from Marketing & Comms Function Team to review your Pull Request. You may receive some feedback and suggested changes before it can be approved and your pull request merged.
+Contact someone from [Marketing & Comms Function Team](https://nhsd-confluence.digital.nhs.uk/pages/viewpage.action?pageId=351578724) to review your Pull Request. You may receive some feedback and suggested changes before it can be approved and your pull request merged.
 
 **To increase the likelihood of your pull request being accepted:**
 
