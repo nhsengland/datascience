@@ -212,7 +212,7 @@ extra:
       name: NHS England Data Science
   meta:
     - name: "og:image"
-      content: "https://nhsengland.github.io/datascience/images/logo/nhs-white-on-blue.jpg"
+      content: "https://nhsengland.github.io/datascience/docs/images/logo/nhs-white-on-blue.jpg"
   generator: false
 copyright: Copyright &copy; 2023 Crown Copyright (NHS England)
 extra_javascript:
