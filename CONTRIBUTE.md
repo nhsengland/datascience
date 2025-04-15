@@ -103,7 +103,7 @@ description: >
 
 ### Project Page 
 
-- Check out the [project template](https://github.com/nhsengland/datascience/blob/aib-improve-contributing-guidance/docs/our_work/template-project.md?plain=1) for how to contribute a project page to the website.
+- Check out the [project template](https://github.com/nhsengland/datascience/blob/main/docs/our_work/template-project.md) for how to contribute a project page to the website.
 
 
 ## Resources
