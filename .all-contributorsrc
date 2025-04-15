@@ -86,7 +86,8 @@
         "code",
         "content",
         "talk",
-        "maintenance"
+        "maintenance",
+        "bug"
       ]
     },
     {
