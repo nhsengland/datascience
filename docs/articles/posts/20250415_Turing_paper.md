@@ -76,13 +76,13 @@ Mia Noonan joined NHS England as a graduate in 2021 after earning her MSc in Com
 
 ### Acknowledgements
 
-This case study is published under [The Turing Way Practitioners Hub](https://www.turing.ac.uk/turing-way-practitioners-hub) 2024-25 Cohort - case study series. The Practitioners Hub is *[The Turing Way](https://the-turing-way.netlify.app/welcome)* project that works with experts from partnering organisations to promote data science best practices. In 2024, The Turing Way team welcomed **Harriet Sands and Mia Noonan** as Experts in Residence to represent interests and opportunities to discuss, adopt and share their implementation approaches for data science and AI in the **NHS England Data Science Team** and Healthcare. We thank them for leading the development of this case study.
+This case study is published under [The Turing Way Practitioners Hub](https://www.turing.ac.uk/turing-way-practitioners-hub) 2024-25 Cohort - case study series. The Practitioners Hub is *[The Turing Way](https://the-turing-way.netlify.app/welcome)* project that works with experts from partnering organisations to promote data science best practices. In 2024, **Harriet Sands and Mia Noonan** jined the cohort as Experts in Residence to represent interests and opportunities to discuss, adopt and share their implementation approaches for data science and AI in the **NHS England Data Science Team** and Healthcare. 
 
-This work is supported by[ Innovate UK BridgeAI](https://iuk.ktn-uk.org/programme/bridgeai/). The Practitioners Hub has also received funding and support from the Ecosystem Leadership Award under the EPSRC Grant EP/X03870X/1 & [The Alan Turing Institute](https://www.turing.ac.uk/).
+This project is supported by [Innovate UK BridgeAI](https://iuk.ktn-uk.org/programme/bridgeai/). The Practitioners Hub has also received funding and support from the Ecosystem Leadership Award under the EPSRC Grant EP/X03870X/1 & [The Alan Turing Institute](https://www.turing.ac.uk/).
 
-The Turing Way Practitioners Hub’s 2024-25 Cohort was co-delivered by Dr **Malvika Sharan**, Senior Researcher - Open Research and **Arielle Bennett**, Senior Researcher - Open Source Practices. **Stuart Gillespie** is the technical writer for this case study, and others in the series. **Léllé Demertzi** is the Research Project Manager.
+**Cite this publication**
 
-The Turing Way Practitioners Hub, designed and launched in 2023 by Dr Sharan, aims to accelerate the adoption of best practices. Through a six-month cohort-based program, the Hub facilitates knowledge sharing, skill exchange, case study co-creation, and the adoption of open science practices. It also fosters a network of 'Experts in Residence' across partnering organisations.
+Noonan, M., Sands, H., Wallace, B., Gillespie, S., Sharan, M., Bennett, A., & Demertzi, L. (2025). Driving Responsible Data Science: A Case Study of NHS England's Data Science Team. Zenodo. [https://doi.org/10.5281/zenodo.15053194](https://doi.org/10.5281/zenodo.15053194)
 
 
 **Cite this publication**
