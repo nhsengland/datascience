@@ -2,6 +2,11 @@
 title: Interview with a Data Scientist - The Aerospace Engineer who Loved Spreadsheets
 authors: [josephwilson]
 date: 2025-04-16
+categories: 
+    - RAP
+    - Python
+    - Professional Development
+    - Data Science Interviews
 links:
     - https://nhsengland.github.io/datascience-pd-newsletter/posts/2025_03/newsletter.html
 slug: interview_with_joseph_wilson
