@@ -4,10 +4,10 @@ title: Presentation Secrets
 authors: [Michelle Nwachukwu]
 date: 2025-03-31
 categories: 
-    - Personal Development
+    - Professional Development
     - Comms and Marketing
     - Presentation
-    - blog
+    - Blog
     - Python
 
 slug: presentation-in-NHSE
