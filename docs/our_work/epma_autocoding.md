@@ -2,23 +2,23 @@
 title: 'ePMA Auto-Coding'
 summary: 'A rule-base data processing pipeline to map free text medication descriptions to SNOMED codes using the dm+d standard.'
 origin: ''
-tags: ['PYTHON','SECONDARY CARE','PRESCRIBING','TEXT DATA']
+tags: ['PYTHON','SECONDARY CARE','PRESCRIBING','TEXT DATA','LINKAGE','WIP']
 ---
 ## The Problem
 The ePMA (electronic prescribing and medicine administration) data collection is a person-level data asset containing information on what medication is prescribed and administered in secondary care settings. The ePMA data that hospitals submit contain a number of free text fields including: medication name, dosage, route and frequency. This creates some challenges when aiming to collect and eventually disseminate this data:
 
 1. Free text can potentially contain PID (patient identifiable data) which is not permitted
-2. Free text descriptions of medication makes analysis hard because the same medication could be described in multiple ways 
+2. Free text descriptions of medication make analysis hard because the same medication could be described in multiple ways 
 
 ## Our Solution
 The ePMA auto-coding pipeline was created which maps the free text descriptions of medications to valid SNOMED codes using dm+d (dictionary of medicines and devices). The pipeline has a series of deterministic steps as follows (high level view only):
 
-1. Filter submissions - records that have been mapped before or deemed to be unmappable are not run through the pipeline again
-2. Preprocessing - convert to lowercase, replace words and punctuation
-3. Read data - the input ePMA data with dm+d reference data from VTM (chemical), VMP (product), AMP (branded product)
-4. Exact matching - does the input exactly match any of the dm+d reference data?
-5. Entity matching - split the medication description into moiety, unit, strength and dose form and attempt to match to dm+d reference data
-6. Fuzzy matching* - compare the input against the dm+d reference data using fuzzy logic
+1. **Filter submissions** - records that have been mapped before or deemed to be unmappable are not run through the pipeline again
+2. **Preprocessing** - convert to lowercase, replace words and punctuation
+3. **Read data** - the input ePMA data with dm+d reference data from VTM (chemical), VMP (product), AMP (branded product)
+4. **Exact matching** - does the input exactly match any of the dm+d reference data?
+5. **Entity matching** - split the medication description into moiety, unit, strength and dose form and attempt to match to dm+d reference data
+6. **Fuzzy matching*** - compare the input against the dm+d reference data using fuzzy logic
 
 *Fuzzy logic is a technique using various distance metrics to find out how different two texts are from one another. In it's simplest form it can compare word to word by how many characters need removing, adding or changing (e.g. the fuzzy matching score between "internationalization" and "internationalisation" is 95.00 because one character needs changing. A score of 100 means the words are identical), this technique helps to pick up spelling mistakes and spelling differences. More complex versions of fuzzy matching allow for sentences to be compared, with options to ignore the order of words, duplicated words and partial matches within a sentence.
 
