@@ -247,6 +247,16 @@
         "blog",
         "talk"
       ]
+    },
+    {
+      "login": "josephwilson8-nhs",
+      "name": "Joe Wilson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94833558?v=4",
+      "profile": "http://linkedin.com/in/jrdwilson/",
+      "contributions": [
+        "blog",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
