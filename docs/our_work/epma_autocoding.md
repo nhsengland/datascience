@@ -7,7 +7,7 @@ tags: ['PYTHON','SECONDARY CARE','PRESCRIBING','TEXT DATA']
 ## The Problem
 The ePMA (electronic prescribing and medicine administration) data collection is a person-level data asset containing information on what medication is prescribed and administered in secondary care settings. The ePMA data that hospitals submit contain a number of free text fields including: medication name, dosage, route and frequency. This creates some challenges when aiming to collect and eventually disseminate this data:
 
-1. Free text can potenitally contain PID (patient identifiable data) which is not permitted
+1. Free text can potentially contain PID (patient identifiable data) which is not permitted
 2. Free text descriptions of medication makes analysis hard because the same medication could be described in multiple ways 
 
 ## Our Solution
@@ -26,7 +26,7 @@ The ePMA auto-coding pipeline was created which maps the free text descriptions 
 
 ## Results
 
-A review of the most common prescriptions and adminstrations found:
+A review of the most common prescriptions and administrations found:
 
 - 93% correct
 - 4% wrong granularity - meaning extra information such as dose and form were provided but autocoding only mapped to the parent level
@@ -36,7 +36,7 @@ Granularity:
 
 | Level | Proportion |
 |-----|------------|
-| Virtual Theraputic Moiety (VTM) | 49.1% |
+| Virtual Therapeutic  Moiety (VTM) | 49.1% |
 | Virtual Medicinal Product (VMP) | 42.6% |
 | Actual Medicinal Product (AMP) | 8.3% |
 
