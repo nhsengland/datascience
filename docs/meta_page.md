@@ -44,6 +44,9 @@ This website exists with the hard work of our contributors so thank you to the f
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/hadimodarres1"><img src="https://avatars.githubusercontent.com/u/109468976?v=4?s=100" width="100px;" alt="hadimodarres1"/><br /><sub><b>hadimodarres1</b></sub></a><br /><a href="https://github.com/nhsengland/datascience/commits?author=hadimodarres1" title="Code">💻</a> <a href="#content-hadimodarres1" title="Content">🖋</a> <a href="https://github.com/nhsengland/datascience/commits?author=hadimodarres1" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/michelle7707"><img src="https://avatars.githubusercontent.com/u/52786160?v=4?s=100" width="100px;" alt="michelle7707"/><br /><sub><b>michelle7707</b></sub></a><br /><a href="https://github.com/nhsengland/datascience/commits?author=michelle7707" title="Code">💻</a> <a href="#content-michelle7707" title="Content">🖋</a> <a href="https://github.com/nhsengland/datascience/commits?author=michelle7707" title="Documentation">📖</a> <a href="#blog-michelle7707" title="Blogposts">📝</a> <a href="#talk-michelle7707" title="Talks">📢</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://linkedin.com/in/jrdwilson/"><img src="https://avatars.githubusercontent.com/u/94833558?v=4?s=100" width="100px;" alt="Joe Wilson"/><br /><sub><b>Joe Wilson</b></sub></a><br /><a href="#blog-josephwilson8-nhs" title="Blogposts">📝</a> <a href="#ideas-josephwilson8-nhs" title="Ideas, Planning, & Feedback">🤔</a></td>
+    </tr>
   </tbody>
 </table>
 
