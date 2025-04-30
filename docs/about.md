@@ -64,9 +64,9 @@ To support knowledge share of data science in healthcare we've put together a **
         
     The newsletter is targeted towards members of the NHS England Data Science team, so some links may only be accessible to those with the necessary login credentials, however the newsletter and its archive are available for all at the link above.
 
-<center>
-[NHS England Data Science Professional Development Newsletter](https://nhsengland.github.io/datascience-pd-newsletter/){ .md-button .md-button--primary target="_blank"}
-</center>
+<div style="text-align:center;">
+<a href="https://nhsengland.github.io/datascience-pd-newsletter/" class="md-button md-button--primary" target="_blank">NHS England Data Science Professional Development Newsletter</a>
+</div>
 
 We also support the [NHS Data Science Community](https://data-science-community.analystx.uk/) hosted in AnalystX, which is the home of spreading data science knowledge within the NHS.  You can also learn a lot about data science from the other communities we support:
 
