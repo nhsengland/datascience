@@ -21,9 +21,9 @@ This interview orginally was published in the [April edition](https://nhsengland
 
 <!-- more -->
 
-<p align="center">
-<img src="https://avatars.githubusercontent.com/u/19690906?v=4" />
-</p>
+<figure markdown>
+  ![SC Picture](../../images/blogs_images/SC_picture.png)
+</figure>
 
 ## How did you end up in data science at the NHS? What did you do before, and what really sparked your interest in this field?
 
