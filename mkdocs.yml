@@ -37,6 +37,7 @@ nav:
         - Primary Care Data Generator: our_work/swpclab.md
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
         - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
+        - ePMA Auto Coding: our_work/epma_autocoding.md
       - Past Projects:
         - 2024:
           - RAG: our_work/ds251_RAG.md
@@ -109,6 +110,7 @@ nav:
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Tool to Assess Privacy Risk of Text Data: our_work/c399_privfinger.md
         - Tool to Assess Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
+        - ePMA Auto Coding: our_work/epma_autocoding.md
       - Data Science Capability:
         - AI Deep Dive Workshops: our_work/ai-deep-dive.md
         - AI Dictionary: our_work/ai-dictionary.md
