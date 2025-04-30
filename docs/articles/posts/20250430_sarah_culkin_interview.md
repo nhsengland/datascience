@@ -37,26 +37,6 @@ I’ve remained within the health sector and the realm of data ever since, for a
 
 My passion for data science truly ignited around 2016, and I took the initiative to establish a small data science team within the Department of Health. Since then, I’ve held a variety of roles across the Department of Health and Social Care (DHSC), NHS England, and NHSX. I also spent some valuable time at Leeds Teaching Hospitals Trust and in a data policy role. Ultimately, though, leading a data science team is where my true passion lies.
 
-## Once you joined the NHS, what was that experience like? What different roles and teams have you been a part of, and how have they shaped your career?
-
-As Deputy Director of the Data Science team at NHS England, my focus has shifted from direct project involvement to leading the team and shaping its strategic direction. While I miss the day-to-day project work, I now dedicate my time to raising the team’s profile and securing new opportunities for us to contribute.
-
-Two current areas of work particularly excite me. Firstly, the ongoing development of data science as a recognised profession within the NHS.
-
-For example, our PhD intern programme, which connects the NHS with early-career researchers in academia, has been running successfully for several years (more information can be found here). This initiative brings fresh perspectives and skills into the NHS.
-
-We also now oversee a Data Science Masters programme, a fantastic opportunity to provide advanced training to our colleagues, enhancing their capabilities and the overall data science capacity within the NHS.
-
-I was also involved in developing the data science competency frameworks and, more recently, a continuous professional development policy. I firmly believe that having a clear, fair, well-defined, and well-promoted profession is crucial for attracting and retaining talent and ensuring high standards.
-
-More recently, I’ve had the rewarding experience of engaging in school outreach. The sessions at primary schools were particularly memorable; the children’s questions are often wonderfully wild, funny, and insightful!
-
-The second area that truly excites me is shaping the new projects coming into the team. I’m particularly keen to see how data science can effectively support the digital transformation initiatives within the NHS, as well as inform crucial operational decisions.
-
-It’s fascinating to observe how different teams operate and identify how data science can provide valuable assistance. I play a key role in scoping these projects to ensure they not only meet but potentially exceed the initial requirements.
-
-Increasingly, we’re seeing colleagues interested in leveraging the power of AI in their work, which brings exciting new challenges, opportunities, and collaborations for our team.
-
 ## What are you currently working on? Are there any projects that you're particularly excited about, or that you feel are making a real difference? What impact are you having?
 
 As Deputy Director of the Data Science team at NHS England, my focus has shifted from direct project involvement to leading the team and shaping its strategic direction. While I miss the day-to-day project work, I now dedicate my time to raising the team's profile and securing new opportunities for us to contribute.
