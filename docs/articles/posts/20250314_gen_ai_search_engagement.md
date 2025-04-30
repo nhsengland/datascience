@@ -27,7 +27,7 @@ If we want our work to have the most impact, we need to be communicating it to t
 Will Poulett gracefully accepted to take part in an engagement with the comms and marketing team so that he could ensure the "Using LLM as a Judge to evaluate Gen AI Search" project was getting the most impact it could in the time he had available. In this article we will run through what was being done well and what was improved.
 
 <figure class="inline end" markdown>
-![AI Generated Cartoon of a robot looking at some text through a magnifying glass.](../../images/LLM_as_a_Judge/LLM-as-a-Judge_cartoon.png)
+![AI Generated Cartoon of a robot looking at some text through a magnifying glass.](../../images/blogs_images/LLM_as_a_Judge/LLM-as-a-Judge_cartoon.png)
 <figcaption>Figure 1: An AI Generated cartoon depiction of 'LLM-as-a-Judge'</a></figcaption>
 </figure>
 

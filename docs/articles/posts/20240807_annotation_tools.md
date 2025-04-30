@@ -34,7 +34,7 @@ As of the time of writing, there are two NER models fully integrated within the 
 Both NER models in our pipeline need to be fed a list of entities to extract. This is true for many NER models, although some like [Stanza (opens in new tab)](https://stanfordnlp.github.io/stanza/) from [Stanford NLP Group (opens in new tab)](https://stanfordnlp.github.io/) and [BERT (opens in new tab)](https://huggingface.co/docs/transformers/tasks/token_classification) token classifiers do not need an initial entity list for extraction. For our privacy tool to be effective, we want our list of entities to be representative of the real entities in the data, and not miss any important information.
 
 <figure class="inline end" markdown>
-![Cartoon of man trying to extract entities. He looks confused and frustrated. He has a speech bubble saying "Extract an entity? What does that mean?"](../../images/annotation_tools_blog/entity_extraction_cartoon.jpg)
+![Cartoon of man trying to extract entities. He looks confused and frustrated. He has a speech bubble saying "Extract an entity? What does that mean?"](../../images/blogs_images/annotation_tools_blog/entity_extraction_cartoon.jpg)
 <figcaption>Figure 1: A frustrated user trying to extract entites!. </figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ There were two approaches we took to develop an annotation tool.
 ### DisplaCy and ipyWidgets
 
 <figure markdown>
-![Example annotation gif using ipywidgets](../../images/annotation_tools_blog/ipywidgets_example.gif)
+![Example annotation gif using ipywidgets](../../images/blogs_images/annotation_tools_blog/ipywidgets_example.gif)
 <figcaption>Figure 2: An example of the ipyWidgets and DisplaCy labelling application. All clinicial notes are synthetic. </figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ This approach was simple and resulted in a fully working example. However, highl
 ### Streamlit
 
 <figure markdown>
-![Example annotation gif using Streamlit](../../images/annotation_tools_blog/ipywidgets_example.gif)
+![Example annotation gif using Streamlit](../../images/blogs_images/annotation_tools_blog/ipywidgets_example.gif)
 <figcaption>Figure 3: An example of the Streamlit labelling application. All clinicial notes are synthetic. </figcaption>
 </figure>
 

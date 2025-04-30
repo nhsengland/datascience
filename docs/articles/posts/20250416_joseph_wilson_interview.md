@@ -8,7 +8,7 @@ categories:
     - Professional Development
     - Data Science Interviews
 links:
-    - https://nhsengland.github.io/datascience-pd-newsletter/posts/2025_03/newsletter.html
+    - PD Newsletter: https://nhsengland.github.io/datascience-pd-newsletter/posts/2025_03/newsletter.html
 slug: interview_with_joseph_wilson
 description: >
     Welcome to the first installment of our “Interview with a Data Scientist” series, where we explore the careers and work of the talented members of the NHS England Data Science team. This first interview is with Joe Wilson, a former Engineer whose desire to make the perfect F1 Fantasy Team during the COVID pandemic drove him to become a Data Scientist who won’t stop talking about Reproducible Analytical Pipelines.
