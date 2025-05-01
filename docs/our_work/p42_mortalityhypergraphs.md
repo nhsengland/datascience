@@ -3,7 +3,7 @@ layout: base
 title: Including Mortality in Hypergraphs for Multi-morbidity
 permalink: p42_mortalityhypergraphs.html
 summary: Building on previous hypergraphs work (P34) that can extract the impact of predecessor and successor diseases on disease progression pathways, this work looked to include an implicit relationship to demographics and consider the impact of mortality.
-tags: ['RESEARCH', ''TIME SERIES', 'MODELLING', 'PRIMARY CARE']
+tags: ['RESEARCH', 'TIME SERIES', 'MODELLING', 'PRIMARY CARE']
 ---
 
 <figure markdown>
