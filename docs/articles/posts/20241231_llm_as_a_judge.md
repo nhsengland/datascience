@@ -18,7 +18,7 @@ description: >
 <!-- more -->
 
 <figure class="inline end" markdown>
-![AI Generated Cartoon of a robot looking at some text through a magnifying glass.](../../images/LLM_as_a_Judge/LLM-as-a-Judge_cartoon.png)
+![AI Generated Cartoon of a robot looking at some text through a magnifying glass.](../../images/blogs_images/LLM_as_a_Judge/LLM-as-a-Judge_cartoon.png)
 <figcaption>Figure 1: An AI Generated cartoon depiction of 'LLM-as-a-Judge'</a></figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ An LLM-as-a-Judge uses an LLM to score certain characteristics of a summary. Typ
 What's great about LLM-as-a-Judge is that you can score on characteristic you’d like. Figure 2 shows an example a schema written to measure a new characteristic: fluency.
 
 <figure markdown>
-![Example schema for a LLM judging the fluency of a piece of text.](../../images/LLM_as_a_Judge/prompt.png)
+![Example schema for a LLM judging the fluency of a piece of text.](../../images/blogs_images/LLM_as_a_Judge/prompt.png)
 <figcaption>Figure 2: This is an example schema used for an LLM judge that evaluates the fluency of a review. Fluency can be measured with only the summary; no additional information is needed. This is a shortened example, note that there are gaps where additional context would be, such as the example summary and the list of guidance.  </figcaption>
 </figure>
 
