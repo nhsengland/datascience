@@ -1,5 +1,5 @@
 ---
-title: Driving Responsible Data Science: A Case Study of NHS England's Data Science Team
+title: "Driving Responsible Data Science: A Case Study of NHS England's Data Science Team"
 authors: ['MiaNoonan']
 date: 2025-04-15
 categories:
@@ -18,6 +18,8 @@ description: >
 
 
 The NHS is built on [values ](https://www.nhsconfed.org/what-we-do/our-values) of fairness, trust, compassion and safety. As artificial intelligence (AI) becomes a more prominent tool in healthcare – from automation of administrative processes to disease prediction and medical imaging analysis – NHS England’s data science team is working to ensure these values remain central to technological advancement.
+
+<!-- more -->
 
 This is much more than just a box-ticking exercise: it’s about shaping best practices, embedding those practices in projects right from the start, and being as transparent and open as possible throughout the development lifecycle. That way, patients can have confidence that their (often sensitive) personal information is being used safely, fairly and responsibly, and that the innovative use of data-driven technologies including AI can add genuine value to services and activities, improving outcomes for the tens of millions of people who rely on NHS England to support their healthcare needs.
 
