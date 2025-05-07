@@ -1,14 +1,15 @@
 ---
 title: Driving Responsible Data Science: A Case Study of NHS England's Data Science Team
-authors: [MiaNoonan]
+authors: ['MiaNoonan']
 date: 2025-04-15
 categories:
     - Ethical AI
 links:
-    - https://zenodo.org/records/15053194
+    - Paper: https://zenodo.org/records/15053194
 slug: driving-responsible-data-science
 description: >
     Driving Responsible Data Science: A Case Study of NHS England's Data Science Team. This is a reproduction of the case study completed by the NHS England Data Science Team as a part of the Turing Experts in Residence programme.
+    
 ---
 
 # Driving Responsible Data Science: A Case Study of NHS England's Data Science Team
