@@ -43,6 +43,7 @@ nav:
           - RAG: our_work/ds251_RAG.md
           - Tool to Assess Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
           - Understanding Fariness and Explainability in Multimodal Approaches within Healthcare: our_work/p61_mmfair.md
+          - Redbox Copilot: our_work/redbox_copilot.md
         - 2023:
           - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
           - AI Skunkworks Team: our_work/ai-skunkworks.md
@@ -111,6 +112,7 @@ nav:
         - Tool to Assess Privacy Risk of Text Data: our_work/c399_privfinger.md
         - Tool to Assess Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
         - ePMA Auto Coding: our_work/epma_autocoding.md
+        - Redbox Copilot: our_work/redbox_copilot.md
       - Data Science Capability:
         - AI Deep Dive Workshops: our_work/ai-deep-dive.md
         - AI Dictionary: our_work/ai-dictionary.md
