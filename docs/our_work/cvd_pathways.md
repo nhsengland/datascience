@@ -5,7 +5,10 @@ origin: 'NHS England'
 tags: ['PRIMARY CARE', 'SECONDARY CARE', 'DISEASES', 'POPULATION-HEALTH', 'LINKAGE', 'PYTHON', 'RAP', 'STRUCTURED-DATA', 'WIP']
 ---
 
-![Overview of the CVD Pathways project aims, areas of interest and outputs](../images/cvd_pathways_project_overview.png) 
+## About CVD Pathways
+
+![Overview of the CVD Pathways project aims, areas of interest and outputs](../images/cvd_pathways_project_overview.png)
+*Figure: Overview of the CVD Pathways project aims, areas of interest and outputs.*
 
 Cardiovascular Disease (CVD) is a major health concern and has been identified in the [NHS Long Term Plan](https://www.longtermplan.nhs.uk/) as the single biggest condition where lives can be saved by the NHS over the next 10 years. Understanding the complete patient journey, from initial risk factors to outcomes, is required for effective prevention and treatment of CVD.
 
@@ -58,6 +61,7 @@ As described above, we integrated data from the national **CVDPREVENT** audit (p
 A summary of our pipeline data-flow is shown in the figure below.
 
 ![Simplified overview of the CVD Pathways ETL data pipeline.](../images/cvd_pathways_pipeline_overview.png)
+*Figure: Simplified overview of the CVD Pathways ETL data pipeline.*
 
 The process involved several key stages:
 1.  **Extraction:** Accessing and extracting pseudonymised data from the various source systems (e.g., CVDPREVENT, Civil registrations of deaths, SUS hospitalisations).
@@ -98,11 +102,10 @@ With the ETL pipeline and core data assets now established, the CVD Pathways pro
 
 As an example, we are analysing patient pathways, specifically looking at patient's who have had a ST-Elevation Myocardial Infarction (STEMI) heart attack. This is a type of heart attack that that affects the lower chambers, and is more severe and dangerous compared to other types of heart attack.
 
-![Overview of clinical pathway for a patient who has a STEMI heart attack.](../images/cvd_pathways_stemi_pathway_example.png) 
+![Overview of clinical pathway for a patient who has a STEMI heart attack.](../images/cvd_pathways_stemi_pathway_example.png)
+*Figure: Overview of clinical pathway for a patient who has a STEMI heart attack.*
 
-These analyses aim to generate actionable insights for clinicians, policymakers, and public health initiatives to ultimately improve patient's cardiovascular health outcomes.
-
-We're also working on publishing our codebase as part of our guidelines around reproducibility and transparency.
+These analyses aim to generate actionable insights for clinicians, policymakers, and public health initiatives to ultimately improve patient's cardiovascular health outcomes.We're also working on publishing our codebase as part of our guidelines around reproducibility and transparency.
 
 ## Links
 
