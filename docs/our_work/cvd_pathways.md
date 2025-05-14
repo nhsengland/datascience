@@ -15,6 +15,7 @@ Cardiovascular Disease (CVD) is a major health concern and has been identified i
 The CVD Pathways project addresses this by creating an Extract, Transform, Load (ETL) data pipeline, producing healthcare records for patients currently at-risk or having a high-risk of acquiring CVD. This pipeline links primary care data (from [CVDPREVENT](https://www.cvdprevent.nhs.uk/)) with secondary care data for over 16 million patients.
 
 [CVDPREVENT](https://www.cvdprevent.nhs.uk/) is a national primary care audit focusing on six high-risk conditions for stroke, heart attack, and dementia:
+
 * Atrial fibrillation (AF)
 * High blood pressure
 * High cholesterol
@@ -23,6 +24,7 @@ The CVD Pathways project addresses this by creating an Extract, Transform, Load 
 * Chronic kidney disease
 
 This primary care data is then enhanced through linkage with key secondary care datasets, including:
+
 * Mortality records
 * Admitted patient care (hospitalisation episodes)
 * Outpatient appointments
@@ -38,11 +40,15 @@ Overall, this project aims to provide an enriched view of patient history, with 
 
 ## Why CVD Pathways?
 
-Historically, analysing the complete patient journey for CVD has been challenging due to disparate data sources, and the lack of a "single source of truth" detailing a patient's history. The CVD Pathways project was initiated to overcome this.
-**The problem:** Policymakers and clinicians needed a unified view of patient data to understand risk factors, track disease progression, evaluate interventions, and reduce the burden of CVD.
-**Our solution:** We developed a an ETL pipeline to create a linked asset, allowing for investigating and analysis to support clinical and policy decision makers.
+Historically, analysing the complete patient journey for CVD has been challenging due to disparate data sources, and the lack of a "single source of truth" detailing a patient's history.
+
+The CVD Pathways project was initiated to overcome this.
+
+* **The problem:** Policymakers and clinicians needed a unified view of patient data to understand risk factors, track disease progression, evaluate interventions, and reduce the burden of CVD.
+* **Our solution:** We developed a an ETL pipeline to create a linked asset, allowing for investigating and analysis to support clinical and policy decision makers.
 
 This provides a powerful platform to:
+
 * **Enhance Understanding:** Gain deeper insights into how CVD develops, how patients interact with the health system, and the impact on patient outcomes.
 * **Inform Evidence-Based Decisions:** Equip clinical and policy teams with data to better understand prevention strategies and care pathways.
 * **Improve Patient Outcomes:** By identifying high-risk groups and effective interventions earlier, we can contribute to reducing CVD-related mortality and morbidity.
@@ -64,6 +70,7 @@ A summary of our pipeline data-flow is shown in the figure below.
 *Figure: Simplified overview of the CVD Pathways ETL data pipeline.*
 
 The process involved several key stages:
+
 1.  **Extraction:** Accessing and extracting pseudonymised data from the various source systems (e.g., CVDPREVENT, Civil registrations of deaths, SUS hospitalisations).
 2.  **Transformation:** Processing of the raw primary and secondary care assets into patient events:
     * **Cleaning:** Standardising formats, handling missing values, and ensuring data quality.
@@ -79,10 +86,12 @@ We did this through the use of data engineering tools and techniques, primarily 
 The primary output of this project is the creation of two powerful, linked analytical data assets. These assets are the foundation for a wide range of impactful analyses.
 
 **Benefit 1: Longitudinal Patient Events and Records**
+
 * **Output: The Events Table.** This long-format table details healthcare interactions and events for each patient chronologically (e.g., diagnosis, hospitalisation, prescriptions, death).
 * **Impact:** For the first time, we can readily analyse end-to-end patient pathways, identify points for intevention and prevention, and understand sequences of events leading to CVD outcomes.
 
 **Benefit 2: Enriched Patient-Level Profiles and Summaries**
+
 * **Output: The Patient Table.** This wide-format table provides a single row per patient, summarising their demographic information, key characteristics, and aggregated history (e.g., total number of hospitalisations for stroke, presence of specific comorbidities).
 * **Impact:** Enables risk stratification, identification of distinct patient cohorts, and analysis of factors associated with different CVD outcomes.
 
