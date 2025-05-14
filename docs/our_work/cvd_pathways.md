@@ -7,8 +7,8 @@ tags: ['PRIMARY CARE', 'SECONDARY CARE', 'DISEASES', 'POPULATION-HEALTH', 'LINKA
 
 ## About CVD Pathways
 
-![Overview of the CVD Pathways project aims, areas of interest and outputs](../images/cvd_pathways_project_overview.png)
-*Figure: Overview of the CVD Pathways project aims, areas of interest and outputs.*
+![Overview of the CVD Pathways project aims, areas of interest and outputs](../images/cvd_pathways/cvd_pathways_project_overview.png)
+*Figure 1: Overview of the CVD Pathways project aims, areas of interest and outputs.*
 
 Cardiovascular Disease (CVD) is a major health concern and has been identified in the [NHS Long Term Plan](https://www.longtermplan.nhs.uk/) as the single biggest condition where lives can be saved by the NHS over the next 10 years. Understanding the complete patient journey, from initial risk factors to outcomes, is required for effective prevention and treatment of CVD.
 
@@ -35,7 +35,7 @@ This primary care data is then enhanced through linkage with key secondary care 
 
 The result is an enriched, longitudinal view of patient health, paving the way for analytics in areas such as risk stratification, intervention effectiveness, and understanding multimorbidity in relation to CVD. This also builds upon the previous CVD Prevent Tool project ([cvd-prevent-tool](https://github.com/NHSDigital/cvd-prevent-tool/)), which feeds into the [insights generated as part of CVDPREVENT](https://data.cvdprevent.nhs.uk/insights) and the NHS Benchmarking teams.
 
-Overall, this project aims to provide an enriched view of patient history, with the goal is to use these enriched assets to support further analytics, outlined in our “What’s next?” steps below.
+Overall, this project aims to provide an enriched view of patient history, with the goal is to use these enriched assets to support further analytics, outlined in our [“What’s next?”](#whats-next) steps below.
 
 
 ## Why CVD Pathways?
@@ -66,8 +66,8 @@ As described above, we integrated data from the national **CVDPREVENT** audit (p
 
 A summary of our pipeline data-flow is shown in the figure below.
 
-![Simplified overview of the CVD Pathways ETL data pipeline.](../images/cvd_pathways_pipeline_overview.png)
-*Figure: Simplified overview of the CVD Pathways ETL data pipeline.*
+![Simplified overview of the CVD Pathways ETL data pipeline.](../images/cvd_pathways/cvd_pathways_pipeline_overview.png)
+*Figure 2: Simplified overview of the CVD Pathways ETL data pipeline.*
 
 The process involved several key stages:
 
@@ -111,10 +111,10 @@ With the ETL pipeline and core data assets now established, the CVD Pathways pro
 
 As an example, we are analysing patient pathways, specifically looking at patient's who have had a ST-Elevation Myocardial Infarction (STEMI) heart attack. This is a type of heart attack that that affects the lower chambers, and is more severe and dangerous compared to other types of heart attack.
 
-![Overview of clinical pathway for a patient who has a STEMI heart attack.](../images/cvd_pathways_stemi_pathway_example.png)
-*Figure: Overview of clinical pathway for a patient who has a STEMI heart attack.*
+![Overview of clinical pathway for a patient who has a STEMI heart attack.](../images/cvd_pathways/cvd_pathways_stemi_pathway_example.png)
+*Figure 3: Overview of clinical pathway for a patient who has a STEMI heart attack.*
 
-These analyses aim to generate actionable insights for clinicians, policymakers, and public health initiatives to ultimately improve patient's cardiovascular health outcomes.We're also working on publishing our codebase as part of our guidelines around reproducibility and transparency.
+These analyses aim to generate actionable insights for clinicians, policymakers, and public health initiatives to ultimately improve patient's cardiovascular health outcomes. We're also working on publishing our codebase as part of our guidelines around reproducibility and transparency.
 
 ## Links
 

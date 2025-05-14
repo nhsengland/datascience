@@ -100,13 +100,13 @@ nav:
         - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
         - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
-        - CVD Pathways: our_work/cvd_pathways.md
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Hub:
           - our_work/data-linkage-hub/index.md
           # - ... | flat | our_work/data-linkage-hub/*.md
           - ... | flat | our_work/data-linkage-hub/linkage-projects/*.md
         - Inequalities in Diabetes from PHM Data: our_work/p32_phmdiabetes.md
+        - CVD Pathways: our_work/cvd_pathways.md
       - Natural Language Processing Products:
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
         - Data Lens: our_work/data-lens.md
