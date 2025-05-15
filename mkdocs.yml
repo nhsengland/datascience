@@ -24,27 +24,28 @@ nav:
     - Project Tags: our_work/tags.md
     - Past/Current Projects:
       - Current Projects:
+        - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
+        - AI Assurance Research Path: our_work/ds278_Assurance_Research_Path.md
         - AI Dictionary: our_work/ai-dictionary.md
         - AI Ethics in Practice: our_work/ai-ethics.md
+        - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
+        - Corporate Services - Pipeline rebuild: our_work/corporate_services_pipeline_rebuild.md
+        - CVD Pathways: our_work/cvd_pathways.md
         - Data Linkage Hub: our_work/data-linkage-hub/
         - Emerging Privacy Enhancing Technologies: our_work/pets.md
-        - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
-        - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
-        - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
-        - Reusable Data Validation Process: our_work/sde_data_validation.md
-        - RAG: our_work/ds251_RAG.md
-        - AI Assurance Research Path: our_work/ds278_Assurance_Research_Path.md
-        - Primary Care Data Generator: our_work/swpclab.md
-        - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
-        - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
         - ePMA Auto Coding: our_work/epma_autocoding.md
-        - CVD Pathways: our_work/cvd_pathways.md
+        - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
+        - Primary Care Data Generator: our_work/swpclab.md
+        - RAG: our_work/ds251_RAG.md
+        - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
+        - Reusable Data Validation Process: our_work/sde_data_validation.md
+        - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
       - Past Projects:
         - 2024:
           - RAG: our_work/ds251_RAG.md
+          - Redbox Copilot: our_work/redbox_copilot.md
           - Tool to Assess Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
           - Understanding Fariness and Explainability in Multimodal Approaches within Healthcare: our_work/p61_mmfair.md
-          - Redbox Copilot: our_work/redbox_copilot.md
         - 2023:
           - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
           - AI Skunkworks Team: our_work/ai-skunkworks.md
@@ -89,16 +90,16 @@ nav:
           - Data Lens: our_work/data-lens.md
     - Main Work Areas:
       - Predictive Analytics Products:
+        - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
         - Ambulance Handover Delay Predictor: our_work/ambulance-delay-predictor.md
         - Bed Allocation: our_work/bed-allocation.md
+        - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
         - Impact of Commercial Data on Predictions: our_work/p14_mcr.md
         - Length of Hospital Day Prediction: our_work/long-stay.md
         - Long Stayer Risk Stratification Baseline Models: our_work/long-stay-baseline.md
         - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
         - Predicting Negligence Claims: our_work/nhs-resolution.md
         - Renal Health Prediction: our_work/renal-health-prediction.md
-        - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
-        - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Hub:
@@ -110,11 +111,11 @@ nav:
       - Natural Language Processing Products:
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
         - Data Lens: our_work/data-lens.md
+        - ePMA Auto Coding: our_work/epma_autocoding.md
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
+        - Redbox Copilot: our_work/redbox_copilot.md
         - Tool to Assess Privacy Risk of Text Data: our_work/c399_privfinger.md
         - Tool to Assess Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
-        - ePMA Auto Coding: our_work/epma_autocoding.md
-        - Redbox Copilot: our_work/redbox_copilot.md
       - Data Science Capability:
         - AI Deep Dive Workshops: our_work/ai-deep-dive.md
         - AI Dictionary: our_work/ai-dictionary.md
@@ -137,7 +138,6 @@ nav:
           - Text Analysis using Structural Topic Modelling: our_work/p23_stm.md
           - TxtRayAlign: our_work/p22_txtrayalign.md
           - Understanding Fariness and Explainability in Multimodal Approaches within Healthcare: our_work/p61_mmfair.md
-          - Including Mortality in Hypergraphs for Multi-morbidity: our_work/p42_mortalityhypergraphs.md
         - Synthetic Data:
           - Creating a Generic Adversarial Attack for Synthetic Data: our_work/c339_sas.md
           - Developing SynthVAE: our_work/p21_synthvae.md
