@@ -1,6 +1,6 @@
 ---
 title: "Driving Responsible Data Science: A Case Study of NHS England's Data Science Team"
-authors: ['MiaNoonan']
+authors: ['MiaNoonan', 'HarrietSands']
 date: 2025-04-15
 categories:
     - Ethical AI
@@ -98,7 +98,3 @@ This project is supported by [Innovate UK BridgeAI](https://iuk.ktn-uk.org/progr
 
 Noonan, M., Sands, H., Wallace, B., Gillespie, S., Sharan, M., Bennett, A., & Demertzi, L. (2025). Driving Responsible Data Science: A Case Study of NHS England's Data Science Team. Zenodo. [https://doi.org/10.5281/zenodo.15053194](https://doi.org/10.5281/zenodo.15053194)
 
-
-**Cite this publication**
-
-Noonan, M., Sands, H., Wallace, B., Gillespie, S., Sharan, M., Bennett, A., & Demertzi, L. (2025). Driving Responsible Data Science: A Case Study of NHS England's Data Science Team. Zenodo. [https://doi.org/10.5281/zenodo.15053194](https://doi.org/10.5281/zenodo.15053194)
