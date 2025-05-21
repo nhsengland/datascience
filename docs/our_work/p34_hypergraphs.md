@@ -3,7 +3,7 @@ layout: base
 title: Transforming Healthcare Data With Graph-Based Techniques
 permalink: p34_hypergraphs.html
 summary: Application of directed hypergraphs for SAIL data bank to investigate disease progression
-tags: ['RESEARCH', ''TIME SERIES', 'MODELLING', 'PRIMARY CARE']
+tags: ['RESEARCH', 'TIME SERIES', 'MODELLING', 'PRIMARY CARE']
 ---
 
 <figure markdown>
