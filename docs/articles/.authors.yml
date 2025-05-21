@@ -61,3 +61,17 @@ authors:
     avatar: https://avatars.githubusercontent.com/harrietrs      # Author avatar
     slug: harrietrs        # Author profile slug
     url: https://github.com/harrietrs       # Author website URL
+
+  josephwilson:
+    name: Joseph Wilson    # Author name
+    description: Data Scientist # Author description
+    avatar: https://avatars.githubusercontent.com/u/94833558?v=4 # Author avatar
+    slug: Joseph Wilson
+    url: https://github.com/josephwilson8-nhs
+
+  SCulkin-code:
+    name: Sarah Culkin    # Author name
+    description: Deputy Director for Data Science # Author description
+    avatar: https://avatars.githubusercontent.com/u/19690906?v=4 # Author avatar
+    slug: Sarah Culkin
+    url: https://github.com/SCulkin-code
