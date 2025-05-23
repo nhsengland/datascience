@@ -18,7 +18,7 @@ We aimed to prove the value of machine learning in determining insights from the
 
 # Case Study
 
-This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/understand-ai/using-ai-to-support-nhs-resolution-with-negligence-claims-prediction/) on the NHS England Transformation Directorate website.
+This is a backup of the case study published [here](https://webarchive.nationalarchives.gov.uk/ukgwa/20241101055118/https://transform.england.nhs.uk/ai-lab/explore-all-resources/understand-ai/using-ai-to-support-nhs-resolution-with-negligence-claims-prediction/) on the NHS England Transformation Directorate website.
 
 NHS trusts undertake an enormous number of activities each year (around 240 million in the year 2018 to 2019 according to the [Kings Fund](https://www.kingsfund.org.uk/projects/nhs-in-a-nutshell/NHS-activity)). The vast majority of people receive safe care, however [NHS Resolution](https://resolution.nhs.uk/) received over 15,000 claims for compensation last year on behalf of the NHS in England, which includes hospital trusts and GPs. Although many (almost half the claims in 2018 to 2019) get settled without damages, NHS Resolution figures show that claims can cost the health and care system up to £2.6 billion a year.
 
@@ -101,7 +101,7 @@ Future improvements to both the data and the model would provide a more accurate
 
 Output|Link
 ---|---
-Case Study| [NHSE Transformation Site](https://transform.england.nhs.uk/ai-lab/explore-all-resources/understand-ai/using-ai-to-support-nhs-resolution-with-negligence-claims-prediction/)
+Case Study| [NHSE Transformation Site](https://webarchive.nationalarchives.gov.uk/ukgwa/20241101055118/https://transform.england.nhs.uk/ai-lab/explore-all-resources/understand-ai/using-ai-to-support-nhs-resolution-with-negligence-claims-prediction/)
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #

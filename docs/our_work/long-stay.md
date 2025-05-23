@@ -18,7 +18,7 @@ A proof-of-concept demonstrator written in Python (machine learning model and ba
 
 ## Info
 
-This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-machine-learning-to-identify-patients-at-risk-of-long-term-hospital-stays/) on the NHS England Transformation Directorate website.
+This is a backup of the case study published [here](https://webarchive.nationalarchives.gov.uk/ukgwa/20241101054858/https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-machine-learning-to-identify-patients-at-risk-of-long-term-hospital-stays/) on the NHS England Transformation Directorate website.
 
 ## Case Study
 
@@ -111,7 +111,7 @@ Polygeist, a software company specialising in state-scale analytics, builds worl
 Output|Link
 ---|---
 Open Source Code & Documentation|[Github](https://github.com/nhsx/skunkworks-long-stayer-risk-stratification)
-Case Study|[Case Study](https://www.nhsx.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-machine-learning-to-identify-patients-at-risk-of-long-term-hospital-stays/)
+Case Study|[Case Study](https://webarchive.nationalarchives.gov.uk/ukgwa/20241101054858/https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-machine-learning-to-identify-patients-at-risk-of-long-term-hospital-stays/)
 Technical report|On request: [ai-skunkworks@nhsx.nhs.uk](mailto:ai-skunkworks@nhsx.nhs.uk?subject=Request%20for%20NHS_AI_Lab_Skunkworks_Long_Stayer_Risk_Stratification_Technical_Report.pdf)
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
