@@ -5,7 +5,7 @@ origin: ''
 tags: ['FINANCIAL', 'RAP', 'PYTHON', 'WIP']
 ---
 
-![Flow diagram of Corporate Service’s data lifecycle: inputs, processes, outputs, and impact.](../images/corp_serv_overview.png)
+![Flow diagram of Corporate Service’s data lifecycle: inputs, processes, outputs, and impact.](../images/CorpServ.jpg)
 
 Proprietary (owned by a company) software can be valuable for data analysis tasks. It often comes with robust support, beginner-friendly interfaces and useful built-in features. However, it can be expensive, less flexible, and - most importantly - limits our ability to be transparent about our processes. 
 
@@ -25,9 +25,9 @@ Once confident, the team began work on a pipeline which ingested procurement dat
 
 ### Corporate Services Python Pipeline
 
-The Corporate Services data pipeline processes data submitted by over 200 trusts on corporate functions such as HR, IT, and Legal. The data is validated, compiled, and used to calculate key metrics and benchmarks - including national medians and quartile-based opportunity values - based on the standardised distribution of values.
+The Corporate Services data pipeline processes data submitted by over 200 trusts on corporate functions such as HR, IT, and Legal. The data is validated, compiled, and used to calculate key metrics and benchmarks - including national medians and quartile-based opportunity values - based on the income-adjusted distribution of values.
 
-Once published, results are made available to trusts via the Model Health System, where outputs are visualised to support easy comparison and insights.
+Once published, results are made available to trusts via the [Model Health System](https://model.nhs.uk/), a benchmarking tool, where outputs are visualised to support easy comparison and insights.
 
 By the end of the project, the team will have a fully migrated data pipeline — covering extraction, validation, and analysis — and the skills to maintain and update it collaboratively. The reliance on proprietary software will have been removed, and in alignment with RAP principles, the project commits to publishing the pipeline code openly on the NHS England GitHub repository once complete.
 
