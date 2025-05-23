@@ -2,7 +2,7 @@
 title: 'Corporate Services: Pipeline Rebuild'
 summary: 'Rebuilding a proprietary data pipeline using open-source Python tools to improve transparency, maintainability, and team capability.'
 origin: ''
-tags: ['FINANCIAL', 'RAP', 'PYTHON', 'WIP']
+tags: ['FINANCIAL', 'RAP', 'PYTHON', 'WIP', 'STRUCTURED DATA']
 ---
 
 ![Flow diagram of Corporate Service’s data lifecycle: inputs, processes, outputs, and impact.](../images/CorpServ.jpg)
@@ -18,7 +18,7 @@ Unlike typical RAP projects, which often involve replacing manual processes, thi
 
 ### Team Upskilling
 
-To support this, upskilling the team was a central focus of the project. Group workshops were delivered using materials from the [Intro to Python Repository](https://github.com/nhsengland/rap_intro_to_python), developed by the Data Science RAP team to provide foundational Python skills. The workshops covered a range of topics, from terminal and Linux commands to loops, functions, and more advanced areas such as unit testing with `pytest` and editing Excel files using `openpyxl`.
+To support this, upskilling the team was a central focus of the project. Group workshops were delivered using materials from the [Intro to Python Repository](https://github.com/nhsengland/rap_intro_to_python), developed by the [Data Science RAP team](https://nhsengland.github.io/datascience/our_work/ds218_rap_community_of_practice/) to provide foundational Python skills. The workshops covered a range of topics, from terminal and Linux commands to loops, functions, and more advanced areas such as unit testing with `pytest` and editing Excel files using `openpyxl`.
 
 Once confident, the team began work on a pipeline which ingested procurement data and turned it into usable metrics. Tasks were assigned using tickets, and team members worked in pairs to complete them, raising pull requests for peer review and making revisions based on feedback. This practical, hands-on approach allowed the team to apply new skills directly to real data and see immediate results. The pipeline built by the team is now live in production.
 
@@ -36,5 +36,9 @@ By the end of the project, the team will have a fully migrated data pipeline —
 To support Regions and ICBs in accessing their data in a clear and consistent format, the team previously produced individual PowerPoint slide packs containing tailored tables and figures. This involved a time-consuming manual process of copying content from Excel to produce outputs for 8 Regions and 42 ICBs.
 
 This task was automated using the `python-pptx` package, paired with a pre-formatted PowerPoint template. The automation fills in each slide with the correct data and formatting, significantly reducing manual workload and saving the team over a week of repetitive effort.
+
+Output|Link
+---|---
+Code and Documentation - private while under development|[Github](https://github.com/nhsengland/corporate_services_python_pipeline)
 
 #
