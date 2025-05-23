@@ -5,7 +5,7 @@ hide:
 
 # Playbooks
 
-In the data science team, we've contributed to a number of playbooks, policies and other major documents, that you can see below:
+In the Data Science & Applied AI Team, we've contributed to a number of playbooks, policies and other major documents, that you can see below:
 
 | Name | Description |
 |---|---|
