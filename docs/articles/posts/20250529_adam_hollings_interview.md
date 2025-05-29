@@ -66,3 +66,9 @@ If you're looking to enhance the reach and impact of your project, please don't 
 While I consider myself a dedicated team player, I would advise new members to be proactive, honest, and strategically self-aware. By "strategically self-aware," I mean that when you're asked about project preferences or which function team you'd like to join, choose what genuinely aligns with and benefits your career trajectory. Be transparent with your manager about any challenges or if a long-term project isn't personally contributing to your growth. Project allocations are based on both business need and individual preference; leadership can't account for your preferences if you're not open about them.
 
 When I say "be proactive," I mean actively participate: ask questions in meetings, confidently present your work, and ensure people are aware of who you are, the impactful things you're working on, and your accomplishments. This could involve consistently marketing your work! It's perfectly fine to let your personality shine through – I always look forward to Warren's weekly meme post, and if even one person in the team gets a laugh from my regular Teams background rotations, it's worthwhile. These small personal touches help endear people to you, make you memorable, and significantly build team spirit.
+
+---
+
+We hope you found this interview with Adam Hollings inspiring. His journey shows the diverse paths you can take to become a Data Scientist in the NHS.
+
+You can also view our previous ‘Interview with a Data Scientist’ with Sarah Culkin, [Blowing the Trumpet for Data Science](https://nhsengland.github.io/datascience/articles/2025/04/30/interview_with_sarah_culkin/).
