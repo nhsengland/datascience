@@ -19,9 +19,9 @@ This interview orginally was published in the [May edition](https://nhsengland.g
 
 <!-- more -->
 
-<p align="center">
-<img src="../../blogs_images/adam-hollings_pic.jpg" width=250 alt = "An image of Adam Hollings showing him smiling, wearing glasses. He has white skin, blue eyes, mousey blond hair and is wearing a blue suit jacket, red tie and white shirt.">
-</p>
+<figure class="inline end" markdown>
+!["An image of Adam Hollings showing him smiling, wearing glasses. He has white skin, blue eyes, mousey blond hair and is wearing a blue suit jacket, red tie and white shirt.](../../images/blogs_images/adam-hollings_pic.jpg)
+</figure>
 
 ## How did you end up in data science at the NHS? What did you do before, and what really sparked your interest in this field?
 
