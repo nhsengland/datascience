@@ -17,7 +17,7 @@ A proof-of-concept demonstrator written in Python (machine learning models, comm
 
 # Case Study
 
-This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/identifying-and-quantifying-parkinsons-disease-using-ai-on-brain-slices/) on the NHS England Transformation Directorate website.
+This is a backup of the case study published [here](https://digital.nhs.uk/services/ai-knowledge-repository/case-studies/identifying-and-quantifying-parkinsons-disease-using-ai-on-brain-slices) on the NHS England Transformation Directorate website.
 
 Identification of Parkinson’s Disease is carried out by neuropathologists who analyse post-mortem brain slices. This process is highly time intensive, and the neuropathologists are highly trained in their field. Being able to look at introducing automation to this process has potential to increase the speed at which Parkinson’s Disease can be diagnosed in a brain, as well as freeing up neuropathologists who are otherwise required to spend hours looking at the brain slices themselves.
 
@@ -92,7 +92,7 @@ Output|Link
 ---|---
 Open Source Code & Documentation|[Github](https://github.com/nhsx/skunkworks-parkinsons-detection/)
 Technical report|[biorxiv.org](https://www.biorxiv.org/content/10.1101/2022.08.30.505459v1)
-Case Study|[Case Study](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/identifying-and-quantifying-parkinsons-disease-using-ai-on-brain-slices/)
+Case Study|[Case Study](https://digital.nhs.uk/services/ai-knowledge-repository/case-studies/identifying-and-quantifying-parkinsons-disease-using-ai-on-brain-slices)
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #

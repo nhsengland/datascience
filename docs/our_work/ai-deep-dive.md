@@ -12,11 +12,11 @@ tags : ['BEST PRACTICE']
 
 ## Info
 
-This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/understand-ai/sharing-ai-skills-and-experience-through-deep-dive-workshops/) on the NHS England Transformation Directorate website.
+This is a backup of the case study published [here](https://digital.nhs.uk/services/ai-knowledge-repository/case-studies/sharing-ai-skills-and-experience-through-deep-dive-workshops) on the NHS England Transformation Directorate website.
 
 ### Case Study Overview
 
-The NHS AI Lab Skunkworks team provides public sector health and social care organisations with artificial intelligence (AI) support and technical expertise. The team of data scientists and AI project specialists has been helping others with their explorations with AI solutions for a range of problems, [from supporting hospital bed allocation to detecting CT scan anomalies](https://transform.england.nhs.uk/ai-lab/ai-lab-programmes/skunkworks/ai-skunkworks-projects/).
+The NHS AI Lab Skunkworks team provides public sector health and social care organisations with artificial intelligence (AI) support and technical expertise. The team of data scientists and AI project specialists has been helping others with their explorations with AI solutions for a range of problems, from supporting hospital bed allocation to detecting CT scan anomalies.
 
 It became clear from engaging with organisations in these projects that the NHS AI Lab has an important role to play in increasing the trust and confidence of healthcare staff with AI tools. Both in their creation and in their everyday use. By exploring the possibilities for AI together with the organisations who will use them, the AI Skunkworks team aims to bring some clarity to the potential of AI and diminish some of the hype.
 

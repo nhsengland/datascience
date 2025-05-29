@@ -24,7 +24,7 @@ A proof-of-concept demonstrator written in Python (machine learning model, user 
 
 # Case Study
 
-This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-ai-to-find-optimal-placement-schedules-for-nursing-students/) on the NHS England Transformation Directorate website.
+This is a backup of the case study published [here](https://digital.nhs.uk/services/ai-knowledge-repository/case-studies/using-ai-to-find-optimal-placement-schedules-for-nursing-students) on the NHS England Transformation Directorate website.
 
 Students training to become nurses undertake placements at teaching hospitals as part of their studies. These placements endeavour to help students experience and learn practical skills they can apply in their roles once they are qualified. In general, these placement schedules are produced by hand and what may seem to be a relatively simple task, quickly becomes complex once you consider the different constraints involved.
 
@@ -152,7 +152,7 @@ NHS AI Lab Skunkworks is a team of data scientists, engineers and project leader
 Output|Link
 ---|---
 Open Source Code & Documentation|[Github](https://github.com/nhsx/skunkworks-nursing-placement-schedule-optimisation)
-Case Study|[Case Study](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-ai-to-find-optimal-placement-schedules-for-nursing-students/)
+Case Study|[Case Study](https://digital.nhs.uk/services/ai-knowledge-repository/case-studies/using-ai-to-find-optimal-placement-schedules-for-nursing-students)
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
