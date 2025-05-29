@@ -3,7 +3,7 @@ title: 'Data Linkage Community of Practice (DL CoP)'
 summary: 'We are creating and leading a community of practice to help people do the best linkage they can, with support from the data linkage team, but also from fellow analysts who are actively working on data linkage.'
 category: 'Projects'
 origin: 'NHSD'
-tags: ['POPULATION HEALTH', 'BEST PRACTICE', 'EXPLAINABILITY', 'ETHICS', 'LINKAGE', 'WIP']
+tags: ['BEST PRACTICE', 'EXPLAINABILITY', 'ETHICS', 'LINKAGE', 'WIP']
 ---
 
 ## Why do we want a Community of Practice?

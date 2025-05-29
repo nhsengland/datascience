@@ -28,17 +28,22 @@ nav:
         - AI Ethics in Practice: our_work/ai-ethics.md
         - Data Linkage Hub: our_work/data-linkage-hub/
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
-        - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
+        
         - Tool to Assess Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
         - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
         - Reusable Data Validation Process: our_work/sde_data_validation.md
         - RAG: our_work/ds251_RAG.md
         - Primary Care Data Generator: our_work/swpclab.md
       - Past Projects:
+        - 2025:
+          - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
+        - 2024: 
+          - Quality Assurance Framework for Data Linkage: our_work/data-linkage-hub/linkage-projects/qaf.md
         - 2023:
           - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
           - AI Skunkworks Team: our_work/ai-skunkworks.md
           - Deep Learning to Detect Adrenal Lesions in CT Scans: our_work/adrenal-lesions.md
+          - MPS Handbook: our_work/data-linkage-hub/linkage-projects/mps-handbook.md
           - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
           - Tool to Assess Privacy Risk of Text Data: our_work/c399_privfinger.md
         - 2022:
