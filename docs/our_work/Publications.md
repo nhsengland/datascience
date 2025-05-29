@@ -8,6 +8,17 @@ tags: ['PUBLICATIONS']
 
 List of pre-releases and publications connected to our work
 
+
+[10] [https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/privacy-enhancing-technologies/case-studies/g7-dpas-emerging-technologies-working-group-use-case-study-on-privacy-enhancing-technologies/](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/privacy-enhancing-technologies/case-studies/g7-dpas-emerging-technologies-working-group-use-case-study-on-privacy-enhancing-technologies/)
+
+**G7 DPAs' Emerging Technologies Working Group use case study on privacy enhancing technologies**
+
+The IEEE Synthetic Data working group, Professor Khaled El Emam, University of Ottawa, Canada, **Dr Jonathan Pearson, NHS England Digital Analytics and Research, UK**, Professor Pierre-Antoine Gourraud, Université de Nantes, France, Dr Aurélien Bellet, National Institute for Research in Digital Science and Technology (Inria), France
+
+*This hypothetical use case aims to demonstrate how synthetic data, generated from a real medical prescription dataset, can be used as part of a testing strategy for the development of a healthcare planning and resource allocation system, without jeopardising the privacy of real patients.*
+
+---
+
 [9] [https://www.researchsquare.com/article/rs-5701032/v1](https://www.researchsquare.com/article/rs-5701032/v1) 
 
 **Constructing multicancer risk cohorts using national data from medical helplines and secondary care**
