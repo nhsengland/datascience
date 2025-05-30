@@ -3,7 +3,7 @@ title: 'Quality Assurance Framework for Data Linkage'
 summary: 'This project aims to create, test, and distribute a quality assurance framework for data linkage to ensure robust, transparent and auditable results.'
 category: 'Projects'
 origin: 'NHSD'
-tags: ['BEST PRACTICE','EXPLAINABILITY','LINKAGE', 'WIP']
+tags: ['BEST PRACTICE', 'EXPLAINABILITY', 'LINKAGE', 'COMPLETE', 'WEBDEV', 'DEPLOYED']
 ---
 
 Data Linkage is a business-critical process within many government organisations, including NHS England. Research publications, official statistics, but also many direct care applications depend on data linkage. Its importance is further amplified when considering privacy preserving principles that require to minimise the use of patients' personal identifiable information. Consequently, data linkage is initiated early in the data lifecycle, establishing a substantial **reliance of downstream applications on the quality of the linkage process**.

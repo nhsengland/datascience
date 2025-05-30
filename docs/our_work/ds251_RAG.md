@@ -2,7 +2,7 @@
 title: 'Retrieval Augmented Generation'
 summary: 'Investigating Advanced RAG, collaborating with efforts to evaluate LLM outputs.'
 origin: ''
-tags: ['NLP','LLM']
+tags: ['NLP','LLM', 'RESEARCH', 'UNSTRUCTURED DATA', 'TEXT DATA', 'OPEN DATA', 'PYTHON']
 ---
 
 

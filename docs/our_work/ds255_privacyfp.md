@@ -1,7 +1,7 @@
 ---
 title: "Building a Tool to Assess the Privacy Risk of Text Data - Extended"
 summary: Can we generate a modular tool to score the privacy risk of healthcare free-text data using open-source LLMs and NERs.
-tags: ['TEXT DATA', 'LLM','PYTHON', 'ETHICS', 'NLP', 'UNSTRUCTURED DATA', 'SYNTHETIC DATA']
+tags: ['WORKFORCE', 'TEXT DATA', 'LLM','PYTHON', 'ETHICS', 'NLP', 'UNSTRUCTURED DATA', 'SYNTHETIC DATA', 'RESEARCH', 'ON PAUSE']
 ---
 
 !!! warning
