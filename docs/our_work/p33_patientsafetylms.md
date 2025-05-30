@@ -3,7 +3,7 @@ layout: base
 title: Investigating Applying and Evaluating a Language Model to Patient Safety Data
 permalink: p33_patientsafetylms.html
 summary: What's the most suitable models and workflows for representing an NHS text dataset?
-tags: ['PYTHON', 'NLP', 'LLM']
+tags: ['NLP', 'LLM', 'RESEARCH', 'UNSTRUCTURED DATA', 'TEXT DATA', 'PYTHON', 'COMPLETE', 'EXPERIMENTAL']
 ---
 
 In collaboration with the NHS England patient safety data team, we present an exploration of a selection of different language model pretraining and finetuning objectives with patient safety incident reports as the domain of interest, followed by a discussion of a number of methods for probing and evaluating these new models, and their respective embedding spaces.

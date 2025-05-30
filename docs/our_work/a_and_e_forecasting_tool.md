@@ -2,7 +2,7 @@
 title: 'Accident and Emergency (A&E) Forecasting Tool'
 summary: 'A probabilistic model which gives a three-week forecast for A&E departments, predicting their expected admissions loads.'
 origin: ''
-tags: ['SECONDARY CARE', 'FORECASTING', 'MODELLING', 'TIME SERIES', 'STRUCTURED', 'PYTHON', 'WIP', 'DEPLOYED']
+tags: ['SECONDARY CARE', 'FORECASTING', 'MODELLING', 'TIME SERIES', 'STRUCTURED DATA', 'PYTHON', 'WIP', 'DEPLOYED']
 ---
 
 ![Image showing plot of historical and predicted admissions rates. The plot shows the confidence intervals for the model's fit to historical data, and for its predictions.](../images/a_and_e_forecasting/forecast.png)

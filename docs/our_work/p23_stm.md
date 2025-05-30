@@ -3,7 +3,7 @@ layout: base
 title: Text Analysis using Structural Topic Modelling
 permalink: p23_stm.html
 summary: An open reusable tool for topic modelling of survey responses
-tags: ['NLP', 'R']
+tags: ['WORKFORCE', 'NLP', 'MODELLING', 'UNSTRUCTURED DATA', 'TEXT DATA', 'COMPLETE', 'DEPLOYED']
 ---
 
 ![Screenshot of the STM Insights dashboard, top left has an interopic distance map, top left includes a graph for most relevant terms, beneath are various other low res graphs.](../images/stminsights_lowquality.png)
