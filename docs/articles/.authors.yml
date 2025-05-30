@@ -1,10 +1,17 @@
 authors:
   SamHollings:
     name: Sam Hollings        # Author name
-    description: Principal Data Scientist # Author description
+    description: Head of Coding and Data Standards # Author description
     avatar: https://avatars.githubusercontent.com/u/52575338?v=4         # Author avatar
     slug: SamHollings          # Author profile slug
     url: https://github.com/SamHollings            # Author website URL
+
+  AdamHollings:
+    name: Adam Hollings        # Author name
+    description: Principal Data Scientist # Author description
+    avatar: https://avatars.githubusercontent.com/u/119732210?v=4         # Author avatar
+    slug: AdamHollings          # Author profile slug
+    url: https://github.com/AdamHollings            # Author website URL
 
   VickySmith:
     name: Vicky Smith        # Author name
@@ -26,3 +33,45 @@ authors:
     avatar: https://avatars.githubusercontent.com/amaiaita      # Author avatar
     slug: AmaiaImazBlanco          # Author profile slug
     url: https://github.com/amaiaita           # Author website URL
+
+  jpearson:
+    name: Jonny Pearson    # Author name
+    description: Lead Data Scientist # Author description
+    avatar: https://avatars.githubusercontent.com/jrpearson-nhs      # Author avatar
+    slug: JonnyPearson          # Author profile slug
+    url: https://github.com/https://github.com/jrpearson-nhs         # Author website URL
+
+  Michelle Nwachukwu:
+    name: Michelle Nwachukwu    # Author name
+    description: Graduate Data Scientist # Author description
+    avatar: https://avatars.githubusercontent.com/u/52786160?v=4 # Author avatar
+    slug: Michelle Nwachukwu          # Author profile slug
+    url: https://github.com/michelle7707     # Author website URL
+
+  josephwilson:
+    name: Joseph Wilson    # Author name
+    description: Data Scientist # Author description
+    avatar: https://avatars.githubusercontent.com/u/94833558?v=4 # Author avatar
+    slug: Joseph Wilson
+    url: https://github.com/josephwilson8-nhs
+
+  SCulkin-code:
+    name: Sarah Culkin    # Author name
+    description: Deputy Director for Data Science # Author description
+    avatar: https://avatars.githubusercontent.com/u/19690906?v=4 # Author avatar
+    slug: Sarah Culkin
+    url: https://github.com/SCulkin-code
+
+  MiaNoonan:
+    name: Mia Noonan    # Author name
+    description: Principal Data Scientist # Author description
+    avatar: https://avatars.githubusercontent.com/amelianoonan1-nhs      # Author avatar
+    slug: amelianoonan1-nhs          # Author profile slug
+    url: https://github.com/amelianoonan1-nhs       # Author website URL
+
+  HarrietSands:
+    name: Harriet Sands    # Author name
+    description: AI Technical Specialist # Author description
+    avatar: https://avatars.githubusercontent.com/harrietrs      # Author avatar
+    slug: harrietrs        # Author profile slug
+    url: https://github.com/harrietrs       # Author website URL

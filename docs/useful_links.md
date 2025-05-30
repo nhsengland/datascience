@@ -19,7 +19,7 @@ This is a list, mostly copied from [RAP guidance pages](https://nhsdigital.githu
 
 ### Reproducible Analytical Pipelines (RAP) and Best Practice
 
-- The NHS England Data Science team have [created an in-depth resource](https://nhsdigital.github.io/rap-community-of-practice/) in best practice and on how to accomplish Reproducible Analytical Pipelines (RAP) that is well worth a look.
+- The NHS England Data Science & Applied AI Team have [created an in-depth resource](https://nhsdigital.github.io/rap-community-of-practice/) in best practice and on how to accomplish Reproducible Analytical Pipelines (RAP) that is well worth a look.
 - [RAP guidance pages useful links page](https://nhsdigital.github.io/rap-community-of-practice/useful_links/) which includes links to policy and other documentation that supports the adoption of RAP
 - [How to implement RAP](https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/rap-readiness/) and training resources in [Git, Python and R](https://nhsdigital.github.io/rap-community-of-practice/training_resources/git/intro-to-git/).
 

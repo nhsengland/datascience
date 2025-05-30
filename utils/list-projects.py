@@ -32,7 +32,7 @@ md_files = []
 md_files_absolute = []
 for root, dirs, files in os.walk('docs/our_work'):  
     for file in files:  
-        if file.endswith('.md') & (file not in ['Publications.md', 'tags.md','template-project.md']):  
+        if file.endswith('.md') & (file not in ['Publications.md', 'tags.md','template-project.md', 'index.md']):  
             relative_path = os.path.relpath(os.path.join(root, file), 'docs/our_work')
             md_files.append(relative_path)  
             md_files_absolute.append(f'our_work/{relative_path}')

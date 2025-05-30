@@ -1,4 +1,7 @@
 # [NHS England Data Science](https://nhsengland.github.io/datascience/)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![CI](https://github.com/nhsengland/datascience/actions/workflows/pages-build-deployment.yml/badge.svg "CI badge indicating passing or failing status")
 [![Release Version](https://img.shields.io/github/v/release/nhsengland/datascience "Release version")](https://github.com/nhsengland/datascience/releases)
@@ -6,17 +9,17 @@
 [![licence: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://opensource.org/licenses/MIT "MIT License")
 [![licence: OGL3](https://img.shields.io/badge/Licence-OGL3-darkgrey "licence: Open Government Licence 3")](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 
-> **This material is maintained by the [NHS England Data Science team](mailto:datascience@nhs.net)**.
+> **This material is maintained by the [NHS England Data Science Marketing & Comms Function Team](mailto:datascience@nhs.net)**.
 >
 > See our other work here: [NHS Digital Analytical Services](https://github.com/NHSDigital/data-analytics-services).
 
 <br>
 
-**Welcome to the landing page for the NHS England Data Science Team.**
+**Welcome to the landing page for Data Science in NHS England.**
 
 Visit our [website](https://nhsengland.github.io/datascience/) for more information about our work!
 
-[<kbd> <br> Data Science team website <br> </kbd>](https://nhsengland.github.io/datascience/)
+[<kbd> <br> Data Science in NHS England <br> </kbd>](https://nhsengland.github.io/datascience/)
 
 ## Licence
 

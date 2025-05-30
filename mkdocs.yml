@@ -24,26 +24,42 @@ nav:
     - Project Tags: our_work/tags.md
     - Past/Current Projects:
       - Current Projects:
+        - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
+        - AI Assurance Research Path: our_work/ds278_Assurance_Research_Path.md
         - AI Dictionary: our_work/ai-dictionary.md
         - AI Ethics in Practice: our_work/ai-ethics.md
-        - Data Linkage Hub: our_work/data-linkage-hub/        
-        - Tool to Assess Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
-        - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
-        - Reusable Data Validation Process: our_work/sde_data_validation.md
-        - RAG: our_work/ds251_RAG.md
+        - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
+        - "Corporate Services: Pipeline rebuild": our_work/corporate_services_pipeline_rebuild.md
+        - CVD Pathways: our_work/cvd_pathways.md
+        - Data Linkage Hub: our_work/data-linkage-hub/
+        - Emerging Privacy Enhancing Technologies: our_work/pets.md
+        - ePMA Auto Coding: our_work/epma_autocoding.md
+        - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Primary Care Data Generator: our_work/swpclab.md
+        - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
+        - Reusable Data Validation Process: our_work/sde_data_validation.md
+        - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
       - Past Projects:
         - 2025:
           - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
           - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
-        - 2024: 
+        - 2024:
+          - RAG: our_work/ds251_RAG.md
+          - Redbox Copilot: our_work/redbox_copilot.md
           - Quality Assurance Framework for Data Linkage: our_work/data-linkage-hub/linkage-projects/qaf.md
+          - Tool to Assess Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
+          - Understanding Fariness and Explainability in Multimodal Approaches within Healthcare: our_work/p61_mmfair.md
         - 2023:
           - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
           - AI Skunkworks Team: our_work/ai-skunkworks.md
           - Deep Learning to Detect Adrenal Lesions in CT Scans: our_work/adrenal-lesions.md
           - MPS Handbook: our_work/data-linkage-hub/linkage-projects/mps-handbook.md
+          - Enriching Clinical Coding for Neurology Pathways using MedCAT: our_work/p43_medcat.md
+          - Including Mortality in Hypergraphs for Multi-morbidity: our_work/p42_mortalityhypergraphs.md
+          - Investigating Privacy Risks and Mitigations in Healthcare Language Models: our_work/p51_privconcerns.md
+          - NHS Synth: our_work/p41_nhssynth.md
           - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
+          - Process Mining with East Midlands Ambulance Service: our_work/p52_processmining.md
           - Tool to Assess Privacy Risk of Text Data: our_work/c399_privfinger.md
         - 2022:
           - Adding a Clinical Focus to Evaluating MM Data Representations: our_work/p31_txtrayalign2.md
@@ -59,6 +75,7 @@ nav:
           - Renal Health Prediction: our_work/renal-health-prediction.md
           - Synthetic Data From Real Data: our_work/casestudy-synthetic-data-pipeline.md
           - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
+          - Transforming Healthcare Data With Graph-Based Techniques: our_work/p34_hypergraphs.md
         - 2021:
           - AI Deep Dive Workshops: our_work/ai-deep-dive.md
           - CT Alignment & Lesion Detection: our_work/ct-alignment.md
@@ -77,25 +94,30 @@ nav:
           - Data Lens: our_work/data-lens.md
     - Main Work Areas:
       - Predictive Analytics Products:
+        - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
         - Ambulance Handover Delay Predictor: our_work/ambulance-delay-predictor.md
         - Bed Allocation: our_work/bed-allocation.md
+        - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
         - Impact of Commercial Data on Predictions: our_work/p14_mcr.md
         - Length of Hospital Day Prediction: our_work/long-stay.md
         - Long Stayer Risk Stratification Baseline Models: our_work/long-stay-baseline.md
         - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
         - Predicting Negligence Claims: our_work/nhs-resolution.md
         - Renal Health Prediction: our_work/renal-health-prediction.md
-        - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
+        - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Hub:
           - our_work/data-linkage-hub/index.md
           # - ... | flat | our_work/data-linkage-hub/*.md
           - ... | flat | our_work/data-linkage-hub/linkage-projects/*.md
         - Inequalities in Diabetes from PHM Data: our_work/p32_phmdiabetes.md
+        - CVD Pathways: our_work/cvd_pathways.md
       - Natural Language Processing Products:
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
         - Data Lens: our_work/data-lens.md
+        - ePMA Auto Coding: our_work/epma_autocoding.md
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
+        - Redbox Copilot: our_work/redbox_copilot.md
         - Tool to Assess Privacy Risk of Text Data: our_work/c399_privfinger.md
         - Tool to Assess Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
       - Data Science Capability:
@@ -103,6 +125,7 @@ nav:
         - AI Dictionary: our_work/ai-dictionary.md
         - AI Ethics in Practice: our_work/ai-ethics.md
         - AI Skunkworks Team: our_work/ai-skunkworks.md
+        - "Corporate Services: Pipeline rebuild": our_work/corporate_services_pipeline_rebuild.md
         - NHS @Home Programme: our_work/open-safely.md
         - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
       - Research & Development:
@@ -113,28 +136,36 @@ nav:
         - Natural Language Processing:
           - Adding a Clinical Focus to Evaluating MM Data Representations: our_work/p31_txtrayalign2.md
           - Applying & Evaluating a Language Model to Patient Safety Data: our_work/p33_patientsafetylms.md
+          - Including Mortality in Hypergraphs for Multi-morbidity: our_work/p42_mortalityhypergraphs.md
+          - Investigating Privacy Risks and Mitigations in Healthcare Language Models: our_work/p51_privconcerns.md
           - NHS Language Corpus: our_work/c250_nhscorpus.md
           - Privacy of Unstructured Data: our_work/c338_poud.md
           - Text Analysis using Structural Topic Modelling: our_work/p23_stm.md
           - TxtRayAlign: our_work/p22_txtrayalign.md
+          - Understanding Fariness and Explainability in Multimodal Approaches within Healthcare: our_work/p61_mmfair.md
         - Synthetic Data:
           - Creating a Generic Adversarial Attack for Synthetic Data: our_work/c339_sas.md
           - Developing SynthVAE: our_work/p21_synthvae.md
+          - Emerging Privacy Enhancing Technologies: our_work/pets.md
           - Differential Privacy in a VAE for Synthetic Data Generation: our_work/p12_synthvae.md
           - Generic Patient Simulator: our_work/c245_synpath.md
+          - NHS Synth: our_work/p41_nhssynth.md
           - Primary Care Data Generator: our_work/swpclab.md
           - SynPath Simulator on Diabetes Pathway: our_work/p11_synpathdiabetes.md
           - Synthetic Data From Real Data: our_work/casestudy-synthetic-data-pipeline.md
           - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
+        - Including Mortality in Hypergraphs for Multi-morbidity: our_work/p42_mortalityhypergraphs.md
         - Nursing Placement Scheduled Optimisation: our_work/nursing-placement-optimisation.md
+        - Process Mining with East Midlands Ambulance Service: our_work/p52_processmining.md
         - SDE Service Data Wranglers:
           - Reusable Data Validation Process: our_work/sde_data_validation.md
+        - Transforming Healthcare Data With Graph-Based Techniques: our_work/p34_hypergraphs.md
     - Our Team's Publications: our_work/Publications.md
     # This allows any projects that get added to appear in the main page of the navigation, makes it easy to spot when people have forgotten to categorize them.
     - ... | flat | regex=our_work/(?!template-project\.md).*\.md
   # - Tools:
   #   - ... | flat | tools/*.md
-  - PHDInterns: PhDInterns.md
+  - PhD Internships: PhDInterns.md
   - Articles:
     - ... | flat | articles/*.md
   - Playbooks: playbooks.md
@@ -190,6 +221,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/nhsengland/datascience
       name: NHS England Data Science
+  meta:
+    - name: "og:image"
+      content: "https://nhsengland.github.io/datascience/docs/images/logo/nhs-white-on-blue.jpg"
   generator: false
 copyright: Copyright &copy; 2023 Crown Copyright (NHS England)
 extra_javascript:

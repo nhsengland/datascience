@@ -1,6 +1,6 @@
 # Project Tags
 
-Below the tags are sorted by **categories** (Project Status, Data Sources, Domain Areas, Techniques, Coding Language, Data Types, Evaluation Metrics, and Project Type), however if you would like an **alphabetical list** of all of the tags it can be found [here](#accuracy)
+Below the tags are sorted by **categories** (Project Status, Data Sources, Domain Areas, Techniques, Coding Language, Data Types, Evaluation Metrics, and Project Type), however if you would like an **alphabetical list** of all of the tags it can be found [here](#tag:accuracy)
 
 <div class="grid cards" markdown>
 

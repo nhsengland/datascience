@@ -8,13 +8,34 @@ tags: ['PUBLICATIONS']
 
 List of pre-releases and publications connected to our work
 
-[8] [https://ieeexplore.ieee.org/document/10635870](https://ieeexplore.ieee.org/document/10635870)
+
+[10] [https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/privacy-enhancing-technologies/case-studies/g7-dpas-emerging-technologies-working-group-use-case-study-on-privacy-enhancing-technologies/](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/privacy-enhancing-technologies/case-studies/g7-dpas-emerging-technologies-working-group-use-case-study-on-privacy-enhancing-technologies/)
+
+**G7 DPAs' Emerging Technologies Working Group use case study on privacy enhancing technologies**
+
+The IEEE Synthetic Data working group, Professor Khaled El Emam, University of Ottawa, Canada, **Dr Jonathan Pearson, NHS England Digital Analytics and Research, UK**, Professor Pierre-Antoine Gourraud, Université de Nantes, France, Dr Aurélien Bellet, National Institute for Research in Digital Science and Technology (Inria), France
+
+*This hypothetical use case aims to demonstrate how synthetic data, generated from a real medical prescription dataset, can be used as part of a testing strategy for the development of a healthcare planning and resource allocation system, without jeopardising the privacy of real patients.*
+
+---
+
+[9] [https://www.researchsquare.com/article/rs-5701032/v1](https://www.researchsquare.com/article/rs-5701032/v1) 
+
+**Constructing multicancer risk cohorts using national data from medical helplines and secondary care**
+
+**Hadi Modarres**, Dimitris Pipinis, **Divya Balasubramanian**, **Rupert Chaplin**, **Scarlett Kynoch**, **Achut Manandhar**, Gursimran Thandi, Rebecca Cavilla, Emma Hirst-Williams
+
+*Identification of cohorts at higher risk of cancer can enable earlier diagnosis of the disease, which significantly improves patient outcomes. In this study, we use machine learning to predict cancer diagnosis in the next year. We select nine cancer sites with high incidence of late-stage diagnosis or worsening survival rates, and where there are currently no national screening programmes. We use National Health Service (NHS) data from medical helplines (NHS 111) and secondary care appointments from all hospitals in England. We show that features based on information captured in NHS 111 calls are among the most influential in driving predictions of a future cancer diagnosis. Our predictive models exhibit good discrimination (AUC – 0.78 – SD 0.04), ranging from 0.69 (ovarian cancer) to 0.83 (oesophageal cancer). While our predictive modelling provides patient level risk predictions, our emphasis is on constructing cohorts of patients who may be at risk of cancer rather than individual risk scores. We present an approach of constructing cohorts at higher risk of cancer based on feature importance and considering possible bias in model results. These outputs can be used to develop highly targeted case finding services, which could help increase earlier detection rates and reduce health disparities. This approach is flexible and can be tailored based on the group the intervention targets (i.e. symptomatic or asymptomatic patients) and the data available to those charged with administering the intervention.*
+
+---
+
+[8] [https://arxiv.org/abs/2311.13978](https://arxiv.org/abs/2311.13978)
 
 **Medisure: Towards Assuring Machine Learning-Based Medical Image Classifiers Using Mixup Boundary Analysis**
 
 Adam Byfield, **William Poulett**, **Ben Wallace**, Anusha Jose, Shatakshi Tyagi, Smita Shembekar, Adnan Qayyum, Junaid Qadir, Muhammad Bilal
 
-*Machine learning (ML) models are becoming integral in healthcare technologies, necessitating formal assurance methods to ensure their safety, fairness, robustness, and trustworthiness. However, these models are inherently error-prone, posing risks to patient health and potentially causing irreparable harm when deployed in clinics. Traditional software assurance techniques, designed for fixed code, are not directly applicable to ML models, which adapt and learn from curated datasets during training. Thus, there is an urgent need to adapt established software assurance principles such as boundary testing with synthetic data. To bridge this gap and enable objective assessment of ML models in real-world clinical settings, we propose Mix-Up Boundary Analysis (MUBA), a novel technique facilitating the evaluation of image classifiers in terms of prediction fairness. We evaluated MUBA using brain tumour and breast cancer classification tasks and achieved promising results. This research underscores the importance of adapting traditional assurance principles to assess ML models, ultimately enhancing the safety and reliability of healthcare technologies. Our code is available at [https: //github.com/willpoulett/MUBA_pipeline](https: //github.com/willpoulett/MUBA_pipeline).*
+*Machine learning (ML) models are becoming integral in healthcare technologies, necessitating formal assurance methods to ensure their safety, fairness, robustness, and trustworthiness. However, these models are inherently error-prone, posing risks to patient health and potentially causing irreparable harm when deployed in clinics. Traditional software assurance techniques, designed for fixed code, are not directly applicable to ML models, which adapt and learn from curated datasets during training. Thus, there is an urgent need to adapt established software assurance principles such as boundary testing with synthetic data. To bridge this gap and enable objective assessment of ML models in real-world clinical settings, we propose Mix-Up Boundary Analysis (MUBA), a novel technique facilitating the evaluation of image classifiers in terms of prediction fairness. We evaluated MUBA using brain tumour and breast cancer classification tasks and achieved promising results. This research underscores the importance of adapting traditional assurance principles to assess ML models, ultimately enhancing the safety and reliability of healthcare technologies. Our code is available at [https://github.com/willpoulett/MUBA_pipeline](https://github.com/willpoulett/MUBA_pipeline).*
 
 ---
 
