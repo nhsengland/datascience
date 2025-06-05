@@ -3,7 +3,7 @@ layout: base
 title: NHS Reproducible Analytical Pipelines (RAP) Champion Squad
 summary: Our roving squad of RAP champions have helped a number of teams not only transform their pipelines, but also taught them how to train others and produced guidance which is used by many other organisations.
 origin: 'NHS Digital'
-tags: ['RAP','BEST PRACTICE','PYTHON','R']
+tags: ['WORKFORCE', 'RAP', 'BEST PRACTICE', 'PYTHON', 'R', 'COMPLETE']
 ---
 
 <a href="https://nhsdigital.github.io/rap-community-of-practice/">

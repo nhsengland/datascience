@@ -3,7 +3,7 @@ title: 'Long Stayer Risk Stratification'
 summary: 'Machine learning using historical data from Gloucestershire Hospitals NHS Foundation Trust to predict how long a patient will stay in hospital upon admission.'
 category: 'Projects'
 origin: 'Skunkworks'
-tags: ['LOS','NEURAL NETWORKS','PYTHON', 'SQL', 'WEBDEV', 'STRUCTURED DATA', 'ACCURACY']
+tags: ['SECONDARY CARE', 'MACHINE LEARNING', 'NEURAL NETWORKS', 'MODELLING', 'STRUCTURED DATA', 'PYTHON', 'SQL', 'COMPLETE']
 ---
 
 ![browser with the Long Stayer Risk Stratification dashboard showing a zoom in to the current risk stratification score currently at: Level 2](../images/long-stay.png)

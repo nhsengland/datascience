@@ -40,15 +40,20 @@ nav:
         - Reusable Data Validation Process: our_work/sde_data_validation.md
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
       - Past Projects:
+        - 2025:
+          - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
+          - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
         - 2024:
           - RAG: our_work/ds251_RAG.md
           - Redbox Copilot: our_work/redbox_copilot.md
+          - Quality Assurance Framework for Data Linkage: our_work/data-linkage-hub/linkage-projects/qaf.md
           - Tool to Assess Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
           - Understanding Fariness and Explainability in Multimodal Approaches within Healthcare: our_work/p61_mmfair.md
         - 2023:
           - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
           - AI Skunkworks Team: our_work/ai-skunkworks.md
           - Deep Learning to Detect Adrenal Lesions in CT Scans: our_work/adrenal-lesions.md
+          - MPS Handbook: our_work/data-linkage-hub/linkage-projects/mps-handbook.md
           - Enriching Clinical Coding for Neurology Pathways using MedCAT: our_work/p43_medcat.md
           - Including Mortality in Hypergraphs for Multi-morbidity: our_work/p42_mortalityhypergraphs.md
           - Investigating Privacy Risks and Mitigations in Healthcare Language Models: our_work/p51_privconcerns.md
