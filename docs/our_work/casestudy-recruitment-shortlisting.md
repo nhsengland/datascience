@@ -8,7 +8,7 @@ tags: ['NLP', 'NEURAL NETWORKS', 'SYNTHETIC DATA']
 
 ## Info
 
-This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/examining-whether-recruitment-data-can-and-should-be-used-to-train-ai-models-for-shortlisting-interview-candidates/) on the NHS England Transformation Directorate website.
+This is a backup of the case study published [here](https://digital.nhs.uk/services/ai-knowledge-repository/case-studies/examining-whether-recruitment-data-can-and-should-be-used-to-train-ai-models-for-shortlisting-interview-candidates) on the NHS England Transformation Directorate website.
 
 ## Case Study
 

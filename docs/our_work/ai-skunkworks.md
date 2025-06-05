@@ -8,10 +8,8 @@ tags: ['CLASSIFICATION', 'PYTHON']
 
 ![AI Skunkworks website homepage](../images/ai-skunkworks.png)
 
-!!! info
-    Welcome to the technical website of the NHS AI Lab Skunkworks team. For our general public-facing website, please visit the [AI Skunkworks programme](https://www.nhsx.nhs.uk/ai-lab/ai-lab-programmes/skunkworks/)
 
-The [AI Skunkworks programme](https://www.nhsx.nhs.uk/ai-lab/ai-lab-programmes/skunkworks/) is part of the [NHS AI Lab](https://www.nhsx.nhs.uk/ai-lab/). It finds new ways to use AI for driving forward the early adoption of technology to support health, in both clinical and business contexts. The team provides free short-term expertise and resources to public sector health and social care organisations to support AI projects and develop capability.
+The [AI Skunkworks programme](https://nhsx.github.io/skunkworks/) was part of the NHS AI Lab. It finds new ways to use AI for driving forward the early adoption of technology to support health, in both clinical and business contexts. The team provides free short-term expertise and resources to public sector health and social care organisations to support AI projects and develop capability.
 
 The programme was closed to new projects at the end of 2022. This website captures the findings, source code, and lessons of its activities.
 

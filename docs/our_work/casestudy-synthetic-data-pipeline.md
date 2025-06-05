@@ -10,7 +10,7 @@ tags: ['SYNTHETIC DATA','NEURAL NETWORKS','ETHICS','QUALITY','PYTHON', 'MIMIC']
 
 ## Info
 
-This is a backup of the case study published [here](https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/exploring-how-to-create-mock-patient-data-synthetic-data-from-real-patient-data/) on the NHS England Transformation Directorate website.
+This is a backup of the case study published [here](https://digital.nhs.uk/services/ai-knowledge-repository/case-studies/exploring-how-to-create-mock-patient-data-synthetic-data-from-real-patient-data) on the NHS England Transformation Directorate website.
 
 ## Case Study
 
