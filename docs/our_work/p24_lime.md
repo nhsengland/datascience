@@ -3,7 +3,7 @@ layout: base
 title: Investigating Superpixels in LIME for Explaining Predictions of Facial Images
 permalink: p24_lime.html
 summary: Investigating explainability algorithms for granular healthcare images
-tags: ['DISEASES', 'CLASSIFICATION', 'EXPLAINABILITY', 'UNSTRUCTURED DATA', 'VISUAL DATA', 'COMPLETE', 'EXPERIMENTAL']
+tags: ['DISEASES', 'CLASSIFICATION', 'EXPLAINABILITY', 'UNSTRUCTURED DATA', 'VISUAL DATA', 'COMPLETE', 'EXPERIMENTAL', 'PYTHON']
 ---
 
 ![From left to right connected by arrows: 1. Loading a pretrained/fine-tuned DCNN model and an example image. 2. Super pixels. 3. Random Perturbations. 4. Predictions. 5. Weights. 6. Surrogate Model. 7. Top Features and Explanations](../images/LIME-workflow.png)
