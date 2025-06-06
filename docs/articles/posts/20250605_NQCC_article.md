@@ -14,6 +14,10 @@ description: >
     Quantum computing has the potential to dramatically change many aspects of healthcare analysis.   For our interests this mostly features around increased efficiency in optimisation and hybrid ML-Quantum approaches.  This article briefly describes our use-cases submissions to the annual NQCC Hackathon to showcase the emerging interests for healthcare using this technology.
 ---
 
+Quantum computing has the potential to dramatically change many aspects of healthcare analysis.   For our interests this mostly features around increased efficiency in optimisation and hybrid ML-Quantum approaches.  This article briefly describes our use-cases submissions to the annual NQCC Hackathon to showcase the emerging interests for healthcare using this technology.
+
+<!-- more -->
+
 ## Introduction
 
 The National Quantum Computing Centre (NQCC) - UK National Laboratory - was launched in 2020 spanning 5 years with a 93 million pound investment from the Uk Government as part of the national quantum technologies program.   
