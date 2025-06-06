@@ -23,8 +23,8 @@ We are building an LLM-based named-entity extraction pipeline to extract clinica
     * Prompting an LLM to detect contradictions in free-text data.
     * Using NLP techniques to identify contradictions (STRETCH).
 3. **Named-entity Recognition**:
-    * Prompting an LLM hosted on Bedrock to extract entities from free-text data:F
-        * Prompting a model with specific values to be extracted and accepted return values.
+    * Prompting an LLM hosted on Bedrock to extract entities from free-text data:
+        * Providing the model with defined accepted values and proposed JSON structure to guide the response.
         * Using a question-answering approach guided by instructions to shape model behaviour.
         * Exploring the use of zero-shot and few-shot examples in prompts.
     * Parsing the output into a JSON structure.

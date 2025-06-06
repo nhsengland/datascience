@@ -1,6 +1,6 @@
 ---
 title: 'Embedded Data Scientists in the National Disease Registration Service (NDRS)'
-summary: 'We have datascientist that work with the National Disease Registration Service supporting various functions.'
+summary: 'We have datascientists that work with the National Disease Registration Service supporting various functions.'
 tags: ['GENOMICS', 'POPULATION-HEALTH', 'RAP', 'SQL', 'R', 'TEXT DATA', 'LINKAGE']
 ---
 
@@ -14,7 +14,7 @@ We have supported NDRS with a range of projects.
 
 ### Clinical Measurement Extractor
 
-This is a LLM pipeline to extract out clinical measurments from free-text data. This is using AWS services such as BedRock and SageMaker. For more information, please follow the link to this [project page](./clinical_measurement_extractor.md).
+This is an LLM pipeline to extract out clinical measurments from free-text data. This is using AWS services such as BedRock and SageMaker. For more information, please follow the link to this [project page](./clinical_measurement_extractor.md).
 
 | Output                             | Link                                                                 |
 | ---------------------------------- | -------------------------------------------------------------------- |
