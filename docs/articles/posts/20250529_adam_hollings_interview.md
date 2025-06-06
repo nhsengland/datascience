@@ -11,7 +11,7 @@ description: >
     Welcome to another installment of our "Interview with a Data Scientist" series, where we explore the careers and work of the talented members of the NHS England Data Science team. This week our interviewee is Adam Hollings a Principal Data Scientist in the Data Science Team who recently moved from the SDE Service Team to the Central Data Science Team.
 ---
 
-Welcome to another installment of our "Interview with a Data Scientist" series, where we explore the careers and work of the talented members of the NHS England Data Science team. We aim to showcase the fantastic individuals who contribute to the NHSE Data Science Profession and provide valuable insights for those considering a career in Data Science within the healthcare sector.
+> Welcome to another installment of our "Interview with a Data Scientist" series, where we explore the careers and work of the talented members of the NHS England Data Science team. We aim to showcase the fantastic individuals who contribute to the NHSE Data Science Profession and provide valuable insights for those considering a career in Data Science within the healthcare sector.
 
 This week our interviewee is Adam Hollings a Principal Data Scientist in the Data Science Team who recently moved from the SDE Service Team to the Central Data Science Team.
 
