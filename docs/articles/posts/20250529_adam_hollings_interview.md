@@ -1,6 +1,6 @@
 ---
 title: Interview with a Data Scientist - Dimsum and Datascience
-authors: [adamhollings]
+authors: [AdamHollings]
 date: 2025-05-29
 categories: 
     - Data Science Interviews
