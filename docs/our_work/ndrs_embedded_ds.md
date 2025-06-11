@@ -1,7 +1,7 @@
 ---
 title: 'Embedded Data Scientists in the National Disease Registration Service (NDRS)'
 summary: 'We have datascientists that work with the National Disease Registration Service supporting various functions.'
-tags: ['GENOMICS', 'POPULATION-HEALTH', 'RAP', 'SQL', 'R', 'TEXT DATA', 'LINKAGE']
+tags: ['GENOMICS', 'POPULATION HEALTH', 'SQL', 'R', 'TEXT DATA', 'LINKAGE']
 ---
 
 ## Aim
