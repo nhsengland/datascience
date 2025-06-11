@@ -44,6 +44,10 @@ Contact someone from [Marketing & Comms Function Team](https://nhsd-confluence.d
 
 ## Contribute to NHS England Data Science Website
 
+The best way to check that any changes render correctly on the website is to use a codespace; you can do this from github by clicking on the green "code" button and opening a codespace, or a review using "review in code space" and then when the website has been served after about a minute go to ports and click the forwarded address. For more details on this process see the *"Submitting a pull request"* section above.
+ 
+You can also do it locally which is more complicated and prone to error especially on a corporate device. You can see instructions for that in the *"Submitting a pull request"* section above.
+
 ### Installing MkDocs
 
 Run the commands (or follow the MkDocs documentation to locally pip install MkDocs):
