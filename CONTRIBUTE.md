@@ -1,4 +1,4 @@
-# Contribute
+# Contribute to NHS England Data Science Website
 
 Hi there! We're thrilled that you'd like to contribute to the NHS England Data Science website. Your help is essential for keeping it great.
 
@@ -42,27 +42,11 @@ Contact someone from [Marketing & Comms Function Team](https://nhsd-confluence.d
 - Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 - Write [good commit messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 
-## Contribute to NHS England Data Science Website
+### How do I check the website renders correctly?
 
 The best way to check that any changes render correctly on the website is to use a codespace; you can do this from github by clicking on the green "code" button and opening a codespace, or a review using "review in code space" and then when the website has been served after about a minute go to ports and click the forwarded address. For more details on this process see the *"Submitting a pull request"* section above.
  
 You can also do it locally which is more complicated and prone to error especially on a corporate device. You can see instructions for that in the *"Submitting a pull request"* section above.
-
-### Installing MkDocs
-
-Run the commands (or follow the MkDocs documentation to locally pip install MkDocs):
-
-```bash
-    pip install -r requirements.txt
-```
-
-### Hosting
-
-To host the website locally to view the live changes, run the command:
-
-```bash
-    mkdocs serve
-```
 
 ### Editing the contents
 
