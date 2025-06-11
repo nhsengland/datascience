@@ -1,7 +1,7 @@
 ---
 title: 'Clinical Measurement Extractor'
 summary: 'Building a LLM-based named-entity extraction pipeline using AWS resources.'
-tags: ['WIP','AI', 'AWS', 'LARGE LANGUAGE MODELS (LLM)', 'NAMED-ENTITY RECOGNITION (NER)','PYTHON', 'BEDROCK API', 'SAGEMAKER', 'TEXT DATA']
+tags: ['WIP','MACHINE LEARNING','NLP', 'LLM','PYTHON', 'TEXT DATA']
 ---
 
 !!! warning
