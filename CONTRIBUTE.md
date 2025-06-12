@@ -18,7 +18,7 @@ If you want to contribute to our resources I would recommend using codespaces di
 4. This should automatically launch a codespace, which also creates a local version of the website after a minute or so, which you should be able to access in the ports section at the bottom of the codespace.
 ![image](https://github.com/user-attachments/assets/3192cf0a-acc3-4ca3-876a-9e348621459a)
 5. Make any changes you wish to the website here and commit and push as you would in VSCode (guidance specific to project pages and blog can be found below).
-6. Check your changes in the local instance to make sure they arent breaking anything and look as you want them to.
+6. Check your changes in the local instance to make sure they arent breaking anything and look as you want them to. Ensure you check the warnings that mkdocs provides in the terminal and ensure that there's no new warnings (existing warnings found [here](#existing-warnings))
 7. [Submit a pull request][pr]
 
 
@@ -41,6 +41,7 @@ Contact someone from [Marketing & Comms Function Team](https://nhsd-confluence.d
 - Follow the [accessibility guidance](https://nhsd-confluence.digital.nhs.uk/pages/viewpage.action?pageId=902212969). The most important aspects are to include alt text for images that convey meaning, and null alt text for decorative images, colour not being the only way to convey any of the meaning in your content, descriptive heading and labels, and images aren't used as text (if you have images that convey text meaning, they should be SVGs), and any links have a descriptive text, not just "click here" or "link".
 - Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 - Write [good commit messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
+- Ensure you check the warnings that mkdocs provides in the terminal and ensure that there's no new warnings (existing warnings found [here](#existing-warnings))
 
 ## Contribute to NHS England Data Science Website
 
@@ -84,6 +85,7 @@ Creating new articles / blog posts is easy:
   - Note, you do not have to add the blog pages to the `mkdocs.yml` - it gets added to the nav bar automatically.
 - add yourself to the [`docs/articles/posts/.authors.yml`], so your face and info appears next to the article.
 - The markdown file should have some metadata at the start, like the below. For more info on these parameters, see the [mkdocs material blog plugin guidance](https://squidfunk.github.io/mkdocs-material/plugins/blog/). You can also copy it from another blog to make sure you've got it right.
+- if you dont have any links to include, remove that bit, or it will throw an error.
 
 ```markdown
 ---
@@ -94,7 +96,7 @@ categories:
     - RAP
     - Python
 links:
-    - https://digital.nhs.uk/blog/data-points-blog/2023/why-were-getting-our-data-teams-to-rap
+    - Link Name: https://digital.nhs.uk/blog/data-points-blog/2023/why-were-getting-our-data-teams-to-rap
 slug: rap-in-NHSE
 description: >
     Reproducible analytical pipelines (RAP) help ensure all published statistics meet the highest standards of transparency and reproducibility. Sam Hollings and Alistair Bullward share their insights on adopting RAP and give advice to those starting out.
@@ -115,3 +117,64 @@ description: >
 [fork]: https://github.com/pages-themes/slate/fork
 [pr]: https://github.com/pages-themes/slate/compare
 [style]: http://ben.balter.com/jekyll-style-guide/
+
+# Existing Warnings
+The following are errors that are already existing in the mkdocs build and that you can safely ignore when creating a PR:
+
+```
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+             - what_is_data_science/index.md
+             - what_is_data_science/Benefits of Data Science in the NHS.md
+             - what_is_data_science/How you can learn Data Science.md
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:primary-care', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:secondary-care', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:social-care', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:emergency-care', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:diseases', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:population-health', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:workforce', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:prescribing', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:financial', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:forecasting', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:classification', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:computer-vision', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:deep-learning', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:llm', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:machine-learning', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:neural-networks', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:nlp', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:linkage', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:simulation', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:best-practice', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:data-validation', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:documentation', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:ethics', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:explainability', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:generation', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:modelling', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:rap', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:research', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:structured-data', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:unstructured-data', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:multi-modal', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:audio-data', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:genomics-data', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:visual-data', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:text-data', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:time-series', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:pii', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:synthetic-data', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:open-data', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:pseudonymised', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:python', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:sql', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:r', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:webdev', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:wip', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:complete', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:paused', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:in-development', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:retired', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:deployed', but there is no such anchor on this page.
+INFO    -  Doc file 'our_work/tags.md' contains a link '#tag:experimental', but there is no such anchor on this page.
+```

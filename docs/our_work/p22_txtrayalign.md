@@ -3,7 +3,7 @@ layout: base
 title: Descriptive text from X-Ray Images (TxtRayAlign)
 permalink: p22_txtrayalign.html
 summary: Generating descriptive text from X-Ray images using contrastive learning on multi-modal data
-tags: ['SECONDARY CARE', 'NLP', 'UNSTRUCTURED DATA', 'MULTI-MODAL', 'VISUAL DATA', 'PYTHON', 'COMPLETE', 'EXPERIMENTAL']
+tags: ['SECONDARY CARE', 'NLP', 'UNSTRUCTURED DATA', 'MULTI MODAL', 'VISUAL DATA', 'PYTHON', 'COMPLETE', 'EXPERIMENTAL']
 ---
 
 ![](../images/p22fig1.png)

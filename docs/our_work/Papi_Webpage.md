@@ -2,7 +2,7 @@
 title: 'Risk stratification models for Population and Person Insights (PaPI)'
 summary: 'To improve, and update the risk stratification models used in the Population and Person Insight (PaPI) dashboards.'
 origin: 'NHS England'
-tags: ['POPULATION-HEALTH', 'MACHINE LEARNING', 'MODELLING', 'STRUCTURED', 'PYTHON']
+tags: ['POPULATION HEALTH', 'MACHINE LEARNING', 'MODELLING', 'STRUCTURED DATA', 'PYTHON']
 ---
 
 ## **About PaPI**
@@ -15,7 +15,7 @@ The PaPI (Population and Person Insights) project aims to review, improve, and u
 
 The goal is to improve the accuracy and relevance of these risk predictions, which are currently based on pre-COVID data from 2019, by retraining the models and data pipelines following a platform migration (NCDR to UDAL). This will enable national, regional, and local health and care systems to better understand and manage population health risks.
 
-<figure markdown="span">  ![Figure 1: An Image showing The Population and Person Insight Dashboard](../../images/papi_dash_1.png) <figcaption>Papi Dashboard</figcaption></figure>
+<figure markdown="span">  ![Figure 1: An Image showing The Population and Person Insight Dashboard](../images/papi_dash_1.png) <figcaption>Papi Dashboard</figcaption></figure>
  
 
 ## **Why PaPI?**
@@ -30,7 +30,7 @@ PaPI offers a modern, data-driven approach to understanding population health da
 This project puts patients at the centre to ensure they receive the best care and outcomes, which is our major goal in the NHS as everything we do is for our patients. By predicting the likelihood of a patient (or multiple patients) attending A&E, we can prepare adequately to provide thereby improving resource allocation. Our risk stratification approach aids in planning and prioritizing resources to meet patients’ needs. Doing Risk Stratification aligns with the NHS’s preventive care objectives.
 
 ## **What we did – Risk stratification modelling**
-<figure markdown="span">  ![Figure 2: An Image showing The Process We Did](../../images/papi_dash_2.png) <figcaption>Risk Stratification Modelling</figcaption></figure>
+<figure markdown="span">  ![Figure 2: An Image showing The Process We Did](../images/papi_dash_2.png) <figcaption>Risk Stratification Modelling</figcaption></figure>
 
 ### **Data**
 

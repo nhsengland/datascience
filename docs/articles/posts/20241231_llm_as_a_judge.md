@@ -6,8 +6,6 @@ categories:
     - LLMs
     - Generative AI
     - Evaluation
-links:
-    - TBC
 slug: LLM-as-a-Judge
 description: >
     Large Language Models (LLMs) are increasingly being used across the NHS, particularly as summarisation tools. This article explores how we can evaluate the use of these LLMs? And on top of that, can we even use LLMs to aid evaluation? 
