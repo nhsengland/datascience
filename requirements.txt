@@ -34,3 +34,4 @@ typing_extensions
 watchdog
 wheel
 zipp
+-e ./plugins/suppress_logs

@@ -67,7 +67,11 @@ plugins:
       glob:
         - our_work/template-project.md
   - open-in-new-tab
-
+  - suppress_logs:
+      patterns:
+        - "Doc file 'our_work/tags.md' contains a link '#tag:{*}', but there is no such anchor on this page."
+      loggers:
+        - mkdocs.structure.pages
 nav:
   - Home: index.md
   - About the team: about.md
