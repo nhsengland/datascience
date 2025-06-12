@@ -16,7 +16,7 @@ A proof-of-concept demonstrator written in Python (user interface, classical com
 
 ## Case Study
 
-This is a backup of the case study published [here](https://webarchive.nationalarchives.gov.uk/ukgwa/20241101055214/https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-ai-to-identify-tissue-growth-from-ct-scans/) on the NHS England Transformation Directorate website.
+This is a backup of the case study published [here](https://digital.nhs.uk/services/ai-knowledge-repository/case-studies/using-ai-to-identify-tissue-growth-from-ct-scans) on the NHS England Transformation Directorate website.
 
 George Eliot Hospital approached the NHS AI Lab Skunkworks team with an idea to use AI to speed up the analysis of computerised tomography (CT) scans.
 
@@ -110,7 +110,7 @@ Roke is a long-established science and engineering organisation, providing AI an
 Output|Link
 ---|---
 Open Source Code & Documentation|[Github](https://github.com/nhsx/skunkworks-ct-alignment-lesion-detection)
-Case Study|[Case Study](https://webarchive.nationalarchives.gov.uk/ukgwa/20241101055214/https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/using-ai-to-identify-tissue-growth-from-ct-scans/)
+Case Study|[Case Study](https://digital.nhs.uk/services/ai-knowledge-repository/case-studies/using-ai-to-identify-tissue-growth-from-ct-scans)
 Technical report|[PDF](https://github.com/nhsx/skunkworks-ct-alignment-lesion-detection/blob/main/docs/NHS_AI_Lab_Skunkworks_CT_Alignment_Lesion_Detection_Technical_Report.pdf)
 Video walkthrough|[YouTube](http://www.youtube.com/watch?v=QygOnGLcszk)
 
