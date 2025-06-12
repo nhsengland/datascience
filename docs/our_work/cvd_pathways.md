@@ -2,7 +2,7 @@
 title: 'CVD Pathways'
 summary: 'Developing a comprehensive data pipeline linking primary and secondary care data, for over 16 million patients, to enable advanced analytics on Cardiovascular Disease (CVD) prevention, progression, and outcomes.'
 origin: 'NHS England'
-tags: ['PRIMARY CARE', 'SECONDARY CARE', 'DISEASES', 'POPULATION-HEALTH', 'LINKAGE', 'PYTHON', 'RAP', 'STRUCTURED-DATA', 'WIP']
+tags: ['PRIMARY CARE', 'SECONDARY CARE', 'DISEASES', 'POPULATION HEALTH', 'LINKAGE', 'PYTHON', 'RAP', 'STRUCTURED DATA', 'WIP']
 ---
 
 ## About CVD Pathways

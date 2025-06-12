@@ -2,7 +2,7 @@
 title: 'Cancer high-risk cohorts'
 summary: 'We use machine learning to identify cohorts at higher risk of developing cancer in the next year'
 origin: ''
-tags: ['POPULATION-HEALTH', 'RAP', 'MACHINE-LEARNING', 'PYTHON', 'STRUCTURED-DATA', 'WIP']
+tags: ['POPULATION HEALTH', 'RAP', 'MACHINE LEARNING', 'PYTHON', 'STRUCTURED DATA', 'WIP']
 ---
 
 ![Overview of the cancer project](../images/cancer_high_risk_overview.png)

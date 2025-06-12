@@ -1,1 +1,1 @@
-# Article and Blog posts
+# Articles and Blog posts
