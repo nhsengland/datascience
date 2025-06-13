@@ -16,7 +16,7 @@ A proof-of-concept demonstrator written in Python (backend, virtual hospital, mo
 
 # Case Study
 
-This is a backup of the case study published [here](https://webarchive.nationalarchives.gov.uk/ukgwa/20241101060022/https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/improving-hospital-bed-allocation-using-ai/) on the NHS England Transformation Directorate website.
+This is a backup of the case study published [here](https://digital.nhs.uk/services/ai-knowledge-repository/case-studies/improving-hospital-bed-allocation-using-ai) on the NHS England Transformation Directorate website.
 
 Kettering General Hospital approached the NHS AI Lab Skunkworks team with a request for support exploring artificial intelligence (AI) to improve bed management. Their vision was to use AI to achieve the “right patient, in the right bed, receiving the right care, at the right time.”
 
@@ -120,7 +120,7 @@ Faculty is an applied AI company that helps build and accelerate an organisation
 Output|Link
 ---|---
 Open Source Code & Documentation|[Github](https://github.com/nhsx/skunkworks-bed-allocation)
-Case Study|[Case Study](https://webarchive.nationalarchives.gov.uk/ukgwa/20241101060022/https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/improving-hospital-bed-allocation-using-ai/)
+Case Study|[Case Study](https://digital.nhs.uk/services/ai-knowledge-repository/case-studies/improving-hospital-bed-allocation-using-ai)
 Technical report|[PDF](https://github.com/nhsx/skunkworks-bed-allocation/blob/main/docs/NHS_AI_Lab_Skunkworks_Bed_Allocation_Technical_Report.pdf)
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)

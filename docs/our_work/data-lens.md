@@ -18,7 +18,7 @@ A prototype website written in HTML/CSS/JavaScript (frontend), JavaScript (backe
 
 # Case Study
 
-This is a backup of the case study published [here](https://webarchive.nationalarchives.gov.uk/ukgwa/20241101060541/https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/data-lens-a-fast-access-data-search-in-multiple-languages/) on the NHS England Transformation Directorate website.
+This is a backup of the case study published [here](https://digital.nhs.uk/services/ai-knowledge-repository/develop-ai/data-lens-a-fast-access-data-search-in-multiple-languages) on the NHS England Transformation Directorate website.
 
 A pilot project for the NHS AI Lab Skunkworks team, Data Lens brings together information about multiple databases, providing a fast-access search in multiple languages
 
@@ -85,7 +85,7 @@ The team brought in metadata from NHS Digital, NHS England and Improvement, Publ
 Output|Link
 ---|---
 Open Source Code & Documentation|[Github](https://github.com/nhsx/skunkworks-data-lens)
-Case Study|[Case Study](https://webarchive.nationalarchives.gov.uk/ukgwa/20241101060541/https://transform.england.nhs.uk/ai-lab/explore-all-resources/develop-ai/data-lens-a-fast-access-data-search-in-multiple-languages/)
+Case Study|[Case Study](https://digital.nhs.uk/services/ai-knowledge-repository/develop-ai/data-lens-a-fast-access-data-search-in-multiple-languages)
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
