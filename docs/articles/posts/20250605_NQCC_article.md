@@ -34,7 +34,7 @@ Our team has been engaging with this event for the past few years through the su
 
 ## First Quantum Hackathon in 2022 - Bed Optimisation
 
-At the first of these hackathons in 2022, we challenged the hackers to devise a strategy for allocating patients to beds whilst taking account of various individual and system constraints.  Currently, this is an extremely complex problem that is usually worked out by people on the ground with a lot of domain knowledge.   See the full event article [here]( https://www.nqcc.ac.uk/wp-content/uploads/2022/09/NQCC_Hackathon_article_July2022.pdf)
+At the first of these hackathons in 2022, we challenged the hackers to devise a strategy for allocating patients to beds whilst taking account of various individual and system constraints.  Currently, this is an extremely complex problem that is usually worked out by people on the ground with a lot of domain knowledge.   See the full event article [here]( https://www.nqcc.ac.uk/wp-content/uploads/2022/09/NQCC_Hackathon_article_July2022.pdf). 
 
 ## Second Quantum Hackathon in 2023 - Route Optimisation
 
