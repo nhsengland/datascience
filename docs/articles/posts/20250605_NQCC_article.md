@@ -1,7 +1,7 @@
 ---
 title: NHS England Use-Cases at the National Quantum Computing Centre annual Hackathon
 authors: [jpearson]
-date: 2025-06-05
+date: 2025-06-17
 categories: 
     - Quantum
     - Optimisation
@@ -42,12 +42,12 @@ The following year, we continued on the theme of optimisation but this time prop
 
 To make the problem tractable, the team used a hybrid method that combines classical compute for clustering (k-means-constrained) with quantum annealing. The clustering technique focuses on finding non-overlapping clusters, constraining the search space, and making the solution viable for existing hardware and at scale. 
 
-Several clustering methods were attempted, and k-means-constrained proved most useful. Hospitals were clustered before using D-Wave to provide solutions for the optimal route based on the shortest path between clusters. The team had a limited number of qubits to use but were still capable of finding solutions for up to five health centres. See the full report [here](https://www.nqcc.ac.uk/wp-content/uploads/2024/04/NQCC_Quantum-Hackathon-2023_Technical-report.pdf)
+Several clustering methods were attempted, and k-means-constrained proved most useful. Hospitals were clustered before using D-Wave to provide solutions for the optimal route based on the shortest path between clusters. The team had a limited number of qubits to use but were still capable of finding solutions for up to five health centres. See the full report [here](https://www.nqcc.ac.uk/wp-content/uploads/2024/04/NQCC_Quantum-Hackathon-2023_Technical-report.pdf).
 
 ## Third Quantum Hackathon in 2024 - A&E Forecasting
 
 In 2024, we proposed quantum modelling for NHS forecasting as the use-case.  This built upon our current A&E forecasting tool which uses a Hierarchical Bayesian model trained using a particular kind of Markov-chain Monte Carlo (MCMC) algorithm.  Whilst this approach allows information to be shared between hospitals during training (helping improve quality and missingness of the data), this is computationally expensive.   By incorporating quantum random sampling algorithms into the model it was hoped that better training speed and efficiency could be achieved as well as increasing performance and reducing costs.  
-A quantum-MCMC was attempted but proved to be unsuitable.  Instead a variational quantum circuit was implemented for the time-series forecasting with linear trends in the data detected using just 25 qubits.  See the full report [here](https://www.nqcc.ac.uk/wp-content/uploads/2025/04/NQCC_Quantum-Hackathon-2024_Technical-report.pdf)
+A quantum-MCMC was attempted but proved to be unsuitable.  Instead a variational quantum circuit was implemented for the time-series forecasting with linear trends in the data detected using just 25 qubits.  See the full report [here](https://www.nqcc.ac.uk/wp-content/uploads/2025/04/NQCC_Quantum-Hackathon-2024_Technical-report.pdf).
 
 ### What's next?
 
