@@ -18,6 +18,7 @@ mkdocs-material-extensions
 mkdocs-jupyter
 mkdocs-awesome-pages-plugin
 mkdocs-macros-plugin
+mkdocs-exclude
 packaging
 pyparsing
 Pygments
