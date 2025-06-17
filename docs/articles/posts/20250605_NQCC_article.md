@@ -14,7 +14,7 @@ description: >
     Quantum computing has the potential to dramatically change many aspects of healthcare analysis.   For our interests this mostly features around increased efficiency in optimisation and hybrid ML-Quantum approaches.  This article briefly describes our use-cases submissions to the annual NQCC Hackathon to showcase the emerging interests for healthcare using this technology.
 ---
 
-Quantum computing has the potential to dramatically change many aspects of healthcare analysis.   For our interests this mostly features around increased efficiency in optimisation and hybrid ML-Quantum approaches.  This article briefly describes our use-cases submissions to the annual NQCC Hackathon to showcase the emerging interests for healthcare using this technology.
+> Quantum computing has the potential to dramatically change many aspects of healthcare analysis.   For our interests this mostly features around increased efficiency in optimisation and hybrid ML-Quantum approaches.  This article briefly describes our use-cases submissions to the annual NQCC Hackathon to showcase the emerging interests for healthcare using this technology.
 
 <!-- more -->
 
