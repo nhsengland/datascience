@@ -3,7 +3,7 @@ layout: base
 title: Enriching Clinical Coding for Neurology Pathways using MedCAT
 permalink: p43_medcat.html
 summary: In collaboration with Lancaster teaching hospital and the University of Lancaster we aim to apply MedCat (an automated named entity recognition with linkage algorithm) to neurology letters to identify related SNOMED CT coding.
-tags: ['NLP', 'UNSTRUCTURED DATA', 'RESEARCH']
+tags: ['NATURAL LANGUAGE PROCESSING', 'UNSTRUCTURED DATA', 'RESEARCH']
 ---
 
 Neurology and other clinical specialities are awash with clinical data. However, these are generally not structured and lack the characteristics to allow straightforward automatic extraction of clinically relevant concepts. Software tools do exist that can recognise clinical terms in unstructured clinical data (e.g. clinic letters) and link them to other concepts. These are called ‘named entity recognition and linking’ (NER+L) tools. But many such tools require prior ‘labelling’ by a domain expert (i.e. person with specialty knowledge) of the relevant clinical concepts. MedCAT is a NER+L tool that can work without this prior labelling as it contains an algorithm that is aligned with a customisable knowledge database (ontology). This works in two stages: 1) linking unambiguous portions of texts (entities) to unique terms in the ontology then 2) linking ambiguous entities to terms in the ontology with the most similar contexts. 

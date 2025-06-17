@@ -3,7 +3,7 @@ title: 'Examining whether recruitment data can, and should, be used to train AI 
 summary: 'Identify where bias has potential to occur when using machine learning for shortlisting interview candidates and mitigate it'
 category: 'CaseStudies'
 origin: 'Skunkworks'
-tags: [WORKFORCE, 'NLP', LLM, 'NEURAL NETWORKS', RESEARCH, 'SYNTHETIC DATA', STRUCTURED DATA, PYTHON, COMPLETE ]
+tags: [WORKFORCE, 'NATURAL LANGUAGE PROCESSING', LLM, 'NEURAL NETWORKS', RESEARCH, 'SYNTHETIC DATA', STRUCTURED DATA, PYTHON, COMPLETE ]
 ---
 
 ## Info

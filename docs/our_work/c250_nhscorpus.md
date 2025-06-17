@@ -2,7 +2,7 @@
 title: Considerations for Building a Language Corpus with a Focus on the NHS
 summary: What are the available tools that could be used to build an NHS-focussed collection of texts which could help developers build better NLP tools for the healthcare system.
 permalink: c250_nhscorpus.html
-tags: ['NLP', RESEARCH, UNSTRUCTURED DATA, TEXT DATA, OPEN DATA, PYTHON, PAUSED, EXPERIMENTAL]
+tags: ['NATURAL LANGUAGE PROCESSING', RESEARCH, UNSTRUCTURED DATA, TEXT DATA, OPEN DATA, PYTHON, PAUSED, EXPERIMENTAL]
 ---
 
 ![Ingest box containing the logo for scrapy and a screenshot of the NHS.uk website, Enrich box including logos for Helin, brat, and doccan, Share box including huggingface, database. Under the boxes there are the docker, SQLPad, elasticsearch and caddy logos.](../images/c250fig1.png)

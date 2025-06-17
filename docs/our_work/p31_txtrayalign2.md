@@ -3,7 +3,7 @@ layout: base
 title: Adding a Clinical Focus to Evaluating Multi-Modal Data Representations
 permalink: p31_txtrayalign2.html
 summary: How to validate synthetic text generated from images for healthcare applications.
-tags: ['SECONDARY CARE', 'NLP', 'UNSTRUCTURED DATA', 'MULTI MODAL', 'VISUAL DATA', 'PYTHON', 'COMPLETE', 'EXPERIMENTAL']
+tags: ['SECONDARY CARE', 'NATURAL LANGUAGE PROCESSING', 'UNSTRUCTURED DATA', 'MULTI MODAL', 'VISUAL DATA', 'PYTHON', 'COMPLETE', 'EXPERIMENTAL']
 ---
 
 ![Diagram of the proposed clinical workflow applications of ML to radiology, diagrams connected by arrows.](../images/p31fig1.png)

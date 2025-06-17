@@ -29,7 +29,7 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Domai
     * [Large Language Models (LLM)](#tag:llm)
     * [Machine Learning](#tag:machine-learning)
     * [Neural Networks](#tag:neural-networks)
-    * [Natural Language Processing (NLP)](#tag:nlp)
+    * [Natural Language Processing (NLP)](#tag:natural-language-processing)
     * [Linkage](#tag:linkage)
     * [Simulation](#tag:simulation)
 
@@ -68,7 +68,7 @@ Below the tags are sorted by **categories** (Project Status, Data Sources, Domai
 
     **Data Accessibility/Privacy**
 
-    * [Patient Identifiable](#tag:pii)
+    * [Patient Identifiable](#tag:patient-identifiable-data)
     * [Synthetic](#tag:synthetic-data)
     * [Open Data](#tag:open-data)
     * [Pseudonymised](#tag:pseudonymised)

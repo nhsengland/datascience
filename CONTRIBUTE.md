@@ -81,11 +81,11 @@ Prior to making a pull request, ensure that, if the changes involve a change or 
 
 Creating new articles / blog posts is easy:
 
-- add a markdown file under the [`docs/articles/posts`](./docs/articles/posts) folder.
+- Add a markdown file under the [`docs/articles/posts`](./docs/articles/posts) folder.
   - Note, you do not have to add the blog pages to the `mkdocs.yml` - it gets added to the nav bar automatically.
-- add yourself to the [`docs/articles/posts/.authors.yml`], so your face and info appears next to the article.
+- Add yourself to the [`docs/articles/posts/.authors.yml`], so your face and info appears next to the article.
 - The markdown file should have some metadata at the start, like the below. For more info on these parameters, see the [mkdocs material blog plugin guidance](https://squidfunk.github.io/mkdocs-material/plugins/blog/). You can also copy it from another blog to make sure you've got it right.
-- if you dont have any links to include, remove that bit, or it will throw an error.
+- If you dont have any links to include, remove that bit, or it will throw an error.
 
 ```markdown
 ---

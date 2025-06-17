@@ -27,7 +27,7 @@ plugins:
         - LLM
         - MACHINE LEARNING
         - NEURAL NETWORKS
-        - NLP
+        - NATURAL LANGUAGE PROCESSING
         - LINKAGE
         - SIMULATION
         - BEST PRACTICE
@@ -47,7 +47,7 @@ plugins:
         - VISUAL DATA
         - TEXT DATA
         - TIME SERIES
-        - PII
+        - PATIENT IDENTIFIABLE DATA
         - SYNTHETIC DATA
         - OPEN DATA
         - PUBLICATIONS
@@ -83,14 +83,14 @@ nav:
         - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
         - Ambulance Handover Delay Predictor: our_work/ambulance-delay-predictor.md
         - Bed Allocation: our_work/bed-allocation.md
-        - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
+        - Cancer High-Risk Cohorts: our_work/cancer_high_risk_cohorts.md
         - Impact of Commercial Data on Predictions: our_work/p14_mcr.md
         - Length of Hospital Day Prediction: our_work/long-stay.md
         - Long Stayer Risk Stratification Baseline Models: our_work/long-stay-baseline.md
         - Parkinson's Disease Pathology Prediction: our_work/parkinsons-detection.md
         - Predicting Negligence Claims: our_work/nhs-resolution.md
         - Renal Health Prediction: our_work/renal-health-prediction.md
-        - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
+        - Risk Stratification Models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Hub: our_work/data-linkage-hub/index.md
         - Inequalities in Diabetes from PHM Data: our_work/p32_phmdiabetes.md
