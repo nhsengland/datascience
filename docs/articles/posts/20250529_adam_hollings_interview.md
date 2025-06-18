@@ -59,7 +59,7 @@ Beyond this, I also have a keen interest in open-source large language models (L
 
 I'm also committed to ensuring our projects achieve the greatest possible impact by actively supporting the Marketing and Communications function team. Given the current organisational landscape, I believe it's especially critical to ensure that our work and its significant benefits are well-understood across both NHS England and the DHSC. Recent Marketing and Comms initiatives I've contributed to include setting up the Data Science Team's SharePoint page, gathering and submitting entries for the Advanced Analytics Analytical Prospectus, and currently working on the Data Science Brochure.
 
-If you're looking to enhance the reach and impact of your project, please don't hesitate to get in touch with [myself](adam.hollings1@nhs.net), [Amaia](amaia.imazblanco1@nhs.net) or [Will](william.poulett1@nhs.net)!
+If you're looking to enhance the reach and impact of your project, please don't hesitate to get in touch with [myself](mailto:adam.hollings1@nhs.net), [Amaia](mailto:amaia.imazblanco1@nhs.net) or [Will](mailto:william.poulett1@nhs.net)!
 
 ## If you could give someone just starting out in data science a few pieces of advice, what would they be? And what resources have you found particularly helpful along the way that you can share?
 

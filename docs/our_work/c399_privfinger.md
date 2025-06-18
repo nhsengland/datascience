@@ -2,7 +2,7 @@
 title: Building a Tool to Assess the Privacy Risk of Text Data
 summary: Can we generate usable privacy scores for text data to support understanding of privacy concerns and the anonymisation process
 permalink: c399_privfinger.html
-tags: ['LLM','PYTHON', NLP, LLM, RESEARCH, DATA VALIDATION, UNSTRUCTURED DATA, TEXT DATA, PYTHON, ON PAUSE, SYNTHETIC DATA]
+tags: ['LLM','PYTHON', NATURAL LANGUAGE PROCESSING, LLM, RESEARCH, DATA VALIDATION, UNSTRUCTURED DATA, TEXT DATA, PYTHON, PAUSED, SYNTHETIC DATA]
 ---
 
 This work was undertaken as an external commission aiming to build a pipeline of components which firstly generated unstructured medical notes using a structured output from [Synthea:tm:](https://github.com/synthetichealth/synthea) and then running these through [GPT-3.5](https://platform.openai.com/docs/models/gpt-3-5) models to transform these into human readable notes.
