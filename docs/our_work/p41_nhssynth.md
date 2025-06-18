@@ -3,7 +3,7 @@ layout: base
 title: NHSSynth
 permalink: p41_nhssynth.html
 summary: Continuation from the two previous synthevae projects with the aim to create a full experiment pipeline for production
-tags: ['SYNTHETIC', 'STRUCTURED', 'MACHINE LEARNING', 'GENERATION' ,'RESEARCH']
+tags: ['SYNTHETIC DATA', 'STRUCTURED DATA', 'MACHINE LEARNING', 'GENERATION' ,'RESEARCH']
 ---
 
 <figure markdown>

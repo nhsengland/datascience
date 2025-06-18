@@ -7,8 +7,6 @@ categories:
     - LLMs
     - Python
     - Annotation Tools
-links:
-    - TBC
 slug: annotation-tools
 description: >
     There are various tools for annotating and exploring free text data for Named Entity Recognition. The author explores some of these tools and discusses his experiences. 

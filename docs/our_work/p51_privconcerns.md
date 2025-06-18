@@ -3,7 +3,7 @@ layout: base
 title: Investigating Privacy Risks and Mitigations in Healthcare Language Models
 permalink: p51_privconcerns.html
 summary: An initial exploration of privacy risks in healthcare language models, including privacy-preserving techniques applied before or after model training, and evaluating their effectiveness with privacy attacks.
-tags: ['LARGE LANGUAGE MODELS (LLM)', 'PATIENT IDENTIFIABLE', 'RESEARCH']
+tags: ['LLM', 'PATIENT IDENTIFIABLE DATA', 'RESEARCH']
 ---
 
 See our blog on this work [here](https://nhsengland.github.io/datascience/articles/2024/04/11/privLM/)
