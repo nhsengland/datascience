@@ -108,6 +108,7 @@ nav:
         - Predicting Negligence Claims: our_work/nhs-resolution.md
         - Renal Health Prediction: our_work/renal-health-prediction.md
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
+        - Waiting List Minimum Dataset (WLMDS) Proofs of Concept: our_work/hsma-wlmds.md
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Hub:
           - our_work/data-linkage-hub/index.md
@@ -162,7 +163,6 @@ nav:
         - SDE Service Data Wranglers:
           - Reusable Data Validation Process: our_work/sde_data_validation.md
         - Transforming Healthcare Data With Graph-Based Techniques: our_work/p34_hypergraphs.md
-        - Waiting List Minimum Dataset (WLMDS) Proofs of Concept: our_work/hsma-wlmds.md
     - Our Team's Publications: our_work/Publications.md
     # This allows any projects that get added to appear in the main page of the navigation, makes it easy to spot when people have forgotten to categorize them.
     - ... | flat | regex=our_work/(?!template-project\.md).*\.md
