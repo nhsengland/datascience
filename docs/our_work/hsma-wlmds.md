@@ -10,7 +10,7 @@ tags:
     "MODELLING",
     "RESEARCH",
     "STRUCTURED DATA",
-    "PSEUDONYMISED DATA",
+    "PSEUDONYMISED",
     "PYTHON",
     "R",
     "COMPLETE",
