@@ -108,7 +108,9 @@
       "contributions": [
         "blog",
         "content",
-        "review"
+        "review",
+        "code",
+        "promotion"
       ]
     },
     {
