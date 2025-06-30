@@ -28,17 +28,17 @@ The synthetic clinical notes are not intended for comprehensive assurance, and w
 
 We have created a reusable pipeline within the NHS Federated Data Platform [FDP]. Our pipeline is made up of several useful building blocks: 
 
-To generate variation in patient demographics we reused our previous work on Developing Artificial Primary Care Records. This gives each of our fake patients a realistic name, gender and date of birth. 
+* To generate variation in patient demographics we reused our previous work on Developing Artificial Primary Care Records. This gives each of our fake patients a realistic name, gender and date of birth. 
 
-We use a list of common reasons for admission by age and gender to generate admission details for each synthetic patient. At this stage, we also generate some synthetic clinicians who will be involved in the patient’s care. 
+* We use a list of common reasons for admission by age and gender to generate admission details for each synthetic patient. At this stage, we also generate some synthetic clinicians who will be involved in the patient’s care. 
 
-We insert the demographic and admission information into an LLM prompt and ask the LLM to generate a synthetic patient journey containing a series of events which are realistic for this type of admission. 
+* We insert the demographic and admission information into an LLM prompt and ask the LLM to generate a synthetic patient journey containing a series of events which are realistic for this type of admission. 
 
-For each event in the synthetic journey, we make a new LLM call to generate the clinical note corresponding to the event. We based the structure of the clinical notes on templates that are used by real clinicians. Depending on which synthetic clinician is writing the note, the LLM is given different style instructions (e.g. conciseness, use of bullet points, informal style etc). 
+* For each event in the synthetic journey, we make a new LLM call to generate the clinical note corresponding to the event. We based the structure of the clinical notes on templates that are used by real clinicians. Depending on which synthetic clinician is writing the note, the LLM is given different style instructions (e.g. conciseness, use of bullet points, informal style etc). 
 
-To add further realistic noise to these notes, we insert typos and medical abbreviations. The rate of typos and medical abbreviations is dependent on which synthetic clinician is writing the note. 
+* To add further realistic noise to these notes, we insert typos and medical abbreviations. The rate of typos and medical abbreviations is dependent on which synthetic clinician is writing the note. 
 
-We validate the synthetic notes using additional validation LLM prompts. This is to ensure that the notes are faithful to the information contained in the synthetic patient journey. 
+* We validate the synthetic notes using additional validation LLM prompts. This is to ensure that the notes are faithful to the information contained in the synthetic patient journey. 
 
 We have also built an evaluation pipeline to facilitate iterative improvements to our clinical note generation pipeline. The evaluation makes use of several LLM-as-a-judge evaluators. 
 
