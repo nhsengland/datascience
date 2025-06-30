@@ -1,8 +1,8 @@
+---
 title: 'Synthetic Clinical Notes' 
-
 summary: 'Using Large Language Models to generate synthetic clinical notes for testing automated AI discharge summaries' 
-
-tags: ['SYNTHETIC DATA', 'TEXT DATA', 'LLM', 'PYTHON', 'SECONDARY CARE', 'WIP', 'UNSTRUCTURED DATA'] 
+tags: ['SYNTHETIC DATA', 'TEXT DATA', 'LLM', 'PYTHON', 'SECONDARY CARE', 'WIP', 'UNSTRUCTURED DATA']
+---
 
 ## What we are doing  
 
@@ -40,7 +40,7 @@ We have created a reusable pipeline within the NHS Federated Data Platform [FDP]
 
 * We validate the synthetic notes using additional validation LLM prompts. This is to ensure that the notes are faithful to the information contained in the synthetic patient journey. 
 
-We have also built an evaluation pipeline to facilitate iterative improvements to our clinical note generation pipeline. The evaluation makes use of several LLM-as-a-judge evaluators. 
+* We have also built an evaluation pipeline to facilitate iterative improvements to our clinical note generation pipeline. The evaluation makes use of several LLM-as-a-judge evaluators. 
 
 ## Results 
 
