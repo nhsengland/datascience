@@ -28,7 +28,7 @@ The synthetic clinical notes are not intended for comprehensive assurance, and w
 
 We have created a reusable pipeline within the NHS Federated Data Platform [FDP]. Our pipeline is made up of several useful building blocks: 
 
-* To generate variation in patient demographics we reused our previous work on Developing Artificial Primary Care Records. This gives each of our fake patients a realistic name, gender and date of birth. 
+* To generate variation in patient demographics we reused our previous work on [Developing Artificial Primary Care Records](https://nhsengland.github.io/datascience/our_work/swpclab/). This gives each of our fake patients a realistic name, gender and date of birth. 
 
 * We use a list of common reasons for admission by age and gender to generate admission details for each synthetic patient. At this stage, we also generate some synthetic clinicians who will be involved in the patient’s care. 
 
