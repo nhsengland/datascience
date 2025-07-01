@@ -42,4 +42,11 @@ We also tested the implementation of forecasting models, predicting single vs mu
 
 In this proof of concept, the aim was to identify whether we can predict classes of patients that are more likely to end up on multiple pathways. We tested a Gradient Boosting Classifier, a Logistic Regression model, and an XGBoost Model. This was challenging due to a lack of a wide range of features we could use, and a massively imbalanced dataset (as many more patients are on only one pathway at a time as opposed to two or more). We ended up with a model with almost 60% accuracy, however with more time it has a great potential for improvement, and the pipeline is well set up to allow this.
 
+| Output                             | Link                                                                 |
+| ---------------------------------- | -------------------------------------------------------------------- |
+| repo (currently private) | [Github Repo](https://github.com/nhsengland/hsma6_6048_concurrent_rtt_pathways)|
+| HSMA website | [Website](https://hsma.co.uk/) |
+| Blog post | [Blog](https://nhsengland.github.io/datascience/articles/2025/06/27/hsma-waiting-lists/) |
+
+
 #
