@@ -96,6 +96,7 @@ nav:
         - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
         - Reusable Data Validation Process: our_work/sde_data_validation.md
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
+        - Synthetic Clinical Notes: our_work/ds304_synthetic_clinical_notes.md
         - Embedded Data Scientists in the National Disease Registration Service: our_work/ndrs_embedded_ds.md
         - Clinical Measurement Extractor: our_work/clinical_measurement_extractor.md
       - Past Projects:
@@ -215,6 +216,7 @@ nav:
           - NHS Synth: our_work/p41_nhssynth.md
           - Primary Care Data Generator: our_work/swpclab.md
           - SynPath Simulator on Diabetes Pathway: our_work/p11_synpathdiabetes.md
+          - Synthetic Clinical Notes: our_work/ds304_synthetic_clinical_notes.md
           - Synthetic Data From Real Data: our_work/casestudy-synthetic-data-pipeline.md
           - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
         - Including Mortality in Hypergraphs for Multi-morbidity: our_work/p42_mortalityhypergraphs.md
