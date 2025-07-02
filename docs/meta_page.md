@@ -47,6 +47,7 @@ This website exists with the hard work of our contributors so thank you to the f
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://linkedin.com/in/jrdwilson/"><img src="https://avatars.githubusercontent.com/u/94833558?v=4?s=100" width="100px;" alt="Joe Wilson"/><br /><sub><b>Joe Wilson</b></sub></a><br /><a href="#blog-josephwilson8-nhs" title="Blogposts">📝</a> <a href="#ideas-josephwilson8-nhs" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/seanaller/"><img src="https://avatars.githubusercontent.com/u/38939142?v=4?s=100" width="100px;" alt="Sean Aller"/><br /><sub><b>Sean Aller</b></sub></a><br /><a href="https://github.com/nhsengland/datascience/commits?author=seanaller" title="Code">💻</a> <a href="#content-seanaller" title="Content">🖋</a> <a href="#blog-seanaller" title="Blogposts">📝</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/AliceWaterhouse1"><img src="https://avatars.githubusercontent.com/u/95628490?v=4?s=100" width="100px;" alt="AliceWaterhouse1"/><br /><sub><b>AliceWaterhouse1</b></sub></a><br /><a href="https://github.com/nhsengland/datascience/commits?author=AliceWaterhouse1" title="Code">💻</a> <a href="#content-AliceWaterhouse1" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
