@@ -82,3 +82,10 @@ authors:
     avatar: https://avatars.githubusercontent.com/u/38939142?v=4    # Author avatar
     slug: seanaller        # Author profile slug
     url: https://github.com/seanaller     # Author website URL
+
+  JenniferStruthers:
+    name: Jennifer Struthers    # Author name
+    description: Senior Data Scientist # Author description
+    avatar: https://avatars.githubusercontent.com/u/131376827?v=4  # Author avatar
+    slug: jenniferstruthers1-nhs      # Author profile slug
+    url: https://github.com/jenniferstruthers1-nhs   # Author website URL
