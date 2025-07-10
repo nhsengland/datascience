@@ -8,7 +8,7 @@ links:
   - Seacroft Forest Garden: https://www.seacroftforestgarden.co.uk/
 slug: volunteering-day-2025
 description: >
-  We did volunteering. At NHS England, employees get a handful of days each year to volunteer - helping out with causes that align with key NHS goals like helping people live healthier lives, improving quality of life, supporting recovery, and promoting equality in health.
+  At NHS England, employees get a handful of days each year to volunteer - helping out with causes that align with key NHS goals like helping people live healthier lives, improving quality of life, supporting recovery, and promoting equality in health.
 ---
 
 >   At NHS England, employees get a handful of days each year to volunteer - helping out with causes that align with key NHS goals like helping people live healthier lives, improving quality of life, supporting recovery, and promoting equality in health.
