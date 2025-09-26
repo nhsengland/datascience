@@ -5,7 +5,13 @@ origin: ""
 tags: ['WORKFORCE', "NATURAL LANGUAGE PROCESSING", "DATA VALIDATION", "UNSTRUCTURED DATA", "TEXT DATA", 'PYTHON', 'COMPLETE', 'DEPLOYED']
 ---
 
-The NHS.UK website receives around a hundred thousand reviews every year. These reviews need moderating -- there's [a set of NHS policies which need to be applied to these](https://www.nhs.uk/our-policies/comments-policy/#:~:text=Users%20should%20only%20post%20one,service%20will%20not%20be%20published.) before they can be published.
+---
+
+**Note:**  The Ratings and Reviews service was retired in July 2025 and the auto moderation tool is not currently in use. The code remains open and the models have potential to be re-used for similar services or work in the future.
+
+---
+
+The NHS.UK website receives around a hundred thousand reviews every year. These reviews need moderating -- there's a set of NHS policies which need to be applied to these before they can be published.
 
 This project automates much of that work. We use machine learning models - some built by us, some open-source - to make decisions about the different rules which need to be enforced. Users now receive instant feedback on when a review violates a rule, allowing them to edit and re-submit their review without delay. This reduces the average moderation time from days to seconds, makes for more reliable and consistent moderation, and creates a much more scalable service.
 
@@ -25,7 +31,7 @@ The flow follows four stages:
 4. The Flask app now has an answer for each of the rules which are to be applied, and can send a final response to the NHS.UK website.
 
 If there's anything amiss, the website will produce a response informing the user (the person leaving the review) which rule has been broken. This ranges from asking the reviewer to remove something (such as a name) from a review, to directing them to resources specific to the content of their review. For most cases, the user has the opportunity to edit and re-submit their review.
-[The reviews policy is here.](https://www.nhs.uk/our-policies/comments-policy/)
+
 
 ## Results
 
