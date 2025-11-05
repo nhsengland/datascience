@@ -15,3 +15,7 @@ A showcase of some of these projects can be found in these pages.
 - [Poor pregnancy outcomes in women with type 2 diabetes](pregnancy-outcomes.md)
 - [Process Mining on Patient Pathways in Healthcare](process-mining.md)
 - [UTI Surgery Risk Predictions](uti.md)
+
+
+!!! note
+    Please note, these projects were undertaken as a core component of the Master of Research course at Leeds University, they do not represent NHS England policy.
