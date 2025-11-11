@@ -115,3 +115,9 @@ INFO    -  The following pages exist in the docs directory, but are not included
              - what_is_data_science/Benefits of Data Science in the NHS.md
              - what_is_data_science/How you can learn Data Science.md
 ```
+
+# Adding credit for people's contributions
+
+You might have seen the [contributors page of the website](https://nhsengland.github.io/datascience/meta_page/) and wondered how you can give credit to colleagues who may have helped with the content you're submitting to the website, but arent necessarily the ones to have submitted a PR. 
+
+This page uses the [all contributors bot](https://all-contributors.github.io/). Use [this guidance](https://all-contributors.github.io/bot/usage/) on how to comment in your PR to add people and see [this page](https://all-contributors.github.io/emoji-key/) for what sorts of things you may be able to give people credit for. 
