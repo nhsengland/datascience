@@ -3,7 +3,7 @@ title: "Interview with a Data Scientist - The RAP Guy"
 authors: [SamHollings]
 date: 2025-10-31
 categories:
-- Data Science Interview
+- Data Science Interviews
 links:
   - Reusable code library prototype: https://github.com/nhsengland/Reusable-Code-Library/tree/main
   - LLM tutorial: https://github.com/SamHollings/llm_tutorial
