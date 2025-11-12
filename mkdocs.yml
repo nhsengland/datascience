@@ -229,6 +229,10 @@ nav:
   # - Tools:
   #   - ... | flat | tools/*.md
   - PhD Internships: PhDInterns.md
+  - Data Science MRes: 
+    - Data Science MRes: mres/index.md
+    - MRes Projects:
+      - ... | flat | mres/*.md
   - Articles:
     - articles/index.md
   - Playbooks: playbooks.md
