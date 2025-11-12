@@ -5,9 +5,9 @@ repo_name: NHS England Data Science Website
 edit_uri: edit/main/docs/
 plugins:
   - search
-  - awesome-pages
+  # - awesome-pages
   - blog:
-      blog_dir: ./articles
+      blog_dir: articles
       authors_file: "{blog}/.authors.yml"
   - tags:
       tags_allowed:
