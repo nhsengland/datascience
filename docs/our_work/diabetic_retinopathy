@@ -1,0 +1,26 @@
+---
+title: 'diabetic retinopathy'
+summary: 'This project aims to identify any unknown or compounding risk factors that could predict the development of diabetic retinopathy in individuals with diabetes.'
+origin: ''
+tags: ['PYTHON','DIABETES','SCREENING','RISK FACTORS','WIP']
+---
+## The Problem
+It is estimated that around 4.6 million people in the UK are living with diagnosed diabetes.
+
+Within the diabetes population, about 25% to 30% experience retinopathy, while around 5% have advanced or vision-threatening forms.
+
+If you have diabetes and you're aged 12 or over, you'll get a letter every 2 years asking you to have diabetic eye screening. (If you have gestational diabetes, which is often a temporary condition, you will not be invited for diabetic eye screening). If the early stages of retinopathy is found, the patient will be invited to screening every 1 year.
+
+Around 93% of people in NWL attended their screening in the last 27 months.
+
+This blanket screening results in millions of GP appointments annually, placing significant strain on healthcare resources
+
+## Our Solution
+This project is research based. The Data Science team are using some statistical/economical/data science/ML techniques to find these risk factors. If anything substantial is found, it could be used as a basis for further research, a report and could influence an updated screening policy. 
+
+## Results
+The project is a WIP and so we don't have any results to share at this time.
+
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#
