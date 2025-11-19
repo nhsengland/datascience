@@ -296,6 +296,17 @@
         "review",
         "content"
       ]
+    },
+    {
+      "login": "LiziJohnstone",
+      "name": "Lizi Johnstone",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105051948?v=4",
+      "profile": "https://github.com/LiziJohnstone",
+      "contributions": [
+        "review",
+        "content",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
