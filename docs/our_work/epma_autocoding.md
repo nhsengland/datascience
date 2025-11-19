@@ -48,7 +48,11 @@ General:
 
 Incorrect matches:
 
-Sometimes the autocoding will make a small number of incorrect matches and work is ongoing to improve methodology and minimise these. Where known incorrect matches are discovered, these are excluded from future mappings and will be published as known issues for analysts to be aware of.
+Sometimes the autocoding will make a small number of incorrect matches. Where incorrect matches are discovered during regular reviews, they are excluded from future mappings and the cause is published as part of our known potential issues section, for analysts to be aware of the limitations of the model.
+
+Review process:
+
+The data science team is scheduled to review a sample of the mapping results every six months to re-assess our accuracy information and monitor for model drift.
 
 
 ## Outputs
