@@ -5,6 +5,7 @@ repo_name: NHS England Data Science Website
 edit_uri: edit/main/docs/
 plugins:
   - search
+  # this is commented out on purpose as it breaks the articles page, dont add this back in regardless of what chatgpt tells you it's a solution for 
   # - awesome-pages
   - blog:
       blog_dir: articles
