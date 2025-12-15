@@ -86,7 +86,7 @@ smmap==5.0.2
 soupsieve==2.7
 stack-data==0.6.3
 super_collections==0.5.3
--e git+https://github.com/nhsengland/datascience.git@a7efc862d5cec28d3616fd13692398d3a232f9de#egg=suppress_logs&subdirectory=plugins/suppress_logs
+git+https://github.com/nhsengland/datascience.git@a7efc862d5cec28d3616fd13692398d3a232f9de#egg=suppress_logs&subdirectory=plugins/suppress_logs
 termcolor==3.1.0
 tinycss2==1.4.0
 tornado==6.5.1
