@@ -6,7 +6,7 @@ hide:
 # Site Info
 
 ## Contribution
-The guide for contributing to this website can be be found [here](https://github.com/nhsengland/datascience/blob/main/CONTRIBUTE.md). Please feel free to follow those steps and reach out to [amaia.imazblanco1@nhs.net](mailto:amaia.imazblanco1@nhs.net) or [sam.hollings1@nhs.net](mailto:sam.hollings1@nhs.net) for review and approval. 
+The guide for contributing to this website can be be found [here](https://github.com/nhsengland/datascience/blob/main/CONTRIBUTE.md). Please feel free to follow those steps and reach out to [amaia.imazblanco1@nhs.net](mailto:amaia.imazblanco1@nhs.net) for review and approval. 
 
 ## Contributors ✨
 
