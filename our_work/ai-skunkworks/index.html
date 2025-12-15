@@ -1,0 +1,6188 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://nhsengland.github.io/datascience/our_work/ai-skunkworks/">
+      
+      
+        <link rel="prev" href="../ai-ethics/">
+      
+      
+        <link rel="next" href="../corporate_services_pipeline_rebuild/">
+      
+      
+      <link rel="icon" href="../../images/favicon/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>NHS AI Lab Skunkworks - NHS England Data Science</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--<type>:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2z"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Arial";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#how-we-work" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!--
+  Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Website tracking service -->
+<head>
+<script src="https://t.usermaven.com/lib.js" 
+    data-key="UMSdfPTZQR" 
+    data-tracking-host="https://events.usermaven.com"
+    data-autocapture="true"  
+    data-privacy-policy="strict" 
+    defer>
+</script>
+<script>window.usermaven = window.usermaven || (function(){(window.usermavenQ = window.usermavenQ || []).push(arguments);})</script>
+</head>
+
+<!-- Determine class according to configuration -->
+
+
+  
+
+
+<!-- Header -->
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav
+    class="md-header__inner md-grid"
+    aria-label="header.title"
+  >
+
+<!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+
+    <!-- Link to home -->
+    <a
+      href="../.."
+      title="NHS England Data Science"
+      class="md-header__button md-logo-nhs"
+      aria-label="NHS England Data Science"
+      data-md-component="logo"
+    >
+      
+  <img src="../../images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NHS England Data Science
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NHS AI Lab Skunkworks
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Color palette -->
+    
+
+    <!-- Site language selector -->
+    
+
+    <!-- Button to open search modal -->
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+
+      <!-- Search interface -->
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    <!-- Repository information -->
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NHSEngland/datascience" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    NHS England Data Science Website
+  </div>
+</a>
+      </div>
+    
+  </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/" class="md-tabs__link">
+        
+  
+    
+  
+  About the team
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../PhDInterns/" class="md-tabs__link">
+        
+  
+    
+  
+  PhD Internships
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../mres/" class="md-tabs__link">
+          
+  
+    
+  
+  Data Science MRes
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../articles/" class="md-tabs__link">
+          
+  
+    
+  
+  Articles
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../playbooks/" class="md-tabs__link">
+        
+  
+    
+  
+  Playbooks
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../useful_links/" class="md-tabs__link">
+        
+  
+    
+  
+  Useful links
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../meta_page/" class="md-tabs__link">
+        
+  
+    
+  
+  Site Info
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="NHS England Data Science" class="md-nav__button md-logo" aria-label="NHS England Data Science" data-md-component="logo">
+      
+  <img src="../../images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+    NHS England Data Science
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NHSEngland/datascience" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    NHS England Data Science Website
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About the team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Projects
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project Tags
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Past/Current Projects
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Past/Current Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_1" id="__nav_3_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Current Projects
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Current Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../a_and_e_forecasting_tool/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    A&E Forecasting Tool
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ds278_Assurance_Research_Path/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI Assurance Research Path
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-dictionary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI Dictionary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-ethics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI Ethics in Practice
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-linkage-hub/linkage-projects/better-matching/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Better Matching Algorithm
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cancer_high_risk_cohorts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cancer high-risk cohorts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../corporate_services_pipeline_rebuild/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Corporate Services: Pipeline rebuild
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cvd_pathways/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CVD Pathways
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-linkage-hub/linkage-projects/cop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Linkage Community of Practice
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Emerging Privacy Enhancing Technologies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../epma_autocoding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ePMA Auto Coding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ratings-and-reviews/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NHS.UK Automatic Moderation of Ratings & Reviews
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../swpclab/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Primary Care Data Generator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ds218_rap_community_of_practice/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reproducible Analytical Pipelines Squad
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sde_data_validation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reusable Data Validation Process
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Papi_Webpage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Risk stratification models for Population and Person Insights (PaPI)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ds304_synthetic_clinical_notes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Synthetic Clinical Notes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ndrs_embedded_ds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Embedded Data Scientists in the National Disease Registration Service
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../clinical_measurement_extractor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clinical Measurement Extractor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_2" id="__nav_3_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Past Projects
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Past Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_2_1" id="__nav_3_3_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2025
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            2025
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ratings-and-reviews/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NHS.UK Automatic Moderation of Ratings & Reviews
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ds218_rap_community_of_practice/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reproducible Analytical Pipelines Squad
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hsma-wlmds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Waiting List Minimum Dataset (WLMDS) Proofs of Concept
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_2_2" id="__nav_3_3_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2024
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_3_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            2024
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ds251_RAG/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RAG
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../redbox_copilot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Redbox Copilot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-linkage-hub/linkage-projects/qaf/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quality Assurance Framework for Data Linkage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ds255_privacyfp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tool to Assess Privacy Risk of Text Data - Extended
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p61_mmfair/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Understanding Fariness and Explainability in Multimodal Approaches within Healthcare
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_2_3" id="__nav_3_3_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2023
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_3_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            2023
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casestudy-recruitment-shortlisting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI Models for Shortlisting Interview Candidates
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    AI Skunkworks Team
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    AI Skunkworks Team
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-we-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How we work
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How we work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-internal" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Internal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-short-term-resource" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Short term resource
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-with-a-supplier" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. With a supplier
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capability-building" class="md-nav__link">
+    <span class="md-ellipsis">
+      Capability building
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get-in-touch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Get in touch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../adrenal-lesions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Deep Learning to Detect Adrenal Lesions in CT Scans
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-linkage-hub/linkage-projects/mps-handbook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MPS Handbook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p43_medcat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Enriching Clinical Coding for Neurology Pathways using MedCAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p42_mortalityhypergraphs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Including Mortality in Hypergraphs for Multi-morbidity
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p51_privconcerns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Investigating Privacy Risks and Mitigations in Healthcare Language Models
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p41_nhssynth/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NHS Synth
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../parkinsons-detection/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Parkinson's Disease Pathology Prediction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p52_processmining/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Process Mining with East Midlands Ambulance Service
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../c399_privfinger/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tool to Assess Privacy Risk of Text Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_2_4" id="__nav_3_3_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2022
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_3_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            2022
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p31_txtrayalign2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding a Clinical Focus to Evaluating MM Data Representations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ambulance-delay-predictor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ambulance Handover Delay Predictor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p33_patientsafetylms/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Applying & Evaluating a Language Model to Patient Safety Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bed-allocation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bed Allocation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../c245_synpath/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic Patient Simulator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p32_phmdiabetes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inequalities in Diabetes from PHM Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p24_lime/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Investigating Superpixels in LIME for Explaining Predictions of Facial Images
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../long-stay-baseline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Long Stayer Risk Stratification Baseline Models
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nursing-placement-optimisation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nursing Placement Scheduled Optimisation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../c338_poud/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy of Unstructured Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../renal-health-prediction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Renal Health Prediction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casestudy-synthetic-data-pipeline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Synthetic Data From Real Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../synthetic-data-pipeline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Synthetic Data Generation Pipeline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p34_hypergraphs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Transforming Healthcare Data With Graph-Based Techniques
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_2_5" id="__nav_3_3_2_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2021
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_3_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            2021
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-deep-dive/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI Deep Dive Workshops
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ct-alignment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CT Alignment & Lesion Detection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../c339_sas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Generic Adversarial Attack for Synthetic Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p21_synthvae/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Developing SynthVAE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p12_synthvae/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Differential Privacy in a VAE for Synthetic Data Generation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p14_mcr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Impact of Commercial Data on Predictions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../long-stay/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Length of Hospital Day Prediction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../c250_nhscorpus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NHS Language Corpus
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../open-safely/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NHS @Home Programme
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nhs-resolution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Predicting Negligence Claims
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p11_synpathdiabetes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SynPath Simulator on Diabetes Pathway
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p23_stm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Text Analysis using Structural Topic Modelling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p22_txtrayalign/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TxtRayAlign
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_2_6" id="__nav_3_3_2_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2020
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_3_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            2020
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-lens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Lens
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Main Work Areas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Main Work Areas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_1" id="__nav_3_4_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Predictive Analytics Products
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Predictive Analytics Products
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../a_and_e_forecasting_tool/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    A&E Forecasting Tool
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ambulance-delay-predictor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ambulance Handover Delay Predictor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bed-allocation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bed Allocation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cancer_high_risk_cohorts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cancer high-risk cohorts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p14_mcr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Impact of Commercial Data on Predictions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../long-stay/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Length of Hospital Day Prediction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../long-stay-baseline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Long Stayer Risk Stratification Baseline Models
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../parkinsons-detection/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Parkinson's Disease Pathology Prediction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nhs-resolution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Predicting Negligence Claims
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../renal-health-prediction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Renal Health Prediction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Papi_Webpage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Risk stratification models for Population and Person Insights (PaPI)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hsma-wlmds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Waiting List Minimum Dataset (WLMDS) Proofs of Concept
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Data Science for Linked/Longitudinal Data
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Data Science for Linked/Longitudinal Data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_2_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../data-linkage-hub/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Data Linkage Hub
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_4_2_1" id="__nav_3_4_2_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_4_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Data Linkage Hub
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-linkage-hub/linkage-projects/better-matching/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Better Matching Algorithm
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-linkage-hub/linkage-projects/cop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Linkage Community of Practice
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-linkage-hub/linkage-projects/mps-handbook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MPS Handbook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-linkage-hub/linkage-projects/qaf/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quality Assurance Framework for Data Linkage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p32_phmdiabetes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inequalities in Diabetes from PHM Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cvd_pathways/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CVD Pathways
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_3" id="__nav_3_4_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Natural Language Processing Products
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Natural Language Processing Products
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casestudy-recruitment-shortlisting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI Models for Shortlisting Interview Candidates
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-lens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Lens
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../epma_autocoding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ePMA Auto Coding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ratings-and-reviews/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NHS.UK Automatic Moderation of Ratings & Reviews
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../redbox_copilot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Redbox Copilot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../c399_privfinger/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tool to Assess Privacy Risk of Text Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ds255_privacyfp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tool to Assess Privacy Risk of Text Data - Extended
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_4" id="__nav_3_4_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Data Science Capability
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Data Science Capability
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-deep-dive/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI Deep Dive Workshops
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-dictionary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI Dictionary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-ethics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI Ethics in Practice
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    AI Skunkworks Team
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    AI Skunkworks Team
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-we-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How we work
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How we work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-internal" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Internal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-short-term-resource" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Short term resource
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-with-a-supplier" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. With a supplier
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capability-building" class="md-nav__link">
+    <span class="md-ellipsis">
+      Capability building
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get-in-touch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Get in touch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../corporate_services_pipeline_rebuild/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Corporate Services: Pipeline rebuild
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../open-safely/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NHS @Home Programme
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ds218_rap_community_of_practice/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reproducible Analytical Pipelines Squad
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_5" id="__nav_3_4_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Research & Development
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            Research & Development
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_5_1" id="__nav_3_4_5_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Computer Vision retired
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_4_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Computer Vision retired
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ct-alignment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CT Alignment & Lesion Detection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../adrenal-lesions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Deep Learning to Detect Adrenal Lesions in CT Scans
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p24_lime/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Investigating Superpixels in LIME for Explaining Predictions of Facial Images
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_5_2" id="__nav_3_4_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Natural Language Processing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_4_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Natural Language Processing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p31_txtrayalign2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding a Clinical Focus to Evaluating MM Data Representations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p33_patientsafetylms/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Applying & Evaluating a Language Model to Patient Safety Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p42_mortalityhypergraphs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Including Mortality in Hypergraphs for Multi-morbidity
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p51_privconcerns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Investigating Privacy Risks and Mitigations in Healthcare Language Models
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../c250_nhscorpus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NHS Language Corpus
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../c338_poud/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy of Unstructured Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p23_stm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Text Analysis using Structural Topic Modelling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p22_txtrayalign/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TxtRayAlign
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p61_mmfair/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Understanding Fariness and Explainability in Multimodal Approaches within Healthcare
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_5_3" id="__nav_3_4_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Synthetic Data
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_4_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Synthetic Data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../c339_sas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Generic Adversarial Attack for Synthetic Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p21_synthvae/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Developing SynthVAE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Emerging Privacy Enhancing Technologies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p12_synthvae/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Differential Privacy in a VAE for Synthetic Data Generation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../c245_synpath/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic Patient Simulator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p41_nhssynth/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NHS Synth
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../swpclab/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Primary Care Data Generator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p11_synpathdiabetes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SynPath Simulator on Diabetes Pathway
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ds304_synthetic_clinical_notes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Synthetic Clinical Notes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casestudy-synthetic-data-pipeline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Synthetic Data From Real Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../synthetic-data-pipeline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Synthetic Data Generation Pipeline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p42_mortalityhypergraphs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Including Mortality in Hypergraphs for Multi-morbidity
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nursing-placement-optimisation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nursing Placement Scheduled Optimisation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p52_processmining/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Process Mining with East Midlands Ambulance Service
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_5_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_5_7" id="__nav_3_4_5_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    SDE Service Data Wranglers
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_4_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            SDE Service Data Wranglers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sde_data_validation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reusable Data Validation Process
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p34_hypergraphs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Transforming Healthcare Data With Graph-Based Techniques
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Publications/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Our Team's Publications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PhDInterns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PhD Internships
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../mres/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Data Science MRes
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Data Science MRes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    MRes Projects
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            MRes Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mres/cvd-onset/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prediction of CVD Onset
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mres/dementia/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supporting Dementia Diagnosis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mres/gp-turnover/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Predicting GP Staff Turnover
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mres/menopause/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Menopause-Related Diagnosis Coding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mres/midwives/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Impact of midwife-led continuity of carer on birth outcomes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mres/perinatal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Predicting perinatal depression
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mres/pregnancy-outcomes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Poor pregnancy outcomes in women with type 2 diabetes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mres/process-mining/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Process Mining on Patient Pathways in Healthcare
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mres/uti/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UTI Surgery Risk Predictions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../articles/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Articles
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Articles
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Archive
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/archive/2025/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/archive/2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2024
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/archive/2023/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2023
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Categories
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/annotation-tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotation Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/assurance/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Assurance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/blog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/comms-and-marketing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comms and Marketing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/data-science-interviews/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Science Interviews
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/ethical-ai/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ethical AI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/evaluation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Evaluation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Events
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/explainability/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Explainability
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/generative-ai/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generative AI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/hsma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HSMA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/image-classification/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Image Classification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/llms/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LLMs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/nhs-websites/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NHS Websites
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/optimisation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Optimisation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/presentation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Presentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/privacy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/professional-development/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Professional Development
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/quantum/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quantum
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/rap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RAP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/volunteering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Volunteering
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../articles/category/waiting-lists/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Waiting Lists
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../playbooks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Playbooks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../useful_links/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Useful links
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meta_page/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Site Info
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+
+
+
+    <h1> NHS AI Lab Skunkworks </h1>
+    <blockquote> The NHS AI Lab Skunkworks team demonstrates the potential for AI in health and social care through practical experience </blockquote>
+
+
+    
+
+                  
+  
+<nav class="md-tags" >
+  
+    
+    
+    
+      <span class="md-tag">POPULATION HEALTH</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">CLASSIFICATION</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">RESEARCH</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">OPEN DATA</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">PYTHON</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">COMPLETE</span>
+    
+  
+</nav>
+
+
+  
+  
+
+
+<p><img alt="AI Skunkworks website homepage" src="../../images/ai-skunkworks.png" /></p>
+<p>The <a href="https://nhsx.github.io/skunkworks/">AI Skunkworks programme</a> was part of the NHS AI Lab. It finds new ways to use AI for driving forward the early adoption of technology to support health, in both clinical and business contexts. The team provides free short-term expertise and resources to public sector health and social care organisations to support AI projects and develop capability.</p>
+<p>The programme was closed to new projects at the end of 2022. This website captures the findings, source code, and lessons of its activities.</p>
+<h2 id="how-we-work">How we work</h2>
+<p>The NHS AI Lab Skunkworks team was built around the idea of short-term, rapid projects, aiming to investigate the use of AI for improving efficiency and accuracy in health and care.</p>
+<p>The programme aimed to facilitate a robust conversation around uses of AI in health and care, encouraging the community of healthcare AI practitioners share and discuss their experiences, documenting the findings and releasing any open source code produced.</p>
+<p>The Skunkworks' vision is that organisations in the health and care system will be able, through practical experience, to understand, build, buy, deploy, support, and challenge AI solutions. In order to achieve this, we have mostly ran projects in three ways, all centred around the idea of <strong>co-production</strong>:</p>
+<h3 id="1-internal">1. Internal</h3>
+<p>Utilising our internal team of data scientists and data / technology leads, we are able to run small agile projects that may involve one-to-one coaching in the use of python and machine learning frameworks, through to data discoveries to help assess whether the data your organisation possesses is suitable for an AI approach.</p>
+<h3 id="2-short-term-resource">2. Short term resource</h3>
+<p>We are able to sponsor individual contractors provided through the <a href="https://www.publicsectorresourcing.co.uk/">Public Sector Resourcing framework</a> to assist in the conception or implementation of AI solutions for your organisation.</p>
+<h3 id="3-with-a-supplier">3. With a supplier</h3>
+<p>Partnering with the Home Office's <a href="https://www.gov.uk/government/groups/accelerated-capability-environment-ace">Accelerated Capability Environment (ACE)</a>, we are able to sponsor 12 week agile projects using a pool of cutting edge AI suppliers.</p>
+<p>Health and care organisations can submit their proposed AI problem, and we will work with ACE to select and manage a supplier to deliver an AI proof of concept.</p>
+<p>These projects culminate with:</p>
+<ul>
+<li>Working code, published under an Open Source license on Github</li>
+<li>A technical report, detailing methodology and findings</li>
+</ul>
+<p><strong>Co-production</strong> means that regardless of the project and the presence or absence of external contractors and partners, we would always work in a collaborative way, by bringing everyone involved around the table: data scientists, data engineers, experts of ML techniques, ethicists, regulation advisers, clinical and non-clinical NHS colleagues, and so on. The in-house AI Skunkworks team would always provide the steering and technical scrutiny to the project.</p>
+<h3 id="capability-building">Capability building</h3>
+<p>We also provide ad-hoc support, advice and education through initiatives such as our AI Deep Dive workshops, bringing an organisation through the opportunities and challenges of using AI, with an open mind about its implications and issues.</p>
+<h2 id="get-in-touch">Get in touch</h2>
+<p>As of 2023, you can still reach us via email at <a href="mailto:england.aiskunkworks@nhs.net">england.aiskunkworks@nhs.net</a></p>
+<h1 id="_1"></h1>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+</head>
+
+<!-- Code for the next arrow from Material for MkDocs -->
+<footer class="md-footer">
+   
+  <nav
+    class="md-footer__inner md-grid"
+    aria-label="footer.title"
+    
+  >
+     
+    <a
+      href="../ai-ethics/"
+      class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: AI Ethics in Practice"
+      rel="prev"
+    >
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction"> Previous </span>
+          AI Ethics in Practice
+        </div>
+      </div>
+    </a>
+      
+    <a
+      href="../corporate_services_pipeline_rebuild/"
+      class="md-footer__link md-footer__link--next"
+      aria-label="Next: Corporate Services: Pipeline rebuild"
+      rel="next"
+    >
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction"> Next </span>
+          Corporate Services: Pipeline rebuild
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+</footer>
+
+<footer class="footer">
+  <div class="footer_left">
+    <a href="mailto:datascience@nhs.net">Contact Us</a>
+    <p>Developed by <a href="https://www.england.nhs.uk/">NHS England</a> Data Science Profession.</p>
+    <p>
+      View the team on
+      <a href="https://github.com/nhsengland/datascience"
+        >GitHub</a
+      >
+    </p>
+  </div>
+
+  <div class="legal">
+    <div class="footer_left">
+    <p>&copy; 2024 Crown Copyright (NHS England)</p>
+    <p>All content is available under the
+        <a
+          href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+          >Open Government Licence v3.0</a
+        >, except where otherwise stated.
+      </p>    
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.share", "content.code.annotate", "content.tabs.link", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.path", "navigation.top", "toc.integrate"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tablesort.js"></script>
+      
+        <script src="../../javascripts/tablefilter.js"></script>
+      
+        <script src="../../js/open_in_new_tab.js"></script>
+      
+    
+  </body>
+</html>
