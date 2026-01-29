@@ -7,7 +7,7 @@ tags: ['WIP','MACHINE LEARNING','NATURAL LANGUAGE PROCESSING', 'LLM','PYTHON', '
 
 ## About
 
-The National Disease Registration Service (NDRS) processes hundreds of thousands of free text pathology reports every year where key metrics and information are manually recorded and logged. Given the increasing data quantities and lack of scalability of the current process, the use of Large Language Models to support the registration process could have a positive effect on efficiency and cost. By using an LLM for some of the more straight-forward information extraction tasks, registration staff time could be freed up to work on more complex cases, expand the range of metrics that are collected and reduce the time lag between receiving a report and information being logged.
+The National Disease Registration Service (NDRS) processes hundreds of thousands of free text pathology reports every year where key metrics and information are manually recorded and logged. Given the increasing data quantities and lack of scalability of the current process, the use of Large Language Models (LLMs) to support the registration process could have a positive effect on efficiency and cost. By using an LLM for some of the more straight-forward information extraction tasks, registration staff time could be freed up to work on more complex cases, expand the range of metrics that are collected and reduce the time lag between receiving a report and information being logged.
 
 This project is a proof-of-concept LLM-based named-entity extraction pipeline to extract clinical measurements from free-text pathology reports. This codebase is in Python, developed in Amazon SageMaker and uses Amazon BedRock to access LLMs.
 
@@ -51,8 +51,8 @@ All data was anonymised by redacting all sensitive information such as names, lo
 
 We aim to evaluate the outputs of this work using multiple methods:
 
-1. **Accuracy, Precision, Recall, and F1 Score** for each extracted entity, as well as each potential value from each metric to assess if performance differs across each one.
-2. **Out-of-Distribution Performance Evaluation**: We will evaluate performance on a holdout set from both the same and a later time period to assess the impact of data drift.
+1. **Accuracy, Precision, Recall, and F1 Score** for each extracted entity, and from every potential value from each metric to assess if performance differs across each one.
+2. **Out-of-Distribution Performance Evaluation**: We evaluated performance on a holdout set from both the same and a later time period to assess the impact of data drift.
 3. **Ensemble/consensus approach**: We will get two different LLMs to do the same extraction and compare the agreement rate between them. We can then see if this approach improves the performance or provides more confidence in the final answer.
 
 ## Results
