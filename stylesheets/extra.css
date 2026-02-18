@@ -1,0 +1,183 @@
+:root>* {
+  --md-primary-fg-color: #005eb8;
+  --md-default-bg-color: #f8f8f8;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f8f8f8;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100%;
+  color: black;
+  --md-footer-bg-color: #f8f8f8;
+  --md-footer-fg-color: black;
+  --md-footer-fg-color--light: black;
+}
+
+.md-typeset h1 {
+  color: black;
+  font-size: 2em;
+  line-height: 1.3;
+  margin: 0 0 1.25em;
+}
+
+.md-footer {
+  background-color: #f6f8f8 !important;
+}
+
+.md-copyright {
+  color: black;
+}
+
+.md-logo-nhs {
+  height: auto;
+}
+
+a {
+  min-height:24px;
+  min-width: 24px;
+}
+
+.md-header__button.md-logo-nhs :is(img, svg) {
+  width: 85px !important;
+  height: auto !important;
+}
+
+code {
+  background: #e5f1fa !important;
+}
+
+#myTable {
+  width:100%;
+}
+
+.about {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 50px;
+  display: flex;
+  padding: 30px 30px 20px 30px;
+  color: #2f2f2f;
+  background-color: #f6f8f8;
+  border-top: 3px solid #005eb8;
+}
+
+.footer>* {
+  flex: 1 100%;
+}
+
+.footer a {
+  color: #005eb8;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 1vh;
+  min-width:24px;
+  min-height: 24px;
+  display: inline-block;
+}
+
+.footer_left p {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 1vh;
+}
+
+.legal {
+  color: #999;
+  font-size: 14px;
+  justify-content: right;
+  text-align: right;
+  align-items: right;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: auto;
+  }
+}
+
+table {
+  background-color: white !important;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 40px;
+  margin: -40px 0 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom:40px;
+}
+
+.hero-content > h1 {
+  text-align: left;
+}
+
+/* small screen */
+@media screen and (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 1.4rem;
+  }
+
+  .hero-image {
+    flex: 1;
+    order: 0;
+  }
+
+  #hero-img {
+    min-height: 250px;
+  }
+}
+
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 80%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 14px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+
+#columnToSearch {
+  height:40px; 
+  width:19%; 
+  font-size: 16px; 
+  border: 1px solid #ddd;
+}
