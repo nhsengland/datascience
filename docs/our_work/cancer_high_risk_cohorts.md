@@ -73,7 +73,7 @@ This project is a collaboration between the NHS England Data Science, Strategic 
 
 Output|Link
 ---|---
-Constructing multicancer risk cohorts using national data from medical helplines and secondary care|[Pre-print](https://www.researchsquare.com/article/rs-5701032/v1)
+Constructing multicancer risk cohorts using national data from medical helplines and secondary care|[Published paper (npj Digital Medicine)](https://www.nature.com/articles/s41746-025-01855-0)
 Data Processing pipeline|[Github](https://github.com/nhsengland/cancer_foundry_data_modelling/)
 Presentation at Health and Care Analytics Conference 2024|[YouTube](https://www.youtube.com/watch?v=Gxn-jj-jQu4)
 Presentation at RPYSOC Conference 2024| [Youtube](https://youtu.be/5R7lx4FW7Z0?t=873)
