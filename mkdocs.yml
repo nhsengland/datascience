@@ -28,6 +28,7 @@ plugins:
         - MACHINE LEARNING
         - NEURAL NETWORKS
         - NATURAL LANGUAGE PROCESSING
+        - RISK FACTOR ANALYSIS
         - LINKAGE
         - SIMULATION
         - BEST PRACTICE
@@ -89,6 +90,7 @@ nav:
         - "Corporate Services: Pipeline rebuild": our_work/corporate_services_pipeline_rebuild.md
         - CVD Pathways: our_work/cvd_pathways.md
         - Data Linkage Community of Practice: our_work/data-linkage-hub/linkage-projects/cop.md
+        - Diabetic Retinopathy: our_work/diabetic_retinopathy.md
         - Emerging Privacy Enhancing Technologies: our_work/pets.md
         - ePMA Auto Coding: our_work/epma_autocoding.md
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
@@ -159,6 +161,7 @@ nav:
         - Ambulance Handover Delay Predictor: our_work/ambulance-delay-predictor.md
         - Bed Allocation: our_work/bed-allocation.md
         - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
+        - Diabetic Retinopathy: our_work/diabetic_retinopathy.md
         - Impact of Commercial Data on Predictions: our_work/p14_mcr.md
         - Length of Hospital Day Prediction: our_work/long-stay.md
         - Long Stayer Risk Stratification Baseline Models: our_work/long-stay-baseline.md

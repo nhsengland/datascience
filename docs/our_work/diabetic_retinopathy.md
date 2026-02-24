@@ -1,8 +1,8 @@
 ---
-title: 'diabetic retinopathy'
-summary: 'This project aims to identify any unknown or compounding risk factors that could predict the development of diabetic retinopathy in individuals with diabetes.'
+title: 'Diabetic retinopathy'
+summary: 'This project aims to identify unknown or interacting risk factors that could predict the development of diabetic retinopathy in individuals with diabetes.'
 origin: ''
-tags: ['PYTHON','DIABETES','SCREENING','RISK FACTORS','WIP']
+tags: ['PYTHON','POPULATION HEALTH','RISK FACTOR ANALYSIS','WIP']
 ---
 ## The Problem
 It is estimated that around 4.6 million people in the UK are living with diagnosed diabetes.
@@ -13,7 +13,7 @@ If you have diabetes and you're aged 12 or over, you'll get a letter every 2 yea
 
 Around 93% of people in NWL attended their screening in the last 27 months.
 
-This blanket screening results in millions of GP appointments annually, placing significant strain on healthcare resources
+This blanket screening results in millions of GP appointments annually, placing significant strain on healthcare resources.git
 
 ## Our Solution
 This project is research based. The Data Science team are using some statistical/economical/data science/ML techniques to find these risk factors. If anything substantial is found, it could be used as a basis for further research, a report and could influence an updated screening policy. 
