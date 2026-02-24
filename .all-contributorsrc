@@ -240,7 +240,8 @@
       "contributions": [
         "code",
         "content",
-        "doc"
+        "doc",
+        "maintenance"
       ]
     },
     {
@@ -295,6 +296,27 @@
       "contributions": [
         "review",
         "content"
+      ]
+    },
+    {
+      "login": "LiziJohnstone",
+      "name": "Lizi Johnstone",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105051948?v=4",
+      "profile": "https://github.com/LiziJohnstone",
+      "contributions": [
+        "review",
+        "content",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "JRPearson500",
+      "name": "Jonny Pearson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67793644?v=4",
+      "profile": "https://github.com/JRPearson500",
+      "contributions": [
+        "content",
+        "maintenance"
       ]
     }
   ],

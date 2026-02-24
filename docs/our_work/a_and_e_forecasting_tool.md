@@ -31,7 +31,7 @@ Note that some of the following links are hosted on the Future NHS website, whic
 Links| Accessible By |
 ---|---|
 [User Guide](https://future.nhs.uk/nationaldataplatformfoundry/view?objectID=121110405)| NHS Staff |
-[Product](https://nhs.sharepoint.com/:w:/r/sites/datasciencerepository/Shared%20Documents/General/03%20Doing%20the%20work/06%20Other/FDP%20Transition/Product%20Documentation%20A%26E%20Admissions%20Forecasting%20Tool.docx?d=w38397884e8a94be89e45bcc338458b99&csf=1&web=1&e=LCbt5S)| NHS Staff|
+[Product](https://future.nhs.uk/nationaldataplatformfoundry/view?objectID=120773125)| NHS Staff|
 [Prophet Forecasting Repo](https://github.com/facebook/prophet)| Public |
 [Accessible lecture on MCMC modelling methods](https://www.youtube.com/watch?v=rZk2FqX2XnY&ab_channel=RichardMcElreath)| Public|
 
