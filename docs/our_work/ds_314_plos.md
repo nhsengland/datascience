@@ -1,5 +1,5 @@
 ---
-title: 'DS314 PLOS: Predicting Length of Stay'
+title: 'PLOS: Predicting Length of Stay'
 summary: 'Developing an approach to predict inpatient discharge timing to support operational decision-making, using data science methods within the NHS Federated Data Platform.'
 origin: 'NHS England'
 tags: ['SECONDARY CARE','PYTHON' ,'MACHINE LEARNING', 'FDP', 'CLASSIFICATION', 'EXPLAINABILITY' , 'MULTI-MODAL','MODELLING', 'WORK IN PROGRESS', 'IN DEVELOPMENT']
