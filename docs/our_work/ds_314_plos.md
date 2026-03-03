@@ -5,6 +5,8 @@ origin: 'NHS England'
 tags: ['SECONDARY CARE','PYTHON' ,'MACHINE LEARNING', 'FDP', 'CLASSIFICATION', 'EXPLAINABILITY' , 'MULTI-MODAL','MODELLING', 'WORK IN PROGRESS', 'IN DEVELOPMENT']
 ---
 
+![A visual extract of the PLOS (predicting Length of stay) project showing a virtuous circle of predicted lengths of stay informing nurses and hospital staff, which enables patients to go home earlier and free up bed capacity for more patients.](../images/plos_visual_extract.drawio.png)
+
 ## About PLOS: Predicting Length of Stay
 
 Hospitals face ongoing operational pressure related to bed capacity, patient flow, and discharge planning. Being able to anticipate when inpatients are likely to be discharged can support more effective planning across clinical, operational, and managerial teams.
