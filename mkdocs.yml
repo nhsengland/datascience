@@ -169,6 +169,7 @@ nav:
         - Renal Health Prediction: our_work/renal-health-prediction.md
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
         - Waiting List Minimum Dataset (WLMDS) Proofs of Concept: our_work/hsma-wlmds.md
+        - "PLOS: Predicting Length of Stay": our_work/ds_314_plos.md
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Hub:
           - __index.md: our_work/data-linkage-hub/index.md
