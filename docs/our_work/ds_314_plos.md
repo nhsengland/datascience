@@ -22,6 +22,7 @@ The project team has worked closely with clinical and hospital staff to ensure t
 Hospitals often rely on manual processes, local knowledge, and short-term heuristics to estimate when patients will be discharged. These approaches can be inconsistent and inaccurate, particularly in complex acute settings.
 
 A lack of reliable, data-driven discharge predictions can contribute to:
+
 - Challenges in bed and capacity planning  
 - Inefficient patient flow  
 - Increased operational burden on clinical and operational teams  
@@ -31,6 +32,7 @@ A lack of reliable, data-driven discharge predictions can contribute to:
 ## Intended Benefit
 
 The intended benefit of this project is to:
+
 - Support **operational and bed management decision-making**
 - Provide **early, indicative signals** about likely discharge timing
 - Reduce reliance on manual or ad-hoc estimation processes
