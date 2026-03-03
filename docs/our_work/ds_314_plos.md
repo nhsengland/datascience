@@ -11,7 +11,7 @@ tags: ['SECONDARY CARE','PYTHON' ,'MACHINE LEARNING', 'FDP', 'CLASSIFICATION', '
 
 Hospitals face ongoing operational pressure related to bed capacity, patient flow, and discharge planning. Being able to anticipate when inpatients are likely to be discharged can support more effective planning across clinical, operational, and managerial teams.
 
-The **Predicting Length of Stay (PLOS)** project is exploring how routinely collected healthcare data can be used to predict *discharge date buckets* for inpatients. The work is currently in progress and focuses on building an approach that is scalable, reusable, and aligned with NHS data standards.
+The **Predicting Length of Stay (PLOS)** project is exploring how routinely collected healthcare data can be used to predict *discharge date buckets* (Discharge within 24 hours, 48 hours, 72 hours, 5 days, beyond 5 days) for inpatients. The work is currently in progress and focuses on building an approach that is scalable, reusable, and aligned with NHS data standards.
 
 The project team has worked closely with clinical and hospital staff to ensure the model output will be in a format that can fit into users work flows and provide actionable real benefit.
 
