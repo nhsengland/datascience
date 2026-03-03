@@ -55,13 +55,14 @@ The approach is being designed to work with **canonical data model (CDM)** data,
 The work is being undertaken within a **local FDP tenant** and is exploratory in nature.
 
 Current methods under consideration include:
+
 - Use of **machine learning approaches**
 - Integration of **multimodal data** (subject to feasibility and governance)
 - Prediction of **discharge date buckets**, for example:
-  - Discharge today  
-  - Discharge tomorrow  
-  - Discharge within 48 hours  
-  - Discharge within 72 hours  
+    - Discharge today  
+    - Discharge tomorrow  
+    - Discharge within 48 hours  
+    - Discharge within 72 hours  
 
 The precise modelling approach, features, and outputs are subject to change as the project progresses and learning develops.
 
@@ -85,6 +86,7 @@ Although the project is still in progress, key anticipated exploitable results i
 ## Teams
 
 This project is a collaboration between:
+
 - The **NHS England Central Data Science Team**
 - An **England hospital trust’s local data, clinical, and operational teams**
 
@@ -100,6 +102,5 @@ This project is currently **work in progress (WIP)**.
 - Methods, data inputs, and outputs may evolve as the project develops
 
 Further detail will be added as the project matures and findings are validated.
-``
 
 #
