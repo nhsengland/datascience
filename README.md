@@ -19,6 +19,8 @@
 
 Visit our [website](https://nhsengland.github.io/datascience/) for more information about our work!
 
+If you want to contribute (such as making your own project page), [see the guidance here](CONTRIBUTE.md)
+
 [<kbd> <br> Data Science in NHS England <br> </kbd>](https://nhsengland.github.io/datascience/)
 
 ## Licence
