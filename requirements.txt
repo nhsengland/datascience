@@ -98,3 +98,4 @@ wcmatch==10.0
 wcwidth==0.2.13
 webencodings==0.5.1
 zipp==3.23.0
+zensical==0.0.24
