@@ -20,8 +20,8 @@ If you want to contribute to our resources I would recommend using codespaces di
    - Wait until it pops up with this error (this might take a while, even several minutes): ![image of a codespaces error](docs/images/documentation_images/error_image.png)
    - Press "reload"
    - Once it loads, open a terminal and execute the following commands:
-    - `pip install -r requirements.txt`
-    - `mkdocs serve` 
+      - `pip install -r requirements.txt`
+      - `mkdocs serve` 
    - A local instance of the website should now load up that you can check your changes on. 
 6. Make any changes you wish to the website here and commit and push as you would in VSCode (guidance specific to project pages and blog can be found below).
 7. Check your changes in the local instance to make sure they arent breaking anything and look as you want them to. Ensure you check the warnings that mkdocs provides in the terminal and ensure that there's no new warnings (existing warnings found [here](#existing-warnings))
