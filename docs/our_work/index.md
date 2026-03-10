@@ -12,7 +12,7 @@
 
 <div style="text-align: center;">
 <button class="hero md-button md-button--primary" style="display: inline-block; margin: 0 0.5rem;" onclick="randomSite()">Take me to a random project 🧩</button>
-<a href="./tags.md" class="md-button" style="display: inline-block; margin: 0 0.5rem;">Explore our projects by categories & tags 🏷️</a>
+<a href="./tags" class="md-button" style="display: inline-block; margin: 0 0.5rem;">Explore our projects by categories & tags 🏷️</a>
 </div>
 
 

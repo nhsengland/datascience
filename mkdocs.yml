@@ -11,67 +11,14 @@ plugins:
       blog_dir: articles
       authors_file: "{blog}/.authors.yml"
   - tags:
-      tags_allowed:
-        - PRIMARY CARE
-        - SECONDARY CARE
-        - SOCIAL CARE
-        - EMERGENCY CARE
-        - DISEASES
-        - POPULATION HEALTH
-        - WORKFORCE
-        - PRESCRIBING
-        - FINANCIAL
-        - FORECASTING
-        - CLASSIFICATION
-        - COMPUTER VISION
-        - DEEP LEARNING 
-        - LLM
-        - MACHINE LEARNING
-        - NEURAL NETWORKS
-        - NATURAL LANGUAGE PROCESSING
-        - RISK FACTOR ANALYSIS
-        - LINKAGE
-        - SIMULATION
-        - BEST PRACTICE
-        - DATA VALIDATION
-        - DOCUMENTATION
-        - ETHICS 
-        - EXPLAINABILITY
-        - GENERATION
-        - MODELLING
-        - RAP
-        - RESEARCH
-        - STRUCTURED DATA
-        - UNSTRUCTURED DATA
-        - MULTI MODAL
-        - AUDIO DATA
-        - GENOMICS DATA
-        - VISUAL DATA
-        - TEXT DATA
-        - TIME SERIES
-        - PATIENT IDENTIFIABLE DATA
-        - SYNTHETIC DATA
-        - OPEN DATA
-        - PUBLICATIONS
-        - PSEUDONYMISED
-        - PYTHON
-        - SQL
-        - R
-        - WEBDEV
-        - WIP
-        - COMPLETE
-        - PAUSED
-        - IN DEVELOPMENT 
-        - RETIRED
-        - DEPLOYED
-        - EXPERIMENTAL
+      tags_file: our_work/tags.md
   - exclude:
       glob:
         - our_work/template-project.md
   - open-in-new-tab
   - suppress_logs:
       patterns:
-        - "Doc file 'our_work/tags.md' contains a link '#tag:{*}', but there is no such anchor on this page."
+        - "Doc file 'our_work/tags.md' contains a link '#{*}', but there is no such anchor on this page."
       loggers:
         - mkdocs.structure.pages
 nav:
@@ -102,6 +49,7 @@ nav:
         - Synthetic Clinical Notes: our_work/ds304_synthetic_clinical_notes.md
         - Embedded Data Scientists in the National Disease Registration Service: our_work/ndrs_embedded_ds.md
         - Clinical Measurement Extractor: our_work/clinical_measurement_extractor.md
+        - "PLOS: Predicting Length of Stay": our_work/ds_314_plos.md
       - Past Projects:
         - 2025:
           - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
@@ -171,6 +119,7 @@ nav:
         - Renal Health Prediction: our_work/renal-health-prediction.md
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
         - Waiting List Minimum Dataset (WLMDS) Proofs of Concept: our_work/hsma-wlmds.md
+        - "PLOS: Predicting Length of Stay": our_work/ds_314_plos.md
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Hub:
           - __index.md: our_work/data-linkage-hub/index.md
