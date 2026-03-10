@@ -16,10 +16,16 @@ If you want to contribute to our resources I would recommend using codespaces di
 3. Click the green code button, then Codespaces, then the '+' symbol to create a new codespace on your branch.
     <img width="1355" alt="Screenshot 2025-03-27 at 14 13 13" src="https://github.com/user-attachments/assets/b68437a3-3f72-467e-8a42-ffb9de7fed29" />
 4. This should automatically launch a codespace, which also creates a local version of the website after a minute or so, which you should be able to access in the ports section at the bottom of the codespace.
-![image](https://github.com/user-attachments/assets/3192cf0a-acc3-4ca3-876a-9e348621459a)
-5. Make any changes you wish to the website here and commit and push as you would in VSCode (guidance specific to project pages and blog can be found below).
-6. Check your changes in the local instance to make sure they arent breaking anything and look as you want them to. Ensure you check the warnings that mkdocs provides in the terminal and ensure that there's no new warnings (existing warnings found [here](#existing-warnings))
-7. [Submit a pull request][pr]
+![image](https://github.com/user-attachments/assets/3192cf0a-acc3-4ca3-876a-9e348621459a) **Note:** this seems to have slightly broken, if your codespaces is failing to properly load, do the following:
+   - Wait until it pops up with this error (this might take a while, even several minutes): ![image of a codespaces error](docs/images/documentation_images/error_image.png)
+   - Press "reload"
+   - Once it loads, open a terminal and execute the following commands:
+      - `pip install -r requirements.txt`
+      - `mkdocs serve` 
+   - A local instance of the website should now load up that you can check your changes on. 
+6. Make any changes you wish to the website here and commit and push as you would in VSCode (guidance specific to project pages and blog can be found below).
+7. Check your changes in the local instance to make sure they arent breaking anything and look as you want them to. Ensure you check the warnings that mkdocs provides in the terminal and ensure that there's no new warnings (existing warnings found [here](#existing-warnings))
+8. [Submit a pull request][pr]
 
 
 If you insist on doing this locally, follow these steps:
