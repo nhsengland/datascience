@@ -1,6 +1,6 @@
 ---
-title: 'TITLE GOES HERE'
-summary: 'ONE LINE SUMMARY GOES HERE'
+title: 'Vaccine Invitations'
+summary: 'Using historical Covid vaccine invitations data to optimise the invitation strategy for future campaigns'
 origin: 'Skunkworks  (this is for legacy pages mainly, so we know where the work came from)'
 # tags: ['add your tags in here as a list (there is no limit) and remove the comment #','tag 2','tag 3' See below for guidance on choosing tags.]
 ---
@@ -14,7 +14,20 @@ origin: 'Skunkworks  (this is for legacy pages mainly, so we know where the work
 
 [comment]: <> Add some description about your project - keep it punchy, focussing on the benefits, anything new, and only the most important parts of the methods, particularly anything which might interest people.
 
-People often have this problem - we used data science to make the solution. We worked with patient groups / clinicians /  senior decision makers to come up with a solution which use AI, etc., we were able to automate this task.
+Seasonal vaccination campaigns rely on repeated invitations delivered across multiple communication channels (Email, SMS, Letter, NHS App). These channels differ substantially in cost, reach and observed effectiveness, and invitations are typically sent in sequence when patients do not respond until the campaign ends. At national scale, this creates a complex decision problem: which channel should be used next, for which patient, and when should invitations stop, in order to maximise uptake while minimising cost and avoiding inequitable outcomes. 
+
+We conducted longitudinal analysis of historical campaign data  to observe sustained behavioural patterns across multiple campaigns and how it differs across demographic and socio-economic groups. We found that individuals tend to fall into 3 categories:
+
++ Some individuals consistently vaccinate when invited
++ Others respond only after prompting
++ A subset rarely converts (books a vaccination/receives a vaccination), even after multiple reminders 
+
+Across age, clinical risk status, region, ethnicity and deprivation levels, vaccination behaviour exhibits consistent and persistent patterns. Individuals who vaccinate tend to do so repeatedly; individuals who do not vaccinate rarely change behaviour across successive vaccines.
+
+The current uniform invitation strategy assumes homogenous behaviour, our analysis indicates otherwise. To optimise communication sequencing we accounted for varying behavioural patterns across different population segments and developed two solutions:
+
++ Full Optimisation using Markov Decision Processes
++ Segment-Based Stopping Rule 
 
 ## Results
 
