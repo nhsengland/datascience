@@ -47,6 +47,7 @@ nav:
         - Reusable Data Validation Process: our_work/sde_data_validation.md
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
         - Synthetic Clinical Notes: our_work/ds304_synthetic_clinical_notes.md
+        - Vaccine Invitations: our_work/vaccine-invitations.md
         - Embedded Data Scientists in the National Disease Registration Service: our_work/ndrs_embedded_ds.md
         - Clinical Measurement Extractor: our_work/clinical_measurement_extractor.md
         - "PLOS: Predicting Length of Stay": our_work/ds_314_plos.md
