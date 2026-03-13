@@ -8,6 +8,35 @@ tags: ['PUBLICATIONS']
 
 List of pre-releases and publications connected to our work
 
+[13] [https://www.nature.com/articles/s42256-025-01116-5](https://www.nature.com/articles/s42256-025-01116-5)
+
+**Towards deployment-centric multimodal AI beyond vision and language**
+
+Xianyuan Liu, Jiayang Zhang, Shuo Zhou, Thijs L. van der Plas, Avish Vijayaraghavan, Anastasiia Grishina, Mengdie Zhuang, **Daniel Schofield**, Christopher Tomlinson, Yuhan Wang, Ruizhe Li, Louisa van Zeeland, Sina Tabakhi, Cyndie Demeocq, Xiang Li, Arunav Das, Orlando Timmerman, Thomas Baldwin-McDonald, Jinge Wu, Peizhen Bai, Zahraa Al Sahili, Omnia Alwazzan, Thao N. Do, Mohammod N. I. Suvon, Angeline Wang, Lucia Cipolina-Kun, Luigi A. Moretti, Lucas Farndale, Nitisha Jain, Natalia Efremova, Yan Ge, Marta Varela, Hak-Keung Lam, Oya Celiktutan, Ben R. Evans, Alejandro Coca-Castro, Honghan Wu, Zahraa S. Abdallah, Chen Chen, Valentin Danchev, Nataliya Tkachenko, Lei Lu, Tingting Zhu, Gregory G. Slabaugh, Roger K. Moore, William K. Cheung, Peter H. Charlton & Haiping Lu
+
+*Robust and comprehensive evaluation of large language models (LLMs) is essential for identifying effective LLM system configurations and mitigating risks associated with deploying LLMs in sensitive domains. However, traditional statistical metrics are poorly suited to open-ended generation tasks, leading to growing reliance on LLM-based evaluation methods. These methods, while often more flexible, introduce additional complexity: they depend on carefully chosen models, prompts, parameters, and evaluation strategies, making the evaluation process prone to misconfiguration and bias. In this work, we present EvalSense, a flexible, extensible framework for constructing domain-specific evaluation suites for LLMs. EvalSense provides out-of-the-box support for a broad range of model providers and evaluation strategies, and assists users in selecting and deploying suitable evaluation methods for their specific use-cases. This is achieved through two unique components: (1) an interactive guide aiding users in evaluation method selection and (2) automated meta-evaluation tools that assess the reliability of different evaluation approaches using perturbed data. We demonstrate the effectiveness of EvalSense in a case study involving the generation of clinical notes from unstructured doctor-patient dialogues, using a popular open dataset. All code, documentation, and assets associated with EvalSense are open-source and publicly available*
+
+---
+
+[12] [https://arxiv.org/abs/2602.18823](https://arxiv.org/abs/2602.18823)
+
+**EvalSense: A Framework for Domain-Specific LLM (Meta-)Evaluation**
+
+Adam Dejl, **Jonathan Pearson**
+
+*Robust and comprehensive evaluation of large language models (LLMs) is essential for identifying effective LLM system configurations and mitigating risks associated with deploying LLMs in sensitive domains. However, traditional statistical metrics are poorly suited to open-ended generation tasks, leading to growing reliance on LLM-based evaluation methods. These methods, while often more flexible, introduce additional complexity: they depend on carefully chosen models, prompts, parameters, and evaluation strategies, making the evaluation process prone to misconfiguration and bias. In this work, we present EvalSense, a flexible, extensible framework for constructing domain-specific evaluation suites for LLMs. EvalSense provides out-of-the-box support for a broad range of model providers and evaluation strategies, and assists users in selecting and deploying suitable evaluation methods for their specific use-cases. This is achieved through two unique components: (1) an interactive guide aiding users in evaluation method selection and (2) automated meta-evaluation tools that assess the reliability of different evaluation approaches using perturbed data. We demonstrate the effectiveness of EvalSense in a case study involving the generation of clinical notes from unstructured doctor-patient dialogues, using a popular open dataset. All code, documentation, and assets associated with EvalSense are open-source and publicly available*
+
+---
+
+[11] [https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1761624/abstract](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1761624/abstract)
+
+**Evaluating Privacy Leakages in LLM-driven Ambient Clinical Documentation**
+
+Jenny Chim, **Jonathan Pearson**, **Dan Schofield**, Maria Liakata
+
+*Automated documentation tools are being rapidly adopted in healthcare and clinical workflows. Among these are AI-enabled ambient scribing products, which transcribe conversations between patients and healthcare providers, then produce clinical records using automatic speech recognition (ASR) and generative AI such as Large Language Models (LLMs). While research suggests these technologies can reduce clinical burden, safe and responsible deployment requires that these tools determine what captured information is appropriate to record and under which circumstances. This presents a contextual privacy challenge distinct from PII leakage or data memorization and remains largely untested. We address this gap by operationalizing privacy leakage as the inappropriate inclusion of third-party personal information in LLM-generated clinical notes. We construct a benchmark of transcripts containing private information with gold standard clinical notes by enriching patient metadata from the aci-bench corpus and injecting third-party personal information across six relationship types and seven information topics. We evaluate open weight LLaMA 3.1 8B and 70B, Mixtral 8x7B and 8x22B, and proprietary Claude 3.5 Haiku and Sonnet models on note generation using prompts with varied privacy and structural requirements. Results reveal that all examined models leaked third-party information, and privacy instructions helped reduce leakage but proved neither complete nor robust as a solution. These results emphasize the need to build privacy-by-design systems and develop evaluation strategies that reflect emerging information synthesis and sharing practices.*
+
+---
 
 [10] [https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/privacy-enhancing-technologies/case-studies/g7-dpas-emerging-technologies-working-group-use-case-study-on-privacy-enhancing-technologies/](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/privacy-enhancing-technologies/case-studies/g7-dpas-emerging-technologies-working-group-use-case-study-on-privacy-enhancing-technologies/)
 
