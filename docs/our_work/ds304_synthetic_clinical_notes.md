@@ -1,7 +1,7 @@
 ---
 title: 'Synthetic Clinical Notes' 
 summary: 'Using Large Language Models to generate synthetic clinical notes for testing automated AI discharge summaries' 
-tags: ['SYNTHETIC DATA', 'TEXT DATA', 'LLM', 'PYTHON', 'SECONDARY CARE', 'WIP', 'UNSTRUCTURED DATA']
+tags: ['SYNTHETIC DATA', 'TEXT DATA', 'LLM', 'PYTHON', 'SECONDARY CARE', 'UNSTRUCTURED DATA']
 ---
 
 ## What we are doing  

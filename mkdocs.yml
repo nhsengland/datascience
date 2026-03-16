@@ -46,7 +46,6 @@ nav:
         - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
         - Reusable Data Validation Process: our_work/sde_data_validation.md
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
-        - Synthetic Clinical Notes: our_work/ds304_synthetic_clinical_notes.md
         - Embedded Data Scientists in the National Disease Registration Service: our_work/ndrs_embedded_ds.md
         - Clinical Measurement Extractor: our_work/clinical_measurement_extractor.md
         - "PLOS: Predicting Length of Stay": our_work/ds_314_plos.md
@@ -55,6 +54,7 @@ nav:
           - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
           - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
           - Waiting List Minimum Dataset (WLMDS) Proofs of Concept: our_work/hsma-wlmds.md
+          - Synthetic Clinical Notes: our_work/ds304_synthetic_clinical_notes.md
         - 2024:
           - RAG: our_work/ds251_RAG.md
           - Redbox Copilot: our_work/redbox_copilot.md
