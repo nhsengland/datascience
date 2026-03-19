@@ -89,3 +89,10 @@ authors:
     avatar: https://avatars.githubusercontent.com/u/131376827?v=4  # Author avatar
     slug: jenniferstruthers1-nhs      # Author profile slug
     url: https://github.com/jenniferstruthers1-nhs   # Author website URL
+
+  MaryAmanuel:
+    name: Mary Amanuel    # Author name
+    description: Analyst (Senior Information Analyst) # Author description
+    slug: MaryAmanuel      # Author profile slug
+    avatar: https://avatars.githubusercontent.com/u/73167040?v=4
+    url: https://github.com/maryamanuel1
