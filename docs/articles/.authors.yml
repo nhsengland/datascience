@@ -96,3 +96,9 @@ authors:
     slug: MaryAmanuel      # Author profile slug
     avatar: https://avatars.githubusercontent.com/u/73167040?v=4
     url: https://github.com/maryamanuel1
+  KonstantinGeorgiev:
+    name: Konstantin Georgiev    # Author name
+    description: Postdoctoral Researcher at the University of Edinburgh
+    slug: KonstantinGeorgiev      # Author profile slug
+    avatar: https://avatars.githubusercontent.com/u/28511063?v=4
+    url: https://github.com/kgeorgiev42
