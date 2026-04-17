@@ -6,15 +6,45 @@ on:
 
 jobs:
   create-blog-post-pr:
-    # Only run for issues carrying the blog-post label
-    if: contains(github.event.issue.labels.*.name, 'blog-post')
     runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
-      issues: read
+      issues: write
 
     steps:
+      # Check if this is a blog post submission by looking at the title or body
+      - name: Detect blog post submission
+        id: detect
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = context.payload.issue.title || '';
+            const body = context.payload.issue.body || '';
+            const hasLabel = context.payload.issue.labels.some(l => l.name === 'blog-post');
+
+            // Check if it's a blog post (has label OR title starts with [Blog Post])
+            const isBlogPost = hasLabel || title.startsWith('[Blog Post]');
+
+            core.setOutput('is_blog_post', isBlogPost.toString());
+
+            // Add label if missing but detected as blog post
+            if (isBlogPost && !hasLabel) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: ['blog-post']
+              });
+              console.log('Added blog-post label');
+            }
+
+      - name: Exit if not a blog post
+        if: steps.detect.outputs.is_blog_post != 'true'
+        run: |
+          echo "Not a blog post submission, skipping"
+          exit 0
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -74,6 +104,31 @@ jobs:
                   })
               : [];
 
+            // Validate required fields
+            const missingFields = [];
+            if (!title) missingFields.push('Post title');
+            if (!slug) missingFields.push('Slug (URL-friendly identifier)');
+            if (!date) missingFields.push('Publication date');
+            if (!categoriesRaw) missingFields.push('Categories');
+            if (!description) missingFields.push('Short description');
+            if (!postBody) missingFields.push('Post body');
+            if (!authorId) missingFields.push('Author ID');
+
+            if (missingFields.length > 0) {
+              const errorMsg = `❌ Missing required fields:\n${missingFields.map(f => `- ${f}`).join('\n')}`;
+              core.setFailed(errorMsg);
+
+              // Comment on the issue with helpful error
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: `## ❌ Submission Error\n\n${errorMsg}\n\nPlease edit your issue to fill in all required fields.`
+              });
+
+              throw new Error(errorMsg);
+            }
+
             // Expose as outputs
             core.setOutput('title',            title);
             core.setOutput('slug',             slug);
@@ -127,7 +182,7 @@ jobs:
             // Write to the correct location
             const fs = require('fs');
             const path = require('path');
-            const dir  = 'docs/articles/posts';
+            const dir  = 'docs/articles';
             fs.mkdirSync(dir, { recursive: true });
             const filename = `${SLUG}.md`;
             fs.writeFileSync(path.join(dir, filename), content);
@@ -153,7 +208,7 @@ jobs:
             }
 
             const fs   = require('fs');
-            const path = 'docs/articles/posts/.authors.yml';
+            const path = 'docs/articles/.authors.yml';
 
             let raw = '';
             try { raw = fs.readFileSync(path, 'utf8'); } catch {}
@@ -258,7 +313,7 @@ jobs:
 
             const slug = process.env.SLUG;
             const images = JSON.parse(process.env.IMAGES_JSON || '[]');
-            const postPath = path.join('docs/articles/posts', `${slug}.md`);
+            const postPath = path.join('docs/articles', `${slug}.md`);
             let content = fs.readFileSync(postPath, 'utf8');
 
             // Build a map of GitHub CDN URL → local filename
@@ -287,9 +342,13 @@ jobs:
           BRANCH="blog-post/${{ steps.parse.outputs.slug }}"
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Delete remote branch if it exists
+          git push origin --delete "$BRANCH" 2>/dev/null || true
+
           git checkout -b "$BRANCH"
-          git add docs/articles/posts/${{ steps.generate.outputs.filename }} \
-                  docs/articles/posts/.authors.yml
+          git add docs/articles/${{ steps.generate.outputs.filename }} \
+                  docs/articles/.authors.yml
           # Add images if any were downloaded
           if [ -d "docs/images/blogs/${{ steps.parse.outputs.slug }}" ]; then
             git add "docs/images/blogs/${{ steps.parse.outputs.slug }}"
@@ -300,23 +359,43 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create Pull Request
-        run: |
-          IMAGES_INFO=""
-          if [ "${{ steps.images.outputs.image_count }}" != "0" ]; then
-            IMAGES_INFO=$'\n**Images:** ${{ steps.images.outputs.image_count }} image(s) included in `docs/images/blogs/${{ steps.parse.outputs.slug }}/`'
-          fi
-
-          gh pr create \
-            --base main \
-            --head "blog-post/${{ steps.parse.outputs.slug }}" \
-            --title "📝 Blog Post: ${{ steps.parse.outputs.title }}" \
-            --body "This PR was created automatically from issue #${{ github.event.issue.number }}.
-
-          **Post:** \`docs/articles/posts/${{ steps.generate.outputs.filename }}\`
-          **Author:** ${{ steps.parse.outputs.author_id }}
-          **Date:** ${{ steps.parse.outputs.date }}${IMAGES_INFO}
-
-          Please review the generated file before merging." \
-            --label "blog-post"
+        uses: actions/github-script@v7
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IMAGE_COUNT: ${{ steps.images.outputs.image_count }}
+          SLUG: ${{ steps.parse.outputs.slug }}
+          TITLE: ${{ steps.parse.outputs.title }}
+          FILENAME: ${{ steps.generate.outputs.filename }}
+          AUTHOR_ID: ${{ steps.parse.outputs.author_id }}
+          DATE: ${{ steps.parse.outputs.date }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        with:
+          script: |
+            const imageCount = process.env.IMAGE_COUNT || '0';
+            const imagesInfo = imageCount !== '0'
+              ? `\n**Images:** ${imageCount} image(s) included in \`docs/images/blogs/${process.env.SLUG}/\``
+              : '';
+
+            const prBody = 'This PR was created automatically from issue #' + process.env.ISSUE_NUMBER + '.\n\n' +
+              '**Post:** `docs/articles/' + process.env.FILENAME + '`\n' +
+              '**Author:** ' + process.env.AUTHOR_ID + '\n' +
+              '**Date:** ' + process.env.DATE + imagesInfo + '\n\n' +
+              'Please review the generated file before merging.';
+
+            const pr = await github.rest.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              head: `blog-post/${process.env.SLUG}`,
+              base: 'main',
+              title: `📝 Blog Post: ${process.env.TITLE}`,
+              body: prBody
+            });
+
+            // Add label to PR
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr.data.number,
+              labels: ['blog-post']
+            });
+
+            console.log(`Created PR #${pr.data.number}: ${pr.data.html_url}`);

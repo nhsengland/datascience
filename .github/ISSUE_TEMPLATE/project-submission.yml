@@ -2,7 +2,6 @@ name: Submit a Project Page
 description: Submit a new or updated project page to the NHS England Data Science website
 title: "[Project Submission] "
 labels: ["project-submission"]
-assignees: []
 
 body:
   - type: markdown
@@ -219,7 +218,7 @@ body:
     validations:
       required: true
 
-  - type: textbox
+  - type: input
     id: project_year
     attributes:
       label: Year (if Past Project)
