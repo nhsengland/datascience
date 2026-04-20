@@ -44,5 +44,5 @@ The aim of this project is to link multiple datasets to capture the cancer diagn
 | ---------------------------------- | -------------------------------------------------------------------- |
 | Private repo | [Github Repo](https://github.com/NHSE-NDRS/Cancer_Genomics_Improvement_Programme)|
 
-
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #

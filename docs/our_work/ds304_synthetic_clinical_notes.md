@@ -48,4 +48,5 @@ The diagram below shows an example synthetic patient called Karl Timothy Birch, 
 
 ![We first generate a synthetic patient, then their journey through the hospital, then a note for each event in their journey. Each note contains augmentations such as abbreviations and typos.](../images/synthetic_clinical_notes/synthetic_notes.png)
 
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
