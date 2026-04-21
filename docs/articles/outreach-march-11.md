@@ -10,7 +10,7 @@ description: >
 Here's her take:
 ---
 
-![Group picture of all the ambassadors](../images/blogs/outreach-march-11/Carlton-photo.jpg)
+![Group picture of all the ambassadors](../images/blogs_images/outreach-march-11/Carlton-photo.jpg)
 
 Back on the 11th March, myself and a fellow data scientist took part in a digital themed school outreach event organised by Ahead Partnership, for Year 8 and Year 10 students at Carlton Keighley. There were around 15 work ambassadors, including us, from across the digital space including Human Resources in the NHS, logistics/transport, digital career advisors etc. This was a speed networking event, so we had 7 minutes per table where the students asked us questions about our career.
 
