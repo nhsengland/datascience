@@ -133,30 +133,15 @@ body:
       value: |
         ---
         ### Images for your blog post (optional)
-        You can include images in your blog post by uploading them after creating this issue.
+        You can include images directly in your post body above!
 
-        **Instructions:**
-        1. After submitting this form, look for the comment box below
-        2. Click "Upload files" and select your images
-        3. Supported formats: PNG, JPG, JPEG, GIF
-        4. Images will be placed in `docs/images/blogs/[slug]/` automatically
-        5. Use markdown syntax in your post body to reference them:
-           ```markdown
-           ![Image description](../images/blogs/[slug]/image-filename.png)
-           ```
+        **How to add images:**
+        1. While writing your **Post body**, simply drag and drop images into the text area, or paste them (Ctrl/Cmd+V)
+        2. GitHub will automatically upload them and insert markdown like `![image](https://github.com/...)`
+        3. When you submit this issue, the workflow will automatically:
+           - Download all images from the issue body
+           - Save them to `docs/images/blogs_images/[slug]/`
+           - Update the markdown to use local paths
+        4. Supported formats: PNG, JPG, JPEG, GIF
 
-  - type: textarea
-    id: images_info
-    attributes:
-      label: Image Filenames (if applicable)
-      description: |
-        If you're uploading images, list the filenames you'll use so the workflow knows what to expect.
-        Leave blank if not using images.
-
-        Example:
-        ```
-        cover.png
-        diagram1.jpg
-        ```
-    validations:
-      required: false
+        **Note:** You don't need to manually write image paths — just drag, drop, and submit!

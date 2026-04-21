@@ -239,22 +239,25 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: image_upload_info
+  - type: markdown
     attributes:
-      label: Images to Upload
-      description: |
-        **Instructions:**
-        1. You will be able to upload images after creating this issue
-        2. Upload a cover image / visual abstract for your project (required)
-        3. You may upload additional supporting images (optional)
-        4. Supported formats: PNG, JPG, JPEG, GIF
-        5. Images should be at least 400x300px for best display
+      value: |
+        ---
+        ### Adding Images (Optional but Recommended)
 
-        After submitting this issue, click "Upload files" in the comments to add your images.
-      placeholder: "You will upload images after creating this issue"
-    validations:
-      required: false
+        You can include images directly in your **Project Description** field above!
+
+        **How to add images:**
+        1. While writing your description, simply drag and drop images into the text area, or paste them (Ctrl/Cmd+V)
+        2. GitHub will automatically upload them and insert markdown like `![image](https://github.com/...)`
+        3. When you submit this issue, the workflow will automatically:
+           - Download all images from the issue body
+           - Save them to `docs/images/our_work/[project-slug]/`
+           - Update the markdown to use local paths
+        4. Supported formats: PNG, JPG, JPEG, GIF
+        5. Recommended: Include a cover image or diagram at least 400x300px for best display
+
+        **Note:** You don't need to manually write image paths — just drag, drop, and submit!
 
   - type: markdown
     attributes:
@@ -262,10 +265,8 @@ body:
         ## Next Steps
 
         Once you submit this form:
-        1. A GitHub Action will parse your submission
+        1. A GitHub Action will parse your submission and process any images
         2. It will generate a properly formatted Markdown project page
         3. It will update the website navigation (mkdocs.yml)
         4. It will create a Pull Request with all changes for review
         5. The team will review and merge your PR
-
-        **Note**: Please upload your images in the issue comments after creation. The workflow will process them and place them in the correct location.

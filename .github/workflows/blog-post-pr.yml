@@ -22,9 +22,19 @@ jobs:
             const title = context.payload.issue.title || '';
             const body = context.payload.issue.body || '';
             const hasLabel = context.payload.issue.labels.some(l => l.name === 'blog-post');
+            const hasProjectLabel = context.payload.issue.labels.some(l => l.name === 'project-submission');
 
-            // Check if it's a blog post (has label OR title starts with [Blog Post])
-            const isBlogPost = hasLabel || title.startsWith('[Blog Post]');
+            // Skip if this is explicitly a project submission
+            if (hasProjectLabel) {
+              console.log('This is a project submission, not a blog post');
+              core.setOutput('is_blog_post', 'false');
+              return;
+            }
+
+            // Check if it's a blog post (has label OR title starts with [Blog Post] OR body contains blog post fields)
+            const isBlogPost = hasLabel ||
+                               title.startsWith('[Blog Post]') ||
+                               body.includes('### Post title');
 
             core.setOutput('is_blog_post', isBlogPost.toString());
 
@@ -182,7 +192,7 @@ jobs:
             // Write to the correct location
             const fs = require('fs');
             const path = require('path');
-            const dir  = 'docs/articles';
+            const dir  = 'docs/articles/posts';
             fs.mkdirSync(dir, { recursive: true });
             const filename = `${SLUG}.md`;
             fs.writeFileSync(path.join(dir, filename), content);
@@ -267,7 +277,7 @@ jobs:
             console.log(`Found ${matches.length} image(s) to download`);
 
             // Create images directory
-            const imagesDir = path.join('docs/images/blogs', slug);
+            const imagesDir = path.join('docs/images/blogs_images', slug);
             fs.mkdirSync(imagesDir, { recursive: true });
 
             // Download each image
@@ -313,7 +323,7 @@ jobs:
 
             const slug = process.env.SLUG;
             const images = JSON.parse(process.env.IMAGES_JSON || '[]');
-            const postPath = path.join('docs/articles', `${slug}.md`);
+            const postPath = path.join('docs/articles/posts', `${slug}.md`);
             let content = fs.readFileSync(postPath, 'utf8');
 
             // Build a map of GitHub CDN URL → local filename
@@ -325,8 +335,8 @@ jobs:
               (match, alt, url) => {
                 const filename = imageMap.get(url);
                 if (filename) {
-                  console.log(`Replacing ${url} with ../images/blogs/${slug}/${filename}`);
-                  return `![${alt}](../images/blogs/${slug}/${filename})`;
+                  console.log(`Replacing ${url} with ../images/blogs_images/${slug}/${filename}`);
+                  return `![${alt}](../images/blogs_images/${slug}/${filename})`;
                 }
                 console.warn(`No filename found for URL: ${url}`);
                 return match;
@@ -347,11 +357,11 @@ jobs:
           git push origin --delete "$BRANCH" 2>/dev/null || true
 
           git checkout -b "$BRANCH"
-          git add docs/articles/${{ steps.generate.outputs.filename }} \
+          git add docs/articles/posts/${{ steps.generate.outputs.filename }} \
                   docs/articles/.authors.yml
           # Add images if any were downloaded
-          if [ -d "docs/images/blogs/${{ steps.parse.outputs.slug }}" ]; then
-            git add "docs/images/blogs/${{ steps.parse.outputs.slug }}"
+          if [ -d "docs/images/blogs_images/${{ steps.parse.outputs.slug }}" ]; then
+            git add "docs/images/blogs_images/${{ steps.parse.outputs.slug }}"
           fi
           git commit -m "docs: add blog post '${{ steps.parse.outputs.title }}'"
           git push origin "$BRANCH"
@@ -372,11 +382,11 @@ jobs:
           script: |
             const imageCount = process.env.IMAGE_COUNT || '0';
             const imagesInfo = imageCount !== '0'
-              ? `\n**Images:** ${imageCount} image(s) included in \`docs/images/blogs/${process.env.SLUG}/\``
+              ? `\n**Images:** ${imageCount} image(s) included in \`docs/images/blogs_images/${process.env.SLUG}/\``
               : '';
 
             const prBody = 'This PR was created automatically from issue #' + process.env.ISSUE_NUMBER + '.\n\n' +
-              '**Post:** `docs/articles/' + process.env.FILENAME + '`\n' +
+              '**Post:** `docs/articles/posts/' + process.env.FILENAME + '`\n' +
               '**Author:** ' + process.env.AUTHOR_ID + '\n' +
               '**Date:** ' + process.env.DATE + imagesInfo + '\n\n' +
               'Please review the generated file before merging.';
