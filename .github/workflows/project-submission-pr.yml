@@ -22,9 +22,19 @@ jobs:
             const title = context.payload.issue.title || '';
             const body = context.payload.issue.body || '';
             const hasLabel = context.payload.issue.labels.some(l => l.name === 'project-submission');
+            const hasBlogLabel = context.payload.issue.labels.some(l => l.name === 'blog-post');
 
-            // Check if it's a project submission (has label OR title starts with [Project Submission])
-            const isProjectSubmission = hasLabel || title.startsWith('[Project Submission]');
+            // Skip if this is explicitly a blog post
+            if (hasBlogLabel) {
+              console.log('This is a blog post, not a project submission');
+              core.setOutput('is_project_submission', 'false');
+              return;
+            }
+
+            // Check if it's a project submission (has label OR title starts with [Project Submission] OR body contains project fields)
+            const isProjectSubmission = hasLabel ||
+                                       title.startsWith('[Project Submission]') ||
+                                       body.includes('### Project Title');
 
             core.setOutput('is_project_submission', isProjectSubmission.toString());
 
