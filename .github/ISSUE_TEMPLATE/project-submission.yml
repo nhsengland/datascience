@@ -1,0 +1,271 @@
+name: Submit a Project Page
+description: Submit a new or updated project page to the NHS England Data Science website
+title: "[Project Submission] "
+labels: ["project-submission"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Project Page Submission
+
+        Thank you for contributing to the NHS England Data Science website! Please fill out the form below with details about your project.
+
+        **Before you start:**
+        - Review the [project template](https://github.com/NHSEngland/datascience/blob/main/docs/our_work/template-project.md) to understand the structure
+        - Look through existing [project pages](https://nhsengland.github.io/datascience/our_work/) for examples
+        - Read the [contributing guidelines](https://github.com/NHSEngland/datascience/blob/main/CONTRIBUTE.md#project-page)
+
+  - type: input
+    id: project_title
+    attributes:
+      label: Project Title
+      description: The full name of your project (e.g., "AI Models for Shortlisting Interview Candidates")
+      placeholder: "Project title"
+    validations:
+      required: true
+
+  - type: input
+    id: summary
+    attributes:
+      label: One-Line Summary
+      description: A concise summary of what your project does (max 150 characters)
+      placeholder: "Brief description of the project in one line"
+    validations:
+      required: true
+
+  - type: input
+    id: origin
+    attributes:
+      label: Origin (Optional)
+      description: Where this work originated (e.g., "AI Skunkworks", "NHSE", "NHSD", etc.)
+      placeholder: "e.g., AI Skunkworks"
+
+  - type: checkboxes
+    id: tags
+    attributes:
+      label: Project Tags
+      description: |
+        Select all tags that apply to your project. Choose from each category as relevant:
+        - **Domain Areas**: Primary care, Secondary care, Social Care, Emergency care, Diseases, Public/Population Health, Workforce & Allocation, Prescribing, Financial
+        - **Techniques**: Forecasting, Classification, Computer Vision, Deep Learning, Large Language Models (LLM), Machine Learning, Neural Networks, Natural Language Processing (NLP), Linkage, Simulation
+        - **Project Type**: Best Practice Guidance, Data Validation, Documentation, Ethics, Explainability, Generation, Linkage, Modelling, Reproducible Analytical Pipeline (RAP), Research
+        - **Data Types**: Structured, Unstructured, Multi-modal, Sound/Audio, Genomics, Video/Image, Text Data, Time Series, Patient Identifiable, Synthetic, Open Data, Pseudonymised
+        - **Coding Language**: Python, SQL, R, Web Development (e.g. Javascript, HTML, CSS)
+        - **Status**: Work in Progress, Complete, On Pause, In Development, Retired, Deployed, Experimental
+      options:
+        - label: "Domain: Primary care"
+          required: false
+        - label: "Domain: Secondary care"
+          required: false
+        - label: "Domain: Social Care"
+          required: false
+        - label: "Domain: Emergency care"
+          required: false
+        - label: "Domain: Diseases"
+          required: false
+        - label: "Domain: Public/Population Health"
+          required: false
+        - label: "Domain: Workforce & Allocation"
+          required: false
+        - label: "Domain: Prescribing"
+          required: false
+        - label: "Domain: Financial"
+          required: false
+        - label: "Technique: Forecasting"
+          required: false
+        - label: "Technique: Classification"
+          required: false
+        - label: "Technique: Computer Vision"
+          required: false
+        - label: "Technique: Deep Learning"
+          required: false
+        - label: "Technique: Large Language Models (LLM)"
+          required: false
+        - label: "Technique: Machine Learning"
+          required: false
+        - label: "Technique: Neural Networks"
+          required: false
+        - label: "Technique: Natural Language Processing (NLP)"
+          required: false
+        - label: "Technique: Linkage"
+          required: false
+        - label: "Technique: Simulation"
+          required: false
+        - label: "Type: Best Practice Guidance"
+          required: false
+        - label: "Type: Data Validation"
+          required: false
+        - label: "Type: Documentation"
+          required: false
+        - label: "Type: Ethics"
+          required: false
+        - label: "Type: Explainability"
+          required: false
+        - label: "Type: Generation"
+          required: false
+        - label: "Type: Linkage"
+          required: false
+        - label: "Type: Modelling"
+          required: false
+        - label: "Type: Reproducible Analytical Pipeline (RAP)"
+          required: false
+        - label: "Type: Research"
+          required: false
+        - label: "Data Type: Structured"
+          required: false
+        - label: "Data Type: Unstructured"
+          required: false
+        - label: "Data Type: Multi-modal"
+          required: false
+        - label: "Data Type: Sound/Audio"
+          required: false
+        - label: "Data Type: Genomics"
+          required: false
+        - label: "Data Type: Video/Image"
+          required: false
+        - label: "Data Type: Text Data"
+          required: false
+        - label: "Data Type: Time Series"
+          required: false
+        - label: "Data Access: Patient Identifiable"
+          required: false
+        - label: "Data Access: Synthetic"
+          required: false
+        - label: "Data Access: Open Data"
+          required: false
+        - label: "Data Access: Pseudonymised"
+          required: false
+        - label: "Language: Python"
+          required: false
+        - label: "Language: SQL"
+          required: false
+        - label: "Language: R"
+          required: false
+        - label: "Language: Web Development (e.g. Javascript, HTML, CSS)"
+          required: false
+        - label: "Status: Work in Progress"
+          required: false
+        - label: "Status: Complete"
+          required: false
+        - label: "Status: On Pause"
+          required: false
+        - label: "Status: In Development"
+          required: false
+        - label: "Status: Retired"
+          required: false
+        - label: "Status: Deployed"
+          required: false
+        - label: "Status: Experimental"
+          required: false
+    validations:
+      required: true
+
+  - type: textarea
+    id: project_description
+    attributes:
+      label: Project Description
+      description: |
+        Describe your project. Include:
+        1. **Problem Statement**: What problem did you solve?
+        2. **Solution**: How did you solve it using data science?
+        3. **Key Results**: What were the outcomes/impact?
+
+        Format your response in Markdown. Use clear headings and structure. Aim for 200-500 words.
+      placeholder: |
+        ## Problem
+        [Describe the problem here]
+
+        ## Solution
+        [Describe your approach here]
+
+        ## Results
+        [Describe key outcomes and impact here]
+    validations:
+      required: true
+
+  - type: textarea
+    id: relevant_links
+    attributes:
+      label: Relevant Links (Optional)
+      description: |
+        Any relevant outputs or links for this project.
+
+        Format each link as:
+        ```
+        Link Name: https://url-here
+        ```
+
+        Examples:
+        ```
+        Open Source Code: https://github.com/example
+        Case Study: https://example.com/case-study
+        Published Paper: https://arxiv.org/example
+        Live Tool: https://example.com/tool
+        ```
+      placeholder: |
+        Open Source Code: https://github.com/...
+        Case Study: https://example.com/case-study
+
+  - type: dropdown
+    id: project_status
+    attributes:
+      label: Project Status
+      description: Is this a current or past project?
+      options:
+        - "Current Project"
+        - "Past Project"
+    validations:
+      required: true
+
+  - type: input
+    id: project_year
+    attributes:
+      label: Year (if Past Project)
+      description: If you selected "Past Project" above, enter the year the project concluded (e.g., 2024, 2023)
+      placeholder: "e.g., 2024"
+
+  - type: dropdown
+    id: main_work_area
+    attributes:
+      label: Main Work Area Category
+      description: Select the primary category where this project fits within the Data Science team's work
+      options:
+        - "Predictive Analytics Products"
+        - "Data Science for Linked/Longitudinal Data"
+        - "Natural Language Processing Products"
+        - "Data Science Capability"
+        - "Research & Development"
+    validations:
+      required: true
+
+  - type: textarea
+    id: image_upload_info
+    attributes:
+      label: Images to Upload
+      description: |
+        **Instructions:**
+        1. You will be able to upload images after creating this issue
+        2. Upload a cover image / visual abstract for your project (required)
+        3. You may upload additional supporting images (optional)
+        4. Supported formats: PNG, JPG, JPEG, GIF
+        5. Images should be at least 400x300px for best display
+
+        After submitting this issue, click "Upload files" in the comments to add your images.
+      placeholder: "You will upload images after creating this issue"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Next Steps
+
+        Once you submit this form:
+        1. A GitHub Action will parse your submission
+        2. It will generate a properly formatted Markdown project page
+        3. It will update the website navigation (mkdocs.yml)
+        4. It will create a Pull Request with all changes for review
+        5. The team will review and merge your PR
+
+        **Note**: Please upload your images in the issue comments after creation. The workflow will process them and place them in the correct location.

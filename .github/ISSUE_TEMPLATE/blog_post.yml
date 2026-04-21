@@ -1,0 +1,162 @@
+name: 📝 Blog Post Submission
+description: Submit a new blog post or article to the site.
+title: "[Blog Post]: "
+labels: ["blog-post"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing a blog post! Fill in the fields below and a PR will be created automatically.
+
+        > ⚠️ If you've contributed before and your author details are already in `.authors.yml`, you can leave the author section blank — just make sure your **Author ID** matches exactly.
+
+  # ── Post metadata ──────────────────────────────────────────────────────────
+
+  - type: input
+    id: title
+    attributes:
+      label: Post title
+    validations:
+      required: true
+
+  - type: input
+    id: slug
+    attributes:
+      label: Slug (URL-friendly identifier)
+      description: Lowercase, hyphens only. This becomes the page URL.
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Publication date
+      description: Format — YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: input
+    id: categories
+    attributes:
+      label: Categories
+      description: Comma-separated list.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: A one or two sentence summary shown in the blog index.
+    validations:
+      required: true
+
+  - type: textarea
+    id: body
+    attributes:
+      label: Post body
+      description: Full content of your post in Markdown.
+    validations:
+      required: true
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Links (optional)
+      description: |
+        Optional. Add related links in the format below — one per line.
+        Leave blank if you have no links (including this section with no content will cause a build error).
+
+        Format:
+        ```
+        Link Name: https://example.com
+        Another Link: https://example.com/page
+        ```
+    validations:
+      required: false
+
+  # ── Author details ──────────────────────────────────────────────────────────
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### Your author details
+        Your **Author ID** is how you're referenced in the post frontmatter (e.g. `SamHollings`).
+        If you've submitted before, just fill in the Author ID and leave the rest blank.
+
+  - type: input
+    id: author_id
+    attributes:
+      label: Author ID
+      description: A short unique identifier — no spaces. Usually FirstnameLastname.
+    validations:
+      required: true
+
+  - type: input
+    id: author_name
+    attributes:
+      label: Your full name
+      description: Leave blank if you're already in the authors file.
+    validations:
+      required: false
+
+  - type: input
+    id: author_description
+    attributes:
+      label: Job title / bio
+      description: Shown beneath your name on the post. Leave blank if already registered.
+    validations:
+      required: false
+
+  - type: input
+    id: author_avatar
+    attributes:
+      label: Avatar URL
+      description: A direct link to a profile image. Your GitHub avatar works well — https://avatars.githubusercontent.com/u/YOUR_ID?v=4
+    validations:
+      required: false
+
+  - type: input
+    id: author_url
+    attributes:
+      label: Profile URL
+      description: Your GitHub profile or personal site.
+    validations:
+      required: false
+
+  # ── Images (optional) ──────────────────────────────────────────────────────
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### Images for your blog post (optional)
+        You can include images in your blog post by uploading them after creating this issue.
+
+        **Instructions:**
+        1. After submitting this form, look for the comment box below
+        2. Click "Upload files" and select your images
+        3. Supported formats: PNG, JPG, JPEG, GIF
+        4. Images will be placed in `docs/images/blogs/[slug]/` automatically
+        5. Use markdown syntax in your post body to reference them:
+           ```markdown
+           ![Image description](../images/blogs/[slug]/image-filename.png)
+           ```
+
+  - type: textarea
+    id: images_info
+    attributes:
+      label: Image Filenames (if applicable)
+      description: |
+        If you're uploading images, list the filenames you'll use so the workflow knows what to expect.
+        Leave blank if not using images.
+
+        Example:
+        ```
+        cover.png
+        diagram1.jpg
+        ```
+    validations:
+      required: false
