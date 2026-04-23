@@ -187,7 +187,7 @@ jobs:
             fm += `description: >\n    ${DESCRIPTION}\n`;
             fm += `---\n`;
 
-            const content = `${fm}\n${POST_BODY}\n`;
+            const content = `${fm}\n> ${DESCRIPTION}\n\n<!-- more -->\n\n${POST_BODY}\n`;
 
             // Write to the correct location
             const fs = require('fs');
