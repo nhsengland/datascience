@@ -10,7 +10,11 @@ description: >
 Here's her take:
 ---
 
-![Group picture of all the ambassadors](../images/blogs_images/outreach-march-11/Carlton-photo.jpg)
+> Two of our data scientists, Liz Kelly and Amaia Imaz Blanco, recently spent a Wednesday morning doing speed networking with year 8 and year 10 students at Carlton Keighley organised by @Ahead Partnerships. In our team, outreach like this is incredibly important, and Liz's write-up of her experience is a great reminder of why.
+
+<!-- more -->
+
+![Group picture of all the ambassadors](../../images/blogs_images/outreach-march-11/Carlton-photo.jpg)
 
 Back on the 11th March, myself and a fellow data scientist took part in a digital themed school outreach event organised by Ahead Partnership, for Year 8 and Year 10 students at Carlton Keighley. There were around 15 work ambassadors, including us, from across the digital space including Human Resources in the NHS, logistics/transport, digital career advisors etc. This was a speed networking event, so we had 7 minutes per table where the students asked us questions about our career.
 
