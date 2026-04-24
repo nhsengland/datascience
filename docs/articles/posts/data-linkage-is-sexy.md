@@ -1,5 +1,5 @@
 ---
-title: Data linkage: the quiet science holding everything together
+title: "Data linkage: the quiet science holding everything together"
 authors: [GiuliaMantovani]
 date: 2026-04-24
 categories:
