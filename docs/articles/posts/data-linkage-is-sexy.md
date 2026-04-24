@@ -9,8 +9,11 @@ categories:
 slug: data-linkage-is-sexy
 description: >
     It doesn’t usually involve flashy dashboards, cutting‑edge models, or neat Kaggle-style problems. It sits behind the scenes, often unnoticed, quietly doing its job. And yet, without data linkage, much of the data we rely on across NHS England, whether for analysis, planning, research, or direct care, would simply fall apart.
+Read more...:
 ---
+> It doesn’t usually involve flashy dashboards, cutting‑edge models, or neat Kaggle-style problems. It sits behind the scenes, often unnoticed, quietly doing its job. And yet, without data linkage, much of the data we rely on across NHS England, whether for analysis, planning, research, or direct care, would simply fall apart.
 
+<!-- more -->
 Data linkage is complex, foundational work. It requires statistical rigour, technical depth, and strong governance, and it underpins how the rest of the organisation uses and trusts data.
 
 ---
