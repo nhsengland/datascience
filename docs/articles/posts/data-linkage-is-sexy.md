@@ -107,4 +107,4 @@ It demands technical skill, statistical thinking, architectural awareness, and a
 
 And that’s exactly why data linkage is sexy.
 
-<img width="1024" height="1024" alt="Image" src="https://github.com/user-attachments/assets/1acb09f6-9848-4e83-9415-40afae7f9688" />
+![AI-generated image of a laptop with disco lights](../../images/blogs_images/DL-is-sexy.png)
