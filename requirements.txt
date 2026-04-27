@@ -69,7 +69,7 @@ prompt_toolkit==3.0.51
 psutil==7.0.0
 ptyprocess==0.7.0
 pure_eval==0.2.3
-Pygments==2.19.1
+Pygments==2.20.0
 pymdown-extensions==10.16.1
 pyparsing==3.2.3
 python-dateutil==2.9.0.post0
