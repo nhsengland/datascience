@@ -328,6 +328,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "jamiewlc",
+      "name": "Jamie Wong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/160514270?v=4",
+      "profile": "https://profiles.ucl.ac.uk/95883-jamie-wong",
+      "contributions": [
+        "content",
+        "blog"
+      ]
     }
   ],
   "contributorsPerLine": 7,
