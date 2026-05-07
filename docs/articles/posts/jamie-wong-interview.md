@@ -10,9 +10,7 @@ links:
     - The Epidemiologist R Handbook: https://www.epirhandbook.com/
 slug: jamie-wong-interview
 description: >
-    Welcome to another instalment of our “Interview with a Data Scientist” series, where we explore the careers and work of the talented data scientists across our healthcare organisations. We aim to showcase the fantastic individuals who contribute to Data Science within the healthcare sector and provide valuable insights for those considering a career in this field.
-
-Today we’re interviewing Jamie Wong, a postdoctoral researcher at University College London and former NHS England Data Science Officer.
+    Welcome to another instalment of our “Interview with a Data Scientist” series, where we explore the careers and work of the talented data scientists across our healthcare organisations. We aim to showcase the fantastic individuals who contribute to Data Science within the healthcare sector and provide valuable insights for those considering a career in this field. Today we’re interviewing Jamie Wong, a postdoctoral researcher at University College London and former NHS England Data Science Officer.
 ---
 
 > Welcome to another instalment of our “Interview with a Data Scientist” series, where we explore the careers and work of the talented data scientists across our healthcare organisations. We aim to showcase the fantastic individuals who contribute to Data Science within the healthcare sector and provide valuable insights for those considering a career in this field.
@@ -21,7 +19,7 @@ Today we’re interviewing Jamie Wong, a postdoctoral researcher at University C
 
 <!-- more -->
 
-# How did you end up in data science in your healthcare organisation? What did you do before, and what really sparked your interest in this field?
+## How did you end up in data science in your healthcare organisation? What did you do before, and what really sparked your interest in this field?
 
 For a long time, I wasn’t sure what I wanted to pursue as a career. At school, there wasn’t a particular subject I felt deeply passionate about, and maths certainly wasn’t high on the list. One of my earliest memories is my mum getting frustrated with me in primary school because I couldn’t “evenly distribute fifty people between two buses.” At that point, a future in a quantitative field seemed highly unlikely.
 
@@ -39,7 +37,7 @@ We all reason about causality in everyday life. Most of us would recognise that 
 
 At just the right time, the NHS England Data Science and Applied AI Team had posted an opening for a PhD internship project titled “Causal Inference to Estimate the Impact of Interventions.” Just one year into my PhD, I had nothing to lose, so I applied. It turned out to be one of the best decisions I’ve made so far.
 
-# Once you joined your healthcare organisation, what was that experience like? What different roles and teams have you been a part of, and how have they shaped your career?
+## Once you joined your healthcare organisation, what was that experience like? What different roles and teams have you been a part of, and how have they shaped your career?
 
 Once I started my PhD internship as a Data Science Officer within NHS England, I was embedded within the North Central London ICB’s Data Science Team. While formally part of the national Data Science and Applied AI Team, my day to day work was conducted alongside the ICB’s local data scientists to explore whether routinely collected data from local healthcare providers could support causal evaluations of service changes. I was given access to data submitted directly by GP practices, hospitals, and other providers to retrospectively assess the impact of interventions that had previously been implemented within the ICB.
 
@@ -51,7 +49,7 @@ This experience made me realise that applied data science in healthcare is not s
 
 Rather than dissuading me from continuing down this path though, the experience strengthened my desire to pursue data science as a career. Despite the number of hurdles we had to navigate, we were able to draw clear conclusions about the interventions I was evaluating and inform future commissioning decisions in the process.
 
-# What are you currently working on? Are there any projects that you’re particularly excited about, or that you feel are making a real difference? What impact are you having?
+## What are you currently working on? Are there any projects that you’re particularly excited about, or that you feel are making a real difference? What impact are you having?
 
 After completing my PhD internship, I was given the opportunity to stay on as an Honorary Data Scientist at the North Central London ICB and am now integrating this work into my PhD thesis. I am currently planning further evaluations of additional service changes across the ICB, and with the merger into the West and North London ICB, we now have opportunities to conduct cross ICB comparisons, which is particularly exciting from a methodological perspective.
 
@@ -59,7 +57,7 @@ Alongside this, I am developing practical guidance on applying causal methods wi
 
 In parallel, I now also serve as Sarcoma Cancer Data Analyst, jointly based between the NHS England National Disease Registry Service and UCL Cancer Institute, investigating variations in diagnostic pathways and access to specialist care for sarcoma patients across England, with the ultimate aim still being to improve health outcomes and reduce health inequalities.
 
-# If you could give someone just starting out in data science a few pieces of advice, what would they be? And what resources have you found particularly helpful along the way that you can share?
+## If you could give someone just starting out in data science a few pieces of advice, what would they be? And what resources have you found particularly helpful along the way that you can share?
 
 One of the main misconceptions I’ve encountered both among students I’ve taught and colleagues I’ve worked with is that you need to be mathematically gifted to enter the field of data science. In reality, more often than not, I’ve found that it’s those with the most curiosity and the strongest desire to answer real world questions who go on to succeed.
 
