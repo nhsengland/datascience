@@ -53,6 +53,9 @@ This website exists with the hard work of our contributors so thank you to the f
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/JRPearson500"><img src="https://avatars.githubusercontent.com/u/67793644?v=4?s=100" width="100px;" alt="Jonny Pearson"/><br /><sub><b>Jonny Pearson</b></sub></a><br /><a href="#content-JRPearson500" title="Content">🖋</a> <a href="#maintenance-JRPearson500" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/GraceDean31"><img src="https://avatars.githubusercontent.com/u/114420516?v=4?s=100" width="100px;" alt="Grace Dean"/><br /><sub><b>Grace Dean</b></sub></a><br /><a href="#content-GraceDean31" title="Content">🖋</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://profiles.ucl.ac.uk/95883-jamie-wong"><img src="https://avatars.githubusercontent.com/u/160514270?v=4?s=100" width="100px;" alt="Jamie Wong"/><br /><sub><b>Jamie Wong</b></sub></a><br /><a href="#content-jamiewlc" title="Content">🖋</a> <a href="#blog-jamiewlc" title="Blogposts">📝</a></td>
+    </tr>
   </tbody>
 </table>
 
