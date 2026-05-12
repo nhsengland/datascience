@@ -308,7 +308,7 @@ We have also developed a Streamlit dashboard which is deployed in FDP. This dash
 
  
 
-We extract out both granular metrics (compare every single prediction and actual value across the whole forecast) V cumulative metrics (compare the sum of predictions and actual over the 15-day forecast.) 
+We extract out both granular metrics (compare every single prediction and actual value across the whole forecast) and cumulative metrics (compare the sum of predictions and actual over the 15-day forecast.) 
 
    * **Summary dashboard:** shows the total difference between forecast and actual values for each run date, and then shows the median and range of values forecasted at a given horizon. (i.e. whether this value was predicted 14 days into the future or just 1 day.) 
 
