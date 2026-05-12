@@ -190,13 +190,19 @@ nav:
     - MRes Projects:
       - Prediction of CVD Onset: mres/cvd-onset.md
       - Supporting Dementia Diagnosis: mres/dementia.md
+      - Understanding delays in elective pathways: mres/elective-pathways-delays.md
+      - Investigating unknown ethnicity records in NHS emergency care data: mres/ethnicity.md
       - Predicting GP Staff Turnover: mres/gp-turnover.md
       - Menopause-Related Diagnosis Coding: mres/menopause.md
+      - Mental Health Environmental Impacts Leeds: mres/mh_leeds.md
       - Impact of midwife-led continuity of carer on birth outcomes: mres/midwives.md
       - Predicting perinatal depression: mres/perinatal.md
       - Poor pregnancy outcomes in women with type 2 diabetes: mres/pregnancy-outcomes.md
       - Process Mining on Patient Pathways in Healthcare: mres/process-mining.md
+      - Relationship between psychotropic medication usage and Talking Therapies treatment outcomes: mres/psychotropic-meds-talking-therapies.md
+      - Relationship Between Factors and Stillbirth outcomes: mres/stillbirths.md
       - UTI Surgery Risk Predictions: mres/uti.md
+      - Predicting Winter Pressures on Emergency Admissions: mres/winter-pressures.md
   - Articles:
     - articles/index.md
   - Playbooks: playbooks.md
@@ -212,8 +218,8 @@ theme:
     primary: indigo
   font:
     text: Arial
-  logo: images/logo/nhs-blue-on-white.jpg
-  favicon: images/favicon/favicon.ico
+  logo: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMCAyMHYtNmg0djZoNXYtOGgzTDEyIDMgMiAxMmgzdjh6Ii8+PC9zdmc+
+  favicon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAwNUVCOCIgZD0iTTEwIDIwdi02aDR2Nmg1di04aDNMMTIgMyAyIDEyaDN2OHoiLz48L3N2Zz4=
   features:
     - search.share
     - content.code.annotate
@@ -252,9 +258,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/nhsengland/datascience
       name: NHS England Data Science
-  meta:
-    - name: "og:image"
-      content: "https://nhsengland.github.io/datascience/docs/images/logo/nhs-white-on-blue.jpg"
   generator: false
 copyright: Copyright &copy; 2023 Crown Copyright (NHS England)
 extra_javascript:

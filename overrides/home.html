@@ -486,8 +486,8 @@ document.addEventListener("DOMContentLoaded", async function () {
         const anchor = slides[i].querySelector('a');
         anchor.href = url;
         const img = anchor.querySelector('img');
-        img.src = 'images/logo/nhs-blue-on-white.jpg'
-        img.alt = 'NHS Logo';
+        img.src = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAwNUVCOCIgZD0iTTEwIDIwdi02aDR2Nmg1di04aDNMMTIgMyAyIDEyaDN2OHoiLz48L3N2Zz4='
+        img.alt = 'Home Symbol';
         const span = anchor.querySelector('span');
         span.textContent = `${page.title.split(' - ').shift()} →`;
       }

@@ -28,7 +28,7 @@ Adam Dejl, **Jonathan Pearson**
 
 ---
 
-[11] [https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1761624/abstract](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1761624/abstract)
+[11] [https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1761624/full][https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1761624/full]
 
 **Evaluating Privacy Leakages in LLM-driven Ambient Clinical Documentation**
 

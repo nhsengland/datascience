@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-survey_to_md.py
+process-survey-responses.py
 
 Usage:
-    python survey_to_md.py input.xlsx output_folder/
+    python process-survey-responses.py input.xlsx output_folder/
 
 Reads an Excel or CSV file of survey responses and writes one Markdown file per response.
 The output contains:

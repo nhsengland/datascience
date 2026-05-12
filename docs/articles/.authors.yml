@@ -96,3 +96,30 @@ authors:
     slug: MaryAmanuel      # Author profile slug
     avatar: https://avatars.githubusercontent.com/u/73167040?v=4
     url: https://github.com/maryamanuel1
+  
+  KonstantinGeorgiev:
+    name: Konstantin Georgiev    # Author name
+    description: Postdoctoral Researcher at the University of Edinburgh
+    slug: KonstantinGeorgiev      # Author profile slug
+    avatar: https://avatars.githubusercontent.com/u/28511063?v=4
+    url: https://github.com/kgeorgiev42
+  
+  ElizabethKelly:
+    name: Elizabeth Kelly
+    description: Senior Data Scientist
+    avatar: https://avatars.githubusercontent.com/u/114298963?v=4
+    slug: ElizabethKelly
+    url: https://github.com/ejkcode
+  
+  GiuliaMantovani:
+    name: Giulia Mantovani
+    description: Head of Data Linkage Hub (Data Science Lead )
+    avatar: https://avatars.githubusercontent.com/GiuliaMantovani1
+    slug: GiuliaMantovani
+    url: https://github.com/GiuliaMantovani1
+  JamieWong:
+    name: Jamie Wong
+    description: Postdoctoral Researcher at University College London
+    avatar: https://avatars.githubusercontent.com/u/160514270?v=4
+    slug: JamieWong
+    url: https://github.com/jamiewlc
