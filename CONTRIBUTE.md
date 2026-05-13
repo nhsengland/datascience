@@ -73,29 +73,38 @@ Prior to making a pull request, ensure that, if the changes involve a change or 
 
 ### Blog / Article
 
-Creating new articles / blog posts is easy:
+We have an automated workflow to make blog post submissions easy! Instead of manually creating markdown files, you can simply fill out a GitHub issue form.
 
-- Add a markdown file under the [`docs/articles/posts`](./docs/articles/posts) folder.
-  - Note, you do not have to add the blog pages to the `mkdocs.yml` - it gets added to the nav bar automatically.
-- Add yourself to the [`docs/articles/posts/.authors.yml`], so your face and info appears next to the article.
-- The markdown file should have some metadata at the start, like the below. For more info on these parameters, see the [mkdocs material blog plugin guidance](https://squidfunk.github.io/mkdocs-material/plugins/blog/). You can also copy it from another blog to make sure you've got it right.
-- If you dont have any links to include, remove that bit, or it will throw an error.
+#### How to Submit a Blog Post
 
-```markdown
----
-title: Why we’re getting our data teams to RAP
-authors: [SamHollings]
-date: 2023-01-05
-categories:
-  - RAP
-  - Python
-links:
-  - Link Name: https://digital.nhs.uk/blog/data-points-blog/2023/why-were-getting-our-data-teams-to-rap
-slug: rap-in-NHSE
-description: >
-  Reproducible analytical pipelines (RAP) help ensure all published statistics meet the highest standards of transparency and reproducibility. Sam Hollings and Alistair Bullward share their insights on adopting RAP and give advice to those starting out.
----
-```
+1. **[Create a new blog post issue](https://github.com/NHSEngland/datascience/issues/new?template=blog_post.yml)**
+
+2. **Fill out the form with the following information:**
+   - **Post title**: The title of your blog post (required)
+   - **Slug**: A URL-friendly identifier, lowercase with hyphens only (required)
+   - **Publication date**: In YYYY-MM-DD format (required)
+   - **Categories**: Comma-separated list of categories (required)
+   - **Short description**: A one or two sentence summary shown in the blog index (required)
+   - **Post body**: The full content of your post in Markdown (required)
+   - **Links** (optional): Related links in the format `Link Name: URL` (one per line). Leave this blank if you have no links — including the section with no content will cause a build error.
+   - **Author ID**: A short unique identifier, usually FirstnameLastname (required)
+   - **Author details** (optional if already registered): Your full name, job title/bio, avatar URL, and profile URL. If you’ve submitted before, just fill in the Author ID and leave the rest blank.
+
+3. **Upload your images** (optional):
+   - While writing your post body, drag and drop images directly into the text area
+   - GitHub will upload them automatically — no need to write image paths manually
+   - The workflow will download all images and save them to `docs/images/blogs_images/[slug]/`
+   - Supported formats: PNG, JPG, JPEG, GIF
+
+#### What Happens Next
+
+Once you submit the issue:
+
+1. **Automated Workflow Runs** — GitHub validates required fields and generates a properly formatted markdown file in `docs/articles/posts/`
+2. **Author Registration** — If you provided new author details, you’re added to `.authors.yml` automatically
+3. **Images Processed** — Any images in your post body are downloaded and paths updated to local references
+4. **Pull Request Created** — A PR is automatically created with all your changes, and a comment is posted on your issue linking to it
+5. **Team Review** — The team will review your blog post. You may receive feedback or suggested edits before it’s merged and goes live.
 
 ### Project Page Submission
 

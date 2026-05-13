@@ -49,17 +49,13 @@ jobs:
               console.log('Added blog-post label');
             }
 
-      - name: Exit if not a blog post
-        if: steps.detect.outputs.is_blog_post != 'true'
-        run: |
-          echo "Not a blog post submission, skipping"
-          exit 0
-
       - name: Checkout repository
+        if: steps.detect.outputs.is_blog_post == 'true'
         uses: actions/checkout@v4
 
       # ── Parse issue body ─────────────────────────────────────────────────────
       - name: Parse issue fields
+        if: steps.detect.outputs.is_blog_post == 'true'
         id: parse
         uses: actions/github-script@v7
         with:
@@ -155,6 +151,7 @@ jobs:
 
       # ── Build & write the markdown file ─────────────────────────────────────
       - name: Generate markdown file
+        if: steps.detect.outputs.is_blog_post == 'true'
         id: generate
         uses: actions/github-script@v7
         env:
@@ -200,6 +197,7 @@ jobs:
 
       # ── Update .authors.yml if new author details were supplied ─────────────
       - name: Update authors file
+        if: steps.detect.outputs.is_blog_post == 'true'
         uses: actions/github-script@v7
         env:
           AUTHOR_ID: ${{ steps.parse.outputs.author_id }}
@@ -246,6 +244,7 @@ jobs:
 
       # ── Download and process images ────────────────────────────────────────
       - name: Process and download images
+        if: steps.detect.outputs.is_blog_post == 'true'
         id: images
         uses: actions/github-script@v7
         env:
@@ -311,7 +310,7 @@ jobs:
 
       # ── Update post markdown with local image paths ─────────────────────────
       - name: Update image paths in post
-        if: steps.images.outputs.image_count != '0'
+        if: steps.detect.outputs.is_blog_post == 'true' && steps.images.outputs.image_count != '0'
         uses: actions/github-script@v7
         env:
           SLUG: ${{ steps.parse.outputs.slug }}
@@ -348,6 +347,7 @@ jobs:
 
       # ── Commit, push, and open the PR using the native GitHub CLI ───────────
       - name: Commit and push to new branch
+        if: steps.detect.outputs.is_blog_post == 'true'
         run: |
           BRANCH="blog-post/${{ steps.parse.outputs.slug }}"
           git config user.name  "github-actions[bot]"
@@ -369,6 +369,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create Pull Request
+        if: steps.detect.outputs.is_blog_post == 'true'
         uses: actions/github-script@v7
         env:
           IMAGE_COUNT: ${{ steps.images.outputs.image_count }}
@@ -389,7 +390,8 @@ jobs:
               '**Post:** `docs/articles/posts/' + process.env.FILENAME + '`\n' +
               '**Author:** ' + process.env.AUTHOR_ID + '\n' +
               '**Date:** ' + process.env.DATE + imagesInfo + '\n\n' +
-              'Please review the generated file before merging.';
+              'Please review the generated file before merging.\n\n' +
+              'Closes #' + process.env.ISSUE_NUMBER;
 
             const pr = await github.rest.pulls.create({
               owner: context.repo.owner,
