@@ -62,11 +62,30 @@ jobs:
           script: |
             const body = context.payload.issue.body ?? '';
 
+            // Known issue-form field headings (used to detect section boundaries)
+            const knownFields = [
+              'Post title',
+              'Slug \\(URL-friendly identifier\\)',
+              'Publication date',
+              'Categories',
+              'Short description',
+              'Post body',
+              'Links \\(optional\\)',
+              'Author ID',
+              'Your full name',
+              'Job title \\/ bio',
+              'Avatar URL',
+              'Profile URL'
+            ];
+
             // Helper: extract the text under a given issue-form heading
             function extract(label) {
-              // Matches "### Label\n\nvalue" blocks produced by GitHub issue forms
+              // Build a lookahead that only stops at other known field headings, not arbitrary ### headings in content
+              const otherFields = knownFields
+                .filter(f => f.toLowerCase() !== label.toLowerCase())
+                .join('|');
               const re = new RegExp(
-                `### ${label}\\s*\\n+([\\s\\S]*?)(?=\\n### |$)`,
+                `### ${label}\\s*\\n+([\\s\\S]*?)(?=\\n### (?:${otherFields})\\s*\\n|$)`,
                 'i'
               );
               const m = body.match(re);
