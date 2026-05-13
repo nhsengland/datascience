@@ -366,16 +366,53 @@ jobs:
 
             // Download each image
             const downloadedImages = [];
+            const mimeToExt = {
+              'image/png': '.png',
+              'image/jpeg': '.jpg',
+              'image/gif': '.gif',
+              'image/webp': '.webp',
+              'image/svg+xml': '.svg',
+            };
+            const knownExts = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg'];
+
             for (const img of matches) {
               const urlParts = img.url.split('/');
-              const filename = urlParts[urlParts.length - 1].split('?')[0] || `image-${downloadedImages.length + 1}`;
+              let filename = urlParts[urlParts.length - 1].split('?')[0] || `image-${downloadedImages.length + 1}`;
               const filepath = path.join(imagesDir, filename);
 
               try {
                 // Download the file
                 await new Promise((resolve, reject) => {
                   https.get(img.url, (response) => {
-                    const file = fs.createWriteStream(filepath);
+                    // Follow redirects
+                    if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
+                      https.get(response.headers.location, (redirected) => {
+                        // Add extension from content-type if filename lacks one
+                        const contentType = (redirected.headers['content-type'] || '').split(';')[0].trim();
+                        const hasExt = knownExts.some(ext => filename.toLowerCase().endsWith(ext));
+                        if (!hasExt && mimeToExt[contentType]) {
+                          filename = filename + mimeToExt[contentType];
+                        }
+                        const finalPath = path.join(imagesDir, filename);
+                        const file = fs.createWriteStream(finalPath);
+                        redirected.pipe(file);
+                        file.on('finish', () => {
+                          file.close();
+                          console.log(`Downloaded: ${filename}`);
+                          downloadedImages.push({ filename, alt: img.alt, url: img.url });
+                          resolve();
+                        });
+                      }).on('error', reject);
+                      return;
+                    }
+                    // Add extension from content-type if filename lacks one
+                    const contentType = (response.headers['content-type'] || '').split(';')[0].trim();
+                    const hasExt = knownExts.some(ext => filename.toLowerCase().endsWith(ext));
+                    if (!hasExt && mimeToExt[contentType]) {
+                      filename = filename + mimeToExt[contentType];
+                    }
+                    const finalPath = path.join(imagesDir, filename);
+                    const file = fs.createWriteStream(finalPath);
                     response.pipe(file);
                     file.on('finish', () => {
                       file.close();
