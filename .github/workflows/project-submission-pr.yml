@@ -277,10 +277,10 @@ jobs:
             const linksRaw = JSON.parse(process.env.LINKS);
             const slug = process.env.SLUG;
 
-            // Clean tags: remove prefixes like "Domain: ", "Technique: ", etc.
+            // Clean tags: remove prefixes like "Domain: ", "Technique: ", etc. and uppercase
             const tags = tagsRaw.map(t => {
               // Remove prefix like "Domain: ", "Technique: ", etc.
-              return t.replace(/^[^:]+:\s*/, '').trim();
+              return t.replace(/^[^:]+:\s*/, '').trim().toUpperCase();
             });
 
             // Generate frontmatter
@@ -336,12 +336,20 @@ jobs:
             const issueBody = context.payload.issue.body || '';
 
             // Extract image URLs from issue body (GitHub CDN URLs from file uploads)
-            // Matches ![alt](https://github.com/user/repo/assets/...)
-            const imageRegex = /!\[([^\]]*)\]\((https:\/\/github\.com\/[^\s)]+)\)/g;
             const matches = [];
             let match;
-            while ((match = imageRegex.exec(issueBody)) !== null) {
+
+            // Match markdown images: ![alt](https://github.com/...)
+            const mdRegex = /!\[([^\]]*)\]\((https:\/\/github\.com\/[^\s)]+)\)/g;
+            while ((match = mdRegex.exec(issueBody)) !== null) {
               matches.push({ alt: match[1], url: match[2] });
+            }
+
+            // Match HTML img tags: <img ... src="https://github.com/..." ... />
+            const htmlRegex = /<img[^>]+src=["'](https:\/\/github\.com\/[^\s"']+)["'][^>]*>/g;
+            while ((match = htmlRegex.exec(issueBody)) !== null) {
+              const altMatch = match[0].match(/alt=["']([^"']*)["']/);
+              matches.push({ alt: altMatch ? altMatch[1] : 'image', url: match[1] });
             }
 
             if (matches.length === 0) {
@@ -405,16 +413,30 @@ jobs:
             // Build a map of GitHub CDN URL → local filename
             const imageMap = new Map(images.map(img => [img.url, img.filename]));
 
-            // Replace GitHub CDN image URLs with local paths
+            // Replace markdown image URLs with local paths
             content = content.replace(
               /!\[([^\]]*)\]\((https:\/\/github\.com\/[^\s)]+)\)/g,
               (match, alt, url) => {
                 const filename = imageMap.get(url);
                 if (filename) {
-                  console.log(`Replacing ${url} with ../images/our_work/${slug}/${filename}`);
+                  console.log(`Replacing markdown image: ${url}`);
                   return `![${alt}](../images/our_work/${slug}/${filename})`;
                 }
-                console.warn(`No filename found for URL: ${url}`);
+                return match;
+              }
+            );
+
+            // Replace HTML img tag URLs with local markdown images
+            content = content.replace(
+              /<img[^>]+src=["'](https:\/\/github\.com\/[^\s"']+)["'][^>]*>/g,
+              (match, url) => {
+                const filename = imageMap.get(url);
+                if (filename) {
+                  const altMatch = match.match(/alt=["']([^"']*)["']/);
+                  const alt = altMatch ? altMatch[1] : 'image';
+                  console.log(`Replacing HTML img: ${url}`);
+                  return `![${alt}](../images/our_work/${slug}/${filename})`;
+                }
                 return match;
               }
             );
@@ -444,6 +466,7 @@ jobs:
           work_area = os.environ['WORK_AREA']
 
           new_entry = f"        - {title}: our_work/{slug}.md"
+          new_entry_nested = f"          - {title}: our_work/{slug}.md"
 
           # Read the mkdocs.yml file
           with open('mkdocs.yml', 'r') as f:
@@ -458,16 +481,16 @@ jobs:
               print('Added to Current Projects')
           elif status == 'Past Project':
               # Find the year section under Past Projects, or create it
-              year_pattern = rf'(      - {year}:\n)'
+              year_pattern = rf'(        - {year}:\n)'
               if re.search(year_pattern, content):
-                  # Year exists, add to it
-                  replacement = r'\g<1>' + new_entry + '\n'
+                  # Year exists, add entry nested under it (10 spaces)
+                  replacement = r'\g<1>' + new_entry_nested + '\n'
                   content = re.sub(year_pattern, replacement, content, count=1)
                   print(f'Added to Past Projects > {year}')
               else:
                   # Year doesn't exist, create it after "Past Projects:"
                   pattern = r'(      - Past Projects:\n)'
-                  new_year_section = f'      - {year}:\n{new_entry}\n'
+                  new_year_section = f'        - {year}:\n{new_entry_nested}\n'
                   replacement = r'\g<1>' + new_year_section
                   content = re.sub(pattern, replacement, content, count=1)
                   print(f'Created Past Projects > {year} and added project')
