@@ -50,6 +50,8 @@ nav:
         - Clinical Measurement Extractor: our_work/clinical_measurement_extractor.md
         - "PLOS: Predicting Length of Stay": our_work/ds_314_plos.md
       - Past Projects:
+        - 2026:
+          - Forecasting Vaccination Demand: our_work/ds_306_vaccination_forecast.md
         - 2025:
           - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
           - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
@@ -120,6 +122,7 @@ nav:
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
         - Waiting List Minimum Dataset (WLMDS) Proofs of Concept: our_work/hsma-wlmds.md
         - "PLOS: Predicting Length of Stay": our_work/ds_314_plos.md
+        - Forecasting Vaccination Demand: our_work/ds_306_vaccination_forecast.md
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Hub:
           - __index.md: our_work/data-linkage-hub/index.md
