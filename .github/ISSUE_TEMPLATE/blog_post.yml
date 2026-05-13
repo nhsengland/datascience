@@ -48,7 +48,7 @@ body:
     id: description
     attributes:
       label: Short description
-      description: A one or two sentence summary shown in the blog index.
+      description: A one or two sentence summary shown in the blog index. Make sure this is kept to one paragraph, and doesn't include any line breaks, as they will break the template. 
     validations:
       required: true
 
@@ -56,7 +56,7 @@ body:
     id: body
     attributes:
       label: Post body
-      description: Full content of your post in Markdown.
+      description: Full content of your post in Markdown. Make sure that your headings use "##" for headings, as a single hash will break the formatting. 
     validations:
       required: true
 

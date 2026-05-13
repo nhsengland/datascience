@@ -49,19 +49,15 @@ jobs:
               console.log('Added project-submission label');
             }
 
-      - name: Exit if not a project submission
-        if: steps.detect.outputs.is_project_submission != 'true'
-        run: |
-          echo "Not a project submission, skipping"
-          exit 0
-
       - name: Checkout repository
+        if: steps.detect.outputs.is_project_submission == 'true'
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       # ── Parse issue body ─────────────────────────────────────────────────────
       - name: Parse issue fields
+        if: steps.detect.outputs.is_project_submission == 'true'
         id: parse
         uses: actions/github-script@v7
         with:
@@ -134,18 +130,27 @@ jobs:
 
       # ── Validate required fields ─────────────────────────────────────────────
       - name: Validate inputs
+        if: steps.detect.outputs.is_project_submission == 'true'
         id: validate
         uses: actions/github-script@v7
+        env:
+          INPUT_TITLE: ${{ steps.parse.outputs.title }}
+          INPUT_SUMMARY: ${{ steps.parse.outputs.summary }}
+          INPUT_DESCRIPTION: ${{ steps.parse.outputs.description }}
+          INPUT_STATUS: ${{ steps.parse.outputs.status }}
+          INPUT_YEAR: ${{ steps.parse.outputs.year }}
+          INPUT_WORK_AREA: ${{ steps.parse.outputs.main_work_area }}
+          INPUT_TAGS: ${{ steps.parse.outputs.tags }}
         with:
           script: |
-            const title = '${{ steps.parse.outputs.title }}'.trim();
-            const summary = '${{ steps.parse.outputs.summary }}'.trim();
-            const description = '${{ steps.parse.outputs.description }}'.trim();
-            const status = '${{ steps.parse.outputs.status }}'.trim();
-            const year = '${{ steps.parse.outputs.year }}'.trim();
-            const mainWorkArea = '${{ steps.parse.outputs.main_work_area }}'.trim();
-            const tags = JSON.parse('${{ steps.parse.outputs.tags }}');
-            
+            const title = (process.env.INPUT_TITLE || '').trim();
+            const summary = (process.env.INPUT_SUMMARY || '').trim();
+            const description = (process.env.INPUT_DESCRIPTION || '').trim();
+            const status = (process.env.INPUT_STATUS || '').trim();
+            const year = (process.env.INPUT_YEAR || '').trim();
+            const mainWorkArea = (process.env.INPUT_WORK_AREA || '').trim();
+            const tags = JSON.parse(process.env.INPUT_TAGS || '[]');
+
             const errors = [];
 
             if (!title) errors.push('❌ Project Title is required');
@@ -188,7 +193,7 @@ jobs:
 
       # ── Stop if validation failed ────────────────────────────────────────────
       - name: Comment on issue if validation fails
-        if: steps.validate.outputs.valid == 'false'
+        if: steps.detect.outputs.is_project_submission == 'true' && steps.validate.outputs.valid == 'false'
         uses: actions/github-script@v7
         with:
           script: |
@@ -200,11 +205,12 @@ jobs:
             });
 
       - name: Exit if validation failed
-        if: steps.validate.outputs.valid == 'false'
+        if: steps.detect.outputs.is_project_submission == 'true' && steps.validate.outputs.valid == 'false'
         run: exit 1
 
       # ── Check if slug already exists ────────────────────────────────────────
       - name: Check for duplicate slug
+        if: steps.detect.outputs.is_project_submission == 'true'
         id: check_duplicate
         run: |
           if git ls-files --error-unmatch "docs/our_work/${{ steps.parse.outputs.slug }}.md" > /dev/null 2>&1; then
@@ -214,7 +220,7 @@ jobs:
           fi
 
       - name: Comment if duplicate slug
-        if: steps.check_duplicate.outputs.exists == 'true'
+        if: steps.detect.outputs.is_project_submission == 'true' && steps.check_duplicate.outputs.exists == 'true'
         uses: actions/github-script@v7
         with:
           script: |
@@ -226,11 +232,12 @@ jobs:
             });
 
       - name: Exit if duplicate
-        if: steps.check_duplicate.outputs.exists == 'true'
+        if: steps.detect.outputs.is_project_submission == 'true' && steps.check_duplicate.outputs.exists == 'true'
         run: exit 1
 
       # ── Create branch and checkout ──────────────────────────────────────────
       - name: Create and checkout feature branch
+        if: steps.detect.outputs.is_project_submission == 'true'
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -246,6 +253,7 @@ jobs:
 
       # ── Generate project markdown file ──────────────────────────────────────
       - name: Generate markdown file
+        if: steps.detect.outputs.is_project_submission == 'true'
         id: generate_md
         uses: actions/github-script@v7
         env:
@@ -313,6 +321,7 @@ jobs:
 
       # ── Download and process images ────────────────────────────────────────
       - name: Process and download images
+        if: steps.detect.outputs.is_project_submission == 'true'
         id: images
         uses: actions/github-script@v7
         env:
@@ -378,7 +387,7 @@ jobs:
 
       # ── Update project markdown with local image paths ──────────────────────
       - name: Update image paths in project page
-        if: steps.images.outputs.image_count != '0'
+        if: steps.detect.outputs.is_project_submission == 'true' && steps.images.outputs.image_count != '0'
         uses: actions/github-script@v7
         env:
           SLUG: ${{ steps.parse.outputs.slug }}
@@ -415,6 +424,7 @@ jobs:
 
       # ── Update mkdocs.yml ───────────────────────────────────────────────────
       - name: Update mkdocs.yml
+        if: steps.detect.outputs.is_project_submission == 'true'
         id: update_mkdocs
         env:
           TITLE: ${{ steps.parse.outputs.title }}
@@ -480,6 +490,7 @@ jobs:
 
       # ── Commit changes ──────────────────────────────────────────────────────
       - name: Commit changes
+        if: steps.detect.outputs.is_project_submission == 'true'
         run: |
           git add docs/our_work/${{ steps.parse.outputs.slug }}.md
           git add mkdocs.yml
@@ -491,10 +502,12 @@ jobs:
 
       # ── Push branch and create PR ───────────────────────────────────────────
       - name: Push branch
+        if: steps.detect.outputs.is_project_submission == 'true'
         run: |
           git push origin ${{ env.BRANCH_NAME }}
 
       - name: Create Pull Request
+        if: steps.detect.outputs.is_project_submission == 'true'
         id: cpr
         uses: actions/github-script@v7
         env:
@@ -556,6 +569,7 @@ jobs:
 
       # ── Comment on original issue ───────────────────────────────────────────
       - name: Comment on issue with PR link
+        if: steps.detect.outputs.is_project_submission == 'true'
         uses: actions/github-script@v7
         env:
           IMAGE_COUNT: ${{ steps.images.outputs.image_count }}
