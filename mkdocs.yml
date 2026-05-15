@@ -50,6 +50,8 @@ nav:
         - Clinical Measurement Extractor: our_work/clinical_measurement_extractor.md
         - "PLOS: Predicting Length of Stay": our_work/ds_314_plos.md
       - Past Projects:
+        - 2019:
+          - Cancer high-risk cohorts: our_work/cancer-high-risk-cohorts.md
         - 2026:
           - Forecasting Vaccination Demand: our_work/ds_306_vaccination_forecast.md
         - 2025:
@@ -133,6 +135,7 @@ nav:
         - Inequalities in Diabetes from PHM Data: our_work/p32_phmdiabetes.md
         - CVD Pathways: our_work/cvd_pathways.md
       - Natural Language Processing Products:
+        - Cancer high-risk cohorts: our_work/cancer-high-risk-cohorts.md
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
         - Data Lens: our_work/data-lens.md
         - ePMA Auto Coding: our_work/epma_autocoding.md
