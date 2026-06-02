@@ -1,7 +1,7 @@
 ---
 title: Interview with a Data Scientist - Dungeons, dragons and data
 authors: [SimonWellesleyMiller]
-date: 2025-06-02
+date: 2026-06-02
 categories:
     - Data Science Interviews
 slug: interview-simon
@@ -9,7 +9,9 @@ description: >
     Today we’re interviewing Simon Wellesley-Miller, a Senior Analytical Manager in the Insights & Intelligence Team at NHS England South West.
 ---
 
-> Today we’re interviewing Simon Wellesley-Miller, a Senior Analytical Manager in the Insights & Intelligence Team at NHS England South West.
+> Welcome to another instalment of our “Interview with a Data Scientist” series, where we explore the careers and work of the talented data scientists across our healthcare organisations. We aim to showcase the fantastic individuals who contribute to Data Science within the healthcare sector and provide valuable insights for those considering a career in this field.
+
+Today we’re interviewing Simon Wellesley-Miller, a Senior Analytical Manager in the Insights & Intelligence Team at NHS England South West.
 
 <!-- more -->
 
