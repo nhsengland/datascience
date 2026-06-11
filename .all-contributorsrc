@@ -339,6 +339,16 @@
         "content",
         "blog"
       ]
+    },
+    {
+      "login": "Simon-W-M",
+      "name": "Simon Wellesley-Miller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58369769?v=4",
+      "profile": "https://github.com/Simon-W-M",
+      "contributions": [
+        "blog",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
