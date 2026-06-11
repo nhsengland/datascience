@@ -92,11 +92,3 @@ Overall, this has been a hugely positive experience. The programme has:
 * Built my confidence to explore new tools and techniques
  
 For anyone considering applying in the future, especially if you’re new to data science, I would highly recommend it. You don’t need prior experience, just curiosity and a willingness to learn. It’s an opportunity to step outside your comfort zone and discover what’s possible.
-
-## Photos from the last wrap up event in Leeds
-
-![Image](../images/blogs_images/20260611-ds-accelerator/a4d1cbbe-991b-459e-a173-1739ff09e8bd.png)
-
-![Image](../images/blogs_images/20260611-ds-accelerator/4e34f4ea-1bb1-48e1-9c97-c409babdeda1.png)
-
-![Image](../images/blogs_images/20260611-ds-accelerator/c9870a92-c5df-4795-b5bb-48b70efc0bcd.png)
