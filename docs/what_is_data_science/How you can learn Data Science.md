@@ -5,7 +5,7 @@ Data science isn't just for data scientists! As a profession, we're passionate a
 For this purpose we've put together a **monthly newsletter** with valuable **insights**, **training opportunities** and **events** for people interested in learning more about the various aspects of data science, further developing their skills, and progressing in their career:
 
 <center>
-[NHS England Data Science Professional Development Newsletter](https://nhsengland.github.io/datascience-pd-newsletter/){ .md-button .md-button--primary target="_blank"}
+<a href="https://nhsengland.github.io/datascience-pd-newsletter/" class="md-button md-button--primary" target="_blank">NHS England Data Science Professional Development Newsletter</a>
 </center>
 
 !!! note
@@ -18,7 +18,7 @@ You can also learn a lot about data science by simply getting to know the wider 
 
 - [Govt Data Science Community](https://www.gov.uk/service-manual/communities/data-science-community)
 - [NHS R Community](https://nhsrcommunity.com/)
-- [NHS Pycom](https://nhs-pycom.net/)
+- [NHS Pycom](https://future.nhs.uk/DataAnalytics/view?objectID=54033712)
 - [AnalystX]
 
 These have some overlap, but each has it's own niche, depending on what language or area you want to focus more on (e.g. Python, R, specific use cases).

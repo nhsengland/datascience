@@ -72,7 +72,7 @@ We also support the [NHS Data Science Community](https://data-science-community.
 
 - [Govt Data Science Community](https://www.gov.uk/service-manual/communities/data-science-community)
 - [NHS R Community](https://nhsrcommunity.com/)
-- [NHS Pycom](https://nhs-pycom.net/)
+- [NHS Pycom](https://future.nhs.uk/DataAnalytics/view?objectID=54033712)
 
 
 ## Our Members
