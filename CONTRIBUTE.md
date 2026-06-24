@@ -8,25 +8,25 @@ If you think of something worth including, improving, or you find a bug, please 
 
 ## Submitting a pull request
 
-If you want to contribute to our resources I would recommend using codespaces directly in github to do this. Guidance is as follows: 
+If you want to contribute to our resources I would recommend using codespaces directly in github to do this. Guidance is as follows:
+
 1. If your change constitutes a significant content contribution, before starting with any actual changes, you must go through a content review - follow these [instructions](#content-review)
 2. In the repository [homepage](https://github.com/nhsengland/datascience), click the button on the top left which says 'main', then type the name of the branch you want to create, and press create branch
    ![image](https://github.com/user-attachments/assets/f6250b49-d5cf-4a65-8b5f-c02145daab77)
- 
+
 3. Click the green code button, then Codespaces, then the '+' symbol to create a new codespace on your branch.
-    <img width="1355" alt="Screenshot 2025-03-27 at 14 13 13" src="https://github.com/user-attachments/assets/b68437a3-3f72-467e-8a42-ffb9de7fed29" />
+   <img width="1355" alt="Screenshot 2025-03-27 at 14 13 13" src="https://github.com/user-attachments/assets/b68437a3-3f72-467e-8a42-ffb9de7fed29" />
 4. This should automatically launch a codespace, which also creates a local version of the website after a minute or so, which you should be able to access in the ports section at the bottom of the codespace.
-![image](https://github.com/user-attachments/assets/3192cf0a-acc3-4ca3-876a-9e348621459a) **Note:** this seems to have slightly broken, if your codespaces is failing to properly load, do the following:
+   ![image](https://github.com/user-attachments/assets/3192cf0a-acc3-4ca3-876a-9e348621459a) **Note:** this seems to have slightly broken, if your codespaces is failing to properly load, do the following:
    - Wait until it pops up with this error (this might take a while, even several minutes): ![image of a codespaces error](docs/images/documentation_images/error_image.png)
    - Press "reload"
    - Once it loads, open a terminal and execute the following commands:
-      - `pip install -r requirements.txt`
-      - `mkdocs serve` 
-   - A local instance of the website should now load up that you can check your changes on. 
-6. Make any changes you wish to the website here and commit and push as you would in VSCode (guidance specific to project pages and blog can be found below).
-7. Check your changes in the local instance to make sure they arent breaking anything and look as you want them to. Ensure you check the warnings that mkdocs provides in the terminal and ensure that there's no new warnings (existing warnings found [here](#existing-warnings))
-8. [Submit a pull request][pr]
-
+     - `pip install -r requirements.txt`
+     - `mkdocs serve`
+   - A local instance of the website should now load up that you can check your changes on.
+5. Make any changes you wish to the website here and commit and push as you would in VSCode (guidance specific to project pages and blog can be found below).
+6. Check your changes in the local instance to make sure they arent breaking anything and look as you want them to. Ensure you check the warnings that mkdocs provides in the terminal and ensure that there's no new warnings (existing warnings found [here](#existing-warnings))
+7. [Submit a pull request][pr]
 
 If you insist on doing this locally, follow these steps:
 
@@ -51,9 +51,9 @@ Contact someone from [Marketing & Comms Function Team](https://nhsd-confluence.d
 
 ### How do I check the website renders correctly?
 
-The best way to check that any changes render correctly on the website is to use a codespace; you can do this from github by clicking on the green "code" button and opening a codespace, or a review using "review in code space" and then when the website has been served after about a minute go to ports and click the forwarded address. For more details on this process see the *"Submitting a pull request"* section above.
- 
-You can also do it locally which is more complicated and prone to error especially on a corporate device. You can see instructions for that in the *"Submitting a pull request"* section above.
+The best way to check that any changes render correctly on the website is to use a codespace; you can do this from github by clicking on the green "code" button and opening a codespace, or a review using "review in code space" and then when the website has been served after about a minute go to ports and click the forwarded address. For more details on this process see the _"Submitting a pull request"_ section above.
+
+You can also do it locally which is more complicated and prone to error especially on a corporate device. You can see instructions for that in the _"Submitting a pull request"_ section above.
 
 ### Editing the contents
 
@@ -73,34 +73,119 @@ Prior to making a pull request, ensure that, if the changes involve a change or 
 
 ### Blog / Article
 
-Creating new articles / blog posts is easy:
+We have an automated workflow to make blog post submissions easy! Instead of manually creating markdown files, you can simply fill out a GitHub issue form.
 
-- Add a markdown file under the [`docs/articles/posts`](./docs/articles/posts) folder.
-  - Note, you do not have to add the blog pages to the `mkdocs.yml` - it gets added to the nav bar automatically.
-- Add yourself to the [`docs/articles/posts/.authors.yml`], so your face and info appears next to the article.
-- The markdown file should have some metadata at the start, like the below. For more info on these parameters, see the [mkdocs material blog plugin guidance](https://squidfunk.github.io/mkdocs-material/plugins/blog/). You can also copy it from another blog to make sure you've got it right.
-- If you dont have any links to include, remove that bit, or it will throw an error.
+#### How to Submit a Blog Post
 
-```markdown
----
-title: Why we’re getting our data teams to RAP
-authors: [SamHollings]
-date: 2023-01-05
-categories:
-    - RAP
-    - Python
-links:
-    - Link Name: https://digital.nhs.uk/blog/data-points-blog/2023/why-were-getting-our-data-teams-to-rap
-slug: rap-in-NHSE
-description: >
-    Reproducible analytical pipelines (RAP) help ensure all published statistics meet the highest standards of transparency and reproducibility. Sam Hollings and Alistair Bullward share their insights on adopting RAP and give advice to those starting out.
----
-```
+1. **[Create a new blog post issue](https://github.com/NHSEngland/datascience/issues/new?template=blog_post.yml)**
 
-### Project Page 
+2. **Fill out the form with the following information:**
+   - **Post title**: The title of your blog post (required)
+   - **Slug**: A URL-friendly identifier, lowercase with hyphens only (required)
+   - **Publication date**: In YYYY-MM-DD format (required)
+   - **Categories**: Comma-separated list of categories (required)
+   - **Short description**: A one or two sentence summary shown in the blog index (required)
+   - **Post body**: The full content of your post in Markdown (required)
+   - **Links** (optional): Related links in the format `Link Name: URL` (one per line). Leave this blank if you have no links — including the section with no content will cause a build error.
+   - **Author ID**: A short unique identifier, usually FirstnameLastname (required)
+   - **Author details** (optional if already registered): Your full name, job title/bio, avatar URL, and profile URL. If you’ve submitted before, just fill in the Author ID and leave the rest blank.
 
-- Check out the [project template](https://github.com/nhsengland/datascience/blob/main/docs/our_work/template-project.md) for how to contribute a project page to the website.
+3. **Upload your images** (optional):
+   - While writing your post body, drag and drop images directly into the text area
+   - GitHub will upload them automatically — no need to write image paths manually
+   - The workflow will download all images and save them to `docs/images/blogs_images/[slug]/`
+   - Supported formats: PNG, JPG, JPEG, GIF
 
+#### What Happens Next
+
+Once you submit the issue:
+
+1. **Automated Workflow Runs** — GitHub validates required fields and generates a properly formatted markdown file in `docs/articles/posts/`
+2. **Author Registration** — If you provided new author details, you’re added to `.authors.yml` automatically
+3. **Images Processed** — Any images in your post body are downloaded and paths updated to local references
+4. **Pull Request Created** — A PR is automatically created with all your changes, and a comment is posted on your issue linking to it
+5. **Team Review** — The team will review your blog post. You may receive feedback or suggested edits before it’s merged and goes live.
+
+### Project Page Submission
+
+We have an automated workflow to make project page submissions easy! Instead of manually creating markdown files and updating mkdocs.yml, you can simply fill out a GitHub issue form.
+
+#### How to Submit a Project Page
+
+1. **[Create a new project submission issue](https://github.com/NHSEngland/datascience/issues/new?template=project-submission.yml)**
+
+2. **Fill out the form with the following information:**
+   - **Project Title**: The full name of your project (required)
+   - **One-Line Summary**: A concise summary in 150 characters or less (required)
+   - **Origin** (optional): Where the work originated (e.g., "AI Skunkworks", "Capability Building")
+   - **Tags**: Select all applicable tags from the categories:
+     - Domain Areas (e.g., Secondary care, Emergency care, Diseases)
+     - Techniques (e.g., Machine Learning, NLP, Deep Learning)
+     - Project Type (e.g., Modelling, Research, Best Practice Guidance)
+     - Data Types (e.g., Structured, Unstructured, Synthetic)
+     - Coding Language (e.g., Python, SQL, R)
+     - Status (e.g., Complete, In Development, Deployed)
+   - **Project Description**: Write your description in Markdown including:
+     - Problem statement (what problem did you solve?)
+     - Solution (how did you solve it?)
+     - Key Results (what was the impact/outcome?)
+   - **Relevant Links** (optional): Include links to code, papers, case studies, live tools (format: `Link Name: URL`)
+   - **Project Status**: "Current Project" or "Past Project"
+   - **Year** (if past project): The year the project concluded
+   - **Main Work Area Category**: Select from:
+     - Predictive Analytics Products
+     - Data Science for Linked/Longitudinal Data
+     - Natural Language Processing Products
+     - Data Science Capability
+     - Research & Development
+
+3. **Upload your images** (after creating the issue):
+   - Click "Upload files" in the issue comments to attach your images
+   - Include a visual abstract or cover image (required) to represent your project
+   - Add any additional supporting images (optional)
+   - Supported formats: PNG, JPG, JPEG, GIF
+   - Recommended minimum size: 400x300px
+
+#### What Happens Next
+
+Once you submit the issue:
+
+1. ✅ **Automated Workflow Runs**
+   - GitHub validates all required fields
+   - Checks that all tags are valid
+   - Ensures the project slug is unique
+2. 📝 **Markdown Generated**
+   - A properly formatted project page markdown file is created
+   - Your frontmatter (title, summary, origin, tags) is set up correctly
+   - Your description and links are structured correctly
+3. 🗂️ **Navigation Updated**
+   - The project is automatically added to `mkdocs.yml` under:
+     - **Past/Current Projects** section (organized by year if past project)
+     - **Main Work Areas** section (under your selected category)
+4. 🖼️ **Images Processed**
+   - All images you uploaded are copied to `docs/images/our_work/[project-slug]/`
+   - Image paths in your markdown are automatically updated
+5. 📤 **Pull Request Created**
+   - A PR is automatically created with all your changes
+   - The PR includes the new markdown file, updated mkdocs.yml, and your images
+   - A comment is posted on your original issue linking to the PR
+
+6. 👀 **Team Review**
+   - The team will review your project page
+   - You may receive feedback or suggested edits
+   - Once approved, the PR will be merged and your project goes live!
+
+#### Guidelines
+
+- **For the best results**, read the [project template](https://github.com/NHSEngland/datascience/blob/main/docs/our_work/template-project.md) to understand the expected structure
+- **Look at existing projects** in the [Our Work section](https://nhsengland.github.io/datascience/our_work/) for inspiration and examples of well-formatted project pages
+- **Choose tags carefully** — reference the [tag ontology](https://nhsengland.github.io/datascience/our_work/tags/) to select appropriate tags for your project
+- **Content review** — if your project involves policy or sensitive content, ensure you've gone through the appropriate content review process before submission (see [Content Review](#content-review) below)
+- **Writing tips**:
+  - Keep descriptions concise and impact-focused
+  - Highlight real outcomes and benefits to the health system
+  - Use clear, accessible language (avoid jargon)
+  - Include metrics where possible (e.g., "saved 150 hours", "improved accuracy by X%")
 
 ## Resources
 
@@ -113,6 +198,7 @@ description: >
 [style]: http://ben.balter.com/jekyll-style-guide/
 
 # Existing Warnings
+
 The following are errors that are already existing in the mkdocs build and that you can safely ignore when creating a PR:
 
 ```
@@ -124,6 +210,6 @@ INFO    -  The following pages exist in the docs directory, but are not included
 
 # Adding credit for people's contributions
 
-You might have seen the [contributors page of the website](https://nhsengland.github.io/datascience/meta_page/) and wondered how you can give credit to colleagues who may have helped with the content you're submitting to the website, but aren't necessarily the ones to have submitted a PR. 
+You might have seen the [contributors page of the website](https://nhsengland.github.io/datascience/meta_page/) and wondered how you can give credit to colleagues who may have helped with the content you're submitting to the website, but aren't necessarily the ones to have submitted a PR.
 
-This page uses the [all contributors bot](https://all-contributors.github.io/). Use [this guidance](https://all-contributors.github.io/bot/usage/) on how to comment in your PR to add people and see [this page](https://all-contributors.github.io/emoji-key/) for what sorts of things you may be able to give people credit for. 
+This page uses the [all contributors bot](https://all-contributors.github.io/). Use [this guidance](https://all-contributors.github.io/bot/usage/) on how to comment in your PR to add people and see [this page](https://all-contributors.github.io/emoji-key/) for what sorts of things you may be able to give people credit for.

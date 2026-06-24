@@ -48,5 +48,5 @@ In this proof of concept, the aim was to identify whether we can predict classes
 | HSMA website | [Website](https://hsma.co.uk/) |
 | Blog post | [Blog](https://nhsengland.github.io/datascience/articles/2025/06/27/hsma-waiting-lists/) |
 
-
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #

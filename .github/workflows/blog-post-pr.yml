@@ -1,0 +1,491 @@
+name: Create Blog Post PR from Issue
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  create-blog-post-pr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+
+    steps:
+      # Check if this is a blog post submission by looking at the title or body
+      - name: Detect blog post submission
+        id: detect
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = context.payload.issue.title || '';
+            const body = context.payload.issue.body || '';
+            const hasLabel = context.payload.issue.labels.some(l => l.name === 'blog-post');
+            const hasProjectLabel = context.payload.issue.labels.some(l => l.name === 'project-submission');
+
+            // Skip if this is explicitly a project submission
+            if (hasProjectLabel) {
+              console.log('This is a project submission, not a blog post');
+              core.setOutput('is_blog_post', 'false');
+              return;
+            }
+
+            // Check if it's a blog post (has label OR title starts with [Blog Post] OR body contains blog post fields)
+            const isBlogPost = hasLabel ||
+                               title.startsWith('[Blog Post]') ||
+                               body.includes('### Post title');
+
+            core.setOutput('is_blog_post', isBlogPost.toString());
+
+            // Add label if missing but detected as blog post
+            if (isBlogPost && !hasLabel) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: ['blog-post']
+              });
+              console.log('Added blog-post label');
+            }
+
+      - name: Checkout repository
+        if: steps.detect.outputs.is_blog_post == 'true'
+        uses: actions/checkout@v4
+
+      # ── Parse issue body ─────────────────────────────────────────────────────
+      - name: Parse issue fields
+        if: steps.detect.outputs.is_blog_post == 'true'
+        id: parse
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body ?? '';
+
+            // Known issue-form field headings (used to detect section boundaries)
+            const knownFields = [
+              'Post title',
+              'Slug \\(URL-friendly identifier\\)',
+              'Publication date',
+              'Categories',
+              'Short description',
+              'Post body',
+              'Links \\(optional\\)',
+              'Author ID',
+              'Your full name',
+              'Job title \\/ bio',
+              'Avatar URL',
+              'Profile URL'
+            ];
+
+            // Helper: extract the text under a given issue-form heading
+            function extract(label) {
+              // Build a lookahead that only stops at other known field headings, not arbitrary ### headings in content
+              const otherFields = knownFields
+                .filter(f => f.toLowerCase() !== label.toLowerCase())
+                .join('|');
+              const re = new RegExp(
+                `### ${label}\\s*\\n+([\\s\\S]*?)(?=\\n### (?:${otherFields})\\s*\\n|$)`,
+                'i'
+              );
+              const m = body.match(re);
+              if (!m) return '';
+              const val = m[1].trim();
+              // GitHub renders blank optional fields as "_No response_"
+              return val === '_No response_' ? '' : val;
+            }
+
+            const title           = extract('Post title');
+            const slug            = extract('Slug \\(URL-friendly identifier\\)');
+            const date            = extract('Publication date');
+            const categoriesRaw   = extract('Categories');
+            const description     = extract('Short description');
+            const postBody        = extract('Post body');
+            const linksRaw        = extract('Links \\(optional\\)');
+
+            const authorId          = extract('Author ID');
+            const authorName        = extract('Your full name');
+            const authorDescription = extract('Job title \\/ bio');
+            const authorAvatar      = extract('Avatar URL');
+            const authorUrl         = extract('Profile URL');
+
+            // Turn "RAP, Python" → ["RAP", "Python"]
+            const categories = categoriesRaw
+              .split(',')
+              .map(c => c.trim())
+              .filter(Boolean);
+
+            // Turn "Name: url\nName2: url2" → [{name, url}]
+            const links = linksRaw
+              ? linksRaw.split('\n')
+                  .map(l => l.trim())
+                  .filter(l => l.includes(':'))
+                  .map(l => {
+                    const idx = l.indexOf(':');
+                    return {
+                      name: l.slice(0, idx).trim(),
+                      url: l.slice(idx + 1).trim()
+                    };
+                  })
+              : [];
+
+            // Validate required fields
+            const missingFields = [];
+            if (!title) missingFields.push('Post title');
+            if (!slug) missingFields.push('Slug (URL-friendly identifier)');
+            if (!date) missingFields.push('Publication date');
+            if (!categoriesRaw) missingFields.push('Categories');
+            if (!description) missingFields.push('Short description');
+            if (!postBody) missingFields.push('Post body');
+            if (!authorId) missingFields.push('Author ID');
+
+            if (missingFields.length > 0) {
+              const errorMsg = `❌ Missing required fields:\n${missingFields.map(f => `- ${f}`).join('\n')}`;
+              core.setFailed(errorMsg);
+
+              // Comment on the issue with helpful error
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: `## ❌ Submission Error\n\n${errorMsg}\n\nPlease edit your issue to fill in all required fields.`
+              });
+
+              throw new Error(errorMsg);
+            }
+
+            // Expose as outputs
+            core.setOutput('title',            title);
+            core.setOutput('slug',             slug);
+            core.setOutput('date',             date);
+            core.setOutput('categories',       JSON.stringify(categories));
+            core.setOutput('description',      description);
+            core.setOutput('post_body',        postBody);
+            core.setOutput('links',            JSON.stringify(links));
+            core.setOutput('author_id',        authorId);
+            core.setOutput('author_name',      authorName);
+            core.setOutput('author_desc',      authorDescription);
+            core.setOutput('author_avatar',    authorAvatar);
+            core.setOutput('author_url',       authorUrl);
+
+      # ── Build & write the markdown file ─────────────────────────────────────
+      - name: Generate markdown file
+        if: steps.detect.outputs.is_blog_post == 'true'
+        id: generate
+        uses: actions/github-script@v7
+        env:
+          TITLE: ${{ steps.parse.outputs.title }}
+          SLUG: ${{ steps.parse.outputs.slug }}
+          DATE: ${{ steps.parse.outputs.date }}
+          CATEGORIES: ${{ steps.parse.outputs.categories }}
+          DESCRIPTION: ${{ steps.parse.outputs.description }}
+          POST_BODY: ${{ steps.parse.outputs.post_body }}
+          LINKS: ${{ steps.parse.outputs.links }}
+          AUTHOR_ID: ${{ steps.parse.outputs.author_id }}
+        with:
+          script: |
+            const { TITLE, SLUG, DATE, AUTHOR_ID, DESCRIPTION, POST_BODY } = process.env;
+            const categories = JSON.parse(process.env.CATEGORIES);
+            const links      = JSON.parse(process.env.LINKS);
+
+            // Build frontmatter
+            let fm = `---\n`;
+            fm += `title: ${TITLE}\n`;
+            fm += `authors: [${AUTHOR_ID}]\n`;
+            fm += `date: ${DATE}\n`;
+            fm += `categories:\n`;
+            for (const cat of categories) fm += `    - ${cat}\n`;
+            if (links.length > 0) {
+              fm += `links:\n`;
+              for (const l of links) fm += `    - ${l.name}: ${l.url}\n`;
+            }
+            fm += `slug: ${SLUG}\n`;
+            fm += `description: >\n    ${DESCRIPTION}\n`;
+            fm += `---\n`;
+
+            const content = `${fm}\n> ${DESCRIPTION}\n\n<!-- more -->\n\n${POST_BODY}\n`;
+
+            // Write to the correct location
+            const fs = require('fs');
+            const path = require('path');
+            const dir  = 'docs/articles/posts';
+            fs.mkdirSync(dir, { recursive: true });
+            const filename = `${SLUG}.md`;
+            fs.writeFileSync(path.join(dir, filename), content);
+            core.setOutput('filename', filename);
+
+      # ── Update .authors.yml if new author details were supplied ─────────────
+      - name: Update authors file
+        if: steps.detect.outputs.is_blog_post == 'true'
+        uses: actions/github-script@v7
+        env:
+          AUTHOR_ID: ${{ steps.parse.outputs.author_id }}
+          AUTHOR_NAME: ${{ steps.parse.outputs.author_name }}
+          AUTHOR_DESC: ${{ steps.parse.outputs.author_desc }}
+          AUTHOR_AVATAR: ${{ steps.parse.outputs.author_avatar }}
+          AUTHOR_URL: ${{ steps.parse.outputs.author_url }}
+        with:
+          script: |
+            const { AUTHOR_ID, AUTHOR_NAME, AUTHOR_DESC, AUTHOR_AVATAR, AUTHOR_URL } = process.env;
+
+            // Only update the file if at least a name was supplied
+            if (!AUTHOR_NAME) {
+              console.log('No new author details provided — skipping .authors.yml update.');
+              return;
+            }
+
+            const fs   = require('fs');
+            const path = 'docs/articles/.authors.yml';
+
+            let raw = '';
+            try { raw = fs.readFileSync(path, 'utf8'); } catch {}
+
+            // Avoid adding a duplicate entry
+            if (raw.includes(`  ${AUTHOR_ID}:`)) {
+              console.log(`Author ${AUTHOR_ID} already exists — skipping.`);
+              return;
+            }
+
+            // If the file is empty or missing, add the top-level key
+            if (!raw.includes('authors:')) raw = 'authors:\n';
+
+            const entry = [
+              `  ${AUTHOR_ID}:`,
+              `    name: ${AUTHOR_NAME}`,
+              `    description: ${AUTHOR_DESC || ''}`,
+              `    avatar: ${AUTHOR_AVATAR || ''}`,
+              `    slug: ${AUTHOR_ID}`,
+              `    url: ${AUTHOR_URL || ''}`,
+            ].join('\n') + '\n';
+
+            fs.writeFileSync(path, raw + entry);
+            console.log(`Added author: ${AUTHOR_ID}`);
+
+      # ── Download and process images ────────────────────────────────────────
+      - name: Process and download images
+        if: steps.detect.outputs.is_blog_post == 'true'
+        id: images
+        uses: actions/github-script@v7
+        env:
+          SLUG: ${{ steps.parse.outputs.slug }}
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const https = require('https');
+
+            const slug = process.env.SLUG;
+            const issueBody = context.payload.issue.body || '';
+
+            // Extract image URLs from issue body (GitHub CDN URLs from file uploads)
+            const matches = [];
+            let match;
+
+            // Match markdown images: ![alt](https://github.com/...)
+            const mdRegex = /!\[([^\]]*)\]\((https:\/\/github\.com\/[^\s)]+)\)/g;
+            while ((match = mdRegex.exec(issueBody)) !== null) {
+              matches.push({ alt: match[1], url: match[2] });
+            }
+
+            // Match HTML img tags: <img ... src="https://github.com/..." ... />
+            const htmlRegex = /<img[^>]+src=["'](https:\/\/github\.com\/[^\s"']+)["'][^>]*>/g;
+            while ((match = htmlRegex.exec(issueBody)) !== null) {
+              const altMatch = match[0].match(/alt=["']([^"']*)["']/);
+              matches.push({ alt: altMatch ? altMatch[1] : 'image', url: match[1] });
+            }
+
+            if (matches.length === 0) {
+              console.log('No images found in issue body.');
+              core.setOutput('image_count', '0');
+              return;
+            }
+
+            console.log(`Found ${matches.length} image(s) to download`);
+
+            // Create images directory
+            const imagesDir = path.join('docs/images/blogs_images', slug);
+            fs.mkdirSync(imagesDir, { recursive: true });
+
+            // Download each image
+            const downloadedImages = [];
+            const mimeToExt = {
+              'image/png': '.png',
+              'image/jpeg': '.jpg',
+              'image/gif': '.gif',
+              'image/webp': '.webp',
+              'image/svg+xml': '.svg',
+            };
+            const knownExts = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg'];
+
+            for (const img of matches) {
+              const urlParts = img.url.split('/');
+              let filename = urlParts[urlParts.length - 1].split('?')[0] || `image-${downloadedImages.length + 1}`;
+              const filepath = path.join(imagesDir, filename);
+
+              try {
+                // Download the file
+                await new Promise((resolve, reject) => {
+                  https.get(img.url, (response) => {
+                    // Follow redirects
+                    if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
+                      https.get(response.headers.location, (redirected) => {
+                        // Add extension from content-type if filename lacks one
+                        const contentType = (redirected.headers['content-type'] || '').split(';')[0].trim();
+                        const hasExt = knownExts.some(ext => filename.toLowerCase().endsWith(ext));
+                        if (!hasExt && mimeToExt[contentType]) {
+                          filename = filename + mimeToExt[contentType];
+                        }
+                        const finalPath = path.join(imagesDir, filename);
+                        const file = fs.createWriteStream(finalPath);
+                        redirected.pipe(file);
+                        file.on('finish', () => {
+                          file.close();
+                          console.log(`Downloaded: ${filename}`);
+                          downloadedImages.push({ filename, alt: img.alt, url: img.url });
+                          resolve();
+                        });
+                      }).on('error', reject);
+                      return;
+                    }
+                    // Add extension from content-type if filename lacks one
+                    const contentType = (response.headers['content-type'] || '').split(';')[0].trim();
+                    const hasExt = knownExts.some(ext => filename.toLowerCase().endsWith(ext));
+                    if (!hasExt && mimeToExt[contentType]) {
+                      filename = filename + mimeToExt[contentType];
+                    }
+                    const finalPath = path.join(imagesDir, filename);
+                    const file = fs.createWriteStream(finalPath);
+                    response.pipe(file);
+                    file.on('finish', () => {
+                      file.close();
+                      console.log(`Downloaded: ${filename}`);
+                      downloadedImages.push({ filename, alt: img.alt, url: img.url });
+                      resolve();
+                    });
+                  }).on('error', reject);
+                });
+              } catch (err) {
+                console.warn(`Failed to download ${filename}:`, err.message);
+              }
+            }
+
+            core.setOutput('image_count', downloadedImages.length.toString());
+            core.setOutput('images_json', JSON.stringify(downloadedImages));
+
+      # ── Update post markdown with local image paths ─────────────────────────
+      - name: Update image paths in post
+        if: steps.detect.outputs.is_blog_post == 'true' && steps.images.outputs.image_count != '0'
+        uses: actions/github-script@v7
+        env:
+          SLUG: ${{ steps.parse.outputs.slug }}
+          IMAGES_JSON: ${{ steps.images.outputs.images_json }}
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+
+            const slug = process.env.SLUG;
+            const images = JSON.parse(process.env.IMAGES_JSON || '[]');
+            const postPath = path.join('docs/articles/posts', `${slug}.md`);
+            let content = fs.readFileSync(postPath, 'utf8');
+
+            // Build a map of GitHub CDN URL → local filename
+            const imageMap = new Map(images.map(img => [img.url, img.filename]));
+
+            // Replace markdown image URLs with local paths
+            content = content.replace(
+              /!\[([^\]]*)\]\((https:\/\/github\.com\/[^\s)]+)\)/g,
+              (match, alt, url) => {
+                const filename = imageMap.get(url);
+                if (filename) {
+                  console.log(`Replacing markdown image: ${url}`);
+                  return `![${alt}](../images/blogs_images/${slug}/${filename})`;
+                }
+                return match;
+              }
+            );
+
+            // Replace HTML img tag URLs with local markdown images
+            content = content.replace(
+              /<img[^>]+src=["'](https:\/\/github\.com\/[^\s"']+)["'][^>]*>/g,
+              (match, url) => {
+                const filename = imageMap.get(url);
+                if (filename) {
+                  const altMatch = match.match(/alt=["']([^"']*)["']/);
+                  const alt = altMatch ? altMatch[1] : 'image';
+                  console.log(`Replacing HTML img: ${url}`);
+                  return `![${alt}](../images/blogs_images/${slug}/${filename})`;
+                }
+                return match;
+              }
+            );
+
+            fs.writeFileSync(postPath, content);
+            console.log('Updated image paths in post');
+
+      # ── Commit, push, and open the PR using the native GitHub CLI ───────────
+      - name: Commit and push to new branch
+        if: steps.detect.outputs.is_blog_post == 'true'
+        run: |
+          BRANCH="blog-post/${{ steps.parse.outputs.slug }}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Delete remote branch if it exists
+          git push origin --delete "$BRANCH" 2>/dev/null || true
+
+          git checkout -b "$BRANCH"
+          git add docs/articles/posts/${{ steps.generate.outputs.filename }} \
+                  docs/articles/.authors.yml
+          # Add images if any were downloaded
+          if [ -d "docs/images/blogs_images/${{ steps.parse.outputs.slug }}" ]; then
+            git add "docs/images/blogs_images/${{ steps.parse.outputs.slug }}"
+          fi
+          git commit -m "docs: add blog post '${{ steps.parse.outputs.title }}'"
+          git push origin "$BRANCH"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Pull Request
+        if: steps.detect.outputs.is_blog_post == 'true'
+        uses: actions/github-script@v7
+        env:
+          IMAGE_COUNT: ${{ steps.images.outputs.image_count }}
+          SLUG: ${{ steps.parse.outputs.slug }}
+          TITLE: ${{ steps.parse.outputs.title }}
+          FILENAME: ${{ steps.generate.outputs.filename }}
+          AUTHOR_ID: ${{ steps.parse.outputs.author_id }}
+          DATE: ${{ steps.parse.outputs.date }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        with:
+          script: |
+            const imageCount = process.env.IMAGE_COUNT || '0';
+            const imagesInfo = imageCount !== '0'
+              ? `\n**Images:** ${imageCount} image(s) included in \`docs/images/blogs_images/${process.env.SLUG}/\``
+              : '';
+
+            const prBody = 'This PR was created automatically from issue #' + process.env.ISSUE_NUMBER + '.\n\n' +
+              '**Post:** `docs/articles/posts/' + process.env.FILENAME + '`\n' +
+              '**Author:** ' + process.env.AUTHOR_ID + '\n' +
+              '**Date:** ' + process.env.DATE + imagesInfo + '\n\n' +
+              'Please review the generated file before merging.\n\n' +
+              'Closes #' + process.env.ISSUE_NUMBER;
+
+            const pr = await github.rest.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              head: `blog-post/${process.env.SLUG}`,
+              base: 'main',
+              title: `📝 Blog Post: ${process.env.TITLE}`,
+              body: prBody
+            });
+
+            // Add label to PR
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr.data.number,
+              labels: ['blog-post']
+            });
+
+            console.log(`Created PR #${pr.data.number}: ${pr.data.html_url}`);
