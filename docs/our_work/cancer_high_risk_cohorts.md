@@ -62,6 +62,20 @@ Male –white ethnicity | At least one call reporting cancer related symptoms in
 
 For the white ethnicity group, features related to 111 calls are particularly effective in identifying high-risk groups. The specific nature of the symptom information (blood in urine) can result in small cohorts with lift values of 47.5 for white females, and 36 for white males. In contrast, for the non-white ethnic group, more general health factors (e.g. A&E attendance) and comorbidities (e.g. COPD) result in the highest risk groups. These cohorts are still significantly higher in cancer incidence compared to baseline rates for these populations, as shown by the lift values of 2.9 for females, and 4.9 for males. However, they are also significantly lower than the lift values obtained for the white ethnic group. This likely reflects health inequalities in the utilisation of services such as 111 calls. 
 
+### Patient Pathways Analysis 
+
+In a second phase, we used the Leeds Data Model (LDM) to understand how patients in Leeds interact with the healthcare system before diagnosis and identify opportunities for earlier detection of cancer.  We analysed breast and lung cancer cohorts, identifying symptoms reported by patients to their GP or in 111 calls, diagnoses and procedures recorded in hospital data and medications prescribed in primary care. Symptoms were defined using NICE guidelines and mapped to standard clinical code lists to allow linkage across different data sources. This approach enabled patient histories to be constructed across multiple healthcare settings, as shown for lung cancer in the figure below. 
+
+![Image showing patient pathways for lung cancer are constructed from linked data assets. For each patient, a matched control was selected who did not have a lung cancer](../images/cancer_high_risk_lung_pathway.png)
+
+### Breast Cancer 
+
+For breast cancer, we observed that diagnostic pathways were generally efficient once patients reached secondary care, with relatively short times from referral to diagnosis. Patients diagnosed through screening were more likely to be diagnosed at an early stage, whilst those who missed screening were more likely to be diagnosed later and were more often from more deprived groups.  
+
+ 
+### Lung Cancer 
+
+For lung cancer, we observed that patients diagnosed via emergency presentation were more likely to be diagnosed at a later stage, but many had prior contact with primary care. However, this did not always lead to timely investigation. This suggests there are opportunities for earlier investigation and intervention. Chest imaging rates were lower for emergency presenters compared to those diagnosed via GP referral. We also observed variation in rates of referral for chest x-rays by GP practice in Leeds and are extending this analysis to GPs nationally.  
 
 ## Teams
 
