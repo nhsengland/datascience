@@ -2,7 +2,7 @@
 title: 'Vaccine Invitations'
 summary: 'Using historical Covid vaccine invitations data to optimise the invitation strategy for future campaigns'
 origin: 'Skunkworks  (this is for legacy pages mainly, so we know where the work came from)'
-tags: ['PUBLIC/POPULATION HEALTH', 'MACHINE LEARNING', 'FORECASTING', 'MODELLING', 'TIME SERIES', 'PSEUDONYMISED', 'PYTHON', 'WIP']
+tags: ['PUBLIC/POPULATION HEALTH', 'MACHINE LEARNING', 'FORECASTING', 'MODELLING', 'TIME SERIES', 'PSEUDONYMISED', 'PYTHON', 'COMPLETE']
 ---
 
 ![Image showing the path by which invites are sent out during a vaccine campaign](../images/vaccines_invites_sequence.png)
