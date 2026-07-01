@@ -24,7 +24,7 @@ The motivation was the team's synthetic data publication.
 
 > Check out information in the [previous post](https://nhsengland.github.io/datascience/articles/2026/04/09/synthetic_clinical_notes/).
 
-I'd thought it might be helpful (or not late) to introduce how I went from synthetic clinical notes to a simple agent, in a few hours.
+I'd thought it might be helpful to introduce how I went from synthetic clinical notes to a simple agent, in a few hours.
 
 
 ### The agent
