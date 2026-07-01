@@ -52,13 +52,13 @@ g = StateGraph(State)
     return g.compile()
 ```
 
-`deidentify_in` redacts PII*, using `[TYPE]` tags like `[NAME]` or `[NHS number]`.
+`deidentify_in` pseudonymises PII*, using `[LABEL_n]` surrogates like `[PERSON_1]`, or `[NHS_1]`.
 
 `agent` drafts the summary.
 
 `reidentify_out` restores the PII at the end.
 
-`compute_trust` sits in to evaluate the records what was removed.
+`compute_trust` counts the identifiers-removed sets in `deidentify_in`.
 
 *Please be reassured that Personally Identifiable Information (PII) are taken only from the [team's synthetic clinical notes dataset](https://huggingface.co/datasets/NHSEDataScience/synthetic_clinical_notes) in this example.
 
@@ -71,7 +71,7 @@ No patient data leaves NHS. Rules strictly applies to ML/AI Engineering too.
 
 In this example, I've chosen redaction (see [details](https://www.england.nhs.uk/long-read/redacting-information-for-online-record-access/)) for de-identifying the information what can then feed to Gen AI and LLMs.
 
-My go-to model `gemini-2.0-flash` drafts compact eDischarge card based on NICE/NHS guidance that are pulled via Tavily.
+My go-to model `gemini-2.5-flash` drafts compact eDischarge card based on NICE/NHS guidance that are pulled via Tavily.
 
 This is a LangGraph ReAct agent (Gemini + Tavily) wrapped so the model and tools only ever see de-identified text, therefore real identifiers are restored only in the final clinician-facing answer.
 
@@ -90,9 +90,9 @@ messy NHS note  ──►  NoteGuard de-id  ──►  de-identified text
                          NoteGuard re-id  ◄─────┘
                          (surrogates → real names, clinician only)
                                 │
-                         Trust panel:
-                         leakage % · identifiers removed
-                         leaked tokens · faithfulness · sources
+                         Trust panel (de-id correctness only):
+                         de-id PASS/FAIL · identifiers replaced
+                         residual PII (model input) · reversible
 </pre>
 
 A practical tip if you try it: decide what travels between nodes first. Almost every bug I hit was a state-shape disagreement, not a logic error.
