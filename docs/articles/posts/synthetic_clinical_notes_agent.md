@@ -76,7 +76,7 @@ My go-to model `gemini-2.0-flash` drafts compact eDischarge card based on NICE/N
 This is a LangGraph ReAct agent (Gemini + Tavily) wrapped so the model and tools only ever see de-identified text, therefore real identifiers are restored only in the final clinician-facing answer.
 
 
-```
+<pre>
 messy NHS note  ──►  NoteGuard de-id  ──►  de-identified text
 (synthetic)           (NHS-aware rules       + identifiers removed count
                        + vault from CSV)     + residual leakage %
@@ -93,7 +93,7 @@ messy NHS note  ──►  NoteGuard de-id  ──►  de-identified text
                          Trust panel:
                          leakage % · identifiers removed
                          leaked tokens · faithfulness · sources
-```
+</pre>
 
 A practical tip if you try it: decide what travels between nodes first. Almost every bug I hit was a state-shape disagreement, not a logic error.
 
