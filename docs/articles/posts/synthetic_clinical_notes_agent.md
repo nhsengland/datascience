@@ -16,7 +16,7 @@ description: >
     This article introduces an application of the [team's synthetic clinical notes dataset](https://huggingface.co/datasets/NHSEDataScience/synthetic_clinical_notes), published on Hugging Face. It is a very small agent example, built on purpose to demonstrate the open-source LangGraph framework and to show how little it takes to get started.
 ---
 
-> This article introduces an application of the [team's synthetic clinical notes dataset](https://huggingface.co/datasets/NHSEDataScience/synthetic_clinical_notes), published on Hugging Face. It is a very small agent example, built on purpose to demonstrate the open-source LangGraph framework and to show how little it takes to get started.
+> This article introduces an application of the [team's synthetic clinical notes dataset](https://huggingface.co/datasets/NHSEDataScience/synthetic_clinical_notes), published on Hugging Face. It is a very small agent example, built on purpose to demonstrate the open-source LangGraph framework and to show how little it takes to get started. This agent is engineered to handle autonomous summaries over clinical notes.
 
 <!-- more -->
 
