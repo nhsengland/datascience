@@ -64,9 +64,9 @@ For the white ethnicity group, features related to 111 calls are particularly ef
 
 ### Patient Pathways Analysis 
 
-In a second phase, we used the Leeds Data Model (LDM) to understand how patients in Leeds interact with the healthcare system before diagnosis and identify opportunities for earlier detection of cancer.  We analysed breast and lung cancer cohorts, identifying symptoms reported by patients to their GP or in 111 calls, diagnoses and procedures recorded in hospital data and medications prescribed in primary care. Symptoms were defined using NICE guidelines and mapped to standard clinical code lists to allow linkage across different data sources. This approach enabled patient histories to be constructed across multiple healthcare settings, as shown for lung cancer in the figure below. 
+In a second phase, we used the Leeds Data Model (LDM) to understand how patients in Leeds interact with the healthcare system before diagnosis and identify opportunities for earlier detection of cancer.  We analysed breast and lung cancer cohorts, identifying symptoms reported by patients to their GP or in 111 calls, diagnoses and procedures recorded in hospital data and medications prescribed in primary care. Symptoms were defined using NICE guidelines and mapped to standard clinical code lists to allow linkage across different data sources. This approach enabled patient histories to be constructed across multiple healthcare settings, as shown for hypothetical lung cancer patient in the figure below. 
 
-![Image showing patient pathways for lung cancer are constructed from linked data assets. For each patient, a matched control was selected who did not have a lung cancer](../images/cancer_high_risk_lung_pathway.png)
+![Image showing hypothetical patient pathway for lung cancer are constructed from linked data assets. For each patient, a matched control was selected who did not have a lung cancer](../images/cancer_high_risk_lung_pathway.png)
 
 ### Breast Cancer 
 
