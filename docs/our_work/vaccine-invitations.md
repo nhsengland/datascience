@@ -26,7 +26,7 @@ The current uniform invitation strategy assumes homogenous behaviour, our analys
 
 ## Methods
 
-This project was conducted within the Federated Data Platform. PySpark was used to build the data assets. Pandas and Matplotlib were used to conduct the exploratory analysis, with Pandas also used to develop the proposed solutions.
+PySpark was used to build the data assets. Pandas and Matplotlib were used to conduct the exploratory analysis, with Pandas also used to develop the proposed solutions.
 
 Descriptive analysis showed that most conversions occur early in the invitation sequence. However, this pattern is not uniform across the population. To understand how vaccination behaviour varies across the population, we analysed individuals who were eligible to receive four Covid vaccines in the last two years and examined the number of vaccines actually received (0 to 4) and analysed patterns across age, clinical risk status, region, ethnicity and deprivation (IMD). 
 
