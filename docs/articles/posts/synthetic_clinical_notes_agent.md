@@ -33,7 +33,7 @@ I'd thought it might be helpful to introduce how I went from synthetic clinical 
 
 The example I built is deliberately small.
 
-A single straightforward workflow. No branching nodes. No loops.
+A single straightforward workflow. No branching nodes.
 
 
 It only gets to grips with the open-source [LangGraph](https://docs.langchain.com/oss/python/langgraph/overview) framework along the way.
@@ -52,6 +52,9 @@ g = StateGraph(State)
     return g.compile()
 ```
 
+The top-level graph is linear while the ReAct agent inside loops.
+
+
 `deidentify_in` pseudonymises PII*, using `[LABEL_n]` surrogates like `[PERSON_1]`, or `[NHS_1]`.
 
 `agent` drafts the summary.
@@ -67,9 +70,9 @@ g = StateGraph(State)
 
 The de-identification is ordinary.
 
-No patient data leaves NHS. Rules strictly applies to ML/AI Engineering too.
+Patient data never leaves the NHS infrastructure under any circumstances. This policy strictly governs all ML/AI Engineering lifecycle stages, including testing, prototyping, and continuous learning purpose developments.
 
-In this example, I've chosen redaction (see [details](https://www.england.nhs.uk/long-read/redacting-information-for-online-record-access/)) for de-identifying the information what can then feed to Gen AI and LLMs.
+In this example, therefore, I've chosen redaction (see [details](https://www.england.nhs.uk/long-read/redacting-information-for-online-record-access/)) for de-identifying the information what can then feed to Gen AI and LLMs.
 
 My go-to model `gemini-2.5-flash` drafts compact eDischarge card based on NICE/NHS guidance that are pulled via Tavily.
 
@@ -101,4 +104,4 @@ For a prototype, I designed the structure of the graph can carry a guarantee tha
 
 
 ### Why I'm sharing it?
-Vibe coding was not taking long enough for me to learn. But I found that spending a few focused hours vibe on an open dataset with a framework is genuinely giving much foods for thoughts. If you have heard about agents but not yet tried building your own, the synthetic notes are ready and risk-free place to start experimenting tools on top. My code for today's experiments is public, open to all feedback.
+Moving beyond basic "vibe coding," I spent a few hours developing a simple agent with an open-source framework on top of the team's synthetic dataset. It is genuinely giving much foods for thoughts. If you have heard about agents but not yet tried building your own, the synthetic notes are ready and risk-free place to start experimenting tools on top. My code for today's experiments is public, open to all feedback.
