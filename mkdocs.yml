@@ -47,13 +47,13 @@ nav:
         - Reusable Data Validation Process: our_work/sde_data_validation.md
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
         - Synthetic Clinical Notes: our_work/ds304_synthetic_clinical_notes.md
-        - Vaccine Invitations: our_work/vaccine-invitations.md
         - Embedded Data Scientists in the National Disease Registration Service: our_work/ndrs_embedded_ds.md
         - Clinical Measurement Extractor: our_work/clinical_measurement_extractor.md
         - "PLOS: Predicting Length of Stay": our_work/ds_314_plos.md
       - Past Projects:
         - 2026:
           - Forecasting Vaccination Demand: our_work/ds_306_vaccination_forecast.md
+          - Vaccine Invitations: our_work/vaccine-invitations.md
         - 2025:
           - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
           - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
@@ -134,6 +134,7 @@ nav:
           - Quality Assurance Framework for Data Linkage: our_work/data-linkage-hub/linkage-projects/qaf.md
         - Inequalities in Diabetes from PHM Data: our_work/p32_phmdiabetes.md
         - CVD Pathways: our_work/cvd_pathways.md
+        - Vaccine Invitations: our_work/vaccine-invitations.md
       - Natural Language Processing Products:
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
         - Data Lens: our_work/data-lens.md
