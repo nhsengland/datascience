@@ -104,12 +104,17 @@ jobs:
             const year                = extract('Year \\(if Past Project\\)');
             const mainWorkArea        = extract('Main Work Area Category');
 
-            // Parse tags from checkboxes (format: "- [x] label" or "- [ ] label")
+            // Parse tags from checkboxes (format: "- [x] label" or "- [ ] label").
+            // If the issue form option includes an explicit `value:` that is what
+            // will be submitted; otherwise we strip the category prefix and
+            // use a normalized lowercase value.
             const tags = [];
             const tagMatches = tagsRaw.match(/^\s*-\s*\[x\]\s*(.+)$/gm) || [];
             tagMatches.forEach(match => {
-              const tag = match.replace(/^\s*-\s*\[x\]\s*/, '').trim();
-              if (tag) tags.push(tag);
+              let tag = match.replace(/^\s*-\s*\[x\]\s*/, '').trim();
+              // Strip category prefix like "Domain:", "Technique:", etc.
+              tag = tag.replace(/^[^:]+:\s*/, '').trim();
+              if (tag) tags.push(tag.toLowerCase());
             });
 
             // Parse links: "Name: URL" format
@@ -637,6 +642,21 @@ jobs:
               issue_number: pr.data.number,
               labels: ['project-submission']
             });
+
+            // Assign PR to the issue author
+            try {
+              const opener = context.payload.issue.user.login;
+              if (opener) {
+                await github.rest.issues.addAssignees({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: pr.data.number,
+                  assignees: [opener]
+                });
+              }
+            } catch (err) {
+              console.log('Failed to add assignee to PR:', err.message);
+            }
 
             console.log(`Created PR #${pr.data.number}: ${pr.data.html_url}`);
 

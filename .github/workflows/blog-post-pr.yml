@@ -399,7 +399,7 @@ jobs:
                 const filename = imageMap.get(url);
                 if (filename) {
                   console.log(`Replacing markdown image: ${url}`);
-                  return `![${alt}](../images/blogs_images/${slug}/${filename})`;
+                  return `![${alt}](../../images/blogs_images/${slug}/${filename})`;
                 }
                 return match;
               }
@@ -487,5 +487,20 @@ jobs:
               issue_number: pr.data.number,
               labels: ['blog-post']
             });
+
+            // Assign PR to the issue author
+            try {
+              const opener = context.payload.issue.user.login;
+              if (opener) {
+                await github.rest.issues.addAssignees({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: pr.data.number,
+                  assignees: [opener]
+                });
+              }
+            } catch (err) {
+              console.log('Failed to add assignee to PR:', err.message);
+            }
 
             console.log(`Created PR #${pr.data.number}: ${pr.data.html_url}`);
