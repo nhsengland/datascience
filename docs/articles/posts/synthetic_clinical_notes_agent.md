@@ -7,10 +7,6 @@ categories:
     - LLM
     - Generative AI
     - Python
-links:
-    - NHS guidance for redaction: https://www.england.nhs.uk/long-read/redacting-information-for-online-record-access/
-    - Claude written Codes to pull down synthetic clinical notes: https://github.com/chaeyoonyunakim/noteguard-agent/blob/main/src/fetch_dataset.py
-    - Claude written Codes for an agent graph: https://github.com/chaeyoonyunakim/noteguard-agent/blob/main/agent/graph.py
 slug: synthetic_clinical_notes_agent
 description: >
     This article introduces an application of the [team's synthetic clinical notes dataset](https://huggingface.co/datasets/NHSEDataScience/synthetic_clinical_notes), published on Hugging Face. It is a very small agent example, built on purpose to demonstrate the open-source LangGraph framework and to show how little it takes to get started.
@@ -105,3 +101,9 @@ For a prototype, I designed the structure of the graph can carry a guarantee tha
 
 ### Why I'm sharing it?
 Moving beyond basic "vibe coding," I spent a few hours developing a simple agent with an open-source framework on top of the team's synthetic dataset. It is genuinely giving much foods for thoughts. If you have heard about agents but not yet tried building your own, the synthetic notes are ready and risk-free place to start experimenting tools on top. My code for today's experiments is public, open to all feedback.
+
+### Useful links
+
+- [NHS guidance for redaction](https://www.england.nhs.uk/long-read/redacting-information-for-online-record-access/)
+- [Claude written Code to download synthetic clinical notes](https://github.com/chaeyoonyunakim/noteguard-agent/blob/main/src/fetch_dataset.py)
+- [Claude written Code for an agent graph](https://github.com/chaeyoonyunakim/noteguard-agent/blob/main/agent/graph.py)
