@@ -28,7 +28,7 @@ I'd thought it might be helpful to introduce how I went from synthetic clinical 
 
 
 ### The agent
-![Image](../images/blogs_images/synthetic_clinical_notes_agent/9c01aafc-4a11-4564-b816-18b630b1208f.png)
+![Image](../../images/blogs_images/synthetic_clinical_notes_agent/9c01aafc-4a11-4564-b816-18b630b1208f.png)
 
 
 The example I built is deliberately small.
