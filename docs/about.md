@@ -125,6 +125,8 @@ We also support the [NHS Data Science Community](https://data-science-community.
     <tr><td>Jennifer Struthers</td><td>Senior Data Scientist</td><td>Data Science & Applied AI Team</td><td><a href="https://github.com/jenniferstruthers1-nhs">jenniferstruthers1-nhs</a></td> </tr>
     <tr><td>Matthew Taylor</td><td>Senior Data Scientist</td><td>Data Science & Applied AI Team</td><td><a href="https://github.com/mtaylor57">mtaylor57</a></td> </tr>
     <tr><td>Warren Davies</td><td>Senior Data Scientist</td><td>Data Science & Applied AI Team</td><td><a href="https://github.com/warren-davies4">warren-davies4</a></td> </tr>
+    <tr><td>Shinjini Basu</td><td>Senior Data Scientist</td><td>>Data Science & Applied AI Team</td><td><a href="https://github.com/shinnapinna">shinnapinna</a></td> </tr>
     <tr><td>Ilja Lomkov</td><td>Senior Data Scientist</td><td>Workforce, Training & Education Team</td><td><a href="https://github.com/IljaLomkovNHSE">IljaLomkovNHSE</a></td> </tr>
     <tr><td>Chaeyoon Kim</td><td>Data Scientist</td><td>Workforce, Training & Education Team</td><td><a href="https://github.com/ChaeyoonKimNHSE">ChaeyoonKimNHSE</a></td> </tr>
+   
 </table>
