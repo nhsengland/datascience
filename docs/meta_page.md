@@ -58,6 +58,7 @@ This website exists with the hard work of our contributors so thank you to the f
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Simon-W-M"><img src="https://avatars.githubusercontent.com/u/58369769?v=4?s=100" width="100px;" alt="Simon Wellesley-Miller"/><br /><sub><b>Simon Wellesley-Miller</b></sub></a><br /><a href="#blog-Simon-W-M" title="Blogposts">📝</a> <a href="#content-Simon-W-M" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/emanakbar1"><img src="https://avatars.githubusercontent.com/u/193916361?v=4?s=100" width="100px;" alt="emanakbar1"/><br /><sub><b>emanakbar1</b></sub></a><br /><a href="#content-emanakbar1" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/hannahscully"><img src="https://avatars.githubusercontent.com/u/182880997?v=4?s=100" width="100px;" alt="hannahscully"/><br /><sub><b>hannahscully</b></sub></a><br /><a href="#content-hannahscully" title="Content">🖋</a> <a href="#maintenance-hannahscully" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/shinnapinna"><img src="https://avatars.githubusercontent.com/u/155972672?v=4?s=100" width="100px;" alt="Shinjini Basu"/><br /><sub><b>Shinjini Basu</b></sub></a><br /><a href="#maintenance-shinnapinna" title="Maintenance">🚧</a></td>
     </tr>
   </tbody>
 </table>
