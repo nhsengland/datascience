@@ -165,8 +165,18 @@ jobs:
             const tagMatches = tagsRaw.match(/^\s*-\s*\[x\]\s*(.+)$/gm) || [];
             tagMatches.forEach(match => {
               let tag = match.replace(/^\s*-\s*\[x\]\s*/, '').trim();
-              const normalized = tag.toLowerCase();
-              const mapped = tagMap[normalized] || normalized.replace(/^[^:]+:\s*/, '').trim().toLowerCase();
+              if (!tag) return;
+
+              const normalized = tag
+                .toLowerCase()
+                .replace(/\s+/g, ' ')
+                .trim();
+
+              const cleaned = normalized
+                .replace(/^[^:]+:\s*/, '')
+                .trim();
+
+              const mapped = tagMap[cleaned] || tagMap[normalized] || cleaned;
               if (mapped) tags.push(mapped);
             });
 
