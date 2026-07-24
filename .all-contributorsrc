@@ -360,7 +360,7 @@
       "contributions": [
         "content"
       ]
-},
+    },
     {
       "login": "hannahscully",
       "name": "hannahscully",
@@ -368,6 +368,15 @@
       "profile": "https://github.com/hannahscully",
       "contributions": [
         "content",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "shinnapinna",
+      "name": "Shinjini Basu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/155972672?v=4",
+      "profile": "https://github.com/shinnapinna",
+      "contributions": [
         "maintenance"
       ]
     }
