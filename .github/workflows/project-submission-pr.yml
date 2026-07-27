@@ -105,16 +105,79 @@ jobs:
             const mainWorkArea        = extract('Main Work Area Category');
 
             // Parse tags from checkboxes (format: "- [x] label" or "- [ ] label").
-            // If the issue form option includes an explicit `value:` that is what
-            // will be submitted; otherwise we strip the category prefix and
-            // use a normalized lowercase value.
+            // Map the human-readable labels from the issue form to the slug values
+            // used in docs/our_work/tags.md and the generated project frontmatter.
+            const tagMap = {
+              'primary care': 'primary-care',
+              'secondary care': 'secondary-care',
+              'social care': 'social-care',
+              'emergency care': 'emergency-care',
+              'diseases': 'diseases',
+              'public/population health': 'population-health',
+              'workforce & allocation': 'workforce',
+              'prescribing': 'prescribing',
+              'financial': 'financial',
+              'forecasting': 'forecasting',
+              'classification': 'classification',
+              'computer vision': 'computer-vision',
+              'deep learning': 'deep-learning',
+              'large language models (llm)': 'llm',
+              'machine learning': 'machine-learning',
+              'neural networks': 'neural-networks',
+              'natural language processing (nlp)': 'natural-language-processing',
+              'linkage': 'linkage',
+              'simulation': 'simulation',
+              'best practice guidance': 'best-practice',
+              'data validation': 'data-validation',
+              'documentation': 'documentation',
+              'ethics': 'ethics',
+              'explainability': 'explainability',
+              'generation': 'generation',
+              'modelling': 'modelling',
+              'reproducible analytical pipeline (rap)': 'rap',
+              'research': 'research',
+              'structured': 'structured-data',
+              'unstructured': 'unstructured-data',
+              'multi-modal': 'multi-modal',
+              'sound/audio': 'audio-data',
+              'genomics': 'genomics-data',
+              'video/image': 'visual-data',
+              'text data': 'text-data',
+              'time series': 'time-series',
+              'patient identifiable': 'patient-identifiable-data',
+              'synthetic': 'synthetic-data',
+              'open data': 'open-data',
+              'pseudonymised': 'pseudonymised',
+              'python': 'python',
+              'sql': 'sql',
+              'r': 'r',
+              'web development (e.g. javascript, html, css)': 'webdev',
+              'work in progress': 'wip',
+              'complete': 'complete',
+              'on pause': 'paused',
+              'in development': 'in-development',
+              'retired': 'retired',
+              'deployed': 'deployed',
+              'experimental': 'experimental'
+            };
+
             const tags = [];
             const tagMatches = tagsRaw.match(/^\s*-\s*\[x\]\s*(.+)$/gm) || [];
             tagMatches.forEach(match => {
               let tag = match.replace(/^\s*-\s*\[x\]\s*/, '').trim();
-              // Strip category prefix like "Domain:", "Technique:", etc.
-              tag = tag.replace(/^[^:]+:\s*/, '').trim();
-              if (tag) tags.push(tag.toLowerCase());
+              if (!tag) return;
+
+              const normalized = tag
+                .toLowerCase()
+                .replace(/\s+/g, ' ')
+                .trim();
+
+              const cleaned = normalized
+                .replace(/^[^:]+:\s*/, '')
+                .trim();
+
+              const mapped = tagMap[cleaned] || tagMap[normalized] || cleaned;
+              if (mapped) tags.push(mapped);
             });
 
             // Parse links: "Name: URL" format
