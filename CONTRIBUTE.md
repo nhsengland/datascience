@@ -98,7 +98,9 @@ We have an automated workflow to make blog post submissions easy! Instead of man
 
 #### How to submit an MRes project
 1. **Create a new markdown page in the mres folder**
-2. 
+2. **Add your page title and the md document reference to both:
+   - index.md
+   - mkdocs.yml
 
 #### What Happens Next
 
