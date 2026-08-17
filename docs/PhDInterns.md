@@ -24,7 +24,7 @@ Our internships are aimed at current PhD students working in a quantitative disc
     Applications need to be emailed to [(jonathanpearson@nhs.net)](mailto:jonathanpearson@nhs.net) including a CV and covering letter. 
      
     
-    See the "How to Apply" section og [Scheme Overview](https://nhsx.github.io/nhsx-internship-projects/overview.html) for details of what to include in the covering letter and other details of the recruitment process.
+    See the "How to Apply" section on [Scheme Overview](https://nhsx.github.io/nhsx-internship-projects/overview.html) for details of what to include in the covering letter and other details of the recruitment process.
 
 -   :material-toolbox-outline:{ .lg .middle } __Available Projects__
 
