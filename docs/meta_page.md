@@ -59,6 +59,7 @@ This website exists with the hard work of our contributors so thank you to the f
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/emanakbar1"><img src="https://avatars.githubusercontent.com/u/193916361?v=4?s=100" width="100px;" alt="emanakbar1"/><br /><sub><b>emanakbar1</b></sub></a><br /><a href="#content-emanakbar1" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/hannahscully"><img src="https://avatars.githubusercontent.com/u/182880997?v=4?s=100" width="100px;" alt="hannahscully"/><br /><sub><b>hannahscully</b></sub></a><br /><a href="#content-hannahscully" title="Content">🖋</a> <a href="#maintenance-hannahscully" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/shinnapinna"><img src="https://avatars.githubusercontent.com/u/155972672?v=4?s=100" width="100px;" alt="Shinjini Basu"/><br /><sub><b>Shinjini Basu</b></sub></a><br /><a href="#maintenance-shinnapinna" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/McKennaMartha"><img src="https://avatars.githubusercontent.com/u/292051500?v=4?s=100" width="100px;" alt="Martha McKenna"/><br /><sub><b>Martha McKenna</b></sub></a><br /><a href="https://github.com/nhsengland/datascience/issues?q=author%3AMcKennaMartha" title="Bug reports">🐛</a> <a href="#maintenance-McKennaMartha" title="Maintenance">🚧</a></td>
     </tr>
   </tbody>
 </table>
