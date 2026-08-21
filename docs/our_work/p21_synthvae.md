@@ -25,7 +25,7 @@ Further work will explore the adaption of directed acyclic graphs to control for
 | ---- | ---- |
 | Open Source Code & Documentation | [Github](https://github.com/nhsx/SynthVAE) |
 | Case Study | Awaiting Sign-Off |
-| Technical report | [Here](https://github.com/nhsx/SynthVAE/blob/main/reports/NHSX_SynthVAE%20(2).pdf) |
+| Technical report | [Here](https://github.com/nhsx/SynthVAE/blob/main/reports/NHSX_SynthVAE%20%282%29.pdf) |
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #

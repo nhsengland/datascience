@@ -28,7 +28,7 @@ There are many ways to define bias depending on whether it is in relation to the
 
 When talking about bias by the predictive model, the model was determined to have shown ‘bias’ if the errors made in prediction were larger than an accepted error rate (which is defined by the person carrying out the work).
 
-Bias can also be identified by looking at integrity of the source data (looking at factors such as the way it was collected) or sufficiency (see [here](https://en.wikipedia.org/wiki/Fairness_(machine_learning)#:~:text=of%20a%20model.%22-,Sufficiency,-%5Bedit%5D)) of the data
+Bias can also be identified by looking at integrity of the source data (looking at factors such as the way it was collected) or sufficiency (see [here](https://en.wikipedia.org/wiki/Fairness_%28machine_learning%29#:~:text=of%20a%20model.%22-,Sufficiency,-%5Bedit%5D)) of the data
 
 ![Graph of the counts and proportions of candidates shortlisted or not shortlisted, by grade and ethnicity.](../images/Recruitment_graph.width-800.png)
 

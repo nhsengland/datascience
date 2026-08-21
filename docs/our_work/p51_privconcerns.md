@@ -12,7 +12,7 @@ See our blog on this work [here](https://nhsengland.github.io/datascience/articl
 | ---- | ---- |
 | Open Source Code & Documentation | [Code](https://github.com/nhsengland/priv-lm-health) |
 | Case Study | Awaiting Sign-Off |
-| Technical report | [Report](https://github.com/nhsengland/priv-lm-health/blob/main/reports/Healthcare_LLM_Privacy_VS_v1.0.pdf)] |
+| Technical report | [Report](https://github.com/nhsengland/priv-lm-health/blob/main/reports/Healthcare_LLM_Privacy_VS_v1.0.pdf) |
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
