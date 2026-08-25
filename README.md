@@ -13,15 +13,9 @@
 >
 > See our other work here: [NHS Digital Analytical Services](https://github.com/NHSDigital/data-analytics-services).
 
-<br>
+This site is built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and deployed via GitHub Actions to [nhsengland.github.io/datascience](https://nhsengland.github.io/datascience/).
 
-**Welcome to the landing page for Data Science in NHS England.**
-
-Visit our [website](https://nhsengland.github.io/datascience/) for more information about our work!
-
-If you want to contribute (such as making your own project page), [see the guidance here](CONTRIBUTE.md)
-
-[<kbd> <br> Data Science in NHS England <br> </kbd>](https://nhsengland.github.io/datascience/)
+If you want to contribute (such as making your own project page), [see the guidance here](CONTRIBUTE.md).
 
 ## Licence
 
