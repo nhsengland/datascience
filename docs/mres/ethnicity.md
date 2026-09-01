@@ -17,8 +17,11 @@ High quality ethnicity data is necessary for tackling health inequalities. This 
 2.	Missing data in other ECDS variables was more common and more extensive when ethnicity was unknown. Increases in missingness were observed in variables relating to the investigations and treatments received by the patient, the severity of the patient’s condition, the chief complaint on arrival and place of discharge.
 3.	Provider site code was identified as the most important variable in recording ethnicity as unknown, and a subset of acute trusts and independent sector organisations were identified as disproportionately contributing to unknown ethnicity records.
 
+A paper on this work has been published in the [BMJ Open](https://bmjopen.bmj.com/content/16/8/e118200).
+
 Output|Link
 ---|---
 Code and Documentation - private while under development|[Link](https://github.com/nhsengland/ethnicity-coding-ECDS)
+Published paper on using classification and regression trees (CART) to investigate unknown ethnicity records | [Link](https://bmjopen.bmj.com/content/16/8/e118200)
 
 #
