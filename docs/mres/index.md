@@ -21,6 +21,7 @@ A showcase of some of these projects can be found in these pages.
 - [Factors related to Stillbirth Outcomes](stillbirths.md)
 - [UTI Surgery Risk Predictions](uti.md)
 - [Predicting Winter Pressures on Emergency Admissions](winter-pressures.md)
+- [Using alternative modelling methods and more granular diagnosis encoding for the Summary Hospital-level Mortality Indicator (SHMI)](shmi_classification.md)
 
 
 !!! note
