@@ -83,7 +83,7 @@ requests==2.33.0
 rpds-py==0.25.1
 six==1.17.0
 smmap==5.0.2
-soupsieve==2.7
+soupsieve==2.8.4
 stack-data==0.6.3
 super_collections==0.5.3
 git+https://github.com/nhsengland/datascience.git@a7efc862d5cec28d3616fd13692398d3a232f9de#egg=suppress_logs&subdirectory=plugins/suppress_logs
