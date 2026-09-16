@@ -58,4 +58,4 @@ This reflects a broader vision for the Data Linkage Hub. We believe that improvi
 By investing in collaboration, we are helping ensure that innovations developed anywhere in the data linkage community can benefit everyone.
 Because some of the most important advances in data linkage do not come from working alone. They come from working together.
 
-![Image](../images/blogs_images/why_data_linkage_needs_a_community/ace35e3e-3180-4602-85b7-2d17f6ef32b7.png)
+![Image](../../images/blogs_images/why_data_linkage_needs_a_community/ace35e3e-3180-4602-85b7-2d17f6ef32b7.png)
