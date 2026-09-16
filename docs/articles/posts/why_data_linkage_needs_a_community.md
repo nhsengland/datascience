@@ -1,6 +1,6 @@
 ---
-title: Why Data Linkage Needs a Community: How Collaboration is Shaping Innovation in the Data Linkage Hub
-authors: [GiuliaMantovani1]
+title: "Why Data Linkage Needs a Community: How Collaboration is Shaping Innovation in the Data Linkage Hub"
+authors: [GiuliaMantovani]
 date: 2026-09-16
 categories:
     - data linkage
@@ -23,7 +23,7 @@ The NHS England Data Science & Applied AI team has long recognised this through 
 The Data Linkage Hub was fortunate to benefit from this programme last year through a fantastic PhD intern. While the internship itself has now concluded, the knowledge exchange and collaboration that it initiated continue today. In many ways, that experience reflects a broader truth about data linkage: the most valuable outcomes often come not from individual projects, but from the communities that grow around them.
 
 ## A Community Beyond Organisational Boundaries
-The UK has a vibrant and highly collaborative data linkage community. Expertise is distributed across a diverse range of organisations, including public-sector bodies such as NHS England, the Office for National Statistics (ONS) and the Ministry of Justice (MoJ), as well as academic institutions including University College London, the University of Bristol, Swansea University and the University of Oxford. Important contributions also come from research organisations such as SAIL and UK Longitudinal Linkage Collaboration (UK LLC).
+The UK has a vibrant and highly collaborative data linkage community. Expertise is distributed across a diverse range of organisations, including public-sector bodies such as NHS England, the Office for National Statistics (ONS) and the Ministry of Justice (MoJ), as well as academic institutions including University College London, the University of Bristol, Swansea University and the University of Oxford. Important contributions also come from research organisations such as SAIL (Secure Anonymised Information Linkage)  and UK Longitudinal Linkage Collaboration (UK LLC).
 Although these organisations have different objectives and priorities, they often face many of the same questions:
 	• How can we establish a common language when discussing data linkage quality?
 	• How can we involve the public in meaningful conversations about data linkage and its implications?
