@@ -1,3 +1,12 @@
-{"image":"mcr.microsoft.com/devcontainers/universal:2",
-"postCreateCommand": "pip3 install --user -r requirements.txt && python -m mkdocs serve"
+{
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip3 install -r requirements.txt",
+  "postStartCommand": "mkdocs serve",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "MkDocs Preview",
+      "onAutoForward": "openPreview"
+    }
+  }
 }

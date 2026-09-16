@@ -1,7 +1,7 @@
 ---
 title: "Building a Tool to Assess the Privacy Risk of Text Data - Extended"
 summary: Can we generate a modular tool to score the privacy risk of healthcare free-text data using open-source LLMs and NERs.
-tags: ['WORKFORCE', 'TEXT DATA', 'LLM','PYTHON', 'ETHICS', 'NLP', 'UNSTRUCTURED DATA', 'SYNTHETIC DATA', 'RESEARCH', 'ON PAUSE']
+tags: ['WORKFORCE', 'TEXT DATA', 'LLM','PYTHON', 'ETHICS', 'NATURAL LANGUAGE PROCESSING', 'UNSTRUCTURED DATA', 'SYNTHETIC DATA', 'RESEARCH', 'PAUSED']
 ---
 
 !!! warning
@@ -48,3 +48,6 @@ Open Documentation|<a href="https://nhsengland.github.io/privfp-experiments/" ta
 Case Study| NA
 Technical report|NA
 Algorithmic Impact Assessment|NA
+
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
+#

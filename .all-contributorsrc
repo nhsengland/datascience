@@ -73,7 +73,8 @@
       "profile": "https://github.com/benwallace2nhs",
       "contributions": [
         "content",
-        "bug"
+        "bug",
+        "maintenance"
       ]
     },
     {
@@ -87,7 +88,9 @@
         "content",
         "talk",
         "maintenance",
-        "bug"
+        "bug",
+        "blog",
+        "review"
       ]
     },
     {
@@ -108,7 +111,9 @@
       "contributions": [
         "blog",
         "content",
-        "review"
+        "review",
+        "code",
+        "promotion"
       ]
     },
     {
@@ -143,7 +148,9 @@
       "contributions": [
         "review",
         "content",
-        "ideas"
+        "ideas",
+        "blog",
+        "promotion"
       ]
     },
     {
@@ -185,7 +192,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/109806924?v=4",
       "profile": "https://github.com/ChaeyoonKimNHSE",
       "contributions": [
-        "bug"
+        "bug",
+        "blog",
+        "content"
       ]
     },
     {
@@ -213,7 +222,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/114353573?v=4",
       "profile": "https://github.com/scarlett-k-nhs",
       "contributions": [
-        "content"
+        "content",
+        "code"
       ]
     },
     {
@@ -237,7 +247,8 @@
       "contributions": [
         "code",
         "content",
-        "doc"
+        "doc",
+        "maintenance"
       ]
     },
     {
@@ -270,7 +281,117 @@
       "profile": "https://www.linkedin.com/in/seanaller/",
       "contributions": [
         "code",
+        "content",
+        "blog"
+      ]
+    },
+    {
+      "login": "AliceWaterhouse1",
+      "name": "AliceWaterhouse1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95628490?v=4",
+      "profile": "https://github.com/AliceWaterhouse1",
+      "contributions": [
+        "code",
+        "content",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "sculkin-nhs",
+      "name": "sculkin-nhs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/187506086?v=4",
+      "profile": "https://github.com/sculkin-nhs",
+      "contributions": [
+        "review",
         "content"
+      ]
+    },
+    {
+      "login": "LiziJohnstone",
+      "name": "Lizi Johnstone",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105051948?v=4",
+      "profile": "https://github.com/LiziJohnstone",
+      "contributions": [
+        "review",
+        "content",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "JRPearson500",
+      "name": "Jonny Pearson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67793644?v=4",
+      "profile": "https://github.com/JRPearson500",
+      "contributions": [
+        "content",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "GraceDean31",
+      "name": "Grace Dean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114420516?v=4",
+      "profile": "https://github.com/GraceDean31",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "jamiewlc",
+      "name": "Jamie Wong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/160514270?v=4",
+      "profile": "https://profiles.ucl.ac.uk/95883-jamie-wong",
+      "contributions": [
+        "content",
+        "blog"
+      ]
+    },
+    {
+      "login": "Simon-W-M",
+      "name": "Simon Wellesley-Miller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58369769?v=4",
+      "profile": "https://github.com/Simon-W-M",
+      "contributions": [
+        "blog",
+        "content"
+      ]
+    },
+    {
+      "login": "emanakbar1",
+      "name": "emanakbar1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193916361?v=4",
+      "profile": "https://github.com/emanakbar1",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "hannahscully",
+      "name": "hannahscully",
+      "avatar_url": "https://avatars.githubusercontent.com/u/182880997?v=4",
+      "profile": "https://github.com/hannahscully",
+      "contributions": [
+        "content",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "shinnapinna",
+      "name": "Shinjini Basu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/155972672?v=4",
+      "profile": "https://github.com/shinnapinna",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
+      "login": "McKennaMartha",
+      "name": "Martha McKenna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/292051500?v=4",
+      "profile": "https://github.com/McKennaMartha",
+      "contributions": [
+        "bug",
+        "maintenance"
       ]
     }
   ],

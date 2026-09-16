@@ -6,8 +6,7 @@ function tableFilter(table_id, input_id) {
   table = document.getElementById(table_id);
   tr = table.getElementsByTagName("tr");
   const columnSelector = document.getElementById("columnToSearch").value;
-  
-  console.log(columnSelector)
+
   // Loop through all table rows, and hide those who don't match the search query
   const columnNames = ['Name','Role', 'Team', 'Github']
   const columnIndex = columnNames.indexOf(columnSelector)

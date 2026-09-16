@@ -2,7 +2,7 @@
 title: "Redbox Copilot"
 summary: "Bringing Generative AI to the way the Civil Service works"
 origin: "10DS"
-tags: ["WORKFORCE", "LLM", "NLP", "GENERATION", "TEXT DATA", "PYTHON", "COMPLETE"]
+tags: ["WORKFORCE", "LLM", "NATURAL LANGUAGE PROCESSING", "GENERATION", "TEXT DATA", "PYTHON", "COMPLETE"]
 ---
 
 We supported the Redbox Copilot work as part of a cross-departmental team through the 10DS Cover Scheme (via the [Evidence House]( https://www.civil-service-careers.gov.uk/evidence-house/) community).

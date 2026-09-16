@@ -3,7 +3,7 @@ title: 'Synthetic Data Generation Pipeline'
 summary: 'Exploring how to create mock patient data from real patient data.'
 category: 'Playbook'
 origin: 'Skunkworks'
-tags: ['SIMULATION', 'GENERATION', 'RESEARCH', 'SYNTHETIC DATA', 'PII', 'PSEUDONYMISED', 'PYTHON', 'COMPLETE', 'EXPERIMENTAL']
+tags: ['SIMULATION', 'GENERATION', 'RESEARCH', 'SYNTHETIC DATA', 'PATIENT IDENTIFIABLE DATA', 'PSEUDONYMISED', 'PYTHON', 'COMPLETE', 'EXPERIMENTAL']
 ---
 
 ![Kedro Pipeline Structure](../images/synthetic-data-pipeline.png)
@@ -117,5 +117,4 @@ Open Source Code & Documentation|[Github](https://github.com/nhsx/skunkworks-syn
 Case Study|[Case Study](https://digital.nhs.uk/services/ai-knowledge-repository/case-studies/exploring-how-to-create-mock-patient-data-synthetic-data-from-real-patient-data)
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
-
 #

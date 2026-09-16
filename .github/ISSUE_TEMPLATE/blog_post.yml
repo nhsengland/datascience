@@ -1,0 +1,147 @@
+name: 📝 Blog Post Submission
+description: Submit a new blog post or article to the site.
+title: "[Blog Post]: "
+labels: ["blog-post"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing a blog post! Fill in the fields below and a PR will be created automatically.
+
+        > ⚠️ If you've contributed before and your author details are already in `.authors.yml`, you can leave the author section blank — just make sure your **Author ID** matches exactly.
+
+  # ── Post metadata ──────────────────────────────────────────────────────────
+
+  - type: input
+    id: title
+    attributes:
+      label: Post title
+    validations:
+      required: true
+
+  - type: input
+    id: slug
+    attributes:
+      label: Slug (URL-friendly identifier)
+      description: Lowercase, hyphens only. This becomes the page URL.
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Publication date
+      description: Format — YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: input
+    id: categories
+    attributes:
+      label: Categories
+      description: Comma-separated list.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: A one or two sentence summary shown in the blog index. Make sure this is kept to one paragraph, and doesn't include any line breaks, as they will break the template. 
+    validations:
+      required: true
+
+  - type: textarea
+    id: body
+    attributes:
+      label: Post body
+      description: Full content of your post in Markdown. Make sure that your headings use "##" for headings, as a single hash will break the formatting. 
+    validations:
+      required: true
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Links (optional)
+      description: |
+        Optional. Add related links in the format below — one per line.
+        Leave blank if you have no links (including this section with no content will cause a build error).
+
+        Format:
+        ```
+        Link Name: https://example.com
+        Another Link: https://example.com/page
+        ```
+    validations:
+      required: false
+
+  # ── Author details ──────────────────────────────────────────────────────────
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### Your author details
+        Your **Author ID** is how you're referenced in the post frontmatter (e.g. `SamHollings`).
+        If you've submitted before, just fill in the Author ID and leave the rest blank.
+
+  - type: input
+    id: author_id
+    attributes:
+      label: Author ID
+      description: A short unique identifier — no spaces. Usually FirstnameLastname.
+    validations:
+      required: true
+
+  - type: input
+    id: author_name
+    attributes:
+      label: Your full name
+      description: Leave blank if you're already in the authors file.
+    validations:
+      required: false
+
+  - type: input
+    id: author_description
+    attributes:
+      label: Job title / bio
+      description: Shown beneath your name on the post. Leave blank if already registered.
+    validations:
+      required: false
+
+  - type: input
+    id: author_avatar
+    attributes:
+      label: Avatar URL
+      description: A direct link to a profile image. Your GitHub avatar works well — https://avatars.githubusercontent.com/u/YOUR_ID?v=4
+    validations:
+      required: false
+
+  - type: input
+    id: author_url
+    attributes:
+      label: Profile URL
+      description: Your GitHub profile or personal site.
+    validations:
+      required: false
+
+  # ── Images (optional) ──────────────────────────────────────────────────────
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### Images for your blog post (optional)
+        You can include images directly in your post body above!
+
+        **How to add images:**
+        1. While writing your **Post body**, simply drag and drop images into the text area, or paste them (Ctrl/Cmd+V)
+        2. GitHub will automatically upload them and insert markdown like `![image](https://github.com/...)`
+        3. When you submit this issue, the workflow will automatically:
+           - Download all images from the issue body
+           - Save them to `docs/images/blogs_images/[slug]/`
+           - Update the markdown to use local paths
+        4. Supported formats: PNG, JPG, JPEG, GIF
+
+        **Note:** You don't need to manually write image paths — just drag, drop, and submit!

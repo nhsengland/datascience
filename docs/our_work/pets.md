@@ -3,7 +3,7 @@ layout: base
 title: Emerging Privacy Enhancing Technologies
 permalink: pets.html
 summary: Investigating how different emerging PETs may have opportunity for healthcare data
-tags: ['RESEARCH', 'OPEN DATA', 'WORK IN PROGRESS']
+tags: ['RESEARCH', 'OPEN DATA', 'WIP']
 ---
 
 Privacy Enhancing Technologies (PETs) are an emerging set of technologies and approaches that enable the derivation of useful results from data without providing full access to the data.   Whilst traditional de-identification of data reduces the utility as the privacy increases, PETs aim to keep the privacy very high whilst gaining a high enough level of utility that complex functions can be applied to the data.  

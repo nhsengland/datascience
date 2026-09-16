@@ -45,4 +45,5 @@ We are currently working on:
 * Completing the [Turing Experts in Residence programme](https://www.turing.ac.uk/turing-way-practitioners-hub/eirs)
 * Continuing to use the data hazards to guide ethical considerations within team projects
 
+[comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #

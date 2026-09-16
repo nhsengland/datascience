@@ -2,7 +2,7 @@
 title: 'AI Assurance Research Path'
 summary: 'Investigating new techniques to test and assure AI and machine learning solutions in the NHS'
 origin: 'NHS England'
-tags: ['NLP','LLM','PYTHON',Assurance, 'MACHINE LEARNING', CLASSIFICATION, COMPUTER VISION, UNSTRUCTURED, VISUAL DATA, WIP]
+tags: ['NATURAL LANGUAGE PROCESSING','LLM','PYTHON', BEST PRACTICE, 'MACHINE LEARNING', CLASSIFICATION, COMPUTER VISION, UNSTRUCTURED DATA, VISUAL DATA, WIP]
 ---
 
 The NHS AI Quality Community of Practice (AIQCoP) is a network of testing and assurance professionals dedicated to supporting the assurance of healthcare AI. While not an assurance function itself, the AIQCoP provides guidance, resources, and advice to assist colleagues and organisations in navigating the complexities of AI assurance. While the project sits within NHS England, the remit of the AIQCoP is the whole of the NHS. 

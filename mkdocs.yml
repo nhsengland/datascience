@@ -5,17 +5,22 @@ repo_name: NHS England Data Science Website
 edit_uri: edit/main/docs/
 plugins:
   - search
-  - awesome-pages
+  # this is commented out on purpose as it breaks the articles page, dont add this back in regardless of what chatgpt tells you it's a solution for 
+  # - awesome-pages
   - blog:
-      blog_dir: ./articles
+      blog_dir: articles
       authors_file: "{blog}/.authors.yml"
   - tags:
       tags_file: our_work/tags.md
-  - exclude-search:
-      exclude:
+  - exclude:
+      glob:
         - our_work/template-project.md
   - open-in-new-tab
-
+  - suppress_logs:
+      patterns:
+        - "Doc file 'our_work/tags.md' contains a link '#{*}', but there is no such anchor on this page."
+      loggers:
+        - mkdocs.structure.pages
 nav:
   - Home: index.md
   - About the team: about.md
@@ -24,14 +29,17 @@ nav:
     - Project Tags: our_work/tags.md
     - Past/Current Projects:
       - Current Projects:
+        - Qualitative Data Categorisation Improvements: our_work/qualitative-data-categorisation-improvements.md
         - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
         - AI Assurance Research Path: our_work/ds278_Assurance_Research_Path.md
         - AI Dictionary: our_work/ai-dictionary.md
         - AI Ethics in Practice: our_work/ai-ethics.md
+        - Better Matching Algorithm: our_work/data-linkage-hub/linkage-projects/better-matching.md
         - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
         - "Corporate Services: Pipeline rebuild": our_work/corporate_services_pipeline_rebuild.md
         - CVD Pathways: our_work/cvd_pathways.md
-        - Data Linkage Hub: our_work/data-linkage-hub/
+        - Data Linkage Community of Practice: our_work/data-linkage-hub/linkage-projects/cop.md
+        - Diabetic Retinopathy: our_work/diabetic_retinopathy.md
         - Emerging Privacy Enhancing Technologies: our_work/pets.md
         - ePMA Auto Coding: our_work/epma_autocoding.md
         - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
@@ -41,10 +49,16 @@ nav:
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
         - Embedded Data Scientists in the National Disease Registration Service: our_work/ndrs_embedded_ds.md
         - Clinical Measurement Extractor: our_work/clinical_measurement_extractor.md
+        - "PLOS: Predicting Length of Stay": our_work/ds_314_plos.md
       - Past Projects:
+        - 2026:
+          - Forecasting Vaccination Demand: our_work/ds_306_vaccination_forecast.md
+          - Vaccine Invitations: our_work/vaccine-invitations.md
         - 2025:
           - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
           - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
+          - Waiting List Minimum Dataset (WLMDS) Proofs of Concept: our_work/hsma-wlmds.md
+          - Synthetic Clinical Notes: our_work/ds304_synthetic_clinical_notes.md
         - 2024:
           - RAG: our_work/ds251_RAG.md
           - Redbox Copilot: our_work/redbox_copilot.md
@@ -100,6 +114,7 @@ nav:
         - Ambulance Handover Delay Predictor: our_work/ambulance-delay-predictor.md
         - Bed Allocation: our_work/bed-allocation.md
         - Cancer high-risk cohorts: our_work/cancer_high_risk_cohorts.md
+        - Diabetic Retinopathy: our_work/diabetic_retinopathy.md
         - Impact of Commercial Data on Predictions: our_work/p14_mcr.md
         - Length of Hospital Day Prediction: our_work/long-stay.md
         - Long Stayer Risk Stratification Baseline Models: our_work/long-stay-baseline.md
@@ -107,14 +122,21 @@ nav:
         - Predicting Negligence Claims: our_work/nhs-resolution.md
         - Renal Health Prediction: our_work/renal-health-prediction.md
         - Risk stratification models for Population and Person Insights (PaPI): our_work/Papi_Webpage.md
+        - Waiting List Minimum Dataset (WLMDS) Proofs of Concept: our_work/hsma-wlmds.md
+        - "PLOS: Predicting Length of Stay": our_work/ds_314_plos.md
+        - Forecasting Vaccination Demand: our_work/ds_306_vaccination_forecast.md
       - Data Science for Linked/Longitudinal Data:
         - Data Linkage Hub:
-          - our_work/data-linkage-hub/index.md
-          # - ... | flat | our_work/data-linkage-hub/*.md
-          - ... | flat | our_work/data-linkage-hub/linkage-projects/*.md
+          - __index.md: our_work/data-linkage-hub/index.md
+          - Better Matching Algorithm: our_work/data-linkage-hub/linkage-projects/better-matching.md
+          - Data Linkage Community of Practice: our_work/data-linkage-hub/linkage-projects/cop.md
+          - Person_ID Handbook: our_work/data-linkage-hub/linkage-projects/mps-handbook.md
+          - Quality Assurance Framework for Data Linkage: our_work/data-linkage-hub/linkage-projects/qaf.md
         - Inequalities in Diabetes from PHM Data: our_work/p32_phmdiabetes.md
         - CVD Pathways: our_work/cvd_pathways.md
+        - Vaccine Invitations: our_work/vaccine-invitations.md
       - Natural Language Processing Products:
+        - Qualitative Data Categorisation Improvements: our_work/qualitative-data-categorisation-improvements.md
         - AI Models for Shortlisting Interview Candidates: our_work/casestudy-recruitment-shortlisting.md
         - Data Lens: our_work/data-lens.md
         - ePMA Auto Coding: our_work/epma_autocoding.md
@@ -154,6 +176,7 @@ nav:
           - NHS Synth: our_work/p41_nhssynth.md
           - Primary Care Data Generator: our_work/swpclab.md
           - SynPath Simulator on Diabetes Pathway: our_work/p11_synpathdiabetes.md
+          - Synthetic Clinical Notes: our_work/ds304_synthetic_clinical_notes.md
           - Synthetic Data From Real Data: our_work/casestudy-synthetic-data-pipeline.md
           - Synthetic Data Generation Pipeline: our_work/synthetic-data-pipeline.md
         - Including Mortality in Hypergraphs for Multi-morbidity: our_work/p42_mortalityhypergraphs.md
@@ -163,13 +186,29 @@ nav:
           - Reusable Data Validation Process: our_work/sde_data_validation.md
         - Transforming Healthcare Data With Graph-Based Techniques: our_work/p34_hypergraphs.md
     - Our Team's Publications: our_work/Publications.md
-    # This allows any projects that get added to appear in the main page of the navigation, makes it easy to spot when people have forgotten to categorize them.
-    - ... | flat | regex=our_work/(?!template-project\.md).*\.md
   # - Tools:
   #   - ... | flat | tools/*.md
   - PhD Internships: PhDInterns.md
+  - Data Science MRes: 
+    - Data Science MRes: mres/index.md
+    - MRes Projects:
+      - Prediction of CVD Onset: mres/cvd-onset.md
+      - Supporting Dementia Diagnosis: mres/dementia.md
+      - Understanding delays in elective pathways: mres/elective-pathways-delays.md
+      - Investigating unknown ethnicity records in NHS emergency care data: mres/ethnicity.md
+      - Predicting GP Staff Turnover: mres/gp-turnover.md
+      - Menopause-Related Diagnosis Coding: mres/menopause.md
+      - Mental Health Environmental Impacts Leeds: mres/mh_leeds.md
+      - Impact of midwife-led continuity of carer on birth outcomes: mres/midwives.md
+      - Predicting perinatal depression: mres/perinatal.md
+      - Poor pregnancy outcomes in women with type 2 diabetes: mres/pregnancy-outcomes.md
+      - Process Mining on Patient Pathways in Healthcare: mres/process-mining.md
+      - Relationship between psychotropic medication usage and Talking Therapies treatment outcomes: mres/psychotropic-meds-talking-therapies.md
+      - Relationship Between Factors and Stillbirth outcomes: mres/stillbirths.md
+      - UTI Surgery Risk Predictions: mres/uti.md
+      - Predicting Winter Pressures on Emergency Admissions: mres/winter-pressures.md
   - Articles:
-    - ... | flat | articles/*.md
+    - articles/index.md
   - Playbooks: playbooks.md
   # - Codebases: codebases.md
   - Useful links: useful_links.md
@@ -183,8 +222,8 @@ theme:
     primary: indigo
   font:
     text: Arial
-  logo: images/logo/nhs-blue-on-white.jpg
-  favicon: images/favicon/favicon.ico
+  logo: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMCAyMHYtNmg0djZoNXYtOGgzTDEyIDMgMiAxMmgzdjh6Ii8+PC9zdmc+
+  favicon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAwNUVCOCIgZD0iTTEwIDIwdi02aDR2Nmg1di04aDNMMTIgMyAyIDEyaDN2OHoiLz48L3N2Zz4=
   features:
     - search.share
     - content.code.annotate
@@ -204,8 +243,8 @@ markdown_extensions:
   - tables
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -223,14 +262,10 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/nhsengland/datascience
       name: NHS England Data Science
-  meta:
-    - name: "og:image"
-      content: "https://nhsengland.github.io/datascience/docs/images/logo/nhs-white-on-blue.jpg"
   generator: false
 copyright: Copyright &copy; 2023 Crown Copyright (NHS England)
 extra_javascript:
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js

@@ -3,7 +3,7 @@ layout: base
 title: Understanding Fariness and Explainability in Multimodal Approaches within Healthcare
 permalink: p61_mmfair.html
 summary: Pipeline to compare the impact on fairness of using a fusion model versus a single modality model
-tags: ['MULTI-MODAL', 'RESEARCH', 'OPEN DATA']
+tags: ['MULTI MODAL', 'RESEARCH', 'OPEN DATA']
 ---
 
 Explainability, fairness, and bias identification and mitigation are all essential components for the

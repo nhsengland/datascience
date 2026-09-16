@@ -28,7 +28,7 @@
   color: black;
 }
 
-.md-logo-nhs {
+.md-logo-home {
   height: auto;
 }
 
@@ -37,8 +37,8 @@ a {
   min-width: 24px;
 }
 
-.md-header__button.md-logo-nhs :is(img, svg) {
-  width: 85px !important;
+.md-header__button.md-logo-home :is(img, svg) {
+  width: 32px !important;
   height: auto !important;
 }
 

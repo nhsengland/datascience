@@ -7,8 +7,6 @@ categories:
     - LLMs
     - Python
     - Events
-links:
-    - TBC
 slug: microsoft-hackathon
 description: >
     The NHS England Data Science team, as well as a range of other analysts from across the organisation, attended the Hack for Health at Microsoft, organised by the Data Science Team together with Microsoft and Kainos, with the key stakeholders being the NHS Websites Team. 

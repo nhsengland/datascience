@@ -372,7 +372,7 @@ The final model generated did not adequately capture length of stay across the p
 
 ### 6.3 Classification models
 
-In addition to predicting the length of stay in days, we are also interested in stratifying the risk of a patient becoming a long stayer. This can be inferred from their predicted length of stay (see [model comparison](#modelcomparison)), but we can also train a classification model to do this directly.
+In addition to predicting the length of stay in days, we are also interested in stratifying the risk of a patient becoming a long stayer. This can be inferred from their predicted length of stay (see [model comparison](#64-model-comparison)), but we can also train a classification model to do this directly.
 
 The agreed stratification of risk of long stay is defined as:
 
