@@ -19,7 +19,7 @@ description: >
 <!-- more -->
 
 One of the most valuable aspects of working in data science is that innovation rarely happens in isolation. Some of the most significant advances emerge when people from different organisations, disciplines and sectors come together to tackle shared challenges.
-The NHS England Data Science team has long recognised this through its PhD internship programme. Over the years, the programme has brought talented and curious researchers into the heart of the NHS, giving them the opportunity to work with real-world healthcare data while building lasting connections between academia and the public sector.
+The NHS England Data Science & Applied AI team has long recognised this through its PhD internship programme. Over the years, the programme has brought talented and curious researchers into the heart of the NHS, giving them the opportunity to work with real-world healthcare data while building lasting connections between academia and the public sector.
 The Data Linkage Hub was fortunate to benefit from this programme last year through a fantastic PhD intern. While the internship itself has now concluded, the knowledge exchange and collaboration that it initiated continue today. In many ways, that experience reflects a broader truth about data linkage: the most valuable outcomes often come not from individual projects, but from the communities that grow around them.
 
 ## A Community Beyond Organisational Boundaries
