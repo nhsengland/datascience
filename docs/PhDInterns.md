@@ -19,12 +19,7 @@ Our internships are aimed at current PhD students working in a quantitative disc
 
     ---
 
-    Applications open on the **1st October** and close on the **29th October 23:59**.  
-    
-    Applications need to be emailed to [(jonathanpearson@nhs.net)](mailto:jonathanpearson@nhs.net) including a CV and covering letter. 
-     
-    
-    See the "How to Apply" section on [Scheme Overview](https://nhsx.github.io/nhsx-internship-projects/overview.html) for details of what to include in the covering letter and other details of the recruitment process.
+    **Applications are currently paused - See update below.**  
 
 -   :material-toolbox-outline:{ .lg .middle } __Available Projects__
 
@@ -52,21 +47,11 @@ We are looking for:
 
 ---------
 
-## Changes this year
-Unfortunately, this year we can’t offer funded places as we have done previously.   We are aiming to re-establish these funded internships after NHS England has been combined with the Department of Health and Social Care (DHSC).
-
-### How this change impacts the scheme:
-
-- Previously our interns occupied permanent band 6 roles with full agenda for change conditions for 5-month periods.  This came with a band 6 spine point 1 wage and included access to data.    
-This year our interns will sign a voluntary agreement honorary contract which enables the project to go ahead, and then a separate data sharing agreement which enables access to the data.   This will come with no wage and so the intern will need to be funded by their current PhD body throughout the duration of the industrial placement. 
-
-- Previously we could only offer four internships (due to the limitation on available permanent places) – two in January and two in June.
-This year we have up to ten places available with five starting in January and five in April.   There is flexibility on the start date and time-period going from three to five months and an opportunity to group interns if it would be beneficial to have a team work on a project together. 
-
-- Previously we’ve been limited to applicants who are on a current PhD programme throughout the duration of the internship and have an established right to work in the UK.  
-This year these constraints will still apply.
-
-*Note*: we welcome applications from students on visas that restrict their weekly working hours as we are looking to match the right student to the right project which will result in an innovative and usable project which is by no means directly correlated to the number of hours available.
-
-## Questions
-Please email [(datascience@nhs.net)](mailto:datascience@nhs.net) with any queries and questions.   **Please do not send CVs or personal data here.**
+## Update for 2027
+The next wave of the NHS England PhD Internship Programme will not proceed in January 2027 as originally intended.
+ 
+We expect to bring the scheme back online soon, once organisational arrangements arising from the NHS England and DHSC merger are finalised and we are able to provide the level of structure, supervision and support required to deliver the high-quality experience that participants and hosting teams expect from the programme.
+ 
+We remain committed to strengthening our research capability and partnerships with academia, and we look forward to reintroducing the internship programme when the necessary arrangements are in place.
+ 
+In the meantime, please contact [(datascience@nhs.net)](mailto:datascience@nhs.net) if you would like to discuss our work, explore potential areas of collaboration, or learn more about the team's interests. You can also view examples of previous internship projects to see the impact and breadth of work completed through the programme.
