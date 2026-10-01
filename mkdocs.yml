@@ -207,6 +207,7 @@ nav:
       - Relationship Between Factors and Stillbirth outcomes: mres/stillbirths.md
       - UTI Surgery Risk Predictions: mres/uti.md
       - Predicting Winter Pressures on Emergency Admissions: mres/winter-pressures.md
+      - Using alternative modelling methods and more granular diagnosis encoding for the Summary Hospital-level Mortality Indicator (SHMI): mres/shmi_classification.md
   - Articles:
     - articles/index.md
   - Playbooks: playbooks.md
