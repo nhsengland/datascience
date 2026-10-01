@@ -31,7 +31,7 @@ Users configure experiments through a Streamlit interface or command-line script
 
 ## Results 
 
- The team is currently working to determine the accuracy, usefulness and ethical implications of this tool and whether it should even be used. This is exploratory work at the moment and is not being used for any real decision making
+ The team is currently working to determine the accuracy, usefulness and ethical implications of this tool and whether it should even be used. This is exploratory work at the moment and is not being used for any real decision making.
 
 ## Outputs & Links
 
