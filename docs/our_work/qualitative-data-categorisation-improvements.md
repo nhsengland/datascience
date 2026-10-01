@@ -1,38 +1,46 @@
 ---
 title: 'Qualitative Data Categorisation Improvements'
-summary: 'LLM-based multi-label text classifier for NHS patient experience comments, replacing a legacy ML model with a RAG-augmented approach requiring no model training'
+summary: 'LLM-based multi-label text classifier for NHS patient experience comments, replacing a legacy ML model with an LLM approach requiring no model training'
 origin: 'Insight and Voice'
 tags: ['CLASSIFICATION', LLM, 'MACHINE LEARNING', 'NATURAL LANGUAGE PROCESSING', 'MODELLING', 'UNSTRUCTURED', 'TEXT DATA', 'PYTHON', 'IN DEVELOPMENT']
 ---
 
-![Diagram showing the classification pipeline: patient comments pass through RAG retrieval of 20 similar examples from 13,000 labelled comments, then to Claude Sonnet in batches of 50, producing categories, segments and sentiment. Below, an example shows the comment "The staff were great but I couldn't get parked" split into two segments: "The staff were great" labelled Staff manner and Positive, and "I couldn't get parked" labelled Parking and Negative. Performance metrics show Macro F1 of 0.776 versus 0.70 for the legacy model.](../images/our_work/qualitative-data-categorisation-improvements/ee4e9491-3f3b-43f9-b25c-c46d5c22c6d2.png)
+## Overview
 
-Patient experience teams across the NHS collect thousands of free-text comments via the Friends and Family Test (FFT). These comments need categorising against 31 themes from the Qualitative Data Categorisation (QDC) Framework to identify patterns and drive service improvement.
+Patient experience teams across the NHS collect thousands of free-text comments via patient feedback surveys. These comments need categorising against themes from the [Qualitative Data Categorisation (QDC) Framework](https://the-strategy-unit.github.io/PatientExperience-QDC/framework/framework3.html) to identify patterns and drive service improvement.
 
-This is a multi-label classification problem — a single comment can be assigned several categories simultaneously. For example, "The staff were great but I couldn't get parked" covers both "Staff manner" and "Parking".
+This is a multi-label classification task — a single comment can be assigned several categories simultaneously. For example, "The staff were very kind but there was not enough seating in the waiting area." covers both "Staff manner & personal attributes" and "Environment, facilities & equipment".
 
-The legacy approach used a trained sklearn/BERT ensemble that required manual retraining and achieved ~0.70 weighted F1.
+![Diagram showing the classification pipeline: patient comments pass through a redaction process and the data has some columns removed. The prompt is built from the category descriptions, extra classification rules, static examples and RAG-retrieved examples and sent with the survey comments to the LLM. The output from the LLM is then processed and validated and the final output file is constructed. The output is then saved to the destination. An optional workbook is generated to visualise the data in a formatted excel document.](../images/qdc_improvements/QDC_diagram_v3.png)
 
-We replaced this with an LLM-based classifier using Claude Sonnet. The system uses retrieval-augmented few-shot prompting — for each comment being classified, it retrieves semantically similar examples from a corpus of 13,000 labelled comments and includes them as in-context calibration. Comments are processed in batches of 50 per API call for efficiency. This approach requires no model training, and making category changes is as simple as updating a prompt.
+## Method
 
-Beyond classification, the LLM approach enables segmented sentiment highlighting — each comment is broken into its component clauses, with each segment assigned its own category and sentiment. This means "The staff were great but I couldn't get parked" produces two segments: "The staff were great" (Staff manner, Positive) and "I couldn't get parked" (Parking, Negative). This gives patient experience teams a much richer, more actionable view of feedback than flat category labels alone.
+The previous approach used a trained sklearn/BERT ensemble that achieved 0.71 macro F1 score. The code for that tool is published [here](https://github.com/The-Strategy-Unit/pxtextmining) and is documented [here](https://the-strategy-unit.github.io/PatientExperience-QDC/).
+
+We replaced this with an LLM-based classifier using Claude Sonnet. The system uses retrieval-augmented few-shot prompting — for each comment being classified, it retrieves semantically similar examples from a corpus of 11,000 labelled comments and includes them as in-context calibration. Comments are processed in batches per API call for efficiency. This approach requires no model training, and making category changes is as simple as updating a prompt. As part of this work, three additional categories were added and evaluated.
+
+Beyond classification, the LLM approach enables segmented sentiment highlighting — each comment is broken into its component clauses, where each assigned category is paired with the corresponding quote from the comment and the sentiment of that quote. This means "The staff were very kind but there was not enough seating in the waiting area." produces two segments: "The staff were very kind" (Staff manner & personal attributes &#8594; Positive) and "there was not enough seating in the waiting area" (Environment, facilities & equipment &#8594; Negative). This gives the NHS England patient experience team a much richer, more actionable view of feedback than flat category labels alone.
+
+## Prompt
+
+Each prompt sent to the LLM consists of the following elements:
+
+1. **Category descriptions** - A list of each topic and a description of when that topic should apply to a comment
+2. **Extra classification rules** - Some categories benefit from extra rules to help the model disambiguate topics that can sometimes overlap
+3. **Static examples** - these examples contain comments and category labels and are passed into every prompt
+4. **RAG examples** - Each comment is embedded and the top 20 most similar comments from the RAG corpus are added to the prompt with their topic labels
+5. **The comments** - A batch of comments along with the survey question and service type (if provided)
+
+Since large parts of this prompt are static, we use prompt caching in our API calls to reduce unnecessary computation.
 
 ## Results
 
 The LLM approach achieves:
 
-- **Macro F1: 0.776** (vs ~0.70 for the legacy model)
-- **Weighted F1: 0.777**
-- Multi-label classification across 31 categories with no training data pipeline
-- Per-segment sentiment and evidence extraction
+- **Macro F1: 0.77** (vs 0.71 for the legacy model)
+- Multi-label classification across 33+ categories with no training requirement
+- Per-topic sentiment and evidence extraction
 
-## Outputs & Links
-
-Output | Link
----|---
-Open Source Code & Documentation (Currently Private) | [Link](https://github.com/nhsengland/QDC_LLM)
-Technical Methodology (Currently Private) | [Link](https://github.com/nhsengland/QDC_LLM/blob/main/docs/methodology.md)
-Original Framwork Documentation | [Link](https://github.com/The-Strategy-Unit/PatientExperience-QDC)
 
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
