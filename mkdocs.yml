@@ -30,7 +30,6 @@ nav:
     - Past/Current Projects:
       - Current Projects:
         - Synthetic Patient Panels for Healthcare Communication Testing: our_work/synthetic-patient-panels-for-healthcare-communication-testing.md
-        - Qualitative Data Categorisation Improvements: our_work/qualitative-data-categorisation-improvements.md
         - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
         - AI Assurance Research Path: our_work/ds278_Assurance_Research_Path.md
         - AI Dictionary: our_work/ai-dictionary.md
@@ -43,7 +42,6 @@ nav:
         - Diabetic Retinopathy: our_work/diabetic_retinopathy.md
         - Emerging Privacy Enhancing Technologies: our_work/pets.md
         - ePMA Auto Coding: our_work/epma_autocoding.md
-        - NHS.UK Automatic Moderation of Ratings & Reviews: our_work/ratings-and-reviews.md
         - Primary Care Data Generator: our_work/swpclab.md
         - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
         - Reusable Data Validation Process: our_work/sde_data_validation.md
@@ -51,6 +49,7 @@ nav:
         - Embedded Data Scientists in the National Disease Registration Service: our_work/ndrs_embedded_ds.md
         - Clinical Measurement Extractor: our_work/clinical_measurement_extractor.md
         - "PLOS: Predicting Length of Stay": our_work/ds_314_plos.md
+        - Qualitative Data Categorisation Improvements: our_work/qualitative-data-categorisation-improvements.md
       - Past Projects:
         - 2026:
           - Forecasting Vaccination Demand: our_work/ds_306_vaccination_forecast.md
