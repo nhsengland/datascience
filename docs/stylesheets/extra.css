@@ -176,8 +176,12 @@ h1 {
 }
 
 #columnToSearch {
-  height:40px; 
-  width:19%; 
-  font-size: 16px; 
+  height:40px;
+  width:19%;
+  font-size: 16px;
   border: 1px solid #ddd;
+}
+
+.md-content .md-typeset a {
+  text-decoration: underline;
 }
