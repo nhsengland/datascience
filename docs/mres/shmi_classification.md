@@ -12,7 +12,7 @@ SHMI does not score well when modelling some diagnosis groups despite using ROC 
 
 ![Characteristics of the three main diagnosis groups for the study 2, 5, 93](../images/shmi_classification_project_images/shmi_project_groups.png)
 
-Out of the 142 SHMI diagnosis groups, this study focused on 3. Results for all other groups can be found in the write up appendix (contact adam.hollings1@nhs.net). Diagnosis groups 2, 5 and 93 were chosen as they varied in level of mortality and the number of episodes recorded. Low mortality means a higher class imbalance.
+Out of the 142 SHMI diagnosis groups, this study focused on 3. Results for all other groups can be found in the write up appendix (contact [adam.hollings1@nhs.net](mailto:adam.hollings1@nhs.net)). Diagnosis groups 2, 5 and 93 were chosen as they varied in level of mortality and the number of episodes recorded. Low mortality means a higher class imbalance.
 
 ![Overview of the features and different diagnosis encoding methods used](../images/shmi_classification_project_images/shmi_diagnosis_encoding_methods.png)
 
@@ -60,7 +60,10 @@ SHMI could be significantly improved by considering more granular diagnosis enco
 - Diagnosis representation categories were given equal weighting at feature creation stage
 
 ## Code
-https://github.com/AdamHollings/MRes-SHMI-Improvement-Project
+Find the code on github [here](https://github.com/AdamHollings/MRes-SHMI-Improvement-Project)
+
+## Contact
+[adam.hollings1@nhs.net](mailto:adam.hollings1@nhs.net)
 
 
 #
