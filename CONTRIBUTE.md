@@ -96,6 +96,14 @@ We have an automated workflow to make blog post submissions easy! Instead of man
    - The workflow will download all images and save them to `docs/images/blogs_images/[slug]/`
    - Supported formats: PNG, JPG, JPEG, GIF
 
+#### How to submit an MRes project
+1. **Create a new markdown page in the mres folder**
+2. **Add your page title and the md document reference to both:
+   - index.md
+   - mkdocs.yml
+3. Check it renders as normal using codespaces
+4. Create a pull request and get it reviewed
+
 #### What Happens Next
 
 Once you submit the issue:
