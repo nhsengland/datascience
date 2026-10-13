@@ -213,6 +213,46 @@ nav:
     - articles/index.md
   - Playbooks: playbooks.md
   # - Codebases: codebases.md
+  - Quality Framework:
+    - Quality Framework: qaf/DS Quality Framework.md
+    - ⚖️ Ethics & Fairness: qaf/⚖️ Ethics & Fairness.md
+    - ⚠️ Risk Management: qaf/⚠️ Risk Management.md
+    - 🌐 Community Engagement: qaf/🌐 Community Engagement.md
+    - 👀 Peer Review: qaf/👀 Peer Review.md
+    - 👨‍💻 Coding Quality: qaf/👨‍💻 Coding Quality.md
+    - 💭 Assumptions: qaf/💭 Assumptions.md
+    - 💻 Tools and Environment: qaf/💻 Tools and Environment.md
+    - 📃 Agreed Commission: qaf/📃 Agreed Commission.md
+    - 📊 Data: qaf/📊 Data.md
+    - 📋 User Requirements: qaf/📋 User Requirements.md
+    - 📖 Documentation: qaf/📖 Documentation.md
+    - 📣 Communication & Marketing: qaf/📣 Communication & Marketing.md
+    - 📦 Project Closure: qaf/📦 Project Closure.md
+    - 🔎 Transparency: qaf/🔎 Transparency.md
+    - 🔐 Information Governance: qaf/🔐 Information Governance.md
+    - 🗺️ Roadmap: qaf/🗺️ Roadmap.md
+    - 🙋‍♂️ Roles & Responsibilities: qaf/🙋‍♂️ Roles & Responsibilities.md
+    - 🛠️ Resourcing & Skills: qaf/🛠️ Resourcing & Skills.md
+    - 🤝 Stakeholder Engagement: qaf/🤝 Stakeholder Engagement.md
+    - 🧑‍🏫 Lessons Learned: qaf/🧑‍🏫 Lessons Learned.md
+    - 🧪 Approach & Methodology: qaf/🧪 Approach & Methodology.md
+    - 🪜 Proportionate QA: qaf/🪜 Proportionate QA.md
+    - Templates:
+      - Assumptions Log Guide: qaf/templates/Assumptions Log Guide.md
+      - C&M- Approvals for Engagements and Publishing: qaf/templates/C&M- Approvals for Engagements and Publishing.md
+      - C&M- Use of Social Media: qaf/templates/C&M- Use of Social Media.md
+      - DPIA Guidance: qaf/templates/DPIA Guidance.md
+      - Data Hazards - How to run an assessment: qaf/templates/Data Hazards - How to run an assessment.md
+      - Data Hazards Monitoring Dashboard: qaf/templates/Data Hazards Monitoring Dashboard.md
+      - How to run an Analytical Quality Assurance Meeting: qaf/templates/How to run an Analytical Quality Assurance Meeting.md
+      - IG Guidance: qaf/templates/IG Guidance.md
+      - IG Resources: qaf/templates/IG Resources.md
+      - Introduction to Quality Assurance: qaf/templates/Introduction to Quality Assurance.md
+      - Legality, Ethics, Fairness & Safety Resources: qaf/templates/Legality, Ethics, Fairness & Safety Resources.md
+      - Model Quality Assurance and Business Critical Models: qaf/templates/Model Quality Assurance and Business Critical Models.md
+      - Risk Log Guide: qaf/templates/Risk Log Guide.md
+      - Role Descriptions Guide: qaf/templates/Role Descriptions Guide.md
+      - SLA guidance: qaf/templates/SLA guidance.md
   - Useful links: useful_links.md
   - Site Info: meta_page.md
 theme:
