@@ -1,30 +1,14 @@
 # DPIA Guidance
 
-The guidance on this page has been drawn from a presentation given by the Privacy, Transparency and Trust (PTT) team.
+The guidance on this page has been drawn from a presentation given by the Privacy, Transparency and Trust (PTT) team meant as a quick guide by ty no means should replace official guidance
 
-#005eb8white2#005eb8Key Documents
-
- 20250619 - An Introduction to Data Protection Impact Assessments.pptx
+**Key Documents**
 
  [Presentation Recording](https://nhs-my.sharepoint.com/personal/tebba_rabani_nhs_net/_layouts/15/stream.aspx?id=%2Fpersonal%2Ftebba%5Frabani%5Fnhs%5Fnet%2FDocuments%2FRecordings%2FAn%20introduction%20to%20DPIAs%2D20250619%5F140201%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E18a945b9%2D517c%2D403f%2D9d9c%2Ddee1bf44c303)
 
-[DPIA Procedure](https://nhs.sharepoint.com/:w:/r/sites/CIG/Shared%20Documents/Procedures/20260804%20DPIA%20procedure%20v1.2%20(final).docx?d=we294bc5d4769492f8cf2d4b17e746fd6&csf=1&web=1&e=aKakRr)
+[DPIA Procedure](<https://nhs.sharepoint.com/:w:/r/sites/CIG/Shared%20Documents/Procedures/20260804%20DPIA%20procedure%20v1.2%20(final).docx?d=we294bc5d4769492f8cf2d4b17e746fd6&csf=1&web=1&e=aKakRr>)
 
-#005eb8white2#005eb8Additonal Resources
-
-[NHS England’s Information Governance and Data Protection Policies](https://nhs.sharepoint.com/sites/NationalPolicyRepository/SitePages/NHSE%20policies/Information%20Governance%20Policy.aspx?csf=1&web=1&e=5Ef1fS&CID=1284c714-2936-4738-a33a-bd348a021cac)
-
-[NHS England’s Information Governance intranet page](https://nhs.sharepoint.com/sites/CIG)
-
-[NHS England’s IG query management portal](https://nhsplatform-idserver.corestream.co.uk/Acc/Login?ReturnUrl=/connect/authorize/callback?client_id%3Dvue%26redirect_uri%3Dhttps%253A%252F%252Fnhsplatform.corestream.co.uk%252Flogincallback%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520email%2520api1%26state%3D45dbc12c6c2a4863aa46db7f412fd1f6%26code_challenge%3DuWFQJjrfshnsFAX8maa4r-R2JgsCnNHKotHVc77UQAY%26code_challenge_method%3DS256%26response_mode%3Dquery)
-
-[Information Commissioner’s Office website](https://ico.org.uk)
-
-[Home | The CoreStream Platform](https://nhsplatform.corestream.co.uk/home)
-
-PTT email: [england.pttigadvice@nhs.net](mailto:england.pttigadvice@nhs.net)
-
-#005eb8white2#005eb8Glossary
+## **Glossary**
 
 **API**: Application Programming Interface
 
@@ -42,13 +26,15 @@ PTT email: [england.pttigadvice@nhs.net](mailto:england.pttigadvice@nhs.net)
 
 **ICO**: Information Commissioner's Office
 
+---
+
 A Data Protection Impact Assessment (DPIA) is a process used to identify and minimise data protection risks when processing personal data. It is required by law under Data Protection Act (DPA 2018) and UK General Data Protection Regulation (GDPR). The outcomes are recorded in a DPIA document.
 
 They are important to:
 
-* ensure legal compliance (GDPR, data protection, audit)
-* manage risks
-* provide transparency
+- ensure legal compliance (GDPR, data protection, audit)
+- manage risks
+- provide transparency
 
 ### What is personal data?
 
@@ -58,40 +44,40 @@ Pseudonymised data is classed as personal data under the law and NHSE also consi
 
 ### What  point should we carry out DPIA?
 
-* New projects - work should start immediately
-* Changes to existing system or use of personal data - must identify existing DPIA and update or carry out new one
-* Should complete a DPIA before getting approvals - this gives an opportunity to influence the design by taking into account the data protection and privacy requirements identified in the DPIA
+- New projects - work should start immediately
+- Changes to existing system or use of personal data - must identify existing DPIA and update or carry out new one
+- Should complete a DPIA before getting approvals - this gives an opportunity to influence the design by taking into account the data protection and privacy requirements identified in the DPIA
 
 ### When is a DPIA required - the law?
 
-* Your project involves any processing of personal data
-* Your project involves processing of pseudonymised or de-identified data about individuals
-* Implementing new systems
-* Large scale use of special category data - includes heath data - these have special protections under GDPR
-* Automated processing with significant consequences - automated processing and decision making
-* Public monitoring - this is about scraping data on the internet to find out more about people and their personal characteristics and is not an area that NHSE often works in
+- Your project involves any processing of personal data
+- Your project involves processing of pseudonymised or de-identified data about individuals
+- Implementing new systems
+- Large scale use of special category data - includes heath data - these have special protections under GDPR
+- Automated processing with significant consequences - automated processing and decision making
+- Public monitoring - this is about scraping data on the internet to find out more about people and their personal characteristics and is not an area that NHSE often works in
 
 ### When is a DPIA required in NHSE?
 
 The DPIA Procedure sets out circumstances when a DPIA must be carried out in NHSE. See Appendix 2 of the DPIA Procedure or the summary below.
 
-|  |  |
-| --- | --- |
-| Implementing New Systems / APIs | Automated Decision Making |
-| Change in legislation | Profiling |
+|                                                             |                                         |
+| ----------------------------------------------------------- | --------------------------------------- |
+| Implementing New Systems / APIs                             | Automated Decision Making               |
+| Change in legislation                                       | Profiling                               |
 | Use of Artificial Intelligence (AI) involving Personal Data | External data sharing or access to data |
-| Organisation Change | Acting as or appointing a processor |
-| Internal Transfer of Data | International Transfers of Data |
-| Pseudonymisation & anonymisation | Medical Devices |
-| Collection & sharing of staff data | Receipt of data |
-| New Direction or Statutory Request | CSU and DSCRO instructions |
+| Organisation Change                                         | Acting as or appointing a processor     |
+| Internal Transfer of Data                                   | International Transfers of Data         |
+| Pseudonymisation & anonymisation                            | Medical Devices                         |
+| Collection & sharing of staff data                          | Receipt of data                         |
+| New Direction or Statutory Request                          | CSU and DSCRO instructions              |
 
 A DPIA may not be required where the processing is at a small scale and PTT has confirmed that it is unlikely to create a risk to individuals.
 
 ### You are **not** required to complete a DPIA if:
 
-* Your project does not involve any processing of data about people
-* Your project only involves processing of anonymised information about people
+- Your project does not involve any processing of data about people
+- Your project only involves processing of anonymised information about people
 
 ### Not sure if a DPIA is required?
 

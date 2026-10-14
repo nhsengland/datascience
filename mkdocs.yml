@@ -237,22 +237,37 @@ nav:
     - 🧑‍🏫 Lessons Learned: qaf/🧑‍🏫 Lessons Learned.md
     - 🧪 Approach & Methodology: qaf/🧪 Approach & Methodology.md
     - 🪜 Proportionate QA: qaf/🪜 Proportionate QA.md
+    - Guidance:
+      - Assumptions Log Guide: qaf/guidance/Assumptions Log Guide.md
+      - DPIA Guidance: qaf/guidance/DPIA Guidance.md
+      - Data Quality Guidance: qaf/guidance/Data Quality Guidance.md
+      - IG Guidance: qaf/guidance/IG Guidance.md
+      - IG Resources: qaf/guidance/IG Resources.md
+      - Introduction to Quality Assurance: qaf/guidance/Introduction to Quality Assurance.md
+      - Legality, Ethics, Fairness & Safety Resources: qaf/guidance/Legality, Ethics, Fairness & Safety Resources.md
+      - Model Quality Assurance and Business Critical Models: qaf/guidance/Model Quality Assurance and Business Critical Models.md
+      - Quality Framework Guides: qaf/guidance/Quality Framework Guides.md
+      - Risk Log Guide: qaf/guidance/Risk Log Guide.md
+      - Role Descriptions Guide: qaf/guidance/Role Descriptions Guide.md
+      - SLA guidance: qaf/guidance/SLA guidance.md
+      - Technology Readiness Levels (TRLs) Guide: qaf/guidance/Technology Readiness Levels (TRLs) Guide.md
     - Templates:
-      - Assumptions Log Guide: qaf/templates/Assumptions Log Guide.md
-      - C&M- Approvals for Engagements and Publishing: qaf/templates/C&M- Approvals for Engagements and Publishing.md
-      - C&M- Use of Social Media: qaf/templates/C&M- Use of Social Media.md
-      - DPIA Guidance: qaf/templates/DPIA Guidance.md
-      - Data Hazards - How to run an assessment: qaf/templates/Data Hazards - How to run an assessment.md
-      - Data Hazards Monitoring Dashboard: qaf/templates/Data Hazards Monitoring Dashboard.md
-      - How to run an Analytical Quality Assurance Meeting: qaf/templates/How to run an Analytical Quality Assurance Meeting.md
-      - IG Guidance: qaf/templates/IG Guidance.md
-      - IG Resources: qaf/templates/IG Resources.md
-      - Introduction to Quality Assurance: qaf/templates/Introduction to Quality Assurance.md
-      - Legality, Ethics, Fairness & Safety Resources: qaf/templates/Legality, Ethics, Fairness & Safety Resources.md
-      - Model Quality Assurance and Business Critical Models: qaf/templates/Model Quality Assurance and Business Critical Models.md
-      - Risk Log Guide: qaf/templates/Risk Log Guide.md
-      - Role Descriptions Guide: qaf/templates/Role Descriptions Guide.md
-      - SLA guidance: qaf/templates/SLA guidance.md
+      - DS Quality Framework Templates: qaf/templates/DS Quality Framework Templates.md
+      - DS_xx- BAU_: qaf/templates/DS_xx- BAU_.md
+      - DS_xxx- Assumptions Log_: qaf/templates/DS_xxx- Assumptions Log_.md
+      - DS_xxx- Comms & Marketing_: qaf/templates/DS_xxx- Comms & Marketing_.md
+      - DS_xxx- Data Hazards_: qaf/templates/DS_xxx- Data Hazards_.md
+      - DS_xxx- Data_: qaf/templates/DS_xxx- Data_.md
+      - DS_xxx- Documents_: qaf/templates/DS_xxx- Documents_.md
+      - DS_xxx- Information Governance_: qaf/templates/DS_xxx- Information Governance_.md
+      - DS_xxx- Lessons Learnt_: qaf/templates/DS_xxx- Lessons Learnt_.md
+      - DS_xxx- Model Card -Model Name-_: qaf/templates/DS_xxx- Model Card -Model Name-_.md
+      - DS_xxx- Project closure_: qaf/templates/DS_xxx- Project closure_.md
+      - DS_xxx- QA Log_: qaf/templates/DS_xxx- QA Log_.md
+      - DS_xxx- Risk Log_: qaf/templates/DS_xxx- Risk Log_.md
+      - DS_xxx- Roadmap_: qaf/templates/DS_xxx- Roadmap_.md
+      - DS_xxx- Scope: qaf/templates/DS_xxx- Scope.md
+      - DS_xxx- Stakeholders_: qaf/templates/DS_xxx- Stakeholders_.md
   - Useful links: useful_links.md
   - Site Info: meta_page.md
 theme:

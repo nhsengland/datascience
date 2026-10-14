@@ -1,7 +1,5 @@
 # Model Quality Assurance and Business Critical Models
 
-none
-
 # Overview
 
 Quality assurance of models is the complete process of ensuring:
@@ -15,13 +13,13 @@ Quality assurance of models is the complete process of ensuring:
 
 NHS England aims to provide a framework of QA to manage and reduce the risk of error in business critical models, in line with the recommendations of the [Macpherson review](https://www.gov.uk/government/publications/review-of-quality-assurance-of-government-models).
 
-The content below briefly summarises the process of model QA in NHS England.
+The content below briefly summarises the process of model QA in NHS England. We recommend going to the official source and take the following as a nice summary.
 
 ## References
 
 For further information, see:
 
-* [Quality Assurance and the Macpherson Review (sharepoint.com)](https://nhs.sharepoint.com/sites/ModelQualityAssurance/SitePages/QA.aspx?xsdata=MDV8MDJ8bWF0dGhldy50YXlsb3I1N0BuaHMubmV0fGIyMzAzMDVkMTM2NDRkNGIxMzAxMDhkZDBhZmE1ZWYwfDM3YzM1NGIyODViMDQ3ZjViMjIyMDdiNDhkNzc0ZWUzfDB8MHw2Mzg2Nzg3OTI3Mjc2NjEzODl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpGYlhCMGVVMWhjR2tpT25SeWRXVXNJbFlpT2lJd0xqQXVNREF3TUNJc0lsQWlPaUpYYVc0ek1pSXNJa0ZPSWpvaVRXRnBiQ0lzSWxkVUlqb3lmUT09fDB8fHw%3D&sdata=eUZtbDI0emVicmZiY0NVWS8rUVhGcmkxbkZKZUtUQzRvZnlHTUN5V3Nxbz0%3D&CT=1733322749749&OR=OWA-NT-Mail&CID=2baa067c-7065-bc7b-43cc-951b5cbda00d&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNDExMTUwMDMuMjciLCJPUyI6IldpbmRvd3MgMTEifQ%3D%3D) on the hub provides a comprehensive (if somewhat verbose) overview and links to relevant documentation, decision-support tools, model registers and government policy.
+- [Quality Assurance and the Macpherson Review (sharepoint.com)](https://nhs.sharepoint.com/sites/ModelQualityAssurance/SitePages/QA.aspx?xsdata=MDV8MDJ8bWF0dGhldy50YXlsb3I1N0BuaHMubmV0fGIyMzAzMDVkMTM2NDRkNGIxMzAxMDhkZDBhZmE1ZWYwfDM3YzM1NGIyODViMDQ3ZjViMjIyMDdiNDhkNzc0ZWUzfDB8MHw2Mzg2Nzg3OTI3Mjc2NjEzODl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpGYlhCMGVVMWhjR2tpT25SeWRXVXNJbFlpT2lJd0xqQXVNREF3TUNJc0lsQWlPaUpYYVc0ek1pSXNJa0ZPSWpvaVRXRnBiQ0lzSWxkVUlqb3lmUT09fDB8fHw%3D&sdata=eUZtbDI0emVicmZiY0NVWS8rUVhGcmkxbkZKZUtUQzRvZnlHTUN5V3Nxbz0%3D&CT=1733322749749&OR=OWA-NT-Mail&CID=2baa067c-7065-bc7b-43cc-951b5cbda00d&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNDExMTUwMDMuMjciLCJPUyI6IldpbmRvd3MgMTEifQ%3D%3D) on the hub provides a comprehensive (if somewhat verbose) overview and links to relevant documentation, decision-support tools, model registers and government policy.
 
 # Formal QA processes in NHSE
 
@@ -55,4 +53,4 @@ As outlined on [this page](https://nhs.sharepoint.com/sites/ModelQualityAssuranc
 
 The diagram below summarises tables C1-C5 from the Macpherson review showing issues to consider at different stages of model development. 
 
-truemodel\_development\_considerationsfalseautotopfalse8705
+truemodel_development_considerationsfalseautotopfalse8705

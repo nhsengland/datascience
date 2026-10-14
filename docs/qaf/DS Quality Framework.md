@@ -17,58 +17,58 @@ This framework is a single point of reference for quality assurance and best pra
 
 *Pick the right amount of assurance for the job. This keeps effort proportionate to the project’s risk, complexity and impact.*
 
-* [🪜 Proportionate QA](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1154678276/%F0%9F%AA%9C+Appropriate+Level+of+QA)
+* [🪜 Proportionate QA](./%F0%9F%AA%9C%20Proportionate%20QA.md)
 
 # Governance and Stakeholders
 
 *Make sure the work is legitimate and clearly owned: who commissioned it, who’s involved, what they need, and how you’ll work together. This avoids drift and keeps decisions accountable.  ￼*
 
-* [📃 Agreed Commission](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1154678688/%F0%9F%93%83+Approved+Commission)
-* [🙋‍♂️ Roles & Responsibilities](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1154678734/%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Roles+Responsibilities)
-* [🤝 Stakeholder Engagement](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1154678711/%F0%9F%A4%9D+Stakeholder+Engagement)
-* [📋 User Requirements](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1169571777/%F0%9F%93%8B+User+Requirements)
+* [📃 Agreed Commission](./%F0%9F%93%83%20Agreed%20Commission.md)
+* [🙋‍♂️ Roles & Responsibilities](./%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F%20Roles%20%26%20Responsibilities.md)
+* [🤝 Stakeholder Engagement](./%F0%9F%A4%9D%20Stakeholder%20Engagement.md)
+* [📋 User Requirements](./%F0%9F%93%8B%20User%20Requirements.md)
 
 # Legality and Ethics
 
 *Work within the rules and do the right thing: secure and lawful use of data, and fair, responsible methods and outputs. This builds trust and protects people.*
 
-* [🔐 Information Governance](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1169571766/%F0%9F%94%90+Information+Governance)
-* [⚖️ Ethics & Fairness](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1169571773/%E2%9A%96%EF%B8%8F+Ethics+Fairness)
+* [🔐 Information Governance](./%F0%9F%94%90%20Information%20Governance.md)
+* [⚖️ Ethics & Fairness](./%E2%9A%96%EF%B8%8F%20Ethics%20%26%20Fairness.md)
 
 # Resources needed for delivery
 
 *Set the team up to succeed: the right skills, data access, and tools to deliver reliably and on time.*
 
-* [🛠️ Resourcing & Skills](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1161782978/%F0%9F%9B%A0%EF%B8%8F+Resourcing+Skills)
-* [📊 Data](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1161782667/%F0%9F%93%8A+Data)
-* [💻 Tools and Environment](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1161782786/%F0%9F%92%BB+Tools+and+Environment)
+* [🛠️ Resourcing & Skills](./%F0%9F%9B%A0%EF%B8%8F%20Resourcing%20%26%20Skills.md)
+* [📊 Data](./%F0%9F%93%8A%20Data.md)
+* [💻 Tools and Environment](./%F0%9F%92%BB%20Tools%20and%20Environment.md)
 
 # Analysis, Validation & Verification
 
 *Choose sound methods and implement them well. Taken together these processes validate that we are addressing the real problem and verify that we're doing it correctly.*
 
-* [🧪 Approach & Methodology](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1154678314/%F0%9F%A7%AA+Approach+Methodology)
-* [💭 Assumptions](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1169571984/%F0%9F%92%AD+Assumptions)
-* [👨‍💻 Coding Quality](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1154678318/%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+Coding+Quality)
-* [👀 Peer Review](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1154678680/%F0%9F%91%80+Peer+Review)
+* [🧪 Approach & Methodology](./%F0%9F%A7%AA%20Approach%20%26%20Methodology.md)
+* [💭 Assumptions](./%F0%9F%92%AD%20Assumptions.md)
+* [👨‍💻 Coding Quality](./%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%20Coding%20Quality.md)
+* [👀 Peer Review](./%F0%9F%91%80%20Peer%20Review.md)
 
 # Documentation, Dissemination & Impact
 
 *Make the work understandable, visible and useful: clear docs, transparent methods, and communication that helps people apply the results.*
 
-* [📣 Communication & Marketing](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1161783125/%F0%9F%93%A3+Communication+Marketing)
-* [🌐 Community Engagement](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1161783767/%F0%9F%8C%90+Community+Engagement)
-* [📖 Documentation](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1161783083/%F0%9F%93%96+Documentation)
-* [🔎 Transparency](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1161783862/%F0%9F%94%8E+Transparency)
+* [📣 Communication & Marketing](./%F0%9F%93%A3%20Communication%20%26%20Marketing.md)
+* [🌐 Community Engagement](./%F0%9F%8C%90%20Community%20Engagement.md)
+* [📖 Documentation](./%F0%9F%93%96%20Documentation.md)
+* [🔎 Transparency](./%F0%9F%94%8E%20Transparency.md)
 
 # Project management & Continuous Improvement
 
 *Plan but remain agile. Manage risks, learn as you go, and close down well so others can pick up and reuse.*
 
-* [🗺️ Roadmap](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1169571936/%F0%9F%97%BA%EF%B8%8F+Roadmap)
-* [⚠️ Risk Management](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1169571781/%E2%9A%A0%EF%B8%8F+Risk+Management)
-* [🧑‍🏫 Lessons Learned](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1169572011/%F0%9F%A7%91%E2%80%8D%F0%9F%8F%AB+Lessons+Learned)
-* [📦 Project Closure](https://nhsd-confluence.digital.nhs.uk/spaces/DAT/pages/1169572055/%F0%9F%93%A6+Project+Closure)
+* [🗺️ Roadmap](./%F0%9F%97%BA%EF%B8%8F%20Roadmap.md)
+* [⚠️ Risk Management](./%E2%9A%A0%EF%B8%8F%20Risk%20Management.md)
+* [🧑‍🏫 Lessons Learned](./%F0%9F%A7%91%E2%80%8D%F0%9F%8F%AB%20Lessons%20Learned.md)
+* [📦 Project Closure](./%F0%9F%93%A6%20Project%20Closure.md)
 
 ---
 
