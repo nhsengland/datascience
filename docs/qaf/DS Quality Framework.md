@@ -1,17 +1,20 @@
 # DS Quality Framework
 
-trueINLINE
-
-|  |  |
-| --- | --- |
-| **Link** | page |
-| **Owner** | Owner ds\_qp |
-
 **Quality** in data science refers to the structured and systematic process of ensuring that every aspect of a project—from setting up a team, understanding user needs, selecting the right methodology and building a tool through to generating outputs and communicating them for impact—is robust, reliable, and fit for purpose.
 
 It involves selecting well-justified approaches, applying consistent standards, conducting critical peer reviews, and verifying that all processes are correctly implemented. It validates that the final outputs effectively address the original problem and meet stakeholder needs, and provides a structure in which we can operate ethically and safely, continually build our good practice, and enhance our impact.
 
 This framework is a single point of reference for quality assurance and best practices throughout all stages of a data science project. It's how we do things around here. 
+
+## **Explore the framework**
+
+Each quality dimension has its own page describing the relevant principles and practices.
+
+# Guidance and Templates
+
+We share selected templates used by our team to evidence how we put the quality dimensions into practice, alongside guidance developed to support our work. We hope these resources are useful to others, but please note that some guidance references internal documents, systems or locations that may not be accessible to external users.
+
+A key resource is the **Quality Assurance Log** (DS_xxx- QA Log_), available under *Templates*. It provides an ongoing record of quality assurance throughout the project lifecycle, helping teams evaluate compliance, identify gaps, signpost supporting evidence, support discussions with commissioners and analytical assurers, and maintain an audit trail of key decisions.
 
 # Start Here
 
