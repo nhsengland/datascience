@@ -42,6 +42,7 @@ nav:
         - Diabetic Retinopathy: our_work/diabetic_retinopathy.md
         - Emerging Privacy Enhancing Technologies: our_work/pets.md
         - ePMA Auto Coding: our_work/epma_autocoding.md
+        - Feature Store: our_work/feature-store.md
         - Primary Care Data Generator: our_work/swpclab.md
         - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
         - Reusable Data Validation Process: our_work/sde_data_validation.md
@@ -151,6 +152,7 @@ nav:
         - AI Ethics in Practice: our_work/ai-ethics.md
         - AI Skunkworks Team: our_work/ai-skunkworks.md
         - "Corporate Services: Pipeline rebuild": our_work/corporate_services_pipeline_rebuild.md
+        - Feature Store: our_work/feature-store.md
         - NHS @Home Programme: our_work/open-safely.md
         - Reproducible Analytical Pipelines Squad: our_work/ds218_rap_community_of_practice.md
       - Research & Development:
