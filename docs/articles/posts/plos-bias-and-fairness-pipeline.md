@@ -1,5 +1,5 @@
 ---
-title: Building a Bias & Fairness Assessment Pipeline for NHS Predicted Length of Stay: What 8 Weeks as a Data Science Intern Taught Me
+title: Building a Bias & Fairness Assessment Pipeline for NHS Predicted Length of Stay - What 8 Weeks as a Data Science Intern Taught Me
 authors: [SofiaAlabi]
 date: 2026-10-16
 categories:
@@ -21,7 +21,7 @@ description: >
 
 During my internship at NHS England, I had the opportunity to work on something that genuinely matters: making sure an AI model works fairly for every patient, not just on average. Coming from a healthcare background as a former Healthcare Assistant, it was especially meaningful to work on a project focused on improving the understanding of patient pathways and outcomes through data.
 
-The project centred on a Predicted Length of Stay (PLoS) model that classifies patients into one of four stay bands (0–1 day, 2–3 days, 4–7 days, 8+ days). My task was to build a bias and fairness assessment pipeline from scratch to evaluate whether the model performed equally across demographic groups.
+The project centred on a [Predicted Length of Stay (PLoS)](https://nhsengland.github.io/datascience/our_work/ds_314_plos/) model that classifies patients into one of four stay bands (0–1 day, 2–3 days, 4–7 days, 8+ days). My task was to build a bias and fairness assessment pipeline from scratch to evaluate whether the model performed equally across demographic groups.
 
 ## What I built
 
