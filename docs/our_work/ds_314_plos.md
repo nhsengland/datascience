@@ -103,5 +103,7 @@ This project is currently **work in progress (WIP)**.
 
 Further detail will be added as the project matures and findings are validated.
 
+Read about building a bias and fairness assessment pipeline for PLOS [on the blog](https://nhsengland.github.io/datascience/articles/2026/10/16/plos-bias-and-fairness-pipeline/).
+
 [comment]: <> (The below header stops the title from being rendered (as mkdocs adds it to the page from the "title" attribute) - this way we can add it in the main.html, along with the summary.)
 #
