@@ -29,6 +29,7 @@ nav:
     - Project Tags: our_work/tags.md
     - Past/Current Projects:
       - Current Projects:
+        - Feature Store: our_work/feature-store.md
         - Synthetic Patient Panels for Healthcare Communication Testing: our_work/synthetic-patient-panels-for-healthcare-communication-testing.md
         - A&E Forecasting Tool: our_work/a_and_e_forecasting_tool.md
         - AI Assurance Research Path: our_work/ds278_Assurance_Research_Path.md
@@ -146,6 +147,7 @@ nav:
         - Tool to Assess Privacy Risk of Text Data: our_work/c399_privfinger.md
         - Tool to Assess Privacy Risk of Text Data - Extended: our_work/ds255_privacyfp.md
       - Data Science Capability:
+        - Feature Store: our_work/feature-store.md
         - AI Deep Dive Workshops: our_work/ai-deep-dive.md
         - AI Dictionary: our_work/ai-dictionary.md
         - AI Ethics in Practice: our_work/ai-ethics.md
