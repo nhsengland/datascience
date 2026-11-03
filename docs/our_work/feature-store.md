@@ -5,11 +5,11 @@ origin: 'NHS England'
 tags: ['PYTHON', 'BEST PRACTICE', 'WIP']
 ---
 
+![Two synthetic input tables, Patients and Attendances, feed into a Feature Store box that lists feature definitions and runs on pandas, PySpark or Polars. Feature Store outputs a table of attendances with the new feature columns added, and a usage log recording how it was built.](../images/feature-store-headline.svg)
+
 !!! warning
 
     This project is in development, so what follows may change.
-
-![Two synthetic input tables, Patients and Attendances, feed into a Feature Store box that lists feature definitions and runs on pandas, PySpark or Polars. Feature Store outputs a table of attendances with the new feature columns added, and a usage log recording how it was built.](../images/feature-store-headline.svg)
 
 ## About Feature Store
 
