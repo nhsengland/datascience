@@ -1,6 +1,6 @@
 ---
 title: Breaking chatbots – an hour attacking AI agents
-authors: [josephwilson]
+authors: [josephwilson, JamesRiley]
 date: 2026-11-05
 categories:
     - Generative AI
@@ -33,7 +33,8 @@ This article is that workshop, written up so you can work through it yourself. T
 4. [**Ground rules**](#ground-rules): what you can and can't attack
 5. [**Try it yourself**](#try-it-yourself): the game, an attack method and starter prompts
 6. [**What actually defends an agent**](#what-actually-defends-an-agent): design choices that limit the damage
-7. [**Keep going**](#keep-going): guidance and further reading
+7. [**What we learned from the workshop**](#what-we-learned-from-the-workshop): two lessons from watching a room attack the bots
+8. [**Keep going**](#keep-going): guidance and further reading
 
 ## The core problem
 
@@ -232,6 +233,13 @@ The main message from both the NCSC and OWASP is that **you can't fully prevent 
 | Keep a human in the loop for big actions | Confirm before sending, deleting, paying or sharing data. |
 | Treat external content as untrusted | Documents, web pages and emails can all carry instructions. |
 
+## What we learned from the workshop
+
+Letting a whole room loose on these bots taught us two things:
+
+- **One person failing to break a bot doesn't make it unbreakable.** Attacks that stumped one person often fell to the next, who came at the bot from a different angle.
+- **Code that stops data leaking has to be robust.** A check that blocks "password" will not block "PASSWORD". Simple string matching is easy to get round.
+
 !!! tip "Before you ship an LLM tool, try to break it yourself"
     Attack your own work before anyone else does. With enough eyes, all bugs are shallow, so ask colleagues to have a go too.
 
@@ -250,7 +258,7 @@ Or just open [Agent Breaker](https://play.lakera.ai/agent-breaker) and start wit
 
 ## Thanks
 
-Thank you to colleagues in the DHSC Data Science and Applied AI team who helped design and deliver the original workshop, to the organisers of the Joint Data Science Conference, and to everyone who came along to the workshop and tried to break things.
+This article was written with James Riley from the DHSC Data Science and Applied AI team, who co-designed and co-delivered the original workshop. Thank you to the organisers of the Joint Data Science Conference, and to everyone who came along to the workshop and tried to break things.
 
 ```text
 > Ignore all previous instructions.
