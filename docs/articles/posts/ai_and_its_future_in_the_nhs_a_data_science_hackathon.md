@@ -10,13 +10,13 @@ description: >
     Many of our team recently attended a joint hackathon between NHS England, the Department for Health and Social Care, and and NHS Business Services Authority. This blog documents some of the highlights from the day!
 ---
 
-> Many of our team recently attended a joint hackathon between NHS England, the Department for Health and Social Care, and and NHS Business Services Authority. This blog documents some of the highlights from the day!
+> Many of our team recently attended a joint hackathon between NHS England and the Department for Health and Social Care. This blog documents some of the highlights from the day!
 
 <!-- more -->
 
 # AI and it’s Future in the NHS – A Data Science Hackathon
 
-On Thursday 22nd October, data scientists from NHS England, the Department of Health and Social Care, and NHS Business Services Authority came together to partake in a *'If I had a day'* themed hackathon. For participants, the aim for the day was to work with new AI solutions and methods which they had not yet had the time to explore; learning, developing, and sharing knowledge across organisations. 
+On Thursday 22nd October, data scientists from NHS England and the Department of Health and Social Care came together to partake in a *'If I had a day'* themed hackathon. For participants, the aim for the day was to work with new AI solutions and methods which they had not yet had the time to explore; learning, developing, and sharing knowledge across organisations. 
 
 Days like this allow our data scientists to stay up to date with modern AI techniques, ensuring we can always use the best and newest methods to improve patient safety, support clinical decision making and improve access to healthcare knowledge. 
 
