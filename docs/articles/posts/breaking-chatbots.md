@@ -21,7 +21,7 @@ description: >
 
 ## About this article
 
-At the first NHSE, DHSC and NHS BSA Joint Data Science Conference in October 2026, we ran an hour-long workshop on attacking AI chatbots and agents. It sat in the learning and development slot on day one, alongside the Data Science Accelerator Celebration.
+At the second NHSE, DHSC and NHS BSA Joint Data Science Conference in October 2026, we ran an hour-long workshop on attacking AI chatbots and agents. It sat in the learning and development slot on day one, alongside the Data Science Accelerator Celebration.
 
 This article is that workshop, written up so you can work through it yourself. The idea is simple. More of us are building tools on large language models (LLMs), and the fastest way to understand how those tools fail is to try to make them fail.
 
