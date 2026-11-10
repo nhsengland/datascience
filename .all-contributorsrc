@@ -395,6 +395,15 @@
         "bug",
         "maintenance"
       ]
+    },
+    {
+      "login": "jriley-dhsc",
+      "name": "jriley-dhsc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49435556?v=4",
+      "profile": "https://github.com/jriley-dhsc",
+      "contributions": [
+        "blog"
+      ]
     }
   ],
   "contributorsPerLine": 7,
