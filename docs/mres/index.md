@@ -22,7 +22,10 @@ A showcase of some of these projects can be found in these pages.
 - [UTI Surgery Risk Predictions](uti.md)
 - [Predicting Winter Pressures on Emergency Admissions](winter-pressures.md)
 - [More granular diagnosis encoding for the Summary Hospital-level Mortality Indicator (SHMI)](shmi_classification.md)
-
+- [Predicting time to first emergency hospital admission in adults with type 2 diabetes in England: development and internal validation of multivariable survival models.](16-annu-joy.md)
+- [A  5-year retrospective cohort study of singleton babies and the key maternal, foetal, and socioeconomic factors that determine birthweight and small for gestational by ethnicity using real world data.](17-trushna-shah.md)
+- [Is there a trade-off between quality and technical efficiency for Acute NHS Hospital Trusts in England?](18-edmund-haacke.md)
+- [Bowel Cancer Risk Prediction Using NHS 111 Call and Primary Care Prescription Data](19-piyali-dutta.md)
 
 !!! note
     Please note, these projects were undertaken as a core component of the Master of Research course at Leeds University, they do not represent NHS England policy.

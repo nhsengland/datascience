@@ -3,7 +3,7 @@
 process-survey-responses.py
 
 Usage:
-    python process-survey-responses.py input.xlsx output_folder/
+    python process-survey-responses.py input.xlsx output_folder/ [--start-id ID]
 
 Reads an Excel or CSV file of survey responses and writes one Markdown file per response.
 The output contains:
@@ -16,6 +16,7 @@ Dependencies:
     pip install pandas openpyxl python-slugify
 """
 
+import argparse
 import sys
 import re
 import pandas as pd
@@ -152,9 +153,12 @@ def build_markdown(row):
 
 
 # --- File processing ---
-def process_dataframe(df, out_dir):
+def process_dataframe(df, out_dir, start_id=None):
     col_map = normalize_columns(list(df.columns))
     df_renamed = df.rename(columns=col_map)
+    if start_id is not None:
+        ids = df_renamed['id'] if 'id' in df_renamed else df_renamed.index
+        df_renamed = df_renamed[pd.to_numeric(ids, errors='coerce') >= start_id]
     out_dir.mkdir(parents=True, exist_ok=True)
 
     for idx, row_series in df_renamed.iterrows():
@@ -179,13 +183,16 @@ def read_input(path):
 
 
 def main(argv):
-    if len(argv) < 3:
-        print("Usage: python utils/process-survey-responses.py input.xlsx output_folder/")
-        sys.exit(1)
-    input_path = Path(argv[1])
-    out_dir = Path(argv[2])
+    parser = argparse.ArgumentParser(description="Write Markdown files for survey responses.")
+    parser.add_argument('input_path', type=Path)
+    parser.add_argument('out_dir', type=Path)
+    parser.add_argument('--start-id', type=int, help="Process responses with this ID or higher.")
+    args = parser.parse_args(argv[1:])
+
+    input_path = args.input_path
+    out_dir = args.out_dir
     df = read_input(input_path)
-    process_dataframe(df, out_dir)
+    process_dataframe(df, out_dir, start_id=args.start_id)
 
 
 if __name__ == '__main__':
