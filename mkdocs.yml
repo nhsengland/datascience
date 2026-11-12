@@ -213,6 +213,10 @@ nav:
       - UTI Surgery Risk Predictions: mres/uti.md
       - Predicting Winter Pressures on Emergency Admissions: mres/winter-pressures.md
       - Using alternative modelling methods and more granular diagnosis encoding for the Summary Hospital-level Mortality Indicator (SHMI): mres/shmi_classification.md
+      - Predicting Emergency Hospital Admission in Adults with Type 2 Diabetes: mres/16-annu-joy.md
+      - Factors determining birthweight of singleton babies: mres/17-trushna-shah.md
+      - Relationship between clinical quality, and technical efficiency in NHS acute hospitals: mres/18-edmund-haacke.md
+      - Bowel Cancer Risk Prediction: mres/19-piyali-dutta.md
   - Articles:
     - articles/index.md
   - Playbooks: playbooks.md
