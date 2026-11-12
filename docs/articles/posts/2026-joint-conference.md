@@ -16,7 +16,7 @@ description: >
 
 **On Tuesday 20th and Wednesday 21st October, data scientists from across NHSE, DHSC and NHSBSA came together in Leeds for two days of presentations, workshops and collaboration, celebrating the innovative data science work taking place across health and care.**
 
-![THbLgtsw](../images/blogs_images/2026-joint-conference/1f8aeb26-496b-44f2-9fe4-0d7670402ae8.jpg)
+![THbLgtsw](../../images/blogs_images/2026-joint-conference/1f8aeb26-496b-44f2-9fe4-0d7670402ae8.jpg)
 
 ## Day One: Celebrating the Data Science Accelerator
 
@@ -28,7 +28,7 @@ Participants are paired with experienced mentors, dedicating one day per week to
 
 The Celebration Event gave participants the chance to share the insights, outcomes and impact of their projects. It was brilliant to see the breadth of work delivered; demonstrating what can be achieved when people are given dedicated time, mentorship and the opportunity to learn by doing. You can read about a previous mentee’s experience on the program [here](https://nhsengland.github.io/datascience/articles/2026/06/11/20260611-ds-accelerator/).
 
-![image](../images/blogs_images/2026-joint-conference/7203b654-fa01-4f33-a776-c97709d8464a.png)
+![image](../../images/blogs_images/2026-joint-conference/7203b654-fa01-4f33-a776-c97709d8464a.png)
 
 The afternoon began with the first of the week's learning and development sessions, an AI agent breaking challenge. Teams attempted to break AI agents, putting their prompt engineering and adversarial thinking skills to the test to learn the limitations of current AI systems. If you’d like to experiment with breaking AI chatbots and learn about using agents safely, [this article](https://nhsengland.github.io/datascience/articles/2026/11/05/breaking-chatbots/) provides a write-up of the workshop and lessons learnt.
 
@@ -42,7 +42,7 @@ The afternoon featured a poster session, where attendees from all three organisa
 
 > "The variety of projects being presented from all organisations was impressive! Lots were incredibly interesting, and there was a general sense of excitement for future collaboration. For me personally, the poster session was particularly successful. Since presenting my poster on synthetic panels, other organisations have already reached out and asked for further meetings, learning more about my project and discussing how we can work together in the future." — Will Poulett, Senior Data Scientist
 
-![9LIP3I3A](../images/blogs_images/2026-joint-conference/73acf00d-7e07-4a71-bec2-5921ed18eb52.jpg)
+![9LIP3I3A](../../images/blogs_images/2026-joint-conference/73acf00d-7e07-4a71-bec2-5921ed18eb52.jpg)
 
 The day also included a workshop on Reusables, where colleagues shared ideas about how to reuse ideas, learning, and even modelling across teams and organisations. Collaboration, working across organisations to ensure work is delivered efficiently and in a joined-up manner was a theme that ran through the whole week.
 
