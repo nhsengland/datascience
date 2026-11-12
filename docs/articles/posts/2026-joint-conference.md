@@ -1,7 +1,7 @@
 ---
 title: Showcasing Innovation in Data Science – A Joint Conference Across Health and Care
 authors: [MarthaMcKenna]
-date: 20260-11-11
+date: 2026-11-11
 categories:
     - Events
     - Professional Development
