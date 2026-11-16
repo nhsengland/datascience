@@ -149,7 +149,7 @@ def build_markdown(row):
     if links_section:
         body += links_section
 
-    return '\n'.join(yaml_lines) + body +'\n#'
+    return '\n'.join(yaml_lines) + body +'\n\n#'
 
 
 # --- File processing ---
