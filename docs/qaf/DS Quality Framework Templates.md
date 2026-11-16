@@ -1,2 +1,0 @@
-# DS Quality Framework Templates
-

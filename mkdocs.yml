@@ -238,6 +238,7 @@ nav:
     - 🧪 Approach & Methodology: qaf/🧪 Approach & Methodology.md
     - 🪜 Proportionate QA: qaf/🪜 Proportionate QA.md
     - Guidance:
+      - Guidance: qaf/guidance/guidance.md
       - Assumptions Log Guide: qaf/guidance/Assumptions Log Guide.md
       - DPIA Guidance: qaf/guidance/DPIA Guidance.md
       - Data Quality Guidance: qaf/guidance/Data Quality Guidance.md
