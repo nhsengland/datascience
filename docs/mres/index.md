@@ -22,7 +22,10 @@ A showcase of some of these projects can be found in these pages.
 - [UTI Surgery Risk Predictions](uti.md)
 - [Predicting Winter Pressures on Emergency Admissions](winter-pressures.md)
 - [More granular diagnosis encoding for the Summary Hospital-level Mortality Indicator (SHMI)](shmi_classification.md)
-
+- [Emergency admissions in adults with type 2 diabetes](16-annu-joy.md)
+- [Birthweight and SGA in singleton babies by ethnicity](17-trushna-shah.md)
+- [Quality vs technical efficiency in NHS trusts](18-edmund-haacke.md)
+- [Bowel cancer risk prediction using NHS 111 and prescriptions](19-piyali-dutta.md)
 
 !!! note
     Please note, these projects were undertaken as a core component of the Master of Research course at Leeds University, they do not represent NHS England policy.
