@@ -8,6 +8,16 @@ tags: ['PUBLICATIONS']
 
 List of pre-releases and publications connected to our work
 
+[14] [https://onlinelibrary.wiley.com/doi/10.1002/cso2.70029](https://onlinelibrary.wiley.com/doi/10.1002/cso2.70029)
+
+**Cox-PASNet With Late Fusion of Transcriptomic and Clinical Features for Survival Prediction in Diffuse Large B-Cell Lymphoma**
+
+**Auguste Rumbutyte**, **Jonathan Pearson**, **Scarlett Kynoch**
+
+*Accurate prognosis in diffuse large B-cell lymphoma (DLBCL) remains a clinical challenge. The International Prognostic Index (IPI) is the standard tool but relies solely on clinical variables and fails to capture the extensive molecular heterogeneity of DLBCL. Integrating transcriptomics has shown promise for improving patient stratification, yet most approaches lack biological interpretability and external validation. Here, we apply Cox-PASNet, a pathway-structured neural network survival model, to DLBCL, integrating gene expression with clinical features. Using a discovery cohort of 670 patients (GSE181063) and an independent external validation cohort of 233 R-CHOP-treated patients (GSE10846), we demonstrate that late fusion of pathway-structured transcriptomics with IPI achieves a C-index of 0.700 ± 0.020 on the discovery cohort and 0.732 on external validation, statistically significantly outperforming the externally transferred IPI-Cox baseline (C-index 0.678; Δ = +0.054, bootstrap 95% confidence interval [CI] [+0.004, +0.104], p = 0.018). Incorporating cell-of-origin subtype further raised the external fused C-index to 0.745, though this additional gain over IPI-Cox did not reach the pre-specified significance threshold (bootstrap 95% CI [−0.0003, +0.130]). Pathway-level explainability analysis identified apoptosis, hypoxia, IL6/JAK/STAT3 signaling, and interferon gamma response as consistently prognostic, with CDKN1A emerging as a recurrent hub gene across multiple pathways and GPX4 among the top-ranked genes. These findings support the translational potential of pathway-structured multimodal survival modeling in DLBCL.*
+
+---
+
 [13] [https://www.nature.com/articles/s42256-025-01116-5](https://www.nature.com/articles/s42256-025-01116-5)
 
 **Towards deployment-centric multimodal AI beyond vision and language**
