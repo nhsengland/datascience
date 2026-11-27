@@ -18,7 +18,7 @@ description: >
 
 The Data Science Accelerator gives colleagues the opportunity to develop their data science skills while working on a real problem from their business area. Over 12 weeks, participants receive support from an experienced data science mentor and spend approximately one day a week developing their project.
 
-It is a practical programme built around learning by doing. Participants can develop skills in areas such as Python, machine learning, natural language processing, geospatial analysis, Git, data visualisation and Reproducible Analytical Pipelines, while producing work that can continue to benefit their team after the programme ends.
+It is a practical programme built around learning by doing. Participants can develop skills in areas such as coding, machine learning, natural language processing, geospatial analysis, Git, data visualisation and Reproducible Analytical Pipelines, while producing work that can continue to benefit their team after the programme ends.
 
 ## Are you “techy” enough to take part? 
 
@@ -76,6 +76,7 @@ The Accelerator is designed for people with an interest in data who have a proje
 * a clear project idea connected to a real business need, with expected benefit to your team or organisation;
 * support from your line manager;
 * access to the data required;
+* whether your mentor will need/be able to access the data access platform used;
 * approximately one day a week of protected project time; and
 * a willingness to experiment, learn and share your work.
 * To be able to attend the accelerator wrap-up event on the **12th of May 2027**.
