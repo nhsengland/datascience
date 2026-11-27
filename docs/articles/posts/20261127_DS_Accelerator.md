@@ -87,6 +87,17 @@ You do not need to arrive with all the answers. The experiences of previous part
 To apply, complete the applicant form and send it to DataScience@dhsc.gov.uk by **08 January 2027**. The next programme will run from **01 February 2027** to **30 April 2027**. The scheme is open to anyone working in NHS BSA, NHS England, or DHSC.
 
 ## Participant requirements 
-Participants are expected to identify a project relevant to their business area. The solution should be expected to bring a business benefit to the organisation, while developing participants’ data science skills. Participants MUST have access to the data needed and the agreement and support of your line manager before the start of the Accelerator. Participant should already have some basic coding experience. Candidates with coding experience will be prioritised if there are more applicants than available mentors.  
+
+Participants are expected to identify a project relevant to their business area. The solution should be expected to bring a business benefit to the organisation, while developing participants’ data science skills. Participants MUST have access to the data needed and the agreement and support of your line manager before the start of the Accelerator.
+
+Coding experience is useful but not essential. Candidates with some coding experience will be prioritised if there are more applicants than available mentors.
+
+In the event that we have more applications than capacity, applicants with coding experience (in any language) and Git experience will be prioritised. We will then sift applications according to:
+
+* How viable the project is within the 12 weeks;
+* The expected impact of the project on your team, wider organisation, or the public;
+* How innovative or advanced the proposed approach to your project is;
+* How clear the purpose of the project is and how well-considered your approach is;
+* Your personal statement describing your motivation for the programme.
 
 Experienced data scientists can also support the programme as mentors. Mentors typically provide around an hour of support each week, with occasional additional time for code review and troubleshooting. If you are interested in this program as a mentor, please also fill out the form and reach out to [datascience@dhsc.gov.uk](mailto:datascience@dhsc.gov.uk). You will be sent a skills matrix to fill out to be best paired with a mentee. 
