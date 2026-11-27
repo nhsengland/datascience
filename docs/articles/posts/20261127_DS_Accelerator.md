@@ -1,5 +1,5 @@
 ---
-title: Turn a data science idea into something real to benefit your team: apply for the Data Science Accelerator
+title: "Turn a data science idea into something real to benefit your team: apply for the Data Science Accelerator"
 authors: [AmaiaImazBlanco]
 date: 2026-12-01
 categories:
@@ -35,6 +35,12 @@ She summed up the experience as:
 ## Applying data science to real healthcare challenges
 
 The latest cohort demonstrated the breadth of problems that can be explored through the Accelerator.
+
+<figure markdown>
+![A group of Data Science Accelerator participants and mentors standing together in the programme office](../../images/blogs_images/DSC_9549.JPG){ width="80%" }
+<figcaption>Participants and mentors from the latest Data Science Accelerator cohort.</figcaption>
+</figure>
+
 Bashir Abubakar, from the Mental Health Programme at Yorkshire Ambulance Service NHS Trust, developed a clinical natural language processing pipeline to interpret whether concepts in clinical text were present, negated, historical or uncertain. During the programme, he strengthened his skills in Python, few-shot learning, sentence transformers, SetFit, model explainability and responsible AI, with support from his mentor Ben Wallace, from the NHSE Data Science & Applied AI Team.
 
 Emma Silvey, from NHS England’s Elective Analysis team, used direct standardisation to investigate how demographic differences affect variation in Referral to Treatment clock starts across integrated care boards. Supported by Amelia Noonan from the NHSE Data Science & Applied AI Team, she learnt a new analytical method while using the Federated Data Platform, Python transforms, version control and Contour dashboards for the first time. Her work will continue through analysis at different geographical levels and the possible inclusion of further demographic factors. She describes the accelerator as “rewarding and challenging”, the perfect mix for a professional development experience.
@@ -55,6 +61,11 @@ If that doesn’t convince you that the accelerator could be a great idea for yo
 ## Sharing achievements and discovering what comes next
 
 The Accelerator’s closing celebration gave mentees the opportunity to present their work to the wider data science community, sharing their project findings and reflecting on what they had achieved during the programme.
+
+<figure markdown>
+![Data Science Accelerator participants and attendees listening to a presentation at the closing celebration](../../images/blogs_images/IMG_0853.jpg){ width="80%" }
+<figcaption>Participants and guests gathered for a presentation at the Accelerator closing celebration.</figcaption>
+</figure>
 
 It was also a chance to look beyond their own projects. As part of the wider event, mentees could hear about data science work taking place across NHS England, the Department of Health and Social Care and NHS Business Services Authority. Quickfire project presentations covered topics such as automating clinical coding, improving data quality and making better use of unstructured text, with time to ask questions and discuss the work. The event brought together the two sides of the Accelerator experience: sharing what you have learnt and discovering new ideas to explore. This experience was an added bonus on the accelerator experience. 
 
