@@ -16,8 +16,6 @@ description: >
 
 <!-- more -->
 
-Do you have a data science problem you have wanted to explore, but never quite had the time, confidence or support to tackle?
-
 The Data Science Accelerator gives colleagues the opportunity to develop their data science skills while working on a real problem from their business area. Over 12 weeks, participants receive support from an experienced data science mentor and spend approximately one day a week developing their project.
 
 It is a practical programme built around learning by doing. Participants can develop skills in areas such as Python, machine learning, natural language processing, geospatial analysis, Git, data visualisation and Reproducible Analytical Pipelines, while producing work that can continue to benefit their team after the programme ends.
@@ -45,7 +43,7 @@ Emma Silvey, from NHS England’s Elective Analysis team, used direct standardis
 
 Accelerator projects do not always follow their original plan, so don’t worry about having a perfect idea before applying, the mentors are there to help develop great ideas into great products.
 
-Charlotte Scott, from NHS England’s Vaccination and Screening Performance and Delivery Improvement Team, initially planned to investigate very-high-risk breast screening. When data-access and governance constraints made that impossible, she adapted her project to explore variation in breast-screening coverage between local authorities.
+Charlotte Scott, from NHS England’s Vaccination and Screening Performance and Delivery Improvement Team, initially planned to investigate very-high-risk breast screening. When issues arised that made that impossible, she adapted her project to explore variation in breast-screening coverage between local authorities.
 
 With support from her mentor, William Poulett from the Data Science & Applied AI team, she compared six regression and machine-learning approaches and used five-fold cross-validation to identify overfitting. The experience strengthened not only her Python and modelling skills, but also her ability to question whether data, methods and results are robust enough to support decisions.
 
@@ -69,11 +67,15 @@ The Accelerator is designed for people with an interest in data who have a proje
 * access to the data required;
 * allowance to spend approximately one day a week of protected project time; and
 * a willingness to experiment, learn and share their work.
+* To be able the accelerator wrap up event on the **12th of May 2027**
 
 You do not need to arrive with all the answers. The experiences of previous participants show that curiosity, a useful problem and the willingness to work through uncertainty can be just as important as existing technical knowledge.
 
 ## Applications for the next cohort are now open.
 
-To apply, complete the applicant form and send it to DataScience@dhsc.gov.uk by [APPLICATION DEADLINE]. The next programme will run from [START DATE] to [END DATE]. The scheme is open to anyone working in NHS BSA, NHS England, or DHSC.
+To apply, complete the applicant form and send it to DataScience@dhsc.gov.uk by **08 January 2027**. The next programme will run from **01 February 2027** to **30 April 2027**. The scheme is open to anyone working in NHS BSA, NHS England, or DHSC.
 
-Experienced data scientists can also support the programme as mentors. Mentors typically provide around an hour of support each week, with occasional additional time for code review and troubleshooting. If you are interested in this program as a mentor, then also reach out to [datascience@dhsc.gov.uk](mailto:datascience@dhsc.gov.uk).
+## Participant requirements 
+Participants are expected to identify a project relevant to their business area. The solution should be expected to bring a business benefit to the organisation, while developing participants’ data science skills. Participants MUST have access to the data needed and the agreement and support of your line manager before the start of the Accelerator. Participant should already have some basic coding experience. Candidates with coding experience will be prioritised if there are more applicants than available mentors.  
+
+Experienced data scientists can also support the programme as mentors. Mentors typically provide around an hour of support each week, with occasional additional time for code review and troubleshooting. If you are interested in this program as a mentor, please also fill out the form and reach out to [datascience@dhsc.gov.uk](mailto:datascience@dhsc.gov.uk). You will be sent a skills matrix to fill out to be best paired with a mentee. 
